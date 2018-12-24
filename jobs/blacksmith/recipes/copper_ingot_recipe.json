@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 25,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.copper_ingot_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.copper_ingot_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.copper_ingot_recipe.flavor)",
+   "portrait": "/stonehearth/entities/refined/copper_ingot/copper_ingot.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "uri": "stonehearth:resources:copper:ore",
+         "count": 2
+      },
+      {
+         "material": "fuel resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:refined:copper_ingot"
+      }
+   ]
+}

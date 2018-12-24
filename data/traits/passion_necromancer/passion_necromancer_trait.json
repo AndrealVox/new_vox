@@ -1,0 +1,18 @@
+{
+   "type": "trait",
+   "display_name": "Necromancer",
+   "description": "Having a vast knowledge of the cryptic arts, [name(i18n_data.entity)] joins the town already trained as a necromancer and loves being one. Their unholy summons do most of the fighting, but [name(i18n_data.entity)] knows how to throw a flaming skull at enemies if truly needed.",
+   "icon": "file(passion_necromancer_trait.png)",
+   "script_controller": "box_o_vox:trait_scripts:necromancer",
+   "attribute_modifiers": {
+      "social_loss_amount": {
+         "add": -0.5
+      },
+      "max_health": {
+         "add": 50
+      }
+   },
+   "data": {
+      "job_uri": "box_o_vox:jobs:necromancer"
+   }
+}

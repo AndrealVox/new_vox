@@ -1,0 +1,24 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 2,
+   "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.small_healing_tonic_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.small_healing_tonic_recipe.description)",
+   "flavor": "2 for the price of 1",
+   "portrait": "/stonehearth/entities/consumables/healing_tonic/small_healing_tonic/small_healing_tonic.png",
+   "work_effect": "box_o_vox:data:effects:summon_potions",
+   "ingredients": [
+      {
+         "material": "herb resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:consumables:healing_tonic:small"
+      },
+      {
+         "item": "stonehearth:consumables:healing_tonic:small"
+      }
+   ]
+}

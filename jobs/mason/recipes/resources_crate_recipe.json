@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 2,
+   "recipe_name": "i18n(box_o_vox:entities.containers.resources_crate.resources_crate_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.containers.resources_crate.resources_crate_ghost.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/containers/resources_crate/resources_crate.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:containers:resources_crate"
+      }
+   ]
+}

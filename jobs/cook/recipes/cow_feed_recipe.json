@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 1,
+   "recipe_name": "i18n(box_o_vox:jobs.cook.recipes.cow_feed_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.cook.recipes.cow_feed_recipe.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/food/cow_feed/cow_feed.png",
+   "workshop": "stonehearth:cook:mill",
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:wheat:wheat_bale",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:food:cow_feed"
+      }
+   ]
+}

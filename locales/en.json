@@ -1,0 +1,1447 @@
+{
+   "data": {
+      "loadouts": {
+         "path_of_the_necromancer": {
+            "display_name": "Path Of The Necromancer",
+            "description": "It's a dark path to becoming a necromancer. Do you have what it takes? With these tools you should be able to streamline straight to it!",
+            "tooltip": ""
+         },
+         "items": {
+            "carrots": "Carrots",
+            "jerky": "Jerky",
+            "gold": "Gold",
+            "brightbell": "Brightbell",
+            "potatoes": "Potatoes",
+            "silkweed_bundle": "Silkweed",
+            "necro_bundle": "Bundle"
+         }
+      },
+      "buffs": {
+         "necromancy": {
+            "summon_buff": {
+               "display_name": "Summon",
+               "description": "Summon"
+            }
+         }
+      },
+      "commands": {
+         "necromancer_pages": {
+            "skeleton_summon": {
+               "display_name": "Summon Skeleton",
+               "description": "Them bones, them bones gonna walk around"
+            },
+            "zombie_summon": {
+               "display_name": "Summon Zombie",
+               "description": "It's the Walking Dead!"
+            },
+            "golem_summon": {
+               "display_name": "Summon Golem",
+               "description": "Now that's a huge bitch!"
+            },
+            "lich_summon": {
+               "display_name": "Summon Lich",
+               "description": "Summons a Lich"
+            },
+            "ogre_summon": {
+               "display_name": "Summon Ogre",
+               "description": "Summons an Ogre"
+            },
+            "golem_kid_summon": {
+               "description": "Glad these aren't kidney stones",
+               "display_name": "Summon Golem Kid"
+            },
+            "necromancer_summon": {
+               "display_name": "Summon Necromancer",
+               "description": "Hey look! It's a mini-me"
+            },
+            "skeleton_kid_summon": {
+               "display_name": "Summon Skeleton Kid",
+               "description": "I hear some bones rattling..."
+            },
+            "zombie_kid_summon": {
+               "display_name": "Summon Zombie Kid",
+               "description": "Oh no, not the children"
+            },
+            "bone_wolf_summon": {
+               "description": "I hear the wolves howling.",
+               "display_name": "Bone Wolf Pup"
+            },
+            "bone_wolf_big_summon": {
+               "description": "The howls are getting louder.",
+               "display_name": "Bone Wolf"
+            }
+         },
+         "promote_to_job": {
+            "display_name": "Assign to job",
+            "description": "Assign this citizen to a job."
+         }
+      },
+      "population": {
+         "boxling": {
+            "display_name": "The Boxlings",
+            "quote": "Fun Times!",
+            "description": "A mysterious and magical race. Citizens of the Boxlings are an enchanted folk, using their magic to strengthen their allies and grow to great heights.",
+            "post_selection_description": ", a proud and hard working race."
+         }
+      },
+      "biome": {
+         "boxland": {
+            "display_name": "Boxland",
+            "description": "Long rivers edged with fruit trees flow in between large mountains in this once forgotten land of the Boxlings, ancient mountains of them can still be found. The default home of the Boxlings.",
+            "random_location_names": {
+               "000": "The Box O' Vox"
+            },
+            "seasons": {
+               "spring": {
+                  "display_name": "Spring",
+                  "description": "The only pretty ring time, when birds do sing."
+               },
+               "summer": {
+                  "display_name": "Summer",
+                  "description": "You can learn a lot of things from the flowers."
+               },
+               "autumn": {
+                  "display_name": "Autumn",
+                  "description": "Leaves grow old, how full of color are their last days."
+               },
+               "winter": {
+                  "display_name": "Winter",
+                  "description": "Burrr, it's cold in here. Must be some Boxlings in the atmosphere."
+               }
+            }
+         }
+      },
+      "saved_objects": {
+         "building_templates_index": {
+            "template_tabs": {
+               "box_o_vox": {
+                  "display_name": "Boxling",
+                  "categories": {
+                     "camp": "Camp Templates",
+                     "town": "Town Templates"
+                  }
+               },
+               "ascendancy": {
+                  "display_name": "Original"
+               }
+            }
+         }
+      }
+   },
+   "jobs": {
+      "farmer": {
+         "farmer_description": {
+            "display_name": "Farmer"
+         }
+      },
+      "necromancer": {
+         "necromancer_tome": {
+            "necromancer_tome_talisman": {
+               "display_name": "Necronomicon",
+               "description": "Required to promote a hearthling to a Necromancer"
+            },
+            "display_name": "Book Of The Dead",
+            "description": "Within lies the secrets to becoming a Necromancer"
+         },
+         "necromancer_description": {
+            "display_name": "Necromancer",
+            "description": "Summon the undead to fight for you",
+            "requirements": "Crafted by a Cleric",
+            "level_0_data": {
+               "perk_000_name": "Heal Aura",
+               "perk_000_description": "Healing aura power",
+               "perk_001_name": "Heal Master",
+               "perk_001_description": "The necromancer has mastered the art of healing. Compassion greatly increased.",
+               "perk_002_description": "The necromancer's presence greatly improves the muscle of those around them",
+               "perk_002_name": "Major Strength",
+               "perk_003_name": "Summon a Skeleton Kid",
+               "perk_003_description": "I hear some bones rattling..."
+            },
+            "level_1_data": {
+               "perk_000_name": "Summon a Skeleton",
+               "perk_000_description": "Them bones, them bones gonna walk around"
+            },
+            "level_2_data": {
+               "perk_000_name": "Summon a Bone Wolf Pup",
+               "perk_000_description": "I hear the wolves howling.",
+               "perk_001_name": "Skeleton Gatherer",
+               "perk_001_description": "The Necromancer can now create Undead Workers."
+            },
+            "level_3_data": {
+               "perk_000_name": "Summon a Zombie Kid",
+               "perk_000_description": "Oh no, not the children"
+            },
+            "level_4_data": {
+               "perk_000_name": "Summon a Zombie",
+               "perk_000_description": "It's the Walking Dead!"
+            },
+            "level_6_data": {
+               "title": "Master Necromancer",
+               "perk_000_description": "Now that's a huge bitch!",
+               "perk_000_name": "Summon a Golem"
+            },
+            "level_5_data": {
+               "perk_000_description": "Glad these didn't cost a pound of flesh.",
+               "perk_000_name": "Summon a Golem Kid",
+               "perk_001_description": "The Necromancer can now create more advanced Undead Workers.",
+               "perk_001_name": "Zombie Miner"
+            },
+            "level_7_data": {
+               "perk_000_description": "Hey look! It's a mini-me",
+               "perk_000_name": "Summon a Necromancer",
+               "title": "Master Necromancer"
+            },
+            "level_2b_data": {
+               "perk_000_name": "Summon a Bone Wolf",
+               "perk_000_description": "The howls are getting louder."
+            }
+         },
+         "necromancer_outfit": {
+            "display_name": "Necromancer Robes",
+            "description": "The Attire Of A Necromancer"
+         }
+      },
+      "cleric": {
+         "recipes": {
+            "necromancer_tome_recipe": {
+               "recipe_name": "Necronomicon",
+               "description": "Required to promote a hearthling to a necromancer",
+               "flavor": "Within lies the secrets to becoming a necromancer"
+            },
+            "small_healing_tonic_recipe": {
+               "recipe_name": "Small Healing Tonic",
+               "description": "A medicinal drink that heals for a minuscule amount"
+            },
+            "cooling_liquid_recipe": {
+               "recipe_name": "Cooling Liquid",
+               "description": "odd how it keeps so cool"
+            },
+            "paladins_shield_recipe": {
+               "recipe_name": "Paladin's Shield",
+               "description": "Required to promote a hearthling to a paladin",
+               "flavor": "With this holy shield, a paladin will arise."
+            }
+         },
+         "cleric_workbench": {
+            "cleric_workbench_ghost": {
+               "display_name": "Cleric Workbench",
+               "description": "Where A Cleric Works"
+            }
+         }
+      },
+      "herbalist": {
+         "herbalist_description": {
+            "display_name": "Herbalist"
+         }
+      },
+      "weaver": {
+         "weaver_description": {
+            "display_name": "Weaver"
+         }
+      },
+      "paladin": {
+         "paladin_description": {
+            "display_name": "Paladin"
+         }
+      },
+      "potter": {
+         "recipes": {
+            "bathtub_recipe": {
+               "recipe_name": "Bathtub",
+               "description": "Nice and clean",
+               "flavor": "living like a king!"
+            },
+            "sink_recipe": {
+               "recipe_name": "Sink",
+               "description": "A place to wash away your worries",
+               "flavor": "wow running water"
+            },
+            "toilet_recipe": {
+               "recipe_name": "Toilet",
+               "description": "A place to find relief",
+               "flavor": "coming soon to a home near you"
+            },
+            "fridge_recipe": {
+               "recipe_name": "Fridge",
+               "description": "Keeps things very cool",
+               "flavor": "how does it work!?"
+            }
+         }
+      },
+      "cook": {
+         "recipes": {
+            "cream_recipe": {
+               "recipe_name": "Cream",
+               "description": "We can use this for PIE!"
+            },
+            "beef_rib_roast_recipe": {
+               "recipe_name": "Beef Rib Roast",
+               "description": "You wont find anything with more meat"
+            },
+            "roast_rack_of_pork_recipe": {
+               "recipe_name": "Roast Rack of Pork",
+               "description": "Where is the bacon?"
+            },
+            "apple_pie_recipe": {
+               "recipe_name": "Apple Pie",
+               "description": "This is sure to make everyone happy"
+            },
+            "banana_cream_pie_recipe": {
+               "recipe_name": "Banana Cream Pie",
+               "description": "Who doesn't like a little banana cream in their mouth?"
+            },
+            "cow_feed_recipe": {
+               "recipe_name": "Cow Feed",
+               "description": "Use this to feed your cows"
+            },
+            "pig_feed_recipe": {
+               "recipe_name": "Pig Feed",
+               "description": "Throw almost anything in, they'll eat it"
+            },
+            "dough_recipe": {
+               "recipe_name": "Dough",
+               "description": "Dough used for baking"
+            },
+            "pepper_recipe": {
+               "recipe_name": "Pepper",
+               "description": "A shaker full of pepper"
+            },
+            "pepperoni_recipe": {
+               "recipe_name": "Pepperoni",
+               "description": "A pepperoni sausage"
+            }
+         }
+      },
+      "alchemist": {
+         "alchemist_description": {
+            "display_name": "Alchemist",
+            "description": "A master of mixtures and seeking rare ingredients",
+            "requirements": "Crafted by Engineer"
+         },
+         "recipes": {
+            "alchemist_workbench_recipe": {
+               "flavor": "When the herbalist asked the alchemist, \"Why are you so messy\" the alchemist replied, \"I'm not messy, I'm ready\"",
+               "description": "A place where alchemist create their mixtures of madness",
+               "recipe_name": "Alchemist Mixing Table"
+            }
+         },
+         "alchemist_workbench": {
+            "alchemist_workbench_ghost": {
+               "display_name": "Alchemist Mixing Table",
+               "description": "A place to mix madness"
+            }
+         },
+         "alchemist_flask_sword": {
+            "alchemist_flask_sword_talisman": {
+               "display_name": "Flask Slasher",
+               "description": "A tool used by the alchemist to collect rare ingredients and test mixtures"
+            },
+            "display_name": "Flask Slasher",
+            "description": "A tool used by the alchemist to collect rare ingredients and test mixtures",
+            "alchemist_flask_sword_iconic": {
+               "display_name": "Flask Slasher",
+               "description": "A tool used by the alchemist to collect rare ingredients and test mixtures"
+            }
+         },
+         "alchemist_outfit": {
+            "display_name": "Alchemist Outfit",
+            "description": "A long muffler helps protect them against the fumes of their mixtures"
+         }
+      },
+      "engineer": {
+         "recipes": {
+            "alchemist_flask_sword_recipe": {
+               "recipe_name": "Flask Slasher",
+               "description": "A tool used by the Alchemist to collect rare ingredients and test mixtures",
+               "flavor": "The blacksmtih asked the alchemist and engineer, \"Why are you doing that to a sword?\" To which they replied \"FOR SCIENCE!\""
+            }
+         }
+      }
+   },
+   "entities": {
+      "weapons": {
+         "flame_skull": {
+            "display_name": "Flame Skull",
+            "description": "Flaming Skull"
+         },
+         "ninja_sword": {
+            "ninja_sword_talisman": {
+               "display_name": "Ninja Sword",
+               "description": "A ninjas deadly weapon"
+            },
+            "display_name": "Ninja Sword",
+            "description": "A ninjas deadly weapon",
+            "ninja_sword_iconic": {
+               "description": "A ninjas deadly weapon",
+               "display_name": "Ninja Sword"
+            }
+         },
+         "ninja_star": {
+            "display_name": "Ninja Star",
+            "description": "The stealth weapon of the ninja"
+         }
+      },
+      "construction": {
+         "stone_window_frame_tall": {
+            "stone_window_frame_tall_ghost": {
+               "display_name": "Tall Stone Window Frame",
+               "description": "A Tall Stone Window Frame Variant Of It's Wooden Cousin"
+            }
+         },
+         "stone_window_frame_tall_fine": {
+            "stone_window_frame_tall_fine_ghost": {
+               "display_name": "Fine Tall Stone Window Frame",
+               "description": "A Fine Tall Stone Window Frame Variant Of It's Wooden Cousin"
+            }
+         },
+         "stone_door": {
+            "stone_door_ghost": {
+               "display_name": "Stone Door",
+               "description": "A Stone Door Varient To It's Wooden Cousin"
+            }
+         },
+         "stone_door_fine": {
+            "stone_door_fine_ghost": {
+               "description": "A Fine Stone Door Varient To It's Wooden Cousin",
+               "display_name": "Fine Stone Door"
+            }
+         },
+         "solid_stone_door": {
+            "solid_stone_door_ghost": {
+               "display_name": "Solid Stone Door",
+               "description": "A Solid Stone Door Variant Of It's Clay Cousin"
+            }
+         },
+         "solid_red_wood_door": {
+            "solid_red_wood_door_ghost": {
+               "display_name": "Small Red Door",
+               "description": "A Small 2-Wide Door For Those Tight Fit Places"
+            }
+         },
+         "stone_window_frame_wide": {
+            "stone_window_frame_wide_ghost": {
+               "description": "A Wide Stone Window Frame Variant Of It's Wooden Cousin",
+               "display_name": "Wide Stone Window Frame"
+            }
+         },
+         "stoned_tunnel_door": {
+            "stoned_tunnel_door_ghost": {
+               "display_name": "Indestructible Tunnel Door",
+               "description": "An indestructible tunnel door."
+            }
+         }
+      },
+      "containers": {
+         "box_o_vox_crate": {
+            "box_o_vox_crate_ghost": {
+               "display_name": "The Box O' Vox",
+               "description": "This Box Hold Endless Resources"
+            }
+         },
+         "equipment_crate": {
+            "equipment_crate_ghost": {
+               "display_name": "Equipment Crate",
+               "description": "A Crate For Equipment"
+            }
+         },
+         "food_crate": {
+            "food_crate_ghost": {
+               "display_name": "Food Crate",
+               "description": "A Crate For Food"
+            }
+         },
+         "furniture_crate": {
+            "furniture_crate_ghost": {
+               "display_name": "Furniture Crate",
+               "description": "A Crate For Furniture"
+            }
+         },
+         "resources_crate": {
+            "resources_crate_ghost": {
+               "display_name": "Resources Crate",
+               "description": "A Crate For Resources"
+            }
+         },
+         "treasure_crate": {
+            "treasure_crate_ghost": {
+               "display_name": "Treasure Crate",
+               "description": "A Crate For Treasure"
+            }
+         },
+         "necro_bundle": {
+            "display_name": "Necromancer Starter Bundle",
+            "description": "Loot this for a handful of items to help speed your way to becoming a necromancer."
+         }
+      },
+      "decoration": {
+         "blue_stone_road_lamp": {
+            "blue_stone_road_lamp_ghost": {
+               "display_name": "Blue Stone Road Lamp",
+               "description": "A standing road lamp with a color of blue."
+            }
+         },
+         "green_stone_road_lamp": {
+            "green_stone_road_lamp_ghost": {
+               "display_name": "Green Stone Road Lamp",
+               "description": "A standing road lamp with a color of green."
+            }
+         },
+         "purple_stone_road_lamp": {
+            "purple_stone_road_lamp_ghost": {
+               "display_name": "Purple Stone Road Lamp",
+               "description": "A standing road lamp with a color of purple."
+            }
+         },
+         "red_stone_road_lamp": {
+            "red_stone_road_lamp_ghost": {
+               "display_name": "Red Stone Road Lamp",
+               "description": "A standing road lamp with a color of red."
+            }
+         },
+         "blue_wooden_road_lamp": {
+            "blue_wooden_road_lamp_ghost": {
+               "display_name": "Blue Wooden Road Lamp",
+               "description": "A standing road lamp with a color of blue."
+            }
+         },
+         "green_wooden_road_lamp": {
+            "green_wooden_road_lamp_ghost": {
+               "display_name": "Green Wooden Road Lamp",
+               "description": "A standing road lamp with a color of green."
+            }
+         },
+         "purple_wooden_road_lamp": {
+            "purple_wooden_road_lamp_ghost": {
+               "display_name": "Purple Wooden Road Lamp",
+               "description": "A standing road lamp with a color of purple."
+            }
+         },
+         "red_wooden_road_lamp": {
+            "red_wooden_road_lamp_ghost": {
+               "display_name": "Red Wooden Road Lamp",
+               "description": "A standing road lamp with a color of red."
+            }
+         },
+         "fireplace": {
+            "fireplace_ghost": {
+               "display_name": "Stone Chimney Fireplace",
+               "description": "A large stone chimney fireplace for your hearthlings to gather around."
+            }
+         },
+         "boxling_statue": {
+            "boxling_statue_ghost": {
+               "display_name": "Boxling Statue",
+               "description": "A statue to the almighty Boxlings, from which all has been given to us, the GODs of Boxland."
+            }
+         },
+         "fridge": {
+            "fridge_ghost": {
+               "display_name": "Fridge",
+               "description": "A nice kitchen addition"
+            }
+         },
+         "bathtub": {
+            "bathtub_ghost": {
+               "display_name": "Bath Tub",
+               "description": "To wash away your networth needs"
+            }
+         },
+         "sink": {
+            "sink_ghost": {
+               "display_name": "Sink",
+               "description": "Dont forget to wash your hands"
+            }
+         },
+         "grandfather_clock": {
+            "grandfather_clock_ghost": {
+               "display_name": "Grandfather Clock",
+               "description": "Is it broken?"
+            }
+         },
+         "toilet": {
+            "toilet_ghost": {
+               "display_name": "Toilet",
+               "description": "Finally a place for relief"
+            }
+         },
+         "cabinet": {
+            "cabinet_ghost": {
+               "display_name": "Cabinet",
+               "description": "So much storage space just a block out of reach"
+            }
+         },
+         "wall_clock": {
+            "wall_clock_ghost": {
+               "display_name": "Wall Clock",
+               "description": "Please make sure to wind everyday for an accurate reading."
+            }
+         },
+         "craftsman_statue": {
+            "lamppost_blue": {
+               "lamppost_blue_ghost": {
+                  "description": "A simple lamppost.",
+                  "display_name": "Blue Lamppost"
+               }
+            },
+            "lamppost_green": {
+               "lamppost_green_ghost": {
+                  "description": "A simple lamppost.",
+                  "display_name": "Green Lamppost"
+               }
+            },
+            "lamppost_purple": {
+               "lamppost_purple_ghost": {
+                  "description": "A simple lamppost.",
+                  "display_name": "Purple Lamppost"
+               }
+            },
+            "lamppost_red": {
+               "lamppost_red_ghost": {
+                  "description": "A simple lamppost.",
+                  "display_name": "Red Lamppost"
+               }
+            },
+            "wall_lamp_blue": {
+               "wall_lamp_blue_ghost": {
+                  "description": "A hanging wall lamp.",
+                  "display_name": "Blue Wall Lamp"
+               }
+            },
+            "wall_lamp_green": {
+               "wall_lamp_green_ghost": {
+                  "description": "A hanging wall lamp.",
+                  "display_name": "Green Wall Lamp"
+               }
+            },
+            "wall_lamp_purple": {
+               "wall_lamp_purple_ghost": {
+                  "description": "A hanging wall lamp.",
+                  "display_name": "Purple Wall Lamp"
+               }
+            },
+            "wall_lamp_red": {
+               "wall_lamp_red_ghost": {
+                  "description": "A hanging wall lamp.",
+                  "display_name": "Red Wall Lamp"
+               }
+            },
+            "wall_lamp_white": {
+               "wall_lamp_white_ghost": {
+                  "description": "A hanging wall lamp.",
+                  "display_name": "White Wall Lamp"
+               }
+            }
+         }
+      },
+      "armor": {
+         "cloth_hood": {
+            "display_name": "Enchanted Hood",
+            "description": "An enchanted hood that provides armor"
+         },
+         "cloth_robe": {
+            "display_name": "Enchanted Robe",
+            "description": "An enchanted robe that provides armor"
+         }
+      },
+      "furniture": {
+         "stone_bed": {
+            "stone_bed_ghost": {
+               "display_name": "Stone Bed",
+               "description": "A stone bed"
+            }
+         },
+         "stone_comfy_chair": {
+            "display_name": "Comfy Stone Chair",
+            "description": "For sitting."
+         }
+      },
+      "refined": {
+         "enchanted_cloth": {
+            "display_name": "Enchanted Cloth",
+            "description": "Enchanted Cloth imbued with magical protection \"atrributes\" :P"
+         },
+         "cooling_liquid": {
+            "display_name": "Cooling Liquid",
+            "description": "A strange liquid that is very cold."
+         },
+         "dyes": {
+            "blue": {
+               "display_name": "Blue Dye",
+               "description": "Beautiful Blue"
+            },
+            "green": {
+               "display_name": "Green Dye",
+               "description": "Gorgeous Green"
+            },
+            "orange": {
+               "display_name": "Orange Dye",
+               "description": "Outrageous Orange"
+            },
+            "pink": {
+               "display_name": "Pink Dye",
+               "description": "Pretty Pink"
+            },
+            "purple": {
+               "display_name": "Purple Dye",
+               "description": "Pleasing Purple"
+            },
+            "red": {
+               "display_name": "Red Dye",
+               "description": "Racy Red"
+            },
+            "white": {
+               "display_name": "White Dye",
+               "description": "Willing White"
+            },
+            "yellow": {
+               "display_name": "Yellow Dye",
+               "description": "Yelping Yellow"
+            }
+         }
+      },
+      "crops": {
+         "potato_crop": {
+            "growth_stage": {
+               "000": {
+                  "name": "Potato Seedling",
+                  "description": "An unrealized potato"
+               },
+               "001": {
+                  "name": "Potato Sprout",
+                  "description": "Not edible yet!"
+               },
+               "002": {
+                  "name": "Baby Potato",
+                  "description": "Small. Bitter."
+               },
+               "003": {
+                  "name": "Ripe Potato",
+                  "description": "Delicious!"
+               },
+               "011": {
+                  "name": "Rotten Potato",
+                  "description": "Moldy and disgusting."
+               }
+            },
+            "display_name": "Potato",
+            "description": "A starchy plant that is one of the most important crops"
+         },
+         "tomato_crop": {
+            "growth_stage": {
+               "000": {
+                  "name": "Tomato Seedling",
+                  "description": "An unrealized tomato"
+               },
+               "001": {
+                  "name": "Tomato Sprout",
+                  "description": "Not edible yet!"
+               },
+               "002": {
+                  "name": "Tomato Stalk",
+                  "description": "Still a long way to grow."
+               },
+               "003": {
+                  "name": "Baby Tomato",
+                  "description": "Small. Bitter."
+               },
+               "004": {
+                  "name": "Baby Tomato",
+                  "description": "Small. Bitter."
+               },
+               "005": {
+                  "name": "Baby Tomato",
+                  "description": "Extremely unsatisfying to eat."
+               },
+               "006": {
+                  "name": "Baby Tomato",
+                  "description": "Extremely unsatisfying to eat."
+               },
+               "007": {
+                  "name": "Ripe Tomato",
+                  "description": "Eat me! Eat Me!"
+               },
+               "019": {
+                  "name": "Rotten Tomato",
+                  "description": "It's dead."
+               }
+            },
+            "display_name": "Tomato",
+            "description": "A glossy red edible fruit that is typically eaten as a vegetable"
+         },
+         "strawberry_crop": {
+            "growth_stage": {
+               "000": {
+                  "name": "Strawberry Seedling",
+                  "description": "An unrealized strawberry"
+               },
+               "001": {
+                  "name": "Strawberry Sprout",
+                  "description": "Not edible yet!"
+               },
+               "002": {
+                  "name": "Baby Strawberry",
+                  "description": "Small. Bitter."
+               },
+               "003": {
+                  "name": "Ripe Strawberry",
+                  "description": "Delicious!"
+               },
+               "011": {
+                  "description": "Moldy and disgusting.",
+                  "name": "Rotten Strawberry"
+               }
+            },
+            "display_name": "Strawberry",
+            "description": "A sweet soft red fruit with a seed-studded surface"
+         }
+      },
+      "plants": {
+         "potato": {
+            "potato_basket": {
+               "display_name": "Potato Basket",
+               "description": "A basket full of potatoes"
+            },
+            "potato_serving": {
+               "display_name": "Potato Serving",
+               "description": "A hardy potato"
+            }
+         },
+         "tomato": {
+            "tomato_basket": {
+               "display_name": "Tomato Basket",
+               "description": "A basket full of tomatoes"
+            },
+            "tomato_serving": {
+               "display_name": "Tomato Serving",
+               "description": "A juicy tomato"
+            }
+         },
+         "apple_tree": {
+            "display_name": "Apple Tree",
+            "description": "Don't trust snakes"
+         },
+         "banana_tree": {
+            "description": "wow look at all those bananas",
+            "display_name": "Banana Tree"
+         },
+         "orange_tree": {
+            "description": "Get Some juicy Oranges",
+            "display_name": "Orange Tree"
+         },
+         "strawberry": {
+            "strawberry_basket": {
+               "description": "A basket full of strawberries",
+               "display_name": "Strawberry Basket"
+            },
+            "strawberry_serving": {
+               "display_name": "Strawberry Serving",
+               "description": "A yummy strawberry"
+            }
+         },
+         "peppercorn_bush": {
+            "unripe_description": "Not yet ripe for harvest.",
+            "display_name": "Peppercorn Plant",
+            "description": "A peppercorn plant. Harvesting this will drop peppercorns to craft pepper."
+         },
+         "daisy_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "description": "This plant's flowers can be used to make dye.",
+            "display_name": "Wild Daisy"
+         },
+         "firebeard_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "display_name": "Wild Firebeard",
+            "description": "This plant's flowers can be used to make dye."
+         },
+         "foxlily_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "display_name": "Wild Foxlily",
+            "description": "This plant's flowers can be used to make dye."
+         },
+         "greentea_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "display_name": "Wild Gree Tea",
+            "description": "This plant's flowers can be used to make dye."
+         },
+         "nightshade_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "display_name": "Wild Nightshade",
+            "description": "This plant's flowers can be used to make dye."
+         },
+         "sunflower_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "display_name": "Wild Sunflower",
+            "description": "This plant's flowers can be used to make dye."
+         },
+         "blueberry_bush": {
+            "unripe_description": "Not yet ripe for harvest.",
+            "description": "Harvestable for a meager food supply.",
+            "display_name": "Blueberry Bush"
+         },
+         "hemp_plant": {
+            "display_name": "Hemp Seedling",
+            "description": "What a strang plant, it could be useful",
+            "small_hemp_plant": {
+               "display_name": "Hemp",
+               "description": "This plant seems to grow very quickly"
+            },
+            "medium_hemp_plant": {
+               "display_name": "Hemp",
+               "description": "The plants rapid growth and structure makes it appear to be a good source of fiber"
+            },
+            "large_hemp_plant": {
+               "display_name": "Hemp",
+               "description": "Wow, is it growing flowers?"
+            },
+            "flower_hemp_plant": {
+               "display_name": "Hemp Herb",
+               "description": "The herb of this plant seems to be imbued with different magic than the others..."
+            }
+         }
+      },
+      "food": {
+         "banana": {
+            "display_name": "Banana",
+            "description": "A long curved fruit that grows in clusters"
+         },
+         "rotten_banana": {
+            "display_name": "Rotten Banana",
+            "description": "So rotten that it's lost all form and function."
+         },
+         "rotten_potato_basket": {
+            "display_name": "Rotten Potato Basket",
+            "description": "So rotten that it's lost all form and function."
+         },
+         "rotten_tomato_basket": {
+            "display_name": "Rotten Tomato Basket",
+            "description": "So rotten that it's lost all form and function."
+         },
+         "apple": {
+            "display_name": "Apple",
+            "description": "A fleshy round edible pome fruit"
+         },
+         "orange": {
+            "display_name": "Orange",
+            "description": "A round juicy citrus fruit with a tough rind"
+         },
+         "cow_feed": {
+            "display_name": "Cow Feed",
+            "description": "A little more Hay for these hefers",
+            "cow_feed_ground": {
+               "display_name": "Cow Feed",
+               "description": "A little more Hay for these hefers"
+            }
+         },
+         "pig_feed": {
+            "display_name": "Pig Feed",
+            "description": "A bag of slop",
+            "pig_feed_ground": {
+               "display_name": "Pig Feed",
+               "description": "Slop it up piggies"
+            }
+         },
+         "beef": {
+            "display_name": "Beef",
+            "description": "Look at that Marbling!"
+         },
+         "pork": {
+            "display_name": "Pork",
+            "description": "I wonder if we can make bacon <3"
+         },
+         "milk": {
+            "display_name": "Milk",
+            "description": "Got Milk?"
+         },
+         "beef_rib_roast": {
+            "beef_rib_roast": {
+               "display_name": "Beef Rib Roast",
+               "description": "Finally some steak"
+            },
+            "beef_rib_roast_serving": {
+               "display_name": "Beef Rib Roast Serving"
+            }
+         },
+         "roast_rack_of_pork": {
+            "roast_rack_of_pork": {
+               "display_name": "Roast Rack of Pork",
+               "description": "Mmmm bacon"
+            },
+            "roast_rack_of_pork_serving": {
+               "display_name": "Roast Rack of Pork Serving"
+            }
+         },
+         "apple_pie": {
+            "apple_pie": {
+               "display_name": "Apple Pie",
+               "description": "It tast just like grandma's"
+            },
+            "apple_pie_serving": {
+               "display_name": "Apple Pie Serving",
+               "description": "Fresh baked apple pie"
+            }
+         },
+         "banana_cream_pie": {
+            "banana_cream_pie": {
+               "display_name": "Banana Cream Pie",
+               "description": "Just look at that whipped topping"
+            },
+            "banana_cream_pie_serving": {
+               "display_name": "Banana Cream Pie Serving",
+               "description": "Yummy delicious banana cream pie"
+            }
+         },
+         "cream": {
+            "display_name": "Cream",
+            "description": "Maybe we can make a whipped topping!?"
+         },
+         "fruit_salad": {
+            "fruit_salad": {
+               "display_name": "Fruit Salad",
+               "description": "Yummy, yummy"
+            },
+            "fruit_salad_serving": {
+               "display_name": "Fruit Salad Serving",
+               "description": "It's gonna be a fruit salad treat"
+            }
+         },
+         "rotten_apple": {
+            "display_name": "Rotten Apple",
+            "description": "So rotten that it's lost all form and function."
+         },
+         "rotten_orange": {
+            "description": "So rotten that it's lost all form and function.",
+            "display_name": "Rotten Orange"
+         },
+         "fruit_smoothie": {
+            "fruit_smoothie": {
+               "display_name": "Fruit Smootie",
+               "description": "A delicious fruit smoothie"
+            },
+            "fruit_smoothie_serving": {
+               "display_name": "Fruit Smoothie",
+               "description": "A delicious fruit smoothie"
+            }
+         },
+         "rotten_strawberry_basket": {
+            "description": "So rotten that it's lost all form and function.",
+            "display_name": "Rotten Strawberry Basket"
+         },
+         "mash_potatoes": {
+            "mash_potatoes": {
+               "display_name": "Mash Potatoes",
+               "description": "Yummy, buttery mash potatoes"
+            },
+            "mash_potatoes_serving": {
+               "display_name": "Mash Potatoes Serving",
+               "description": "Yummy, buttery mash potatoes"
+            }
+         },
+         "dough": {
+            "display_name": "Dough",
+            "description": "Dough used for baking"
+         },
+         "pepper": {
+            "display_name": "Pepper",
+            "description": "A shaker full of pepper"
+         },
+         "peppercorn": {
+            "display_name": "Basket of Peppercorns",
+            "description": "A basket of peppercorns"
+         },
+         "pepperoni": {
+            "display_name": "Pepperoni",
+            "description": "A pepperoni sausage"
+         },
+         "lime": {
+            "display_name": "Lime",
+            "description": "A ripe lime"
+         },
+         "salt": {
+            "description": "A shaker full of salt",
+            "display_name": "Salt"
+         },
+         "blueberry": {
+            "blueberry_basket": {
+               "display_name": "Blueberry Basket",
+               "description": "A basket full of blueberries"
+            },
+            "blueberry_serving": {
+               "description": "An edible blueberry",
+               "display_name": "Blueberry Serving"
+            }
+         },
+         "rotten_blueberry_basket": {
+            "description": "So rotten that it's lost all form and function.",
+            "display_name": "Rotten Blueberry Basket"
+         },
+         "rotten_lime": {
+            "display_name": "Rotten Lime",
+            "description": "So rotten that it's lost all form and function."
+         },
+         "pizza": {
+            "pizza": {
+               "display_name": "Pizza",
+               "description": "Pepperoni pizza is the only pizza. Arguments will be contested to the death."
+            },
+            "pizza_serving": {
+               "display_name": "Pizza Slice",
+               "description": "A slice of pizza."
+            }
+         },
+         "cheese": {
+            "display_name": "Cheese",
+            "description": "This cheese looks yummy."
+         },
+         "ground_beef": {
+            "ground_beef": {
+               "display_name": "Ground Beef",
+               "description": "Ground up meat cooked and ready for eating."
+            },
+            "ground_beef_serving": {
+               "description": "A bowl of ground beef",
+               "display_name": "Ground Beef"
+            }
+         }
+      },
+      "trees": {
+         "banana_tree": {
+            "banana_tree": {
+               "display_name": "Banana Tree",
+               "description": "Wow! Look at all those bananas"
+            },
+            "small_banana_tree": {
+               "display_name": "Small Banana Tree",
+               "description": "A small tree"
+            },
+            "medium_banana_tree": {
+               "display_name": "Medium Banana Tree",
+               "description": "A medium tree"
+            },
+            "large_banana_tree": {
+               "display_name": "Large Banana Tree",
+               "description": "A large tree"
+            },
+            "sapling_banana_tree": {
+               "display_name": "Banana Tree Sapling",
+               "description": "A banana sapling",
+               "sapling_banana_tree_iconic": {
+                  "description": "A banana sapling"
+               },
+               "sapling_banana_tree_ghost": {
+                  "display_name": "Banana Tree Sapling",
+                  "description": "A banana sapling"
+               }
+            }
+         },
+         "apple_tree": {
+            "apple_tree": {
+               "display_name": "Apple Tree",
+               "description": "Don't trust snakes"
+            },
+            "small_apple_tree": {
+               "display_name": "Small Apple Tree",
+               "description": "A small tree"
+            },
+            "medium_apple_tree": {
+               "description": "A medium tree",
+               "display_name": "Medium Apple Tree"
+            },
+            "large_apple_tree": {
+               "display_name": "Large Apple Tree",
+               "description": "A large tree"
+            },
+            "sapling_apple_tree": {
+               "description": "An apple sapling",
+               "display_name": "Apple Tree Sapling",
+               "sapling_apple_tree_iconic": {
+                  "description": "An apple sapling"
+               },
+               "sapling_apple_tree_ghost": {
+                  "display_name": "Apple Tree Sapling",
+                  "description": "An apple sapling"
+               }
+            }
+         },
+         "orange_tree": {
+            "orange_tree": {
+               "display_name": "Orange Tree",
+               "description": "Get Some juicy Oranges"
+            },
+            "small_orange_tree": {
+               "display_name": "Small Orange Tree",
+               "description": "A small tree"
+            },
+            "medium_orange_tree": {
+               "display_name": "Medium Orange Tree",
+               "description": "A medium tree"
+            },
+            "large_orange_tree": {
+               "display_name": "Large Orange Tree",
+               "description": "A large tree"
+            },
+            "sapling_orange_tree": {
+               "description": "An orange sapling",
+               "display_name": "Orange Tree Sapling",
+               "sapling_orange_tree_iconic": {
+                  "description": "An orange sapling"
+               },
+               "sapling_orange_tree_ghost": {
+                  "display_name": "Orange Tree Sapling",
+                  "description": "An orange sapling"
+               }
+            }
+         },
+         "lime_tree": {
+            "lime_tree": {
+               "display_name": "Lime Tree",
+               "description": "A tree that drops limes."
+            },
+            "medium_lime_tree": {
+               "display_name": "Medium Lime Tree",
+               "description": "A medium lime tree"
+            },
+            "large_lime_tree": {
+               "display_name": "Large Lime Tree",
+               "description": "A large lime tree"
+            },
+            "sapling_lime_tree": {
+               "description": "A lime sapling",
+               "display_name": "Lime Tree Sapling",
+               "sapling_lime_tree_iconic": {
+                  "description": "Lime Tree Sapling"
+               },
+               "sapling_lime_tree_ghost": {
+                  "display_name": "Lime Tree Sapling",
+                  "description": "A lime sapling"
+               }
+            },
+            "small_lime_tree": {
+               "display_name": "Small Lime Tree",
+               "description": "A small tree"
+            }
+         }
+      },
+      "critters": {
+         "cow": {
+            "species": "Cow",
+            "display_name": "A Cow",
+            "description": "Look at all that beautiful meat.... I mean animal",
+            "unripe_description": "She looks quite empty",
+            "renewable_harvest_status_text": "Milking Cow",
+            "cow_young": {
+               "display_name": "A Calf",
+               "description": "Aww baby steak"
+            }
+         },
+         "pig": {
+            "species": "entities:critters:pig",
+            "display_name": "A entities:critters:pig",
+            "description": "Oink Oink",
+            "pig_young": {
+               "display_name": "A Pigglet",
+               "description": "Aww little piggy"
+            }
+         },
+         "wolf_fox": {
+            "species": "Fox Wolf"
+         }
+      },
+      "resources": {
+         "herb": {
+            "daisy": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Daisy Flower"
+            },
+            "firebeard": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Firebeard Flower"
+            },
+            "foxlily": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Foxlily Flower"
+            },
+            "greentea": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Green Tea Flower"
+            },
+            "nightshade": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Nightshade Flower"
+            },
+            "sunflower": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Sunflower Flower"
+            },
+            "hemp_herb": {
+               "display_name": "Hemp Sack",
+               "description": "These herbs leave your hands and tools coated in sticky residue"
+            }
+         },
+         "salt_rock": {
+            "salt_rock": {
+               "description": "Salt rock that can be ground down to make salt for cooking.",
+               "display_name": "Salt Rock"
+            }
+         },
+         "fiber": {
+            "hemp_fiber_bundle": {
+               "display_name": "Hemp Bundle",
+               "description": "A bundle of hemp fibers."
+            }
+         },
+         "grass_bundle": {
+            "display_name": "Grass Bundle"
+         }
+      },
+      "tools": {
+         "boxling_sceptre": {
+            "display_name": "Boxling Sceptre",
+            "description": "The enchanted tool of the Boxlings."
+         }
+      },
+      "terrain": {
+         "ui": {
+            "salt_rock": {
+               "description": "Salt rock that can be ground down to make salt for cooking.",
+               "display_name": "Salt Rock"
+            },
+            "clay_mound": {
+               "display_name": "Clay",
+               "description": "Clay that can be mined for pottery uses."
+            }
+         }
+      },
+      "boxling": {
+         "boxling_statue": {
+            "description": "A rock formation shaped like the almighty Boxlings, from which all has been given to us, the GODs of Boxland.",
+            "display_name": "Boxling Formation"
+         }
+      },
+      "mixtures": {
+         "basic": {
+            "display_name": "Flask",
+            "description": "a flask"
+         }
+      },
+      "monsters": {
+         "forest": {
+            "wolf_fox": {
+               "display_name": "Fox Wolf"
+            }
+         }
+      }
+   },
+   "weapons": {
+      "ninja_sword": {
+         "flavor": "Don't run with sharp blades!"
+      }
+   },
+   "ui": {
+      "game": {
+         "unit_frame": {
+            "placement_tags": {
+               "summoned": "Undead Workers"
+            }
+         },
+         "menu": {
+            "crafter_menu": {
+               "items": {
+                  "cleric": {
+                     "display_name": "Cleric Craft Menu",
+                     "description": "Craft potions & bind flesh together to create a Necronomicon",
+                     "required_job_text": "Requires a cleric"
+                  },
+                  "botanist": {
+                     "display_name": "Botanist Craft Menu",
+                     "required_job_text": "Requires a Botanist",
+                     "description": "Craft Flora to put anywhere you like"
+                  },
+                  "alchemist": {
+                     "required_job_text": "Required Alchemist",
+                     "description": "Allows the creation of mixtures and essence",
+                     "display_name": "Alchemist Craft Menu"
+                  }
+               }
+            }
+         },
+         "zones_mode": {
+            "pasture": {
+               "cow_pasture_name": "Cow Pasture",
+               "cow_pasture_description": "Wow, we can get Beef!",
+               "pig_pasture_name": "Pig Pasture",
+               "pig_pasture_description": "Piggy Pin"
+            }
+         }
+      },
+      "data": {
+         "constants": {
+            "food_fruit_raw_name": "Fruit",
+            "resource_fuel_name": "Fuel"
+         }
+      },
+      "shell": {
+         "select_roster": {
+            "eye_color": "Eye Color",
+            "head_accessory": "Accessories"
+         }
+      }
+   },
+   "stonehearth_mixins": {
+      "food": {
+         "food_decay": {
+            "milk": {
+               "decay_1": {
+                  "description": "Rotten Milk"
+               }
+            },
+            "cream": {
+               "decay_1": {
+                  "description": "Cream Mold"
+               }
+            }
+         }
+      }
+   },
+   "filters": {
+      "animal_feed": "Animal Feed",
+      "consumables": "Consumables",
+      "cooking_ingredients": "Ingredients",
+      "equipment": "Equipment",
+      "garbage": "Garbage",
+      "pile": "Items Piles",
+      "prepared_meat": "Cooked Meat",
+      "prepared_veggie": "Cooked Veggie",
+      "raw_meat": "Raw Meat",
+      "raw_veggie": "Raw Veggie",
+      "tooltip_bed": "Beds",
+      "tooltip_bread": "Bread",
+      "tooltip_chair": "Chairs",
+      "tooltip_containers": "Supply & Finished Work Containers",
+      "tooltip_crate": "Storage Containers",
+      "tooltip_decorative": "Decorative Furniture",
+      "tooltip_door": "Doors",
+      "tooltip_fence": "Fences",
+      "tooltip_gate": "Gates",
+      "tooltip_gizmo": "Traps & Turrets",
+      "tooltip_healing_item": "Bandages & Healing Tonic",
+      "tooltip_heavy_armor": "Heavy Armor",
+      "tooltip_light_armor": "Light Armor",
+      "tooltip_light_source": "Light Sources",
+      "tooltip_log": "Wood Log",
+      "tooltip_meat_stew": "Meat Stew & Tagine",
+      "tooltip_melee_weapon": "Melee Weapons",
+      "tooltip_pelt": "Fur Pelt",
+      "tooltip_quest_items": "Quest Items",
+      "tooltip_ranged_weapon": "Ranged Weapons",
+      "tooltip_rotten_food": "Rotten Food",
+      "tooltip_seeds": "Seeds",
+      "tooltip_table": "Tables",
+      "tooltip_tree": "Tree Sapling",
+      "tooltip_veggie_stew": "Veggie Stew & Tagine",
+      "tooltip_window": "Windows",
+      "tooltip_worker_outfit": "Worker Outfits"
+   },
+   "kingdom": {
+      "initial_town_name": "Boxland"
+   }
+}

@@ -1,0 +1,128 @@
+{
+   "type": "biome",
+   "alias": "box_o_vox:biome:boxland",
+   "display_name": "i18n(box_o_vox:data.biome.boxland.display_name)",
+   "description": "i18n(box_o_vox:data.biome.boxland.description)",
+   "random_location_names": [
+      "i18n(box_o_vox:data.biome.boxland.random_location_names.000)"
+   ],
+   "image": "file(images/boxland_400x300.png)",
+   "story_board_image": "file(images/boxland_story_peaceful.png)",
+   "game_mode_images": {
+      "stonehearth:game_mode:normal": "file(images/boxland_story_normal.png)",
+      "stonehearth:game_mode:hard": "file(images/boxland_story_hard.png)"
+   },
+   "mining_loot_table": "file(boxland_mining_loot_table.json)",
+   "generation_file": "file(boxland_generation_data.json)",
+   "default_starting_season": "autumn",
+   "seasons": {
+      "spring": {
+         "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.spring.display_name)",
+         "description": "i18n(box_o_vox:data.biome.boxland.seasons.spring.description)",
+         "start_day": 0,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 11
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 3
+            },
+            {
+               "uri": "box_o_vox:data:weather:enchanted_mist",
+               "weight": 11
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 6
+            }
+         ]
+      },
+      "summer": {
+         "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.summer.display_name)",
+         "description": "i18n(box_o_vox:data.biome.boxland.seasons.summer.description)",
+         "start_day": 22,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 22
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 3
+            },
+            {
+               "uri": "box_o_vox:data:weather:enchanted_mist",
+               "weight": 6
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 6
+            }
+         ]
+      },
+      "autumn": {
+         "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.autumn.display_name)",
+         "description": "i18n(box_o_vox:data.biome.boxland.seasons.autumn.description)",
+         "start_day": 44,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 11
+            },
+            {
+               "uri": "stonehearth:weather:snow:sunny",
+               "weight": 3
+            },
+            {
+               "uri": "box_o_vox:data:weather:enchanted_mist",
+               "weight": 22
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 6
+            }
+         ]
+      },
+      "winter": {
+         "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.winter.display_name)",
+         "description": "i18n(box_o_vox:data.biome.boxland.seasons.winter.description)",
+         "start_day": 66,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 6
+            },
+            {
+               "uri": "stonehearth:weather:snow",
+               "weight": 22
+            },
+            {
+               "uri": "box_o_vox:data:weather:enchanted_mist",
+               "weight": 11
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 6
+            }
+         ]
+      }
+   }
+}

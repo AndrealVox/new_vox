@@ -1,0 +1,80 @@
+{
+   "type": "encounter",
+   "encounter_type": "town_upgrade",
+   "in_edge": "shrine_upgrade_deity",
+   "town_upgrade_info": {
+      "old_facility_uri": "northern_alliance:decoration:shrine:stag",
+      "new_facility_uri": "northern_alliance:decoration:shrine:stag:blessed",
+      "facility_upgrade_effect": "stonehearth:effects:level_up:monument",
+      "town_bonus": "northern_alliance:town_bonus:deity",
+      "tier_achieved": 3,
+      "conversation_subjects": [
+         "stonehearth:subjects:town_status",
+         "stonehearth:food:cake",
+         "northern_alliance:decoration:shrine:stag"
+      ],
+      "thought": "stonehearth:thoughts:town:progression:town",
+      "celebration_duration": "2h30m+10m",
+      "has_fireworks": true,
+      "dialog": {
+         "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.title)",
+         "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.dialog_title)",
+         "tier_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.tier_title)",
+         "reward_message": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.reward_message)",
+         "reward_message_ctd": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.reward_message_ctd)",
+         "achievements": [
+            {
+               "id": "deity_bonus",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_deity.achievements.000)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "deity_decorations_1",
+               "name": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade_deity.achievements.001)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "deity_decorations_2",
+               "name": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade_deity.achievements.002)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "tier_3_bgm",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_deity.achievements.004)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            }
+         ]
+      },
+      "npcs": [
+         {
+            "faction": "human_npcs",
+            "role": "herald_ronia",
+            "gender": "female"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_firnn",
+            "gender": "male"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "party_goblin",
+            "gender": "male"
+         },
+         {
+            "faction": "rabbit_biped_npcs",
+            "role": "herald_sasha",
+            "gender": "female"
+         },
+         {
+            "faction": "orc_npcs",
+            "role": "herald_erdene",
+            "gender": "female"
+         }
+      ]
+   }
+}

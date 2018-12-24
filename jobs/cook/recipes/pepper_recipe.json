@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 1,
+   "recipe_name": "i18n(box_o_vox:jobs.cook.recipes.pepper_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.cook.recipes.pepper_recipe.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/food/pepper/pepper.png",
+   "workshop": "stonehearth:cook:mill",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "box_o_vox:entities:food:peppercorn",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:food:pepper"
+      },
+      {
+         "item": "box_o_vox:entities:food:pepper"
+      }
+   ]
+}

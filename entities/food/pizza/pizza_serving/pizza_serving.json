@@ -1,0 +1,37 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(pizza_serving.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.05
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 150
+         },
+         "default": {
+            "satisfaction": 80
+         },
+         "quality": 7
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.food.pizza.pizza_serving.display_name)",
+         "description": "i18n(box_o_vox:entities.food.pizza.pizza_serving.description)",
+         "material_tags": "food meat",
+         "subject_override": "box_o_vox:entities:food:pizza:pizza"
+      }
+   }
+}

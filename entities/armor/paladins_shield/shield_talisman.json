@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(paladins_shield_iconic.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 20,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "Paladin's Shield",
+         "description": "Required to promote a hearthling to a paladin",
+         "icon": "file(paladins_shield.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": "stockpile_tool"
+      }
+   }
+}

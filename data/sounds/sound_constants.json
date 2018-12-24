@@ -1,0 +1,104 @@
+{
+   "type": "index",
+   "ambient": {
+      "enchanted_mist": {
+         "day": {
+            "track": [
+                        "stonehearth:ambient:foggy"
+                           ],
+            "loop": true,
+            "fade_in": 2000,
+            "volume": 30
+         },
+         "night": {
+            "track": [
+                        "stonehearth:ambient:foggy"
+                           ],
+            "loop": true,
+            "fade_in": 2000,
+            "volume": 30
+         }
+      }
+   },
+   "music": {
+      "title": {
+         "track": "stonehearth:music:title_screen",
+         "loop": true,
+         "volume": 50
+      },
+      "kingdoms": {
+         "box_o_vox:server:population:data:kingdoms:boxling": {
+            "tier_to_day_music_track": {
+               "idle_day_music_tier_1": {
+                  "track": [
+                     "stonehearth:music:lvlmusic_nor_autumn_1_day",
+                     "stonehearth:music:lvlmusic_nor_winter_1_day",
+                     "stonehearth:music:lvlmusic_nor_spring_1_day",
+                     "stonehearth:music:lvlmusic_nor_summer_1_day"
+                  ],
+                  "loop": false,
+                  "fade_in": 2000,
+                  "volume": 40
+               },
+               "idle_day_music_tier_2": {
+                  "track": [
+                     "stonehearth:music:lvlmusic_nor_autumn_2_day",
+                     "stonehearth:music:lvlmusic_nor_winter_2_day",
+                     "stonehearth:music:lvlmusic_nor_spring_2_day",
+                     "stonehearth:music:lvlmusic_nor_summer_2_day"
+                  ],
+                  "loop": false,
+                  "fade_in": 2000,
+                  "volume": 40
+               },
+               "idle_day_music_tier_3": {
+                  "track": [
+                     "stonehearth:music:lvlmusic_nor_autumn_2_day",
+                     "stonehearth:music:lvlmusic_nor_winter_2_day",
+                     "stonehearth:music:lvlmusic_nor_spring_3_day",
+                     "stonehearth:music:lvlmusic_nor_summer_3_day"
+                  ],
+                  "loop": false,
+                  "fade_in": 2000,
+                  "volume": 40
+               }
+            },
+            "tier_to_night_music_track": {
+               "idle_night_music_tier_1": {
+                  "track": [
+                     "stonehearth:music:lvlmusic_nor_autumn_1_night",
+                     "stonehearth:music:lvlmusic_nor_winter_1_night",
+                     "stonehearth:music:lvlmusic_nor_spring_1_night",
+                     "stonehearth:music:lvlmusic_nor_summer_1_night"
+                  ],
+                  "loop": false,
+                  "fade_in": 2000,
+                  "volume": 40
+               },
+               "idle_night_music_tier_2": {
+                  "track": [
+                     "stonehearth:music:lvlmusic_nor_autumn_2_night",
+                     "stonehearth:music:lvlmusic_nor_winter_2_night",
+                     "stonehearth:music:lvlmusic_nor_spring_2_night",
+                     "stonehearth:music:lvlmusic_nor_summer_2_night"
+                  ],
+                  "loop": false,
+                  "fade_in": 2000,
+                  "volume": 40
+               },
+               "idle_night_music_tier_3": {
+                  "track": [
+                     "stonehearth:music:lvlmusic_nor_autumn_3_night",
+                     "stonehearth:music:lvlmusic_nor_winter_3_night",
+                     "stonehearth:music:lvlmusic_nor_spring_3_night",
+                     "stonehearth:music:lvlmusic_nor_summer_3_night"
+                  ],
+                  "loop": false,
+                  "fade_in": 2000,
+                  "volume": 40
+               }
+            }
+         }
+      }
+   }
+}

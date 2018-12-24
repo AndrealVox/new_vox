@@ -1,0 +1,19 @@
+{
+    "crops_by_kingdom": {
+        "box_o_vox:server:population:data:kingdoms:boxling": {
+            "fallow": true,
+            "turnip": true,
+            "carrot": true,
+            "pumpkin": true,
+            "silkweed": true,
+            "brightbell": true,
+            "frostsnap": true,
+            "corn": true,
+            "wheat": true,
+            "oak_tree": true,
+            "potato": true,
+            "tomato": true,
+            "strawberry": true
+        }
+    }
+}

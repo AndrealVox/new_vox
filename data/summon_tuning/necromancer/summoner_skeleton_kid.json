@@ -1,0 +1,21 @@
+{
+   "type": "monster_tuning",
+   "estimated_difficulty": 1,
+   "scale": 0.05,
+   "attributes": {
+      "max_health": 200,
+      "muscle": 0,
+      "menace": 40,
+      "courage": 100,
+      "speed": 30,
+      "additive_armor_modifier": 0,
+      "exp_reward": 15
+   },
+   "equipment_scale": 0.04,
+   "equipment": {
+      "weapon": [
+         "stonehearth:mining_pick",
+         "stonehearth:worker_axe"
+      ]
+   }
+}

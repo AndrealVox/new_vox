@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 3,
+   "recipe_name": "i18n(box_o_vox:entities.construction.stoned_tunnel_door.stoned_tunnel_door_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.construction.stoned_tunnel_door.stoned_tunnel_door_ghost.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/construction/stoned_tunnel_door/stoned_tunnel_door.png",
+   "workshop": "stonehearth:mason:pedestal",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:portals:stoned_tunnel_door"
+      }
+   ]
+}

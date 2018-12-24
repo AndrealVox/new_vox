@@ -1,0 +1,18 @@
+{
+   "type": "trait",
+   "display_name": "Paladin",
+   "description": "Having knowledge of the divine arts, [name(i18n_data.entity)] joins the town already trained as a paladin and loves being one. Their divine power allows them to heal allies and provides them with incredible defense againt enemies. [name(i18n_data.entity)] comes equipped with a large shield.",
+   "icon": "file(passion_paladin_trait.png)",
+   "script_controller": "box_o_vox:trait_scripts:paladin",
+   "attribute_modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 0.25
+      },
+      "max_health": {
+         "add": 50
+      }
+   },
+   "data": {
+      "job_uri": "box_o_vox:jobs:paladin"
+   }
+}

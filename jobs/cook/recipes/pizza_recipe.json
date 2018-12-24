@@ -1,0 +1,34 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 3,
+   "recipe_name": "i18n(box_o_vox:entities.food.pizza.pizza.display_name)",
+   "description": "i18n(box_o_vox:entities.food.pizza.pizza.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/food/pizza/pizza/pizza.png",
+   "workshop": "stonehearth:cook:oven",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "box_o_vox:entities:food:dough",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:food:tomato:tomato_basket",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:food:cheese",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:food:pepperoni",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:food:pizza:pizza"
+      }
+   ]
+}

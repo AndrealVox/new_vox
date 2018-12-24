@@ -1,0 +1,47 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "injected_ai": {
+            "ai_packs": [
+               "stonehearth:ai_pack:patrolling",
+               "stonehearth:ai_pack:wimpy",
+               "stonehearth:ai_pack:panic:flee",
+               "stonehearth:ai_pack:combat_control"
+            ]
+         },
+         "military_score": 30
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "paladin_single_target_taunt",
+            "effect": "combat_1h_forehand",
+            "active_frame": 0,
+            "cooldown": 8000,
+            "priority": 3,
+            "aggro_addition": 120,
+            "aggro_multiplier": 35.0,
+            "minimum_damage": 1,
+            "inflictable_debuffs": {
+               "infection": {
+                  "uri": "box_o_vox:buffs:paladin:taunted_effect",
+                  "chance": 1.0
+               }
+            }
+         }
+      ],
+      "stonehearth:combat:melee_defenses": [
+         {
+            "name": "combat_1h_dodge",
+            "effect": "combat_1h_dodge",
+            "active_frame": 8,
+            "cooldown": 12000,
+            "priority": 1,
+            "chance_of_success": 0.1,
+            "defense_attribute": "dodge_chance"
+         }
+      ]
+   }
+}

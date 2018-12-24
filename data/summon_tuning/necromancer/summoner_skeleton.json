@@ -1,0 +1,19 @@
+{
+   "type": "monster_tuning",
+   "estimated_difficulty": 2,
+   "attributes": {
+      "max_health": 400,
+      "muscle": 0,
+      "menace": 70,
+      "courage": 100,
+      "speed": 20,
+      "additive_armor_modifier": 4,
+      "exp_reward": 60
+   },
+   "equipment": {
+      "weapon": [
+         "stonehearth:weapons:stone_maul",
+         "stonehearth:weapons:bronze_sword"
+      ]
+   }
+}

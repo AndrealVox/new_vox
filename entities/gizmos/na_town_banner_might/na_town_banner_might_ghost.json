@@ -1,0 +1,34 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(na_town_banner_might.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(northern_alliance:entities.gizmos.na_town_banner_might.na_town_banner_might_ghost.display_name)",
+         "description": "i18n(northern_alliance:entities.gizmos.na_town_banner_might.na_town_banner_might_ghost.description)",
+         "icon": "file(na_town_banner_might.png)",
+         "category": "decoration",
+         "material_tags": "clay cloth decoration stockpile_decoration"
+      }
+   }
+}

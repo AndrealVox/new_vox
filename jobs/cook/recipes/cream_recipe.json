@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 1,
+   "recipe_name": "i18n(box_o_vox:jobs.cook.recipes.cream_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.cook.recipes.cream_recipe.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/food/cream/cream.png",
+   "workshop": "stonehearth:cook:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "box_o_vox:entities:food:milk",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:food:cream"
+      }
+   ]
+}

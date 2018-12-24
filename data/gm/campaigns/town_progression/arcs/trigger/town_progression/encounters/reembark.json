@@ -1,0 +1,24 @@
+{
+   "type": "encounter",
+   "encounter_type": "reembarkation",
+   "in_edge": "reembark",
+   "out_edge": {
+      "type": "destroy_tree",
+      "root": "reembark_generator",
+      "destroy_root": true
+   },
+   "can_start": {
+      "all_tests": {
+         "unique": {
+            "type": "deny_if_greater_than",
+            "item": "number_active",
+            "end_node": "reembark_end",
+            "start_node": "reembark",
+            "value": 0
+         }
+      }
+   },
+   "reembarkation_info": {
+      "reject_out_edge": "reembark_end"
+   }
+}

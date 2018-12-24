@@ -1,0 +1,165 @@
+{
+   "groups": {
+      "passion_jobs": {
+         "box_o_vox:data:traits:passion_paladin": {
+            "excludes": {
+               "stonehearth:traits:passion_archer": true,
+               "stonehearth:traits:passion_blacksmith": true,
+               "stonehearth:traits:passion_carpenter": true,
+               "stonehearth:traits:passion_cleric": true,
+               "stonehearth:traits:passion_cook": true,
+               "stonehearth:traits:passion_engineer": true,
+               "stonehearth:traits:passion_farmer": true,
+               "stonehearth:traits:passion_footman": true,
+               "stonehearth:traits:passion_herbalist": true,
+               "stonehearth:traits:passion_knight": true,
+               "stonehearth:traits:passion_mason": true,
+               "box_o_vox:data:traits:passion_necromancer": true,
+               "stonehearth:traits:passion_potter": true,
+               "stonehearth:traits:passion_shepherd": true,
+               "stonehearth:traits:passion_trapper": true,
+               "stonehearth:traits:passion_weaver": true,
+               "stonehearth:traits:passion_worker": true,
+               "stonehearth:traits:heart_of_a_crafter": true,
+               "stonehearth:traits:green_thumb": true
+            }
+         },
+         "box_o_vox:data:traits:passion_necromancer": {
+            "excludes": {
+               "stonehearth:traits:passion_archer": true,
+               "stonehearth:traits:passion_blacksmith": true,
+               "stonehearth:traits:passion_carpenter": true,
+               "stonehearth:traits:passion_cleric": true,
+               "stonehearth:traits:passion_cook": true,
+               "stonehearth:traits:passion_engineer": true,
+               "stonehearth:traits:passion_farmer": true,
+               "stonehearth:traits:passion_footman": true,
+               "stonehearth:traits:passion_herbalist": true,
+               "stonehearth:traits:passion_knight": true,
+               "stonehearth:traits:passion_mason": true,
+               "box_o_vox:data:traits:passion_paladin": true,
+               "stonehearth:traits:passion_potter": true,
+               "stonehearth:traits:passion_shepherd": true,
+               "stonehearth:traits:passion_trapper": true,
+               "stonehearth:traits:passion_weaver": true,
+               "stonehearth:traits:passion_worker": true,
+               "stonehearth:traits:heart_of_a_crafter": true,
+               "stonehearth:traits:green_thumb": true
+            }
+         }
+      }
+   },
+   "traits": {
+      "stonehearth:traits:passion_blacksmith": {
+         "excludes": {
+            "stonehearth:traits:passion_archer": true,
+            "box_o_vox:data:traits:passion_paladin": true,
+            "stonehearth:traits:passion_carpenter": true,
+            "stonehearth:traits:passion_cleric": true,
+            "stonehearth:traits:passion_cook": true,
+            "stonehearth:traits:passion_engineer": true,
+            "stonehearth:traits:passion_farmer": true,
+            "stonehearth:traits:passion_footman": true,
+            "stonehearth:traits:passion_herbalist": true,
+            "stonehearth:traits:passion_knight": true,
+            "stonehearth:traits:passion_mason": true,
+            "box_o_vox:data:traits:passion_necromancer": true,
+            "stonehearth:traits:passion_potter": true,
+            "stonehearth:traits:passion_shepherd": true,
+            "stonehearth:traits:passion_trapper": true,
+            "stonehearth:traits:passion_weaver": true,
+            "stonehearth:traits:passion_worker": true
+         }
+      },
+      "stonehearth:traits:passion_cleric": {
+         "excludes": {
+            "stonehearth:traits:passion_archer": true,
+            "box_o_vox:data:traits:passion_paladin": true,
+            "stonehearth:traits:passion_carpenter": true,
+            "stonehearth:traits:passion_blacksmith": true,
+            "stonehearth:traits:passion_cook": true,
+            "stonehearth:traits:passion_engineer": true,
+            "stonehearth:traits:passion_farmer": true,
+            "stonehearth:traits:passion_footman": true,
+            "stonehearth:traits:passion_herbalist": true,
+            "stonehearth:traits:passion_knight": true,
+            "stonehearth:traits:passion_mason": true,
+            "box_o_vox:data:traits:passion_necromancer": true,
+            "stonehearth:traits:passion_potter": true,
+            "stonehearth:traits:passion_shepherd": true,
+            "stonehearth:traits:passion_trapper": true,
+            "stonehearth:traits:passion_weaver": true,
+            "stonehearth:traits:passion_worker": true,
+            "stonehearth:traits:green_thumb": true
+         }
+      },
+      "stonehearth:traits:passion_cook": {
+         "excludes": {
+            "stonehearth:traits:passion_archer": true,
+            "box_o_vox:data:traits:passion_paladin": true,
+            "stonehearth:traits:passion_carpenter": true,
+            "stonehearth:traits:passion_blacksmith": true,
+            "stonehearth:traits:passion_cleric": true,
+            "stonehearth:traits:passion_engineer": true,
+            "stonehearth:traits:passion_farmer": true,
+            "stonehearth:traits:passion_footman": true,
+            "stonehearth:traits:passion_herbalist": true,
+            "stonehearth:traits:passion_knight": true,
+            "stonehearth:traits:passion_mason": true,
+            "box_o_vox:data:traits:passion_necromancer": true,
+            "stonehearth:traits:passion_potter": true,
+            "stonehearth:traits:passion_shepherd": true,
+            "stonehearth:traits:passion_trapper": true,
+            "stonehearth:traits:passion_weaver": true,
+            "stonehearth:traits:passion_worker": true
+         }
+      },
+      "stonehearth:traits:passion_mason": {
+         "excludes": {
+            "stonehearth:traits:passion_archer": true,
+            "box_o_vox:data:traits:passion_paladin": true,
+            "stonehearth:traits:passion_carpenter": true,
+            "stonehearth:traits:passion_blacksmith": true,
+            "stonehearth:traits:passion_cleric": true,
+            "stonehearth:traits:passion_engineer": true,
+            "stonehearth:traits:passion_farmer": true,
+            "stonehearth:traits:passion_footman": true,
+            "stonehearth:traits:passion_herbalist": true,
+            "stonehearth:traits:passion_knight": true,
+            "stonehearth:traits:passion_cook": true,
+            "box_o_vox:data:traits:passion_necromancer": true,
+            "stonehearth:traits:passion_potter": true,
+            "stonehearth:traits:passion_shepherd": true,
+            "stonehearth:traits:passion_trapper": true,
+            "stonehearth:traits:passion_weaver": true,
+            "stonehearth:traits:passion_worker": true,
+            "stonehearth:traits:heart_of_a_crafter": true
+         }
+      },
+      "stonehearth:traits:passion_weaver": {
+         "excludes": {
+            "stonehearth:traits:passion_archer": true,
+            "box_o_vox:data:traits:passion_paladin": true,
+            "stonehearth:traits:passion_carpenter": true,
+            "stonehearth:traits:passion_blacksmith": true,
+            "stonehearth:traits:passion_cleric": true,
+            "stonehearth:traits:passion_engineer": true,
+            "stonehearth:traits:passion_farmer": true,
+            "stonehearth:traits:passion_footman": true,
+            "stonehearth:traits:passion_herbalist": true,
+            "stonehearth:traits:passion_knight": true,
+            "stonehearth:traits:passion_cook": true,
+            "box_o_vox:data:traits:passion_necromancer": true,
+            "stonehearth:traits:passion_potter": true,
+            "stonehearth:traits:passion_shepherd": true,
+            "stonehearth:traits:passion_trapper": true,
+            "stonehearth:traits:passion_mason": true,
+            "stonehearth:traits:passion_worker": true,
+            "stonehearth:traits:heart_of_a_crafter": true
+         }
+      },
+      "box_o_vox:data:traits:wolf_fox_companion": {
+         "excludes": {}
+      }
+   }
+}

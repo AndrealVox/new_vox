@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(pig_feed.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.food.pig_feed.display_name)",
+         "description": "i18n(box_o_vox:entities.food.pig_feed.description)",
+         "icon": "file(pig_feed.png)",
+         "is_item": true,
+         "category": "refined",
+         "material_tags": "stockpile_cooking_ingredient animal_feed pig_feed"
+      }
+   }
+}

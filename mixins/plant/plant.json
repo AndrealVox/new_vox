@@ -1,0 +1,25 @@
+{
+   "type": "mixin",
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "render_info": {
+         "scale": 0.1
+      },
+      "stonehearth:resource_node": {
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+         "harvester_effect": "fiddle",
+         "description": "fiddle"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "category": "plants"
+      },
+      "stonehearth:render_materials": {
+         "hud": "materials/ghost_item.json"
+      },
+      "stonehearth:on_destroy": {
+         "effect": "stonehearth:effects:terrain:tree_harvest"
+      }
+   }
+}

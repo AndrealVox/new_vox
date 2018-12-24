@@ -1,0 +1,14 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_shrine_recipes",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:mason",
+      "recipe_key": [
+         "signage_decoration:shrine_hare",
+         "signage_decoration:shrine_stag",
+         "signage_decoration:shrine_wolf"
+      ],
+      "bulletin_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.unlock_shrine_recipes.bulletin_title)"
+   }
+}

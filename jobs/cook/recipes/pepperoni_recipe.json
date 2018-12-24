@@ -1,0 +1,43 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 3,
+   "recipe_name": "i18n(box_o_vox:entities.food.pepperoni.display_name)",
+   "description": "i18n(box_o_vox:entities.food.pepperoni.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/food/pepperoni/pepperoni.png",
+   "workshop": "stonehearth:cook:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "box_o_vox:entities:food:beef",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:food:pork",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:food:pepper",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:food:salt",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:food:pepperoni"
+      },
+      {
+         "item": "box_o_vox:entities:food:pepperoni"
+      },
+      {
+         "item": "box_o_vox:entities:food:pepperoni"
+      },
+      {
+         "item": "box_o_vox:entities:food:pepperoni"
+      }
+   ]
+}

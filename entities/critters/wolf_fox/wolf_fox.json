@@ -1,0 +1,153 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:monsters:forest:wolf",
+   "components": {
+      "render_info": {
+         "scale": 0.125
+      },
+      "sensor_list": {
+         "sensors": {
+            "sight": {
+               "type": "sensor",
+               "radius": 15
+            }
+         }
+      },
+      "stonehearth:equipment": {
+         "items": [
+            "stonehearth:weapons:animals:weak_wolf_teeth"
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(wolf_fox.qb)"
+            ]
+         }
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 150
+         },
+         "muscle": {
+            "type": "basic",
+            "value": 150
+         },
+         "menace": {
+            "type": "basic",
+            "value": 0
+         },
+         "courage": {
+            "type": "basic",
+            "value": 0
+         },
+         "speed": {
+            "type": "basic",
+            "value": 150
+         },
+         "min_calories": {
+            "type": "basic",
+            "value": -80
+         },
+         "max_calories": {
+            "type": "basic",
+            "value": 80
+         },
+         "min_sleepiness": {
+            "type": "basic",
+            "value": 0
+         },
+         "max_sleepiness": {
+            "type": "basic",
+            "value": 32
+         },
+         "max_social_satisfaction": {
+            "type": "basic",
+            "value": 72
+         },
+         "exp_reward": {
+            "type": "basic",
+            "value": 0
+         }
+      },
+      "stonehearth:expendable_resources": {
+         "resources": {
+            "calories": {
+               "min": {
+                  "linked_attribute": "min_calories"
+               },
+               "max": {
+                  "linked_attribute": "max_calories"
+               },
+               "initial_value": "max_value"
+            },
+            "sleepiness": {
+               "min": {
+                  "linked_attribute": "min_sleepiness"
+               },
+               "max": {
+                  "linked_attribute": "max_sleepiness"
+               },
+               "initial_value": 0
+            },
+            "social_satisfaction": {
+               "min": {
+                  "value": 0
+               },
+               "max": {
+                  "linked_attribute": "max_social_satisfaction"
+               },
+               "initial_value": {
+                  "type": "random_between",
+                  "min": 61,
+                  "max": "max_value"
+               }
+            }
+         }
+      },
+      "stonehearth:loot_drops": {
+         "entries": {
+            "default": {
+               "items": {
+                  "skin": {
+                     "type": "bag",
+                     "uri": "box_o_vox:loot_bag:wolf_fox_default",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "player_id": "animals",
+         "display_name": "i18n(box_o_vox:entities.monsters.forest.wolf_fox.display_name)",
+         "description": "i18n(stonehearth:entities.monsters.forest.wolf.description)",
+         "icon": "file(wolf_fox.png)",
+         "category": "pets"
+      },
+      "stonehearth:calories": {
+         "hungry_threshold": 0,
+         "famished_threshold": -5,
+         "malnourished_threshold": -10,
+         "hourly_calorie_loss": 0.5
+      },
+      "stonehearth:conversation_type": "animal",
+      "stonehearth:ai_packs": {
+         "packs": [
+            "stonehearth:ai_pack:critter",
+            "stonehearth:ai_pack:wimpy",
+            "stonehearth:ai_pack:combat_control"
+         ]
+      },
+      "stonehearth:species": {
+         "id": "red_fox_wolf",
+         "display_name": "i18n(box_o_vox:entities.critters.wolf_fox.species)"
+      },
+      "stonehearth:diet": {
+         "food_material": "meat"
+      }
+   }
+}

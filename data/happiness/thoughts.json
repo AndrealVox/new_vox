@@ -1,0 +1,24 @@
+{
+   "type": "index",
+   "thoughts": {
+      "weather": {
+         "mutually_exclusive": false,
+         "values": {
+            "enchanted_mist_positive": {
+               "display_name": "Mysterious mist",
+               "tooltip": "I wonder what wonders lie beneath that mysterious mist.",
+               "duration": "1d",
+               "happiness_delta": 10,
+               "stackable": false
+            },
+            "enchanted_mist_negative": {
+               "display_name": "Spooky fog",
+               "tooltip": "What was that noise in the fog?",
+               "duration": "1d",
+               "happiness_delta": -1,
+               "stackable": false
+            }
+         }
+      }
+   }
+}

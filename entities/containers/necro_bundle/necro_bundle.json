@@ -1,0 +1,87 @@
+{
+   "mixins": [
+      "stonehearth:mixins:align_to_grid",
+      "stonehearth:mixins:destructable_object"
+   ],
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.05
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(necro_bundle.qb)"
+            ]
+         }
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 1
+         }
+      },
+      "mob": {},
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": {
+                  "x": -2,
+                  "y": 0,
+                  "z": -1.5
+               },
+               "max": {
+                  "x": 2,
+                  "y": 3,
+                  "z": 1.5
+               }
+            }
+         ]
+      },
+      "stonehearth:commands": {
+         "commands": [
+            "stonehearth:commands:open_loot"
+         ]
+      },
+      "stonehearth:loot_drops": {
+         "entries": {
+            "default": {
+               "num_rolls": {
+                  "min": 50,
+                  "max": 50
+               },
+               "items": {
+                  "herbs": {
+                     "uri": "stonehearth:resources:herb:brightbell",
+                     "weight": 30
+                  },
+                  "fiber": {
+                     "uri": "box_o_vox:entities:resources:fiber:grass_bundle",
+                     "weight": 10
+                  },
+                  "jerky": {
+                     "uri": "stonehearth:rabbit_jerky",
+                     "weight": 5
+                  },
+                  "pelt": {
+                     "uri": "stonehearth:resources:rabbit_pelt",
+                     "weight": 5
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.containers.necro_bundle.display_name)",
+         "description": "i18n(box_o_vox:entities.containers.necro_bundle.description)"
+      },
+      "stonehearth:appeal": {
+         "appeal": -100
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": false
+      }
+   }
+}

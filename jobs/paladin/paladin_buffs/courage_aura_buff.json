@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Inspiring Presence",
+   "description": "The paladin increases courage of everyone around",
+   "icon": "file(paladin_buff_inspiring_presence.png)",
+   "script": "stonehearth:buff_scripts:aura",
+   "script_info": {
+      "pulse": "10m",
+      "aura_buff": "box_o_vox:buffs:paladin:courage_aura_effect",
+      "radius": 20,
+      "affect_self": false,
+      "pulse_immediately": true,
+      "target_type": "mob"
+   }
+}

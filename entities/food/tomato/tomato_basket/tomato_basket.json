@@ -1,0 +1,64 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(tomato_basket.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(rotten_tomato_basket.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0.05
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 10
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "box_o_vox:entities:food:tomato:tomato_serving",
+         "stacks_per_serving": 6
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 168,
+            "max": 168
+         },
+         "rotten_entity_alias": "box_o_vox:entities:food:rotten:tomato_basket"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.plants.tomato.tomato_basket.display_name)",
+         "description": "i18n(box_o_vox:entities.plants.tomato.tomato_basket.description)",
+         "icon": "file(tomato_basket.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": "food_container raw_food vegetable fruit tomato vegetarian stockpile_raw_food",
+         "subject_override": "box_o_vox:entities:crops:tomato_crop"
+      },
+      "stonehearth:appeal": {
+         "appeal": 0
+      }
+   }
+}

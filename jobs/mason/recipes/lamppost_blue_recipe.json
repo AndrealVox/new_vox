@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 14,
+   "work_units": 5,
+   "recipe_name": "i18n(box_o_vox:entities.decoration.craftsman_statue.lamppost_blue.lamppost_blue_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.decoration.craftsman_statue.lamppost_blue.lamppost_blue_ghost.description)",
+   "flavor": "The perfect source of light for your roads and pathways.",
+   "portrait": "/box_o_vox/entities/decoration/lamppost_blue/lamppost_blue.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 2
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:decoration:lamppost_blue"
+      }
+   ]
+}

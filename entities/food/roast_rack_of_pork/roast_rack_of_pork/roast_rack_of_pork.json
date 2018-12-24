@@ -1,0 +1,54 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(roast_rack_of_pork.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0.05
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 5
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "box_o_vox:entities:food:roast_rack_of_pork:roast_rack_of_pork_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 30,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.food.roast_rack_of_pork.roast_rack_of_pork.display_name)",
+         "description": "i18n(box_o_vox:entities.food.roast_rack_of_pork.roast_rack_of_pork.description)",
+         "icon": "file(roast_rack_of_pork.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": "food_container prepared_food roast_rack_of_pork stockpile_prepared_food meat"
+      },
+      "stonehearth:appeal": {
+         "appeal": 3
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

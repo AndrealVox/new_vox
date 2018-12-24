@@ -1,0 +1,33 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(stone_comfy_chair.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.furniture.stone_comfy_chair.display_name)",
+         "description": "i18n(box_o_vox:entities.furniture.stone_comfy_chair.description)",
+         "icon": "file(stone_comfy_chair.png)",
+         "category": "furniture",
+         "material_tags": "wood furniture crafted chair stockpile_furniture"
+      }
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 1,
+   "recipe_name": "i18n(box_o_vox:entities.food.ground_beef.ground_beef.display_name)",
+   "description": "i18n(box_o_vox:entities.food.ground_beef.ground_beef.description)",
+   "portrait": "/box_o_vox/entities/food/ground_beef/ground_beef/ground_beef.png",
+   "workshop": "stonehearth:cook:mill",
+   "ingredients": [
+      {
+         "material": "food meat raw",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:food:ground_beef"
+      }
+   ]
+}

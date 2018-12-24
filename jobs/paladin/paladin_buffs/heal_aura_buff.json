@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Healing Aura",
+   "description": "The paladin heals everyone around",
+   "icon": "file(paladin_buff_heal_aura.png)",
+   "script": "stonehearth:buff_scripts:aura",
+   "script_info": {
+      "pulse": "30m",
+      "pulse_effect": "stonehearth:effects:heal_aura_effect:aoe_effect",
+      "aura_buff": "box_o_vox:buffs:paladin:heal_aura_effect",
+      "radius": 20,
+      "affect_self": true,
+      "target_type": "mob"
+   }
+}

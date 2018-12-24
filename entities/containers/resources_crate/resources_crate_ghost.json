@@ -1,0 +1,33 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(resources_crate.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ],
+         "allow_vertical_adjacent": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.containers.resources_crate.resources_crate_ghost.display_name)",
+         "description": "i18n(box_o_vox:entities.containers.resources_crate.resources_crate_ghost.description)",
+         "icon": "file(resources_crate.png)",
+         "category": "storage",
+         "material_tags": "stone furniture crafted crate stockpile_furniture"
+      }
+   }
+}

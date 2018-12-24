@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.weaver.recipes.worker_outfit_2_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.weaver.recipes.worker_outfit_2_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.weaver.recipes.worker_outfit_2_recipe.flavor)",
+   "portrait": "/box_o_vox/jobs/worker/boxling_outfit_2/boxling_outfit_2.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "ingredients": [
+      {
+         "material": "cloth resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:jobs:worker:boxling_outfit_2"
+      }
+   ]
+}

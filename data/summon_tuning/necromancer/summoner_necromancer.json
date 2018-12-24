@@ -1,0 +1,21 @@
+{
+   "type": "monster_tuning",
+   "estimated_difficulty": 9,
+   "scale": 0.05,
+   "attributes": {
+      "max_health": 1400,
+      "muscle": 10,
+      "menace": 70,
+      "courage": 130,
+      "speed": 100,
+      "additive_armor_modifier": 8,
+      "exp_reward": 170
+   },
+   "equipment_scale": 0.04,
+   "equipment": {
+      "weapon": [
+         "box_o_vox:entities:weapon:summon_necromancer_tome"
+      ],
+      "abilities": "box_o_vox:entities:abilities:summon_necro_abilities"
+   }
+}

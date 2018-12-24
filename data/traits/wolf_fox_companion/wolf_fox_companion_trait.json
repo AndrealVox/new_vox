@@ -1,0 +1,13 @@
+{
+   "type": "trait",
+   "display_name": "Fox Companion",
+   "description": "Ever since [name(i18n_data.savior)] saved [name(i18n_data.savee)] from mortal danger, they've been inseparable.",
+   "icon": "file(wolf_fox_companion_trait.png)",
+   "script_controller": "stonehearth:trait_scripts:animal_companion",
+   "data": {
+      "possible_companions": [
+         "box_o_vox:entities:critters:wolf_fox"
+      ],
+      "default_species": "companion"
+   }
+}

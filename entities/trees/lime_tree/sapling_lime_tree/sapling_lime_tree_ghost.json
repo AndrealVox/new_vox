@@ -1,0 +1,40 @@
+{
+    "mixins": "stonehearth:mixins:placed_object",
+    "type": "entity",
+    "components": {
+        "render_info": {
+            "scale": 0.6
+        },
+        "model_variants": {
+            "default": {
+                "models": [
+               "file(../lime_tree.qb)"
+            ]
+            }
+        },
+        "mob": {
+            "model_origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "region_origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "align_to_grid": [
+            "x",
+            "z"
+         ]
+        }
+    },
+    "entity_data": {
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.trees.lime_tree.sapling_lime_tree.sapling_lime_tree_ghost.display_name)",
+            "description": "i18n(box_o_vox:entities.trees.lime_tree.sapling_lime_tree.sapling_lime_tree_ghost.description)",
+            "icon": "/box_o_vox/entities/trees/images/sapling_lime_tree.png",
+            "category": "plants"
+        }
+    }
+}

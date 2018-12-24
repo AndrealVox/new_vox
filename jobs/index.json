@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:jobs:index",
+   "jobs": {
+      "stonehearth:jobs:cleric": {
+         "description": "box_o_vox:jobs:cleric"
+      },
+      "stonehearth:jobs:cook": {
+         "description": "box_o_vox:jobs:cook"
+      },
+      "stonehearth:jobs:trapper": {
+         "description": "box_o_vox:jobs:trapper"
+      },
+      "stonehearth:jobs:worker": {
+         "description": "box_o_vox:jobs:worker"
+      },
+      "box_o_vox:jobs:necromancer": {
+         "description": "box_o_vox:jobs:necromancer"
+      },
+      "box_o_vox:jobs:paladin": {
+         "description": "box_o_vox:jobs:paladin"
+      }
+   }
+}

@@ -1,0 +1,37 @@
+{
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "can_attach_entities": true,
+         "scale": 0.02
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(vox_skull.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:projectile": {},
+      "effect_list": {
+         "default": "stonehearth:effects:firepit_effect:green"
+      }
+   },
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "stonehearth:buffs:archer:fire_arrow",
+               "chance": 0.75
+            }
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.weapons.flame_skull.display_name)",
+         "description": "i18n(box_o_vox:entities.weapons.flame_skull.description)"
+      }
+   }
+}

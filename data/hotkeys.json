@@ -1,0 +1,32 @@
+{
+   "keys": {
+      "ui:show_promotion_tree": {
+         "display_name": "i18n(box_o_vox:data.commands.promote_to_job.display_name)",
+         "category": "ui",
+         "ordinal": 600,
+         "combo1": "shift+keyj",
+         "combo2": ""
+      },
+      "harvest:auto_harvest_on": {
+         "display_name": "i18n(autoharvest_mod:data.commands.autoharvest_on.display_name)",
+         "category": "ui",
+         "ordinal": 610,
+         "combo1": "keyu",
+         "combo2": ""
+      },
+      "harvest:auto_harvest_off": {
+         "display_name": "i18n(autoharvest_mod:data.commands.autoharvest_off.display_name)",
+         "category": "ui",
+         "ordinal": 620,
+         "combo1": "keyu",
+         "combo2": ""
+      },
+      "ui:undeploy_item": {
+         "display_name": "i18n(stonehearth:data.hotkeys.keys.ui_undeploy_item.display_name)",
+         "category": "ui",
+         "ordinal": 80,
+         "combo1": "shift+keyu",
+         "combo2": ""
+      }
+   }
+}

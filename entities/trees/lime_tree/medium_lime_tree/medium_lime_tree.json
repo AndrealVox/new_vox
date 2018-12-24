@@ -1,0 +1,128 @@
+{
+    "mixins": [
+      "stonehearth:mixins:tree",
+      "stonehearth:mixins:align_to_grid"
+   ],
+    "type": "entity",
+    "components": {
+        "model_variants": {
+         "default": {
+            "models": [
+                     "file(medium_lime_tree.qb)"
+                  ]
+         },
+         "summer": {
+            "models": [
+                     "file(medium_lime_tree_summer.qb)"
+                  ]
+         },
+         "spring": {
+            "models": [
+                     "file(medium_lime_tree_spring.qb)"
+                  ]
+         },
+         "winter": {
+            "models": [
+                     "file(medium_lime_tree_winter.qb)"
+                  ]
+         }
+      },
+      "stonehearth:seasonal_model_switcher": {
+         "box_o_vox:biome:boxland": {
+            "spring": "spring",
+            "summer": "summer",
+            "autumn": "default",
+            "winter": "winter"
+         }
+      },
+      "render_info": {
+            "scale": 0.8
+        },
+        "stonehearth:resource_node": {
+            "durability": 4,
+            "resource": "stonehearth:resources:wood:oak_log",
+            "resource_loot_table": {
+                "entries": {
+                    "optional": {
+                        "num_rolls": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "items": {
+                            "none": {
+                                "uri": "",
+                                "weight": 10
+                            },
+                            "pelt": {
+                                "uri": "box_o_vox:entities:trees:lime:sapling",
+                                "weight": 1
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "mob": {
+            "model_origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "region_origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "align_to_grid": [
+            "x",
+            "z"
+         ]
+        },
+        "destination": {
+            "region": [
+                {
+                    "min": {
+                        "x": -2,
+                        "y": 0,
+                        "z": -2
+                    },
+                    "max": {
+                        "x": 2,
+                        "y": 1,
+                        "z": 2
+                    }
+            }
+         ]
+        },
+        "region_collision_shape": {
+            "region": [
+                {
+                    "min": {
+                        "x": -2,
+                        "y": 0,
+                        "z": -2
+                    },
+                    "max": {
+                        "x": 2,
+                        "y": 10,
+                        "z": 2
+                    }
+            }
+         ]
+        }
+    },
+    "entity_data": {
+        "stonehearth:evolve_data": {
+            "next_stage": "box_o_vox:entities:trees:lime:large",
+            "evolve_time": "5d"
+        },
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.trees.lime_tree.medium_lime_tree.display_name)",
+            "description": "i18n(box_o_vox:entities.trees.lime_tree.medium_lime_tree.description)",
+            "subject_override": "box_o_vox:entities:trees:lime:large"
+        },
+        "stonehearth:appeal": {
+            "appeal": 3
+        }
+    }
+}

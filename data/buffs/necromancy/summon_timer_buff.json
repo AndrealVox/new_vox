@@ -1,0 +1,11 @@
+{
+    "type": "buff",
+    "axis": "neutral",
+    "display_name": "i18n(box_o_vox:data.buffs.necromancy.summon_buff.display_name)",
+    "description": "i18n(box_o_vox:data.buffs.necromancy.summon_buff.description)",
+    "icon": "file(summon_buff.png)",
+    "invisible_to_player": false,
+    "duration": "1h",
+    "persistent": true,
+    "script": "box_o_vox:data:buffs:scripts:desummon"
+}

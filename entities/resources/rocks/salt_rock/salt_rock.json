@@ -1,0 +1,36 @@
+{
+    "mixins": "stonehearth:mixins:item_properties",
+    "type": "entity",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
+               "file(salt_rock.qb)"
+            ]
+            }
+        }
+    },
+    "entity_data": {
+        "stonehearth:net_worth": {
+            "value_in_gold": 5,
+            "rarity": "common",
+            "shop_info": {
+                "buyable": true,
+                "sellable": true,
+                "shopkeeper_level": 1,
+                "shopkeeper_type": "caravan"
+            }
+        },
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.resources.salt_rock.salt_rock.display_name)",
+            "description": "i18n(box_o_vox:entities.resources.salt_rock.salt_rock.description)",
+            "icon": "file(salt_rock.png)",
+            "is_item": true,
+            "category": "resources",
+            "material_tags": "stockpile_ore salt_rock ore resource"
+        },
+        "stonehearth:appeal": {
+            "appeal": 2
+        }
+    }
+}

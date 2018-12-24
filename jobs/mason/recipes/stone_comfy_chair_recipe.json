@@ -1,0 +1,26 @@
+{
+    "type": "recipe",
+    "effort": 60,
+    "work_units": 8,
+    "recipe_name": "Stone Comfy Chair",
+    "description": "For sitting!",
+    "flavor": "what else did you think it was for?",
+    "portrait": "/box_o_vox/entities/furniture/stone_comfy_chair/stone_comfy_chair.png",
+    "workshop": "stonehearth:mason:pedestal",
+    "level_requirement": 3,
+    "ingredients": [
+        {
+            "material": "stone resource",
+            "count": 1
+      },
+        {
+            "material": "cloth resource",
+            "count": 1
+      }
+   ],
+    "produces": [
+        {
+            "item": "box_o_vox:entities:furniture:stone_comfy_chair"
+      }
+   ]
+}

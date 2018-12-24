@@ -1,0 +1,23 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(necromancer_tome.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:jobs.necromancer.necromancer_tome.display_name)",
+         "description": "i18n(box_o_vox:jobs.necromancer.necromancer_tome.description)",
+         "icon": "file(necromancer_tome.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": "tool"
+      }
+   }
+}

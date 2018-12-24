@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 2,
+   "recipe_name": "Zombie Miner",
+   "description": "A zombie who will mine for you.",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/monsters/summoned/zombie_miner/zombie_miner.png",
+   "work_effect": "box_o_vox:data:effects:summon_necronomicon",
+   "level_requirement": 7,
+   "ingredients": [
+      {
+         "material": "food meat raw",
+         "count": 2
+      },
+      {
+         "material": "pelt resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:monsters:summoned:zombie_miner"
+      }
+   ]
+}

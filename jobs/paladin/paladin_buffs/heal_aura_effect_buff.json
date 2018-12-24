@@ -1,0 +1,9 @@
+{
+   "type": "buff",
+   "duration": "1m",
+   "script": "stonehearth:buff_scripts:add_health",
+   "effect": "stonehearth:effects:heal_aura_effect",
+   "persistent": false,
+   "invisible_to_player": true,
+   "health_change": 8
+}

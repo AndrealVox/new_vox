@@ -1,0 +1,31 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(pig_feed_ground.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "mob_collision_type": "tiny"
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 6
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.food.pig_feed.pig_feed_ground.display_name)",
+         "description": "i18n(box_o_vox:entities.food.pig_feed.pig_feed_ground.description)",
+         "icon": "file(../pig_feed.png)",
+         "material_tags": "animal_feed pig_feed_edible pig_feed_ground",
+         "subject_override": "box_o_vox:entities:food:pig_feed"
+      },
+      "stonehearth:animal_feed": {
+         "calorie_gain": 30,
+         "effect_loops": 4
+      }
+   }
+}

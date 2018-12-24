@@ -1,0 +1,16 @@
+{
+   "craftable_recipes": {
+      "summons": {
+         "ordinal": 1,
+         "name": "Undead Workers",
+         "recipes": {
+            "skeleton_gatherer": {
+               "recipe": "file(skeleton_gatherer_recipe.json)"
+            },
+            "zombie_miner": {
+               "recipe": "file(zombie_miner_recipe.json)"
+            }
+         }
+      }
+   }
+}

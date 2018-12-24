@@ -1,0 +1,16 @@
+{
+    "type": "ai_pack",
+    "actions": [
+        "box_o_vox:ai:actions:combat:summon:after_cooldown",
+        "box_o_vox:ai:actions:combat:summon:by_pathing_to_target",
+        "box_o_vox:ai:actions:combat:summon:by_moving_to_targetable_location",
+        "box_o_vox:ai:actions:combat:summon:from_current_location",
+        "box_o_vox:ai:actions:combat:summon:execute_summon"
+    ],
+    "observers": [
+        
+    ],
+    "ai_packs": [
+        "stonehearth:ai_pack:combat"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(necromancer_tome.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 20,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:jobs.necromancer.necromancer_tome.necromancer_tome_talisman.display_name)",
+         "description": "i18n(box_o_vox:jobs.necromancer.necromancer_tome.necromancer_tome_talisman.description)",
+         "icon": "file(necromancer_tome.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": "stockpile_tool"
+      }
+   }
+}

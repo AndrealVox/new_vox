@@ -1,0 +1,14 @@
+{
+   "type": "command",
+   "name": "promote_to_job",
+   "display_name": "i18n(box_o_vox:data.commands.promote_to_job.display_name)",
+   "description": "i18n(box_o_vox:data.commands.promote_to_job.description)",
+   "default_enabled": true,
+   "ordinal": 12,
+   "icon": "file(promote_to_job.png)",
+   "action": "fire_event",
+   "event_name": "radiant_promote_to_job",
+   "event_data": {},
+   "visible_to_all_players": false,
+   "hotkey_action": "ui:show_promotion_tree"
+}

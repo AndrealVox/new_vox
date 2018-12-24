@@ -1,0 +1,30 @@
+{
+   "components": {
+      "stonehearth:shepherd_pasture": {
+         "pasture_data": {
+            "box_o_vox:entities:critters:cow": {
+               "name": "i18n(box_o_vox:ui.game.zones_mode.pasture.cow_pasture_name)",
+               "description": "i18n(box_o_vox:ui.game.zones_mode.pasture.cow_pasture_description)",
+               "icon": "/box_o_vox/entities/critters/cow/cow.png",
+               "min_population": 2,
+               "reproduction_uri": "box_o_vox:entities:critters:cow:young",
+               "max_num_per_10_square_unit": 0.4,
+               "base_reproduction_period": "48h",
+               "min_reproduction_period": "12h",
+               "feed_uri": "box_o_vox:entities:food:cow_feed"
+            },
+            "box_o_vox:entities:critters:pig": {
+               "name": "i18n(box_o_vox:ui.game.zones_mode.pasture.pig_pasture_name)",
+               "description": "i18n(box_o_vox:ui.game.zones_mode.pasture.pig_pasture_description)",
+               "icon": "/box_o_vox/entities/critters/pig/pig.png",
+               "min_population": 2,
+               "reproduction_uri": "box_o_vox:entities:critters:pig:young",
+               "max_num_per_10_square_unit": 0.5,
+               "base_reproduction_period": "24h",
+               "min_reproduction_period": "8h",
+               "feed_uri": "box_o_vox:entities:food:pig_feed"
+            }
+         }
+      }
+   }
+}

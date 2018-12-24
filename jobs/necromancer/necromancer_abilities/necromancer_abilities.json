@@ -1,0 +1,42 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "injected_ai": {
+            "actions": [
+               "box_o_vox:ai:actions:combat:flame_skull_attack"
+            ],
+            "ai_packs": [
+               "stonehearth:ai_pack:crafting",
+               "stonehearth:ai_pack:patrolling",
+               "box_o_vox:ai:packs:summoning",
+               "stonehearth:ai_pack:ranged_combat",
+               "stonehearth:ai_pack:wimpy",
+               "stonehearth:ai_pack:panic:flee",
+               "stonehearth:ai_pack:combat_control"
+            ]
+         },
+         "military_score": 25
+      }
+   },
+   "entity_data": {
+      "box_o_vox:combat:summon_spells": [
+         {
+            "name": "combat_summon",
+            "effect": "combat_1h_heal",
+            "active_frame": 41,
+            "cooldown": 8000,
+            "priority": 3
+         }
+      ],
+      "box_o_vox:combat:ranged_spells": [
+         {
+            "name": "combat_spell",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 5000,
+            "priority": 1
+         }
+      ]
+   }
+}

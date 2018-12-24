@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 3,
+   "recipe_name": "i18n(box_o_vox:entities.decoration.boxling_statue.boxling_statue_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.decoration.boxling_statue.boxling_statue_ghost.description)",
+   "portrait": "/box_o_vox/entities/decoration/boxling_statue_2/boxling_statue_2.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:decoration:boxling_statue_2"
+      }
+   ]
+}

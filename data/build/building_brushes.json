@@ -1,0 +1,166 @@
+{
+    "type": "index",
+    "always_available": {
+        "wood resource": {
+            "colors": {
+                "#790000": {
+                    "display_name": "Vox Red 1",
+                    "ordinal": 0.00001
+                },
+                "#940000": {
+                    "display_name": "Vox Red 2",
+                    "ordinal": 0.00002
+                },
+                "#AD0000": {
+                    "display_name": "Vox Red 3",
+                    "ordinal": 0.00003
+                }
+            }
+        },
+        "stone resource": {
+            "colors": {
+                "#344913": {
+                    "display_name": "Vox Green 1",
+                    "ordinal": 0.00009
+                },
+                "#456119": {
+                    "display_name": "Vox Green 2",
+                    "ordinal": 0.00010
+                },
+                "#587A20": {
+                    "display_name": "Vox Green 3",
+                    "ordinal": 0.00011
+                },
+                "#491334": {
+                    "display_name": "Vox Purple 1",
+                    "ordinal": 0.00012
+                },
+                "#611945": {
+                    "display_name": "Vox Purple 2",
+                    "ordinal": 0.00013
+                },
+                "#7A2057": {
+                    "display_name": "Vox Purple 3",
+                    "ordinal": 0.00014
+                },
+                "#133449": {
+                    "display_name": "Vox Blue 1",
+                    "ordinal": 0.00001
+                },
+                "#194561": {
+                    "display_name": "Vox Blue 2",
+                    "ordinal": 0.00002
+                },
+                "#20587A": {
+                    "display_name": "Vox Blue 3",
+                    "ordinal": 0.00003
+                },
+                "#FFFFFF": {
+                    "display_name": "Vox White 1",
+                    "ordinal": 0.00015
+                },
+                "#2B2B2B": {
+                    "display_name": "Vox Gray 1",
+                    "ordinal": 0.00004
+                },
+                "#3C3C3C": {
+                    "display_name": "Vox Gray 2",
+                    "ordinal": 0.00005
+                },
+                "#505050": {
+                    "display_name": "Vox Gray 3",
+                    "ordinal": 0.00006
+                },
+                "#666666": {
+                    "display_name": "Vox Gray 4",
+                    "ordinal": 0.00007
+                },
+                "#7C7C7C": {
+                    "display_name": "Vox Gray 5",
+                    "ordinal": 0.00008
+                }
+            }
+        }
+    },
+    "pattern": {
+        "stone resource": {
+            "patterns": {
+                "box_o_vox:data:build:brushes:pattern:vox_cobblestone": {
+                    "icon": "file(images/vox_cobblestone_pattern.png)",
+                    "display_name": "Vox Cobblestone"
+                }
+            }
+        }
+    },
+    "wall": {
+        "wood resource": {
+            "patterns": {
+                "box_o_vox:data:build:brushes:wall:red_wood_wall": {
+                    "icon": "file(images/red_wood_wall.png)",
+                    "display_name": "Vox Red Pattern"
+                }
+            }
+        },
+        "stone resource": {
+            "patterns": {
+                "box_o_vox:data:build:brushes:wall:blue_stone_wall": {
+                    "icon": "file(images/blue_stone_wall.png)",
+                    "display_name": "Vox Blue Pattern"
+                },
+                "box_o_vox:data:build:brushes:wall:green_stone_wall": {
+                    "icon": "file(images/green_stone_wall.png)",
+                    "display_name": "Vox Green Pattern"
+                },
+                "box_o_vox:data:build:brushes:wall:purple_stone_wall": {
+                    "icon": "file(images/purple_stone_wall.png)",
+                    "display_name": "Vox Purple Pattern"
+                }
+            }
+        }
+    },
+    "roof": {
+        "wood resource": {
+            "patterns": {
+                "box_o_vox:data:build:brushes:roof:vox_red_castle": {
+                    "icon": "file(images/vox_red_castle.png)",
+                    "display_name": "Vox Red",
+                    "type": "flat"
+                }
+            }
+        },
+        "stone resource": {
+            "patterns": {
+                "box_o_vox:data:build:brushes:roof:vox_green_roof": {
+                    "icon": "file(images/vox_green_roof.png)",
+                    "display_name": "Vox Green",
+                    "type": "peaked"
+                },
+                "box_o_vox:data:build:brushes:roof:vox_purple_roof": {
+                    "icon": "file(images/vox_purple_roof.png)",
+                    "display_name": "Vox Purple",
+                    "type": "peaked"
+                },
+                "box_o_vox:data:build:brushes:roof:vox_blue_roof": {
+                    "icon": "file(images/vox_blue_roof.png)",
+                    "display_name": "Vox Blue",
+                    "type": "peaked"
+                },
+                "box_o_vox:data:build:brushes:roof:vox_green_castle": {
+                    "icon": "file(images/vox_green_castle.png)",
+                    "display_name": "Vox Green",
+                    "type": "flat"
+                },
+                "box_o_vox:data:build:brushes:roof:vox_purple_castle": {
+                    "icon": "file(images/vox_purple_castle.png)",
+                    "display_name": "Vox Purple",
+                    "type": "flat"
+                },
+                "box_o_vox:data:build:brushes:roof:vox_blue_castle": {
+                    "icon": "file(images/vox_blue_castle.png)",
+                    "display_name": "Vox Blue",
+                    "type": "flat"
+                }
+            }
+        }
+    }
+}

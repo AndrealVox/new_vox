@@ -1,0 +1,13 @@
+{
+   "type": "command",
+   "name": "skeleton_summon",
+   "display_name": "i18n(box_o_vox:data.commands.necromancer_pages.skeleton_summon.display_name)",
+   "description": "i18n(box_o_vox:data.commands.necromancer_pages.skeleton_summon.description)",
+   "icon": "file(skeleton_page.png)",
+   "action": "call",
+   "function": "stonehearth:swap_equipment",
+   "args": [
+      "accessory",
+      "skeleton"
+   ]
+}

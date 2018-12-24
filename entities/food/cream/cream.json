@@ -1,0 +1,60 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cream.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(rotten_cream.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 4,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 480,
+            "max": 500
+         },
+         "decay_stages": {
+            "decay_1": {
+               "description": "i18n(box_o_vox:stonehearth_mixins.food.food_decay.cream.decay_1.description)"
+            }
+         },
+         "rotten_entity_alias": "box_o_vox:entities:food:rotten:cream"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.food.cream.display_name)",
+         "description": "i18n(box_o_vox:entities.food.cream.description)",
+         "icon": "file(cream.png)",
+         "is_item": true,
+         "category": "cooking_ingredient",
+         "material_tags": "stockpile_cooking_ingredient cooking_ingredient cream"
+      },
+      "stonehearth:appeal": {
+         "appeal": 0
+      }
+   }
+}

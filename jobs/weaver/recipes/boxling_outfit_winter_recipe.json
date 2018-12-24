@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.weaver.recipes.worker_outfit_winter_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.weaver.recipes.worker_outfit_winter_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.weaver.recipes.worker_outfit_winter_recipe.flavor)",
+   "portrait": "/box_o_vox/jobs/worker/winter_boxling_outfit/winter_boxling_outfit.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "cloth resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:resources:fiber:wool_bundle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:jobs:worker:winter_boxling_outfit"
+      }
+   ]
+}

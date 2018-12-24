@@ -1,0 +1,11 @@
+{
+    "type": "entity",
+    "components": {
+        "stonehearth:equipment_piece": {}
+    },
+    "entity_data": {
+        "box_o_vox:summon_data": {
+            "summon_uri": "box_o_vox:entities:summon:bone_wolf_big"
+        }
+    }
+}

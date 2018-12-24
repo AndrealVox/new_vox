@@ -1,0 +1,12 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:ore_block": {}
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.terrain.ui.clay_mound.display_name)",
+         "description": "i18n(box_o_vox:entities.terrain.ui.clay_mound.description)"
+      }
+   }
+}

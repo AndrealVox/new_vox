@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Damage Reduction Rank 3",
+   "description": "Defense gained from equipment increased by 30%",
+   "icon": "file(paladin_buff_def_up_1.png)",
+   "modifiers": {
+      "multiplicative_armor_modifier": {
+         "add": 0.3
+      }
+   }
+}

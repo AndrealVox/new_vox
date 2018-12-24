@@ -1,0 +1,24 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 2,
+   "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.energy_tonic_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.energy_tonic_recipe.description)",
+   "flavor": "2 for the price of 1",
+   "portrait": "/stonehearth/entities/consumables/energy_tonic/energy_tonic.png",
+   "work_effect": "box_o_vox:data:effects:summon_potions",
+   "ingredients": [
+      {
+         "material": "herb resource",
+         "count": 4
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:consumables:energy_tonic"
+      },
+      {
+         "item": "stonehearth:consumables:energy_tonic"
+      }
+   ]
+}

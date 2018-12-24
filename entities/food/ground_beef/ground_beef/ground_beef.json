@@ -1,0 +1,54 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(ground_beef.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0.05
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 10
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "box_o_vox:entities:food:ground_beef:ground_beef_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 20,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.food.ground_beef.ground_beef.display_name)",
+         "description": "i18n(box_o_vox:entities.food.ground_beef.ground_beef.description)",
+         "icon": "file(ground_beef.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": "food_container prepared_food ground_beef stockpile_prepared_food meat"
+      },
+      "stonehearth:appeal": {
+         "appeal": 3
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

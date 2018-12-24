@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth/scenarios/static/landmarks/qb_to_terrain.json",
+   "biomes": ["box_o_vox:biome:boxland"],
+   "name": "boxling_mountain_3",
+   "category": "terrain_feature_common",
+   "unique": true,
+   "size": {
+      "width": 216,
+      "length": 136
+   },
+   "habitat_types": [
+      "forest",
+      "plains"
+   ],
+   "overwrite_occupied_size": 10,
+   "weight": 13,
+   "data": {
+      "brush": "box_o_vox:landmark:boxling_mountain_3",
+      "brush_mask": "box_o_vox:landmark:boxling_mountain_3",
+      "landmark_block_types": "box_o_vox:data:terrain:landmark_blocks"
+   }
+}

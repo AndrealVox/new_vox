@@ -1,0 +1,39 @@
+{
+   "type": "index",
+   "constants": {
+      "game_creation": {
+         "num_starting_citizens": 8
+      },
+
+      "soil_fertility": {
+         "MIN": 40,
+         "MAX": 80,
+         "VARIATION": 20
+      },
+
+      "farming": {
+         "MAX_RELEVANT_FARMERS": 2,
+         "MAX_RELEVANT_DISTANCE": 600,
+         "COMPETITION_WEIGHT": 0.8,
+         "DISTANCE_WEIGHT": 0.2
+      },
+
+      "food_qualities": {
+         "UNPALATABLE": 0,
+         "MINIMUM_VIABLE": 1,
+         "RAW_BLAND": 1,
+         "RAW_AVERAGE": 2,
+         "RAW_TASTY": 3,
+         "TASTY": 4,
+         "COOKED_BLAND": 5,
+         "COOKED_AVERAGE": 6,
+         "COOKED_TASTY": 7,
+         "MAXIMUM": 7
+      },
+
+      "mining": {
+         "MAX_LENGTH": 100
+      }
+
+   }
+}

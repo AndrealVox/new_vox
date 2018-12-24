@@ -1,0 +1,10 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "icon": "file(paladin_buff_shout.png)",
+   "duration": "12m",
+   "repeat_add_action": "renew_duration",
+   "persistent": false,
+   "effect": "stonehearth:effects:thoughts:alert",
+   "invisible_to_player": true
+}

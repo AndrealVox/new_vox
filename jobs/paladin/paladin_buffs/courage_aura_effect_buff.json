@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Inspired",
+   "description": "Courage increased from the presence of a paladin.",
+   "icon": "file(paladin_buff_is_inspired.png)",
+   "duration": "12m",
+   "repeat_add_action": "renew_duration",
+   "persistent": false,
+   "modifiers": {
+      "courage": {
+         "add": 50
+      }
+   }
+}

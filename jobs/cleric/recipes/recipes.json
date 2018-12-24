@@ -1,0 +1,28 @@
+{
+   "craftable_recipes": {
+      "tools": {
+         "ordinal": 1,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.tools_name)",
+         "recipes": {
+            "necromancer_tome": {
+               "recipe": "file(necromancer_tome_recipe.json)"
+            },
+            "paladins_shield": {
+               "recipe": "file(paladins_shield_recipe.json)"
+            }
+         }
+      },
+      "tonics": {
+         "ordinal": 2,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.tonics_name)",
+         "recipes": {
+            "small_herbal_tonic": {
+               "recipe": "file(small_healing_tonic_recipe.json)"
+            },
+            "energy_tonic": {
+               "recipe": "file(energy_tonic_recipe.json)"
+            }
+         }
+      }
+   }
+}

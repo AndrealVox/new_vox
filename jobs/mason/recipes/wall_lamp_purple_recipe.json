@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 14,
+   "work_units": 5,
+   "recipe_name": "i18n(box_o_vox:entities.decoration.craftsman_statue.wall_lamp_purple.wall_lamp_purple_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.decoration.craftsman_statue.wall_lamp_purple.wall_lamp_purple_ghost.description)",
+   "flavor": "The perfect source of light to accent your walls.",
+   "portrait": "/box_o_vox/entities/decoration/wall_lamp_purple/wall_lamp_purple.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:decoration:wall_lamp_purple"
+      }
+   ]
+}

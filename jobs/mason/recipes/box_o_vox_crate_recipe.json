@@ -1,0 +1,38 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 2,
+   "recipe_name": "i18n(box_o_vox:entities.containers.box_o_vox_crate.box_o_vox_crate_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.containers.box_o_vox_crate.box_o_vox_crate_ghost.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/containers/box_o_vox_crate/box_o_vox_crate.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "box_o_vox:entities:containers:resources_crate",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:containers:food_crate",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:containers:furniture_crate",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:containers:equipment_crate",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:containers:treasure_crate",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:containers:box_o_vox_crate"
+      }
+   ]
+}

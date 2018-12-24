@@ -1,0 +1,15 @@
+{
+   "mixins": [
+      "file(skeleton_gatherer_ghost.json)",
+      "stonehearth:mixins:placed_object"
+   ],
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Skeleton Gatherer",
+         "description": "A skeleton that will restock items.",
+         "icon": "file(skeleton_gatherer_auto.png)",
+         "category": "tools",
+         "material_tags": "stone crafted stockpile_tool"
+      }
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "mixins": "stonehearth/scenarios/static/terrain/ore_vein",
+   "name": "clay_mound",
+   "kind": "clay_mound",
+   "weight": 75,
+   "habitat_types": [
+       "mountains",
+       "foothills"
+    ]
+}

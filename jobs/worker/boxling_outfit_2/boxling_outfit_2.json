@@ -1,0 +1,55 @@
+{
+   "mixins": "stonehearth:mixins:worker_outfit_2",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(boxling_outfit_2.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(boxling_outfit_2_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(boxling_outfit_2_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model",
+         "roles": "worker_job",
+         "ilevel": 1,
+         "injected_buffs": [
+            "stonehearth:buffs:devoted"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 21,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 8
+      },
+      "stonehearth:catalog": {
+         "icon": "file(boxling_outfit_2.png)",
+         "category": "armor",
+         "material_tags": "worker_outfit cloth boxling_made stockpile_equipment"
+      }
+   }
+}

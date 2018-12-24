@@ -1,0 +1,18 @@
+{
+   "type": "monster_tuning",
+   "estimated_difficulty": 6,
+   "attributes": {
+      "max_health": 1000,
+      "muscle": 0,
+      "menace": 70,
+      "courage": 100,
+      "speed": 40,
+      "additive_armor_modifier": 3,
+      "exp_reward": 150
+   },
+   "equipment": {
+      "weapon": [
+         "stonehearth:weapons:iron_mace"
+      ]
+   }
+}

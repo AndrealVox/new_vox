@@ -1,0 +1,39 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cook_spoon.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      },
+      "stonehearth:promotion_talisman": {
+         "job": "stonehearth:jobs:cook"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 15,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.cook.cook_spoon.cook_spoon_talisman.display_name)",
+         "description": "i18n(stonehearth:jobs.cook.cook_spoon.cook_spoon_talisman.description)",
+         "icon": "file(cook_spoon.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": "stockpile_tool"
+      }
+   }
+}

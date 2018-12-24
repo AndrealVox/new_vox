@@ -1,0 +1,79 @@
+{
+    "type": "index",
+    "stockpile": {
+        "cooking_ingredients": {
+            "display_name": "i18n(betterstorage:filters.cooking_ingredients)",
+            "filter": "cooking_ingredients",
+            "ordinal": 11,
+            "categories": {
+                "cheese": {
+                    "ordinal": 8,
+                    "display_name": "i18n(box_o_vox:entities.food.cheese.display_name)",
+                    "icon": "/box_o_vox/entities/food/cheese/cheese.png",
+                    "filter": "stockpile_cooking_ingredient cheese"
+                },
+                "cream": {
+                    "ordinal": 9,
+                    "display_name": "i18n(box_o_vox:entities.food.cream.display_name)",
+                    "icon": "/box_o_vox/entities/food/cream/cream.png",
+                    "filter": "stockpile_cooking_ingredient cream"
+                },
+                "dough": {
+                    "ordinal": 10,
+                    "display_name": "i18n(box_o_vox:entities.food.dough.display_name)",
+                    "icon": "/box_o_vox/entities/food/dough/dough.png",
+                    "filter": "stockpile_cooking_ingredient dough"
+                },
+                "milk": {
+                    "ordinal": 11,
+                    "display_name": "i18n(box_o_vox:entities.food.milk.display_name)",
+                    "icon": "/box_o_vox/entities/food/milk/milk.png",
+                    "filter": "stockpile_cooking_ingredient milk"
+                },
+                "pepper": {
+                    "ordinal": 12,
+                    "display_name": "i18n(box_o_vox:entities.food.pepper.display_name)",
+                    "icon": "/box_o_vox/entities/food/pepper/pepper.png",
+                    "filter": "stockpile_cooking_ingredient pepper"
+                },
+                "peppercorn": {
+                    "ordinal": 13,
+                    "display_name": "i18n(box_o_vox:entities.food.peppercorn.display_name)",
+                    "icon": "/box_o_vox/entities/food/peppercorn/peppercorn.png",
+                    "filter": "stockpile_cooking_ingredient peppercorn"
+                },
+                "pepperoni": {
+                    "ordinal": 14,
+                    "display_name": "i18n(box_o_vox:entities.food.pepperoni.display_name)",
+                    "icon": "/box_o_vox/entities/food/pepperoni/pepperoni.png",
+                    "filter": "stockpile_cooking_ingredient pepperoni"
+                },
+                "salt": {
+                    "ordinal": 15,
+                    "display_name": "i18n(box_o_vox:entities.food.salt.display_name)",
+                    "icon": "/box_o_vox/entities/food/salt/salt.png",
+                    "filter": "stockpile_cooking_ingredient salt"
+                }
+            }
+        },
+        "animal_feed": {
+            "display_name": "i18n(betterstorage:filters.animal_feed)",
+            "filter": "animal_feed",
+            "ordinal": 12,
+            "categories": {
+                "cow_feed": {
+                    "ordinal": 4,
+                    "display_name": "i18n(box_o_vox:entities.food.cow_feed.display_name)",
+                    "icon": "/box_o_vox/entities/food/cow_feed/cow_feed.png",
+                    "filter": "stockpile_cooking_ingredient animal_feed cow_feed"
+                },
+                "pig_feed": {
+                    "ordinal": 5,
+                    "display_name": "i18n(box_o_vox:entities.food.pig_feed.display_name)",
+                    "icon": "/box_o_vox/entities/food/pig_feed/pig_feed.png",
+                    "filter": "stockpile_cooking_ingredient animal_feed pig_feed"
+                }
+            }
+        }
+    }
+}

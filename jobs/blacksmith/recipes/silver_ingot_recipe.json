@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 25,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.silver_ingot_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.silver_ingot_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.silver_ingot_recipe.flavor)",
+   "portrait": "/stonehearth/entities/refined/silver_ingot/silver_ingot.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "uri": "stonehearth:resources:silver:ore",
+         "count": 2
+      },
+      {
+         "material": "fuel resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:refined:silver_ingot"
+      }
+   ]
+}

@@ -1,0 +1,13 @@
+{
+   "type": "command",
+   "name": "golem_kid_summon",
+   "display_name": "i18n(box_o_vox:data.commands.necromancer_pages.golem_kid_summon.display_name)",
+   "description": "i18n(box_o_vox:data.commands.necromancer_pages.golem_kid_summon.description)",
+   "icon": "file(golem_kid_page.png)",
+   "action": "call",
+   "function": "stonehearth:swap_equipment",
+   "args": [
+      "accessory",
+      "golem_kid"
+   ]
+}

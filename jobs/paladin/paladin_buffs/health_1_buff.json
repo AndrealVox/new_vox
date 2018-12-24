@@ -1,0 +1,21 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Fortify (Rank 3)",
+   "description": "The paladin becomes more menacing to enemies, drawing their attention in combat. They also get a health and stamina bonus to keep up.",
+   "icon": "file(paladin_buff_fortify.png)",
+   "modifiers": {
+      "stamina": {
+         "add": 150
+      },
+      "menace": {
+         "add": 150
+      },
+      "max_health": {
+         "add": 50
+      },
+      "courage": {
+         "add": 100
+      }
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "mixins": "stonehearth:trapper:trapping_grounds",
+   "components": {
+      "stonehearth:trapping_grounds": {
+         "trappable_animal_weights": {
+            "critters": {
+               "stonehearth:rabbit": 0,
+               "stonehearth:racoon": 0,
+               "stonehearth:red_fox_wolf": 0,
+               "stonehearth:squirrel": 0,
+               "box_o_vox:entities:critters:rabbit": 400
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,59 @@
+{
+   "template_tabs": {
+      "boxling": {
+         "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.display_name)",
+         "required_kingdom": "box_o_vox:server:population:data:kingdoms:boxling",
+         "categories": {
+            "camp": {
+               "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.camp)",
+               "ordinal": 1,
+               "templates": {
+                  "blacksmith_workshop": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:blacksmith"
+                     },
+                     "file": "file(building_templates/blacksmith_workshop.json)"
+                  },
+                  "carpenter_workshop": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:carpenter"
+                     },
+                     "file": "file(building_templates/carpenter_workshop.json)"
+                  },
+                  "cook_workshop": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:cook"
+                     },
+                     "file": "file(building_templates/cook_workshop.json)"
+                  },
+                  "mason_workshop": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:mason"
+                     },
+                     "file": "file(building_templates/mason_workshop.json)"
+                  },
+                  "weaver_workshop": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:weaver"
+                     },
+                     "file": "file(building_templates/weaver_workshop.json)"
+                  }
+               }
+            },
+            "town": {
+               "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.town)",
+               "ordinal": 2,
+               "required_city_tier": 2,
+               "templates": {
+
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,98 @@
+{
+   "type": "kingdom",
+   "kingdom_name": "Summon",
+   "kingdom_id": "summon",
+   "amenity_to_strangers": "hostile",
+   "roles": {
+      "skeleton": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:undead:skeleton"
+            ],
+            "given_names": [
+               "Steve"
+            ]
+         },
+         "surnames": [
+            "the Skeleton"
+         ]
+      },
+      "bone_wolf": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:undead:wolf_skeleton"
+            ],
+            "given_names": [
+               "Steve"
+            ]
+         },
+         "surnames": [
+            "the Bone Wolf"
+         ]
+      },
+      "zombie": {
+         "male": {
+            "uri": [
+               "box_o_vox:entities:summon:undead:zombie"
+            ],
+            "given_names": [
+               "Steve"
+            ]
+         },
+         "surnames": [
+            "the Zombie"
+         ]
+      },
+      "golem_kid": {
+         "male": {
+            "uri": [
+               "box_o_vox:entities:summon:undead:golem_kid"
+            ],
+            "given_names": [
+               "Steve"
+            ]
+         },
+         "surnames": [
+            "the Golem Kid"
+         ]
+      },
+      "golem": {
+         "male": {
+            "uri": [
+               "box_o_vox:entities:summon:undead:golem"
+            ],
+            "given_names": [
+               "Steve"
+            ]
+         },
+         "surnames": [
+            "the Golem"
+         ]
+      },
+      "necromancer": {
+         "male": {
+            "uri": [
+               "box_o_vox:entities:summon:undead:necromancer"
+            ],
+            "given_names": [
+               "Steve"
+            ]
+         },
+         "surnames": [
+            "the Necromancer"
+         ]
+      }
+   },
+   "town_pieces": {
+      "optional_prefix": [
+         "1"
+      ],
+      "town_name": [
+         "2"
+      ],
+      "suffix": [
+         "3"
+      ]
+   },
+   "task_groups": "stonehearth:data:humanoid_task_groups"
+}

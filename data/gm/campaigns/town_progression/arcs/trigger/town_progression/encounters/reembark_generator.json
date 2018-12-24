@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "reembark_generator",
+   "generator_info": {
+      "delay": "30d",
+      "spawn_edge": "reembark"
+   }
+}

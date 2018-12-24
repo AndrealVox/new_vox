@@ -1,0 +1,33 @@
+{
+   "type": "recipe",
+   "effort": 100,
+   "work_units": 2,
+   "recipe_name": "i18n(box_o_vox:jobs.cook.recipes.banana_cream_pie_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.cook.recipes.banana_cream_pie_recipe.description)",
+   "portrait": "/box_o_vox/entities/food/banana_cream_pie/banana_cream_pie/banana_cream_pie.png",
+   "level_requirement": 3,
+   "workshop": "stonehearth:cook:oven",
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:flour",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:egg",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:food:banana:banana",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:entities:food:cream",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:food:banana_cream_pie"
+      }
+   ]
+}

@@ -1,0 +1,41 @@
+{
+   "type": "encounter",
+   "encounter_type": "town_upgrade_choice",
+   "in_edge": "shrine_choice",
+   "can_start": {
+      "all_tests": {
+         "unique": {
+            "type": "deny_if_greater_than",
+            "item": "number_active",
+            "end_node": "shrine_abandon",
+            "start_node": "shrine_choice",
+            "value": 0
+         }
+      }
+   },
+   "town_upgrade_choice_info": {
+      "choices": {
+         "deity": {
+            "name": "i18n(northern_alliance:entities.decoration.shrine_stag.shrine_stag.display_name)",
+            "description": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_choice.deity.description)",
+            "icon": "/northern_alliance/entities/decoration/shrine_stag/shrine_stag.png",
+            "sort_order": 0,
+            "out_edge": "shrine_quest_deity"
+         },
+         "guildmaster": {
+            "name": "i18n(northern_alliance:entities.decoration.shrine_hare.shrine_hare.display_name)",
+            "description": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_choice.guildmaster.description)",
+            "icon": "/northern_alliance/entities/decoration/shrine_hare/shrine_hare.png",
+            "sort_order": 1,
+            "out_edge": "shrine_quest_guildmaster"
+         },
+         "valor": {
+            "name": "i18n(northern_alliance:entities.decoration.shrine_wolf.shrine_wolf.display_name)",
+            "description": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_choice.valor.description)",
+            "icon": "/northern_alliance/entities/decoration/shrine_wolf/shrine_wolf.png",
+            "sort_order": 2,
+            "out_edge": "shrine_quest_valor"
+         }
+      }
+   }
+}

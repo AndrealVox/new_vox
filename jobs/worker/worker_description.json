@@ -1,0 +1,9 @@
+{
+   "mixin": "stonehearth:jobs:worker",
+   "equipment": {
+      "torso": "file(boxling_outfit)",
+      "mainhand": [
+         "box_o_vox:entities:tools:boxling_sceptre"
+      ]
+   }
+}

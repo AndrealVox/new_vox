@@ -1,0 +1,37 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(strawberry_serving.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.03
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 28
+         },
+         "default": {
+            "satisfaction": 24
+         },
+         "quality": 4
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.plants.strawberry.strawberry_serving.display_name)",
+         "description": "i18n(box_o_vox:entities.plants.strawberry.strawberry_serving.description)",
+         "material_tags": "food vegetarian",
+         "subject_override": "box_o_vox:entities:crops:strawberry_crop"
+      }
+   }
+}

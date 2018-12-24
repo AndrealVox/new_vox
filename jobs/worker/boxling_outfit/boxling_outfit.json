@@ -1,0 +1,36 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:worker_outfit",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(boxling_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(boxling_outfit_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model",
+         "roles": "worker_job",
+         "ilevel": 0
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 6
+      },
+      "stonehearth:catalog": {
+         "icon": "file(boxling_outfit.png)"
+      }
+   }
+}

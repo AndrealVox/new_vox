@@ -1,0 +1,116 @@
+{
+   "mixins": "box_o_vox:mixins:base_human",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "model_variant": "female",
+         "animation_table": "stonehearth:skeletons:humanoid:female"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(head.qb)",
+               "file(body.qb)",
+               "file(eyes.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:customization_variants": {
+         "customization_options": "box_o_vox:entities:humans:female:customizations",
+         "root": {
+            "hair_and_skin_color": {
+               "weights": {
+                  "hair_and_skin_color": 1
+               }
+            },
+            "hair_model": {
+               "weights": {
+                  "hair_model": 1
+               }
+            }
+         },
+         "packages": {
+            "hair_and_skin_color": {
+               "hair_color": {
+                  "weights": {
+                     "black": 3,
+                     "brown": 3,
+                     "red": 1,
+                     "sandy": 1,
+                     "blonde": 1,
+                     "platinum": 1,
+                     "vox_blue": 1,
+                     "vox_red": 1,
+                     "vox_purple": 1,
+                     "vox_brown": 1,
+                     "vox_green": 1
+                  }
+               },
+               "skin_color": {
+                  "weights": {
+                     "white": 1,
+                     "brown_1": 1,
+                     "brown_2": 1,
+                     "vox_demon": 0.2,
+                     "vox_smurf": 0.1
+                  }
+               },
+               "eye_color": {
+                  "weights": {
+                     "blue": 1,
+                     "brown": 1,
+                     "green": 1,
+                     "hazel": 1,
+                     "aqua": 1,
+                     "black": 1,
+                     "blurple": 1,
+                     "red": 1,
+                     "magenta": 1,
+                     "yellow": 1
+                  }
+               }
+            },
+            "hair_model": {
+               "head_accessory": {
+                  "weights": {
+                     "[none]": 1,
+                     "vox_glasses_0": 1,
+                     "vox_horns_0": 1,
+                     "vox_horns_1": 1,
+                     "vox_goggles_0": 1,
+                     "vox_hat_0": 0.1
+                  }
+               },
+               "eyebrows": {
+                  "weights": {
+                     "[none]": 1,
+                     "straight_eyebrows": 1
+                  }
+               },
+               "facial_hair": {
+                  "weights": {
+                     "[none]": 1,
+                     "vox_beard_1": 0
+                  }
+               },
+               "head_hair": {
+                  "weights": {
+                     "female_hair_1": 1,
+                     "female_hair_2": 1,
+                     "female_hair_3": 1,
+                     "female_hair_4": 1,
+                     "female_hair_5": 1,
+                     "female_hair_6": 1,
+                     "female_hair_7": 1,
+                     "vox_head_kaia": 1,
+                     "vox_head_rose": 1,
+                     "vox_head_sprainy": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

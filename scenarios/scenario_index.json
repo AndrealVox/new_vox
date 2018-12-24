@@ -1,0 +1,27 @@
+{
+   "static": {
+      "scenarios": [
+         "file(static/terrain/salt_rock_vein)",
+         "file(static/terrain/clay_mound_vein)",
+
+         "file(static/landmarks/boxling_mountain.json)",
+         "file(static/landmarks/boxling_mountain_2.json)",
+         "file(static/landmarks/boxling_mountain_3.json)"
+
+      ],
+      "categories": {
+         "terrain": {
+            "density": 18
+         },
+         "wildlife": {
+            "density": 4
+         },
+         "ruins": {
+            "density": 0.25
+         },
+         "ore": {
+            "density": 8
+         }
+      }
+   }
+}
