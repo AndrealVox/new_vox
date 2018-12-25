@@ -1,0 +1,25 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "validate_caribou",
+   "out_edge": "caribou_hunt",
+   "can_start": {
+      "test_1": {
+         "number_active_check": {
+            "item": "number_active",
+            "type": "deny_if_greater_than",
+            "value": 2,
+            "start_node": "caribou_hunt",
+            "end_node": "caribou_killed"
+         },
+         "biome_check": {
+            "type": "deny_if_not",
+            "item": "biome",
+            "value": "stonehearth:biome:arctic"
+         }
+      }
+   },
+   "wait_info": {
+      "duration": "3h+3h"
+   }
+}

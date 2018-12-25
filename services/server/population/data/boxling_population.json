@@ -15,6 +15,9 @@
    "job_index": "box_o_vox:jobs:index",
    "inventory_capacity_equation": "math.max(num_citizens * 420, 9001)",
    "default_material": "stone resource",
+   "amenity_to": {
+      "animals": "hostile"
+   },
    "ordinal": 2.0001,
    "roles": {
       "default": {

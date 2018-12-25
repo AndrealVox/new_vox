@@ -1,0 +1,45 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_mission",
+   "rarity": "common",
+   "in_edge": "hungry_rabbit_raid",
+   "out_edge": "cleanup_hungry_rabbit",
+   "create_mission_info": {
+      "spawn_range": {
+         "min": 50,
+         "max": 100
+      },
+      "on_searcher_failure": {
+         "destroy_tree": {
+            "root": "validate_hungry_rabbits",
+            "destroy_root": true
+         }
+      },
+      "mission": {
+         "npc_player_id": "animals",
+         "ctx_entity_registration_path": "hungry_rabbit_raid",
+         "role": "raid_crops",
+         "offset": { "x": 0, "y": 0, "z": 0 },
+         "spawn_range": {
+            "min": 120,
+            "max": 180
+         },
+         "sighted_bulletin": {
+            "title": "i18n(northern_alliance:data.gm.campaigns.hunting.hungry_rabbit_raid)",
+            "active_duration": "2h"
+         },
+         "members": {
+            "rabbits": {
+               "from_population": {
+                  "role": "rabbit",
+                  "location": { "x": 0, "z": 0 },
+                  "min": 3,
+                  "max": 6,
+                  "range": 5
+               },
+               "combat_leash_range": 50
+            }
+         }
+      }
+   }
+}

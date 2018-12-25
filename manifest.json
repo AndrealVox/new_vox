@@ -1,9 +1,9 @@
 {
    "info": {
       "name": "Box O' Vox 2.0",
-      "namespace": "box_o_vox",
+      "namespace": "_box_o_vox",
       "version": 3,
-      "steam_file_id": "1359693360"
+      "steam_file_id": "_1359693360"
    },
    "server_init_script": "file(box_o_vox_server)",
    "client_init_script": "file(box_o_vox_client)",
@@ -255,7 +255,6 @@
       "jobs:recipes:mason": "file(jobs/mason/recipes/recipes.json)",
       "jobs:recipes:weaver": "file(jobs/weaver/recipes/recipes.json)",
       "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
-      "jobs:trapper": "file(jobs/trapper_description)",
       "jobs:trapper:trapping_grounds": "file(jobs/trapper/trapping_grounds/trapping_grounds.json)",
       "jobs:worker": "file(jobs/worker/worker_description.json)",
       "jobs:worker:boxling_outfit": "file(jobs/worker/boxling_outfit)",

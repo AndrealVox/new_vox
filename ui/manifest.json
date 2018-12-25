@@ -8,8 +8,9 @@
    "aliases": {},
    "mixintos": {
       "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
-      "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)",
-      "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index"
+      "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index",
+
+      "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)"
    },
    "overrides": {
       "stonehearth/ui/game/start_menu/images/dock.png": "file(start_menu/dock.png)",
@@ -22,8 +23,8 @@
       "stonehearth/ui/root/css/images/gui/title.png": "file(gui/title.png)",
       "stonehearth/ui/root/css/images/gui/well.png": "file(gui/well.png)",
       "stonehearth/ui/root/css/images/gui/well2.png": "file(gui/well2.png)",
-      "stonehearth/ui/root/css/images/gui/inner_tab.png": "file(gui/tab.png)",
-      "stonehearth/ui/root/css/images/gui/inner_tab_active.png": "file(gui/tab_active.png)",
+      "stonehearth/ui/root/css/images/gui/tab.png": "file(gui/tab.png)",
+      "stonehearth/ui/root/css/images/gui/tab_active.png": "file(gui/tab_active.png)",
       "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json": "box_o_vox/entities/gizmos/camp_standard/camp_standard_ghost.json",
       "stonehearth/ui/game/create_camp/create_camp.less": "file(game/create_camp/create_camp.less)",
       "stonehearth/ui/game/create_camp/images/banner.png": "file(game/create_camp/images/banner.png)"

@@ -1,0 +1,24 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "generate_daily_hunt",
+   "generator_info": {
+      "delay": "24h+6h",
+      "game_mode_tuning": true,
+      "spawn_edge": {
+         "type": "trigger_one",
+         "out_edges": [
+            {
+               "out_edge": "randomize_daily_hunt",
+               "type": "weighted_edge",
+               "weight": 3
+            },
+            {
+               "out_edge": "do_nothing",
+               "type": "weighted_edge",
+               "weight": 1
+            }
+         ]
+      }
+   }
+}

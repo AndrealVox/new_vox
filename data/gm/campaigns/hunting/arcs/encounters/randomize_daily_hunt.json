@@ -1,0 +1,45 @@
+{
+   "type": "encounter",
+   "encounter_type": "none",
+   "in_edge": "randomize_daily_hunt",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         {
+            "out_edge": "validate_hungry_rabbits",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
+            "out_edge": "validate_hungry_deer",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
+            "out_edge": "validate_hungry_caribou",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
+            "out_edge": "validate_rabbits",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
+            "out_edge": "validate_deer",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
+            "out_edge": "validate_caribou",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
+            "out_edge": "validate_boar",
+            "type": "weighted_edge",
+            "weight": 4
+         }
+      ]
+   }
+}

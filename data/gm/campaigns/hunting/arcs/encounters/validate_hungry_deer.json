@@ -1,0 +1,31 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "validate_hungry_deer",
+   "out_edge": "hungry_deer_raid",
+   "can_start": {
+      "test_1": {
+         "number_active_check": {
+            "item": "number_active",
+            "type": "deny_if_greater_than",
+            "value": 2,
+            "start_node": "hungry_deer_raid",
+            "end_node": "hungry_deer_raid"
+         },
+         "farms_exist": {
+            "type": "deny_if_not",
+            "item": "script",
+            "script": "file(has_raidable_farms.lua)",
+            "value": true
+         },
+         "biome_check": {
+            "type": "deny_if_not",
+            "item": "biome",
+            "value": "stonehearth:biome:temperate"
+         }
+      }
+   },
+   "wait_info": {
+      "duration": "3h+3h"
+   }
+}

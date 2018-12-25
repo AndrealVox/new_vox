@@ -1,0 +1,31 @@
+{
+   "type": "arc",
+   "rarity": "common",
+   "encounters": {
+      "wait_for_day_two": "file(encounters/wait_for_day_two.json)",
+      "generate_daily_hunt": "file(encounters/generate_daily_hunt.json)",
+      "randomize_daily_hunt": "file(encounters/randomize_daily_hunt.json)",
+      "validate_rabbits": "file(encounters/validate_rabbits.json)",
+      "rabbit_hunt": "file(encounters/rabbit_hunt.json)",
+      "cleanup_rabbits": "file(encounters/cleanup_rabbits.json)",
+      "validate_deer": "file(encounters/validate_deer.json)",
+      "deer_hunt": "file(encounters/deer_hunt.json)",
+      "cleanup_deer": "file(encounters/cleanup_deer.json)",
+      "validate_hungry_rabbits": "file(encounters/validate_hungry_rabbits.json)",
+      "rabbit_raid": "file(encounters/hungry_rabbit_raid.json)",
+      "validate_hungry_deer": "file(encounters/validate_hungry_deer.json)",
+      "hungry_deer_raid": "file(encounters/hungry_deer_raid.json)",
+      "validate_boar": "file(encounters/validate_boar.json)",
+      "boar_hunt": "file(encounters/boar_hunt.json)",
+      "cleanup_boar": "file(encounters/cleanup_boar.json)",
+      "validate_hungry_caribou": "file(encounters/validate_hungry_caribou.json)",
+      "hungry_caribou_raid": "file(encounters/hungry_caribou_raid.json)",
+      "validate_caribou": "file(encounters/validate_caribou.json)",
+      "caribou_hunt": "file(encounters/caribou_hunt.json)",
+      "cleanup_caribou": "file(encounters/cleanup_caribou.json)",
+      "cleanup_hungry_caribou": "file(encounters/cleanup_hungry_caribou.json)",
+      "cleanup_hungry_deer": "file(encounters/cleanup_hungry_deer.json)",
+      "cleanup_hungry_rabbit": "file(encounters/cleanup_hungry_rabbit.json)",
+      "do_nothing": "file(encounters/do_nothing.json)"
+   }
+}
