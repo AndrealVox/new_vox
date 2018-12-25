@@ -1,9 +1,9 @@
 {
    "info": {
       "name": "Box O' Vox 2.0",
-      "namespace": "_box_o_vox",
+      "namespace": "box_o_vox",
       "version": 3,
-      "steam_file_id": "_1359693360"
+      "steam_file_id": "1359693360"
    },
    "server_init_script": "file(box_o_vox_server)",
    "client_init_script": "file(box_o_vox_client)",
@@ -33,7 +33,6 @@
       "buffs:paladin:taunted_effect": "file(jobs/paladin/paladin_buffs/taunted_effect_buff.json)",
 
       "camp_standard": "file(entities/gizmos/camp_standard)",
-
 
       "data:buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
       "data:buffs:summon_timer": "file(data/buffs/necromancy/summon_timer_buff.json)",
@@ -92,7 +91,6 @@
       "data:weather:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist.json)",
       "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
       "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)",
-
 
       "entities:abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
       "entities:containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
