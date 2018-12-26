@@ -306,51 +306,6 @@
    },
    "landscape": {
       "placement_table": {
-         "stonehearth:trees:pine:small": {
-            "placement_type": "dense",
-            "parameters": {
-               "grid_multiple": 2,
-               "item_density": 0.5,
-               "exclusion_radius": 2
-            },
-            "mountains": {
-               "placement_type": "single",
-               "parameters": {
-                  "ground_radius": 0,
-                  "exclusion_radius": 3
-               }
-            }
-         },
-         "stonehearth:trees:pine:medium": {
-            "placement_type": "single",
-            "parameters": {
-               "ground_radius": 1,
-               "exclusion_radius": 4
-            }
-         },
-         "stonehearth:trees:pine:large": {
-            "placement_type": "single",
-            "parameters": {
-               "ground_radius": 2,
-               "exclusion_radius": 5
-            }
-         },
-         "stonehearth:plants:brightbell": {
-            "placement_type": "dense",
-            "parameters": {
-               "grid_multiple": 2,
-               "item_density": 0.2,
-               "exclusion_radius": 1
-            }
-         },
-         "stonehearth:plants:frostsnap": {
-            "placement_type": "dense",
-            "parameters": {
-               "grid_multiple": 3,
-               "item_density": 0.2,
-               "exclusion_radius": 1
-            }
-         },
          "stonehearth:plants:silkweed": {
             "placement_type": "dense",
             "parameters": {
@@ -365,31 +320,6 @@
                "grid_multiple": 4,
                "item_density": 0.1,
                "exclusion_radius": 0
-            }
-         },
-         "stonehearth:plants:carrot": {
-            "placement_type": "dense",
-            "parameters": {
-               "grid_multiple": 2.5,
-               "item_density": 0.2,
-               "exclusion_radius": 0
-            }
-         },
-         "stonehearth:plants:berry_bush": {
-            "placement_type": "pattern",
-            "parameters": {
-               "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
-               "min_rows": 2,
-               "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
-               "max_rows": 2,
-               "__comment": "Minimum Columns. Def 2",
-               "min_cols": 2,
-               "__comment": "Maximum Columns. Def 3",
-               "max_cols": 3,
-               "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
-               "item_spacing": 5,
-               "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
-               "item_density": 0.9
             }
          },
          "stonehearth:boulder:small": {
@@ -520,12 +450,16 @@
          "box_o_vox:entities:trees:banana:small": {
             "placement_type": "dense",
             "parameters": {
-               "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
                "grid_multiple": 1,
-               "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                "item_density": 0.5,
-               "__comment": "How close can two trees get to each other... Def 2",
                "exclusion_radius": 1
+            },
+            "mountains": {
+               "placement_type": "single",
+               "parameters": {
+                  "ground_radius": 0,
+                  "exclusion_radius": 0.5
+               }
             }
          },
          "box_o_vox:entities:trees:lime:ancient": {
@@ -632,16 +566,45 @@
                "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
                "item_density": 0.2
             }
+         },
+         "box_o_vox:entities:plants:blueberry_bush": {
+            "placement_type": "pattern",
+            "parameters": {
+               "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+               "min_rows": 2,
+               "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+               "max_rows": 3,
+               "__comment": "Minimum Columns. Def 2",
+               "min_cols": 2,
+               "__comment": "Maximum Columns. Def 3",
+               "max_cols": 3,
+               "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+               "item_spacing": 5,
+               "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+               "item_density": 0.6
+            }
+         },
+         "box_o_vox:entities:plants:daisy": {
+            "placement_type": "pattern",
+            "parameters": {
+               "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+               "min_rows": 2,
+               "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+               "max_rows": 3,
+               "__comment": "Minimum Columns. Def 2",
+               "min_cols": 2,
+               "__comment": "Maximum Columns. Def 3",
+               "max_cols": 3,
+               "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+               "item_spacing": 3,
+               "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+               "item_density": 0.4
+            }
          }
       },
       "trees": {
          "__comment": "tree size variance. anything above 0 will be considered as tree placement, and the size of the tree is determined within the sizes node declared above",
          "sizes": {
-            "stonehearth:trees:pine": {
-               "small": 0,
-               "medium": 4,
-               "large": 13
-            },
             "box_o_vox:entities:trees:apple": {
                "small": 0,
                "medium": 2,
@@ -690,14 +653,12 @@
             },
             "foothills": {
                "1": {
-                  "stonehearth:trees:pine": 2,
                   "box_o_vox:entities:trees:apple": 1,
                   "box_o_vox:entities:trees:banana": 2,
                   "box_o_vox:entities:trees:orange": 1,
                   "box_o_vox:entities:trees:lime": 1
                },
                "2": {
-                  "stonehearth:trees:pine": 4,
                   "box_o_vox:entities:trees:apple": 1,
                   "box_o_vox:entities:trees:banana": 4,
                   "box_o_vox:entities:trees:orange": 1,
@@ -706,11 +667,9 @@
             },
             "mountains": {
                "1": {
-                  "stonehearth:trees:pine": 8,
                   "box_o_vox:entities:trees:banana": 4
                },
                "2": {
-                  "stonehearth:trees:pine": 4,
                   "box_o_vox:entities:trees:banana": 2
                }
             }
@@ -769,7 +728,7 @@
       },
       "berries": {
          "placement": {
-            "uri": "stonehearth:plants:berry_bush",
+            "uri": "box_o_vox:entities:plants:blueberry_bush",
             "function": "gaussian",
             "mean": -50,
             "std_dev": 30,
@@ -792,39 +751,31 @@
             "weights": {
                "plains": {
                   "1": {
-                     "stonehearth:plants:brightbell": 1,
-                     "stonehearth:plants:silkweed": 1.5,
                      "stonehearth:plants:sugarbell": 0.1,
-                     "stonehearth:plants:carrot": 0.2,
+                     "box_o_vox:entities:plants:daisy": 6,
                      "box_o_vox:entities:plants:peppercorn_bush": 2,
-                     "stonehearth:plants:brightbell": 1.5,
                      "stonehearth:plants:silkweed": 3
                   }
                },
                "foothills": {
                   "1": {
-                     "stonehearth:plants:frostsnap": 1,
-                     "stonehearth:plants:brightbell": 7,
                      "stonehearth:plants:silkweed": 1,
                      "stonehearth:plants:sugarbell": 2,
-                     "stonehearth:plants:carrot": 1,
+                     "box_o_vox:entities:plants:daisy": 7,
                      "box_o_vox:entities:plants:peppercorn_bush": 1
                   },
                   "2": {
-                     "stonehearth:plants:frostsnap": 1,
-                     "stonehearth:plants:brightbell": 1,
                      "stonehearth:plants:sugarbell": 4,
-                     "stonehearth:plants:carrot": 0.5,
+                     "box_o_vox:entities:plants:daisy": 1,
                      "box_o_vox:entities:plants:peppercorn_bush": 1
                   }
                },
                "mountains": {
                   "1": {
-                     "stonehearth:plants:frostsnap": 1,
                      "stonehearth:plants:sugarbell": 2
                   },
                   "3": {
-                     "stonehearth:plants:frostsnap": 1
+                     "stonehearth:plants:sugarbell": 1
                   }
                }
             },
@@ -902,14 +853,14 @@
       },
       "water": {
          "rivers": {
-            "keep_default_lake_generation": true,
+            "keep_default_lake_generation": false,
             "wide": {
                "min": 2,
                "max": 5,
                "allowed_at": {
                   "plains": true,
-                  "foothills": true,
-                  "mountains": true
+                  "foothills": false,
+                  "mountains": false
                }
             },
             "narrow": {

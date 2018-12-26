@@ -180,6 +180,8 @@
       "entities:humans:male:customizations": "file(entities/humans/male/male_customizations.json)",
       "entities:monsters:summoned:skeleton_gatherer": "file(entities/monsters/summoned/skeleton_gatherer/skeleton_gatherer.json)",
       "entities:monsters:summoned:zombie_miner": "file(entities/monsters/summoned/zombie_miner/zombie_miner.json)",
+      "entities:plants:blueberry_bush": "file(entities/plants/blueberry_bush)",
+      "entities:plants:daisy": "file(entities/plants/daisy_plant)",
       "entities:plants:peppercorn_bush": "file(entities/plants/peppercorn_bush)",
       "entities:portals:stoned_tunnel_door": "file(entities/construction/stoned_tunnel_door)",
       "entities:resources:fiber:grass_bundle": "file(entities/resources/fiber/grass_bundle/grass_bundle.json)",
