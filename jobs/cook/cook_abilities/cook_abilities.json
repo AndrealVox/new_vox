@@ -1,12 +1,11 @@
 {
    "type": "entity",
-   "components" : {
-      "stonehearth:equipment_piece" : {
-         "injected_ai" : {
-            "actions" : [
+   "components": {
+      "stonehearth:equipment_piece": {
+         "injected_ai": {
+            "actions": [
             ],
-            "ai_packs" : [
-               "stonehearth:ai_pack:farming",
+            "ai_packs": [
                "stonehearth:ai_pack:crafting",
                "stonehearth:ai_pack:ladders",
                "stonehearth:ai_pack:place_item",
@@ -17,7 +16,7 @@
                "stonehearth:ai_pack:panic:cower"
             ]
          },
-         "injected_commands" : [
+         "injected_commands": [
          ]
       }
    }
