@@ -7,9 +7,6 @@
    },
    "aliases": {},
    "mixintos": {
-      "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
-      "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index",
-
       "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)"
    },
    "overrides": {

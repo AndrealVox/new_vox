@@ -1,0 +1,16 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fur_pelt.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:appeal": {
+         "appeal": 2
+      }
+   }
+}

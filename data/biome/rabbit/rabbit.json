@@ -1,15 +1,16 @@
 {
-   "mixins": "stonehearth:rabbit",
    "entity_data": {
+      "stonehearth:species": {
+         "display_name": "Caerbannog Rabbit"
+      },
       "stonehearth:bait_trap": {
          "can_trap": true,
          "catch_chance": 0.6,
          "trigger_trap_on_failure_chance": 0.4
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.critters.rabbit.display_name)",
-         "description": "i18n(box_o_vox:entities.critters.rabbit.description)",
-         "icon": "file(rabbit.png)"
+         "display_name": "Caerbannog Rabbit",
+         "description": "This innocuous little creature has been known to gaurd the Cave of Caerbannog"
       }
    }
 }

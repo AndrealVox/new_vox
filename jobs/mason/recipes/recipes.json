@@ -1,5 +1,4 @@
 {
-   "mixins": "/northern_alliance/jobs/mason/recipes/recipes.json",
    "craftable_recipes": {
       "tools": {
          "recipes": {

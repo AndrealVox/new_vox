@@ -1,5 +1,4 @@
 {
-   "mixins": "/northern_alliance/jobs/weaver/recipes/recipes.json",
    "craftable_recipes": {
       "clothing_armor": {
          "recipes": {

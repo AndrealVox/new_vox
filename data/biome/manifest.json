@@ -1,0 +1,18 @@
+{
+   "info": {
+      "name": "boxland_manifest",
+      "deferred_load": true,
+      "version": 3
+   },
+   "aliases": {},
+   "mixintos": {
+      "stonehearth:rabbit": "/box_o_vox/data/biome/rabbit/rabbit.json",
+      "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
+      "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index"
+   },
+   "overrides": {
+      "/stonehearth/entities/critters/rabbit/rabbit.qb": "/box_o_vox/data/biome/rabbit/rabbit.qb",
+      "/stonehearth/entities/critters/rabbit/rabbit.png": "/box_o_vox/data/biome/rabbit/rabbit.png",
+      "/stonehearth/entities/resources/pelt/rabbit_pelt/rabbit_pelt.png": "/box_o_vox/data/biome/rabbit/rabbit_pelt/rabbit_pelt.png"
+   }
+}
