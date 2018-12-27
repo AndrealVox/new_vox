@@ -6,13 +6,14 @@
    },
    "aliases": {},
    "mixintos": {
-      "stonehearth:rabbit": "/box_o_vox/data/biome/rabbit/rabbit.json",
+      "stonehearth:rabbit": "file(rabbit)",
       "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
       "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index"
    },
    "overrides": {
-      "/stonehearth/entities/critters/rabbit/rabbit.qb": "/box_o_vox/data/biome/rabbit/rabbit.qb",
-      "/stonehearth/entities/critters/rabbit/rabbit.png": "/box_o_vox/data/biome/rabbit/rabbit.png",
-      "/stonehearth/entities/resources/pelt/rabbit_pelt/rabbit_pelt.png": "/box_o_vox/data/biome/rabbit/rabbit_pelt/rabbit_pelt.png"
+      "/stonehearth/entities/critters/rabbit/rabbit.qb": "file(rabbit/rabbit.qb)",
+      "/stonehearth/entities/critters/rabbit/rabbit.png": "file(rabbit/rabbit.png)",
+      "/stonehearth/entities/resources/pelt/rabbit_pelt/rabbit_pelt.png": "file(rabbit/rabbit_pelt/rabbit_pelt.png)",
+      "/stonehearth/mixins/resources/fur_pelt/fur_pelt.qb": "file(rabbit/rabbit_pelt/fur_pelt.qb)"
    }
 }

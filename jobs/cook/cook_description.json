@@ -29,7 +29,7 @@
    ],
    "crafter": {
       "work_effect": "fiddle",
-      "recipe_list": "/stonehearth/jobs/cook/recipes/recipes.json"
+      "recipe_list": "file(recipes/recipes.json)"
    },
    "workshop": {
       "portrait": "file(./images/workshop_portrait_level_1.png)",

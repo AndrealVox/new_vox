@@ -1,11 +1,20 @@
 {
    "mixins": "stonehearth:jobs:index",
    "jobs": {
+      "stonehearth:jobs:blacksmith": {
+         "description": "box_o_vox:jobs:blacksmith"
+      },
       "stonehearth:jobs:cleric": {
          "description": "box_o_vox:jobs:cleric"
       },
       "stonehearth:jobs:cook": {
          "description": "box_o_vox:jobs:cook"
+      },
+      "stonehearth:jobs:mason": {
+         "description": "box_o_vox:jobs:mason"
+      },
+      "stonehearth:jobs:weaver": {
+         "description": "box_o_vox:jobs:weaver"
       },
       "stonehearth:jobs:worker": {
          "description": "box_o_vox:jobs:worker"

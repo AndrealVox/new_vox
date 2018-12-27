@@ -1,0 +1,6 @@
+{
+   "mixins": "stonehearth:jobs:blacksmith",
+   "crafter": {
+      "recipe_list": "file(recipes/recipes.json)"
+   }
+}
