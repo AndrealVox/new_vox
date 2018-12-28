@@ -10,7 +10,11 @@
          }
       },
       "mob": {
-         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
       },
       "stonehearth:stacks": {
          "max_stacks": 5
@@ -33,7 +37,7 @@
          "icon": "file(grass_bundle.png)",
          "is_item": true,
          "category": "resources",
-         "material_tags": "fiber resource plant silkweed stockpile_plant"
+         "material_tags": "fiber resource plant silkweed stockpile_plant thatch resource"
       },
       "stonehearth:appeal": {
          "appeal": -2

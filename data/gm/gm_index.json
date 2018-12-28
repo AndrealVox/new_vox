@@ -2,7 +2,7 @@
    "type": "index",
    "campaigns": {
       "trader": {
-         "boxling_traders": "/stonehearth/data/gm/campaigns/trader/trader_campaign.json"
+         "boxling_traders": "file(campaigns/trader/trader_campaign.json)"
       },
       "hunting": {
          "boxling_animal_camps": "file(campaigns//hunting/animal_campaign.json)"

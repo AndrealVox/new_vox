@@ -10,6 +10,9 @@
       "stonehearth:jobs:cook": {
          "description": "box_o_vox:jobs:cook"
       },
+      "stonehearth:jobs:herbalist": {
+         "description": "box_o_vox:jobs:herbalist"
+      },
       "stonehearth:jobs:mason": {
          "description": "box_o_vox:jobs:mason"
       },

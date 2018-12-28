@@ -1,0 +1,12 @@
+{
+   "mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
+   "craftable_recipes": {
+      "refinement": {
+         "recipes": {
+            "mixintypes": {
+               "marblesprout_drying": "remove"
+            }
+         }
+      }
+   }
+}

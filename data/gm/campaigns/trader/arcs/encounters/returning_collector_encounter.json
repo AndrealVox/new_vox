@@ -1,0 +1,76 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "returning_collector_encounter",
+   "can_start": {
+      "test_1": {
+         "script_check": {
+            "item": "script",
+            "type": "deny_if_not",
+            "value": true,
+            "script": "stonehearth:game_master:script:returning_trader_can_start"
+         },
+         "not_in_titanstorm": {
+            "type": "deny_if",
+            "item": "weather",
+            "value": "stonehearth:weather:titanstorm"
+         }
+      }
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:returning_trader",
+      "data": {
+         "expiration_timeout": "6h",
+         "score_threshold": 1000,
+         "title": "i18n(stonehearth:data.gm.campaigns.trader.returning_collector_encounter.title)",
+         "trade_details": "i18n(stonehearth:data.gm.campaigns.trader.returning_collector_encounter.trade_details)",
+         "waiting_title": "i18n(stonehearth:data.gm.campaigns.trader.returning_collector_encounter.waiting_title)",
+         "waiting_text": "i18n(stonehearth:data.gm.campaigns.trader.returning_collector_encounter.waiting_text)",
+         "return_title": "i18n(stonehearth:data.gm.campaigns.trader.returning_collector_encounter.return_title)",
+         "return_greetings_positive": "i18n(stonehearth:data.gm.campaigns.trader.returning_collector_encounter.return_greetings_positive)",
+         "return_greetings_negative": "i18n(stonehearth:data.gm.campaigns.trader.returning_collector_encounter.return_greetings_negative)",
+         "max_days_before_return": 3,
+         "wants": {
+            "stonehearth:farmer:talisman": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:footman:wooden_sword_talisman": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:furniture:simple_wooden_chair": {
+               "min": 5,
+               "max": 12
+            },
+            "stonehearth:construction:picket_fence_gate": {
+               "min": 2,
+               "max": 4
+            },
+            "stonehearth:furniture:dining_table": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:furniture:not_much_of_a_bed": {
+               "min": 6,
+               "max": 10
+            },
+            "stonehearth:portals:wooden_door": {
+               "min": 2,
+               "max": 10
+            },
+            "stonehearth:portals:wooden_window_frame": {
+               "min": 4,
+               "max": 10
+            }
+         },
+         "rewards": {
+            "stonehearth:monsters:golems:golem_restocking:auto": {
+               "type": "object",
+               "min": 1,
+               "max": 2
+            }
+         }
+      }
+   }
+}

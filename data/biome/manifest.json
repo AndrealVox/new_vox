@@ -19,6 +19,7 @@
       "/stonehearth/entities/critters/rabbit/rabbit.qb": "file(rabbit/rabbit.qb)",
       "/stonehearth/entities/critters/rabbit/rabbit.png": "file(rabbit/rabbit.png)",
       "/stonehearth/entities/resources/pelt/rabbit_pelt/rabbit_pelt.png": "file(rabbit/rabbit_pelt/rabbit_pelt.png)",
+      "/stonehearth/entities/resources/pelt/rabbit_pelt/fur_pelt.qb": "file(rabbit/rabbit_pelt/fur_pelt.qb)",
       "/stonehearth/mixins/resources/fur_pelt/fur_pelt.qb": "file(rabbit/rabbit_pelt/fur_pelt.qb)"
    }
 }

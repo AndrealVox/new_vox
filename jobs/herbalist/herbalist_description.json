@@ -1,0 +1,7 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:herbalist",
+   "crafter": {
+      "recipe_list": "box_o_vox:jobs:recipes:herbalist"
+   }
+}
