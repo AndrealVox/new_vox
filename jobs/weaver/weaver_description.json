@@ -1,6 +1,7 @@
 {
-   "mixins": "stonehearth:jobs:mason",
+   "type": "job",
+   "mixins": "stonehearth:jobs:weaver",
    "crafter": {
-      "recipe_list": "file(recipes/recipes.json)"
+      "recipe_list": "box_o_vox:jobs:recipes:weaver"
    }
 }

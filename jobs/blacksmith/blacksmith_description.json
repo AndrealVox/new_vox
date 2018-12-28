@@ -1,6 +1,9 @@
 {
+   "type": "job",
    "mixins": "stonehearth:jobs:blacksmith",
+   "display_order": 5,
+   "parent_job": "stonehearth:jobs:worker",
    "crafter": {
-      "recipe_list": "file(recipes/recipes.json)"
+      "recipe_list": "box_o_vox:jobs:recipes:blacksmith"
    }
 }

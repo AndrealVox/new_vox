@@ -1,5 +1,5 @@
 {
-   "mixins": "/northern_alliance/jobs/blacksmith/recipes/recipes.json",
+   "mixins": "/northern_alliance/jobs/mason/recipes/recipes.json",
    "craftable_recipes": {
       "tools": {
          "recipes": {
@@ -45,6 +45,8 @@
          }
       },
       "lights": {
+         "ordinal": 100,
+         "name": "Lights",
          "recipes": {
             "lamppost_blue": {
                "recipe": "file(lamppost_blue_recipe.json)"

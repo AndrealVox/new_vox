@@ -29,7 +29,7 @@
    ],
    "crafter": {
       "work_effect": "fiddle",
-      "recipe_list": "file(recipes/recipes.json)"
+      "recipe_list": "box_o_vox:jobs:recipes:cook"
    },
    "workshop": {
       "portrait": "file(./images/workshop_portrait_level_1.png)",

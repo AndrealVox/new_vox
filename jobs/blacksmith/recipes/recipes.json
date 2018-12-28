@@ -1,5 +1,5 @@
 {
-   "mixins": "/stonehearth/jobs/blacksmith/recipes/recipes.json",
+   "mixins": "/northern_alliance/jobs/blacksmith/recipes/recipes.json",
    "craftable_recipes": {
       "smelt": {
          "recipes": {
