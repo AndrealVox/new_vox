@@ -6,6 +6,11 @@
    },
    "aliases": {},
    "mixintos": {
+      "stonehearth/scenarios/static/fox_nest.json": "file(../../scenarios/static/fox_nest.json)",
+      "stonehearth/scenarios/static/racoon_nest.json": "file(../../scenarios/static/racoon_nest.json)",
+      "stonehearth/scenarios/static/squirrel_nest.json": "file(../../scenarios/static/squirrel_nest.json)",
+      "stonehearth/scenarios/static/deer_nest.json": "file(../../scenarios/static/deer_nest.json)",
+      "stonehearth/scenarios/static/caribou_nest.json": "file(../../scenarios/static/caribou_nest.json)",
       "stonehearth:rabbit": "file(rabbit)",
       "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
       "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index"

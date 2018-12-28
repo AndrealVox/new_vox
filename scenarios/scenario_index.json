@@ -1,27 +1,84 @@
 {
    "static": {
+      "mixintypes": {
+         "scenarios": "override"
+      },
       "scenarios": [
          "file(static/terrain/salt_rock_vein)",
          "file(static/terrain/clay_mound_vein)",
 
          "file(static/landmarks/boxling_mountain.json)",
          "file(static/landmarks/boxling_mountain_2.json)",
-         "file(static/landmarks/boxling_mountain_3.json)"
+         "file(static/landmarks/boxling_mountain_3.json)",
 
+         "stonehearth/scenarios/static/rabbit_nest",
+
+         "stonehearth/scenarios/static/deer_nest",
+         "stonehearth/scenarios/static/caribou_nest",
+
+         "stonehearth/scenarios/static/terrain/copper_vein",
+         "stonehearth/scenarios/static/terrain/tin_vein",
+         "stonehearth/scenarios/static/terrain/iron_vein",
+         "stonehearth/scenarios/static/terrain/silver_vein",
+         "stonehearth/scenarios/static/terrain/gold_vein",
+         "stonehearth/scenarios/static/terrain/coal_vein",
+
+         "stonehearth/scenarios/static/terrain/rabbit_clan_statue"
       ],
       "categories": {
          "terrain": {
-            "density": 18
+            "density": 18,
+            "priority": 0,
+            "location_type": "surface",
+            "activation_type": "immediate"
          },
          "wildlife": {
-            "density": 4
+            "density": 4,
+            "priority": 0,
+            "location_type": "surface",
+            "activation_type": "revealed"
          },
          "ruins": {
-            "density": 0.25
+            "density": 0.25,
+            "priority": 0,
+            "location_type": "surface",
+            "activation_type": "immediate"
          },
          "ore": {
-            "density": 8
+            "density": 8,
+            "priority": 0,
+            "location_type": "underground",
+            "activation_type": "revealed"
+         },
+
+         "terrain_feature_underground": {
+            "density": 100,
+            "max_count": [10, 11, 12, 13, 14, 15],
+            "prevents_categories_in_same_tile": ["terrain_feature_underground"],
+            "priority": "random",
+            "location_type": "surface",
+            "activation_type": "revealed"
+         },
+         "terrain_feature_common": {
+            "density": 100,
+            "max_count": [2, 2, 3, 3, 3, 4, 4],
+            "prevents_categories_in_same_tile": ["terrain_feature_common", "terrain_feature_rare"],
+            "priority": "random",
+            "location_type": "surface",
+            "activation_type": "immediate"
+         },
+         "terrain_feature_rare": {
+            "density": 100,
+            "max_count": [0, 0, 1, 1, 1, 2, 2],
+            "prevents_categories_in_same_tile": ["terrain_feature_common", "terrain_feature_rare"],
+            "priority": "random",
+            "location_type": "surface",
+            "activation_type": "immediate"
          }
       }
+   },
+   "dynamic": {
+      "scenarios": [
+      ]
    }
 }
