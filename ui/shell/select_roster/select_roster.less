@@ -241,6 +241,16 @@
       width: 676px;
       height: 330px;
 
+      &.frozen {
+         .nameLock, #genderButtons, #randomize, #customizeButtons {
+            opacity: 0.5;
+            pointer-events: none !important;
+            * {
+               pointer-events: none !important;
+            }
+         }
+      }
+
       .name {
          .controlFont;
          text-indent: 3px;

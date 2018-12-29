@@ -34,6 +34,11 @@ App.StonehearthSelectRosterView = App.View.extend({
       this._super();
       var self = this;
       self._start = Date.now();
+      var biome_uri = self._options.biome_src;
+      var kingdom_uri = self._options.starting_kingdom;
+      self.$('#selectRoster').addClass(biome_uri);
+      self.$('#selectRoster').addClass(kingdom_uri);
+
 
       self.$('#acceptRosterButton').click(function () {
          if (self._citizensArray.length > 0) {
@@ -90,6 +95,35 @@ App.StonehearthSelectRosterView = App.View.extend({
 
    _setTotalTime: function () {
       this._analytics.total_roster_time = (Date.now() - this._start) / 1000;
+   },
+
+   _animateLoading: function() {
+      var self = this;
+      var loadingElement = self.$('#loadingPeriods');
+
+      var periodsCount = 0;
+      var currentPeriods = '';
+      self._loadingAnimationInterval = setInterval(function() {
+         loadingElement.html(currentPeriods);
+
+         periodsCount++;
+         if (periodsCount >= 4) {
+            periodsCount = 0;
+            currentPeriods = '';
+         } else {
+            currentPeriods = currentPeriods + '.';
+         }
+
+      }, 250);
+   },
+
+   _hideLoading: function() {
+      var self = this;
+      self.$('#loading').hide();
+      if (self._loadingAnimationInterval) {
+         clearInterval(self._loadingAnimationInterval);
+         self._loadingAnimationInterval = null;
+      }
    },
 
    actions: {
@@ -201,6 +235,9 @@ App.StonehearthSelectRosterView = App.View.extend({
 
       radiant.call_obj('stonehearth.game_creation', 'generate_citizens_command', initialize, self.citizenLockedOptions)
          .done(function (e) {
+            if (!self.$() || self.isDestroying || self.isDestroyed) {
+               return;
+            }
             if (!initialize) {
                self._incrementTotalRerolls();
             }
@@ -209,6 +246,7 @@ App.StonehearthSelectRosterView = App.View.extend({
             self.$('#rerollCitizensText').removeClass('disabled');
             self._citizensArray = radiant.map_to_array(citizenMap);
             self.set('citizensArray', self._citizensArray);
+            self._hideLoading();
          })
          .fail(function (e) {
             console.error('generate_citizens failed:', e)
@@ -305,6 +343,10 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
    actions: {
       regenerateCitizenStatsAndAppearance: function () {
          var self = this;
+         if (self.get('isFrozen')) {
+            return;
+         }
+
          if (self.$('.rerollCitizenDice').hasClass('disabled')) {
             return;
          }
@@ -318,6 +360,9 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
 
          radiant.call_obj('stonehearth.game_creation', 'regenerate_citizen_stats_and_appearance_command', self._viewIndex, lockedOptions)
             .done(function (e) {
+               if (self.isDestroying || self.isDestroyed) {
+                  return;
+               }
                self.set('uri', e.citizen);
 
                // if same uri, select row and update view now, since we don't need to wait for model to be updated
@@ -360,6 +405,10 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
 
       setGender: function (targetGender) {
          var self = this;
+         if (self.get('isFrozen')) {
+            return;
+         }
+
          var currentGender = self._getCurrentGender();
          if (currentGender == targetGender) {
             return;
@@ -383,6 +432,9 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
       },
       changeIndex: function (operator, customizeType) {
          var self = this;
+         if (self.get('isFrozen')) {
+            return;
+         }
          if (self.rosterView.$('#customizeButtons').find('.arrowButton').hasClass('selected')) {
             return;
          }
@@ -393,6 +445,9 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
 
       toggleLock: function (type, customizeType) {
          var self = this;
+         if (self.get('isFrozen')) {
+            return;
+         }
          if (type == 'name') {
             var existing = self.get('nameLocked');
             self.setNameLocked(!existing);
@@ -406,7 +461,12 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
 
       unlockAllOptions: function () {
          var self = this;
+         if (self.get('isFrozen')) {
+            return;
+         }
          self.set('lockedOptions', null);
+         self.notifyPropertyChange('lockedOptions');
+     
       },
 
       lockAllOptions: function () {
@@ -889,9 +949,7 @@ App.StonehearthReembarkChoiceView = App.View.extend({
                   label: i18n.t('stonehearth:ui.shell.select_roster.delete_crew_confirm_yes'),
                   click: function () {
                      radiant.call('stonehearth:delete_reembark_spec_command', specId).done(function (e) {
-                        self.set('reembarkSpecsArray', self.get('reembarkSpecsArray').filter(function (s) {
-                           return s.id != specId;
-                        }));
+                        self.set('reembarkSpecsArray', self.get('reembarkSpecsArray').filter(function(s) { return s.id != specId; }));
                      });
                   }
                   },

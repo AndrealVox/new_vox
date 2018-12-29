@@ -5,6 +5,12 @@
          <button class="quitButton">{{i18n stonehearth:ui.game.esc_menu.quit_to_menu}}</button>
       </a>
 
+      <div id="loading">
+         <div id="loadingBaseText">{{i18n stonehearth:ui.shell.select_settlement.loading}}</div>
+         <div id="loadingPeriods">...</div>
+      </div>
+
+
         <div class="gui">
             <div id="title">{{i18n stonehearth:ui.shell.select_roster.citizen_info}}</div>
 
@@ -22,7 +28,9 @@
 
          <div id="citizens">
                 <div id="citizensRoster" class="roster">
-                    {{#each citizen in view.citizensArray}} {{view "stonehearthCitizenRosterEntry" rosterView=view uriBinding="citizen" index=_view.contentIndex}} {{/each}}
+                    {{#each citizen in view.citizensArray}}
+                       {{view "stonehearthCitizenRosterEntry" rosterView=view uriBinding="citizen" index=_view.contentIndex}}
+                    {{/each}}
                 </div>
             </div>
 
