@@ -44,13 +44,11 @@
       "town_protection": 1
    },
    "crafter": {
-      "work_effect": "herbalist_grind",
-      "recipe_list": "/box_o_vox/jobs/necromancer/recipes/recipes.json"
+      "work_effect": "fiddle",
+      "recipe_list": "file(recipes/recipes.json)"
    },
    "workshop": {
-      "portrait": "/box_o_vox/jobs/cleric/cleric_workbench/cleric_workbench.png",
-      "workbench_type": "box_o_vox:jobs:cleric:workbench",
-      "skin_class": "cleric",
+      "skin_class": "necromancer",
       "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
       "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
    },

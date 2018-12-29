@@ -16,6 +16,7 @@
       "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index"
    },
    "overrides": {
+      "/stonehearth/data/terrain/valley_shapes.json": "file(../terrain/valley_shapes.json)",
       "/stonehearth/entities/critters/rabbit/rabbit.qb": "file(rabbit/rabbit.qb)",
       "/stonehearth/entities/critters/rabbit/rabbit.png": "file(rabbit/rabbit.png)",
       "/stonehearth/entities/resources/pelt/rabbit_pelt/rabbit_pelt.png": "file(rabbit/rabbit_pelt/rabbit_pelt.png)",

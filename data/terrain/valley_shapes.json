@@ -1,0 +1,29 @@
+{
+   "__comment": "unit width and height are the length of a macroblock",
+   "shape_width": 5,
+   "shape_height": 5,
+   "__comment": "0 means depression, 1 means normal plain height",
+   "shapes": [
+      [
+         1, 1, 0, 1, 1,
+         1, 0, 1, 0, 1,
+         1, 0, 0, 0, 1,
+         1, 0, 1, 0, 1,
+         1, 0, 1, 0, 1
+      ],
+      [
+         1, 0, 1, 0, 1,
+         1, 0, 1, 0, 1,
+         1, 0, 1, 0, 1,
+         1, 0, 1, 0, 1,
+         1, 1, 0, 1, 1
+      ],
+      [
+         1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1
+      ]
+   ]
+}

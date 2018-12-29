@@ -105,7 +105,6 @@
       "entities:critters:pig": "file(entities/critters/pig)",
       "entities:critters:pig:young": "file(entities/critters/pig/pig_young.json)",
       "entities:critters:wolf_fox": "file(entities/critters/wolf_fox/wolf_fox.json)",
-      "entities:critters:rabbit": "file(entities/critters/rabbit/rabbit.json)",
       "entities:crops:potato_crop": "file(entities/crops/potato_crop)",
       "entities:crops:strawberry_crop": "file(entities/crops/strawberry_crop)",
       "entities:crops:tomato_crop": "file(entities/crops/tomato_crop)",
@@ -336,13 +335,7 @@
       "stonehearth/entities/crops/pumpkin_crop/pumpkin_crop.json": "file(entities/crops/pumpkin_crop/pumpkin_crop.json)",
       "stonehearth/entities/crops/silkweed_crop/silkweed_crop.json": "file(entities/crops/silkweed_crop/silkweed_crop.json)",
       "stonehearth/entities/crops/turnip_crop/turnip_crop.json": "file(entities/crops/turnip_crop/turnip_crop.json)",
-      "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
-      "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)",
-      "box_o_vox:entities:plants:blueberry_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
-      "box_o_vox:entities:plants:daisy": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
-      "box_o_vox:entities:plants:peppercorn_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
-      "autoharvest_mod:commands:autoharvest_on": "file(data/commands/autoharvest/autoharvest_on.json)",
-      "autoharvest_mod:commands:autoharvest_off": "file(data/commands/autoharvest/autoharvest_off.json)"
+      "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)"
    },
    "overrides": {
 
@@ -359,7 +352,8 @@
    },
    "ui": {
       "less": [
-         "file(jobs/cleric/skin/workshop.less)"
+         "file(jobs/cleric/skin/workshop.less)",
+         "file(jobs/necromancer/skin/workshop.less)"
       ]
    }
 }

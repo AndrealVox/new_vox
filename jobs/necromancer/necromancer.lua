@@ -7,6 +7,7 @@ radiant.mixin(NecromancerClass, CraftingJob)
 --- Public functions, required for all classes
 
 function NecromancerClass:initialize()
+   CraftingJob.initialize(self)
    CombatJob.initialize(self)
    self._sv.max_num_attended_hearthlings = 2
 end
