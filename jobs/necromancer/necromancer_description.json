@@ -43,10 +43,6 @@
       "craft_level_9": 1,
       "town_protection": 1
    },
-   "crafter": {
-      "work_effect": "fiddle",
-      "recipe_list": "file(recipes/recipes.json)"
-   },
    "workshop": {
       "skin_class": "necromancer",
       "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",

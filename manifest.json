@@ -73,6 +73,10 @@
       "data:effects:white_wall_lamp_effect": "file(data/effects/wall_lamp_effect/white_wall_lamp_effect.json)",
       "data:gm_index": "file(data/gm/gm_index.json)",
       "data:loadouts": "file(data/loadouts)",
+      "data:music:combat_1": "file(data/music/combat_1.ogg)",
+      "data:music:day_1": "file(data/music/day_1.ogg)",
+      "data:music:night_1": "file(data/music/night_1.ogg)",
+      "data:music:title_1": "file(data/music/title_1.ogg)",
       "data:saved_objects:building_templates_index": "file(data/saved_objects/building_templates_index.json)",
       "data:summon_tuning:necromancer:summoner_bone_wolf": "file(data/summon_tuning/necromancer/summoner_bone_wolf.json)",
       "data:summon_tuning:necromancer:summoner_bone_wolf_big": "file(data/summon_tuning/necromancer/summoner_bone_wolf_big.json)",
@@ -301,6 +305,8 @@
       "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
       "stonehearth:data:gm_index": "box_o_vox:data:gm_index",
       "stonehearth:jobs:index": "box_o_vox:jobs:index_mixin",
+      "stonehearth_ace:northern_alliance:jobs:index": "box_o_vox:jobs:index_mixin",
+      "stonehearth_ace:rayyas_children:jobs:index": "box_o_vox:jobs:index_mixin",
       "stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
       "stonehearth:farmer:initial_crops": "file(services/server/farming/data/initial_crops.json)",
       "stonehearth:data:thoughts": "box_o_vox:data:thoughts",
@@ -338,7 +344,12 @@
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)"
    },
    "overrides": {
+      "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
+      "stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
+      "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
 
+      "stonehearth_ace/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/stonehearth_ace_foreground.png)",
+      "stonehearth/ui/shell/title/images/stonehearth_foreground.png": "file(ui/shell/title/images/stonehearth_foreground.png)"
    },
    "controllers": {
       "class:cleric": "file(jobs/cleric/cleric.lua)",
