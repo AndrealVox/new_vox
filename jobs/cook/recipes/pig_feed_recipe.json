@@ -9,7 +9,7 @@
    "workshop": "stonehearth:cook:mill",
    "ingredients": [
       {
-         "uri": "stonehearth:food:wheat:wheat_bale",
+         "material": "thatch resource",
          "count": 1
       },
       {
