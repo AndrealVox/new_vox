@@ -28,7 +28,7 @@
          "range": 10,
          "projectile_speed": 10,
          "reach": 1.5,
-         "summon_uri": "box_o_vox:entities:summon:skeleton",
+         "projectile_uri": "box_o_vox:entities:weapon:flame_skull",
          "projectile_start_offset": {
             "x": 0.2,
             "y": 1.5,
@@ -39,9 +39,6 @@
             "y": 1,
             "z": 0
          }
-      },
-      "stonehearth:combat:healing_data": {
-         "base_healing": 20
       },
       "stonehearth:net_worth": {
          "value_in_gold": 0,

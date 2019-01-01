@@ -1,15 +1,15 @@
 {
    "type": "monster_tuning",
-   "estimated_difficulty": 9,
+   "estimated_difficulty": 6,
    "scale": 0.05,
    "attributes": {
-      "max_health": 1400,
-      "muscle": 10,
-      "menace": 70,
-      "courage": 130,
+      "max_health": 1500,
+      "muscle": 30,
+      "menace": 90,
+      "courage": 400,
       "speed": 100,
-      "additive_armor_modifier": 8,
-      "exp_reward": 170
+      "additive_armor_modifier": 11,
+      "exp_reward": 300
    },
    "equipment_scale": 0.04,
    "equipment": {

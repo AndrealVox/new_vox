@@ -13,7 +13,11 @@
          }
       },
       "mob": {
-         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
       },
       "stonehearth:projectile": {},
       "effect_list": {
@@ -24,8 +28,8 @@
       "stonehearth:buffs": {
          "inflictable_debuffs": {
             "infection": {
-               "uri": "stonehearth:buffs:archer:fire_arrow",
-               "chance": 0.75
+               "uri": "box_o_vox:data:buffs:necromancer:flame_skull",
+               "chance": 1.0
             }
          }
       },

@@ -1,0 +1,13 @@
+{
+   "type": "command",
+   "name": "zilla_summon",
+   "display_name": "i18n(box_o_vox:data.commands.necromancer_pages.zilla_summon.display_name)",
+   "description": "i18n(box_o_vox:data.commands.necromancer_pages.zilla_summon.description)",
+   "icon": "file(zilla_page.png)",
+   "action": "call",
+   "function": "stonehearth:swap_equipment",
+   "args": [
+      "accessory",
+      "zilla"
+   ]
+}

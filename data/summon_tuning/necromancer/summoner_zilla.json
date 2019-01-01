@@ -1,0 +1,20 @@
+{
+   "type": "monster_tuning",
+   "estimated_difficulty": 5,
+   "scale": 0.3,
+   "attributes": {
+      "max_health": 3500,
+      "muscle": 30,
+      "menace": 120,
+      "courage": 350,
+      "speed": 90,
+      "additive_armor_modifier": 9,
+      "multiplicative_target_armor_modifier": 0.5,
+      "exp_reward": 250
+   },
+   "equipment": {
+      "weapon": [
+         "stonehearth:monsters:forest:zilla:teeth_weapon"
+      ]
+   }
+}

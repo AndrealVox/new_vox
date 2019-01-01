@@ -3,6 +3,7 @@
    "kingdom_name": "Summon",
    "kingdom_id": "summon",
    "amenity_to_strangers": "hostile",
+   "amenity_to_animals": "hostile",
    "roles": {
       "skeleton": {
          "male": {
@@ -43,19 +44,6 @@
             "the Zombie"
          ]
       },
-      "golem_kid": {
-         "male": {
-            "uri": [
-               "box_o_vox:entities:summon:undead:golem_kid"
-            ],
-            "given_names": [
-               "Steve"
-            ]
-         },
-         "surnames": [
-            "the Golem Kid"
-         ]
-      },
       "golem": {
          "male": {
             "uri": [
@@ -67,6 +55,19 @@
          },
          "surnames": [
             "the Golem"
+         ]
+      },
+      "zilla": {
+         "male": {
+            "uri": [
+               "box_o_vox:entities:summon:undead:zilla"
+            ],
+            "given_names": [
+               "Steve"
+            ]
+         },
+         "surnames": [
+            "the Zilla"
          ]
       },
       "necromancer": {

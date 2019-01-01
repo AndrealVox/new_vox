@@ -40,9 +40,6 @@
             "z": 0
          }
       },
-      "stonehearth:combat:healing_data": {
-         "base_healing": 20
-      },
       "stonehearth:net_worth": {
          "value_in_gold": 0,
          "shop_info": {

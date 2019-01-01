@@ -7,12 +7,7 @@
             "tooltip": ""
          },
          "items": {
-            "carrots": "Carrots",
-            "jerky": "Jerky",
             "gold": "Gold",
-            "brightbell": "Brightbell",
-            "potatoes": "Potatoes",
-            "silkweed_bundle": "Silkweed",
             "necro_bundle": "Bundle"
          }
       },
@@ -38,37 +33,17 @@
                "display_name": "Summon Golem",
                "description": "Now that's a huge bitch!"
             },
-            "lich_summon": {
-               "display_name": "Summon Lich",
-               "description": "Summons a Lich"
-            },
-            "ogre_summon": {
-               "display_name": "Summon Ogre",
-               "description": "Summons an Ogre"
-            },
-            "golem_kid_summon": {
-               "description": "Glad these aren't kidney stones",
-               "display_name": "Summon Golem Kid"
-            },
             "necromancer_summon": {
                "display_name": "Summon Necromancer",
                "description": "Hey look! It's a mini-me"
             },
-            "skeleton_kid_summon": {
-               "display_name": "Summon Skeleton Kid",
-               "description": "I hear some bones rattling..."
-            },
-            "zombie_kid_summon": {
-               "display_name": "Summon Zombie Kid",
-               "description": "Oh no, not the children"
-            },
-            "bone_wolf_summon": {
-               "description": "I hear the wolves howling.",
-               "display_name": "Bone Wolf Pup"
-            },
             "bone_wolf_big_summon": {
                "description": "The howls are getting louder.",
                "display_name": "Bone Wolf"
+            },
+            "zilla_summon": {
+               "display_name": "Summon Zilla",
+               "description": "It's Fleshzilla!"
             }
          },
          "promote_to_job": {
@@ -129,11 +104,6 @@
       }
    },
    "jobs": {
-      "farmer": {
-         "farmer_description": {
-            "display_name": "Farmer"
-         }
-      },
       "necromancer": {
          "necromancer_tome": {
             "necromancer_tome_talisman": {
@@ -147,44 +117,19 @@
             "display_name": "Necromancer",
             "description": "Summon the undead to fight for you",
             "requirements": "Crafted by a Cleric",
-            "level_0_data": {
-               "perk_000_name": "Heal Aura",
-               "perk_000_description": "Healing aura power",
-               "perk_001_name": "Heal Master",
-               "perk_001_description": "The necromancer has mastered the art of healing. Compassion greatly increased.",
-               "perk_002_description": "The necromancer's presence greatly improves the muscle of those around them",
-               "perk_002_name": "Major Strength",
-               "perk_003_name": "Summon a Skeleton Kid",
-               "perk_003_description": "I hear some bones rattling..."
-            },
             "level_1_data": {
                "perk_000_name": "Summon a Skeleton",
-               "perk_000_description": "Them bones, them bones gonna walk around"
-            },
-            "level_2_data": {
-               "perk_000_name": "Summon a Bone Wolf Pup",
-               "perk_000_description": "I hear the wolves howling.",
-               "perk_001_name": "Skeleton Gatherer",
-               "perk_001_description": "The Necromancer can now create Undead Workers."
-            },
-            "level_3_data": {
-               "perk_000_name": "Summon a Zombie Kid",
-               "perk_000_description": "Oh no, not the children"
+               "perk_000_description": "Them bones, them bones gonna walk around",
+               "perk_001_name": "Flaming Skull Attack",
+               "perk_001_description": "The Necromancer is capable of throwing a flaming skull which inflicts a burning slow on enemies."
             },
             "level_4_data": {
                "perk_000_name": "Summon a Zombie",
                "perk_000_description": "It's the Walking Dead!"
             },
             "level_6_data": {
-               "title": "Master Necromancer",
                "perk_000_description": "Now that's a huge bitch!",
                "perk_000_name": "Summon a Golem"
-            },
-            "level_5_data": {
-               "perk_000_description": "Glad these didn't cost a pound of flesh.",
-               "perk_000_name": "Summon a Golem Kid",
-               "perk_001_description": "The Necromancer can now create more advanced Undead Workers.",
-               "perk_001_name": "Zombie Miner"
             },
             "level_7_data": {
                "perk_000_description": "Hey look! It's a mini-me",
@@ -194,11 +139,21 @@
             "level_2b_data": {
                "perk_000_name": "Summon a Bone Wolf",
                "perk_000_description": "The howls are getting louder."
+            },
+            "level_5b_data": {
+               "perk_000_name": "Summon a Zilla",
+               "perk_000_description": "It's Fleshzilla!"
             }
          },
          "necromancer_outfit": {
             "display_name": "Necromancer Robes",
             "description": "The Attire Of A Necromancer"
+         },
+         "necromancer_debuffs": {
+            "flame_skull": {
+               "display_name": "Flaming Skull Burning Slow",
+               "description": "This unit is burned to a slowing hault."
+            }
          }
       },
       "cleric": {
@@ -208,64 +163,16 @@
                "description": "Required to promote a hearthling to a necromancer",
                "flavor": "Within lies the secrets to becoming a necromancer"
             },
-            "small_healing_tonic_recipe": {
-               "recipe_name": "Small Healing Tonic",
-               "description": "A medicinal drink that heals for a minuscule amount"
-            },
-            "cooling_liquid_recipe": {
-               "recipe_name": "Cooling Liquid",
-               "description": "odd how it keeps so cool"
-            },
             "paladins_shield_recipe": {
                "recipe_name": "Paladin's Shield",
                "description": "Required to promote a hearthling to a paladin",
                "flavor": "With this holy shield, a paladin will arise."
             }
-         },
-         "cleric_workbench": {
-            "cleric_workbench_ghost": {
-               "display_name": "Cleric Workbench",
-               "description": "Where A Cleric Works"
-            }
-         }
-      },
-      "herbalist": {
-         "herbalist_description": {
-            "display_name": "Herbalist"
-         }
-      },
-      "weaver": {
-         "weaver_description": {
-            "display_name": "Weaver"
          }
       },
       "paladin": {
          "paladin_description": {
             "display_name": "Paladin"
-         }
-      },
-      "potter": {
-         "recipes": {
-            "bathtub_recipe": {
-               "recipe_name": "Bathtub",
-               "description": "Nice and clean",
-               "flavor": "living like a king!"
-            },
-            "sink_recipe": {
-               "recipe_name": "Sink",
-               "description": "A place to wash away your worries",
-               "flavor": "wow running water"
-            },
-            "toilet_recipe": {
-               "recipe_name": "Toilet",
-               "description": "A place to find relief",
-               "flavor": "coming soon to a home near you"
-            },
-            "fridge_recipe": {
-               "recipe_name": "Fridge",
-               "description": "Keeps things very cool",
-               "flavor": "how does it work!?"
-            }
          }
       },
       "cook": {
@@ -311,51 +218,6 @@
                "description": "A pepperoni sausage"
             }
          }
-      },
-      "alchemist": {
-         "alchemist_description": {
-            "display_name": "Alchemist",
-            "description": "A master of mixtures and seeking rare ingredients",
-            "requirements": "Crafted by Engineer"
-         },
-         "recipes": {
-            "alchemist_workbench_recipe": {
-               "flavor": "When the herbalist asked the alchemist, \"Why are you so messy\" the alchemist replied, \"I'm not messy, I'm ready\"",
-               "description": "A place where alchemist create their mixtures of madness",
-               "recipe_name": "Alchemist Mixing Table"
-            }
-         },
-         "alchemist_workbench": {
-            "alchemist_workbench_ghost": {
-               "display_name": "Alchemist Mixing Table",
-               "description": "A place to mix madness"
-            }
-         },
-         "alchemist_flask_sword": {
-            "alchemist_flask_sword_talisman": {
-               "display_name": "Flask Slasher",
-               "description": "A tool used by the alchemist to collect rare ingredients and test mixtures"
-            },
-            "display_name": "Flask Slasher",
-            "description": "A tool used by the alchemist to collect rare ingredients and test mixtures",
-            "alchemist_flask_sword_iconic": {
-               "display_name": "Flask Slasher",
-               "description": "A tool used by the alchemist to collect rare ingredients and test mixtures"
-            }
-         },
-         "alchemist_outfit": {
-            "display_name": "Alchemist Outfit",
-            "description": "A long muffler helps protect them against the fumes of their mixtures"
-         }
-      },
-      "engineer": {
-         "recipes": {
-            "alchemist_flask_sword_recipe": {
-               "recipe_name": "Flask Slasher",
-               "description": "A tool used by the Alchemist to collect rare ingredients and test mixtures",
-               "flavor": "The blacksmtih asked the alchemist and engineer, \"Why are you doing that to a sword?\" To which they replied \"FOR SCIENCE!\""
-            }
-         }
       }
    },
    "entities": {
@@ -363,67 +225,9 @@
          "flame_skull": {
             "display_name": "Flame Skull",
             "description": "Flaming Skull"
-         },
-         "ninja_sword": {
-            "ninja_sword_talisman": {
-               "display_name": "Ninja Sword",
-               "description": "A ninjas deadly weapon"
-            },
-            "display_name": "Ninja Sword",
-            "description": "A ninjas deadly weapon",
-            "ninja_sword_iconic": {
-               "description": "A ninjas deadly weapon",
-               "display_name": "Ninja Sword"
-            }
-         },
-         "ninja_star": {
-            "display_name": "Ninja Star",
-            "description": "The stealth weapon of the ninja"
          }
       },
       "construction": {
-         "stone_window_frame_tall": {
-            "stone_window_frame_tall_ghost": {
-               "display_name": "Tall Stone Window Frame",
-               "description": "A Tall Stone Window Frame Variant Of It's Wooden Cousin"
-            }
-         },
-         "stone_window_frame_tall_fine": {
-            "stone_window_frame_tall_fine_ghost": {
-               "display_name": "Fine Tall Stone Window Frame",
-               "description": "A Fine Tall Stone Window Frame Variant Of It's Wooden Cousin"
-            }
-         },
-         "stone_door": {
-            "stone_door_ghost": {
-               "display_name": "Stone Door",
-               "description": "A Stone Door Varient To It's Wooden Cousin"
-            }
-         },
-         "stone_door_fine": {
-            "stone_door_fine_ghost": {
-               "description": "A Fine Stone Door Varient To It's Wooden Cousin",
-               "display_name": "Fine Stone Door"
-            }
-         },
-         "solid_stone_door": {
-            "solid_stone_door_ghost": {
-               "display_name": "Solid Stone Door",
-               "description": "A Solid Stone Door Variant Of It's Clay Cousin"
-            }
-         },
-         "solid_red_wood_door": {
-            "solid_red_wood_door_ghost": {
-               "display_name": "Small Red Door",
-               "description": "A Small 2-Wide Door For Those Tight Fit Places"
-            }
-         },
-         "stone_window_frame_wide": {
-            "stone_window_frame_wide_ghost": {
-               "description": "A Wide Stone Window Frame Variant Of It's Wooden Cousin",
-               "display_name": "Wide Stone Window Frame"
-            }
-         },
          "stoned_tunnel_door": {
             "stoned_tunnel_door_ghost": {
                "display_name": "Indestructible Tunnel Door",
@@ -474,106 +278,10 @@
          }
       },
       "decoration": {
-         "blue_stone_road_lamp": {
-            "blue_stone_road_lamp_ghost": {
-               "display_name": "Blue Stone Road Lamp",
-               "description": "A standing road lamp with a color of blue."
-            }
-         },
-         "green_stone_road_lamp": {
-            "green_stone_road_lamp_ghost": {
-               "display_name": "Green Stone Road Lamp",
-               "description": "A standing road lamp with a color of green."
-            }
-         },
-         "purple_stone_road_lamp": {
-            "purple_stone_road_lamp_ghost": {
-               "display_name": "Purple Stone Road Lamp",
-               "description": "A standing road lamp with a color of purple."
-            }
-         },
-         "red_stone_road_lamp": {
-            "red_stone_road_lamp_ghost": {
-               "display_name": "Red Stone Road Lamp",
-               "description": "A standing road lamp with a color of red."
-            }
-         },
-         "blue_wooden_road_lamp": {
-            "blue_wooden_road_lamp_ghost": {
-               "display_name": "Blue Wooden Road Lamp",
-               "description": "A standing road lamp with a color of blue."
-            }
-         },
-         "green_wooden_road_lamp": {
-            "green_wooden_road_lamp_ghost": {
-               "display_name": "Green Wooden Road Lamp",
-               "description": "A standing road lamp with a color of green."
-            }
-         },
-         "purple_wooden_road_lamp": {
-            "purple_wooden_road_lamp_ghost": {
-               "display_name": "Purple Wooden Road Lamp",
-               "description": "A standing road lamp with a color of purple."
-            }
-         },
-         "red_wooden_road_lamp": {
-            "red_wooden_road_lamp_ghost": {
-               "display_name": "Red Wooden Road Lamp",
-               "description": "A standing road lamp with a color of red."
-            }
-         },
-         "fireplace": {
-            "fireplace_ghost": {
-               "display_name": "Stone Chimney Fireplace",
-               "description": "A large stone chimney fireplace for your hearthlings to gather around."
-            }
-         },
          "boxling_statue": {
             "boxling_statue_ghost": {
                "display_name": "Boxling Statue",
                "description": "A statue to the almighty Boxlings, from which all has been given to us, the GODs of Boxland."
-            }
-         },
-         "fridge": {
-            "fridge_ghost": {
-               "display_name": "Fridge",
-               "description": "A nice kitchen addition"
-            }
-         },
-         "bathtub": {
-            "bathtub_ghost": {
-               "display_name": "Bath Tub",
-               "description": "To wash away your networth needs"
-            }
-         },
-         "sink": {
-            "sink_ghost": {
-               "display_name": "Sink",
-               "description": "Dont forget to wash your hands"
-            }
-         },
-         "grandfather_clock": {
-            "grandfather_clock_ghost": {
-               "display_name": "Grandfather Clock",
-               "description": "Is it broken?"
-            }
-         },
-         "toilet": {
-            "toilet_ghost": {
-               "display_name": "Toilet",
-               "description": "Finally a place for relief"
-            }
-         },
-         "cabinet": {
-            "cabinet_ghost": {
-               "display_name": "Cabinet",
-               "description": "So much storage space just a block out of reach"
-            }
-         },
-         "wall_clock": {
-            "wall_clock_ghost": {
-               "display_name": "Wall Clock",
-               "description": "Please make sure to wind everyday for an accurate reading."
             }
          },
          "craftsman_statue": {
@@ -633,70 +341,10 @@
             }
          }
       },
-      "armor": {
-         "cloth_hood": {
-            "display_name": "Enchanted Hood",
-            "description": "An enchanted hood that provides armor"
-         },
-         "cloth_robe": {
-            "display_name": "Enchanted Robe",
-            "description": "An enchanted robe that provides armor"
-         }
-      },
       "furniture": {
-         "stone_bed": {
-            "stone_bed_ghost": {
-               "display_name": "Stone Bed",
-               "description": "A stone bed"
-            }
-         },
          "stone_comfy_chair": {
             "display_name": "Comfy Stone Chair",
             "description": "For sitting."
-         }
-      },
-      "refined": {
-         "enchanted_cloth": {
-            "display_name": "Enchanted Cloth",
-            "description": "Enchanted Cloth imbued with magical protection \"atrributes\" :P"
-         },
-         "cooling_liquid": {
-            "display_name": "Cooling Liquid",
-            "description": "A strange liquid that is very cold."
-         },
-         "dyes": {
-            "blue": {
-               "display_name": "Blue Dye",
-               "description": "Beautiful Blue"
-            },
-            "green": {
-               "display_name": "Green Dye",
-               "description": "Gorgeous Green"
-            },
-            "orange": {
-               "display_name": "Orange Dye",
-               "description": "Outrageous Orange"
-            },
-            "pink": {
-               "display_name": "Pink Dye",
-               "description": "Pretty Pink"
-            },
-            "purple": {
-               "display_name": "Purple Dye",
-               "description": "Pleasing Purple"
-            },
-            "red": {
-               "display_name": "Red Dye",
-               "description": "Racy Red"
-            },
-            "white": {
-               "display_name": "White Dye",
-               "description": "Willing White"
-            },
-            "yellow": {
-               "display_name": "Yellow Dye",
-               "description": "Yelping Yellow"
-            }
          }
       },
       "crops": {
@@ -848,55 +496,10 @@
             "description": "This plant's flowers can be used to make dye.",
             "display_name": "Wild Daisy"
          },
-         "firebeard_plant": {
-            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
-            "display_name": "Wild Firebeard",
-            "description": "This plant's flowers can be used to make dye."
-         },
-         "foxlily_plant": {
-            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
-            "display_name": "Wild Foxlily",
-            "description": "This plant's flowers can be used to make dye."
-         },
-         "greentea_plant": {
-            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
-            "display_name": "Wild Gree Tea",
-            "description": "This plant's flowers can be used to make dye."
-         },
-         "nightshade_plant": {
-            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
-            "display_name": "Wild Nightshade",
-            "description": "This plant's flowers can be used to make dye."
-         },
-         "sunflower_plant": {
-            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
-            "display_name": "Wild Sunflower",
-            "description": "This plant's flowers can be used to make dye."
-         },
          "blueberry_bush": {
             "unripe_description": "Not yet ripe for harvest.",
             "description": "Harvestable for a meager food supply.",
             "display_name": "Blueberry Bush"
-         },
-         "hemp_plant": {
-            "display_name": "Hemp Seedling",
-            "description": "What a strang plant, it could be useful",
-            "small_hemp_plant": {
-               "display_name": "Hemp",
-               "description": "This plant seems to grow very quickly"
-            },
-            "medium_hemp_plant": {
-               "display_name": "Hemp",
-               "description": "The plants rapid growth and structure makes it appear to be a good source of fiber"
-            },
-            "large_hemp_plant": {
-               "display_name": "Hemp",
-               "description": "Wow, is it growing flowers?"
-            },
-            "flower_hemp_plant": {
-               "display_name": "Hemp Herb",
-               "description": "The herb of this plant seems to be imbued with different magic than the others..."
-            }
          }
       },
       "food": {
@@ -1251,42 +854,12 @@
             "daisy": {
                "description": "These flowers can be used to make dye.",
                "display_name": "Daisy Flower"
-            },
-            "firebeard": {
-               "description": "These flowers can be used to make dye.",
-               "display_name": "Firebeard Flower"
-            },
-            "foxlily": {
-               "description": "These flowers can be used to make dye.",
-               "display_name": "Foxlily Flower"
-            },
-            "greentea": {
-               "description": "These flowers can be used to make dye.",
-               "display_name": "Green Tea Flower"
-            },
-            "nightshade": {
-               "description": "These flowers can be used to make dye.",
-               "display_name": "Nightshade Flower"
-            },
-            "sunflower": {
-               "description": "These flowers can be used to make dye.",
-               "display_name": "Sunflower Flower"
-            },
-            "hemp_herb": {
-               "display_name": "Hemp Sack",
-               "description": "These herbs leave your hands and tools coated in sticky residue"
             }
          },
          "salt_rock": {
             "salt_rock": {
                "description": "Salt rock that can be ground down to make salt for cooking.",
                "display_name": "Salt Rock"
-            }
-         },
-         "fiber": {
-            "hemp_fiber_bundle": {
-               "display_name": "Hemp Bundle",
-               "description": "A bundle of hemp fibers."
             }
          },
          "grass_bundle": {
@@ -1317,12 +890,6 @@
             "display_name": "Boxling Formation"
          }
       },
-      "mixtures": {
-         "basic": {
-            "display_name": "Flask",
-            "description": "a flask"
-         }
-      },
       "monsters": {
          "forest": {
             "wolf_fox": {
@@ -1331,18 +898,8 @@
          }
       }
    },
-   "weapons": {
-      "ninja_sword": {
-         "flavor": "Don't run with sharp blades!"
-      }
-   },
    "ui": {
       "game": {
-         "unit_frame": {
-            "placement_tags": {
-               "summoned": "Undead Workers"
-            }
-         },
          "menu": {
             "crafter_menu": {
                "items": {
@@ -1350,16 +907,6 @@
                      "display_name": "Cleric Craft Menu",
                      "description": "Craft potions & bind flesh together to create a Necronomicon",
                      "required_job_text": "Requires a cleric"
-                  },
-                  "botanist": {
-                     "display_name": "Botanist Craft Menu",
-                     "required_job_text": "Requires a Botanist",
-                     "description": "Craft Flora to put anywhere you like"
-                  },
-                  "alchemist": {
-                     "required_job_text": "Required Alchemist",
-                     "description": "Allows the creation of mixtures and essence",
-                     "display_name": "Alchemist Craft Menu"
                   }
                }
             }
@@ -1401,45 +948,6 @@
             }
          }
       }
-   },
-   "filters": {
-      "animal_feed": "Animal Feed",
-      "consumables": "Consumables",
-      "cooking_ingredients": "Ingredients",
-      "equipment": "Equipment",
-      "garbage": "Garbage",
-      "pile": "Items Piles",
-      "prepared_meat": "Cooked Meat",
-      "prepared_veggie": "Cooked Veggie",
-      "raw_meat": "Raw Meat",
-      "raw_veggie": "Raw Veggie",
-      "tooltip_bed": "Beds",
-      "tooltip_bread": "Bread",
-      "tooltip_chair": "Chairs",
-      "tooltip_containers": "Supply & Finished Work Containers",
-      "tooltip_crate": "Storage Containers",
-      "tooltip_decorative": "Decorative Furniture",
-      "tooltip_door": "Doors",
-      "tooltip_fence": "Fences",
-      "tooltip_gate": "Gates",
-      "tooltip_gizmo": "Traps & Turrets",
-      "tooltip_healing_item": "Bandages & Healing Tonic",
-      "tooltip_heavy_armor": "Heavy Armor",
-      "tooltip_light_armor": "Light Armor",
-      "tooltip_light_source": "Light Sources",
-      "tooltip_log": "Wood Log",
-      "tooltip_meat_stew": "Meat Stew & Tagine",
-      "tooltip_melee_weapon": "Melee Weapons",
-      "tooltip_pelt": "Fur Pelt",
-      "tooltip_quest_items": "Quest Items",
-      "tooltip_ranged_weapon": "Ranged Weapons",
-      "tooltip_rotten_food": "Rotten Food",
-      "tooltip_seeds": "Seeds",
-      "tooltip_table": "Tables",
-      "tooltip_tree": "Tree Sapling",
-      "tooltip_veggie_stew": "Veggie Stew & Tagine",
-      "tooltip_window": "Windows",
-      "tooltip_worker_outfit": "Worker Outfits"
    },
    "kingdom": {
       "initial_town_name": "Boxland"
