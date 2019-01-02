@@ -1,22 +1,23 @@
 {
    "type": "buff",
+   "axis": "debuff",
    "display_name": "i18n(box_o_vox:jobs.necromancer.necromancer_debuffs.flame_skull.display_name)",
    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_debuffs.flame_skull.description)",
    "icon": "file(flame_skull.png)",
    "invisible_to_player": false,
-   "duration": "20m",
+   "duration": "50m",
    "effect": "stonehearth:effects:firepit_effect:green",
    "repeat_add_action": "renew_duration",
    "script": "stonehearth:buff_scripts:periodic_health_modification",
    "script_info": {
       "health_change": -20,
-      "pulse": "4m",
-      "pulse_immediately": false,
+      "pulse": "10m",
+      "pulse_immediately": true,
       "pulse_on_destroy": true
    },
    "modifiers": {
       "speed": {
-         "multiply": 0.3
+         "multiply": 0.5
       }
    }
 }

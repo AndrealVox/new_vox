@@ -13,6 +13,14 @@
       }
    },
    "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "box_o_vox:data:buffs:necromancer:flame_skull",
+               "chance": 1.0
+            }
+         }
+      },
       "box_o_vox:combat:ranged_spells": [
          {
             "name": "combat_spell",

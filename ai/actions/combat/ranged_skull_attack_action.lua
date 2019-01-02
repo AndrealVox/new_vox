@@ -35,7 +35,12 @@ function AttackRangedFlameSkull:start_thinking(ai, entity, args)
       return
    end
 
-   
+   local equipment_data = stonehearth.combat:get_equipment_data(entity, 'box_o_vox:projectile_data')
+   -- get projectile uri from an equipped skill or the main weapon
+   self._projectile_uri = equipment_data and equipment_data.projectile_uri or
+                          self._weapon_data and self._weapon_data.projectile_uri
+
+   -- get offsets of where the projectile starts and ends
    self:_get_projectile_offsets(self._weapon_data)
 
    self:_choose_attack_action(ai, entity, args)
@@ -230,6 +235,15 @@ function AttackRangedFlameSkull:_get_projectile_offsets(weapon_data, entity)
                                      projectile_end_offset.y,
                                      projectile_end_offset.z)
    end
+end
+
+function AttackRangedFlameSkull:on_buff_added(entity, buff)
+   local info = buff._json.script_info
+end
+
+function AttackRangedFlameSkull:on_buff_removed(entity, buff)
+   -- Here we can clean up stuff created by the buff
+   -- E.g. destroying timers, listeners, etc.
 end
 
 return AttackRangedFlameSkull

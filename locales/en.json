@@ -170,6 +170,16 @@
             }
          }
       },
+      "herbalist": {
+         "herbalist_description": {
+            "display_name": "Herbalist"
+         }
+      },
+      "weaver": {
+         "weaver_description": {
+            "display_name": "Weaver"
+         }
+      },
       "paladin": {
          "paladin_description": {
             "display_name": "Paladin"

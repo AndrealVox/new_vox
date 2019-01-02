@@ -49,7 +49,7 @@
                   },
                   "clay_mound": {
                      "uri": "stonehearth:resources:clay:clay_mound",
-                     "weight": 50
+                     "weight": 20
                   }
                }
             }
@@ -70,7 +70,7 @@
                   },
                   "clay_mound": {
                      "uri": "stonehearth:resources:clay:clay_mound",
-                     "weight": 50
+                     "weight": 10
                   },
                   "copper_ore": {
                      "uri": "stonehearth:resources:copper:ore",

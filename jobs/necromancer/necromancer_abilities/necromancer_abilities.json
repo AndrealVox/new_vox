@@ -23,12 +23,20 @@
       }
    },
    "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "box_o_vox:data:buffs:necromancer:flame_skull",
+               "chance": 1.0
+            }
+         }
+      },
       "box_o_vox:combat:summon_spells": [
          {
             "name": "combat_summon",
             "effect": "combat_1h_heal",
             "active_frame": 41,
-            "cooldown": 20000,
+            "cooldown": 40000,
             "priority": 0
          }
       ],
