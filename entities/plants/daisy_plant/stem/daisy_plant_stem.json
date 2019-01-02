@@ -1,0 +1,13 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:plants:brightbell:stem",
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "box_o_vox:entities:plants:daisy:bud",
+         "evolve_time": "7h+2h"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.plants.daisy_plant.stem.daisy_plant_stem.display_name)"
+      }
+   }
+}

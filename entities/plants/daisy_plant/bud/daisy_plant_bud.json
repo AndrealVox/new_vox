@@ -1,0 +1,22 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:plants:brightbell:bud",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(../../../crops/daisy_crop/daisy_3.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "box_o_vox:entities:plants:daisy",
+         "evolve_time": "7h+2h"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.plants.daisy_plant.stem.daisy_plant_bud.display_name)"
+      }
+   }
+}

@@ -52,7 +52,7 @@
                },
                "items": {
                   "herbs": {
-                     "uri": "stonehearth:resources:herb:brightbell",
+                     "uri": "box_o_vox:entities:resources:herb:daisy",
                      "weight": 30
                   },
                   "fiber": {

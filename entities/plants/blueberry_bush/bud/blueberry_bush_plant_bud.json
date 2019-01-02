@@ -1,0 +1,13 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:plants:berry_bush:bud",
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "box_o_vox:entities:plants:blueberry_bush",
+         "evolve_time": "7h+2h"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.plants.blueberry_bush.bud.blueberry_bush_plant_bud.display_name)"
+      }
+   }
+}

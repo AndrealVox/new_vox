@@ -1,0 +1,89 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:crops:brightbell_crop",
+   "components": {
+      "model_variants": {
+         "default": {
+            "mixintypes": {
+               "models": "override"
+            },
+            "models": [
+               "file(../../plants/daisy_plant/daisy_plant.qb)"
+            ]
+         },
+         "daisy_1": {
+            "models": [
+               "file(daisy_1.qb)"
+            ]
+         },
+         "daisy_2": {
+            "models": [
+               "file(daisy_2.qb)"
+            ]
+         },
+         "daisy_3": {
+            "models": [
+               "file(daisy_3.qb)"
+            ]
+         },
+         "daisy_4": {
+            "models": [
+               "file(daisy_4.qb)"
+            ]
+         }
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "daisy_4": "box_o_vox:entities:resources:herb:daisy"
+         },
+         "harvest_threshhold": "daisy_4"
+      },
+      "stonehearth:growing": {
+         "growth_period": "12h",
+         "preferred_seasons": {
+            "box_o_vox:biome:boxland": [
+               "spring"
+            ]
+         },
+         "mixintypes": {
+            "growth_stages": "override"
+         },
+         "growth_stages": [
+            {
+               "model_name": "daisy_1",
+               "name": "i18n(box_o_vox:entities.crops.daisy_crop.growth_stage.000.name)",
+               "description": "i18n(stonehearth:entities.crops.brightbell_crop.growth_stage.000.description)"
+            },
+            {
+               "model_name": "daisy_2",
+               "name": "i18n(box_o_vox:entities.crops.daisy_crop.growth_stage.001.name)",
+               "description": "i18n(stonehearth:entities.crops.brightbell_crop.growth_stage.001.description)"
+            },
+            {
+               "model_name": "daisy_3",
+               "name": "i18n(box_o_vox:entities.crops.daisy_crop.growth_stage.002.name)",
+               "description": "i18n(stonehearth:entities.crops.brightbell_crop.growth_stage.002.description)"
+            },
+            {
+               "model_name": "daisy_4",
+               "name": "i18n(box_o_vox:entities.crops.daisy_crop.growth_stage.003.name)",
+               "description": "i18n(stonehearth:entities.crops.brightbell_crop.growth_stage.003.description)"
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.crops.daisy_crop.display_name)",
+         "description": "i18n(stonehearth:entities.crops.brightbell_crop.description)",
+         "icon": "file(../../plants/daisy_plant/daisy_plant.png)",
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": [
+            "crop",
+            "daisy"
+         ]
+      }
+   }
+}

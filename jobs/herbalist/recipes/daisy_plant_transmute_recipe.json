@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 5,
+   "recipe_name": "i18n(box_o_vox:jobs.herbalist.recipes.daisy_plant_transmute_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.brightbell_transmute_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.herbalist.recipes.brightbell_transmute_recipe.flavor)",
+   "portrait": "/box_o_vox/entities/plants/daisy_plant/seed/daisy_plant_seed.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "box_o_vox:entities:resources:herb:daisy",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:plants:daisy:seed"
+      },
+      {
+         "item": "box_o_vox:entities:plants:daisy:seed"
+      }
+   ]
+}

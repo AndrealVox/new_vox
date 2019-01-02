@@ -95,9 +95,6 @@
                      "camp": "Camp Templates",
                      "town": "Town Templates"
                   }
-               },
-               "ascendancy": {
-                  "display_name": "Original"
                }
             }
          }
@@ -173,6 +170,14 @@
       "herbalist": {
          "herbalist_description": {
             "display_name": "Herbalist"
+         },
+         "recipes": {
+            "blueberry_bush_transmute_recipe": {
+               "recipe_name": "Blueberry Bush Seeds (x2)"
+            },
+            "daisy_plant_transmute_recipe": {
+               "recipe_name": "Daisy Seeds (x2)"
+            }
          }
       },
       "weaver": {
@@ -233,7 +238,7 @@
    "entities": {
       "weapons": {
          "flame_skull": {
-            "display_name": "Flame Skull",
+            "display_name": "Flaming Skull",
             "description": "Flaming Skull"
          }
       },
@@ -451,6 +456,23 @@
             },
             "display_name": "Strawberry",
             "description": "A sweet soft red fruit with a seed-studded surface"
+         },
+         "daisy_crop": {
+            "growth_stage": {
+               "000": {
+                  "name": "Daisy Seedling"
+               },
+               "001": {
+                  "name": "Daisy Sprout"
+               },
+               "002": {
+                  "name": "Daisy Bud"
+               },
+               "003": {
+                  "name": "Daisy"
+               }
+            },
+            "display_name": "Daisy Flower"
          }
       },
       "plants": {
@@ -504,12 +526,48 @@
          "daisy_plant": {
             "unripe_description": "This plant has been harvested and hasn't grown back yet.",
             "description": "This plant's flowers can be used to make dye.",
-            "display_name": "Wild Daisy"
+            "display_name": "Wild Daisy",
+            "stem": {
+               "daisy_plant_bud": {
+                  "display_name": "Wild Daisy Budding Plant"
+               },
+               "daisy_plant_stem": {
+                  "display_name": "Wild Daisy Stemming Plant"
+               }
+            },
+            "seed": {
+               "daisy_plant_seed_ghost": {
+                  "display_name": "Wild Daisy Seed"
+               },
+               "daisy_plant_sprout": {
+                  "display_name": "Wild Daisy Sproutling"
+               }
+            }
          },
          "blueberry_bush": {
             "unripe_description": "Not yet ripe for harvest.",
             "description": "Harvestable for a meager food supply.",
-            "display_name": "Blueberry Bush"
+            "display_name": "Blueberry Bush",
+            "bud": {
+               "blueberry_bush_plant_bud": {
+                  "display_name": "Budding Blueberry Bush"
+               }
+            },
+            "sprout": {
+               "blueberry_bush_plant_sprout": {
+                  "display_name": "Blueberry Bush Sproutling"
+               }
+            },
+            "seed": {
+               "blueberry_bush_plant_seed_ghost": {
+                  "display_name": "Blueberry Bush Seed"
+               }
+            },
+            "stem": {
+               "blueberry_bush_plant_stem": {
+                  "display_name": "Stemming Blueberry Bush"
+               }
+            }
          }
       },
       "food": {
