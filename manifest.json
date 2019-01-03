@@ -233,7 +233,6 @@
       "entities:weapon:necromancer_tome": "file(jobs/necromancer/necromancer_tome/necromancer_tome.json)",
       "entities:weapon:summon_necromancer_tome": "file(jobs/necromancer/necromancer_tome/summon_necromancer_tome.json)",
 
-      "jobs:blacksmith": "file(jobs/blacksmith/blacksmith_description.json)",
       "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
       "jobs:cook": "file(jobs/cook/cook_description.json)",
       "jobs:index": "file(jobs/index.json)",
@@ -257,7 +256,6 @@
       "jobs:necromancer:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
       "jobs:paladin": "file(jobs/paladin/paladin_description.json)",
       "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
-      "jobs:recipes:blacksmith": "file(jobs/blacksmith/recipes/recipes.json)",
       "jobs:recipes:cook": "file(jobs/cook/recipes/recipes.json)",
       "jobs:recipes:herbalist": "file(jobs/herbalist/recipes/recipes.json)",
       "jobs:recipes:mason": "file(jobs/mason/recipes/recipes.json)",
@@ -327,7 +325,6 @@
       "stonehearth/entities/resources/wood/pine_log/pine_log.json": "file(entities/resources/wood/all_logs.json)",
       "stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
       "stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
-      "stonehearth/entities/crops/brightbell_crop/brightbell_crop.json": "file(entities/crops/brightbell_crop/brightbell_crop.json)",
       "stonehearth/entities/crops/carrot_crop/carrot_crop.json": "file(entities/crops/carrot_crop/carrot_crop.json)",
       "stonehearth/entities/crops/corn_crop/corn_crop.json": "file(entities/crops/corn_crop/corn_crop.json)",
       "stonehearth/entities/crops/frostsnap_crop/frostsnap_crop.json": "file(entities/crops/frostsnap_crop/frostsnap_crop.json)",

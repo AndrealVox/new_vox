@@ -1,9 +1,6 @@
 {
    "mixins": "stonehearth:jobs:index",
    "jobs": {
-      "stonehearth:jobs:blacksmith": {
-         "description": "box_o_vox:jobs:blacksmith"
-      },
       "stonehearth:jobs:cleric": {
          "description": "box_o_vox:jobs:cleric"
       },

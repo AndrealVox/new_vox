@@ -26,7 +26,7 @@
             "name": "combat_spell",
             "effect": "combat_1h_forehand",
             "active_frame": 16,
-            "cooldown": 420,
+            "cooldown": 1000,
             "priority": 0
            }
       ]

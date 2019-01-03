@@ -19,7 +19,7 @@
          "injected_buffs": [
             "stonehearth:buffs:combat_basics"
          ],
-         "military_score": 15
+         "military_score": 20
       }
    },
    "entity_data": {
@@ -45,8 +45,8 @@
             "name": "combat_spell",
             "effect": "combat_1h_forehand",
             "active_frame": 16,
-            "cooldown": 1000,
-            "priority": 1
+            "cooldown": 2000,
+            "priority": 2
          }
       ]
    }

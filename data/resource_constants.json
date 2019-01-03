@@ -1,14 +1,9 @@
 {
-    "resources": {
-        "fruit": {
-            "name": "i18n(box_o_vox:ui.data.constants.food_fruit_raw_name)",
-            "default_resource": "stonehearth:food:berries:berry_basket",
-            "icon": "/box_o_vox/mixins/food/fruit/fruits.png"
-        },
-        "fuel resource": {
-            "name": "i18n(box_o_vox:ui.data.constants.resource_fuel_name)",
-            "default_resource": "stonehearth:resources:coal:lump_of_coal",
-            "icon": "/box_o_vox/mixins/fuel/fuel/fuel.png"
-        }
-    }
+   "resources": {
+      "fruit": {
+         "name": "i18n(box_o_vox:ui.data.constants.food_fruit_raw_name)",
+         "default_resource": "stonehearth:food:berries:berry_basket",
+         "icon": "/box_o_vox/mixins/food/fruit/fruits.png"
+      }
+   }
 }
