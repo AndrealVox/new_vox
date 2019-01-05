@@ -294,6 +294,7 @@
 
    },
    "mixintos": {
+      "stonehearth/locales/en.json": "file(locales/en_mixin.json)",
       "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
       "stonehearth:data:gm_index": "box_o_vox:data:gm_index",
       "stonehearth:jobs:index": "box_o_vox:jobs:index_mixin",

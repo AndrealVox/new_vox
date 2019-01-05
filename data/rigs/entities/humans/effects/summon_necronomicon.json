@@ -5,22 +5,22 @@
          "type": "animation_effect",
          "start_time": 0,
          "animation": "promote.json",
-         "loop": false
+         "loop": true
       },
       "harp_loop": {
          "type": "sound_effect",
          "loop": true,
          "start_time": 0,
          "min_distance": 75,
-         "max_instances": 4,
+         "max_instances": 6,
          "falloff": 3,
-         "volume": 80,
+         "volume": 40,
          "track": "box_o_vox:sounds:necronomicon_summon"
       },
       "firepit_effect": {
          "type": "cubemitter",
          "start_time": 0,
-         "end_time": 6000,
+         "end_time": 10000,
          "cubemitter": "particles/fire/fire.green.cubemitter.json",
          "transforms": {
             "x": 0,

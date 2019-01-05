@@ -51,7 +51,7 @@
       "stonehearth:attributes": {
          "max_health": {
             "type": "basic",
-            "value": 100
+            "value": 1000
          },
          "muscle": {
             "type": "basic",
@@ -59,7 +59,7 @@
          },
          "menace": {
             "type": "basic",
-            "value": 1
+            "value": 0
          },
          "courage": {
             "type": "basic",
@@ -67,7 +67,7 @@
          },
          "speed": {
             "type": "basic",
-            "value": 100
+            "value": 150
          },
          "exp_reward": {
             "type": "basic",
@@ -136,8 +136,8 @@
          }
       },
       "stonehearth:item_placement_limit": {
-         "tag": "summoned",
-         "default": 3
+         "tag": "workers",
+         "default": 0
       }
    }
 }

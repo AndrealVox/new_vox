@@ -12,7 +12,7 @@
                },
                "items": {
                   "frostsnap_seeds": {
-                     "uri": "stonehearth:plants:brightbell:seed",
+                     "uri": "box_o_vox:entities:plants:daisy:seed",
                      "weight": 1
                   }
                }

@@ -10,7 +10,7 @@
          "default_level_title": "i18n(box_o_vox:box_o_vox_mixins.monster.job.default_level_title)",
          "default_level_announcement": "i18n(box_o_vox:box_o_vox_mixins.monster.job.default_level_announcement)",
          "default_promote_announcement": "i18n(box_o_vox:box_o_vox_mixins.monster.job.default_promote_announcement)",
-         "xp_equation_for_next_level": "curr_level ^ 2 * 100",
+         "xp_equation_for_next_level": "curr_level * 100",
          "levels_between_attribute_increase": 10,
          "level_data": {
             "general_description_desc": "i18n(box_o_vox:box_o_vox_mixins.monster.job.general_description_desc)",
@@ -73,6 +73,17 @@
             "stonehearth:ai_pack:idle:bored:idle_effects",
             "stonehearth:ai_pack:idle:bored:wander"
          ]
+      },
+      "stonehearth:combat": {
+         "no_shuffle": true
+      },
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "stonehearth:buffs:undead_infection",
+               "chance": 0.9
+            }
+         }
       },
       "stonehearth:idle_effects": {
          "effects": [

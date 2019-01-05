@@ -115,31 +115,35 @@
             "description": "Summon the undead to fight for you",
             "requirements": "Crafted by a Cleric",
             "level_1_data": {
-               "perk_000_name": "Summon a Skeleton",
-               "perk_000_description": "Them bones, them bones gonna walk around",
-               "perk_001_name": "Flaming Skull Attack",
-               "perk_001_description": "The Necromancer is capable of throwing a flaming skull which inflicts a burning slow on enemies."
+               "perk_000_name": "Flaming Skull Attack",
+               "perk_000_description": "The Necromancer is capable of throwing a flaming skull which inflicts a burning slow on enemies.",
+               "perk_001_name": "Summon a Skeleton",
+               "perk_001_description": "Them bones, them bones gonna walk around"
             },
-            "level_4_data": {
-               "perk_000_name": "Summon a Zombie",
-               "perk_000_description": "It's the Walking Dead!"
-            },
-            "level_6_data": {
-               "perk_000_description": "Now that's a huge bitch!",
-               "perk_000_name": "Summon a Golem"
-            },
-            "level_7_data": {
-               "perk_000_description": "Hey look! It's a mini-me",
-               "perk_000_name": "Summon a Necromancer",
-               "title": "Master Necromancer"
-            },
-            "level_2b_data": {
+            "level_2_data": {
                "perk_000_name": "Summon a Bone Wolf",
                "perk_000_description": "The howls are getting louder."
             },
-            "level_5b_data": {
+            "level_3_data": {
+               "perk_000_name": "Summon a Zombie",
+               "perk_000_description": "It's the Walking Dead!",
+               "perk_001_name": "Craft a Skeleton Gatherer",
+               "perk_001_description": "This Undead Worker will haul items into storage or stockpiles"
+            },
+            "level_4_data": {
+               "perk_000_name": "Summon a Golem",
+               "perk_000_description": "Now that's a huge bitch!"
+            },
+            "level_5_data": {
                "perk_000_name": "Summon a Zilla",
                "perk_000_description": "It's Fleshzilla!"
+            },
+            "level_6_data": {
+               "title": "Master Necromancer",
+               "perk_000_name": "Summon a Necromancer",
+               "perk_000_description": "Hey look! It's a mini-me",
+               "perk_001_name": "Craft a Zombie Miner",
+               "perk_001_description": "This Undead Worker will mine set zones"
             }
          },
          "necromancer_outfit": {
@@ -968,6 +972,11 @@
    },
    "ui": {
       "game": {
+         "unit_frame": {
+            "placement_tags": {
+               "workers": "Undead Workers"
+            }
+         },
          "menu": {
             "crafter_menu": {
                "items": {

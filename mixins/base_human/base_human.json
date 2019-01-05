@@ -58,17 +58,20 @@
          "mind": {
             "type": "random_range",
             "base": 1,
-            "max": 7
+            "max": 6,
+            "only_clamp_initial_value": true
          },
          "body": {
             "type": "random_range",
             "base": 1,
-            "max": 7
+            "max": 6,
+            "only_clamp_initial_value": true
          },
          "spirit": {
             "type": "random_range",
             "base": 1,
-            "max": 7
+            "max": 6,
+            "only_clamp_initial_value": true
          },
          "diligence_adjustment": {
             "type": "random_range",
@@ -370,7 +373,8 @@
       "stonehearth:starvation": {},
       "stonehearth:interactions": {},
       "stonehearth:customization": {},
-      "stonehearth:appeal": {}
+      "stonehearth:appeal": {},
+      "stonehearth:teleportation": {}
    },
    "entity_data": {
       "stonehearth:entity_radius": 0.75,
@@ -438,7 +442,7 @@
             },
             {
                "name": "emote_toolinspection",
-               "weight": 0.25
+               "weight": 3.25
             },
             {
                "name": "emote_complete",
@@ -463,17 +467,17 @@
          ]
       },
       "stonehearth:incapacitate_data": {
-         "on_incapacitate_guts_subtraction": 8,
-         "incapacitate_guts_hourly_decrease": 1,
+         "on_incapacitate_guts_subtraction": 4,
+         "incapacitate_guts_hourly_decrease": 0.5,
          "rescued_guts_hourly_recovery": {
-            "on_ground": 0.5,
-            "in_unowned_bed": 0.75,
-            "in_own_bed": 1
+            "on_ground": 0.3,
+            "in_unowned_bed": 1,
+            "in_own_bed": 2
          }
       },
       "stonehearth:calories": {
-         "breakfast_hour": 7,
-         "dinner_hour": 20,
+         "breakfast_hour": 6,
+         "dinner_hour": 19,
          "food_qualities": {
             "UNPALATABLE": 0,
             "RAW_BLAND": 1,
@@ -488,9 +492,10 @@
       "stonehearth:catalog": {
          "display_name": "i18n(stonehearth:stonehearth_mixins.base_human.display_name)",
          "description": "i18n(stonehearth:stonehearth_mixins.base_human.description)",
-         "material_tags": "meat human",
+         "material_tags": ["meat", "human"],
          "subjects": ["hearthlings"],
          "subject_override": "stonehearth:decoration:firepit"
-      }
+      },
+      "stonehearth:teleport_cooldown": 1
    }
 }

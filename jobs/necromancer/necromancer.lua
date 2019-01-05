@@ -9,6 +9,7 @@ radiant.mixin(NecromancerClass, CraftingJob)
 function NecromancerClass:initialize()
    CraftingJob.initialize(self)
    CombatJob.initialize(self)
+   self._sv.max_num_workers = {}
    self._sv.max_num_attended_hearthlings = 2
 end
 
@@ -28,6 +29,7 @@ end
 function NecromancerClass:promote(json_path)
    CombatJob.promote(self, json_path)
    CraftingJob.promote(self, json_path)
+   self._sv.max_num_workers = { workers = 0 }
    self._sv.max_num_attended_hearthlings = self._job_json.initial_num_attended_hearthlings or 2
    if self._sv.max_num_attended_hearthlings > 0 then
       self:_register_with_town()
@@ -39,7 +41,7 @@ function NecromancerClass:_register_with_town()
    local player_id = radiant.entities.get_player_id(self._sv._entity)
    local town = stonehearth.town:get_town(player_id)
    if town then
-      town:add_medic(self._sv._entity, self._sv.max_num_attended_hearthlings)
+      town:add_placement_slot_entity(self._sv._entity, self._sv.max_num_workers)
    end
 end
 
@@ -104,6 +106,12 @@ function NecromancerClass:destroy()
    end
    CombatJob.destroy(self)
    CraftingJob.destroy(self)
+end
+
+function NecromancerClass:increase_max_placeable_workers(perk_json)
+   self._sv.max_num_workers = { workers = perk_json.max_num_workers }
+   self:_register_with_town()
+   self.__saved_variables:mark_changed()
 end
 
 return NecromancerClass
