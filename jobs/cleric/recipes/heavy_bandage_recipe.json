@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 10,
+   "recipe_name": "i18n(box_o_vox:jobs.herbalist.recipes.heavy_bandage_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.heavy_bandage_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/consumables/heavy_bandage/heavy_bandage.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "herb resource",
+         "count": 4
+      },
+      {
+         "uri": "stonehearth:refined:cloth_bolt",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:consumables:heavy_bandage"
+      },
+      {
+         "item": "stonehearth:consumables:heavy_bandage"
+      }
+   ]
+}

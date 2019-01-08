@@ -9,6 +9,7 @@
    "task_groups": [
       "stonehearth:task_groups:crafting"
    ],
+   "parent_level_requirement": 3,
    "xp_rewards": {
       "craft_level_0": 15,
       "craft_level_1": 17,

@@ -7,6 +7,9 @@
       "stonehearth:jobs:cook": {
          "description": "box_o_vox:jobs:cook"
       },
+      "stonehearth:jobs:engineer": {
+         "description": "box_o_vox:jobs:engineer"
+      },
       "stonehearth:jobs:herbalist": {
          "description": "box_o_vox:jobs:herbalist"
       },
@@ -18,6 +21,12 @@
       },
       "box_o_vox:jobs:paladin": {
          "description": "box_o_vox:jobs:paladin"
+      },
+      "stonehearth:jobs:potter": {
+         "description": "box_o_vox:jobs:potter"
+      },
+      "stonehearth:jobs:shepherd": {
+         "description": "box_o_vox:jobs:shepherd"
       },
       "stonehearth:jobs:weaver": {
          "description": "box_o_vox:jobs:weaver"

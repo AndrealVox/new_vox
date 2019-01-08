@@ -235,6 +235,7 @@
 
       "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
       "jobs:cook": "file(jobs/cook/cook_description.json)",
+      "jobs:engineer": "file(jobs/engineer/engineer_description.json)",
       "jobs:index": "file(jobs/index.json)",
       "jobs:index_mixin": "file(jobs/index_mixin.json)",
       "jobs:herbalist": "file(jobs/herbalist/herbalist_description.json)",
@@ -255,6 +256,8 @@
       "jobs:necromancer:spells:zombie": "file(jobs/necromancer/pages/zombie_summon_page.json)",
       "jobs:necromancer:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
       "jobs:paladin": "file(jobs/paladin/paladin_description.json)",
+      "jobs:potter": "file(jobs/potter/potter_description.json)",
+      "jobs:shepherd": "file(jobs/shepherd/shepherd_description.json)",
       "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
       "jobs:recipes:cook": "file(jobs/cook/recipes/recipes.json)",
       "jobs:recipes:herbalist": "file(jobs/herbalist/recipes/recipes.json)",

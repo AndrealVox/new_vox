@@ -32,7 +32,7 @@
       "stonehearth:task_groups:crafting"
    ],
    "icon": "file(images/icon.png)",
-   "parent_level_requirement": 2,
+   "parent_level_requirement": 3,
    "parent_job": "stonehearth:jobs:cleric",
    "xp_rewards": {
       "craft_level_1": 1,
@@ -150,7 +150,7 @@
          ]
       },
       "6": {
-         "title": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_7_data.title)",
+         "title": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.title)",
          "perks": [
             {
                "type": "add_chained_combat_action",

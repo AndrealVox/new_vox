@@ -38,7 +38,7 @@
    "parent_job": "stonehearth:jobs:knight",
    "parent_level_requirement": 3,
    "initial_num_attended_hearthlings": 4,
-   "max_level": 5,
+   "max_level": 6,
    "level_data": {
       "1": {
          "perks": [
@@ -61,6 +61,21 @@
                "description": "Increases Stamina, Courage, and draws attention from monsters",
                "level": 1,
                "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "Shout",
+               "id": "paladin_aggro_attack",
+               "icon": "file(images/paladin_perk_shout.png)",
+               "equipment": "box_o_vox:paladin:aggro_shout_1",
+               "action_type": "stonehearth:combat:melee_attacks",
+               "description": "The paladin intimidates the opponent, drawing the attention of nearby enemies.",
+               "level": 2,
+               "demote_fn": "remove_combat_action"
             },
             {
                "type": "apply_buff",
@@ -71,21 +86,10 @@
                "description": "The paladin gains an additional 30% defense from equipment",
                "level": 1,
                "demote_fn": "remove_buff"
-            },
-            {
-               "type": "add_combat_action",
-               "name": "Shout",
-               "id": "paladin_aggro_attack",
-               "icon": "file(images/paladin_perk_shout.png)",
-               "equipment": "box_o_vox:paladin:aggro_shout_1",
-               "action_type": "stonehearth:combat:melee_attacks",
-               "description": "The paladin intimidates the opponent, drawing the attention of nearby enemies.",
-               "level": 1,
-               "demote_fn": "remove_combat_action"
             }
          ]
       },
-      "2": {
+      "3": {
          "perks": [
             {
                "type": "apply_chained_buff",
@@ -95,12 +99,12 @@
                "buff_name": "box_o_vox:buffs:paladin:health_2",
                "last_buff": "box_o_vox:buffs:paladin:health_1",
                "description": "Stamina and Courage increased greatly",
-               "level": 2,
+               "level": 3,
                "demote_fn": "remove_buff"
             }
          ]
       },
-      "3": {
+      "4": {
          "perks": [
             {
                "type": "apply_chained_buff",
@@ -110,12 +114,12 @@
                "buff_name": "box_o_vox:buffs:paladin:defense_2",
                "last_buff": "box_o_vox:buffs:paladin:defense_1",
                "description": "The paladin gains an additional 40% armor from equipment",
-               "level": 3,
+               "level": 4,
                "demote_fn": "remove_buff"
             }
          ]
       },
-      "4": {
+      "5": {
          "perks": [
             {
                "type": "apply_buff",
@@ -124,12 +128,12 @@
                "icon": "file(images/paladin_perk_inspiring_presence.png)",
                "buff_name": "box_o_vox:buffs:paladin:courage_aura",
                "description": "The paladin boosts courage of everyone around",
-               "level": 4,
+               "level": 5,
                "demote_fn": "remove_buff"
             }
          ]
       },
-      "5": {
+      "6": {
          "perks": [
             {
                "type": "add_chained_combat_action",
@@ -140,7 +144,7 @@
                "last_equipment": "box_o_vox:paladin:aggro_shout_1",
                "action_type": "stonehearth:combat:melee_attacks",
                "description": "The paladin plays trumpets from heaven, drawing the attention of enemies both near and far",
-               "level": 5,
+               "level": 6,
                "demote_fn": "remove_combat_action"
             }
          ]

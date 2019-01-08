@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 5,
+   "recipe_name": "i18n(box_o_vox:jobs.herbalist.recipes.coarse_bandage_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.coarse_bandage_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/consumables/coarse_bandage/coarse_bandage.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "herb resource",
+         "count": 2
+      },
+      {
+         "material": "fiber resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:consumables:coarse_bandage"
+      },
+      {
+         "item": "stonehearth:consumables:coarse_bandage"
+      }
+   ]
+}

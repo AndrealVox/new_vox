@@ -39,7 +39,7 @@
                "type": "gold",
                "icon": "file(images/items/gold.png)",
                "uri": "stonehearth:loot:gold",
-               "amount": 200
+               "amount": 100
             }
          }
       }

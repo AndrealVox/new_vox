@@ -1,23 +1,6 @@
 {
    "type": "index",
    "constants": {
-      "game_creation": {
-         "num_starting_citizens": 8
-      },
-
-      "soil_fertility": {
-         "MIN": 40,
-         "MAX": 80,
-         "VARIATION": 20
-      },
-
-      "farming": {
-         "MAX_RELEVANT_FARMERS": 2,
-         "MAX_RELEVANT_DISTANCE": 600,
-         "COMPETITION_WEIGHT": 0.8,
-         "DISTANCE_WEIGHT": 0.2
-      },
-
       "food_qualities": {
          "UNPALATABLE": 0,
          "MINIMUM_VIABLE": 1,

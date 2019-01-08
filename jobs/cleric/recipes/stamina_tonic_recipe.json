@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 15,
+   "recipe_name": "i18n(box_o_vox:jobs.herbalist.recipes.stamina_tonic_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.stamina_tonic_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/consumables/stamina_tonic/stamina_tonic.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "herb resource",
+         "count": 10
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:consumables:stamina_tonic"
+      },
+      {
+         "item": "stonehearth:consumables:stamina_tonic"
+      }
+   ]
+}

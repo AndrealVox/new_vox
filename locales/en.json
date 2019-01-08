@@ -181,6 +181,30 @@
             },
             "daisy_plant_transmute_recipe": {
                "recipe_name": "Daisy Seeds (x2)"
+            },
+            "small_healing_tonic_recipe": {
+               "recipe_name": "Healing Potions (x2)"
+            },
+            "stamina_tonic_recipe": {
+               "recipe_name": "Stamina Potions (x2)"
+            },
+            "strength_tonic_recipe": {
+               "recipe_name": "Strength Potions (x2)"
+            },
+            "courage_tonic_recipe": {
+               "recipe_name": "Courage Potions (x2)"
+            },
+            "energy_tonic_recipe": {
+               "recipe_name": "Energy Potions (x2)"
+            },
+            "coarse_bandage_recipe": {
+               "recipe_name": "Coarse Bandages (x2)"
+            },
+            "heavy_bandage_recipe": {
+               "recipe_name": "Heavy Bandages (x2)"
+            },
+            "light_bandage_recipe": {
+               "recipe_name": "Light Bandages (x2)"
             }
          }
       },

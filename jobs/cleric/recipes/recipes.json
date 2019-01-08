@@ -1,9 +1,20 @@
 {
+   "mixins": "box_o_vox:jobs:recipes:herbalist",
    "craftable_recipes": {
+      "mixintypes": {
+         "workbenches": "remove",
+         "legendary": "remove",
+         "refinement": "remove",
+         "decorations": "remove",
+         "refinement_seeds": "remove",
+         "refinement_fungi": "remove"
+      },
       "tools": {
          "ordinal": 1,
-         "name": "i18n(stonehearth:jobs.herbalist.recipes.tools_name)",
          "recipes": {
+            "cleric_tome": {
+               "refinement": "remove"
+            },
             "necromancer_tome": {
                "recipe": "file(necromancer_tome_recipe.json)"
             },
@@ -14,13 +25,35 @@
       },
       "tonics": {
          "ordinal": 2,
-         "name": "i18n(stonehearth:jobs.herbalist.recipes.tonics_name)",
          "recipes": {
             "small_herbal_tonic": {
                "recipe": "file(small_healing_tonic_recipe.json)"
             },
+            "stamina_tonic": {
+               "recipe": "file(stamina_tonic_recipe.json)"
+            },
+            "strength_tonic": {
+               "recipe": "file(strength_tonic_recipe.json)"
+            },
+            "courage_tonic": {
+               "recipe": "file(courage_tonic_recipe.json)"
+            },
             "energy_tonic": {
                "recipe": "file(energy_tonic_recipe.json)"
+            }
+         }
+      },
+      "bandages": {
+         "ordinal": 3,
+         "recipes": {
+            "coarse_bandage": {
+               "recipe": "file(coarse_bandage_recipe.json)"
+            },
+            "heavy_bandage": {
+               "recipe": "file(heavy_bandage_recipe.json)"
+            },
+            "light_bandage": {
+               "recipe": "file(light_bandage_recipe.json)"
             }
          }
       }
