@@ -1008,6 +1008,11 @@
                      "display_name": "Cleric Craft Menu",
                      "description": "Craft potions & bind flesh together to create a Necronomicon",
                      "required_job_text": "Requires a cleric"
+                  },
+                  "necromancer": {
+                     "display_name": "Necromancer Craft Menu",
+                     "description": "Craft Undead Workers",
+                     "required_job_text": "Requires a necromancer"
                   }
                }
             }
@@ -1031,6 +1036,14 @@
          "select_roster": {
             "eye_color": "Eye Color",
             "head_accessory": "Accessories"
+         },
+         "settings": {
+            "controls_tab": {
+               "key_binding_names": {
+                  "craft_cleric": "Cleric Menu",
+                  "craft_necromancer": "Necromancer Menu"
+               }
+            }
          }
       }
    },
