@@ -1,6 +1,16 @@
 {
    "mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
    "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "mixintypes": {
+               "cleric_tome": "override"
+            },
+            "cleric_tome": {
+               "recipe": "file(cleric_tome_recipe.json)"
+            }
+         }
+      },
       "refinement": {
          "recipes": {
             "mixintypes": {

@@ -180,7 +180,9 @@
                "recipe_name": "Blueberry Bush Seeds (x2)"
             },
             "daisy_plant_transmute_recipe": {
-               "recipe_name": "Daisy Seeds (x2)"
+               "recipe_name": "Feverfew Seeds (x2)",
+               "description": "A traditional medicinal herb which is commonly used to prevent migraine headaches, and is also occasionally grown for ornament.",
+               "flavor": "Tanacetum parthenium, known as feverfew or bachelor's buttons, is a flowering plant in the daisy family Asteraceae."
             },
             "small_healing_tonic_recipe": {
                "recipe_name": "Healing Potions (x2)"
@@ -488,19 +490,19 @@
          "daisy_crop": {
             "growth_stage": {
                "000": {
-                  "name": "Daisy Seedling"
+                  "name": "Feverfew Seedling"
                },
                "001": {
-                  "name": "Daisy Sprout"
+                  "name": "Feverfew Sprout"
                },
                "002": {
-                  "name": "Daisy Bud"
+                  "name": "Feverfew Bud"
                },
                "003": {
-                  "name": "Daisy"
+                  "name": "Feverfew"
                }
             },
-            "display_name": "Daisy Flower"
+            "display_name": "Feverfew Flower"
          }
       },
       "plants": {
@@ -553,22 +555,22 @@
          },
          "daisy_plant": {
             "unripe_description": "This plant has been harvested and hasn't grown back yet.",
-            "description": "This plant's flowers can be used to make dye.",
-            "display_name": "Wild Daisy",
+            "description": "A traditional medicinal herb which is commonly used to prevent migraine headaches, and is also occasionally grown for ornament.",
+            "display_name": "Wild Feverfew",
             "stem": {
                "daisy_plant_bud": {
-                  "display_name": "Wild Daisy Budding Plant"
+                  "display_name": "Wild Feverfew Budding Plant"
                },
                "daisy_plant_stem": {
-                  "display_name": "Wild Daisy Stemming Plant"
+                  "display_name": "Wild Feverfew Stemming Plant"
                }
             },
             "seed": {
                "daisy_plant_seed_ghost": {
-                  "display_name": "Wild Daisy Seed"
+                  "display_name": "Wild Feverfew Seed"
                },
                "daisy_plant_sprout": {
-                  "display_name": "Wild Daisy Sproutling"
+                  "display_name": "Wild Feverfew Sproutling"
                }
             }
          },
@@ -948,8 +950,8 @@
       "resources": {
          "herb": {
             "daisy": {
-               "description": "These flowers can be used to make dye.",
-               "display_name": "Daisy Flower"
+               "description": "A traditional medicinal herb which is commonly used to prevent migraine headaches, and is also occasionally grown for ornament.",
+               "display_name": "Feverfew Flower"
             }
          },
          "salt_rock": {

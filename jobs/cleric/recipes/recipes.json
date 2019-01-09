@@ -12,8 +12,8 @@
       "tools": {
          "ordinal": 1,
          "recipes": {
-            "cleric_tome": {
-               "refinement": "remove"
+            "mixintypes": {
+               "cleric_tome": "remove"
             },
             "necromancer_tome": {
                "recipe": "file(necromancer_tome_recipe.json)"

@@ -84,7 +84,7 @@
                "icon": "file(images/paladin_perk_def_up_1.png)",
                "buff_name": "box_o_vox:buffs:paladin:defense_1",
                "description": "The paladin gains an additional 30% defense from equipment",
-               "level": 1,
+               "level": 2,
                "demote_fn": "remove_buff"
             }
          ]
