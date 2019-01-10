@@ -1,0 +1,9 @@
+{
+   "components": {
+      "stonehearth:growing": {
+         "preferred_seasons": {
+            "box_o_vox:biome:boxland": ["summer", "autumn"]
+         }
+      }
+   }
+}

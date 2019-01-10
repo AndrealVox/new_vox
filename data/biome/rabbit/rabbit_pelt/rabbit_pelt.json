@@ -2,6 +2,9 @@
    "components": {
       "model_variants": {
          "default": {
+            "mixintypes": {
+               "models": "override"
+            },
             "models": [
                "file(fur_pelt.qb)"
             ]

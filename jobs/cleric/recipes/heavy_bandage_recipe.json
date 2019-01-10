@@ -6,7 +6,7 @@
    "description": "i18n(stonehearth:jobs.herbalist.recipes.heavy_bandage_recipe.description)",
    "flavor": "",
    "portrait": "/stonehearth/entities/consumables/heavy_bandage/heavy_bandage.png",
-   "workshop": "stonehearth:herbalist:workbench",
+   "work_effect": "fiddle",
    "level_requirement": 2,
    "ingredients": [
       {

@@ -6,7 +6,7 @@
    "description": "i18n(stonehearth:jobs.herbalist.recipes.courage_tonic_recipe.description)",
    "flavor": "",
    "portrait": "/stonehearth/entities/consumables/courage_tonic/courage_tonic.png",
-   "workshop": "stonehearth:herbalist:workbench",
+   "work_effect": "box_o_vox:data:effects:summon_potions",
    "level_requirement": 0,
    "ingredients": [
       {

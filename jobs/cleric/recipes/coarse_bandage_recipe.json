@@ -6,7 +6,7 @@
    "description": "i18n(stonehearth:jobs.herbalist.recipes.coarse_bandage_recipe.description)",
    "flavor": "",
    "portrait": "/stonehearth/entities/consumables/coarse_bandage/coarse_bandage.png",
-   "workshop": "stonehearth:herbalist:workbench",
+   "work_effect": "fiddle",
    "level_requirement": 0,
    "ingredients": [
       {
