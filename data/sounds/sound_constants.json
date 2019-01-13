@@ -22,7 +22,7 @@
    },
    "music": {
       "title": {
-         "track": "box_o_vox:data:music:title_1",
+         "track": ["box_o_vox:data:music:title_1", "box_o_vox:data:music:combat_1", "box_o_vox:data:music:day_1", "box_o_vox:data:music:night_1", "stonehearth:music:title_screen"],
          "loop": true,
          "volume": 50
       },
@@ -87,7 +87,10 @@
             "playlist": [
                {
                   "track": [
-                     "box_o_vox:data:music:combat_1"
+                     "box_o_vox:data:music:combat_1",
+                     "stonehearth:music:combat_theme_a",
+                     "stonehearth:music:combat_theme_b",
+                     "stonehearth:music:combat_theme_c"
                   ],
                   "volume": 45,
                   "fade_in": 100,
