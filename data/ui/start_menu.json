@@ -10,7 +10,7 @@
             "icon": "/box_o_vox/jobs/cleric/images/cleric_menu_icon.png",
             "sticky": true,
             "menu_action": "show_crafter_ui",
-            "hotekey_action": "craft:cleric"
+            "hotkey_action": "craft:cleric"
          },
          "necromancer": {
             "name": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.necromancer.display_name)",
@@ -21,7 +21,7 @@
             "icon": "/box_o_vox/jobs/necromancer/images/necromancer_menu_icon.png",
             "sticky": true,
             "menu_action": "show_crafter_ui",
-            "hotekey_action": "craft:necromancer"
+            "hotkey_action": "craft:necromancer"
          }
       }
    }

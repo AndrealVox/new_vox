@@ -87,10 +87,12 @@
       "data:traits:passion_necromancer": "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",
       "data:traits:passion_paladin": "file(data/traits/passion_paladin/passion_paladin_trait.json)",
       "data:traits:wolf_fox_companion": "file(data/traits/wolf_fox_companion/wolf_fox_companion_trait.json)",
+      "data:weather_based_clouds": "file(data/weather/weather_based_clouds.json)",
       "data:weather:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist.json)",
       "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
       "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)",
 
+      "effects:default_clouds": "file(data/effects/clouds/default_clouds)",
       "entities:abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
       "entities:containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
       "entities:containers:equipment_crate": "file(entities/containers/equipment_crate)",
@@ -339,7 +341,8 @@
       "stonehearth/entities/crops/sweet_potato_crop/sweet_potato_crop.json": "file(entities/crops/sweet_potato_crop/sweet_potato_crop.json)",
       "stonehearth/entities/crops/turnip_crop/turnip_crop.json": "file(entities/crops/turnip_crop/turnip_crop.json)",
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
-      "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)"
+      "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
+      "stonehearth/data/calendar/calendar_constants.json": "box_o_vox/data/calendar/calendar_constants.json"
    },
    "overrides": {
       "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
@@ -357,7 +360,8 @@
       "trait_scripts:paladin": "file(data/traits/passion_paladin/paladin.lua)"
    },
    "components": {
-      "summon": "file(components/summon/summon_component.lua)"
+      "summon": "file(components/summon/summon_component.lua)",
+      "clouds": "file(components/clouds/clouds.lua)"
    },
    "ui": {
       "less": [

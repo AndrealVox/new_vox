@@ -1,0 +1,7 @@
+{
+   "box_o_vox:data:weather:enchanted_mist": "box_o_vox:effects:default_clouds",
+   "stonehearth:weather:rain": "box_o_vox:effects:default_clouds",
+   "stonehearth:weather:cloudy": "box_o_vox:effects:default_clouds",
+   "stonehearth:weather:snow:sunny": "box_o_vox:effects:default_clouds",
+   "stonehearth:weather:snow": "box_o_vox:effects:default_clouds"
+}

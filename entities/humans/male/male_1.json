@@ -34,8 +34,8 @@
             "hair_and_skin_color": {
                "hair_color": {
                   "weights": {
-                     "black": 3,
-                     "brown": 3,
+                     "black": 1,
+                     "brown": 1,
                      "red": 1,
                      "sandy": 1,
                      "blonde": 1,
@@ -52,8 +52,8 @@
                      "white": 1,
                      "brown_1": 1,
                      "brown_2": 1,
-                     "vox_demon": 0.2,
-                     "vox_smurf": 0.1
+                     "vox_demon": 1,
+                     "vox_smurf": 0
                   }
                },
                "eye_color": {
@@ -79,7 +79,7 @@
                      "vox_horns_0": 1,
                      "vox_horns_1": 1,
                      "vox_goggles_0": 1,
-                     "vox_hat_0": 0.1
+                     "vox_hat_0": 0
                   }
                },
                "eyebrows": {

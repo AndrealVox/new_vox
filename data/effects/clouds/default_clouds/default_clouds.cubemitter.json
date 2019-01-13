@@ -1,0 +1,101 @@
+{
+   "name": "box_o_vox_enchanted_mist",
+   "duration": 20000,
+   "material": "materials/cubemitter_bloom.material.json",
+   "loops": true,
+   "emission": {
+      "rate": {
+         "kind": "CONSTANT",
+         "values": [30]
+      },
+      "angle": {
+         "kind": "CONSTANT",
+         "values": [0]
+      },
+      "origin": {
+         "surface": "CYLINDER",
+         "values": [0, 100, 10, 360]
+      }
+   },
+   "particle": {
+      "lifetime": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [10000, 20000]
+         }
+      },
+      "speed": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [-5, 0]
+         }
+      },
+      "acceleration": {
+         "over_lifetime_z": {
+            "kind": "RANDOM_BETWEEN_CURVES",
+            "values": [
+					[
+						[0, -0.05],
+						[1, -0.05]
+					],
+					[
+						[0, 0.05],
+						[1, 0.05]
+					]
+				]
+         },
+         "over_lifetime_x": {
+            "kind": "RANDOM_BETWEEN_CURVES",
+            "values": [
+					[
+						[0, -0.05],
+						[1, -0.05]
+					],
+					[
+						[0, 0.05],
+						[1, 0.05]
+					]
+				]
+         }
+      },
+      "scale": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [10]
+         },
+         "over_lifetime": {
+            "kind": "RANDOM_BETWEEN_CURVES",
+            "values": [
+					[
+						[0, 1],
+						[1, 2]
+					],
+					[
+						[0, 1.8],
+						[1, 2.8]
+					]
+				]
+         }
+      },
+      "color": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [
+               0.149,
+               0.408,
+               0.565,
+               1
+            ]
+         },
+         "over_lifetime_a": {
+            "kind": "CURVE",
+            "values": [
+					[0, 0],
+					[0.3, 0.1],
+					[0.7, 0.1],
+					[1, 0]
+				]
+         }
+      }
+   }
+}

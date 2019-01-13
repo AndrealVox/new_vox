@@ -1,0 +1,18 @@
+{
+   "type": "effect",
+   "tracks": {
+      "cubemitter_foggy_clouds": {
+         "type": "cubemitter",
+         "cubemitter": "/box_o_vox/data/effects/clouds/default_clouds/default_clouds.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      }
+   }
+}
