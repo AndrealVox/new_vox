@@ -1,0 +1,24 @@
+{
+   "mixins": "/northern_alliance/jobs/mason/recipes/shrine_stag.json",
+   "mixintypes": {
+      "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 6
+      },
+      {
+         "uri": "stonehearth:food:wheat:wheat_bale",
+         "count": 2
+      },
+      {
+         "uri": "box_o_vox:entities:resources:herb:daisy",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 2
+      }
+   ]
+}

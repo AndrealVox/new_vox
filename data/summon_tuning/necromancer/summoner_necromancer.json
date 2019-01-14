@@ -3,15 +3,16 @@
    "estimated_difficulty": 6,
    "scale": 0.05,
    "attributes": {
-      "max_health": 1500,
+      "max_health": 600,
       "muscle": 30,
-      "menace": 90,
+      "menace": 999,
       "courage": 400,
       "speed": 100,
       "additive_armor_modifier": 11,
-      "exp_reward": 300
+      "exp_reward": 300,
+      "aggro_addition": 999
    },
-   "equipment_scale": 0.04,
+   "equipment_scale": 0.06,
    "equipment": {
       "weapon": [
          "box_o_vox:entities:weapon:summon_necromancer_tome"

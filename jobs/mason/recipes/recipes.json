@@ -76,6 +76,12 @@
       },
       "signage_decoration": {
          "recipes": {
+            "mixintypes": {
+               "shrine_stag": "override"
+            },
+            "shrine_stag": {
+               "recipe": "file(shrine_stag.json)"
+            },
             "boxling_statue": {
                "recipe": "file(boxling_statue_recipe.json)"
             },

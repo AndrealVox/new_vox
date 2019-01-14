@@ -19,7 +19,7 @@
          "injected_buffs": [
             "stonehearth:buffs:combat_basics"
          ],
-         "military_score": 20
+         "military_score": 30
       }
    },
    "entity_data": {
@@ -36,7 +36,7 @@
             "name": "combat_summon",
             "effect": "combat_1h_heal",
             "active_frame": 41,
-            "cooldown": 40000,
+            "cooldown": 8000,
             "priority": 0
          }
       ],
