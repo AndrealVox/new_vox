@@ -39,7 +39,6 @@ App.StonehearthSelectRosterView = App.View.extend({
       self.$('#selectRoster').addClass(biome_uri);
       self.$('#selectRoster').addClass(kingdom_uri);
 
-
       self.$('#acceptRosterButton').click(function () {
          if (self._citizensArray.length > 0) {
             self._setTotalTime();
@@ -71,6 +70,7 @@ App.StonehearthSelectRosterView = App.View.extend({
    willDestroyElement: function () {
       this.$().find('.tooltipstered').tooltipster('destroy');
       this.$().off('click', '#acceptRosterButton');
+      this._hideLoading();
    },
 
    destroy: function () {
@@ -97,13 +97,13 @@ App.StonehearthSelectRosterView = App.View.extend({
       this._analytics.total_roster_time = (Date.now() - this._start) / 1000;
    },
 
-   _animateLoading: function() {
+   _animateLoading: function () {
       var self = this;
       var loadingElement = self.$('#loadingPeriods');
 
       var periodsCount = 0;
       var currentPeriods = '';
-      self._loadingAnimationInterval = setInterval(function() {
+      self._loadingAnimationInterval = setInterval(function () {
          loadingElement.html(currentPeriods);
 
          periodsCount++;
@@ -117,7 +117,7 @@ App.StonehearthSelectRosterView = App.View.extend({
       }, 250);
    },
 
-   _hideLoading: function() {
+   _hideLoading: function () {
       var self = this;
       self.$('#loading').hide();
       if (self._loadingAnimationInterval) {
@@ -238,6 +238,7 @@ App.StonehearthSelectRosterView = App.View.extend({
             if (!self.$() || self.isDestroying || self.isDestroyed) {
                return;
             }
+
             if (!initialize) {
                self._incrementTotalRerolls();
             }
@@ -246,6 +247,7 @@ App.StonehearthSelectRosterView = App.View.extend({
             self.$('#rerollCitizensText').removeClass('disabled');
             self._citizensArray = radiant.map_to_array(citizenMap);
             self.set('citizensArray', self._citizensArray);
+
             self._hideLoading();
          })
          .fail(function (e) {
@@ -382,6 +384,10 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
 
       regenerateCitizenAppearance: function () {
          var self = this;
+         if (self.get('isFrozen')) {
+            return;
+         }
+
          if (self.$('#rerollAppearanceDice').hasClass('disabled')) {
             return;
          }
@@ -422,19 +428,18 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
             .done(function (e) {
                self.set('uri', e.citizen);
                self.$().addClass('regenerated');
-               Ember.run.scheduleOnce('afterRender', self, function () {
-                  self._updateGenderTooltips(targetGender);
-               });
             })
             .fail(function (e) {
                console.error('change genders command failed:', e)
             });
       },
+
       changeIndex: function (operator, customizeType) {
          var self = this;
          if (self.get('isFrozen')) {
             return;
          }
+
          if (self.rosterView.$('#customizeButtons').find('.arrowButton').hasClass('selected')) {
             return;
          }
@@ -448,6 +453,7 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
          if (self.get('isFrozen')) {
             return;
          }
+
          if (type == 'name') {
             var existing = self.get('nameLocked');
             self.setNameLocked(!existing);
@@ -464,9 +470,9 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
          if (self.get('isFrozen')) {
             return;
          }
+
          self.set('lockedOptions', null);
          self.notifyPropertyChange('lockedOptions');
-     
       },
 
       lockAllOptions: function () {
@@ -478,6 +484,30 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
          self.setCustomizationLocked('skin_color', true);
          self.setCustomizationLocked('eye_color', true);
          self.setCustomizationLocked('head_accessory', true);
+      }
+   },
+
+   isFrozen: function () {
+      return this.get('lockedOptions') && this.get('lockedOptions').frozen;
+   }.property('hiddenCustomizations', 'lockedOptions'),
+
+   setFrozen: function (isFrozen) {
+      var self = this;
+      if (isFrozen) {
+         self.setNameLocked(true);
+         self.setCustomizationLocked('head_hair', true);
+         self.setCustomizationLocked('face_hair', true);
+         self.setCustomizationLocked('hair_color', true);
+         self.setCustomizationLocked('skin_color', true);
+         self.setCustomizationLocked('eye_color', true);
+         self.setCustomizationLocked('head_accessory', true);
+         var lockedOptions = self.get('lockedOptions');
+         lockedOptions.frozen = true;
+         self.set('lockedOptions', lockedOptions);
+         self.notifyPropertyChange('lockedOptions');
+      } else {
+         self.set('lockedOptions', null);
+         self.notifyPropertyChange('lockedOptions');
       }
    },
 
@@ -548,7 +578,6 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
          if (!currentIndex || !data) {
             return; // entity has no options for this customization type
          }
-
          if (data.length) {
             var newIndex = self._getNextIndex(currentIndex, data.length, operator);
 
@@ -568,7 +597,6 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
          }
       }
    },
-
    _getNextIndex: function (index, max, operator) {
       var newIndex;
       if (operator == 'increment') {
@@ -585,14 +613,12 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
 
       return newIndex;
    },
-
    _updatePortrait: function () {
       var self = this;
       // add a dummy parameter portraitId so ember will rerender the portrait even if the entity stays the same (their appearance may have changed)
-      self.set('portrait', '/r/get_portrait/?type=bodyshot&animation=emote_wave.json&time=40&entity=' + self._citizenObjectId + '&portraitId=' + self._portraitId);
+      self.set('portrait', '/r/get_portrait/?type=headshot&animation=idle_breathe.json&entity=' + self._citizenObjectId + '&portraitId=' + self._portraitId);
       self._portraitId += 1;
    },
-
    _updateStatTooltips: function () {
       var self = this;
 
@@ -600,33 +626,6 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
          var attrib_name = $(this).attr('id');
          var tooltipString = App.tooltipHelper.getTooltip(attrib_name);
          $(this).tooltipster({
-            content: $(tooltipString)
-         });
-      });
-   },
-
-   _updateGenderTooltips: function (currentGender) {
-      var self = this;
-      if (!currentGender) {
-         currentGender = self._getCurrentGender();
-      }
-
-      $('#genderButtons').find('.tooltipstered').tooltipster('destroy');
-
-      radiant.each(self._genders, function (_, genderName) {
-         var element = self.rosterView.$('#' + genderName);
-         var tooltipKey;
-         if (genderName == currentGender) {
-            tooltipKey = 'current_gender';
-         } else {
-            tooltipKey = 'change_gender';
-         }
-
-         var genderString = i18n.t('stonehearth:ui.game.entities.gender.' + genderName);
-         var tooltipString = App.tooltipHelper.getTooltip(tooltipKey, null, null, {
-            gender: genderString
-         });
-         $(element).tooltipster({
             content: $(tooltipString)
          });
       });
@@ -675,7 +674,6 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
       }
 
       self.rosterView.setSelectedCitizen(self.get('model'), self, self._viewIndex);
-      Ember.run.scheduleOnce('afterRender', self, '_updateGenderTooltips');
    },
 
    _update: function () {
@@ -949,7 +947,9 @@ App.StonehearthReembarkChoiceView = App.View.extend({
                   label: i18n.t('stonehearth:ui.shell.select_roster.delete_crew_confirm_yes'),
                   click: function () {
                      radiant.call('stonehearth:delete_reembark_spec_command', specId).done(function (e) {
-                        self.set('reembarkSpecsArray', self.get('reembarkSpecsArray').filter(function(s) { return s.id != specId; }));
+                        self.set('reembarkSpecsArray', self.get('reembarkSpecsArray').filter(function (s) {
+                           return s.id != specId;
+                        }));
                      });
                   }
                   },

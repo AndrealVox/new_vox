@@ -72,13 +72,11 @@
       top: 123px;
       left: 62px;
       width: 1080px;
+      overflow-y: auto;
       height: 730px;
       color: #000;
 
       .roster {
-         overflow-y: auto;
-         overflow-x: hidden;
-
          .rosterEntry {
             position: relative;
             width: 478px;
@@ -511,6 +509,8 @@
       font-size: 28px;
       padding: 15px;
       text-align: right;
+
+      .hoverHighlight(1.1);
 
       #rerollCitizensDice {
          background: url(images/party_reroll.png);

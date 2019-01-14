@@ -12,8 +12,8 @@
       "forest",
       "plains"
    ],
-   "overwrite_occupied_size": 10,
-   "weight": 13,
+   "overwrite_occupied_size": 20,
+   "weight": 0.3,
    "data": {
       "brush": "box_o_vox:landmark:boxling_mountain_3",
       "brush_mask": "box_o_vox:landmark:boxling_mountain_3",
