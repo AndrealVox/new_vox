@@ -41,6 +41,7 @@
       "craft_level_4": 1,
       "craft_level_5": 1,
       "craft_level_6": 1,
+      "summon": 8,
       "town_protection": 1
    },
    "crafter": {

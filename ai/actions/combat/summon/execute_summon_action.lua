@@ -67,7 +67,7 @@ end
 
 function ExecuteSummon:run(ai, entity, args)
     local target = args.target
-    ai:set_status_text_key('box_o_vox:ai.actino.status_text.summoning', {target = target})
+    ai:set_status_text_key('box_o_vox:ai.action.status_text.summoning', {target = target})
     log:error('wow it made it here')
     if radiant.entities.is_standing_on_ladder(entity) then
         ai:abort('Cannot summon while standing on ladder')
@@ -102,6 +102,7 @@ function ExecuteSummon:run(ai, entity, args)
         
         self:destroy_summon_effect()
         
+        print("test")
         self:_summon(entity, target, self._weapon_data)
         end)
     
@@ -130,21 +131,9 @@ function ExecuteSummon:_summon(summoner, target, weapon_data)
         return
     end
     local summon = self:_create_summon(summoner, target, self._summon_uri)
-    
     local summon_info = self._summon_info
+    radiant.events.trigger_async(summoner, 'box_o_vox:necromancer:has_summoned', { entity = target })
     
-    
-    local destroy_trace
-    destroy_trace = radiant.events.listen(summon, 'radiant:entity:pre_destroy', function()
-        if summon:is_valid() then
-            --radiant.effects.run_effect(summon, 'stonehearth:effects:firepit_effect:green')
-        end
-        
-        if destroy_trace then
-            destroy_trace:destroy()
-            destroy_trace = nil
-        end
-    end)
 end
 
 function ExecuteSummon:_create_summon(summoner, target, summon_uri)
@@ -167,7 +156,7 @@ function ExecuteSummon:_create_summon(summoner, target, summon_uri)
     for _, summon in pairs(summons) do
         radiant.entities.set_player_id(summon, 'player_1') 
         radiant.entities.add_buff(summon,'box_o_vox:data:buffs:summon_timer')
-    local SUMMON_TIME = '5h'
+    local SUMMON_TIME = '2h'
     stonehearth.calendar:set_timer('despawn summon', SUMMON_TIME, function()
          if radiant.entities.exists(summon) then
             radiant.entities.destroy_entity(summon)

@@ -1,4 +1,11 @@
 {
+   "ai": {
+      "action": {
+         "status_text": {
+            "summoning": "Summoning"
+         }
+      }
+   },
    "data": {
       "loadouts": {
          "path_of_the_necromancer": {

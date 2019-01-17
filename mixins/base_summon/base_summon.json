@@ -85,6 +85,9 @@
             }
          }
       },
+      "stonehearth:killable": {
+         "target_type": "siege"
+      },
       "stonehearth:idle_effects": {
          "effects": [
             {

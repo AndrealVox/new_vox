@@ -57,29 +57,21 @@ end
 function NecromancerClass:_create_listeners()
    CombatJob._create_listeners(self)
    CraftingJob._create_listeners(self)
-   self._on_heal_entity_listener = radiant.events.listen(self._sv._entity, 'stonehearth:healer:healed_entity', self, self._on_healed_entity)
-   self._on_heal_entity_in_combat_listener = radiant.events.listen(self._sv._entity, 'stonehearth:healer:healed_entity_in_combat', self, self._on_healed_entity_in_combat)
+   self._on_summon_listener = radiant.events.listen(self._sv._entity, 'box_o_vox:necromancer:has_summoned', self, self._on_summon)
 end
 
 function NecromancerClass:_remove_listeners()
    CraftingJob._remove_listeners(self)
    CombatJob._remove_listeners(self)
-   if self._on_heal_entity_listener then
-      self._on_heal_entity_listener:destroy()
-      self._on_heal_entity_listener = nil
-   end
-   if self._on_heal_entity_in_combat_listener then
-      self._on_heal_entity_in_combat_listener:destroy()
-      self._on_heal_entity_in_combat_listener = nil
+   if self._on_summon_listener then
+      self._on_summon_listener:destroy()
+      self._on_summon_listener = nil
    end
 end
 
-function NecromancerClass:_on_healed_entity(args)
-   self:_add_exp('heal_entity')
-end
-
-function NecromancerClass:_on_healed_entity_in_combat(args)
-   self:_add_exp('heal_entity_in_combat')
+function NecromancerClass:_on_summon(args)
+   self:_add_exp('summon')
+   print('no exp dude')
 end
 
 -- Get xp reward using key. Xp rewards table specified in necromancer description file
@@ -87,6 +79,7 @@ function NecromancerClass:_add_exp(key)
    local exp = self._xp_rewards[key]
    if exp then
       self._job_component:add_exp(exp)
+      print("exp = "..exp)
    end
 end
 
