@@ -26,7 +26,7 @@
          "base_damage": 10,
          "base_ranged_damage": 20,
          "range": 10,
-         "projectile_speed": 10,
+         "projectile_speed": 24,
          "reach": 1.5,
          "projectile_uri": "box_o_vox:entities:weapon:flame_skull",
          "projectile_start_offset": {
@@ -40,6 +40,15 @@
             "z": 0
          }
       },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 500,
+            "priority": 1
+         }
+      ],
       "stonehearth:net_worth": {
          "value_in_gold": 0,
          "shop_info": {

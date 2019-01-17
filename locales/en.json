@@ -2,7 +2,8 @@
    "ai": {
       "action": {
          "status_text": {
-            "summoning": "Summoning"
+            "summoning": "Summoning",
+            "ranged_flame_skull": "Throwing a Flaming Skull"
          }
       }
    },

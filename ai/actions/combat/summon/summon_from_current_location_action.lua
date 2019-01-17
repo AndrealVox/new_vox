@@ -8,7 +8,7 @@ SummonFromCurrentLocation.args = {
    target = Entity
 }
 SummonFromCurrentLocation.version = 2
-SummonFromCurrentLocation.priority = 4
+SummonFromCurrentLocation.priority = 1
 SummonFromCurrentLocation.weight = 1
 
 local ai = stonehearth.ai

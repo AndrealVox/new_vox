@@ -74,7 +74,7 @@ end
 
 function AttackRangedFlameSkull:run(ai, entity, args)
    local target = args.target
-   ai:set_status_text_key('stonehearth:ai.actions.status_text.attack_melee_adjacent', { target = target })
+   ai:set_status_text_key('box_o_vox:ai.actions.status_text.ranged_flame_skull', { target = target })
 
    if radiant.entities.is_standing_on_ladder(entity) then
       -- We generally want to prohibit combat on ladders. This case is particularly unfair,
