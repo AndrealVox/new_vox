@@ -93,6 +93,7 @@
       "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)",
 
       "effects:default_clouds": "file(data/effects/clouds/default_clouds)",
+      "effects:light_clouds": "file(data/effects/clouds/light_clouds)",
       "entities:abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
       "entities:containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
       "entities:containers:equipment_crate": "file(entities/containers/equipment_crate)",

@@ -1,12 +1,12 @@
 {
-   "name": "default_clouds",
+   "name": "light_clouds",
    "duration": 20000,
    "material": "materials/cubemitter_bloom.material.json",
    "loops": true,
    "emission": {
       "rate": {
          "kind": "CONSTANT",
-         "values": [5]
+         "values": [10]
       },
       "angle": {
          "kind": "CONSTANT",
@@ -84,7 +84,7 @@
                0.149,
                0.408,
                0.565,
-               0.8
+               0.3
             ]
          },
          "over_lifetime_a": {
@@ -93,7 +93,7 @@
 					[0.149, 0],
 					[0.408, 0.1],
 					[0.565, 0.1],
-					[0.8, 0]
+					[0.3, 0]
 				]
          }
       }
