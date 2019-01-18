@@ -49,7 +49,7 @@
       "summer": {
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.summer.display_name)",
          "description": "i18n(box_o_vox:data.biome.boxland.seasons.summer.description)",
-         "start_day": 21,
+         "start_day": 90,
          "weather": [
             {
                "uri": "stonehearth:weather:sunny",
@@ -76,7 +76,7 @@
       "autumn": {
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.autumn.display_name)",
          "description": "i18n(box_o_vox:data.biome.boxland.seasons.autumn.description)",
-         "start_day": 42,
+         "start_day": 180,
          "weather": [
             {
                "uri": "stonehearth:weather:sunny",
@@ -103,7 +103,7 @@
       "winter": {
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.winter.display_name)",
          "description": "i18n(box_o_vox:data.biome.boxland.seasons.winter.description)",
-         "start_day": 63,
+         "start_day": 270,
          "weather": [
             {
                "uri": "stonehearth:weather:sunny",

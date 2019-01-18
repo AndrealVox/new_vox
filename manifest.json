@@ -343,7 +343,12 @@
       "stonehearth/entities/crops/turnip_crop/turnip_crop.json": "file(entities/crops/turnip_crop/turnip_crop.json)",
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
-      "VOID/data/calendar/calendar_constants.json": "box_o_vox/data/calendar/calendar_constants.json"
+
+      "stonehearth/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/delay_before_hearth_choice.json": "box_o_vox/data/gm/campaigns/town_progression/arcs/trigger/town_progression/mixins/ac_delay_before_hearth_choice.json",
+      "northern_alliance/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/delay_before_hearth_choice.json": "box_o_vox/data/gm/campaigns/town_progression/arcs/trigger/town_progression/mixins/na_delay_before_hearth_choice.json",
+      "stonehearth/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/delay_before_hearth_choice.json": "box_o_vox/data/gm/campaigns/town_progression/arcs/trigger/town_progression/mixins/rc_delay_before_hearth_choice.json",
+
+      "stonehearth/data/calendar/calendar_constants.json": "box_o_vox/data/calendar/calendar_constants.json"
    },
    "overrides": {
       "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
