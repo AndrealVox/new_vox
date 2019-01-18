@@ -343,7 +343,7 @@
       "stonehearth/entities/crops/turnip_crop/turnip_crop.json": "file(entities/crops/turnip_crop/turnip_crop.json)",
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
-      "stonehearth/data/calendar/calendar_constants.json": "box_o_vox/data/calendar/calendar_constants.json"
+      "VOID/data/calendar/calendar_constants.json": "box_o_vox/data/calendar/calendar_constants.json"
    },
    "overrides": {
       "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
