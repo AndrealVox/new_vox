@@ -1,0 +1,16 @@
+{
+   "seasons": {
+      "spring": {
+         "start_day": 0
+      },
+      "summer": {
+         "start_day": 90
+      },
+      "autumn": {
+         "start_day": 180
+      },
+      "winter": {
+         "start_day": 270
+      }
+   }
+}
