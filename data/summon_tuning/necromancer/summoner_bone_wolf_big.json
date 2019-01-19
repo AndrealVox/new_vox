@@ -14,7 +14,7 @@
    },
    "equipment": {
       "weapon": [
-         "stonehearth:weapons:animals:wolf_undead_teeth"
+         "box_o_vox:entities:weapon:undead_wolf_teeth"
       ]
    }
 }

@@ -4,7 +4,7 @@
       "stonehearth:equipment_piece": {
          "injected_ai": {
             "actions": [
-                "box_o_vox:ai:actions:combat:flame_skull_attack"
+               "box_o_vox:ai:actions:combat:flame_skull_attack"
             ],
             "ai_packs": [
                "stonehearth:ai_pack:ranged_combat"
@@ -21,23 +21,18 @@
             }
          }
       },
-      "stonehearth:combat:melee_attacks": [
-         {
-            "name": "combat_1h_forehand",
-            "effect": "combat_1h_forehand",
-            "active_frame": 16,
-            "cooldown": 500,
-            "priority": 1
-         }
-      ],
       "box_o_vox:combat:ranged_spells": [
          {
             "name": "combat_spell",
             "effect": "combat_1h_forehand",
             "active_frame": 16,
-            "cooldown": 1000,
-            "priority": 0
-           }
+            "active_frames": [
+               16,
+               17
+            ],
+            "cooldown": 0,
+            "priority": 2
+         }
       ]
    }
 }

@@ -13,17 +13,13 @@
          "scale": 0.03
       },
       "mob": {
-         "model_origin": {
-            "x": -0.05,
-            "y": 0,
-            "z": 0.05
-         }
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "Paladin's Shield",
-         "description": "For defending one's allies",
+         "display_name": "i18n(box_o_vox:jobs.paladin.armor.paladin_shield.display_name)",
+         "description": "i18n(box_o_vox:jobs.paladin.armor.paladin_shield.description)",
          "icon": "file(paladins_shield.png)",
          "is_item": true,
          "category": "armor",

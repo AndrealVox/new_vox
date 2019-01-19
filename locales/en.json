@@ -1,6 +1,6 @@
 {
    "ai": {
-      "action": {
+      "actions": {
          "status_text": {
             "summoning": "Summoning",
             "ranged_flame_skull": "Throwing a Flaming Skull"
@@ -141,32 +141,34 @@
                "perk_000_name": "Flaming Skull Attack",
                "perk_000_description": "The Necromancer is capable of throwing a flaming skull which inflicts a burning slow on enemies.",
                "perk_001_name": "Summon a Skeleton",
-               "perk_001_description": "Them bones, them bones gonna walk around"
+               "perk_001_description": "Summon a skeleton to fight your battles for you."
             },
             "level_2_data": {
                "perk_000_name": "Summon a Bone Wolf",
-               "perk_000_description": "The howls are getting louder."
+               "perk_000_description": "Summon a bone wolf to fight your battles for you. Their able to damage up to 3 enemies at once with their breath."
             },
             "level_3_data": {
                "perk_000_name": "Summon a Zombie",
-               "perk_000_description": "It's the Walking Dead!",
+               "perk_000_description": "Summon a zombie to fight your battles for you.",
                "perk_001_name": "Craft a Skeleton Gatherer",
                "perk_001_description": "This Undead Worker will haul items into storage or stockpiles"
             },
             "level_4_data": {
                "perk_000_name": "Summon a Golem",
-               "perk_000_description": "Now that's a huge bitch!"
+               "perk_000_description": "Summon a flesh golem to fight your battles for you. Their able to damage up to 3 enemies at once with each hit."
             },
             "level_5_data": {
                "perk_000_name": "Summon a Zilla",
-               "perk_000_description": "It's Fleshzilla!"
+               "perk_000_description": "Summon a fleshzilla to fight your battles for you. Their able to damage up to 5 enemies at once with each hit."
             },
             "level_6_data": {
                "title": "Master Necromancer",
-               "perk_000_name": "Summon a Necromancer",
-               "perk_000_description": "Hey look! It's a mini-me",
+               "perk_000_name": "Summon a Mini-Necromancer",
+               "perk_000_description": "Summon a mini-necromancer to fight your battles for, and do it twice as fast as you previously could.",
                "perk_001_name": "Craft a Zombie Miner",
-               "perk_001_description": "This Undead Worker will mine set zones"
+               "perk_001_description": "This Undead Worker will mine set zones",
+               "perk_002_description": "The Necromancer now throws 2 flaming skulls which inflict a burning slow on enemies.",
+               "perk_002_name": "Double Flaming Skull Attack"
             }
          },
          "necromancer_outfit": {
@@ -241,6 +243,42 @@
       "paladin": {
          "paladin_description": {
             "display_name": "Paladin"
+         },
+         "armor": {
+            "paladin_shield": {
+               "display_name": "Paladin Shield",
+               "description": "A shield imbued with healing power."
+            }
+         },
+         "buffs": {
+            "courage_aura": {
+               "display_name": "Inspiring Presence",
+               "description": "The paladin increases courage of everyone around"
+            },
+            "courage_aura_effect": {
+               "description": "Courage increased from the presence of a paladin.",
+               "display_name": "Inspired"
+            },
+            "defense_1": {
+               "display_name": "Damage Reduction Rank 3",
+               "description": "Defense gained from equipment increased by 30%"
+            },
+            "defense_2": {
+               "display_name": "Damage Reduction Rank 4",
+               "description": "Defense gained from equipment increased by 40%"
+            },
+            "heal_aura": {
+               "display_name": "Healing Aura",
+               "description": "The paladin heals everyone around"
+            },
+            "health_1": {
+               "display_name": "Fortify (Rank 3)",
+               "description": "The paladin becomes more menacing to enemies, drawing their attention in combat. They also get a health and stamina bonus to keep up."
+            },
+            "health_2": {
+               "display_name": "Fortify (Rank 4)",
+               "description": "More fast, more furious"
+            }
          }
       },
       "cook": {

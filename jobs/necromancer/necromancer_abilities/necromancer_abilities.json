@@ -39,15 +39,6 @@
             "cooldown": 40000,
             "priority": 0
          }
-      ],
-      "box_o_vox:combat:ranged_spells": [
-         {
-            "name": "combat_spell",
-            "effect": "combat_1h_forehand",
-            "active_frame": 16,
-            "cooldown": 20000,
-            "priority": 2
-         }
       ]
    }
 }

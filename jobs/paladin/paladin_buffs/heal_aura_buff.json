@@ -1,8 +1,8 @@
 {
    "type": "buff",
    "axis": "buff",
-   "display_name": "Healing Aura",
-   "description": "The paladin heals everyone around",
+   "display_name": "i18n(box_o_vox:jobs.paladin.buffs.heal_aura.display_name)",
+   "description": "i18n(box_o_vox:jobs.paladin.buffs.heal_aura.description)",
    "icon": "file(paladin_buff_heal_aura.png)",
    "script": "stonehearth:buff_scripts:aura",
    "script_info": {

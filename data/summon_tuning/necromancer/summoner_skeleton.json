@@ -7,15 +7,14 @@
       "muscle": 30,
       "menace": 999,
       "courage": 100,
-      "speed": 20,
+      "speed": 90,
       "additive_armor_modifier": 1,
       "exp_reward": 50,
       "aggro_addition": 999
    },
    "equipment": {
       "weapon": [
-         "stonehearth:weapons:stone_maul",
-         "stonehearth:weapons:bronze_sword"
+         "box_o_vox:entities:weapon:fist_weapon"
       ]
    }
 }

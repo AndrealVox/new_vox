@@ -38,7 +38,7 @@
          "default_level_title": "i18n(stonehearth:stonehearth_mixins.base_human.job.default_level_title)",
          "default_level_announcement": "i18n(stonehearth:stonehearth_mixins.base_human.job.default_level_announcement)",
          "default_promote_announcement": "i18n(stonehearth:stonehearth_mixins.base_human.job.default_promote_announcement)",
-         "xp_equation_for_next_level": "curr_level * 100",
+         "xp_equation_for_next_level": "curr_level * 100 + 100",
          "levels_between_attribute_increase": 10,
          "level_up_data": {
             "level_up_perk_description": "i18n(stonehearth:stonehearth_mixins.base_human.job.level_up_perk_description)",

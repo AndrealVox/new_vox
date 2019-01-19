@@ -7,15 +7,16 @@
       "muscle": 30,
       "menace": 999,
       "courage": 350,
-      "speed": 90,
+      "speed": 120,
       "additive_armor_modifier": 9,
       "multiplicative_target_armor_modifier": 0.5,
       "exp_reward": 250,
       "aggro_addition": 999
    },
+   "equipment_scale": 0.04,
    "equipment": {
       "weapon": [
-         "stonehearth:monsters:forest:zilla:teeth_weapon"
+         "box_o_vox:entities:weapon:fleshzilla_teeth"
       ]
    }
 }

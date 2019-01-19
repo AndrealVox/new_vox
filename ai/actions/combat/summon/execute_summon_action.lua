@@ -67,7 +67,7 @@ end
 
 function ExecuteSummon:run(ai, entity, args)
     local target = args.target
-    ai:set_status_text_key('box_o_vox:ai.action.status_text.summoning', {target = target})
+    ai:set_status_text_key('box_o_vox:ai.actions.status_text.summoning', {target = target})
     log:error('wow it made it here')
     if radiant.entities.is_standing_on_ladder(entity) then
         ai:abort('Cannot summon while standing on ladder')
@@ -156,7 +156,7 @@ function ExecuteSummon:_create_summon(summoner, target, summon_uri)
     for _, summon in pairs(summons) do
         radiant.entities.set_player_id(summon, 'player_1') 
         radiant.entities.add_buff(summon,'box_o_vox:data:buffs:summon_timer')
-    local SUMMON_TIME = '2h'
+    local SUMMON_TIME = '5h'
     stonehearth.calendar:set_timer('despawn summon', SUMMON_TIME, function()
          if radiant.entities.exists(summon) then
             radiant.entities.destroy_entity(summon)

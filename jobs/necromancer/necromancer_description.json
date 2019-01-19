@@ -58,11 +58,15 @@
       "1": {
          "perks": [
             {
+               "type": "add_combat_action",
                "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_1_data.perk_000_name)",
                "id": "flame_skull",
                "icon": "file(images/flame_skull.png)",
+               "equipment": "box_o_vox:jobs:necromancer:abilities:default_flame_skull",
+               "action_type": "box_o_vox:combat:ranged_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_1_data.perk_000_description)",
-               "level": 1
+               "level": 1,
+               "demote_fn": "remove_combat_action"
             },
             {
                "type": "add_chained_combat_action",
@@ -173,6 +177,18 @@
                "icon": "file(images/worker_zombie.png)",
                "max_num_workers": 10,
                "level": 6
+            },
+            {
+               "type": "add_chained_combat_action",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_002_name)",
+               "id": "double_flame_skull",
+               "icon": "file(images/double_flame_skull.png)",
+               "last_equipment": "box_o_vox:jobs:necromancer:abilities:default_flame_skull",
+               "equipment": "box_o_vox:jobs:necromancer:abilities:double_flame_skull",
+               "action_type": "box_o_vox:combat:ranged_spells",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_002_description)",
+               "level": 6,
+               "demote_fn": "remove_combat_action"
             }
          ]
       }

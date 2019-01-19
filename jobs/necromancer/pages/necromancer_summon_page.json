@@ -1,11 +1,20 @@
 {
-    "type": "entity",
-    "components": {
-        "stonehearth:equipment_piece": {}
-    },
-    "entity_data": {
-        "box_o_vox:summon_data": {
-            "summon_uri": "box_o_vox:entities:summon:necromancer"
-        }
-    }
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "box_o_vox:summon_data": {
+         "summon_uri": "box_o_vox:entities:summon:necromancer"
+      },
+      "box_o_vox:combat:summon_spells": [
+         {
+            "name": "combat_summon",
+            "effect": "combat_1h_heal",
+            "active_frame": 41,
+            "cooldown": 15000,
+            "priority": 0
+         }
+      ]
+   }
 }

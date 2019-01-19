@@ -1,0 +1,17 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "box_o_vox:combat:ranged_spells": [
+         {
+            "name": "combat_spell",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 10000,
+            "priority": 2
+         }
+      ]
+   }
+}

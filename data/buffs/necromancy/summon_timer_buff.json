@@ -5,7 +5,7 @@
    "description": "i18n(box_o_vox:data.buffs.necromancy.summon_buff.description)",
    "icon": "file(summon_buff.png)",
    "invisible_to_player": false,
-   "duration": "2h",
+   "duration": "5h",
    "persistent": true,
    "script": "box_o_vox:data:buffs:scripts:desummon"
 }

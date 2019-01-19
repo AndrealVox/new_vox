@@ -7,14 +7,14 @@
       "muscle": 30,
       "menace": 999,
       "courage": 250,
-      "speed": 40,
+      "speed": 90,
       "additive_armor_modifier": 5,
       "exp_reward": 150,
       "aggro_addition": 999
    },
    "equipment": {
       "weapon": [
-         "stonehearth:weapons:iron_mace"
+         "box_o_vox:entities:weapon:fist_weapon"
       ]
    }
 }
