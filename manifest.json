@@ -352,9 +352,9 @@
 
       "stonehearth/data/calendar/calendar_constants.json": "box_o_vox/data/calendar/calendar_constants.json",
 
-      "stonehearth/data/biome/artic.json": "box_o_vox/data/biome/artic.json",
-      "stonehearth/data/biome/desert.json": "box_o_vox/data/biome/desert.json",
-      "stonehearth/data/biome/temperate.json": "box_o_vox/data/biome/temperate.json"
+      "stonehearth/data/biome/artic.json": "box_o_vox/data/biome/mixin/artic.json",
+      "stonehearth/data/biome/desert.json": "box_o_vox/data/biome/mixin/desert.json",
+      "stonehearth/data/biome/temperate.json": "box_o_vox/data/biome/mixin/temperate.json"
    },
    "overrides": {
       "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
