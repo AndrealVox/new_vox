@@ -355,7 +355,8 @@
 
       "stonehearth/data/biome/artic.json": "box_o_vox/data/biome/mixin/artic.json",
       "stonehearth/data/biome/desert.json": "box_o_vox/data/biome/mixin/desert.json",
-      "stonehearth/data/biome/temperate.json": "box_o_vox/data/biome/mixin/temperate.json"
+      "stonehearth/data/biome/temperate.json": "box_o_vox/data/biome/mixin/temperate.json",
+      "omniterrain_biome/data/biome/omniterrain.json": "box_o_vox/data/biome/mixin/temperate.json"
    },
    "overrides": {
       "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",

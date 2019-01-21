@@ -52,8 +52,7 @@
                      "white": 1,
                      "brown_1": 1,
                      "brown_2": 1,
-                     "vox_demon": 1,
-                     "vox_smurf": 0
+                     "vox_demon": 1
                   }
                },
                "eye_color": {
@@ -78,8 +77,7 @@
                      "vox_glasses_0": 1,
                      "vox_horns_0": 1,
                      "vox_horns_1": 1,
-                     "vox_goggles_0": 1,
-                     "vox_hat_0": 0
+                     "vox_goggles_0": 1
                   }
                },
                "eyebrows": {
@@ -92,17 +90,23 @@
                   "weights": {
                      "[none]": 1,
                      "chops": 1,
-                     "chin_beard": 1,
+                     "beard_chin": 1,
                      "beard": 1,
-                     "vox_beard_1": 1,
-                     "vox_beard_2": 1,
-                     "vox_beard_3": 1,
-                     "vox_beard_4": 1,
-                     "vox_beard_5": 1
+                     "beard_epic": 1,
+                     "na_moustache_1": 1,
+                     "na_moustache_2": 1,
+                     "na_beard": 1,
+                     "vox_scruffy_beard": 1,
+                     "vox_moustache": 1,
+                     "vox_circle_beard": 1,
+                     "vox_chinstrap": 1
                   }
                },
                "head_hair": {
                   "weights": {
+                     "[none]": 0.5,
+                     "male_bald_1": 0.5,
+                     "male_bald_2": 0.5,
                      "male_hair_1": 1,
                      "male_hair_2": 1,
                      "male_hair_3": 1,
