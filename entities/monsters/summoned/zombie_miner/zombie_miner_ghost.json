@@ -14,22 +14,14 @@
          "scale": 0.15
       },
       "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         },
-         "region_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         }
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "Zombie Miner",
-         "description": "A zombie who will mine for you.",
+         "display_name": "i18n(box_o_vox:jobs.necromancer.workers.miner.display_name)",
+         "description": "i18n(box_o_vox:jobs.necromancer.workers.miner.description)",
          "icon": "file(zombie_miner.png)",
          "category": "tools",
          "material_tags": "stone crafted stockpile_tool"

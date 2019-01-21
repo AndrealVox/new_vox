@@ -12,9 +12,7 @@
          "file(static/landmarks/boxling_mountain_3.json)",
 
          "stonehearth/scenarios/static/rabbit_nest",
-
          "stonehearth/scenarios/static/deer_nest",
-         "stonehearth/scenarios/static/caribou_nest",
 
          "stonehearth/scenarios/static/terrain/copper_vein",
          "stonehearth/scenarios/static/terrain/tin_vein",
@@ -27,25 +25,25 @@
       ],
       "categories": {
          "terrain": {
-            "density": 18,
+            "density": 6,
             "priority": 0,
             "location_type": "surface",
             "activation_type": "immediate"
          },
          "wildlife": {
-            "density": 4,
+            "density": 2,
             "priority": 0,
             "location_type": "surface",
             "activation_type": "revealed"
          },
          "ruins": {
-            "density": 0.25,
+            "density": 0.2,
             "priority": 0,
             "location_type": "surface",
             "activation_type": "immediate"
          },
          "ore": {
-            "density": 8,
+            "density": 10,
             "priority": 0,
             "location_type": "underground",
             "activation_type": "revealed"

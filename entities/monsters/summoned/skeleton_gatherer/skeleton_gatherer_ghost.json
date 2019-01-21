@@ -14,22 +14,14 @@
          "scale": 0.15
       },
       "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         },
-         "region_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         }
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "Skeleton Gatherer",
-         "description": "A skeleton that will restock items.",
+         "display_name": "i18n(box_o_vox:jobs.necromancer.workers.gatherer.display_name)",
+         "description": "i18n(box_o_vox:jobs.necromancer.workers.gatherer.description)",
          "icon": "file(skeleton_gatherer.png)",
          "category": "tools",
          "material_tags": "stone crafted stockpile_tool"

@@ -216,7 +216,7 @@
       "__comment": "Literal percentage of terrain which is plains. Def 40",
       "plains_percentage": 70,
       "__comment": "This is an offset in regards to where the layers line up. Def 36, must be 1 plus a multiple of five.",
-      "height_base": 31,
+      "height_base": 66,
       "__comments": {
          "valley_count": "offset of layers from base",
          "step_count": "number of layers",
@@ -250,15 +250,15 @@
          "__comment": "determines the height of the first layer",
          "depth_function": {
             "__comment": "The smaller this number, the more noise is displayed in the outcroppings.  Think of this as the number of voxels before noise change. Def 4",
-            "octaves": 4,
+            "octaves": 2,
             "__comment": "This decreases each octave by this % - it causes more noise the higher it is.  Towards 0 is more smooth.  Def 0.2",
-            "persistence_ratio": 0.2,
+            "persistence_ratio": 0.4,
             "__comment": "Unsure what this does... Def 2.5",
             "amplitude": 2.5,
             "__comment": "This controls the thickness of the little things that stick out the sides of the flat mountain faces. Def 3",
             "layer_thickness": 3,
             "__comment": "This controls the number of layers coming out for the 'depth' of the outcropping... Def 2",
-            "layer_count": 2,
+            "layer_count": 4,
             "__comment": "determines how many adjacent blocks have the same depth - which means, how thick the outcroppings are.  Low values (esp below 1) cause lots of separation and single brick wide outcropings, but still represent the original shape (from when the number is high). Def 12",
             "unit_length": 12
          },
@@ -272,7 +272,7 @@
             "__comment": "This modifies the complexity of the top of the outcroppings.  Smaller numbers are more complex, larger numbers are more simple... Def 5",
             "layer_thickness": 5,
             "__comment": "determines how many adjacent blocks have the same depth.  I believe this is controlling how 'wide' the noise is - so a value of 16 is 16 blocks with the same height value. Def 16",
-            "unit_length": 16
+            "unit_length": 36
          }
       },
       "foothills": {
@@ -280,16 +280,16 @@
             "octaves": 4,
             "persistence_ratio": 0.6,
             "amplitude": 2.5,
-            "layer_thickness": 1,
-            "layer_count": 2,
+            "layer_thickness": 3,
+            "layer_count": 6,
             "unit_length": 6
          },
          "height_function": {
             "octaves": 4,
             "persistence_ratio": 0.6,
             "amplitude": 2.5,
-            "layer_thickness": 3,
-            "unit_length": 8
+            "layer_thickness": 1,
+            "unit_length": 24
          }
       },
       "plains": {

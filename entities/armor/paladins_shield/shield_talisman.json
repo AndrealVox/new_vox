@@ -25,8 +25,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "Paladin's Shield",
-         "description": "Required to promote a hearthling to a paladin",
+         "display_name": "i18n(box_o_vox:jobs.paladin.armor.paladin_shield.display_name)",
+         "description": "i18n(box_o_vox:jobs.paladin.talisman.paladin_shield.description)",
          "icon": "file(paladins_shield.png)",
          "is_item": true,
          "category": "tools",

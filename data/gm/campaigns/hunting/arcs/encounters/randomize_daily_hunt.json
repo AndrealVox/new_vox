@@ -16,6 +16,11 @@
             "weight": 4
          },
          {
+            "out_edge": "validate_hungry_deer_boxland",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
             "out_edge": "validate_hungry_caribou",
             "type": "weighted_edge",
             "weight": 4
@@ -27,6 +32,11 @@
          },
          {
             "out_edge": "validate_deer",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
+            "out_edge": "validate_deer_boxland",
             "type": "weighted_edge",
             "weight": 4
          },
