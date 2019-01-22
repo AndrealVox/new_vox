@@ -304,7 +304,7 @@
       "scattering": [
          {
             "time": "midnight",
-            "value": [-0.05, 1, 1, 80]
+            "value": [-0.05, 1, 1, 120]
          },
          {
             "time": "midday",
