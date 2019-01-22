@@ -47,8 +47,8 @@
          "entries": {
             "default": {
                "num_rolls": {
-                  "min": 50,
-                  "max": 50
+                  "min": 55,
+                  "max": 55
                },
                "items": {
                   "herbs": {
@@ -58,6 +58,22 @@
                   "fiber": {
                      "uri": "box_o_vox:entities:resources:fiber:grass_bundle",
                      "weight": 10
+                  },
+                  "apple": {
+                     "uri": "box_o_vox:entities:food:apple:apple",
+                     "weight": 1
+                  },
+                  "banana": {
+                     "uri": "box_o_vox:entities:food:banana:banana",
+                     "weight": 1
+                  },
+                  "lime": {
+                     "uri": "box_o_vox:entities:food:lime:lime",
+                     "weight": 1
+                  },
+                  "orange": {
+                     "uri": "box_o_vox:entities:food:orange:orange",
+                     "weight": 1
                   },
                   "jerky": {
                      "uri": "stonehearth:rabbit_jerky",

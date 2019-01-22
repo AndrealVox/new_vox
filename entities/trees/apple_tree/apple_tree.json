@@ -40,8 +40,8 @@
          }
       },
       "stonehearth:resource_node": {
-         "durability": 6,
-         "resource": "stonehearth:resources:wood:oak_log",
+         "durability": 3,
+         "resource": "box_o_vox:entities:food:apple:apple",
          "resource_loot_table": {
             "entries": {
                "optional": {
@@ -54,8 +54,8 @@
                         "uri": "",
                         "weight": 10
                      },
-                     "apple": {
-                        "uri": "box_o_vox:entities:food:apple:apple",
+                     "log": {
+                        "uri": "stonehearth:resources:wood:oak_log",
                         "weight": 5
                      },
                      "sapling": {

@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 5,
+   "recipe_name": "i18n(box_o_vox:jobs.herbalist.recipes.tree_seed_orange_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.herbalist.recipes.tree_seed_orange_recipe.description)",
+   "flavor": "i18n(box_o_vox:jobs.herbalist.recipes.tree_seed_orange_recipe.flavor)",
+   "portrait": "/box_o_vox/entities/trees/images/sapling_orange_tree.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "box_o_vox:entities:food:orange:orange",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:trees:orange:sapling"
+      }
+   ]
+}

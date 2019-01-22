@@ -39,8 +39,8 @@
          }
       },
       "stonehearth:resource_node": {
-         "durability": 6,
-         "resource": "stonehearth:resources:wood:pine_log",
+         "durability": 3,
+         "resource": "box_o_vox:entities:food:banana:banana",
          "resource_loot_table": {
             "entries": {
                "optional": {
@@ -53,8 +53,8 @@
                         "uri": "",
                         "weight": 10
                      },
-                     "banana": {
-                        "uri": "box_o_vox:entities:food:banana:banana",
+                     "log": {
+                        "uri": "stonehearth:resources:wood:pine_log",
                         "weight": 5
                      },
                      "sapling": {

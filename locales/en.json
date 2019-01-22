@@ -242,6 +242,26 @@
             },
             "light_bandage_recipe": {
                "recipe_name": "Light Bandages (x2)"
+            },
+            "tree_seed_apple_recipe": {
+               "recipe_name": "Tree Sapling - Apple",
+               "description": "Extract the seed of an apple to plant as a tree.",
+               "flavor": ""
+            },
+            "tree_seed_banana_recipe": {
+               "recipe_name": "Tree Sapling - Banana",
+               "flavor": "",
+               "description": "Extract the seed of a banana to plant as a tree."
+            },
+            "tree_seed_lime_recipe": {
+               "recipe_name": "Tree Sapling - Lime",
+               "flavor": "",
+               "description": "Extract the seed of a lime to plant as a tree."
+            },
+            "tree_seed_orange_recipe": {
+               "recipe_name": "Tree Sapling - Orange",
+               "flavor": "",
+               "description": "Extract the seed of an orange to plant as a tree."
             }
          }
       },

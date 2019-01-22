@@ -21,6 +21,18 @@
             },
             "daisy_plant_transmute": {
                "recipe": "file(daisy_plant_transmute_recipe.json)"
+            },
+            "tree_seed_apple": {
+               "recipe": "file(tree_seed_apple_recipe.json)"
+            },
+            "tree_seed_banana": {
+               "recipe": "file(tree_seed_banana_recipe.json)"
+            },
+            "tree_seed_lime": {
+               "recipe": "file(tree_seed_lime_recipe.json)"
+            },
+            "tree_seed_orange": {
+               "recipe": "file(tree_seed_orange_recipe.json)"
             }
          }
       }

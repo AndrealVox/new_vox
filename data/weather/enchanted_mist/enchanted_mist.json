@@ -7,6 +7,6 @@
       "box_o_vox:thoughts:weather:enchanted_mist_positive"
    ],
    "subject_matter": "box_o_vox:data:weather:subjects:enchanted_mist",
-   "vision_multiplier": 0.8,
-   "hide_cloud_shadows": false
+   "vision_multiplier": 0.2,
+   "hide_cloud_shadows": true
 }
