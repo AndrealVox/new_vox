@@ -45,11 +45,11 @@
                   },
                   "hunk_of_stone": {
                      "uri": "stonehearth:resources:stone:hunk_of_stone",
-                     "weight": 25
+                     "weight": 2
                   },
                   "clay_mound": {
                      "uri": "stonehearth:resources:clay:clay_mound",
-                     "weight": 20
+                     "weight": 1
                   }
                }
             }
@@ -69,8 +69,8 @@
                      "weight": 200
                   },
                   "clay_mound": {
-                     "uri": "stonehearth:resources:clay:clay_mound",
-                     "weight": 10
+                     "uri": "",
+                     "weight": 0.1
                   },
                   "copper_ore": {
                      "uri": "stonehearth:resources:copper:ore",
@@ -86,7 +86,7 @@
                   },
                   "lump_of_coal": {
                      "uri": "stonehearth:resources:coal:lump_of_coal",
-                     "weight": 50
+                     "weight": 28
                   },
                   "silver_ore": {
                      "uri": "stonehearth:resources:silver:ore",
@@ -99,6 +99,108 @@
                   "salt_rock": {
                      "uri": "box_o_vox:entities:resources:rocks:salt_rock",
                      "weight": 10
+                  }
+               }
+            }
+         }
+      },
+      "copper_ore": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "ore": {
+                     "uri": "stonehearth:resources:copper:ore",
+                     "weight": 75
+                  }
+               }
+            }
+         }
+      },
+      "tin_ore": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "ore": {
+                     "uri": "stonehearth:resources:tin:ore",
+                     "weight": 80
+                  }
+               }
+            }
+         }
+      },
+      "iron_ore": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "ore": {
+                     "uri": "stonehearth:resources:iron:ore",
+                     "weight": 65
+                  }
+               }
+            }
+         }
+      },
+      "coal": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "lump_of_coal": {
+                     "uri": "stonehearth:resources:coal:lump_of_coal",
+                     "weight": 50
+                  }
+               }
+            }
+         }
+      },
+      "silver_ore": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "ore": {
+                     "uri": "stonehearth:resources:silver:ore",
+                     "weight": 60
+                  }
+               }
+            }
+         }
+      },
+      "gold_ore": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "ore": {
+                     "uri": "stonehearth:resources:gold:ore",
+                     "weight": 50
                   }
                }
             }
