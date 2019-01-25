@@ -117,6 +117,12 @@
       }
    },
    "entity_data": {
+      "stonehearth:camera": {
+         "is_followable": true
+      },
+      "stonehearth:stump_data": {
+         "stump_alias": "stonehearth_ace:trees:oak:small:stump"
+      },
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.trees.lime_tree.lime_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.lime_tree.lime_tree.description)",

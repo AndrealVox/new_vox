@@ -169,6 +169,7 @@
       "entities:food:rotten:banana": "file(entities/food/banana/banana/rotten_banana.json)",
       "entities:food:rotten:blueberry_basket": "file(entities/food/blueberry/blueberry_basket/rotten_blueberry_basket.json)",
       "entities:food:rotten:lime": "file(entities/food/lime/lime/rotten_lime.json)",
+      "entities:food:rotten:milk": "file(entities/food/milk/rotten_milk.json)",
       "entities:food:rotten:orange": "file(entities/food/orange/orange/rotten_orange.json)",
       "entities:food:rotten:potato_basket": "file(entities/food/potato/potato_basket/rotten_potato_basket.json)",
       "entities:food:rotten:strawberry_basket": "file(entities/food/strawberry/strawberry_basket/rotten_strawberry_basket.json)",

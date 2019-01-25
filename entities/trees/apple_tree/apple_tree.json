@@ -120,6 +120,9 @@
       "stonehearth:camera": {
          "is_followable": true
       },
+      "stonehearth:stump_data": {
+         "stump_alias": "stonehearth_ace:trees:oak:small:stump"
+      },
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.trees.apple_tree.apple_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.apple_tree.apple_tree.description)",

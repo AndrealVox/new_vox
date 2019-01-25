@@ -80,6 +80,9 @@
       }
    },
    "entity_data": {
+      "mixintypes": {
+         "stonehearth:stump_data": "remove"
+      },
       "stonehearth:evolve_data": {
          "next_stage": "box_o_vox:entities:trees:orange:small",
          "evolve_time": "1d"

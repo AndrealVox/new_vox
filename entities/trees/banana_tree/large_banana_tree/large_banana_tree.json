@@ -116,6 +116,9 @@
          "next_stage": "box_o_vox:entities:trees:banana:ancient",
          "evolve_time": "3d"
       },
+      "stonehearth:stump_data": {
+         "stump_alias": "stonehearth_ace:trees:pine:large:stump"
+      },
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.trees.banana_tree.large_banana_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.banana_tree.large_banana_tree.description)"

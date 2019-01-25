@@ -116,6 +116,9 @@
          "next_stage": "box_o_vox:entities:trees:orange:ancient",
          "evolve_time": "7d"
       },
+      "stonehearth:stump_data": {
+         "stump_alias": "stonehearth_ace:trees:oak:small:stump"
+      },
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.trees.orange_tree.large_orange_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.orange_tree.large_orange_tree.description)"
