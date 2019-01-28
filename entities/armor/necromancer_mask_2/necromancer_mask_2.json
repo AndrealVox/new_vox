@@ -1,0 +1,58 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(necromancer_mask_2.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(necromancer_mask_2_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(necromancer_mask_2_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 6,
+         "roles": [
+            "necromancer_job"
+         ],
+         "required_job_level": 6,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 10
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 175,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.armor.necromancer_mask_2.display_name)",
+         "description": "i18n(box_o_vox:entities.armor.necromancer_mask_2.description)",
+         "icon": "file(necromancer_mask_2.png)",
+         "is_item": true,
+         "category": "armor",
+         "material_tags": ["armor", "helmet", "stockpile_equipment"]
+      }
+   }
+}

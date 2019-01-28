@@ -1,0 +1,7 @@
+{
+   "components": {
+      "stonehearth:equipment_piece": {
+         "roles": ["paladin_job"]
+      }
+   }
+}

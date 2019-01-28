@@ -7,36 +7,36 @@
             "layer": "hat",
             "transparent": "true",
             "models": [
-               "file(paladin_halo.qb)"
+               "file(paladin_helmet.qb)"
             ]
          },
          "female": {
             "layer": "hat",
             "transparent": "true",
             "models": [
-               "file(paladin_halo_female.qb)"
+               "file(paladin_helmet_female.qb)"
             ]
          }
       },
       "stonehearth:equipment_piece": {
          "render_type": "merge_with_model",
          "slot": "helmet",
-         "ilevel": 4,
+         "ilevel": 1,
          "roles": "paladin_job",
          "no_drop": true
       }
    },
    "entity_data": {
       "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 4
+         "base_damage_reduction": 2
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.paladin.paladin_halo.display_name)",
-         "description": "i18n(stonehearth:jobs.paladin.paladin_halo.description)",
-         "icon": "file(paladin_halo.png)",
+         "display_name": "i18n(box_o_vox:jobs.paladin.paladin_helmet.display_name)",
+         "description": "i18n(box_o_vox:jobs.paladin.paladin_helmet.description)",
+         "icon": "file(paladin_helmet.png)",
          "is_item": true,
          "category": "armor",
-         "material_tags": "iron armor heavy_armor"
+         "material_tags": ["armor"]
       }
    }
 }

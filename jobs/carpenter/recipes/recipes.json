@@ -1,0 +1,11 @@
+{
+   "craftable_recipes": {
+      "armor": {
+         "recipes": {
+            "holy_sword": {
+               "recipe": "file(holy_sword_recipe.json)"
+            }
+         }
+      }
+   }
+}

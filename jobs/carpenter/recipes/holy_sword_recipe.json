@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 15,
+   "work_units": 5,
+   "recipe_name": "i18n(box_o_vox:entities.weapons.holy_sword.display_name)",
+   "description": "i18n(box_o_vox:entities.weapons.holy_sword.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/weapons/holy_sword/holy_sword.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 4
+      },
+      {
+         "uri": "stonehearth:consumables:healing_tonic:small",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:weapon:holy_sword"
+      }
+   ]
+}

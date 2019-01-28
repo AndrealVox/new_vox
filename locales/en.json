@@ -190,6 +190,14 @@
                "display_name": "Skeleton Gatherer",
                "description": "This Undead Work will gather and restock items."
             }
+         },
+         "necromancer_mask_1": {
+            "display_name": "Apprentice Necromancer Mask",
+            "description": "A Necromancer with a decent amount of training can equip this mask."
+         },
+         "necromancer_mask_2": {
+            "display_name": "Master Necromancer Mask",
+            "description": "Only the highest level of Necromancer can wear this mighty mask."
          }
       },
       "cleric": {
@@ -366,6 +374,14 @@
          "flame_skull": {
             "display_name": "Flaming Skull",
             "description": "Flaming Skull"
+         },
+         "holy_sword": {
+            "display_name": "Holy Sword",
+            "description": "Blessed by GOD, this cross has been made into a formidable weapon."
+         },
+         "paladin_hammer": {
+            "display_name": "Holy Hammer",
+            "description": "A Paladin's Holy Hammer"
          }
       },
       "construction": {
@@ -899,6 +915,10 @@
                "description": "A bowl of ground beef",
                "display_name": "Ground Beef"
             }
+         },
+         "rotten_milk": {
+            "display_name": "Rotten Milk",
+            "description": "It's starting to curdle."
          }
       },
       "trees": {
@@ -1090,6 +1110,24 @@
             "wolf_fox": {
                "display_name": "Fox Wolf"
             }
+         }
+      },
+      "armor": {
+         "paladin_helmet_1": {
+            "display_name": "Apprentice Paladin Helmet",
+            "description": "A Paladin of decent skill can equip this strong helmet."
+         },
+         "necromancer_mask_1": {
+            "display_name": "Apprentice Necromancer Mask",
+            "description": "A Necromancer with a decent amount of training can equip this mask."
+         },
+         "necromancer_mask_2": {
+            "display_name": "Master Necromancer Mask",
+            "description": "Only the highest level of Necromancer can wear this mighty mask."
+         },
+         "paladin_helmet_2": {
+            "description": "The highest level of Paladins can equip the mightiest of helmets.",
+            "display_name": "Master Paladin Helmet"
          }
       }
    },

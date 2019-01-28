@@ -12,7 +12,7 @@
    "entity_data": {
       "stonehearth:combat:weapon_data": {
          "base_damage": 70,
-         "reach": 2.5
+         "reach": 0.75
       },
       "stonehearth:combat:melee_attacks": [
          {

@@ -13,7 +13,8 @@
    "abilities": "file(necromancer_abilities)",
    "equipment": {
       "torso": "file(necromancer_outfit)",
-      "mainhand": "box_o_vox:entities:weapon:necromancer_tome"
+      "mainhand": "box_o_vox:entities:weapon:necromancer_tome",
+      "helmet": "file(necromancer_mask)"
    },
    "roles": [
       "necromancer_job",

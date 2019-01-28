@@ -1,0 +1,32 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.05
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(necromancer_mask_2.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.armor.necromancer_mask_2.display_name)",
+         "description": "i18n(box_o_vox:entities.armor.necromancer_mask_2.description)",
+         "icon": "file(necromancer_mask_2.png)",
+         "is_item": true,
+         "category": "armor"
+      }
+   }
+}

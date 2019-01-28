@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 5,
+   "recipe_name": "i18n(box_o_vox:entities.armor.paladin_helmet_2.display_name)",
+   "description": "i18n(box_o_vox:entities.armor.paladin_helmet_2.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/armor/paladin_helmet_2/paladin_helmet_2.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:silver_ingot",
+         "count": 3
+      },
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+      },
+      {
+         "material": "leather resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:armor:paladin_helmet_2"
+      }
+   ]
+}

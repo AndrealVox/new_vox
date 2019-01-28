@@ -1,0 +1,45 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.05
+      },
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(necromancer_mask.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(necromancer_mask_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 1,
+         "roles": ["necromancer_job"],
+         "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 2
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:jobs.necromancer.necromancer_mask.display_name)",
+         "description": "i18n(box_o_vox:jobs.necromancer.necromancer_mask.description)",
+         "icon": "file(necromancer_mask.png)",
+         "is_item": true,
+         "category": "armor",
+         "material_tags": ["armor", "helmet", "stockpile_equipment"]
+      }
+   }
+}

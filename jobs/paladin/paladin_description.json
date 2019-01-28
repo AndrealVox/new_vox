@@ -13,11 +13,14 @@
    "abilities": "file(paladin_abilities)",
    "equipment": {
       "torso": "file(paladin_outfit)",
-      "offhand": "box_o_vox:armor:paladins_shield",
-      "mainhand": "stonehearth:weapons:bronze_sword",
-      "helmet": "file(paladin_halo)"
+      "offhand": "box_o_vox:entities:armor:paladins_shield",
+      "mainhand": "stonehearth:weapons:short_sword",
+      "helmet": "file(paladin_helmet)"
    },
-   "roles": "paladin_job melee_combat combat",
+   "roles": [
+      "paladin_job",
+      "combat"
+   ],
    "promotion_activity_name": "promote_paladin",
    "task_groups": [
       "stonehearth:task_groups:common_tasks",
