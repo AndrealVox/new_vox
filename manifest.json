@@ -91,8 +91,7 @@
       "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
       "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)",
 
-      "effects:default_clouds": "file(data/effects/clouds/default_clouds)",
-      "effects:light_clouds": "file(data/effects/clouds/light_clouds)",
+      "effects:fog": "file(data/effects/fog)",
       "entities:abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
       "entities:armor:necromancer_mask_1": "file(entities/armor/necromancer_mask_1)",
       "entities:armor:necromancer_mask_2": "file(entities/armor/necromancer_mask_2)",
@@ -394,8 +393,7 @@
       "trait_scripts:paladin": "file(data/traits/passion_paladin/paladin.lua)"
    },
    "components": {
-      "summon": "file(components/summon/summon_component.lua)",
-      "clouds": "file(components/clouds/clouds.lua)"
+      "summon": "file(components/summon/summon_component.lua)"
    },
    "ui": {
       "less": [

@@ -5,7 +5,6 @@
    ],
    "type": "entity",
    "components": {
-      "box_o_vox:clouds": {},
       "render_info": {
          "scale": 0.6
       },
@@ -38,6 +37,9 @@
             "autumn": "default",
             "winter": "winter"
          }
+      },
+      "effect_list": {
+         "default": "box_o_vox:effects:fog"
       },
       "stonehearth:resource_node": {
          "durability": 3,

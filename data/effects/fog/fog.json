@@ -1,15 +1,15 @@
 {
    "type": "effect",
    "tracks": {
-      "cubemitter_default_clouds": {
+      "fog": {
          "type": "cubemitter",
-         "cubemitter": "/box_o_vox/data/effects/clouds/default_clouds/default_clouds.cubemitter.json",
+         "cubemitter": "/box_o_vox/data/effects/fog/fog.cubemitter.json",
          "loop": true,
          "transforms": {
             "x": 0,
-            "y": 0,
+            "y": 15,
             "z": 0,
-            "rx": -90,
+            "rx": 90,
             "ry": 0,
             "rz": 0
          }
