@@ -1,0 +1,9 @@
+{
+   "mixintos": {},
+   "overrides": {
+      "/box_o_vox/jobs/necromancer/recipes/skeleton_gatherer_recipe.json": "/box_o_vox/jobs/necromancer/recipes/ace/skeleton_gatherer_recipe.json",
+      "/box_o_vox/jobs/necromancer/recipes/zombie_miner_recipe.json": "/box_o_vox/jobs/necromancer/recipes/ace/zombie_miner_recipe.json",
+      "/box_o_vox/jobs/necromancer/recipes/necromancer_mask_1_recipe.json": "/box_o_vox/jobs/necromancer/recipes/ace/necromancer_mask_1_recipe.json",
+      "/box_o_vox/jobs/necromancer/recipes/necromancer_mask_2_recipe.json": "/box_o_vox/jobs/necromancer/recipes/ace/necromancer_mask_2_recipe.json"
+   }
+}

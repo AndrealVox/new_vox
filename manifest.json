@@ -70,10 +70,8 @@
       "data:gm_index": "file(data/gm/gm_index.json)",
       "data:hotkeys": "file(data/hotkeys.json)",
       "data:loadouts": "file(data/loadouts)",
-      "data:music:combat_1": "file(data/music/combat_1.ogg)",
       "data:music:day_1": "file(data/music/day_1.ogg)",
       "data:music:night_1": "file(data/music/night_1.ogg)",
-      "data:music:title_1": "file(data/music/title_1.ogg)",
       "data:saved_objects:building_templates_index": "file(data/saved_objects/building_templates_index.json)",
       "data:summon_tuning:necromancer:summoner_bone_wolf_big": "file(data/summon_tuning/necromancer/summoner_bone_wolf_big.json)",
       "data:summon_tuning:necromancer:summoner_golem": "file(data/summon_tuning/necromancer/summoner_golem.json)",
@@ -319,6 +317,7 @@
       "stonehearth/locales/en.json": "file(locales/en_mixin.json)",
       "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
       "stonehearth:data:gm_index": "box_o_vox:data:gm_index",
+      "nordlingmod:jobs:index": "box_o_vox:jobs:index_mixin",
       "stonehearth:jobs:index": "box_o_vox:jobs:index_mixin",
       "stonehearth_ace:northern_alliance:jobs:index": "box_o_vox:jobs:index_mixin",
       "stonehearth_ace:rayyas_children:jobs:index": "box_o_vox:jobs:index_mixin",
@@ -366,24 +365,13 @@
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
 
-      "stonehearth/data/calendar/calendar_constants.json": "box_o_vox/data/calendar/calendar_constants.json",
+      "stonehearth_ace/manifest.json": "box_o_vox/ace_manifest.json"
 
-      "stonehearth/data/biome/artic.json": "box_o_vox/data/biome/mixin/artic.json",
-      "stonehearth/data/biome/desert.json": "box_o_vox/data/biome/mixin/desert.json",
-      "stonehearth/data/biome/temperate.json": "box_o_vox/data/biome/mixin/temperate.json",
-      "omniterrain_biome/data/biome/omniterrain.json": "box_o_vox/data/biome/mixin/temperate.json"
    },
    "overrides": {
       "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
       "stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
-      "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
-
-      "stonehearth_ace/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/stonehearth_ace_foreground.png)",
-      "stonehearth/ui/shell/title/images/stonehearth_foreground.png": "file(ui/shell/title/images/stonehearth_foreground.png)",
-
-      "stonehearth/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/delay_before_hearth_choice.json": "box_o_vox/data/gm/campaigns/town_progression/arcs/trigger/town_progression/mixins/mixin_delay_before_hearth_choice.json",
-      "northern_alliance/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/delay_before_hearth_choice.json": "box_o_vox/data/gm/campaigns/town_progression/arcs/trigger/town_progression/mixins/mixin_delay_before_hearth_choice.json",
-      "rayyas_children/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/delay_before_hearth_choice.json": "box_o_vox/data/gm/campaigns/town_progression/arcs/trigger/town_progression/mixins/mixin_delay_before_hearth_choice.json"
+      "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)"
    },
    "controllers": {
       "class:cleric": "file(jobs/cleric/cleric.lua)",

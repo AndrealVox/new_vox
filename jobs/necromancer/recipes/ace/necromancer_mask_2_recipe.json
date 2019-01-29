@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 2,
+   "recipe_name": "i18n(box_o_vox:entities.armor.necromancer_mask_2.display_name)",
+   "description": "i18n(box_o_vox:entities.armor.necromancer_mask_2.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/armor/necromancer_mask_2/necromancer_mask_2.png",
+   "work_effect": "fiddle",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "material": "feather resource",
+         "count": 2
+      },
+      {
+         "material": "bone resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:armor:necromancer_mask_2"
+      }
+   ]
+}

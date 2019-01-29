@@ -1,22 +1,6 @@
 {
    "ui": {
       "game": {
-         "calendar": {
-            "months": {
-               "1": "March",
-               "2": "April",
-               "3": "May",
-               "4": "June",
-               "5": "July",
-               "6": "August",
-               "7": "September",
-               "8": "October",
-               "9": "November",
-               "10": "December",
-               "11": "January",
-               "12": "February"
-            }
-         },
          "unit_frame": {
             "placement_tags": {
                "workers": "i18n(box_o_vox:ui.game.unit_frame.placement_tags.workers)"
