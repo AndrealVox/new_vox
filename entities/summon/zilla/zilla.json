@@ -3,6 +3,7 @@
    "mixins": "box_o_vox:mixins:summons",
    "components": {
       "render_info": {
+         "scale": 0.3,
          "animation_table": "/stonehearth/data/rigs/entities/monster/forest/zilla/zilla.json",
          "color_map": "stonehearth:color_map:mob",
          "material_maps": [
