@@ -365,13 +365,15 @@
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
 
-      "stonehearth_ace/manifest.json": "box_o_vox/ace_manifest.json"
+      "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/ace_recipes.json"
 
    },
    "overrides": {
       "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
       "stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
-      "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)"
+      "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
+
+      "stonehearth_ace/box_o_vox/necromancer/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)"
    },
    "controllers": {
       "class:cleric": "file(jobs/cleric/cleric.lua)",
