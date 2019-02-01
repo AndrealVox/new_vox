@@ -10,12 +10,8 @@
    "level_requirement": 3,
    "ingredients": [
       {
-         "material": "food meat raw",
-         "count": 2
-      },
-      {
          "material": "pelt resource",
-         "count": 2
+         "count": 20
       }
    ],
    "produces": [

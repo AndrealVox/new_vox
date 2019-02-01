@@ -81,7 +81,6 @@
       "data:summon_tuning:necromancer:summoner_zombie": "file(data/summon_tuning/necromancer/summoner_zombie.json)",
       "data:terrain:landmark_blocks": "file(data/terrain/landmark_blocks.json)",
       "data:thoughts": "file(data/happiness/thoughts.json)",
-      "data:traits:passion_necromancer": "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",
       "data:traits:passion_paladin": "file(data/traits/passion_paladin/passion_paladin_trait.json)",
       "data:traits:wolf_fox_companion": "file(data/traits/wolf_fox_companion/wolf_fox_companion_trait.json)",
       "data:weather_based_clouds": "file(data/weather/weather_based_clouds.json)",
@@ -379,7 +378,6 @@
       "class:cleric": "file(jobs/cleric/cleric.lua)",
       "class:paladin": "file(jobs/paladin/paladin.lua)",
       "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
-      "trait_scripts:necromancer": "file(data/traits/passion_necromancer/necromancer.lua)",
       "trait_scripts:paladin": "file(data/traits/passion_paladin/paladin.lua)"
    },
    "components": {

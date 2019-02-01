@@ -3,7 +3,7 @@
    "estimated_difficulty": 1,
    "attributes": {
       "max_health": 100,
-      "muscle": 30,
+      "muscle": 5,
       "menace": 100,
       "courage": 100,
       "speed": 90,

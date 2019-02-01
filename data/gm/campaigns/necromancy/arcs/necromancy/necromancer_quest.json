@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "dispatch_quest",
+   "in_edge": "necromancer_quest",
+   "out_edge": "promote_to_necromancer",
+   "dispatch_quest_info": {
+      "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg2.bulletin_title)",
+      "dialog_title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg2.bulletin_title)",
+      "text": "i18n(box_o_vox:data.gm.encounters.necromancer.necromancer_quest.text)",
+      "required_job": "stonehearth:jobs:cleric",
+      "required_job_level": 3,
+      "return_delay": "7d",
+      "ctx_registration_variable": "dispatched_citizens"
+   }
+}

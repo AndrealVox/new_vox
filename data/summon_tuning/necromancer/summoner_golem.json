@@ -3,8 +3,8 @@
    "estimated_difficulty": 4,
    "attributes": {
       "max_health": 400,
-      "muscle": 30,
-      "menace": 200,
+      "muscle": 20,
+      "menace": 250,
       "courage": 300,
       "speed": 90,
       "additive_armor_modifier": 4,

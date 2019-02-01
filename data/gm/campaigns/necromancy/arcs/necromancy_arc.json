@@ -1,0 +1,12 @@
+{
+   "type": "arc",
+   "rarity": "common",
+   "encounters": {
+      "necromancer_wait_to_start": "file(necromancy/necromancer_wait_to_start.json)",
+      "necromancer_intro": "file(necromancy/necromancer_intro.json)",
+      "necromancer_quest": "file(necromancy/necromancer_quest.json)",
+      "promote_to_necromancer": "file(necromancy/promote_to_necromancer.json)",
+      "necromancer_outro": "file(necromancy/necromancer_outro.json)",
+      "wait_for_cleric": "file(necromancy/wait_for_cleric.json)"
+   }
+}

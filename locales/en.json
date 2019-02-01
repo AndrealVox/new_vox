@@ -119,6 +119,112 @@
                      }
                   }
                }
+            },
+            "encounters": {
+               "necromancer": {
+                  "necromancer_intro": {
+                     "dialog_tree_info": {
+                        "dialog_nodes": {
+                           "msg1": {
+                              "bulletin_title": "Cryptic Knowledge",
+                              "bulletin_message": {
+                                 "00": "\"Hello minions- I mean friends, friends! It has been quite some time since I've seen another living soul, haha. I'd like to offer you a precious gift.\"<br><br>\"I would like to bring one of your Clerics into my lair for a time, to teach them the crytpic art known as Necromancy.\"<br><br>\"Would you like to hear of my knowledge, the ancient power of harnessing the undead?\""
+                              },
+                              "choice_001": "Please, tell us",
+                              "choice_000": "[Skip Story] Know all about it"
+                           },
+                           "story1": {
+                              "bulletin_message": {
+                                 "00": "<font size=-1>Vox smiles mysteriously. </font>\"This world is full darkness and evil. I was tired of it always winning, so I decided to make a change.\"<br><br>\"I spent countless nights fusing bones imbued with my own life essence with little to no result. After I came across a well kept secret, I finally was able to summon my very first undead minion. A skeleton I named Steve.\""
+                              },
+                              "choice_000": "A skeleton, awesome!"
+                           },
+                           "story2": {
+                              "bulletin_message": {
+                                 "00": "\"I used my newfound powers and embraced the darkness & evil this world was so full of. I went forth with Steve and started to decimate the surrounding lands of hostile creatures.\"<br><br>\"It wasn't long before I realized Steve wasn't strong enough to fight some of the enemies I started to encounter. Things again needed to change.\""
+                              },
+                              "choice_000": "What sort of change?"
+                           },
+                           "story3a": {
+                              "bulletin_message": {
+                                 "00": "\"It was time once again to use my own life essence and create something stronger. On my travels I killed wolves, yes wolves. I knew these beast were the perfect choice in my progression of power.\"<br><br>\"Using more bone I was able to summon life into a new minion, Steve had evolved. Not long after that I realized if I used the flesh of my enemies along with their bones I could summon even stronger minions. The possiblities were infinite.\""
+                              },
+                              "choice_000": "What came from the flesh?"
+                           },
+                           "story3b": {
+                              "bulletin_message": {
+                                 "00": "\"I started where I had before, a skeleton. This time though I applied flesh to bone in hopes of something stronger. The zombie it produced was better than I even imagined.\"<br><br>\"After that I was able to grow in strength and summon even greater beast, a flesh golem and eventually fleshzilla. My minions and I conquered the world, all was good again, but something was missing.\"<br><font size=-1>He stands there thoughtfully</font>"
+                              },
+                              "choice_000": "What was missing?"
+                           },
+                           "story4": {
+                              "bulletin_message": {
+                                 "00": "\"Steve was powerful, nearly unstopable. I was a master of the Undead, flinging flaming skulls left and right. Though something was missing. I came up with the idea to create myself, so to speak. I used all the knowledge I had learned to summon a mini version of myself. I taught him how to throw 2 flaming skulls at once, a trick I started to use myself afterwards.\"<br><br>\"Now all that was left for me was to find a person, a student, to pass my knowledge onto. I believe that person to be you. Are you that student?\"<br><font size=-1>He asks you quietly</font>"
+                              },
+                              "choice_000": "Student? Me?"
+                           },
+                           "offer": {
+                              "bulletin_message": {
+                                 "00": "\"Anyway, what say you - would you like to send one of your esteemed Clerics with me to learn the ways of Necromancy? I estimate it will take at least a week to grant them a basic understanding.\"<br><br>\"This may be your only chance to do so - I feel my time in this world is nearing the climax.\""
+                              },
+                              "choice_000": "Of course! Your ways will not be forgotten.",
+                              "choice_001": "This all sounds a bit too scary for me."
+                           },
+                           "reject": {
+                              "bulletin_message": {
+                                 "00": "\"I see. Are you sure? As I said, this may likely be your only chance to gain such knowledge.\""
+                              },
+                              "choice_001": "[Back] Wait, I changed my mind!",
+                              "choice_000": "I am sure, no thanks."
+                           },
+                           "accept": {
+                              "bulletin_message": {
+                                 "00": "\"Glorious! Take all the time you need in choosing, the selection is important indeed.\"<br><br>\"As I said, they will be gone for around seven days, so don't send anyone you can't bear to be without.\""
+                              },
+                              "choice_000": "Let me decide who to send..."
+                           },
+                           "reject2": {
+                              "bulletin_message": {
+                                 "00": "\"Very well, I suppose things of this nature will stay secret for all time.\"<br><br>\"I shall take my leave. I wish you well in your ventures. Farewell!\""
+                              },
+                              "choice_000": "Farewell!"
+                           },
+                           "msg2": {
+                              "bulletin_title": "The Path To Necromancy"
+                           },
+                           "msg3": {
+                              "bulletin_title": "A Single Necromancer Returns..."
+                           }
+                        }
+                     }
+                  }
+               }
+            },
+            "necromancer": {
+               "persons": {
+                  "vox": {
+                     "title": "Vox, The Premier Necromancer"
+                  }
+               }
+            }
+         },
+         "encounters": {
+            "necromancer": {
+               "necromancer_quest": {
+                  "text": "Select a Cleric to be trained as a Necromancer by Vox."
+               },
+               "necromancer_outro": {
+                  "dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "choice_000": "Thank you Vox! May his soul rest knowing his magic will live on.",
+                           "bulletin_message": {
+                              "00": "<font size=-1>The Cleric you sent away with Vox has returned... alone. They don't say much other than, </font>\"His climax arrived.\"<font size=-1> It seems like Vox shared his knowledge with us just in time. </font><font size=+1>We will never forget you and we promise to use our newfound powers to rid this world of evil once more!</font><br>Go forth and conquer.<br>Go forth and die!"
+                           }
+                        }
+                     }
+                  }
+               }
             }
          }
       }

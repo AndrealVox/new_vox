@@ -21,8 +21,8 @@
             "stonehearth:have_shield"
          ],
          "no_drop": true,
-         "ilevel": 4,
-         "roles": "paladin_job",
+         "ilevel": 16,
+         "roles": ["paladin_job"],
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },

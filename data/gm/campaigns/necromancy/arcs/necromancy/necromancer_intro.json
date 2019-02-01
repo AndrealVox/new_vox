@@ -1,0 +1,149 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "unique": true,
+   "in_edge": "necromancer_intro",
+   "dialog_tree_info": {
+      "start_node": "msg1",
+      "nodes": {
+         "msg1": {
+            "bulletin": {
+               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
+               "portrait": "file(necro-vox.png)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)",
+               "choices": {
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.choice_000)": {
+                     "next_node": "offer"
+                  },
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.choice_001)": {
+                     "next_node": "story1"
+                  }
+               }
+            }
+         },
+         "story1": {
+            "bulletin": {
+               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
+               "portrait": "file(necro-vox.png)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.story1.bulletin_message.00)",
+               "choices": {
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.story1.choice_000)": {
+                     "next_node": "story2"
+                  }
+               }
+            }
+         },
+         "story2": {
+            "bulletin": {
+               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
+               "portrait": "file(necro-vox.png)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.story2.bulletin_message.00)",
+               "choices": {
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.story2.choice_000)": {
+                     "next_node": "story3a"
+                  }
+               }
+            }
+         },
+         "story3a": {
+            "bulletin": {
+               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
+               "portrait": "file(necro-vox.png)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.story3a.bulletin_message.00)",
+               "choices": {
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.story3a.choice_000)": {
+                     "next_node": "story3b"
+                  }
+               }
+            }
+         },
+         "story3b": {
+            "bulletin": {
+               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
+               "portrait": "file(necro-vox.png)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.story3b.bulletin_message.00)",
+               "choices": {
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.story3b.choice_000)": {
+                     "next_node": "story4"
+                  }
+               }
+            }
+         },
+         "story4": {
+            "bulletin": {
+               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
+               "portrait": "file(necro-vox.png)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.story4.bulletin_message.00)",
+               "choices": {
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.story4.choice_000)": {
+                     "next_node": "offer"
+                  }
+               }
+            }
+         },
+         "offer": {
+            "bulletin": {
+               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
+               "portrait": "file(necro-vox.png)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.offer.bulletin_message.00)",
+               "choices": {
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.offer.choice_000)": {
+                     "next_node": "accept"
+                  },
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.offer.choice_001)": {
+                     "next_node": "reject"
+                  }
+               }
+            }
+         },
+         "accept": {
+            "bulletin": {
+               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
+               "portrait": "file(necro-vox.png)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.accept.bulletin_message.00)",
+               "choices": {
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.accept.choice_000)": {
+                     "out_edge": "necromancer_quest"
+                  }
+               }
+            }
+         },
+         "reject": {
+            "bulletin": {
+               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
+               "portrait": "file(necro-vox.png)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.reject.bulletin_message.00)",
+               "choices": {
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.reject.choice_001)": {
+                     "next_node": "accept"
+                  },
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.reject.choice_000)": {
+                     "next_node": "reject2"
+                  }
+               }
+            }
+         },
+         "reject2": {
+            "bulletin": {
+               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
+               "portrait": "file(necro-vox.png)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.reject2.bulletin_message.00)",
+               "choices": {
+                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.reject2.choice_000)": {}
+               }
+            }
+         }
+      }
+   }
+}

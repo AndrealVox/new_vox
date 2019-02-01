@@ -3,10 +3,10 @@
    "estimated_difficulty": 5,
    "attributes": {
       "max_health": 500,
-      "muscle": 30,
+      "muscle": 25,
       "menace": 300,
       "courage": 350,
-      "speed": 120,
+      "speed": 100,
       "additive_armor_modifier": 5,
       "multiplicative_target_armor_modifier": 0.5,
       "exp_reward": 250,

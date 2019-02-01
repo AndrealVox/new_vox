@@ -1,26 +1,16 @@
 {
-   "type": "recipe",
-   "effort": 20,
-   "work_units": 2,
-   "recipe_name": "i18n(box_o_vox:jobs.necromancer.workers.miner.display_name)",
-   "description": "i18n(box_o_vox:jobs.necromancer.workers.miner.description)",
-   "flavor": "",
-   "portrait": "/box_o_vox/entities/monsters/summoned/zombie_miner/zombie_miner.png",
-   "work_effect": "box_o_vox:data:effects:summon_necronomicon",
-   "level_requirement": 6,
+   "mixins": "box_o_vox/jobs/necromancer/recipes/zombie_miner_recipe.json",
+   "mixintypes": {
+      "ingredients": "override"
+   },
    "ingredients": [
       {
          "material": "food meat raw",
-         "count": 2
+         "count": 10
       },
       {
          "material": "bone resource",
-         "count": 2
-      }
-   ],
-   "produces": [
-      {
-         "item": "box_o_vox:entities:monsters:summoned:zombie_miner"
+         "count": 10
       }
    ]
 }

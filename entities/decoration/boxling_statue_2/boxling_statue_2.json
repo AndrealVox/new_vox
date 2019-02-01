@@ -13,28 +13,12 @@
       "region_collision_shape": {
          "region": [
             {
-               "min": {
-                  "x": -5,
-                  "y": 0,
-                  "z": -5
-               },
-               "max": {
-                  "x": 6,
-                  "y": 3,
-                  "z": 6
-               }
+               "min": { "x": -5, "y": 0, "z": -5 },
+               "max": { "x": 6, "y": 3, "z": 6 }
             },
             {
-               "min": {
-                  "x": -3,
-                  "y": 3,
-                  "z": -4
-               },
-               "max": {
-                  "x": 4,
-                  "y": 17,
-                  "z": 5
-               }
+               "min": { "x": -3, "y": 3, "z": -4 },
+               "max": { "x": 4, "y": 17, "z": 5 }
             }
          ]
       },
@@ -43,16 +27,8 @@
          "nav_preference_modifier": -0.5,
          "region": [
             {
-               "min": {
-                  "x": -5,
-                  "y": 0,
-                  "z": -5
-               },
-               "max": {
-                  "x": 6,
-                  "y": 19,
-                  "z": 6
-               }
+               "min": { "x": -5, "y": 0, "z": -5 },
+               "max": { "x": 6, "y": 19, "z": 6 }
             }
          ]
       }
@@ -62,7 +38,7 @@
          "clearable": true
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 300,
+         "value_in_gold": 150,
          "rarity": "rare",
          "shop_info": {
             "buyable": false,

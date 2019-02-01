@@ -11,11 +11,11 @@
    "ingredients": [
       {
          "material": "food meat raw",
-         "count": 2
+         "count": 10
       },
       {
          "material": "pelt resource",
-         "count": 2
+         "count": 10
       }
    ],
    "produces": [

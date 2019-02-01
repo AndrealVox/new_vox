@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "necromancer_wait_to_start",
+   "out_edge": "necromancer_intro",
+   "wait_info": {
+      "duration": "1h+1h"
+   }
+}

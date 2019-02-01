@@ -41,7 +41,7 @@
             "effect": "combat_1h_backhand",
             "active_frame": 17,
             "cooldown": 0,
-            "priority": 0,
+            "priority": 1,
             "aggro_multiplier": 6.0,
             "aoe_effect": {
                "damage_multiplier": 1.0,
@@ -53,7 +53,7 @@
             "effect": "combat_1h_forehand",
             "active_frame": 16,
             "cooldown": 0,
-            "priority": 0,
+            "priority": 1,
             "aggro_multiplier": 6.0,
             "aoe_effect": {
                "damage_multiplier": 1.0,
@@ -65,7 +65,7 @@
             "effect": "combat_power_spike",
             "active_frame": 94,
             "cooldown": 20000,
-            "priority": 1,
+            "priority": 0,
             "aggro_multiplier": 6.0,
             "aoe_effect": {
                "damage_multiplier": 2.0,
@@ -84,7 +84,7 @@
          }
       ],
       "stonehearth:net_worth": {
-         "value_in_gold": 150,
+         "value_in_gold": 100,
          "rarity": "common",
          "shop_info": {
             "buyable": true,
