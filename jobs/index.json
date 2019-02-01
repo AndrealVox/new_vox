@@ -2,7 +2,7 @@
    "mixins": "stonehearth:jobs:index",
    "jobs": {
       "stonehearth:jobs:cleric": {
-         "description": "box_o_vox:jobs:cleric"
+         "description": "file(cleric/asc_cleric_description.json)"
       },
       "stonehearth:jobs:cook": {
          "description": "box_o_vox:jobs:cook"

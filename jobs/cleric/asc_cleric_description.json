@@ -2,14 +2,10 @@
    "mixins": "stonehearth:jobs:cleric",
    "controller": "box_o_vox:class:cleric",
    "abilities": "file(cleric_abilities)",
-   "equipment": {
-      "torso": "file(cleric_outfit)"
-   },
    "roles": ["cleric_job", "combat", "crafter"],
    "task_groups": [
       "stonehearth:task_groups:crafting"
    ],
-   "parent_level_requirement": 3,
    "xp_rewards": {
       "craft_level_0": 15,
       "craft_level_1": 17,

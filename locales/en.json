@@ -135,7 +135,7 @@
                            },
                            "story1": {
                               "bulletin_message": {
-                                 "00": "<font size=-1>Vox smiles mysteriously. </font>\"This world is full darkness and evil. I was tired of it always winning, so I decided to make a change.\"<br><br>\"I spent countless nights fusing bones imbued with my own life essence with little to no result. After I came across a well kept secret, I finally was able to summon my very first undead minion. A skeleton I named Steve.\""
+                                 "00": "<font size=-1>Vox smiles mysteriously.<br></font>\"This world is full darkness and evil. I was tired of it always winning, so I decided to make a change.\"<br><br>\"I spent countless nights fusing bones imbued with my own life essence with little to no result. After I came across a well kept secret, I finally was able to summon my very first undead minion. A skeleton I named Steve.\""
                               },
                               "choice_000": "A skeleton, awesome!"
                            },
@@ -153,13 +153,13 @@
                            },
                            "story3b": {
                               "bulletin_message": {
-                                 "00": "\"I started where I had before, a skeleton. This time though I applied flesh to bone in hopes of something stronger. The zombie it produced was better than I even imagined.\"<br><br>\"After that I was able to grow in strength and summon even greater beast, a flesh golem and eventually fleshzilla. My minions and I conquered the world, all was good again, but something was missing.\"<br><font size=-1>He stands there thoughtfully</font>"
+                                 "00": "\"I started where I had before, a skeleton. This time though I applied flesh to bone in hopes of something stronger. The zombie it produced was better than I even imagined.\"<br><br>\"After that I was able to grow in strength and summon even greater beast, a flesh golem and eventually fleshzilla. My minions and I conquered the world, all was good again, but something was missing.\"<br><br><font size=-1>He stands there thoughtfully</font>"
                               },
                               "choice_000": "What was missing?"
                            },
                            "story4": {
                               "bulletin_message": {
-                                 "00": "\"Steve was powerful, nearly unstopable. I was a master of the Undead, flinging flaming skulls left and right. Though something was missing. I came up with the idea to create myself, so to speak. I used all the knowledge I had learned to summon a mini version of myself. I taught him how to throw 2 flaming skulls at once, a trick I started to use myself afterwards.\"<br><br>\"Now all that was left for me was to find a person, a student, to pass my knowledge onto. I believe that person to be you. Are you that student?\"<br><font size=-1>He asks you quietly</font>"
+                                 "00": "\"Steve was powerful, nearly unstopable. I was a master of the Undead, flinging flaming skulls left and right. Though something was missing. I came up with the idea to create myself, so to speak. I used all the knowledge I had learned to summon a mini version of myself. I taught him how to throw 2 flaming skulls at once, a trick I started to use myself afterwards.\"<br><br>\"Now all that was left for me was to find a person, a student, to pass my knowledge onto. I believe that person to be you. Are you that student?\"<br><br><font size=-1>He asks you quietly</font>"
                               },
                               "choice_000": "Student? Me?"
                            },
@@ -219,7 +219,7 @@
                         "simple_message": {
                            "choice_000": "Thank you Vox! May his soul rest knowing his magic will live on.",
                            "bulletin_message": {
-                              "00": "<font size=-1>The Cleric you sent away with Vox has returned... alone. They don't say much other than, </font>\"His climax arrived.\"<font size=-1> It seems like Vox shared his knowledge with us just in time. </font><font size=+1>We will never forget you and we promise to use our newfound powers to rid this world of evil once more!</font><br>Go forth and conquer.<br>Go forth and die!"
+                              "00": "<font size=-1>The Cleric you sent away with Vox has returned... alone. They don't say much other than,</font>\"His climax arrived.\"<br><font size=-1> It seems like Vox shared his knowledge with us just in time.<br><br></font>We promise to never forget him and to use our newfound powers to rid this world of evil once more!<br>Go forth and conquer.<br>Go forth and die!"
                            }
                         }
                      }
@@ -234,7 +234,7 @@
          "necromancer_tome": {
             "necromancer_tome_talisman": {
                "display_name": "Necronomicon",
-               "description": "Required to promote a hearthling to a Necromancer"
+               "description": "Required to promote a Cleric to a Necromancer"
             },
             "display_name": "Book Of The Dead",
             "description": "Within lies the secrets to becoming a Necromancer"
@@ -242,7 +242,7 @@
          "necromancer_description": {
             "display_name": "Necromancer",
             "description": "Summon the undead to fight for you",
-            "requirements": "Crafted by a Cleric",
+            "requirements": "Obtained from a Master Necromancer",
             "level_1_data": {
                "perk_000_name": "Flaming Skull Attack",
                "perk_000_description": "The Necromancer is capable of throwing a flaming skull which inflicts a burning slow on enemies.",
@@ -308,11 +308,6 @@
       },
       "cleric": {
          "recipes": {
-            "necromancer_tome_recipe": {
-               "recipe_name": "Necronomicon",
-               "description": "Required to promote a hearthling to a necromancer",
-               "flavor": "Within lies the secrets to becoming a necromancer"
-            },
             "paladins_shield_recipe": {
                "recipe_name": "Paladin's Shield",
                "description": "Required to promote a hearthling to a paladin",

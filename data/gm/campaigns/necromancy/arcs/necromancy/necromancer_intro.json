@@ -4,6 +4,16 @@
    "rarity": "common",
    "unique": true,
    "in_edge": "necromancer_intro",
+   "can_start": {
+      "test_1": {
+         "has_necromancer": {
+            "item": "script",
+            "type": "deny_if",
+            "value": true,
+            "script": "file(has_necromancer.lua)"
+         }
+      }
+   },
    "dialog_tree_info": {
       "start_node": "msg1",
       "nodes": {

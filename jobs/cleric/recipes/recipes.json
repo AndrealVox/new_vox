@@ -15,9 +15,6 @@
             "mixintypes": {
                "cleric_tome": "remove"
             },
-            "necromancer_tome": {
-               "recipe": "file(necromancer_tome_recipe.json)"
-            },
             "paladins_shield": {
                "recipe": "file(paladins_shield_recipe.json)"
             }

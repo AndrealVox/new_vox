@@ -1,6 +1,6 @@
 {
    "info": {
-      "name": "Box O' Vox 2.0",
+      "name": "Box O' Vox (Complete)",
       "namespace": "box_o_vox",
       "version": 3,
       "steam_file_id": "1359693360"
@@ -245,11 +245,15 @@
       "entities:weapon:summon_necromancer_tome": "file(jobs/necromancer/necromancer_tome/summon_necromancer_tome.json)",
       "entities:weapon:undead_wolf_teeth": "file(entities/weapons/undead_wolf_teeth)",
 
-      "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
       "jobs:cook": "file(jobs/cook/cook_description.json)",
       "jobs:engineer": "file(jobs/engineer/engineer_description.json)",
       "jobs:index": "file(jobs/index.json)",
-      "jobs:index_mixin": "file(jobs/index_mixin.json)",
+
+      "jobs:asc_index": "file(jobs/asc_index.json)",
+      "jobs:na_index": "file(jobs/na_index.json)",
+      "jobs:nord_index": "file(jobs/nord_index.json)",
+      "jobs:rc_index": "file(jobs/rc_index.json)",
+
       "jobs:herbalist": "file(jobs/herbalist/herbalist_description.json)",
       "jobs:mason": "file(jobs/mason/mason_description.json)",
       "jobs:necromancer": "file(jobs/necromancer/necromancer_description.json)",
@@ -316,10 +320,12 @@
       "stonehearth/locales/en.json": "file(locales/en_mixin.json)",
       "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
       "stonehearth:data:gm_index": "box_o_vox:data:gm_index",
-      "nordlingmod:jobs:index": "box_o_vox:jobs:index_mixin",
-      "stonehearth:jobs:index": "box_o_vox:jobs:index_mixin",
-      "stonehearth_ace:northern_alliance:jobs:index": "box_o_vox:jobs:index_mixin",
-      "stonehearth_ace:rayyas_children:jobs:index": "box_o_vox:jobs:index_mixin",
+
+      "nordlingmod:jobs:index": "box_o_vox:jobs:nord_index",
+      "stonehearth:jobs:index": "box_o_vox:jobs:asc_index",
+      "stonehearth_ace:northern_alliance:jobs:index": "box_o_vox:jobs:na_index",
+      "stonehearth_ace:rayyas_children:jobs:index": "box_o_vox:jobs:rc_index",
+
       "stonehearth/jobs/blacksmith/recipes/recipes.json": "box_o_vox:jobs:recipes:blacksmith",
       "stonehearth/jobs/carpenter/recipes/recipes.json": "box_o_vox:jobs:recipes:carpenter",
       "stonehearth/jobs/cook/recipes/recipes.json": "box_o_vox/jobs/cook/recipes/recipes_mixin.json",
@@ -364,7 +370,7 @@
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
 
-      "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/ace_recipes.json"
+      "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json"
 
    },
    "overrides": {
@@ -372,7 +378,7 @@
       "stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
       "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
 
-      "stonehearth_ace/box_o_vox/necromancer/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)"
+      "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)"
    },
    "controllers": {
       "class:cleric": "file(jobs/cleric/cleric.lua)",
