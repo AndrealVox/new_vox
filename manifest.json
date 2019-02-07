@@ -294,8 +294,6 @@
       "landmark:boxling_mountain:stamp": "file(entities/landmark/boxling_mountain)",
       "landmark:boxling_mountain_2": "file(data/models/landmark/boxling_mountain_2/boxling_mountain_2.qb)",
       "landmark:boxling_mountain_2:stamp": "file(entities/landmark/boxling_mountain_2/boxling_mountain_2.json)",
-      "landmark:boxling_mountain_3": "file(data/models/landmark/boxling_mountain_3/boxling_mountain_3.qb)",
-      "landmark:boxling_mountain_3:stamp": "file(entities/landmark/boxling_mountain_3/boxling_mountain_3.json)",
       "loot_bag:wolf_fox_default": "file(data/loot_bag/wolf_fox_default.json)",
 
       "mixins:base_human": "file(mixins/base_human)",

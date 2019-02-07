@@ -43,6 +43,19 @@
       "clay_mound": {
          "tag": 601,
          "kind": "clay_mound"
+      },
+
+      "mine_shaft": {
+         "tag": 701,
+         "kind": "rock"
+      },
+      "fuscous_gray": {
+         "tag": 702,
+         "kind": "rock"
+      },
+      "dove_gray": {
+         "tag": 703,
+         "kind": "rock"
       }
    },
    "selectable_kinds": {

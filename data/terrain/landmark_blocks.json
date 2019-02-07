@@ -1,29 +1,11 @@
 {
-   "drop_chance_default": 0.1,
-   "#0d0d0d": {
-      "terrain_tag": "bedrock"
-   },
-   "Metal Colors": {},
-   "#EECCCC": {
-      "terrain_tag": "salt_rock"
-   },
-   "Boxland Biome Colors": {},
-   "#1F1F1F": {
-      "terrain_tag": "rock_layer_1"
-   },
    "#2F2F2F": {
-      "terrain_tag": "rock_layer_2"
-   },
-   "#3F3F3F": {
-      "terrain_tag": "rock_layer_3"
+      "terrain_tag": "mine_shaft"
    },
    "#4F4F4F": {
-      "terrain_tag": "rock_layer_4"
-   },
-   "#5F5F5F": {
-      "terrain_tag": "rock_layer_5"
+      "terrain_tag": "fuscous_gray"
    },
    "#6F6F6F": {
-      "terrain_tag": "rock_layer_6"
+      "terrain_tag": "dove_gray"
    }
 }
