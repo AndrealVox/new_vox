@@ -1,4 +1,4 @@
 {
    "mixins": "/stonehearth/jobs/herbalist/recipes/cleric_tome_recipe.json",
-   "level_requirement": 3
+   "level_requirement": 2
 }
