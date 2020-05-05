@@ -1,13 +1,15 @@
 {
-    "type": "command",
-    "name": "bone_wolf_big_summon",
-    "display_name": "i18n(box_o_vox:data.commands.necromancer_pages.bone_wolf_big_summon.display_name)",
-    "description": "i18n(box_o_vox:data.commands.necromancer_pages.bone_wolf_big_summon.description)",
-    "icon": "file(bone_wolf_big_page.png)",
-    "action": "call",
-    "function": "stonehearth:swap_equipment",
-    "args": [
+   "type": "command",
+   "name": "bone_wolf_big_summon",
+   "display_name": "i18n(box_o_vox:data.commands.necromancer_pages.bone_wolf_big_summon.display_name)",
+   "description": "i18n(box_o_vox:data.commands.necromancer_pages.bone_wolf_big_summon.description)",
+   "ordinal": 15,
+   "icon": "file(bone_wolf_big_page.png)",
+   "action": "call",
+   "function": "stonehearth:swap_equipment",
+   "args": [
       "accessory",
       "bone_wolf_big"
-   ]
+   ],
+   "hotkey_action": "fight:summon_bone_wolf"
 }

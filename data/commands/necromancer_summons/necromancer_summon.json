@@ -3,11 +3,13 @@
    "name": "necromancer_summon",
    "display_name": "i18n(box_o_vox:data.commands.necromancer_pages.necromancer_summon.display_name)",
    "description": "i18n(box_o_vox:data.commands.necromancer_pages.necromancer_summon.description)",
+   "ordinal": 15,
    "icon": "file(necromancer_page.png)",
    "action": "call",
    "function": "stonehearth:swap_equipment",
    "args": [
       "accessory",
       "necromancer"
-   ]
+   ],
+   "hotkey_action": "fight:summon_necromancer"
 }
