@@ -11,14 +11,14 @@
          "display_name": "i18n(box_o_vox:ui.shell.settings.controls_tab.key_binding_names.craft_cleric)",
          "category": "craft",
          "ordinal": 72,
-         "combo1": "",
+         "combo1": "shift+keyc",
          "combo2": ""
       },
       "craft:necromancer": {
          "display_name": "i18n(box_o_vox:ui.shell.settings.controls_tab.key_binding_names.craft_necromancer)",
          "category": "craft",
          "ordinal": 73,
-         "combo1": "",
+         "combo1": "shift+keyn",
          "combo2": ""
       },
       "fight:move": {
@@ -48,6 +48,34 @@
          "ordinal": 90,
          "combo1": "",
          "combo2": "shift+keyx"
+      },
+      "harvest:box_undeploy": {
+         "display_name": "box_command_tool:ui.keys.undeploy.display_name",
+         "category": "harvest",
+         "ordinal": 200,
+         "combo1": "shift+keyu",
+         "combo2": ""
+      },
+      "harvest:box_redeploy": {
+         "display_name": "box_command_tool:ui.keys.redeploy.display_name",
+         "category": "harvest",
+         "ordinal": 210,
+         "combo1": "shift+keyy",
+         "combo2": ""
+      },
+      "harvest:autoharvest": {
+         "display_name": "i18n(autoharvest_mod:ui.shell.settings.controls_tab.key_binding_names.harvest_autoharvest)",
+         "category": "harvest",
+         "ordinal": 10.9,
+         "combo1": "shift+keyo",
+         "combo2": ""
+      },
+      "harvest:box_autoharvest": {
+         "display_name": "i18n(autoharvest_mod:ui.shell.settings.controls_tab.key_binding_names.harvest_box_autoharvest)",
+         "category": "harvest",
+         "ordinal": 10.91,
+         "combo1": "shift+keyf",
+         "combo2": ""
       }
    }
 }

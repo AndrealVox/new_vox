@@ -2,7 +2,12 @@
     "type": "entity",
     "mixins": "file(peppercorn_bush_ghost.json)",
     "components": {
-        "model_variants": {
+        "stonehearth:commands": {
+         "commands": [
+            "autoharvest_mod:commands:autoharvest_off"
+         ]
+      },
+      "model_variants": {
             "depleted": {
                 "models": [
                "file(peppercorn_bush_empty.qb)"

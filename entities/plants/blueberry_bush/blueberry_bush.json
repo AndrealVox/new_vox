@@ -2,6 +2,11 @@
    "type": "entity",
    "mixins": "file(blueberry_bush_ghost.json)",
    "components": {
+      "stonehearth:commands": {
+         "commands": [
+            "autoharvest_mod:commands:autoharvest_off"
+         ]
+      },
       "model_variants": {
          "depleted": {
             "models": [

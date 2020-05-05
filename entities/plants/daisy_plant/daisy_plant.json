@@ -2,6 +2,11 @@
    "type": "entity",
    "mixins": "file(daisy_plant_ghost.json)",
    "components": {
+      "stonehearth:commands": {
+         "commands": [
+            "autoharvest_mod:commands:autoharvest_off"
+         ]
+      },
       "render_info": {
          "scale": 0.1
       },
