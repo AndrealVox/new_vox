@@ -324,6 +324,14 @@
       "stonehearth_ace:northern_alliance:jobs:index": "box_o_vox:jobs:na_index",
       "stonehearth_ace:rayyas_children:jobs:index": "box_o_vox:jobs:rc_index",
 
+      "stonehearth:resources:coal:lump_of_coal": "file(entities/resources/coal/lump_of_coal)",
+      "stonehearth:resources:wood:acacia_log": "file(entities/resources/wood/log.json)",
+      "stonehearth:resources:wood:cactus_log": "file(entities/resources/wood/log.json)",
+      "stonehearth:resources:wood:juniper_log": "file(entities/resources/wood/log.json)",
+      "stonehearth:resources:wood:oak_log": "file(entities/resources/wood/log.json)",
+      "stonehearth:resources:wood:palm_log": "file(entities/resources/wood/log.json)",
+      "stonehearth:resources:wood:pine_log": "file(entities/resources/wood/log.json)",
+
       "stonehearth/jobs/blacksmith/recipes/recipes.json": "box_o_vox:jobs:recipes:blacksmith",
       "stonehearth/jobs/carpenter/recipes/recipes.json": "box_o_vox:jobs:recipes:carpenter",
       "stonehearth/jobs/cook/recipes/recipes.json": "box_o_vox/jobs/cook/recipes/recipes_mixin.json",
@@ -368,7 +376,8 @@
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
 
-      "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json"
+      "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",
+      "box_o_vox/jobs/cook/recipes/recipes.json": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json"
 
    },
    "overrides": {
@@ -376,7 +385,8 @@
       "stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
       "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
 
-      "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)"
+      "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)",
+      "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json": "file(jobs/cook/recipes/ace_recipes.json)"
    },
    "controllers": {
       "class:cleric": "file(jobs/cleric/cleric.lua)",

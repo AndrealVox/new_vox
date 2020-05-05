@@ -1,0 +1,17 @@
+{
+   "craftable_recipes": {
+      "animal_feed": {
+         "recipes": {
+            "sheep_feed": {
+               "recipe": "file(ace/sheep_feed_recipe.json)"
+            },
+            "cow_feed": {
+               "recipe": "file(ace/cow_feed_recipe.json)"
+            },
+            "pig_feed": {
+               "recipe": "file(ace/pig_feed_recipe.json)"
+            }
+         }
+      }
+   }
+}

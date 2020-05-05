@@ -9,7 +9,7 @@
    "workshop": "stonehearth:cook:mill",
    "ingredients": [
       {
-         "material": "fiber resource",
+         "material": "thatch resource",
          "count": 4
       }
    ],
