@@ -10,6 +10,5 @@
    "args": [
       "accessory",
       "bone_wolf_big"
-   ],
-   "hotkey_action": "fight:summon_bone_wolf"
+   ]
 }

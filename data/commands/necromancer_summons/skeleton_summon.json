@@ -10,6 +10,5 @@
    "args": [
       "accessory",
       "skeleton"
-   ],
-   "hotkey_action": "fight:summon_skeleton"
+   ]
 }

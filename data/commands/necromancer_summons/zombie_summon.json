@@ -10,6 +10,5 @@
    "args": [
       "accessory",
       "zombie"
-   ],
-   "hotkey_action": "fight:summon_zombie"
+   ]
 }

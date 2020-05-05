@@ -10,6 +10,5 @@
    "args": [
       "accessory",
       "golem"
-   ],
-   "hotkey_action": "fight:summon_golem"
+   ]
 }

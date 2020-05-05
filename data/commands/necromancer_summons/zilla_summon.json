@@ -10,6 +10,5 @@
    "args": [
       "accessory",
       "zilla"
-   ],
-   "hotkey_action": "fight:summon_zilla"
+   ]
 }
