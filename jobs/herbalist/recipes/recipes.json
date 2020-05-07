@@ -13,9 +13,6 @@
       },
       "refinement": {
          "recipes": {
-            "mixintypes": {
-               "marblesprout_drying": "remove"
-            },
             "blueberry_bush_transmute": {
                "recipe": "file(blueberry_bush_transmute_recipe.json)"
             },

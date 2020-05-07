@@ -1,5 +1,13 @@
 {
+   "mixins": "/stonehearth_ace/jobs/mason/recipes/na_recipes.json",
    "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "trapper_knife": {
+               "recipe": "file(trapper_knife_recipe.json)"
+            }
+         }
+      },
       "storage": {
          "recipes": {
             "box_o_vox_crate": {
@@ -71,6 +79,12 @@
       },
       "signage_decoration": {
          "recipes": {
+            "mixintypes": {
+               "shrine_stag": "override"
+            },
+            "shrine_stag": {
+               "recipe": "file(shrine_stag.json)"
+            },
             "boxling_statue": {
                "recipe": "file(boxling_statue_recipe.json)"
             },

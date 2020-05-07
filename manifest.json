@@ -376,8 +376,12 @@
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
 
+      "stonehearth_ace/jobs/shepherd/shepherd_description.json": "box_o_vox/jobs/shepherd/shepherd_description_ace.json",
+      "stonehearth_ace/data/hotkeys.json": "box_o_vox/data/hotkeys_ace.json",
+
       "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",
-      "box_o_vox/jobs/cook/recipes/recipes.json": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json"
+      "box_o_vox/jobs/cook/recipes/recipes.json": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json",
+      "box_o_vox/jobs/mason/recipes/recipes.json": "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json"
 
    },
    "overrides": {
@@ -386,7 +390,8 @@
       "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
 
       "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)",
-      "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json": "file(jobs/cook/recipes/ace_recipes.json)"
+      "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json": "file(jobs/cook/recipes/ace_recipes.json)",
+      "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json": "file(jobs/mason/recipes/recipes_ace.json)"
    },
    "controllers": {
       "class:cleric": "file(jobs/cleric/cleric.lua)",

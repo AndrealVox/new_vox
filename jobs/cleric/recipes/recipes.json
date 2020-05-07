@@ -7,13 +7,18 @@
          "refinement": "remove",
          "decorations": "remove",
          "refinement_seeds": "remove",
-         "refinement_fungi": "remove"
+         "refinement_fungi": "remove",
+         "refinement_ingredients": "remove",
+         "farming_enhancements": "remove",
+         "brewing_ingredients": "remove"
       },
       "tools": {
          "ordinal": 1,
          "recipes": {
             "mixintypes": {
-               "cleric_tome": "remove"
+               "cleric_tome": "remove",
+               "herbalist_beekeeping_hat": "remove",
+               "worker_beekeeping_hat": "remove"
             },
             "paladins_shield": {
                "recipe": "file(paladins_shield_recipe.json)"
