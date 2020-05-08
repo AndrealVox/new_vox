@@ -1,5 +1,5 @@
 {
-   "mixins": "/northern_alliance/jobs/mason/recipes/window_box_violet_recipe.json",
+   "mixins": "/stonehearth/jobs/mason/recipes/window_box_violet_recipe.json",
    "mixintypes": {
       "ingredients": "override"
    },
@@ -9,7 +9,7 @@
          "count": 1
       },
       {
-         "uri": "herb resource",
+         "material": "herb resource",
          "count": 1
       }
    ]

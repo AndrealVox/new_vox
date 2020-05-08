@@ -10,7 +10,11 @@
          }
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 }
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         }
       }
    },
    "entity_data": {
@@ -30,7 +34,7 @@
          "icon": "file(pig_feed.png)",
          "is_item": true,
          "category": "refined",
-         "material_tags": "stockpile_cooking_ingredient animal_feed pig_feed"
+         "material_tags": ["stockpile_cooking_ingredient", "animal_feed", "pig_feed"]
       }
    }
 }

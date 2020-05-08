@@ -34,7 +34,7 @@
          "icon": "file(cow_feed.png)",
          "is_item": true,
          "category": "refined",
-         "material_tags": "stockpile_cooking_ingredient animal_feed cow_feed"
+         "material_tags": ["stockpile_cooking_ingredient", "animal_feed", "cow_feed"]
       },
       "stonehearth:appeal": {
          "appeal": 0

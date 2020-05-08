@@ -52,7 +52,7 @@
          "description": "i18n(stonehearth:jobs.worker.winter_worker_outfit.description)",
          "icon": "file(winter_boxling_outfit.png)",
          "category": "armor",
-         "material_tags": "worker_outfit cloth boxling_made stockpile_equipment"
+         "material_tags":["worker_outfit", "cloth", "boxling_made", "stockpile_equipment"]
       }
    }
 }

@@ -49,7 +49,7 @@
       "stonehearth:catalog": {
          "icon": "file(boxling_outfit_2.png)",
          "category": "armor",
-         "material_tags": "worker_outfit cloth boxling_made stockpile_equipment"
+         "material_tags":["worker_outfit", "cloth", "boxling_made", "stockpile_equipment"]
       }
    }
 }
