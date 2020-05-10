@@ -3,16 +3,13 @@
    "description": "A cover of mist crawls across the landscape, hiding untold mysteries.</li><li>Vision radius is reduced.</li></ul>",
    "icon": "file(enchanted_mist.png)",
    "sky_settings": "box_o_vox:data:weather:sky_settings:enchanted_mist",
+   "controller": "box_o_vox:weather_scripts:enchanted_mist",
    "ambient_sound_key": "foggy",
    "thoughts": [
       "box_o_vox:thoughts:weather:enchanted_mist_positive"
    ],
-   "unsheltered_resistance_buff": "stonehearth:buffs:weather:cold_resist",
-   "unsheltered_debuff": "stonehearth:buffs:weather:cold",
-   "unsheltered_animal_debuff": "stonehearth:buffs:weather:cold:animal",
    "subject_matter": "box_o_vox:data:weather:subjects:enchanted_mist",
-   "vision_multiplier": 0.2,
+   "vision_multiplier": 0.62,
    "hide_cloud_shadows": true,
-   "snow_accumulation_per_minute": 0.0005,
    "is_dark_during_daytime": true
 }

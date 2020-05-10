@@ -1,0 +1,40 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "display_name": "Touched by the mist.",
+   "description": "It feels cold, but somehow welcoming",
+   "icon": "file(hit_by_enchanted_mist_debuff.png)",
+   "duration": "26h",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "diligence": {
+         "multiply": 1.26
+      },
+      "curiosity": {
+         "multiply": 1.62
+      },
+      "inspiration": {
+         "multiply": 1.26
+      },
+      "speed": {
+         "multiply": 1.26
+      },
+      "courage": {
+         "multiply": 1.26
+      },
+      "willpower": {
+         "multiply": 1.26
+      },
+      "compassion": {
+         "multiply": 1.26
+      }
+   },
+   "script": "stonehearth:buff_scripts:periodic_health_modification",
+   "script_info": {
+      "health_change": 0.025,
+      "is_percentage": true,
+      "pulse": "6m",
+      "pulse_immediately": true,
+      "pulse_on_destroy": false
+   }
+}

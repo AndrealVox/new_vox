@@ -10,7 +10,8 @@
       "stonehearth:rabbit": "file(rabbit)",
       "stonehearth/entities/resources/pelt/rabbit_pelt/rabbit_pelt.json": "file(rabbit/rabbit_pelt/rabbit_pelt.json)",
       "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
-      "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index"
+      "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index",
+      "stonehearth:scenarios:static:terrain:ore_vein": "file(scenarios/static/terrain/ore_vein/ore_vein.json)"
    },
    "overrides": {
       "/stonehearth/data/terrain/valley_shapes.json": "file(../terrain/valley_shapes.json)",

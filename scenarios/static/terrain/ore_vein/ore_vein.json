@@ -1,0 +1,15 @@
+{
+   "size": {
+      "width": 176,
+      "length": 176
+   },
+   "data": {
+      "num_veins_min": 4,
+      "num_veins_max": 8,
+      "vein_length_min": 88,
+      "vein_length_max": 144,
+      "vein_radius": 4,
+      "mother_lode_radius_min": 6,
+      "mother_lode_radius_max": 10
+   }
+}

@@ -26,7 +26,7 @@
          "weather": [
             {
                "uri": "stonehearth:weather:sunny",
-               "weight": 10
+               "weight": 4
             },
             {
                "uri": "stonehearth:weather:windy",
@@ -34,7 +34,7 @@
             },
             {
                "uri": "stonehearth:weather:cloudy",
-               "weight": 4
+               "weight": 10
             },
             {
                "uri": "stonehearth:weather:rain",
@@ -54,7 +54,7 @@
             },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 1
+               "weight": 5
             }
          ]
       },
@@ -89,7 +89,7 @@
             },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 1
+               "weight": 5
             }
          ]
       },
@@ -124,7 +124,7 @@
             },
             {
                "uri": "stonehearth:weather:foggy",
-               "weight": 6
+               "weight": 10
             },
             {
                "uri": "stonehearth:weather:lucky",
@@ -132,7 +132,7 @@
             },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 1
+               "weight": 5
             }
          ]
       },
@@ -155,7 +155,7 @@
             },
             {
                "uri": "stonehearth:weather:snow",
-               "weight": 6
+               "weight": 10
             },
             {
                "uri": "stonehearth:weather:snow:sunny",
@@ -171,7 +171,7 @@
             },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 1
+               "weight": 5
             }
          ]
       }

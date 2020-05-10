@@ -16,7 +16,6 @@
       "ai:actions:combat:summon:execute_summon": "file(ai/actions/combat/summon/execute_summon_action.lua)",
       "ai:actions:combat:summon:from_current_location": "file(ai/actions/combat/summon/summon_from_current_location_action.lua)",
       "ai:packs:summoning": "file(ai/packs/summoning_ai_pack.json)",
-
       "banner:cunning": "file(entities/gizmos/na_town_banner_guardian/na_town_banner_guardian.json)",
       "banner:strength": "file(entities/gizmos/na_town_banner_might/na_town_banner_might.json)",
       "banner:vitality": "file(entities/gizmos/na_town_banner_nature/na_town_banner_nature.json)",
@@ -30,9 +29,8 @@
       "buffs:paladin:health_1": "file(jobs/paladin/paladin_buffs/health_1_buff.json)",
       "buffs:paladin:health_2": "file(jobs/paladin/paladin_buffs/health_2_buff.json)",
       "buffs:paladin:taunted_effect": "file(jobs/paladin/paladin_buffs/taunted_effect_buff.json)",
-
+      "buffs:weather:hit_by_enchanted_mist": "file(data/buffs/weather/hit_by_enchanted_mist_debuff.json)",
       "camp_standard": "file(entities/gizmos/camp_standard)",
-
       "data:buffs:necromancer:flame_skull": "file(data/buffs/necromancy/flame_skull_debuff.json)",
       "data:buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
       "data:buffs:summon_timer": "file(data/buffs/necromancy/summon_timer_buff.json)",
@@ -84,19 +82,18 @@
       "data:thoughts": "file(data/happiness/thoughts.json)",
       "data:traits:passion_paladin": "file(data/traits/passion_paladin/passion_paladin_trait.json)",
       "data:traits:wolf_fox_companion": "file(data/traits/wolf_fox_companion/wolf_fox_companion_trait.json)",
-      "data:weather_based_clouds": "file(data/weather/weather_based_clouds.json)",
       "data:weather:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist.json)",
       "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
       "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)",
-
+      "effects:enchanted_mist:head": "file(data/effects/enchanted_mist/enchanted_mist_head.json)",
       "effects:fog": "file(data/effects/fog)",
       "entities:abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
       "entities:armor:necromancer_mask_1": "file(entities/armor/necromancer_mask_1)",
       "entities:armor:necromancer_mask_2": "file(entities/armor/necromancer_mask_2)",
       "entities:armor:paladin_armor": "file(entities/armor/paladin_armor/paladin_armor.json)",
-      "entities:armor:paladins_shield": "file(entities/armor/paladins_shield)",
       "entities:armor:paladin_helmet_1": "file(entities/armor/paladin_helmet_1)",
       "entities:armor:paladin_helmet_2": "file(entities/armor/paladin_helmet_2)",
+      "entities:armor:paladins_shield": "file(entities/armor/paladins_shield)",
       "entities:containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
       "entities:containers:equipment_crate": "file(entities/containers/equipment_crate)",
       "entities:containers:food_crate": "file(entities/containers/food_crate)",
@@ -213,8 +210,8 @@
       "entities:summon:undead:zombie": "file(entities/summon/zombie/zombie.json)",
       "entities:summon:zilla": "file(entities/summon/zilla/zilla_summon.json)",
       "entities:summon:zombie": "file(entities/summon/zombie/zombie_summon.json)",
-      "entities:terrain:ui:salt_rock": "file(entities/terrain/ui/salt_rock)",
       "entities:terrain:ui:clay_mound": "file(entities/terrain/ui/clay_mound)",
+      "entities:terrain:ui:salt_rock": "file(entities/terrain/ui/salt_rock)",
       "entities:tools:boxling_sceptre": "file(entities/tools/boxling_sceptre)",
       "entities:trees:apple:ancient": "file(entities/trees/apple_tree)",
       "entities:trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree)",
@@ -245,22 +242,17 @@
       "entities:weapon:paladin_hammer": "file(entities/weapons/paladin_hammer)",
       "entities:weapon:summon_necromancer_tome": "file(jobs/necromancer/necromancer_tome/summon_necromancer_tome.json)",
       "entities:weapon:undead_wolf_teeth": "file(entities/weapons/undead_wolf_teeth)",
-
+      "jobs:asc_index": "file(jobs/asc_index.json)",
       "jobs:cook": "file(jobs/cook/cook_description.json)",
       "jobs:engineer": "file(jobs/engineer/engineer_description.json)",
-      "jobs:index": "file(jobs/index.json)",
-
-      "jobs:asc_index": "file(jobs/asc_index.json)",
-      "jobs:na_index": "file(jobs/na_index.json)",
-      "jobs:nord_index": "file(jobs/nord_index.json)",
-      "jobs:rc_index": "file(jobs/rc_index.json)",
-
       "jobs:herbalist": "file(jobs/herbalist/herbalist_description.json)",
+      "jobs:index": "file(jobs/index.json)",
       "jobs:mason": "file(jobs/mason/mason_description.json)",
+      "jobs:na_index": "file(jobs/na_index.json)",
       "jobs:necromancer": "file(jobs/necromancer/necromancer_description.json)",
-      "jobs:necromancer:abilities:necromancer_abilities": "file(jobs/necromancer/necromancer_abilities/necromancer_abilities.json)",
       "jobs:necromancer:abilities:default_flame_skull": "file(jobs/necromancer/necromancer_abilities/necromancer_default_flame_skull.json)",
       "jobs:necromancer:abilities:double_flame_skull": "file(jobs/necromancer/necromancer_abilities/necromancer_double_flame_skull.json)",
+      "jobs:necromancer:abilities:necromancer_abilities": "file(jobs/necromancer/necromancer_abilities/necromancer_abilities.json)",
       "jobs:necromancer:pages:bone_wolf_big": "file(jobs/necromancer/pages/bone_wolf_big_page.json)",
       "jobs:necromancer:pages:golem": "file(jobs/necromancer/pages/golem_page.json)",
       "jobs:necromancer:pages:necromancer": "file(jobs/necromancer/pages/necromancer_page.json)",
@@ -274,58 +266,53 @@
       "jobs:necromancer:spells:zilla": "file(jobs/necromancer/pages/zilla_summon_page.json)",
       "jobs:necromancer:spells:zombie": "file(jobs/necromancer/pages/zombie_summon_page.json)",
       "jobs:necromancer:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
+      "jobs:nord_index": "file(jobs/nord_index.json)",
       "jobs:paladin": "file(jobs/paladin/paladin_description.json)",
       "jobs:potter": "file(jobs/potter/potter_description.json)",
-      "jobs:shepherd": "file(jobs/shepherd/shepherd_description.json)",
-      "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
+      "jobs:rc_index": "file(jobs/rc_index.json)",
       "jobs:recipes:blacksmith": "file(jobs/blacksmith/recipes/recipes.json)",
       "jobs:recipes:carpenter": "file(jobs/carpenter/recipes/recipes.json)",
       "jobs:recipes:cook": "file(jobs/cook/recipes/recipes.json)",
       "jobs:recipes:herbalist": "file(jobs/herbalist/recipes/recipes.json)",
       "jobs:recipes:mason": "file(jobs/mason/recipes/recipes.json)",
       "jobs:recipes:weaver": "file(jobs/weaver/recipes/recipes.json)",
+      "jobs:shepherd": "file(jobs/shepherd/shepherd_description.json)",
       "jobs:trapper:trapping_grounds": "file(jobs/trapper/trapping_grounds/trapping_grounds.json)",
       "jobs:weaver": "file(jobs/weaver/weaver_description.json)",
       "jobs:worker": "file(jobs/worker/worker_description.json)",
       "jobs:worker:boxling_outfit": "file(jobs/worker/boxling_outfit)",
       "jobs:worker:boxling_outfit_2": "file(jobs/worker/boxling_outfit_2)",
       "jobs:worker:winter_boxling_outfit": "file(jobs/worker/winter_boxling_outfit)",
-
       "landmark:boxling_mountain": "file(data/models/landmark/boxling_mountain/boxling_mountain.qb)",
       "landmark:boxling_mountain:stamp": "file(entities/landmark/boxling_mountain)",
       "landmark:boxling_mountain_2": "file(data/models/landmark/boxling_mountain_2/boxling_mountain_2.qb)",
       "landmark:boxling_mountain_2:stamp": "file(entities/landmark/boxling_mountain_2/boxling_mountain_2.json)",
       "loot_bag:wolf_fox_default": "file(data/loot_bag/wolf_fox_default.json)",
-
       "mixins:base_human": "file(mixins/base_human)",
       "mixins:plant": "file(mixins/plant)",
       "mixins:summons": "file(mixins/base_summon)",
-
       "paladin:aggro_shout_1": "file(jobs/paladin/paladin_abilities/paladin_aggro_shout_1.json)",
       "paladin:aggro_shout_2": "file(jobs/paladin/paladin_abilities/paladin_aggro_shout_2.json)",
       "paladin:talisman": "file(entities/armor/paladins_shield/shield_talisman.json)",
-
       "resource_constants": "file(data/resource_constants.json)",
       "resources:wolf_fox_pelt": "file(entities/resources/pelt/wolf_fox_pelt/wolf_fox_pelt.json)",
-
       "scenarios:scenario_index": "file(scenarios/scenario_index.json)",
       "server:population:data:kingdoms:boxling": "file(services/server/population/data/boxling_population.json)",
       "server:population:data:kingdoms:summon": "file(services/server/population/data/summon_population.json)",
+      "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
       "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",
-      "startmenu": "file(data/ui/start_menu.json)"
-
+      "startmenu": "file(data/ui/start_menu.json)",
+      "weather:enchanted_mist:mist": "file(data/weather/enchanted_mist/mist.json)"
    },
    "mixintos": {
       "stonehearth/locales/en.json": "file(locales/en_mixin.json)",
       "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
       "stonehearth:data:gm_index": "box_o_vox:data:gm_index",
       "extra_map_options:data:extra_map_options": "box_o_vox:data:extra_map_options",
-
       "nordlingmod:jobs:index": "box_o_vox:jobs:nord_index",
       "stonehearth:jobs:index": "box_o_vox:jobs:asc_index",
       "stonehearth_ace:northern_alliance:jobs:index": "box_o_vox:jobs:na_index",
       "stonehearth_ace:rayyas_children:jobs:index": "box_o_vox:jobs:rc_index",
-
       "stonehearth:resources:coal:lump_of_coal": "file(entities/resources/coal/lump_of_coal)",
       "stonehearth:resources:wood:acacia_log": "file(entities/resources/wood/log.json)",
       "stonehearth:resources:wood:cactus_log": "file(entities/resources/wood/log.json)",
@@ -333,7 +320,6 @@
       "stonehearth:resources:wood:oak_log": "file(entities/resources/wood/log.json)",
       "stonehearth:resources:wood:palm_log": "file(entities/resources/wood/log.json)",
       "stonehearth:resources:wood:pine_log": "file(entities/resources/wood/log.json)",
-
       "stonehearth/jobs/blacksmith/recipes/recipes.json": "box_o_vox:jobs:recipes:blacksmith",
       "stonehearth/jobs/carpenter/recipes/recipes.json": "box_o_vox:jobs:recipes:carpenter",
       "stonehearth/jobs/cook/recipes/recipes.json": "box_o_vox/jobs/cook/recipes/recipes_mixin.json",
@@ -377,29 +363,26 @@
       "stonehearth/entities/crops/turnip_crop/turnip_crop.json": "file(entities/crops/turnip_crop/turnip_crop.json)",
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
-
       "stonehearth_ace/jobs/shepherd/shepherd_description.json": "box_o_vox/jobs/shepherd/shepherd_description_ace.json",
       "stonehearth_ace/data/hotkeys.json": "box_o_vox/data/hotkeys_ace.json",
-
       "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",
       "box_o_vox/jobs/cook/recipes/recipes.json": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json",
       "box_o_vox/jobs/mason/recipes/recipes.json": "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json"
-
    },
    "overrides": {
       "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
       "stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
       "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
-
       "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)",
       "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json": "file(jobs/cook/recipes/ace_recipes.json)",
       "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json": "file(jobs/mason/recipes/recipes_ace.json)"
    },
    "controllers": {
       "class:cleric": "file(jobs/cleric/cleric.lua)",
-      "class:paladin": "file(jobs/paladin/paladin.lua)",
       "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
-      "trait_scripts:paladin": "file(data/traits/passion_paladin/paladin.lua)"
+      "class:paladin": "file(jobs/paladin/paladin.lua)",
+      "trait_scripts:paladin": "file(data/traits/passion_paladin/paladin.lua)",
+      "weather_scripts:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist.lua)"
    },
    "components": {
       "summon": "file(components/summon/summon_component.lua)"

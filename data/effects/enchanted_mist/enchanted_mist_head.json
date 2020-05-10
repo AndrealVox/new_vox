@@ -1,0 +1,44 @@
+{
+   "type": "effect",
+   "tracks": {
+      "head.bits": {
+         "type": "cubemitter",
+         "cubemitter": "file(enchanted_mist.head.bits.cubemitter.json)",
+         "loop": true,
+         "transforms": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "tail.base": {
+         "type": "cubemitter",
+         "cubemitter": "file(enchanted_mist.tail.base.cubemitter.json)",
+         "loop": true,
+         "transforms": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "tail.base_add": {
+         "type": "cubemitter",
+         "cubemitter": "file(enchanted_mist.tail.base_add.cubemitter.json)",
+         "loop": true,
+         "transforms": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      }
+   }
+}
