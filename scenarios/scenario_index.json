@@ -25,27 +25,19 @@
       "categories": {
          "terrain": {
             "density": 6,
-            "priority": 0,
-            "location_type": "surface",
-            "activation_type": "immediate"
+            "priority": 0
          },
          "wildlife": {
             "density": 2,
-            "priority": 0,
-            "location_type": "surface",
-            "activation_type": "revealed"
+            "priority": 0
          },
          "ruins": {
             "density": 0.2,
-            "priority": 0,
-            "location_type": "surface",
-            "activation_type": "immediate"
+            "priority": 0
          },
          "ore": {
             "density": 10,
-            "priority": 0,
-            "location_type": "underground",
-            "activation_type": "immediate"
+            "priority": 0
          }
       }
    },

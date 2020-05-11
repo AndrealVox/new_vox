@@ -16,7 +16,7 @@ local DELAY_BEFORE_DESTROY = '20m'  -- Up to how long it takes particles to disp
 local MOVE_UPDATE_INTERVAL = '30s'
 local STORMICLE_ENTITY = 'box_o_vox:weather:enchanted_mist:mist'
 local MAX_STEP_HEIGHT = 50
-local IMPACT_HEIGHT = 8
+local IMPACT_HEIGHT = 5
 local CROP_DESTROY_CHANCE = 0   -- Per step while colliding. Affected by MOVE_UPDATE_INTERVAL. Lame, but good enough for now.
 
 function SandstormWeather:initialize()
