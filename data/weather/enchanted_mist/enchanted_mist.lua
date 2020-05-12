@@ -190,13 +190,11 @@ function SandstormWeather:_apply_stormicle_damage()
 end
 
 function SandstormWeather:_apply_stormicle_damage_to(item)
-   if stonehearth.game_creation:get_game_mode() ~= 'stonehearth:game_mode:peaceful' then
-      local expendables = item:get_component('stonehearth:expendable_resources')
-      local target_type = radiant.entities.get_entity_data(item, 'stonehearth:target_type')
-      if expendables and expendables:get_max_value('health') and target_type and target_type.target_type == 'mob' then
-         radiant.entities.add_buff(item, 'box_o_vox:buffs:weather:hit_by_enchanted_mist')
-         return
-      end
+   local expendables = item:get_component('stonehearth:expendable_resources')
+   local target_type = radiant.entities.get_entity_data(item, 'stonehearth:target_type')
+   if expendables and expendables:get_max_value('health') and target_type and target_type.target_type == 'mob' then
+      radiant.entities.add_buff(item, 'box_o_vox:buffs:weather:hit_by_enchanted_mist')
+      return
    end
 
    if item:get_component('stonehearth:crop') then
