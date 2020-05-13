@@ -38,9 +38,6 @@
             "winter": "winter"
          }
       },
-      "effect_list": {
-         "default": "box_o_vox:effects:fog"
-      },
       "stonehearth:resource_node": {
          "durability": 3,
          "resource": "box_o_vox:entities:food:lime:lime",

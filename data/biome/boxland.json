@@ -10,7 +10,8 @@
    "story_board_image": "file(images/boxland_story_peaceful.png)",
    "game_mode_images": {
       "stonehearth:game_mode:normal": "file(images/boxland_story_normal.png)",
-      "stonehearth:game_mode:hard": "file(images/boxland_story_hard.png)"
+      "stonehearth:game_mode:hard": "file(images/boxland_story_hard.png)",
+      "stonehearth_ace:game_mode:gentle": "file(images/boxland_story_gentle.png)"
    },
    "mining_loot_table": "file(boxland_mining_loot_table.json)",
    "applied_manifests": {

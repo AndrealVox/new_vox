@@ -213,6 +213,7 @@
       "entities:terrain:ui:clay_mound": "file(entities/terrain/ui/clay_mound)",
       "entities:terrain:ui:salt_rock": "file(entities/terrain/ui/salt_rock)",
       "entities:tools:boxling_sceptre": "file(entities/tools/boxling_sceptre)",
+      "entities:trees:boxland_tree:ancient": "file(entities/trees/boxland_tree)",
       "entities:trees:apple:ancient": "file(entities/trees/apple_tree)",
       "entities:trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree)",
       "entities:trees:apple:medium": "file(entities/trees/apple_tree/medium_apple_tree)",

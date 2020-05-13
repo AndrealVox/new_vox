@@ -398,6 +398,13 @@
                "exclusion_radius": 3
             }
          },
+         "box_o_vox:entities:trees:boxland_tree:ancient": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 12,
+               "exclusion_radius": 20
+            }
+         },
          "box_o_vox:entities:trees:apple:ancient": {
             "placement_type": "dense",
             "parameters": {
@@ -633,6 +640,15 @@
       "trees": {
          "__comment": "tree size variance. anything above 0 will be considered as tree placement, and the size of the tree is determined within the sizes node declared above",
          "sizes": {
+            "box_o_vox:entities:trees:boxland_tree": {
+               "small": 0,
+               "medium": 0,
+               "large": 1,
+               "ancient": {
+                  "__comment": "Percentage of large trees that will be ancient",
+                  "percentage": 100
+               }
+            },
             "box_o_vox:entities:trees:apple": {
                "small": 0,
                "medium": 2,
@@ -673,6 +689,7 @@
          "weights": {
             "plains": {
                "1": {
+                  "box_o_vox:entities:trees:boxland_tree": 4,
                   "box_o_vox:entities:trees:apple": 2,
                   "box_o_vox:entities:trees:banana": 1,
                   "box_o_vox:entities:trees:orange": 2,
