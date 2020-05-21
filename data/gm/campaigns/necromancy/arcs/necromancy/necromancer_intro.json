@@ -122,7 +122,7 @@
                "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.accept.bulletin_message.00)",
                "choices": {
                   "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.accept.choice_000)": {
-                     "out_edge": "necromancer_quest"
+                     "out_edge": "give_book"
                   }
                }
             }

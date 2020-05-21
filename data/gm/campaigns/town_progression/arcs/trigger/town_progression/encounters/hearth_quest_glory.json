@@ -10,7 +10,13 @@
          {
             "type": "give_item",
             "uri": "stonehearth:consumables:healing_tonic:small",
-            "count": 20,
+            "count": 10,
+            "keep_items": true
+         },
+         {
+            "type": "give_material",
+            "material": "prepared_food",
+            "count": 10,
             "keep_items": true
          },
          {

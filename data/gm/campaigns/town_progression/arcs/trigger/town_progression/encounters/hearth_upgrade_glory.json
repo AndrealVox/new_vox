@@ -16,7 +16,7 @@
          "stonehearth:decoration:hearth:glory"
       ],
       "thought": "stonehearth:thoughts:town:progression:settlement",
-      "celebration_duration": "1h30m+10m",
+      "celebration_duration": "30m+10m",
       "has_fireworks": true,
       "dialog": {
          "title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.hearth_upgrade_glory.title)",

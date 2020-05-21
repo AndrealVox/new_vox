@@ -21,7 +21,7 @@
          "northern_alliance:banner:strength"
       ],
       "thought": "stonehearth:thoughts:town:progression:outpost",
-      "celebration_duration": "1h15m+5m",
+      "celebration_duration": "25m+5m",
       "dialog": {
          "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.title)",
          "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.dialog_title)",

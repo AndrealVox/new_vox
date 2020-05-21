@@ -4,9 +4,6 @@
       "trader": {
          "boxling_traders": "file(campaigns/trader/trader_campaign.json)"
       },
-      "hunting": {
-         "boxling_animal_camps": "file(campaigns//hunting/animal_campaign.json)"
-      },
       "town_progression": {
          "boxling_town_progression": "file(campaigns/town_progression/town_progression_campaign.json)"
       },

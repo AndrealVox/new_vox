@@ -114,7 +114,148 @@
                   "dialog_tree_info": {
                      "dialog_nodes": {
                         "msg4": {
-                           "choice_000": "Feverfew seeds! Thanks!"
+                           "choice_000": "Feverfew seeds! Thanks!",
+                           "bulletin_title": "Darza points to the hearth",
+                           "dialog_title": "Darza points to the hearth",
+                           "bulletin_message": {
+                              "00": "\"Such GLORIOUS wonder your people have been able to in achieve in such short time. What would you wish to pass on to the rest of the world? That you are the finest of all craftsfolk? That even in the harshest of conditions you folk can build an empire? That you army is the mightest in the land, able to conquer behemoths?\"<br><br>She tilts her head. \"I look forward to your decision. In the meantime… another gift, to remind you of spring.\" She places what appear to be seeds by the banner. "
+                           }
+                        },
+                        "msg1": {
+                           "bulletin_title": "Darza returns",
+                           "dialog_title": "The Boxling High",
+                           "bulletin_message": {
+                              "00": " Darza appears again at the edge of camp. <br><br><p align='right'><font size=-6 color='#cccccc'>How long has she been standing there, observing?</font></p>"
+                           }
+                        },
+                        "msg2": {
+                           "bulletin_title": "Darza, Boxling High",
+                           "dialog_title": "Darza, Boxling High",
+                           "bulletin_message": {
+                              "00": "Darza gestures at the camp, smiling with approval. \"I have come again to hear of your stories,\" she indicates. She sits by the fire, produces her book and quill, and waits."
+                           }
+                        },
+                        "msg3": {
+                           "bulletin_title": "Darza stands",
+                           "dialog_title": "Darza stands",
+                           "bulletin_message": {
+                              "00": "Darza meticulously notes everyone’s adventures in runes on the pages, and again commits them to the flames. \"YYafr odytc ao duqmz uw qrasulq. Saal, hafr myirzm sudd vris azmyrw, vorv wapyvih, uz zaa sudd ky xe wzir ul zmy talwzyddizual ao afr eyaedy.\" again with the ancient language that no one can understand.  "
+                           }
+                        }
+                     }
+                  }
+               },
+               "town_founding_explanation": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "open_letter": {
+                           "bulletin_title": "A Familiar Face",
+                           "dialog_title": "A happy friend",
+                           "bulletin_message": {
+                              "00": "A woman approaches camp. She wears the purple robes of an Boxling High. <br><br><p align='right'><font size=-6 color='#cccccc'>Nobody saw her following, but she must have been for a great deal of time.</font></p>"
+                           },
+                           "choice_000": "Hello there, old friend!"
+                        },
+                        "read_letter": {
+                           "bulletin_title": "Darza, Boxling High",
+                           "dialog_title": "Darza, Boxling High",
+                           "bulletin_message": {
+                              "00": "\"Hello there. You must be the nomads that left us some time ago, yes?\" she questions us as her eyes dart from each of our faces. She gestures at her book. \"I train.\" Then she taps the skull-shaped emblem on her robes. \"For the knowledge of Vox!\" as her eyes look to the sky."
+                           }
+                        },
+                        "read_letter2": {
+                           "bulletin_message": {
+                              "00": "She speaks as much with her hands and eyes as with her voice: \"I am glad you have come to a stop to settle. Now that I know you are here, I will keep tabs on you.\" <p>She steps over to the banner and touches its blank center. \"First, though, you must choose your symbol. I know you're nomads, but for now... You should build this area up. Make it a place you can call home. I know you could do great things here.\"</p>"
+                           }
+                        },
+                        "read_letter3": {
+                           "bulletin_title": "Darza, Boxling High",
+                           "dialog_title": "Darza, Boxling High",
+                           "bulletin_message": {
+                              "00": "Suddenly she starts chanting and the volume of her voice is incredible, \"Il zmy lipy ao sizyr sy tidd feal haf za siwm ajyr fw suzm idd hafr kdywwulqw\" which roughly translate from ancient Boxling to, \"In the name of water we call upon you to wash over us with all your blessings\" she glares at us to make our decision.</p> "
+                           }
+                        }
+                     }
+                  }
+               },
+               "town_founding_food_donation": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "dialog_title": "Darza pulls out a small bag.",
+                           "bulletin_message": {
+                              "00": "\"Thank you,\" Darza whispers as she gestures, \"for your hospitality, and presence.\" <p>She places a small bag beside the banner. On its side is an emblem of a skull. \"I'm not like the other Boxling High,\" she says. \"For you see, I'm searching for Andreal Vox. He left us a very long time ago after some of the other Boxling High turned on him. I just know he's still alive... out there, somewhere.\" again she looks to the sky. \"Anyway, take these. They will assist you on your path should you find yourself in search of Vox as well.</p><p>The bag contains:</p>"
+                           }
+                        }
+                     }
+                  }
+               },
+               "bird_departs": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_title": "Darza prepares to depart",
+                           "bulletin_message": {
+                              "00": "Darza is now standing by the edge of the fire. She's written the town name and a brief account of its inhabitants in the blank pages of her book. Methodically, she commits it to the flames, which burn blue for a moment.<p>\"[str(i18n_data.town_name)]\" she murmurs. \"Bh sizyrw suwvap vorv flvyr zmy siztmofd yhyw ao zmy wzirw ikajy, ky tappuzzyv za zmy vorlidw ao vag.\" more ancient Boxling. </p>"
+                           }
+                        },
+                        "msg2": {
+                           "choice_000": "Travel under the watchful eyes of the sky."
+                        }
+                     }
+                  }
+               },
+               "hearth_choice_explanation": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "intro": {
+                           "bulletin_title": "Darza returns yet again",
+                           "bulletin_message": {
+                              "00": "Darza appears at the edge of camp, smiling, arms spread to encompass all that has been built since her last visit. \"Bh sizyr'w qrity,\" she whispers to herself. \"May I hear of your progress.\" "
+                           }
+                        },
+                        "intro2": {
+                           "bulletin_title": "Darza, Boxling High",
+                           "dialog_title": "Darza, Boxling High",
+                           "bulletin_message": {
+                              "00": "She taps the skull on her robe. \"Vox would be happy with how you've turned out.\" She bends, and touches the stones of your hearth. \"Now is the time to choose the beacon that will represent the future of your people.\" "
+                           }
+                        },
+                        "intro3": {
+                           "bulletin_title": "Darza, Boxling High",
+                           "dialog_title": "Darza, Boxling High",
+                           "bulletin_message": {
+                              "00": "Her voice takes on a gravely cadence: \"Vox believed our powers came from within, that the hearths would be a beacon of our strengths and acomplishments.\" <br><br>She waits for the appropriate response."
+                           }
+                        },
+                        "cheer": {
+                           "bulletin_message": {
+                              "00": "\"Vox believed as you, that we could live on our own in even the harshest of conditions. The Hearth of Cheer draws together all who seek to create a vast empire against all odds.\" "
+                           },
+                           "bulletin_title": "Against all odds",
+                           "dialog_title": "Against all odds",
+                           "choice_000": "Power of Independence"
+                        },
+                        "makers": {
+                           "bulletin_message": {
+                              "00": "\"A Hearth of the Makers is for those who believe that a house is a place of creation, and that the things we build are the best of all.\" "
+                           },
+                           "choice_000": "Pride of Craft",
+                           "bulletin_title": "To be the best",
+                           "dialog_title": "To be the best"
+                        },
+                        "glory": {
+                           "choice_000": "Glory in Strength",
+                           "bulletin_message": {
+                              "00": "\"At last, the Hearth of Glory reminds us that we survive in the farthest reaches of Boxland and that we must hone our bodies and minds to their utmost, for anything less is to fall prematurely to the behemoths.\"  "
+                           },
+                           "dialog_title": "The mighty stand",
+                           "bulletin_title": "The mighty stand"
+                        },
+                        "final": {
+                           "bulletin_message": {
+                              "00": "Darza concludes: \"Cheer, Makers, and Glory, the choice of your path lights the way for all who follow you. In Vox's wisdom and under the auspices of Firnn, Knut, and Siv…\" "
+                           }
                         }
                      }
                   }

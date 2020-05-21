@@ -7,6 +7,7 @@
       "necromancer_quest": "file(necromancy/necromancer_quest.json)",
       "promote_to_necromancer": "file(necromancy/promote_to_necromancer.json)",
       "necromancer_outro": "file(necromancy/necromancer_outro.json)",
-      "wait_for_cleric": "file(necromancy/wait_for_cleric.json)"
+      "wait_for_cleric": "file(necromancy/wait_for_cleric.json)",
+      "give_book": "file(necromancy/give_book.json)"
    }
 }

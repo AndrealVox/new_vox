@@ -16,7 +16,7 @@
          "northern_alliance:decoration:hearth:ice"
       ],
       "thought": "stonehearth:thoughts:town:progression:settlement",
-      "celebration_duration": "1h30m+10m",
+      "celebration_duration": "30m+10m",
       "has_fireworks": true,
       "dialog": {
          "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.hearth_upgrade.title)",
