@@ -106,51 +106,8 @@
                "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.offer.bulletin_message.00)",
                "choices": {
                   "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.offer.choice_000)": {
-                     "next_node": "accept"
-                  },
-                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.offer.choice_001)": {
-                     "next_node": "reject"
-                  }
-               }
-            }
-         },
-         "accept": {
-            "bulletin": {
-               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
-               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
-               "portrait": "file(necro-vox.png)",
-               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.accept.bulletin_message.00)",
-               "choices": {
-                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.accept.choice_000)": {
                      "out_edge": "give_book"
                   }
-               }
-            }
-         },
-         "reject": {
-            "bulletin": {
-               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
-               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
-               "portrait": "file(necro-vox.png)",
-               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.reject.bulletin_message.00)",
-               "choices": {
-                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.reject.choice_001)": {
-                     "next_node": "accept"
-                  },
-                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.reject.choice_000)": {
-                     "next_node": "reject2"
-                  }
-               }
-            }
-         },
-         "reject2": {
-            "bulletin": {
-               "title": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
-               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.necromancer.persons.vox.title)",
-               "portrait": "file(necro-vox.png)",
-               "message": "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.reject2.bulletin_message.00)",
-               "choices": {
-                  "i18n(box_o_vox:data.gm.campaigns.encounters.necromancer.necromancer_intro.dialog_tree_info.dialog_nodes.reject2.choice_000)": {}
                }
             }
          }

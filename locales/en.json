@@ -306,9 +306,9 @@
                            },
                            "offer": {
                               "bulletin_message": {
-                                 "00": "\"Anyway, what say you - would you like to send one of your esteemed Clerics with me to learn the ways of Necromancy? I estimate it will take at least a week to grant them a basic understanding.\"<br><br>\"This may be your only chance to do so - I feel my time in this world is nearing the climax.\""
+                                 "00": "\"Anyway, what say you - would you like to for one of your esteemed Clerics to learn the ways of Necromancy? I will leave this book here for you, perhaps it'll guide you into something of great power.\""
                               },
-                              "choice_000": "Of course! Your ways will not be forgotten.",
+                              "choice_000": "Thanks! We'll do our best.",
                               "choice_001": "This all sounds a bit too scary for me."
                            },
                            "reject": {
