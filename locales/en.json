@@ -269,7 +269,7 @@
                            "msg1": {
                               "bulletin_title": "Cryptic Knowledge",
                               "bulletin_message": {
-                                 "00": "\"Hello minions- I mean friends, friends! It has been quite some time since I've seen another living soul, haha. I'd like to offer you a precious gift.\"<br><br>\"I would like to bring one of your Clerics into my lair for a time, to teach them the crytpic art known as Necromancy.\"<br><br>\"Would you like to hear of my knowledge, the ancient power of harnessing the undead?\""
+                                 "00": "\"Hello friends! It has been quite some time since I've seen another living soul, haha. I'd like to offer you a precious gift.\"<br><br>\"I would like to teach you the crytpic art known as Necromancy.\"<br><br>\"Would you like to hear of my knowledge, the ancient power of harnessing the undead?\""
                               },
                               "choice_001": "Please, tell us",
                               "choice_000": "[Skip Story] Know all about it"
