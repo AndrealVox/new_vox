@@ -1,14 +1,16 @@
 {
-   "components": {
-      "stonehearth:trapping_grounds": {
-         "trappable_animal_weights": {
-            "critters": {
-               "stonehearth:rabbit": 400,
-               "stonehearth:racoon": 0,
-               "stonehearth:red_fox_wolf": 0,
-               "stonehearth:squirrel": 0
+    "components": {
+        "stonehearth:trapping_grounds": {
+            "trappable_animal_weights": {
+                "critters": {
+                    "mixintypes": {
+                        "stonehearth:racoon": "remove",
+                        "stonehearth:red_fox_wolf": "remove",
+                        "stonehearth:squirrel": "remove"
+                    },
+                    "stonehearth:rabbit": 400
+                }
             }
-         }
-      }
-   }
+        }
+    }
 }

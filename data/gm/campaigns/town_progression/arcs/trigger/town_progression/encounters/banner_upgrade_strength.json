@@ -46,7 +46,7 @@
       "npcs": [
          {
             "faction": "human_npcs",
-            "role": "herald_ronia",
+            "role": "herald_darza",
             "gender": "female"
          }
       ]

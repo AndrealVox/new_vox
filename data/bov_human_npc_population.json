@@ -1,0 +1,11 @@
+{
+   "roles": {
+      "herald_darza": {
+         "female": {
+            "uri": [
+               "box_o_vox:npc:herald:darza"
+            ]
+         }
+      }
+   }
+}

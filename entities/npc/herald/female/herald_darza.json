@@ -1,0 +1,23 @@
+{
+    "type": "entity",
+    "mixins": "stonehearth:mixins:base_human_npc",
+    "components": {
+        "render_info": {
+            "animation_table": "/stonehearth/data/rigs/entities/humans/skeletons/female.json"
+        },
+        "model_variants": {
+            "default": {
+                "models": [
+               "file(herald_darza.qb)"
+            ]
+            }
+        }
+    },
+    "entity_data": {
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.npc.herald.female.herald_darza.display_name)",
+            "description": "i18n(box_o_vox:entities.npc.herald.female.herald_darza.description)",
+            "icon": "file(herald_darza.png)"
+        }
+    }
+}

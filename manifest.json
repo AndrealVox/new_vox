@@ -292,6 +292,7 @@
       "mixins:base_human": "file(mixins/base_human)",
       "mixins:plant": "file(mixins/plant)",
       "mixins:summons": "file(mixins/base_summon)",
+      "npc:herald:darza": "file(entities/npc/herald/female/herald_darza.json)",
       "paladin:aggro_shout_1": "file(jobs/paladin/paladin_abilities/paladin_aggro_shout_1.json)",
       "paladin:aggro_shout_2": "file(jobs/paladin/paladin_abilities/paladin_aggro_shout_2.json)",
       "paladin:talisman": "file(entities/armor/paladins_shield/shield_talisman.json)",
@@ -366,6 +367,8 @@
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
       "stonehearth_ace/jobs/shepherd/shepherd_description.json": "box_o_vox/jobs/shepherd/shepherd_description_ace.json",
       "stonehearth_ace/data/hotkeys.json": "box_o_vox/data/hotkeys_ace.json",
+      "stonehearth:kingdoms:human_npcs": "file(data/bov_human_npc_population.json)",
+       
       "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",
       "box_o_vox/jobs/cook/recipes/recipes.json": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json",
       "box_o_vox/jobs/mason/recipes/recipes.json": "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json"
