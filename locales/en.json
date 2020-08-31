@@ -118,7 +118,7 @@
                            "bulletin_title": "Darza points to the hearth",
                            "dialog_title": "Darza points to the hearth",
                            "bulletin_message": {
-                              "00": "\"Such GLORIOUS wonder your people have been able to in achieve in such short time. What would you wish to pass on to the rest of the world? That you are the finest of all craftsfolk? That even in the harshest of conditions you folk can build an empire? That you army is the mightest in the land, able to conquer behemoths?\"<br><br>She tilts her head. \"I look forward to your decision. In the meantime… another gift, to remind you of spring.\" She places what appear to be seeds by the banner. "
+                              "00": "\"Such GLORIOUS wonder your people have been able to achieve in such short time. What would you wish to pass on to the rest of the world? That you are the finest of all craftsfolk? That even in the harshest of conditions you folks can build an empire? That your army is the mightest in the land, able to conquer behemoths?\"<br><br>She tilts her head. \"I look forward to your decision. In the meantime… another gift, to remind you of spring.\" She places what appear to be seeds by the banner. "
                            }
                         },
                         "msg1": {
@@ -139,8 +139,9 @@
                            "bulletin_title": "Darza stands",
                            "dialog_title": "Darza stands",
                            "bulletin_message": {
-                              "00": "Darza meticulously notes everyone’s adventures in runes on the pages, and again commits them to the flames. \"YYafr odytc ao duqmz uw qrasulq. Saal, hafr myirzm sudd vris azmyrw, vorv wapyvih, uz zaa sudd ky xe wzir ul zmy talwzyddizual ao afr eyaedy.\" again with the ancient language that no one can understand.  "
-                           }
+                              "00": "Darza meticulously notes everyone’s adventures in runes on the pages, and again speaks them to the sky. \"YYafr odytc ao duqmz uw qrasulq. Saal, hafr myirzm sudd vris azmyrw, vorv wapyvih, uz zaa sudd ky xe wzir ul zmy talwzyddizual ao afr eyaedy.\" again with the ancient language that no one can understand.  "
+                           },
+                           "choice_000": "Are you okay?"
                         }
                      }
                   }
@@ -160,7 +161,7 @@
                            "bulletin_title": "Darza, Boxling High",
                            "dialog_title": "Darza, Boxling High",
                            "bulletin_message": {
-                              "00": "\"Hello there. You must be the nomads that left us some time ago, yes?\" she questions us as her eyes dart from each of our faces. She gestures at her book. \"I train.\" Then she taps the skull-shaped emblem on her robes. \"For the knowledge of Vox!\" as her eyes look to the sky."
+                              "00": "\"Hello there. You must be the adventurers that left us some time ago, yes?\" she questions us as her eyes dart from each of our faces. She gestures at her book. \"I train.\" Then she taps the skull-shaped emblem on her robes. \"For the knowledge of Vox!\" as her eyes look to the sky."
                            }
                         },
                         "read_letter2": {
@@ -172,7 +173,7 @@
                            "bulletin_title": "Darza, Boxling High",
                            "dialog_title": "Darza, Boxling High",
                            "bulletin_message": {
-                              "00": "Suddenly she starts chanting and the volume of her voice is incredible, \"Il zmy lipy ao sizyr sy tidd feal haf za siwm ajyr fw suzm idd hafr kdywwulqw\" which roughly translate from ancient Boxling to, \"In the name of water we call upon you to wash over us with all your blessings\" she glares at us to make our decision.</p> "
+                              "00": "Suddenly she starts chanting and the volume of her voice is incredible, \"Il zmy lipy ao sizyr sy tidd feal haf za siwm ajyr fw suzm idd hafr kdywwulqw\" which roughly translates from ancient Boxling to, \"In the name of Vox we call upon you to wash over us with all your blessings\" she glares at us to make our decision.</p> "
                            }
                         }
                      }
@@ -219,14 +220,16 @@
                            "dialog_title": "Darza, Boxling High",
                            "bulletin_message": {
                               "00": "She taps the skull on her robe. \"Vox would be happy with how you've turned out.\" She bends, and touches the stones of your hearth. \"Now is the time to choose the beacon that will represent the future of your people.\" "
-                           }
+                           },
+                           "choice_000": "As Vox would always recite..."
                         },
                         "intro3": {
                            "bulletin_title": "Darza, Boxling High",
                            "dialog_title": "Darza, Boxling High",
                            "bulletin_message": {
                               "00": "Her voice takes on a gravely cadence: \"Vox believed our powers came from within, that the hearths would be a beacon of our strengths and acomplishments.\" <br><br>She waits for the appropriate response."
-                           }
+                           },
+                           "choice_000": "Against all odds"
                         },
                         "cheer": {
                            "bulletin_message": {
@@ -234,27 +237,170 @@
                            },
                            "bulletin_title": "Against all odds",
                            "dialog_title": "Against all odds",
-                           "choice_000": "Power of Independence"
+                           "choice_000": "To be the best"
                         },
                         "makers": {
                            "bulletin_message": {
-                              "00": "\"A Hearth of the Makers is for those who believe that a house is a place of creation, and that the things we build are the best of all.\" "
+                              "00": "\"A Hearth of the Makers is for those who believe that a house is a place of creation, and through those creations we prove to be the best.\" "
                            },
-                           "choice_000": "Pride of Craft",
+                           "choice_000": "The mighty last forever",
                            "bulletin_title": "To be the best",
                            "dialog_title": "To be the best"
                         },
                         "glory": {
-                           "choice_000": "Glory in Strength",
+                           "choice_000": "A choice",
                            "bulletin_message": {
-                              "00": "\"At last, the Hearth of Glory reminds us that we survive in the farthest reaches of Boxland and that we must hone our bodies and minds to their utmost, for anything less is to fall prematurely to the behemoths.\"  "
+                              "00": "\"At last, the Hearth of Glory reminds us that we survive in the farthest reaches of Boxland and that we must hone our bodies and minds to their utmost. Because we Boxling are mighty, and the mighty last forever.\"  "
                            },
-                           "dialog_title": "The mighty stand",
-                           "bulletin_title": "The mighty stand"
+                           "dialog_title": "The mighty last forever",
+                           "bulletin_title": "The mighty last forever"
                         },
                         "final": {
                            "bulletin_message": {
                               "00": "Darza concludes: \"Cheer, Makers, and Glory, the choice of your path lights the way for all who follow you. In Vox's wisdom and under the auspices of Firnn, Knut, and Siv…\" "
+                           }
+                        }
+                     }
+                  }
+               },
+               "shrine_foreshadow_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_title": "Darza returns yet again...",
+                           "bulletin_message": {
+                              "00": "She offers a tiny smile as she cocks her head. \"Surprise?\" she says jokingly."
+                           }
+                        },
+                        "msg2": {
+                           "bulletin_title": "Darza admires the town ",
+                           "dialog_title": "Darza admires the town ",
+                           "bulletin_message": {
+                              "00": "She gestures at the newest additions to the town and nods in approval. \"By this time I'm well aware you've been visited by Vox. I suppose he and I may never encounter one another.\" <br><br>She settles by the fire and produces her book and quill again. With a nod, she invites those around her to recount their recent adventures. "
+                           }
+                        },
+                        "msg3": {
+                           "bulletin_title": "Darza writes",
+                           "dialog_title": "Darza writes",
+                           "bulletin_message": {
+                              "00": "As Darza records the tales and speaks them to the sky, she grows thoughtful. In the end, she nods to herself, and produces, from her pouch, three smooth stones.<br><br>They each bear a familiar scratched marking: One is the constellation of Firnn the Stag, often associated with bounty, and summer. One is the constellation of Siv the Wolf, who ensures each hunt contributes to the cycle of the world. The last is the tiny three stars of Knut the Rabbit, who spins the wheel of fortune. "
+                           }
+                        },
+                        "msg4": {
+                           "bulletin_title": "Darza kneels",
+                           "dialog_title": "Darza kneels"
+                        }
+                     }
+                  }
+               },
+               "shrine_choice_explanation": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "intro": {
+                           "bulletin_title": "Darza Appears Once More",
+                           "dialog_title": "Darza Appears Once More",
+                           "bulletin_message": {
+                              "00": "Darza shakes her head fondly. \"Did you expect the stars to come visit you on earth? They are spirits, not beasts. They are Valin's allegories, committed to the heavens so we do not forget his teachings. He was Vox's idol.\""
+                           }
+                        },
+                        "intro2": {
+                           "bulletin_title": "Darza looks towards the hearth",
+                           "dialog_title": "Darza looks towards the hearth",
+                           "bulletin_message": {
+                              "00": "\"It is time to create a monument, and ask for the blessings of your patron spirit. Then I will record your settlement as a star in the constellation of the Northern Alliance, and your stories will be safe in their Library. Have you made your choice?\" "
+                           }
+                        },
+                        "clergy": {
+                           "bulletin_message": {
+                              "00": "Darza dips again into a poetic cadence: \"Firnn the Stag, from whose hooves fall the favors of summer: bless this town with prosperity, and the wisdom to live in harmony with the cycles of the land.\" <br><i>(Building a Font of Summer will grant all your townsfolk a +1 boost to the mind, body, and spirit attributes.)</i>"
+                           }
+                        },
+                        "makers": {
+                           "bulletin_message": {
+                              "00": "Darza continues: \"Knut the Swift, who turns the wheel of fortune: bless this town with a moment of great prosperity, and the foresight to store favor against the reversals to come. <br><i>(Building a Font of Fortune will grant the ability to create masterwork quality furniture and decorations, which are considerably better than those of excellent quality.) </i>"
+                           }
+                        },
+                        "military": {
+                           "bulletin_message": {
+                              "00": "Darza finishes: \"And Siv the Wolf, whose breath steams the icy winter as he chases fleeting prey: bless this town with resilience, so that we stand against the cold in our time of strength, and accept our return to the earth when that time is over.\"<br><i>(Building a Font of Fire will grant you additional strength in combat and a +2 to the body attribute.)</i> "
+                           }
+                        },
+                        "summary": {
+                           "bulletin_title": "Darza concludes: ",
+                           "dialog_title": "Darza concludes: "
+                        }
+                     }
+                  }
+               },
+               "guild_dialog_1": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "Darza kneels before the rabbit and cups her hands so it might hop into them. She walks it slowly towards the celebration. The rabbit's ears swivel in every direction, taking in the festivities. "
+                           }
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "The rabbit turns to sniff in the direction of the fire, and amidst the embers a vision appears: a constellation of towns emblazoned across a map, and dozens, hundreds, thousands of stories collected of their learnings. Visions of finely crafted goods waft through the smoke, creating kinship between those who have created, and those who will learn from their advancements and create anew. Then the creature leaps from Darza's hands, and into the crowd. "
+                           }
+                        }
+                     }
+                  }
+               },
+               "valor_dialog_1": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "Darza falls into a hunter's crouch and bares her teeth. The wolf bares its fangs back. Then as one, they both raise their chins, exposing their throats. Darza's hand touches the wolf's ruff, and it sniffs once at the scars on her neck. "
+                           }
+                        }
+                     }
+                  }
+               },
+               "deity_dialog_1": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "Darza approaches the stag with a low bow, so low her hair scrapes the ground, and gestures it towards the hearth. The music seems to entice it closer. "
+                           }
+                        }
+                     }
+                  }
+               },
+               "post_shrine_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_title": "Darza Makes to Leave",
+                           "dialog_title": "Darza, Boxling High",
+                           "bulletin_message": {
+                              "00": "Darza watches as the party quiets. \"That was well done,\" she whispers. \"Your township is officially entered into the annals of The Library, and the spirits grace your steps.\" "
+                           }
+                        },
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "Darza considers the fountain. \"What learnings will you pursue next? The other monuments would look good beside this one, though they will not have the power to call the constellations.\" She smiles. \"Your town has all it needs, does it not?\"  "
+                           }
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "Darza touches her breast. \"You warm my heart.\" She takes a step backwards, and makes an all-encompassing gesture of farewell. Her eyes blaze, a reminder that the Scouts of Valin travel forever away from civilization, to places even more wild and dangerous than these.<br><br>\"As Valin teaches, each precious moment must be held dear against the inevitable change of the weather.\" "
+                           },
+                           "choice_000": "Farewell, Darza! Follow the stars!"
+                        }
+                     }
+                  }
+               },
+               "reembark_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_title": " Darza, One More Time",
+                           "bulletin_message": {
+                              "00": "When Darza appears for the last time, it is with a purple banner in her hands. It is a twin to the one this town embarked with, so long ago. She tilts her head with a smile and gestures at the horizon. She doesn't need to speak. Hearth is waiting. </p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
                            }
                         }
                      }

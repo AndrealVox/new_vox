@@ -12,12 +12,12 @@
       "nodes": {
          "msg1": {
             "bulletin": {
-               "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "title": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
                "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
                "portrait": "file(images/herald_darza.png)",
-               "message": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)",
                "choices": {
-                  "northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.choice_000": {
+                  "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.choice_000)": {
                      "next_node": "msg2"
                   }
                }
@@ -25,12 +25,12 @@
          },
          "msg2": {
             "bulletin": {
-               "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg2.bulletin_title)",
-               "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg2.dialog_title)",
+               "title": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg2.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg2.dialog_title)",
                "portrait": "file(images/herald_darza.png)",
-               "message": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg2.bulletin_message.00)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg2.bulletin_message.00)",
                "choices": {
-                  "northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg2.choice_000": {
+                  "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg2.choice_000)": {
                      "next_node": "msg3"
                   }
                }
@@ -38,12 +38,12 @@
          },
          "msg3": {
             "bulletin": {
-               "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg3.bulletin_title)",
-               "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg3.dialog_title)",
+               "title": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg3.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg3.dialog_title)",
                "portrait": "file(images/herald_darza.png)",
-               "message": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg3.bulletin_message.00)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg3.bulletin_message.00)",
                "choices": {
-                  "northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg3.choice_000": {
+                  "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg3.choice_000)": {
                      "next_node": "msg4"
                   }
                }
@@ -51,12 +51,12 @@
          },
          "msg4": {
             "bulletin": {
-               "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg4.bulletin_title)",
-               "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg4.dialog_title)",
+               "title": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg4.bulletin_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg4.dialog_title)",
                "portrait": "file(images/herald_darza.png)",
                "message": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg4.bulletin_message.00)",
                "choices": {
-                  "northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg4.choice_000": {
+                  "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg4.choice_000)": {
                      "out_edge": "delay_before_shrine_choice"
                   }
                }

@@ -17,7 +17,7 @@
                "portrait": "file(images/herald_knut.png)",
                "message": "i18n(northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)",
                "choices": {
-                  "northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg1.choice_000": {
+                  "i18n(northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg1.choice_000)": {
                      "next_node": "msg2"
                   }
                }
@@ -28,9 +28,9 @@
                "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg2.bulletin_title)",
                "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg2.dialog_title)",
                "portrait": "file(images/herald_knut.png)",
-               "message": "i18n(northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg2.bulletin_message.00)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg2.bulletin_message.00)",
                "choices": {
-                  "northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg2.choice_000": {
+                  "i18n(northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg2.choice_000)": {
                      "next_node": "msg3"
                   }
                }
@@ -41,9 +41,9 @@
                "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg3.bulletin_title)",
                "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg3.dialog_title)",
                "portrait": "file(images/herald_knut.png)",
-               "message": "i18n(northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg3.bulletin_message.00)",
+               "message": "i18n(box_o_vox:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg3.bulletin_message.00)",
                "choices": {
-                  "northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg3.choice_000": {}
+                  "i18n(northern_alliance:data.gm.campaigns.town_progression.guild_dialog_1.dialog_tree_info.dialog_nodes.msg3.choice_000)": {}
                }
             }
          }

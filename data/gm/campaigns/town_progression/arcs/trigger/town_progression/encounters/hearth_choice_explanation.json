@@ -19,9 +19,6 @@
                "choices": {
                   "i18n(northern_alliance:data.gm.campaigns.town_progression.hearth_choice_explanation.dialog_tree_info.dialog_nodes.intro.choice_000)": {
                      "next_node": "intro2"
-                  },
-                  "i18n(northern_alliance:data.gm.campaigns.town_progression.hearth_choice_explanation.dialog_tree_info.dialog_nodes.intro.choice_001)": {
-                     "out_edge": "hearth_choice_generator"
                   }
                }
             }
@@ -33,7 +30,7 @@
                "portrait": "file(images/herald_darza.png)",
                "message": "i18n(box_o_vox:data.gm.campaigns.town_progression.hearth_choice_explanation.dialog_tree_info.dialog_nodes.intro2.bulletin_message.00)",
                "choices": {
-                  "i18n(northern_alliance:data.gm.campaigns.town_progression.hearth_choice_explanation.dialog_tree_info.dialog_nodes.intro2.choice_000)": {
+                  "i18n(box_o_vox:data.gm.campaigns.town_progression.hearth_choice_explanation.dialog_tree_info.dialog_nodes.intro2.choice_000)": {
                      "next_node": "intro3"
                   }
                }
@@ -46,8 +43,11 @@
                "portrait": "file(images/herald_darza.png)",
                "message": "i18n(box_o_vox:data.gm.campaigns.town_progression.hearth_choice_explanation.dialog_tree_info.dialog_nodes.intro3.bulletin_message.00)",
                "choices": {
-                  "i18n(northern_alliance:data.gm.campaigns.town_progression.hearth_choice_explanation.dialog_tree_info.dialog_nodes.intro3.choice_000)": {
+                  "i18n(box_o_vox:data.gm.campaigns.town_progression.hearth_choice_explanation.dialog_tree_info.dialog_nodes.intro3.choice_000)": {
                      "next_node": "cheer"
+                  },
+                  "i18n(northern_alliance:data.gm.campaigns.town_progression.hearth_choice_explanation.dialog_tree_info.dialog_nodes.intro.choice_001)": {
+                     "out_edge": "hearth_choice_generator"
                   }
                }
             }
