@@ -18,28 +18,50 @@
             "renewal_time": "36h",
             "unripe_description": "i18n(box_o_vox:entities.critters.cow.unripe_description)",
             "harvest_status_text": "i18n(box_o_vox:entities.critters.cow.renewable_harvest_status_text)",
-            "renew_effect": "stonehearth:effects:fursplosion_effect",
-            "check_owner": true
+            "check_owner": true,
+            "auto_harvest": true,
+            "resource_loot_table": {
+                "entries": {
+                    "optional": {
+                        "num_rolls": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "items": {
+                            "none": {
+                                "uri": "",
+                                "weight": 3
+                            },
+                            "extra_milk": {
+                                "uri": "box_o_vox:entities:food:milk",
+                                "weight": 1
+                            }
+                        }
+                    }
+                }
+            }
         },
         "stonehearth:resource_node": {
             "category": "herding",
             "harvest_overlay_effect": "stonehearth:effects:chop_overlay_effect",
             "harvester_effect": "fiddle",
             "description": "harvest_animal",
+            "resource_spawn_effect": "stonehearth:effects:gib_effect",
             "resource": "box_o_vox:entities:food:beef",
             "harvestable_by_harvest_tool": false,
             "check_owner": true,
             "resource_loot_table": {
                 "entries": {
-                    "pelt": {
+                    "extra_beef": {
+                        "roll_type": "some_of",
+                        "num_rolls": {
+                            "min": 1,
+                            "max": 3
+                        },
                         "items": {
-                            "none": {
-                                "uri": "",
+                            "pelt": {
+                                "uri": "box_o_vox:entities:food:beef",
                                 "weight": 1
-                            },
-                            "milk": {
-                                "uri": "box_o_vox:entities:food:milk",
-                                "weight": 2
                             }
                         }
                     }
@@ -49,7 +71,7 @@
         "stonehearth:attributes": {
             "max_health": {
                 "type": "basic",
-                "value": 50
+                "value": 70
             },
             "min_calories": {
                 "type": "basic",
@@ -61,7 +83,7 @@
             },
             "speed": {
                 "type": "basic",
-                "value": 40
+                "value": 30
             },
             "reproduction_rate_multiplier": {
                 "type": "basic",
@@ -74,6 +96,14 @@
             "max_social_satisfaction": {
                 "type": "basic",
                 "value": 72
+            },
+            "min_sleepiness": {
+                "type": "basic",
+                "value": 0
+            },
+            "max_sleepiness": {
+                "type": "basic",
+                "value": 32
             }
         },
         "stonehearth:expendable_resources": {
@@ -99,16 +129,25 @@
                         "min": 61,
                         "max": "max_value"
                     }
+                },
+                "sleepiness": {
+                    "min": {
+                        "linked_attribute": "min_sleepiness"
+                    },
+                    "max": {
+                        "linked_attribute": "max_sleepiness"
+                    },
+                    "initial_value": 0
                 }
             }
         },
         "render_info": {
             "animation_table": "/stonehearth/data/rigs/entities/critters/sheep",
-            "scale": 0.12
+            "scale": 0.15
         }
     },
     "entity_data": {
-        "stonehearth:entity_radius": 0.87,
+        "stonehearth:entity_radius": 1,
         "stonehearth:species": {
             "id": "cow",
             "display_name": "i18n(box_o_vox:entities.critters.cow.species)"
@@ -147,13 +186,19 @@
             "stonehearth:pasture_equipment:adult_animal_collar"
          ],
             "food_material": "cow_feed_edible",
-            "type": "box_o_vox:entities:critters:cow"
+            "type": "box_o_vox:entities:critters:cow",
+            "size": "large"
+        },
+        "stonehearth:diet": {
+            "food_material": "vegetarian"
         },
         "stonehearth:calories": {
             "hungry_threshold": 0,
             "famished_threshold": 0,
             "malnourished_threshold": -10,
-            "hourly_calorie_loss": 1
+            "hourly_calorie_loss": 1,
+            "breakfast_hour": 6,
+            "dinner_hour": 19
         },
         "stonehearth:net_worth": {
             "value_in_gold": 30,

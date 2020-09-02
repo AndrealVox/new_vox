@@ -1,60 +1,60 @@
 {
-   "mixins": "stonehearth:mixins:food_decay",
-   "type": "entity",
-   "components": {
-      "model_variants": {
-         "default": {
-            "models": [
+    "mixins": "stonehearth:mixins:food_decay",
+    "type": "entity",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
                "file(milk.qb)"
             ]
-         },
-         "decay_1": {
-            "models": [
+            },
+            "decay_1": {
+                "models": [
                "file(rotten_milk.qb)"
             ]
-         }
-      },
-      "mob": {
-         "model_origin": {
-            "x": -0.05,
-            "y": 0,
-            "z": 0.05
-         }
-      }
-   },
-   "entity_data": {
-      "stonehearth:net_worth": {
-         "value_in_gold": 2,
-         "rarity": "common",
-         "shop_info": {
-            "buyable": true,
-            "sellable": true,
-            "shopkeeper_level": 1,
-            "shopkeeper_type": "caravan"
-         }
-      },
-      "stonehearth:food_decay": {
-         "initial_decay": {
-            "min": 480,
-            "max": 500
-         },
-         "decay_stages": {
-            "decay_1": {
-               "description": "i18n(box_o_vox:stonehearth_mixins.food.food_decay.milk.decay_1.description)"
             }
-         },
-         "rotten_entity_alias": "box_o_vox:entities:food:rotten:milk"
-      },
-      "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.food.milk.display_name)",
-         "description": "i18n(box_o_vox:entities.food.milk.description)",
-         "icon": "file(milk.png)",
-         "is_item": true,
-         "category": "cooking_ingredient",
-         "material_tags": "stockpile_cooking_ingredient cooking_ingredient milk"
-      },
-      "stonehearth:appeal": {
-         "appeal": 0
-      }
-   }
+        },
+        "mob": {
+            "model_origin": {
+                "x": -0.05,
+                "y": 0,
+                "z": 0.05
+            }
+        }
+    },
+    "entity_data": {
+        "stonehearth:net_worth": {
+            "value_in_gold": 2,
+            "rarity": "common",
+            "shop_info": {
+                "buyable": true,
+                "sellable": true,
+                "shopkeeper_level": 1,
+                "shopkeeper_type": "caravan"
+            }
+        },
+        "stonehearth:food_decay": {
+            "initial_decay": {
+                "min": 480,
+                "max": 500
+            },
+            "decay_stages": {
+                "decay_1": {
+                    "description": "i18n(box_o_vox:stonehearth_mixins.food.food_decay.milk.decay_1.description)"
+                }
+            },
+            "rotten_entity_alias": "box_o_vox:entities:food:rotten:milk"
+        },
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.food.milk.display_name)",
+            "description": "i18n(box_o_vox:entities.food.milk.description)",
+            "icon": "file(milk.png)",
+            "is_item": true,
+            "category": "cooking_ingredient",
+            "material_tags": ["stockpile_cooking_ingredient", "cooking_ingredient", "milk"]
+        },
+        "stonehearth:appeal": {
+            "appeal": 0
+        }
+    }
 }
