@@ -369,6 +369,12 @@
         "stonehearth_ace/data/hotkeys.json": "box_o_vox/data/hotkeys_ace.json",
         "stonehearth:kingdoms:human_npcs": "file(data/bov_human_npc_population.json)",
 
+
+        "stonehearth_ace/entities/food/fodder/fodder/fodder.json": "file(entities/food/fodder/fodder/fodder.json)",
+        "stonehearth_ace/entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json": "file(entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json)",
+        "stonehearth/entities/food/fodder/fodder/fodder.json": "file(entities/food/fodder/fodder/fodder.json)",
+        "stonehearth/entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json": "file(entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json)",
+
         "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",
         "box_o_vox/jobs/cook/recipes/recipes.json": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json",
         "box_o_vox/jobs/mason/recipes/recipes.json": "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json"
@@ -377,6 +383,7 @@
         "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
         "stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
         "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
+
         "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)",
         "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json": "file(jobs/cook/recipes/ace_recipes.json)",
         "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json": "file(jobs/mason/recipes/recipes_ace.json)"

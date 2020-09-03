@@ -1,1600 +1,1600 @@
 {
-   "ai": {
-      "actions": {
-         "status_text": {
-            "summoning": "Summoning",
-            "ranged_flame_skull": "Throwing a Flaming Skull"
-         }
-      }
-   },
-   "data": {
-      "loadouts": {
-         "path_of_the_necromancer": {
-            "display_name": "Path Of The Necromancer",
-            "description": "It's a dark path to becoming a necromancer. Do you have what it takes? With these tools you should be able to streamline straight to it!",
-            "tooltip": ""
-         },
-         "items": {
-            "gold": "Gold",
-            "necro_bundle": "Bundle"
-         }
-      },
-      "buffs": {
-         "necromancy": {
-            "summon_buff": {
-               "display_name": "Summon",
-               "description": "Summon"
+    "ai": {
+        "actions": {
+            "status_text": {
+                "summoning": "Summoning",
+                "ranged_flame_skull": "Throwing a Flaming Skull"
             }
-         }
-      },
-      "commands": {
-         "necromancer_pages": {
-            "skeleton_summon": {
-               "display_name": "Summon Skeleton",
-               "description": "Them bones, them bones gonna walk around"
+        }
+    },
+    "data": {
+        "loadouts": {
+            "path_of_the_necromancer": {
+                "display_name": "Path Of The Necromancer",
+                "description": "It's a dark path to becoming a necromancer. Do you have what it takes? With these tools you should be able to streamline straight to it!",
+                "tooltip": ""
             },
-            "zombie_summon": {
-               "display_name": "Summon Zombie",
-               "description": "It's the Walking Dead!"
-            },
-            "golem_summon": {
-               "display_name": "Summon Golem",
-               "description": "Now that's a huge bitch!"
-            },
-            "necromancer_summon": {
-               "display_name": "Summon Necromancer",
-               "description": "Hey look! It's a mini-me"
-            },
-            "bone_wolf_big_summon": {
-               "description": "The howls are getting louder.",
-               "display_name": "Bone Wolf"
-            },
-            "zilla_summon": {
-               "display_name": "Summon Zilla",
-               "description": "It's Fleshzilla!"
+            "items": {
+                "gold": "Gold",
+                "necro_bundle": "Bundle"
             }
-         },
-         "promote_to_job": {
-            "display_name": "Assign to job",
-            "description": "Assign this citizen to a job."
-         }
-      },
-      "population": {
-         "boxling": {
-            "display_name": "The Boxlings",
-            "quote": "Fun Times!",
-            "description": "A mysterious and magical race. Citizens of the Boxlings are an enchanted folk, using their magic to strengthen their allies and grow to great heights.",
-            "post_selection_description": ", a proud and hard working race."
-         }
-      },
-      "biome": {
-         "boxland": {
-            "display_name": "Boxland",
-            "description": "Long rivers edged with fruit trees flow in between large mountains in this once forgotten land of the Boxlings, ancient mountains of them can still be found. The default home of the Boxlings.",
-            "random_location_names": {
-               "000": "The Box O' Vox"
+        },
+        "buffs": {
+            "necromancy": {
+                "summon_buff": {
+                    "display_name": "Summon",
+                    "description": "Summon"
+                }
+            }
+        },
+        "commands": {
+            "necromancer_pages": {
+                "skeleton_summon": {
+                    "display_name": "Summon Skeleton",
+                    "description": "Them bones, them bones gonna walk around"
+                },
+                "zombie_summon": {
+                    "display_name": "Summon Zombie",
+                    "description": "It's the Walking Dead!"
+                },
+                "golem_summon": {
+                    "display_name": "Summon Golem",
+                    "description": "Now that's a huge bitch!"
+                },
+                "necromancer_summon": {
+                    "display_name": "Summon Necromancer",
+                    "description": "Hey look! It's a mini-me"
+                },
+                "bone_wolf_big_summon": {
+                    "description": "The howls are getting louder.",
+                    "display_name": "Bone Wolf"
+                },
+                "zilla_summon": {
+                    "display_name": "Summon Zilla",
+                    "description": "It's Fleshzilla!"
+                }
             },
-            "seasons": {
-               "spring": {
-                  "display_name": "Spring",
-                  "description": "The only pretty ring time, when birds do sing."
-               },
-               "summer": {
-                  "display_name": "Summer",
-                  "description": "You can learn a lot of things from the flowers."
-               },
-               "autumn": {
-                  "display_name": "Autumn",
-                  "description": "Leaves grow old, how full of color are their last days."
-               },
-               "winter": {
-                  "display_name": "Winter",
-                  "description": "Burrr, it's cold in here. Must be some Boxlings in the atmosphere."
-               }
+            "promote_to_job": {
+                "display_name": "Assign to job",
+                "description": "Assign this citizen to a job."
             }
-         }
-      },
-      "saved_objects": {
-         "building_templates_index": {
-            "template_tabs": {
-               "box_o_vox": {
-                  "display_name": "Boxling",
-                  "categories": {
-                     "camp": "Camp Templates",
-                     "town": "Town Templates"
-                  }
-               }
+        },
+        "population": {
+            "boxling": {
+                "display_name": "The Boxlings",
+                "quote": "Fun Times!",
+                "description": "A mysterious and magical race. Citizens of the Boxlings are an enchanted folk, using their magic to strengthen their allies and grow to great heights.",
+                "post_selection_description": ", a proud and hard working race."
             }
-         }
-      },
-      "gm": {
-         "campaigns": {
-            "town_progression": {
-               "hearth_foreshadow_dialog": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "msg4": {
-                           "choice_000": "Feverfew seeds! Thanks!",
-                           "bulletin_title": "Darza points to the hearth",
-                           "dialog_title": "Darza points to the hearth",
-                           "bulletin_message": {
-                              "00": "\"Such GLORIOUS wonder your people have been able to achieve in such short time. What would you wish to pass on to the rest of the world? That you are the finest of all craftsfolk? That even in the harshest of conditions you folks can build an empire? That your army is the mightest in the land, able to conquer behemoths?\"<br><br>She tilts her head. \"I look forward to your decision. In the meantime… another gift, to remind you of spring.\" She places what appear to be seeds by the banner. "
-                           }
-                        },
-                        "msg1": {
-                           "bulletin_title": "Darza returns",
-                           "dialog_title": "The Boxling High",
-                           "bulletin_message": {
-                              "00": " Darza appears again at the edge of camp. <br><br><p align='right'><font size=-6 color='#cccccc'>How long has she been standing there, observing?</font></p>"
-                           }
-                        },
-                        "msg2": {
-                           "bulletin_title": "Darza, Boxling High",
-                           "dialog_title": "Darza, Boxling High",
-                           "bulletin_message": {
-                              "00": "Darza gestures at the camp, smiling with approval. \"I have come again to hear of your stories,\" she indicates. She sits by the fire, produces her book and quill, and waits."
-                           }
-                        },
-                        "msg3": {
-                           "bulletin_title": "Darza stands",
-                           "dialog_title": "Darza stands",
-                           "bulletin_message": {
-                              "00": "Darza meticulously notes everyone’s adventures in runes on the pages, and again speaks them to the sky. \"YYafr odytc ao duqmz uw qrasulq. Saal, hafr myirzm sudd vris azmyrw, vorv wapyvih, uz zaa sudd ky xe wzir ul zmy talwzyddizual ao afr eyaedy.\" again with the ancient language that no one can understand.  "
-                           },
-                           "choice_000": "Are you okay?"
+        },
+        "biome": {
+            "boxland": {
+                "display_name": "Boxland",
+                "description": "Long rivers edged with fruit trees flow in between large mountains in this once forgotten land of the Boxlings, ancient mountains of them can still be found. The default home of the Boxlings.",
+                "random_location_names": {
+                    "000": "The Box O' Vox"
+                },
+                "seasons": {
+                    "spring": {
+                        "display_name": "Spring",
+                        "description": "The only pretty ring time, when birds do sing."
+                    },
+                    "summer": {
+                        "display_name": "Summer",
+                        "description": "You can learn a lot of things from the flowers."
+                    },
+                    "autumn": {
+                        "display_name": "Autumn",
+                        "description": "Leaves grow old, how full of color are their last days."
+                    },
+                    "winter": {
+                        "display_name": "Winter",
+                        "description": "Burrr, it's cold in here. Must be some Boxlings in the atmosphere."
+                    }
+                }
+            }
+        },
+        "saved_objects": {
+            "building_templates_index": {
+                "template_tabs": {
+                    "box_o_vox": {
+                        "display_name": "Boxling",
+                        "categories": {
+                            "camp": "Camp Templates",
+                            "town": "Town Templates"
                         }
-                     }
-                  }
-               },
-               "town_founding_explanation": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "open_letter": {
-                           "bulletin_title": "A Familiar Face",
-                           "dialog_title": "A happy friend",
-                           "bulletin_message": {
-                              "00": "A woman approaches camp. She wears the purple robes of an Boxling High. <br><br><p align='right'><font size=-6 color='#cccccc'>Nobody saw her following, but she must have been for a great deal of time.</font></p>"
-                           },
-                           "choice_000": "Hello there, old friend!"
-                        },
-                        "read_letter": {
-                           "bulletin_title": "Darza, Boxling High",
-                           "dialog_title": "Darza, Boxling High",
-                           "bulletin_message": {
-                              "00": "\"Hello there. You must be the adventurers that left us some time ago, yes?\" she questions us as her eyes dart from each of our faces. She gestures at her book. \"I train.\" Then she taps the skull-shaped emblem on her robes. \"For the knowledge of Vox!\" as her eyes look to the sky."
-                           }
-                        },
-                        "read_letter2": {
-                           "bulletin_message": {
-                              "00": "She speaks as much with her hands and eyes as with her voice: \"I am glad you have come to a stop to settle. Now that I know you are here, I will keep tabs on you.\" <p>She steps over to the banner and touches its blank center. \"First, though, you must choose your symbol. I know you're nomads, but for now... You should build this area up. Make it a place you can call home. I know you could do great things here.\"</p>"
-                           }
-                        },
-                        "read_letter3": {
-                           "bulletin_title": "Darza, Boxling High",
-                           "dialog_title": "Darza, Boxling High",
-                           "bulletin_message": {
-                              "00": "Suddenly she starts chanting and the volume of her voice is incredible, \"Il zmy lipy ao sizyr sy tidd feal haf za siwm ajyr fw suzm idd hafr kdywwulqw\" which roughly translates from ancient Boxling to, \"In the name of Vox we call upon you to wash over us with all your blessings\" she glares at us to make our decision.</p> "
-                           }
+                    }
+                }
+            }
+        },
+        "gm": {
+            "campaigns": {
+                "town_progression": {
+                    "hearth_foreshadow_dialog": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "msg4": {
+                                    "choice_000": "Feverfew seeds! Thanks!",
+                                    "bulletin_title": "Darza points to the hearth",
+                                    "dialog_title": "Darza points to the hearth",
+                                    "bulletin_message": {
+                                        "00": "\"Such GLORIOUS wonder your people have been able to achieve in such short time. What would you wish to pass on to the rest of the world? That you are the finest of all craftsfolk? That even in the harshest of conditions you folks can build an empire? That your army is the mightest in the land, able to conquer behemoths?\"<br><br>She tilts her head. \"I look forward to your decision. In the meantime… another gift, to remind you of spring.\" She places what appear to be seeds by the banner. "
+                                    }
+                                },
+                                "msg1": {
+                                    "bulletin_title": "Darza returns",
+                                    "dialog_title": "The Boxling High",
+                                    "bulletin_message": {
+                                        "00": " Darza appears again at the edge of camp. <br><br><p align='right'><font size=-6 color='#cccccc'>How long has she been standing there, observing?</font></p>"
+                                    }
+                                },
+                                "msg2": {
+                                    "bulletin_title": "Darza, Boxling High",
+                                    "dialog_title": "Darza, Boxling High",
+                                    "bulletin_message": {
+                                        "00": "Darza gestures at the camp, smiling with approval. \"I have come again to hear of your stories,\" she indicates. She sits by the fire, produces her book and quill, and waits."
+                                    }
+                                },
+                                "msg3": {
+                                    "bulletin_title": "Darza stands",
+                                    "dialog_title": "Darza stands",
+                                    "bulletin_message": {
+                                        "00": "Darza meticulously notes everyone’s adventures in runes on the pages, and again speaks them to the sky. \"YYafr odytc ao duqmz uw qrasulq. Saal, hafr myirzm sudd vris azmyrw, vorv wapyvih, uz zaa sudd ky xe wzir ul zmy talwzyddizual ao afr eyaedy.\" again with the ancient language that no one can understand.  "
+                                    },
+                                    "choice_000": "Are you okay?"
+                                }
+                            }
                         }
-                     }
-                  }
-               },
-               "town_founding_food_donation": {
-                  "donation_dialog_info": {
-                     "dialog_nodes": {
-                        "simple_message": {
-                           "dialog_title": "Darza pulls out a small bag.",
-                           "bulletin_message": {
-                              "00": "\"Thank you,\" Darza whispers as she gestures, \"for your hospitality, and presence.\" <p>She places a small bag beside the banner. On its side is an emblem of a skull. \"I'm not like the other Boxling High,\" she says. \"For you see, I'm searching for Andreal Vox. He left us a very long time ago after some of the other Boxling High turned on him. I just know he's still alive... out there, somewhere.\" again she looks to the sky. \"Anyway, take these. They will assist you on your path should you find yourself in search of Vox as well.</p><p>The bag contains:</p>"
-                           }
+                    },
+                    "town_founding_explanation": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "open_letter": {
+                                    "bulletin_title": "A Familiar Face",
+                                    "dialog_title": "A happy friend",
+                                    "bulletin_message": {
+                                        "00": "A woman approaches camp. She wears the purple robes of an Boxling High. <br><br><p align='right'><font size=-6 color='#cccccc'>Nobody saw her following, but she must have been for a great deal of time.</font></p>"
+                                    },
+                                    "choice_000": "Hello there, old friend!"
+                                },
+                                "read_letter": {
+                                    "bulletin_title": "Darza, Boxling High",
+                                    "dialog_title": "Darza, Boxling High",
+                                    "bulletin_message": {
+                                        "00": "\"Hello there. You must be the adventurers that left us some time ago, yes?\" she questions us as her eyes dart from each of our faces. She gestures at her book. \"I train.\" Then she taps the skull-shaped emblem on her robes. \"For the knowledge of Vox!\" as her eyes look to the sky."
+                                    }
+                                },
+                                "read_letter2": {
+                                    "bulletin_message": {
+                                        "00": "She speaks as much with her hands and eyes as with her voice: \"I am glad you have come to a stop to settle. Now that I know you are here, I will keep tabs on you.\" <p>She steps over to the banner and touches its blank center. \"First, though, you must choose your symbol. I know you're nomads, but for now... You should build this area up. Make it a place you can call home. I know you could do great things here.\"</p>"
+                                    }
+                                },
+                                "read_letter3": {
+                                    "bulletin_title": "Darza, Boxling High",
+                                    "dialog_title": "Darza, Boxling High",
+                                    "bulletin_message": {
+                                        "00": "Suddenly she starts chanting and the volume of her voice is incredible, \"Il zmy lipy ao sizyr sy tidd feal haf za siwm ajyr fw suzm idd hafr kdywwulqw\" which roughly translates from ancient Boxling to, \"In the name of Vox we call upon you to wash over us with all your blessings\" she glares at us to make our decision.</p> "
+                                    }
+                                }
+                            }
                         }
-                     }
-                  }
-               },
-               "bird_departs": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "msg1": {
-                           "bulletin_title": "Darza prepares to depart",
-                           "bulletin_message": {
-                              "00": "Darza is now standing by the edge of the fire. She's written the town name and a brief account of its inhabitants in the blank pages of her book. Methodically, she commits it to the flames, which burn blue for a moment.<p>\"[str(i18n_data.town_name)]\" she murmurs. \"Bh sizyrw suwvap vorv flvyr zmy siztmofd yhyw ao zmy wzirw ikajy, ky tappuzzyv za zmy vorlidw ao vag.\" more ancient Boxling. </p>"
-                           }
-                        },
-                        "msg2": {
-                           "choice_000": "Travel under the watchful eyes of the sky."
+                    },
+                    "town_founding_food_donation": {
+                        "donation_dialog_info": {
+                            "dialog_nodes": {
+                                "simple_message": {
+                                    "dialog_title": "Darza pulls out a small bag.",
+                                    "bulletin_message": {
+                                        "00": "\"Thank you,\" Darza whispers as she gestures, \"for your hospitality, and presence.\" <p>She places a small bag beside the banner. On its side is an emblem of a skull. \"I'm not like the other Boxling High,\" she says. \"For you see, I'm searching for Andreal Vox. He left us a very long time ago after some of the other Boxling High turned on him. I just know he's still alive... out there, somewhere.\" again she looks to the sky. \"Anyway, take these. They will assist you on your path should you find yourself in search of Vox as well.</p><p>The bag contains:</p>"
+                                    }
+                                }
+                            }
                         }
-                     }
-                  }
-               },
-               "hearth_choice_explanation": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "intro": {
-                           "bulletin_title": "Darza returns yet again",
-                           "bulletin_message": {
-                              "00": "Darza appears at the edge of camp, smiling, arms spread to encompass all that has been built since her last visit. \"Bh sizyr'w qrity,\" she whispers to herself. \"May I hear of your progress.\" "
-                           }
-                        },
-                        "intro2": {
-                           "bulletin_title": "Darza, Boxling High",
-                           "dialog_title": "Darza, Boxling High",
-                           "bulletin_message": {
-                              "00": "She taps the skull on her robe. \"Vox would be happy with how you've turned out.\" She bends, and touches the stones of your hearth. \"Now is the time to choose the beacon that will represent the future of your people.\" "
-                           },
-                           "choice_000": "As Vox would always recite..."
-                        },
-                        "intro3": {
-                           "bulletin_title": "Darza, Boxling High",
-                           "dialog_title": "Darza, Boxling High",
-                           "bulletin_message": {
-                              "00": "Her voice takes on a gravely cadence: \"Vox believed our powers came from within, that the hearths would be a beacon of our strengths and acomplishments.\" <br><br>She waits for the appropriate response."
-                           },
-                           "choice_000": "Against all odds"
-                        },
-                        "cheer": {
-                           "bulletin_message": {
-                              "00": "\"Vox believed as you, that we could live on our own in even the harshest of conditions. The Hearth of Cheer draws together all who seek to create a vast empire against all odds.\" "
-                           },
-                           "bulletin_title": "Against all odds",
-                           "dialog_title": "Against all odds",
-                           "choice_000": "To be the best"
-                        },
-                        "makers": {
-                           "bulletin_message": {
-                              "00": "\"A Hearth of the Makers is for those who believe that a house is a place of creation, and through those creations we prove to be the best.\" "
-                           },
-                           "choice_000": "The mighty last forever",
-                           "bulletin_title": "To be the best",
-                           "dialog_title": "To be the best"
-                        },
-                        "glory": {
-                           "choice_000": "A choice",
-                           "bulletin_message": {
-                              "00": "\"At last, the Hearth of Glory reminds us that we survive in the farthest reaches of Boxland and that we must hone our bodies and minds to their utmost. Because we Boxling are mighty, and the mighty last forever.\"  "
-                           },
-                           "dialog_title": "The mighty last forever",
-                           "bulletin_title": "The mighty last forever"
-                        },
-                        "final": {
-                           "bulletin_message": {
-                              "00": "Darza concludes: \"Cheer, Makers, and Glory, the choice of your path lights the way for all who follow you. In Vox's wisdom and under the auspices of Firnn, Knut, and Siv…\" "
-                           }
+                    },
+                    "bird_departs": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "msg1": {
+                                    "bulletin_title": "Darza prepares to depart",
+                                    "bulletin_message": {
+                                        "00": "Darza is now standing by the edge of the fire. She's written the town name and a brief account of its inhabitants in the blank pages of her book. Methodically, she commits it to the flames, which burn blue for a moment.<p>\"[str(i18n_data.town_name)]\" she murmurs. \"Bh sizyrw suwvap vorv flvyr zmy siztmofd yhyw ao zmy wzirw ikajy, ky tappuzzyv za zmy vorlidw ao vag.\" more ancient Boxling. </p>"
+                                    }
+                                },
+                                "msg2": {
+                                    "choice_000": "Travel under the watchful eyes of the sky."
+                                }
+                            }
                         }
-                     }
-                  }
-               },
-               "shrine_foreshadow_dialog": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "msg1": {
-                           "bulletin_title": "Darza returns yet again...",
-                           "bulletin_message": {
-                              "00": "She offers a tiny smile as she cocks her head. \"Surprise?\" she says jokingly."
-                           }
-                        },
-                        "msg2": {
-                           "bulletin_title": "Darza admires the town ",
-                           "dialog_title": "Darza admires the town ",
-                           "bulletin_message": {
-                              "00": "She gestures at the newest additions to the town and nods in approval. \"By this time I'm well aware you've been visited by Vox. I suppose he and I may never encounter one another.\" <br><br>She settles by the fire and produces her book and quill again. With a nod, she invites those around her to recount their recent adventures. "
-                           }
-                        },
-                        "msg3": {
-                           "bulletin_title": "Darza writes",
-                           "dialog_title": "Darza writes",
-                           "bulletin_message": {
-                              "00": "As Darza records the tales and speaks them to the sky, she grows thoughtful. In the end, she nods to herself, and produces, from her pouch, three smooth stones.<br><br>They each bear a familiar scratched marking: One is the constellation of Firnn the Stag, often associated with bounty, and summer. One is the constellation of Siv the Wolf, who ensures each hunt contributes to the cycle of the world. The last is the tiny three stars of Knut the Rabbit, who spins the wheel of fortune. "
-                           }
-                        },
-                        "msg4": {
-                           "bulletin_title": "Darza kneels",
-                           "dialog_title": "Darza kneels"
+                    },
+                    "hearth_choice_explanation": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "intro": {
+                                    "bulletin_title": "Darza returns yet again",
+                                    "bulletin_message": {
+                                        "00": "Darza appears at the edge of camp, smiling, arms spread to encompass all that has been built since her last visit. \"Bh sizyr'w qrity,\" she whispers to herself. \"May I hear of your progress.\" "
+                                    }
+                                },
+                                "intro2": {
+                                    "bulletin_title": "Darza, Boxling High",
+                                    "dialog_title": "Darza, Boxling High",
+                                    "bulletin_message": {
+                                        "00": "She taps the skull on her robe. \"Vox would be happy with how you've turned out.\" She bends, and touches the stones of your hearth. \"Now is the time to choose the beacon that will represent the future of your people.\" "
+                                    },
+                                    "choice_000": "As Vox would always recite..."
+                                },
+                                "intro3": {
+                                    "bulletin_title": "Darza, Boxling High",
+                                    "dialog_title": "Darza, Boxling High",
+                                    "bulletin_message": {
+                                        "00": "Her voice takes on a gravely cadence: \"Vox believed our powers came from within, that the hearths would be a beacon of our strengths and acomplishments.\" <br><br>She waits for the appropriate response."
+                                    },
+                                    "choice_000": "Against all odds"
+                                },
+                                "cheer": {
+                                    "bulletin_message": {
+                                        "00": "\"Vox believed as you, that we could live on our own in even the harshest of conditions. The Hearth of Cheer draws together all who seek to create a vast empire against all odds.\" "
+                                    },
+                                    "bulletin_title": "Against all odds",
+                                    "dialog_title": "Against all odds",
+                                    "choice_000": "To be the best"
+                                },
+                                "makers": {
+                                    "bulletin_message": {
+                                        "00": "\"A Hearth of the Makers is for those who believe that a house is a place of creation, and through those creations we prove to be the best.\" "
+                                    },
+                                    "choice_000": "The mighty last forever",
+                                    "bulletin_title": "To be the best",
+                                    "dialog_title": "To be the best"
+                                },
+                                "glory": {
+                                    "choice_000": "A choice",
+                                    "bulletin_message": {
+                                        "00": "\"At last, the Hearth of Glory reminds us that we survive in the farthest reaches of Boxland and that we must hone our bodies and minds to their utmost. Because we Boxling are mighty, and the mighty last forever.\"  "
+                                    },
+                                    "dialog_title": "The mighty last forever",
+                                    "bulletin_title": "The mighty last forever"
+                                },
+                                "final": {
+                                    "bulletin_message": {
+                                        "00": "Darza concludes: \"Cheer, Makers, and Glory, the choice of your path lights the way for all who follow you. In Vox's wisdom and under the auspices of Firnn, Knut, and Siv…\" "
+                                    }
+                                }
+                            }
                         }
-                     }
-                  }
-               },
-               "shrine_choice_explanation": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "intro": {
-                           "bulletin_title": "Darza Appears Once More",
-                           "dialog_title": "Darza Appears Once More",
-                           "bulletin_message": {
-                              "00": "Darza shakes her head fondly. \"Did you expect the stars to come visit you on earth? They are spirits, not beasts. They are Valin's allegories, committed to the heavens so we do not forget his teachings. He was Vox's idol.\""
-                           }
-                        },
-                        "intro2": {
-                           "bulletin_title": "Darza looks towards the hearth",
-                           "dialog_title": "Darza looks towards the hearth",
-                           "bulletin_message": {
-                              "00": "\"It is time to create a monument, and ask for the blessings of your patron spirit. Then I will record your settlement as a star in the constellation of the Northern Alliance, and your stories will be safe in their Library. Have you made your choice?\" "
-                           }
-                        },
-                        "clergy": {
-                           "bulletin_message": {
-                              "00": "Darza dips again into a poetic cadence: \"Firnn the Stag, from whose hooves fall the favors of summer: bless this town with prosperity, and the wisdom to live in harmony with the cycles of the land.\" <br><i>(Building a Font of Summer will grant all your townsfolk a +1 boost to the mind, body, and spirit attributes.)</i>"
-                           }
-                        },
-                        "makers": {
-                           "bulletin_message": {
-                              "00": "Darza continues: \"Knut the Swift, who turns the wheel of fortune: bless this town with a moment of great prosperity, and the foresight to store favor against the reversals to come. <br><i>(Building a Font of Fortune will grant the ability to create masterwork quality furniture and decorations, which are considerably better than those of excellent quality.) </i>"
-                           }
-                        },
-                        "military": {
-                           "bulletin_message": {
-                              "00": "Darza finishes: \"And Siv the Wolf, whose breath steams the icy winter as he chases fleeting prey: bless this town with resilience, so that we stand against the cold in our time of strength, and accept our return to the earth when that time is over.\"<br><i>(Building a Font of Fire will grant you additional strength in combat and a +2 to the body attribute.)</i> "
-                           }
-                        },
-                        "summary": {
-                           "bulletin_title": "Darza concludes: ",
-                           "dialog_title": "Darza concludes: "
+                    },
+                    "shrine_foreshadow_dialog": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "msg1": {
+                                    "bulletin_title": "Darza returns yet again...",
+                                    "bulletin_message": {
+                                        "00": "She offers a tiny smile as she cocks her head. \"Surprise?\" she says jokingly."
+                                    }
+                                },
+                                "msg2": {
+                                    "bulletin_title": "Darza admires the town ",
+                                    "dialog_title": "Darza admires the town ",
+                                    "bulletin_message": {
+                                        "00": "She gestures at the newest additions to the town and nods in approval. \"By this time I'm well aware you've been visited by Vox. I suppose he and I may never encounter one another.\" <br><br>She settles by the fire and produces her book and quill again. With a nod, she invites those around her to recount their recent adventures. "
+                                    }
+                                },
+                                "msg3": {
+                                    "bulletin_title": "Darza writes",
+                                    "dialog_title": "Darza writes",
+                                    "bulletin_message": {
+                                        "00": "As Darza records the tales and speaks them to the sky, she grows thoughtful. In the end, she nods to herself, and produces, from her pouch, three smooth stones.<br><br>They each bear a familiar scratched marking: One is the constellation of Firnn the Stag, often associated with bounty, and summer. One is the constellation of Siv the Wolf, who ensures each hunt contributes to the cycle of the world. The last is the tiny three stars of Knut the Rabbit, who spins the wheel of fortune. "
+                                    }
+                                },
+                                "msg4": {
+                                    "bulletin_title": "Darza kneels",
+                                    "dialog_title": "Darza kneels"
+                                }
+                            }
                         }
-                     }
-                  }
-               },
-               "guild_dialog_1": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "msg2": {
-                           "bulletin_message": {
-                              "00": "Darza kneels before the rabbit and cups her hands so it might hop into them. She walks it slowly towards the celebration. The rabbit's ears swivel in every direction, taking in the festivities. "
-                           }
-                        },
-                        "msg3": {
-                           "bulletin_message": {
-                              "00": "The rabbit turns to sniff in the direction of the fire, and amidst the embers a vision appears: a constellation of towns emblazoned across a map, and dozens, hundreds, thousands of stories collected of their learnings. Visions of finely crafted goods waft through the smoke, creating kinship between those who have created, and those who will learn from their advancements and create anew. Then the creature leaps from Darza's hands, and into the crowd. "
-                           }
+                    },
+                    "shrine_choice_explanation": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "intro": {
+                                    "bulletin_title": "Darza Appears Once More",
+                                    "dialog_title": "Darza Appears Once More",
+                                    "bulletin_message": {
+                                        "00": "Darza shakes her head fondly. \"Did you expect the stars to come visit you on earth? They are spirits, not beasts. They are Valin's allegories, committed to the heavens so we do not forget his teachings. He was Vox's idol.\""
+                                    }
+                                },
+                                "intro2": {
+                                    "bulletin_title": "Darza looks towards the hearth",
+                                    "dialog_title": "Darza looks towards the hearth",
+                                    "bulletin_message": {
+                                        "00": "\"It is time to create a monument, and ask for the blessings of your patron spirit. Then I will record your settlement as a star in the constellation of the Northern Alliance, and your stories will be safe in their Library. Have you made your choice?\" "
+                                    }
+                                },
+                                "clergy": {
+                                    "bulletin_message": {
+                                        "00": "Darza dips again into a poetic cadence: \"Firnn the Stag, from whose hooves fall the favors of summer: bless this town with prosperity, and the wisdom to live in harmony with the cycles of the land.\" <br><i>(Building a Font of Summer will grant all your townsfolk a +1 boost to the mind, body, and spirit attributes.)</i>"
+                                    }
+                                },
+                                "makers": {
+                                    "bulletin_message": {
+                                        "00": "Darza continues: \"Knut the Swift, who turns the wheel of fortune: bless this town with a moment of great prosperity, and the foresight to store favor against the reversals to come. <br><i>(Building a Font of Fortune will grant the ability to create masterwork quality furniture and decorations, which are considerably better than those of excellent quality.) </i>"
+                                    }
+                                },
+                                "military": {
+                                    "bulletin_message": {
+                                        "00": "Darza finishes: \"And Siv the Wolf, whose breath steams the icy winter as he chases fleeting prey: bless this town with resilience, so that we stand against the cold in our time of strength, and accept our return to the earth when that time is over.\"<br><i>(Building a Font of Fire will grant you additional strength in combat and a +2 to the body attribute.)</i> "
+                                    }
+                                },
+                                "summary": {
+                                    "bulletin_title": "Darza concludes: ",
+                                    "dialog_title": "Darza concludes: "
+                                }
+                            }
                         }
-                     }
-                  }
-               },
-               "valor_dialog_1": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "msg2": {
-                           "bulletin_message": {
-                              "00": "Darza falls into a hunter's crouch and bares her teeth. The wolf bares its fangs back. Then as one, they both raise their chins, exposing their throats. Darza's hand touches the wolf's ruff, and it sniffs once at the scars on her neck. "
-                           }
+                    },
+                    "guild_dialog_1": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "msg2": {
+                                    "bulletin_message": {
+                                        "00": "Darza kneels before the rabbit and cups her hands so it might hop into them. She walks it slowly towards the celebration. The rabbit's ears swivel in every direction, taking in the festivities. "
+                                    }
+                                },
+                                "msg3": {
+                                    "bulletin_message": {
+                                        "00": "The rabbit turns to sniff in the direction of the fire, and amidst the embers a vision appears: a constellation of towns emblazoned across a map, and dozens, hundreds, thousands of stories collected of their learnings. Visions of finely crafted goods waft through the smoke, creating kinship between those who have created, and those who will learn from their advancements and create anew. Then the creature leaps from Darza's hands, and into the crowd. "
+                                    }
+                                }
+                            }
                         }
-                     }
-                  }
-               },
-               "deity_dialog_1": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "msg2": {
-                           "bulletin_message": {
-                              "00": "Darza approaches the stag with a low bow, so low her hair scrapes the ground, and gestures it towards the hearth. The music seems to entice it closer. "
-                           }
+                    },
+                    "valor_dialog_1": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "msg2": {
+                                    "bulletin_message": {
+                                        "00": "Darza falls into a hunter's crouch and bares her teeth. The wolf bares its fangs back. Then as one, they both raise their chins, exposing their throats. Darza's hand touches the wolf's ruff, and it sniffs once at the scars on her neck. "
+                                    }
+                                }
+                            }
                         }
-                     }
-                  }
-               },
-               "post_shrine_dialog": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "msg1": {
-                           "bulletin_title": "Darza Makes to Leave",
-                           "dialog_title": "Darza, Boxling High",
-                           "bulletin_message": {
-                              "00": "Darza watches as the party quiets. \"That was well done,\" she whispers. \"Your township is officially entered into the annals of The Library, and the spirits grace your steps.\" "
-                           }
-                        },
-                        "msg2": {
-                           "bulletin_message": {
-                              "00": "Darza considers the fountain. \"What learnings will you pursue next? The other monuments would look good beside this one, though they will not have the power to call the constellations.\" She smiles. \"Your town has all it needs, does it not?\"  "
-                           }
-                        },
-                        "msg3": {
-                           "bulletin_message": {
-                              "00": "Darza touches her breast. \"You warm my heart.\" She takes a step backwards, and makes an all-encompassing gesture of farewell. Her eyes blaze, a reminder that the Scouts of Valin travel forever away from civilization, to places even more wild and dangerous than these.<br><br>\"As Valin teaches, each precious moment must be held dear against the inevitable change of the weather.\" "
-                           },
-                           "choice_000": "Farewell, Darza! Follow the stars!"
+                    },
+                    "deity_dialog_1": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "msg2": {
+                                    "bulletin_message": {
+                                        "00": "Darza approaches the stag with a low bow, so low her hair scrapes the ground, and gestures it towards the hearth. The music seems to entice it closer. "
+                                    }
+                                }
+                            }
                         }
-                     }
-                  }
-               },
-               "reembark_dialog": {
-                  "dialog_tree_info": {
-                     "dialog_nodes": {
-                        "msg1": {
-                           "bulletin_title": " Darza, One More Time",
-                           "bulletin_message": {
-                              "00": "When Darza appears for the last time, it is with a purple banner in her hands. It is a twin to the one this town embarked with, so long ago. She tilts her head with a smile and gestures at the horizon. She doesn't need to speak. Hearth is waiting. </p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
-                           }
+                    },
+                    "post_shrine_dialog": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "msg1": {
+                                    "bulletin_title": "Darza Makes to Leave",
+                                    "dialog_title": "Darza, Boxling High",
+                                    "bulletin_message": {
+                                        "00": "Darza watches as the party quiets. \"That was well done,\" she whispers. \"Your township is officially entered into the annals of The Library, and the spirits grace your steps.\" "
+                                    }
+                                },
+                                "msg2": {
+                                    "bulletin_message": {
+                                        "00": "Darza considers the fountain. \"What learnings will you pursue next? The other monuments would look good beside this one, though they will not have the power to call the constellations.\" She smiles. \"Your town has all it needs, does it not?\"  "
+                                    }
+                                },
+                                "msg3": {
+                                    "bulletin_message": {
+                                        "00": "Darza touches her breast. \"You warm my heart.\" She takes a step backwards, and makes an all-encompassing gesture of farewell. Her eyes blaze, a reminder that the Scouts of Valin travel forever away from civilization, to places even more wild and dangerous than these.<br><br>\"As Valin teaches, each precious moment must be held dear against the inevitable change of the weather.\" "
+                                    },
+                                    "choice_000": "Farewell, Darza! Follow the stars!"
+                                }
+                            }
                         }
-                     }
-                  }
-               }
+                    },
+                    "reembark_dialog": {
+                        "dialog_tree_info": {
+                            "dialog_nodes": {
+                                "msg1": {
+                                    "bulletin_title": " Darza, One More Time",
+                                    "bulletin_message": {
+                                        "00": "When Darza appears for the last time, it is with a purple banner in her hands. It is a twin to the one this town embarked with, so long ago. She tilts her head with a smile and gestures at the horizon. She doesn't need to speak. Hearth is waiting. </p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "encounters": {
+                    "necromancer": {
+                        "necromancer_intro": {
+                            "dialog_tree_info": {
+                                "dialog_nodes": {
+                                    "msg1": {
+                                        "bulletin_title": "Cryptic Knowledge",
+                                        "bulletin_message": {
+                                            "00": "\"Hello friends! It has been quite some time since I've seen another living soul, haha. I'd like to offer you a precious gift.\"<br><br>\"I would like to teach you the crytpic art known as Necromancy.\"<br><br>\"Would you like to hear of my knowledge, the ancient power of harnessing the undead?\""
+                                        },
+                                        "choice_001": "Please, tell us",
+                                        "choice_000": "[Skip Story] Know all about it"
+                                    },
+                                    "story1": {
+                                        "bulletin_message": {
+                                            "00": "<font size=-1>Vox smiles mysteriously.<br></font>\"This world is full darkness and evil. I was tired of it always winning, so I decided to make a change.\"<br><br>\"I spent countless nights fusing bones imbued with my own life essence with little to no result. After I came across a well kept secret, I finally was able to summon my very first undead minion. A skeleton I named Steve.\""
+                                        },
+                                        "choice_000": "A skeleton, awesome!"
+                                    },
+                                    "story2": {
+                                        "bulletin_message": {
+                                            "00": "\"I used my newfound powers and embraced the darkness & evil this world was so full of. I went forth with Steve and started to decimate the surrounding lands of hostile creatures.\"<br><br>\"It wasn't long before I realized Steve wasn't strong enough to fight some of the enemies I started to encounter. Things again needed to change.\""
+                                        },
+                                        "choice_000": "What sort of change?"
+                                    },
+                                    "story3a": {
+                                        "bulletin_message": {
+                                            "00": "\"It was time once again to use my own life essence and create something stronger. On my travels I killed wolves, yes wolves. I knew these beast were the perfect choice in my progression of power.\"<br><br>\"Using more bone I was able to summon life into a new minion, Steve had evolved. Not long after that I realized if I used the flesh of my enemies along with their bones I could summon even stronger minions. The possiblities were infinite.\""
+                                        },
+                                        "choice_000": "What came from the flesh?"
+                                    },
+                                    "story3b": {
+                                        "bulletin_message": {
+                                            "00": "\"I started where I had before, a skeleton. This time though I applied flesh to bone in hopes of something stronger. The zombie it produced was better than I even imagined.\"<br><br>\"After that I was able to grow in strength and summon even greater beast, a flesh golem and eventually fleshzilla. My minions and I conquered the world, all was good again, but something was missing.\"<br><br><font size=-1>He stands there thoughtfully</font>"
+                                        },
+                                        "choice_000": "What was missing?"
+                                    },
+                                    "story4": {
+                                        "bulletin_message": {
+                                            "00": "\"Steve was powerful, nearly unstopable. I was a master of the Undead, flinging flaming skulls left and right. Though something was missing. I came up with the idea to create myself, so to speak. I used all the knowledge I had learned to summon a mini version of myself. I taught him how to throw 2 flaming skulls at once, a trick I started to use myself afterwards.\"<br><br>\"Now all that was left for me was to find a person, a student, to pass my knowledge onto. I believe that person to be you. Are you that student?\"<br><br><font size=-1>He asks you quietly</font>"
+                                        },
+                                        "choice_000": "Student? Me?"
+                                    },
+                                    "offer": {
+                                        "bulletin_message": {
+                                            "00": "\"Anyway, what say you - would you like to for one of your esteemed Clerics to learn the ways of Necromancy? I will leave this book here for you, perhaps it'll guide you into something of great power.\""
+                                        },
+                                        "choice_000": "Thanks! We'll do our best.",
+                                        "choice_001": "This all sounds a bit too scary for me."
+                                    },
+                                    "reject": {
+                                        "bulletin_message": {
+                                            "00": "\"I see. Are you sure? As I said, this may likely be your only chance to gain such knowledge.\""
+                                        },
+                                        "choice_001": "[Back] Wait, I changed my mind!",
+                                        "choice_000": "I am sure, no thanks."
+                                    },
+                                    "accept": {
+                                        "bulletin_message": {
+                                            "00": "\"Glorious! Take all the time you need in choosing, the selection is important indeed.\"<br><br>\"As I said, they will be gone for around seven days, so don't send anyone you can't bear to be without.\""
+                                        },
+                                        "choice_000": "Let me decide who to send..."
+                                    },
+                                    "reject2": {
+                                        "bulletin_message": {
+                                            "00": "\"Very well, I suppose things of this nature will stay secret for all time.\"<br><br>\"I shall take my leave. I wish you well in your ventures. Farewell!\""
+                                        },
+                                        "choice_000": "Farewell!"
+                                    },
+                                    "msg2": {
+                                        "bulletin_title": "The Path To Necromancy"
+                                    },
+                                    "msg3": {
+                                        "bulletin_title": "A Single Necromancer Returns..."
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "necromancer": {
+                    "persons": {
+                        "vox": {
+                            "title": "Vox, The Premier Necromancer"
+                        }
+                    }
+                }
             },
             "encounters": {
-               "necromancer": {
-                  "necromancer_intro": {
-                     "dialog_tree_info": {
-                        "dialog_nodes": {
-                           "msg1": {
-                              "bulletin_title": "Cryptic Knowledge",
-                              "bulletin_message": {
-                                 "00": "\"Hello friends! It has been quite some time since I've seen another living soul, haha. I'd like to offer you a precious gift.\"<br><br>\"I would like to teach you the crytpic art known as Necromancy.\"<br><br>\"Would you like to hear of my knowledge, the ancient power of harnessing the undead?\""
-                              },
-                              "choice_001": "Please, tell us",
-                              "choice_000": "[Skip Story] Know all about it"
-                           },
-                           "story1": {
-                              "bulletin_message": {
-                                 "00": "<font size=-1>Vox smiles mysteriously.<br></font>\"This world is full darkness and evil. I was tired of it always winning, so I decided to make a change.\"<br><br>\"I spent countless nights fusing bones imbued with my own life essence with little to no result. After I came across a well kept secret, I finally was able to summon my very first undead minion. A skeleton I named Steve.\""
-                              },
-                              "choice_000": "A skeleton, awesome!"
-                           },
-                           "story2": {
-                              "bulletin_message": {
-                                 "00": "\"I used my newfound powers and embraced the darkness & evil this world was so full of. I went forth with Steve and started to decimate the surrounding lands of hostile creatures.\"<br><br>\"It wasn't long before I realized Steve wasn't strong enough to fight some of the enemies I started to encounter. Things again needed to change.\""
-                              },
-                              "choice_000": "What sort of change?"
-                           },
-                           "story3a": {
-                              "bulletin_message": {
-                                 "00": "\"It was time once again to use my own life essence and create something stronger. On my travels I killed wolves, yes wolves. I knew these beast were the perfect choice in my progression of power.\"<br><br>\"Using more bone I was able to summon life into a new minion, Steve had evolved. Not long after that I realized if I used the flesh of my enemies along with their bones I could summon even stronger minions. The possiblities were infinite.\""
-                              },
-                              "choice_000": "What came from the flesh?"
-                           },
-                           "story3b": {
-                              "bulletin_message": {
-                                 "00": "\"I started where I had before, a skeleton. This time though I applied flesh to bone in hopes of something stronger. The zombie it produced was better than I even imagined.\"<br><br>\"After that I was able to grow in strength and summon even greater beast, a flesh golem and eventually fleshzilla. My minions and I conquered the world, all was good again, but something was missing.\"<br><br><font size=-1>He stands there thoughtfully</font>"
-                              },
-                              "choice_000": "What was missing?"
-                           },
-                           "story4": {
-                              "bulletin_message": {
-                                 "00": "\"Steve was powerful, nearly unstopable. I was a master of the Undead, flinging flaming skulls left and right. Though something was missing. I came up with the idea to create myself, so to speak. I used all the knowledge I had learned to summon a mini version of myself. I taught him how to throw 2 flaming skulls at once, a trick I started to use myself afterwards.\"<br><br>\"Now all that was left for me was to find a person, a student, to pass my knowledge onto. I believe that person to be you. Are you that student?\"<br><br><font size=-1>He asks you quietly</font>"
-                              },
-                              "choice_000": "Student? Me?"
-                           },
-                           "offer": {
-                              "bulletin_message": {
-                                 "00": "\"Anyway, what say you - would you like to for one of your esteemed Clerics to learn the ways of Necromancy? I will leave this book here for you, perhaps it'll guide you into something of great power.\""
-                              },
-                              "choice_000": "Thanks! We'll do our best.",
-                              "choice_001": "This all sounds a bit too scary for me."
-                           },
-                           "reject": {
-                              "bulletin_message": {
-                                 "00": "\"I see. Are you sure? As I said, this may likely be your only chance to gain such knowledge.\""
-                              },
-                              "choice_001": "[Back] Wait, I changed my mind!",
-                              "choice_000": "I am sure, no thanks."
-                           },
-                           "accept": {
-                              "bulletin_message": {
-                                 "00": "\"Glorious! Take all the time you need in choosing, the selection is important indeed.\"<br><br>\"As I said, they will be gone for around seven days, so don't send anyone you can't bear to be without.\""
-                              },
-                              "choice_000": "Let me decide who to send..."
-                           },
-                           "reject2": {
-                              "bulletin_message": {
-                                 "00": "\"Very well, I suppose things of this nature will stay secret for all time.\"<br><br>\"I shall take my leave. I wish you well in your ventures. Farewell!\""
-                              },
-                              "choice_000": "Farewell!"
-                           },
-                           "msg2": {
-                              "bulletin_title": "The Path To Necromancy"
-                           },
-                           "msg3": {
-                              "bulletin_title": "A Single Necromancer Returns..."
-                           }
+                "necromancer": {
+                    "necromancer_quest": {
+                        "text": "Select a Cleric to be trained as a Necromancer by Vox."
+                    },
+                    "necromancer_outro": {
+                        "dialog_info": {
+                            "dialog_nodes": {
+                                "simple_message": {
+                                    "choice_000": "Thank you Vox! May his soul rest knowing his magic will live on.",
+                                    "bulletin_message": {
+                                        "00": "<font size=-1>The Cleric you sent away with Vox has returned... alone. They don't say much other than,</font>\"His climax arrived.\"<br><font size=-1> It seems like Vox shared his knowledge with us just in time.<br><br></font>We promise to never forget him and to use our newfound powers to rid this world of evil once more!<br>Go forth and conquer.<br>Go forth and die!"
+                                    }
+                                }
+                            }
                         }
-                     }
-                  }
-               }
-            },
-            "necromancer": {
-               "persons": {
-                  "vox": {
-                     "title": "Vox, The Premier Necromancer"
-                  }
-               }
+                    }
+                }
             }
-         },
-         "encounters": {
-            "necromancer": {
-               "necromancer_quest": {
-                  "text": "Select a Cleric to be trained as a Necromancer by Vox."
-               },
-               "necromancer_outro": {
-                  "dialog_info": {
-                     "dialog_nodes": {
-                        "simple_message": {
-                           "choice_000": "Thank you Vox! May his soul rest knowing his magic will live on.",
-                           "bulletin_message": {
-                              "00": "<font size=-1>The Cleric you sent away with Vox has returned... alone. They don't say much other than,</font>\"His climax arrived.\"<br><font size=-1> It seems like Vox shared his knowledge with us just in time.<br><br></font>We promise to never forget him and to use our newfound powers to rid this world of evil once more!<br>Go forth and conquer.<br>Go forth and die!"
-                           }
-                        }
-                     }
-                  }
-               }
+        }
+    },
+    "jobs": {
+        "necromancer": {
+            "necromancer_tome": {
+                "necromancer_tome_talisman": {
+                    "display_name": "Necronomicon",
+                    "description": "Required to promote a Cleric to a Necromancer"
+                },
+                "display_name": "Book Of The Dead",
+                "description": "Within lies the secrets to becoming a Necromancer"
+            },
+            "necromancer_description": {
+                "display_name": "Necromancer",
+                "description": "Summon the undead to fight for you",
+                "requirements": "Obtained from a Master Necromancer",
+                "level_1_data": {
+                    "perk_000_name": "Flaming Skull Attack",
+                    "perk_000_description": "The Necromancer is capable of throwing a flaming skull which inflicts a burning slow on enemies.",
+                    "perk_001_name": "Summon a Skeleton",
+                    "perk_001_description": "Summon a skeleton to fight your battles for you."
+                },
+                "level_2_data": {
+                    "perk_000_name": "Summon a Bone Wolf",
+                    "perk_000_description": "Summon a bone wolf to fight your battles for you. Their able to damage up to 3 enemies at once with their breath."
+                },
+                "level_3_data": {
+                    "perk_000_name": "Summon a Zombie",
+                    "perk_000_description": "Summon a zombie to fight your battles for you.",
+                    "perk_001_name": "Craft a Skeleton Gatherer",
+                    "perk_001_description": "This Undead Worker will haul items into storage or stockpiles"
+                },
+                "level_4_data": {
+                    "perk_000_name": "Summon a Golem",
+                    "perk_000_description": "Summon a flesh golem to fight your battles for you. Their able to damage up to 3 enemies at once with each hit."
+                },
+                "level_5_data": {
+                    "perk_000_name": "Summon a Zilla",
+                    "perk_000_description": "Summon a fleshzilla to fight your battles for you. Their able to damage up to 5 enemies at once with each hit."
+                },
+                "level_6_data": {
+                    "title": "Master Necromancer",
+                    "perk_000_name": "Summon a Mini-Necromancer",
+                    "perk_000_description": "Summon a mini-necromancer to fight your battles for, and do it twice as fast as you previously could.",
+                    "perk_001_name": "Craft a Zombie Miner",
+                    "perk_001_description": "This Undead Worker will mine set zones",
+                    "perk_002_description": "The Necromancer now throws 2 flaming skulls which inflict a burning slow on enemies.",
+                    "perk_002_name": "Double Flaming Skull Attack"
+                }
+            },
+            "necromancer_outfit": {
+                "display_name": "Necromancer Robes",
+                "description": "The Attire Of A Necromancer"
+            },
+            "necromancer_debuffs": {
+                "flame_skull": {
+                    "display_name": "Flaming Skull Burning Slow",
+                    "description": "This unit is burned to a slowing hault."
+                }
+            },
+            "workers": {
+                "miner": {
+                    "display_name": "Zombie Miner",
+                    "description": "This Undead Work will mine set zones."
+                },
+                "gatherer": {
+                    "display_name": "Skeleton Gatherer",
+                    "description": "This Undead Work will gather and restock items."
+                }
+            },
+            "necromancer_mask_1": {
+                "display_name": "Apprentice Necromancer Mask",
+                "description": "A Necromancer with a decent amount of training can equip this mask."
+            },
+            "necromancer_mask_2": {
+                "display_name": "Master Necromancer Mask",
+                "description": "Only the highest level of Necromancer can wear this mighty mask."
             }
-         }
-      }
-   },
-   "jobs": {
-      "necromancer": {
-         "necromancer_tome": {
-            "necromancer_tome_talisman": {
-               "display_name": "Necronomicon",
-               "description": "Required to promote a Cleric to a Necromancer"
-            },
-            "display_name": "Book Of The Dead",
-            "description": "Within lies the secrets to becoming a Necromancer"
-         },
-         "necromancer_description": {
-            "display_name": "Necromancer",
-            "description": "Summon the undead to fight for you",
-            "requirements": "Obtained from a Master Necromancer",
-            "level_1_data": {
-               "perk_000_name": "Flaming Skull Attack",
-               "perk_000_description": "The Necromancer is capable of throwing a flaming skull which inflicts a burning slow on enemies.",
-               "perk_001_name": "Summon a Skeleton",
-               "perk_001_description": "Summon a skeleton to fight your battles for you."
-            },
-            "level_2_data": {
-               "perk_000_name": "Summon a Bone Wolf",
-               "perk_000_description": "Summon a bone wolf to fight your battles for you. Their able to damage up to 3 enemies at once with their breath."
-            },
-            "level_3_data": {
-               "perk_000_name": "Summon a Zombie",
-               "perk_000_description": "Summon a zombie to fight your battles for you.",
-               "perk_001_name": "Craft a Skeleton Gatherer",
-               "perk_001_description": "This Undead Worker will haul items into storage or stockpiles"
-            },
-            "level_4_data": {
-               "perk_000_name": "Summon a Golem",
-               "perk_000_description": "Summon a flesh golem to fight your battles for you. Their able to damage up to 3 enemies at once with each hit."
-            },
-            "level_5_data": {
-               "perk_000_name": "Summon a Zilla",
-               "perk_000_description": "Summon a fleshzilla to fight your battles for you. Their able to damage up to 5 enemies at once with each hit."
-            },
-            "level_6_data": {
-               "title": "Master Necromancer",
-               "perk_000_name": "Summon a Mini-Necromancer",
-               "perk_000_description": "Summon a mini-necromancer to fight your battles for, and do it twice as fast as you previously could.",
-               "perk_001_name": "Craft a Zombie Miner",
-               "perk_001_description": "This Undead Worker will mine set zones",
-               "perk_002_description": "The Necromancer now throws 2 flaming skulls which inflict a burning slow on enemies.",
-               "perk_002_name": "Double Flaming Skull Attack"
+        },
+        "cleric": {
+            "recipes": {
+                "paladins_shield_recipe": {
+                    "recipe_name": "Paladin's Shield",
+                    "description": "Required to promote a hearthling to a paladin",
+                    "flavor": "With this holy shield, a paladin will arise."
+                }
             }
-         },
-         "necromancer_outfit": {
-            "display_name": "Necromancer Robes",
-            "description": "The Attire Of A Necromancer"
-         },
-         "necromancer_debuffs": {
+        },
+        "herbalist": {
+            "herbalist_description": {
+                "display_name": "Herbalist"
+            },
+            "recipes": {
+                "blueberry_bush_transmute_recipe": {
+                    "recipe_name": "Blueberry Bush Seeds (x2)"
+                },
+                "daisy_plant_transmute_recipe": {
+                    "recipe_name": "Feverfew Seeds (x2)",
+                    "description": "A traditional medicinal herb which is commonly used to prevent migraine headaches, and is also occasionally grown for ornament.",
+                    "flavor": "Tanacetum parthenium, known as feverfew or bachelor's buttons, is a flowering plant in the daisy family Asteraceae."
+                },
+                "small_healing_tonic_recipe": {
+                    "recipe_name": "Healing Potions (x2)"
+                },
+                "stamina_tonic_recipe": {
+                    "recipe_name": "Stamina Potions (x2)"
+                },
+                "strength_tonic_recipe": {
+                    "recipe_name": "Strength Potions (x2)"
+                },
+                "courage_tonic_recipe": {
+                    "recipe_name": "Courage Potions (x2)"
+                },
+                "energy_tonic_recipe": {
+                    "recipe_name": "Energy Potions (x2)"
+                },
+                "coarse_bandage_recipe": {
+                    "recipe_name": "Coarse Bandages (x2)"
+                },
+                "heavy_bandage_recipe": {
+                    "recipe_name": "Heavy Bandages (x2)"
+                },
+                "light_bandage_recipe": {
+                    "recipe_name": "Light Bandages (x2)"
+                },
+                "tree_seed_apple_recipe": {
+                    "recipe_name": "Tree Sapling - Apple",
+                    "description": "Extract the seed of an apple to plant as a tree.",
+                    "flavor": ""
+                },
+                "tree_seed_banana_recipe": {
+                    "recipe_name": "Tree Sapling - Banana",
+                    "flavor": "",
+                    "description": "Extract the seed of a banana to plant as a tree."
+                },
+                "tree_seed_lime_recipe": {
+                    "recipe_name": "Tree Sapling - Lime",
+                    "flavor": "",
+                    "description": "Extract the seed of a lime to plant as a tree."
+                },
+                "tree_seed_orange_recipe": {
+                    "recipe_name": "Tree Sapling - Orange",
+                    "flavor": "",
+                    "description": "Extract the seed of an orange to plant as a tree."
+                }
+            }
+        },
+        "weaver": {
+            "weaver_description": {
+                "display_name": "Weaver"
+            }
+        },
+        "paladin": {
+            "paladin_description": {
+                "display_name": "Paladin"
+            },
+            "armor": {
+                "paladin_shield": {
+                    "display_name": "Paladin Shield",
+                    "description": "A shield imbued with healing power."
+                }
+            },
+            "buffs": {
+                "courage_aura": {
+                    "display_name": "Inspiring Presence",
+                    "description": "The paladin increases courage of everyone around"
+                },
+                "courage_aura_effect": {
+                    "description": "Courage increased from the presence of a paladin.",
+                    "display_name": "Inspired"
+                },
+                "defense_1": {
+                    "display_name": "Damage Reduction Rank 3",
+                    "description": "Defense gained from equipment increased by 30%"
+                },
+                "defense_2": {
+                    "display_name": "Damage Reduction Rank 4",
+                    "description": "Defense gained from equipment increased by 40%"
+                },
+                "heal_aura": {
+                    "display_name": "Healing Aura",
+                    "description": "The paladin heals everyone around"
+                },
+                "health_1": {
+                    "display_name": "Fortify (Rank 3)",
+                    "description": "The paladin becomes more menacing to enemies, drawing their attention in combat. They also get a health and stamina bonus to keep up."
+                },
+                "health_2": {
+                    "display_name": "Fortify (Rank 4)",
+                    "description": "More fast, more furious"
+                }
+            },
+            "talisman": {
+                "paladin_shield": {
+                    "description": "Required to promote a hearthling to a paladin"
+                }
+            }
+        },
+        "cook": {
+            "recipes": {
+                "cream_recipe": {
+                    "recipe_name": "Cream",
+                    "description": "We can use this for PIE!"
+                },
+                "beef_rib_roast_recipe": {
+                    "recipe_name": "Beef Rib Roast",
+                    "description": "You wont find anything with more meat"
+                },
+                "roast_rack_of_pork_recipe": {
+                    "recipe_name": "Roast Rack of Pork",
+                    "description": "Where is the bacon?"
+                },
+                "apple_pie_recipe": {
+                    "recipe_name": "Apple Pie",
+                    "description": "This is sure to make everyone happy"
+                },
+                "banana_cream_pie_recipe": {
+                    "recipe_name": "Banana Cream Pie",
+                    "description": "Who doesn't like a little banana cream in their mouth?"
+                },
+                "cow_feed_recipe": {
+                    "recipe_name": "Cow Feed",
+                    "description": "Use this to feed your cows"
+                },
+                "pig_feed_recipe": {
+                    "recipe_name": "Pig Feed",
+                    "description": "Throw almost anything in, they'll eat it"
+                },
+                "dough_recipe": {
+                    "recipe_name": "Dough",
+                    "description": "Dough used for baking"
+                },
+                "pepper_recipe": {
+                    "recipe_name": "Pepper",
+                    "description": "A shaker full of pepper"
+                },
+                "pepperoni_recipe": {
+                    "recipe_name": "Pepperoni",
+                    "description": "A pepperoni sausage"
+                }
+            }
+        }
+    },
+    "entities": {
+        "weapons": {
             "flame_skull": {
-               "display_name": "Flaming Skull Burning Slow",
-               "description": "This unit is burned to a slowing hault."
+                "display_name": "Flaming Skull",
+                "description": "Flaming Skull"
+            },
+            "holy_sword": {
+                "display_name": "Holy Sword",
+                "description": "Blessed by GOD, this cross has been made into a formidable weapon."
+            },
+            "paladin_hammer": {
+                "display_name": "Holy Hammer",
+                "description": "A Paladin's Holy Hammer"
             }
-         },
-         "workers": {
-            "miner": {
-               "display_name": "Zombie Miner",
-               "description": "This Undead Work will mine set zones."
-            },
-            "gatherer": {
-               "display_name": "Skeleton Gatherer",
-               "description": "This Undead Work will gather and restock items."
+        },
+        "construction": {
+            "stoned_tunnel_door": {
+                "stoned_tunnel_door_ghost": {
+                    "display_name": "Indestructible Tunnel Door",
+                    "description": "An indestructible tunnel door."
+                }
             }
-         },
-         "necromancer_mask_1": {
-            "display_name": "Apprentice Necromancer Mask",
-            "description": "A Necromancer with a decent amount of training can equip this mask."
-         },
-         "necromancer_mask_2": {
-            "display_name": "Master Necromancer Mask",
-            "description": "Only the highest level of Necromancer can wear this mighty mask."
-         }
-      },
-      "cleric": {
-         "recipes": {
-            "paladins_shield_recipe": {
-               "recipe_name": "Paladin's Shield",
-               "description": "Required to promote a hearthling to a paladin",
-               "flavor": "With this holy shield, a paladin will arise."
+        },
+        "containers": {
+            "box_o_vox_crate": {
+                "box_o_vox_crate_ghost": {
+                    "display_name": "The Box O' Vox",
+                    "description": "This Box Hold Endless Resources"
+                }
+            },
+            "equipment_crate": {
+                "equipment_crate_ghost": {
+                    "display_name": "Equipment Crate",
+                    "description": "A Crate For Equipment"
+                }
+            },
+            "food_crate": {
+                "food_crate_ghost": {
+                    "display_name": "Food Crate",
+                    "description": "A Crate For Food"
+                }
+            },
+            "furniture_crate": {
+                "furniture_crate_ghost": {
+                    "display_name": "Furniture Crate",
+                    "description": "A Crate For Furniture"
+                }
+            },
+            "resources_crate": {
+                "resources_crate_ghost": {
+                    "display_name": "Resources Crate",
+                    "description": "A Crate For Resources"
+                }
+            },
+            "treasure_crate": {
+                "treasure_crate_ghost": {
+                    "display_name": "Treasure Crate",
+                    "description": "A Crate For Treasure"
+                }
+            },
+            "necro_bundle": {
+                "display_name": "Necromancer Starter Bundle",
+                "description": "Loot this for a handful of items to help speed your way to becoming a necromancer."
             }
-         }
-      },
-      "herbalist": {
-         "herbalist_description": {
-            "display_name": "Herbalist"
-         },
-         "recipes": {
-            "blueberry_bush_transmute_recipe": {
-               "recipe_name": "Blueberry Bush Seeds (x2)"
+        },
+        "decoration": {
+            "boxling_statue": {
+                "boxling_statue_ghost": {
+                    "display_name": "Boxling Statue",
+                    "description": "A statue to the almighty Boxlings, from which all has been given to us, the GODs of Boxland."
+                }
             },
-            "daisy_plant_transmute_recipe": {
-               "recipe_name": "Feverfew Seeds (x2)",
-               "description": "A traditional medicinal herb which is commonly used to prevent migraine headaches, and is also occasionally grown for ornament.",
-               "flavor": "Tanacetum parthenium, known as feverfew or bachelor's buttons, is a flowering plant in the daisy family Asteraceae."
-            },
-            "small_healing_tonic_recipe": {
-               "recipe_name": "Healing Potions (x2)"
-            },
-            "stamina_tonic_recipe": {
-               "recipe_name": "Stamina Potions (x2)"
-            },
-            "strength_tonic_recipe": {
-               "recipe_name": "Strength Potions (x2)"
-            },
-            "courage_tonic_recipe": {
-               "recipe_name": "Courage Potions (x2)"
-            },
-            "energy_tonic_recipe": {
-               "recipe_name": "Energy Potions (x2)"
-            },
-            "coarse_bandage_recipe": {
-               "recipe_name": "Coarse Bandages (x2)"
-            },
-            "heavy_bandage_recipe": {
-               "recipe_name": "Heavy Bandages (x2)"
-            },
-            "light_bandage_recipe": {
-               "recipe_name": "Light Bandages (x2)"
-            },
-            "tree_seed_apple_recipe": {
-               "recipe_name": "Tree Sapling - Apple",
-               "description": "Extract the seed of an apple to plant as a tree.",
-               "flavor": ""
-            },
-            "tree_seed_banana_recipe": {
-               "recipe_name": "Tree Sapling - Banana",
-               "flavor": "",
-               "description": "Extract the seed of a banana to plant as a tree."
-            },
-            "tree_seed_lime_recipe": {
-               "recipe_name": "Tree Sapling - Lime",
-               "flavor": "",
-               "description": "Extract the seed of a lime to plant as a tree."
-            },
-            "tree_seed_orange_recipe": {
-               "recipe_name": "Tree Sapling - Orange",
-               "flavor": "",
-               "description": "Extract the seed of an orange to plant as a tree."
+            "craftsman_statue": {
+                "lamppost_blue": {
+                    "lamppost_blue_ghost": {
+                        "description": "A simple lamppost.",
+                        "display_name": "Blue Lamppost"
+                    }
+                },
+                "lamppost_green": {
+                    "lamppost_green_ghost": {
+                        "description": "A simple lamppost.",
+                        "display_name": "Green Lamppost"
+                    }
+                },
+                "lamppost_purple": {
+                    "lamppost_purple_ghost": {
+                        "description": "A simple lamppost.",
+                        "display_name": "Purple Lamppost"
+                    }
+                },
+                "lamppost_red": {
+                    "lamppost_red_ghost": {
+                        "description": "A simple lamppost.",
+                        "display_name": "Red Lamppost"
+                    }
+                },
+                "wall_lamp_blue": {
+                    "wall_lamp_blue_ghost": {
+                        "description": "A hanging wall lamp.",
+                        "display_name": "Blue Wall Lamp"
+                    }
+                },
+                "wall_lamp_green": {
+                    "wall_lamp_green_ghost": {
+                        "description": "A hanging wall lamp.",
+                        "display_name": "Green Wall Lamp"
+                    }
+                },
+                "wall_lamp_purple": {
+                    "wall_lamp_purple_ghost": {
+                        "description": "A hanging wall lamp.",
+                        "display_name": "Purple Wall Lamp"
+                    }
+                },
+                "wall_lamp_red": {
+                    "wall_lamp_red_ghost": {
+                        "description": "A hanging wall lamp.",
+                        "display_name": "Red Wall Lamp"
+                    }
+                },
+                "wall_lamp_white": {
+                    "wall_lamp_white_ghost": {
+                        "description": "A hanging wall lamp.",
+                        "display_name": "White Wall Lamp"
+                    }
+                }
             }
-         }
-      },
-      "weaver": {
-         "weaver_description": {
-            "display_name": "Weaver"
-         }
-      },
-      "paladin": {
-         "paladin_description": {
-            "display_name": "Paladin"
-         },
-         "armor": {
-            "paladin_shield": {
-               "display_name": "Paladin Shield",
-               "description": "A shield imbued with healing power."
+        },
+        "furniture": {
+            "stone_comfy_chair": {
+                "display_name": "Comfy Stone Chair",
+                "description": "For sitting.",
+                "flavor": "What else do you think it was for?"
             }
-         },
-         "buffs": {
-            "courage_aura": {
-               "display_name": "Inspiring Presence",
-               "description": "The paladin increases courage of everyone around"
+        },
+        "crops": {
+            "potato_crop": {
+                "growth_stage": {
+                    "000": {
+                        "name": "Potato Seedling",
+                        "description": "An unrealized potato"
+                    },
+                    "001": {
+                        "name": "Potato Sprout",
+                        "description": "Not edible yet!"
+                    },
+                    "002": {
+                        "name": "Baby Potato",
+                        "description": "Small. Bitter."
+                    },
+                    "003": {
+                        "name": "Ripe Potato",
+                        "description": "Delicious!"
+                    },
+                    "011": {
+                        "name": "Rotten Potato",
+                        "description": "Moldy and disgusting."
+                    }
+                },
+                "display_name": "Potato",
+                "description": "A starchy plant that is one of the most important crops"
             },
-            "courage_aura_effect": {
-               "description": "Courage increased from the presence of a paladin.",
-               "display_name": "Inspired"
+            "tomato_crop": {
+                "growth_stage": {
+                    "000": {
+                        "name": "Tomato Seedling",
+                        "description": "An unrealized tomato"
+                    },
+                    "001": {
+                        "name": "Tomato Sprout",
+                        "description": "Not edible yet!"
+                    },
+                    "002": {
+                        "name": "Tomato Stalk",
+                        "description": "Still a long way to grow."
+                    },
+                    "003": {
+                        "name": "Baby Tomato",
+                        "description": "Small. Bitter."
+                    },
+                    "004": {
+                        "name": "Baby Tomato",
+                        "description": "Small. Bitter."
+                    },
+                    "005": {
+                        "name": "Baby Tomato",
+                        "description": "Extremely unsatisfying to eat."
+                    },
+                    "006": {
+                        "name": "Baby Tomato",
+                        "description": "Extremely unsatisfying to eat."
+                    },
+                    "007": {
+                        "name": "Ripe Tomato",
+                        "description": "Eat me! Eat Me!"
+                    },
+                    "019": {
+                        "name": "Rotten Tomato",
+                        "description": "It's dead."
+                    }
+                },
+                "display_name": "Tomato",
+                "description": "A glossy red edible fruit that is typically eaten as a vegetable"
             },
-            "defense_1": {
-               "display_name": "Damage Reduction Rank 3",
-               "description": "Defense gained from equipment increased by 30%"
+            "strawberry_crop": {
+                "growth_stage": {
+                    "000": {
+                        "name": "Strawberry Seedling",
+                        "description": "An unrealized strawberry"
+                    },
+                    "001": {
+                        "name": "Strawberry Sprout",
+                        "description": "Not edible yet!"
+                    },
+                    "002": {
+                        "name": "Baby Strawberry",
+                        "description": "Small. Bitter."
+                    },
+                    "003": {
+                        "name": "Ripe Strawberry",
+                        "description": "Delicious!"
+                    },
+                    "011": {
+                        "description": "Moldy and disgusting.",
+                        "name": "Rotten Strawberry"
+                    }
+                },
+                "display_name": "Strawberry",
+                "description": "A sweet soft red fruit with a seed-studded surface"
             },
-            "defense_2": {
-               "display_name": "Damage Reduction Rank 4",
-               "description": "Defense gained from equipment increased by 40%"
-            },
-            "heal_aura": {
-               "display_name": "Healing Aura",
-               "description": "The paladin heals everyone around"
-            },
-            "health_1": {
-               "display_name": "Fortify (Rank 3)",
-               "description": "The paladin becomes more menacing to enemies, drawing their attention in combat. They also get a health and stamina bonus to keep up."
-            },
-            "health_2": {
-               "display_name": "Fortify (Rank 4)",
-               "description": "More fast, more furious"
+            "daisy_crop": {
+                "growth_stage": {
+                    "000": {
+                        "name": "Feverfew Seedling"
+                    },
+                    "001": {
+                        "name": "Feverfew Sprout"
+                    },
+                    "002": {
+                        "name": "Feverfew Bud"
+                    },
+                    "003": {
+                        "name": "Feverfew"
+                    }
+                },
+                "display_name": "Feverfew Flower"
             }
-         },
-         "talisman": {
-            "paladin_shield": {
-               "description": "Required to promote a hearthling to a paladin"
-            }
-         }
-      },
-      "cook": {
-         "recipes": {
-            "cream_recipe": {
-               "recipe_name": "Cream",
-               "description": "We can use this for PIE!"
+        },
+        "plants": {
+            "potato": {
+                "potato_basket": {
+                    "display_name": "Potato Basket",
+                    "description": "A basket full of potatoes"
+                },
+                "potato_serving": {
+                    "display_name": "Potato Serving",
+                    "description": "A hardy potato"
+                }
             },
-            "beef_rib_roast_recipe": {
-               "recipe_name": "Beef Rib Roast",
-               "description": "You wont find anything with more meat"
+            "tomato": {
+                "tomato_basket": {
+                    "display_name": "Tomato Basket",
+                    "description": "A basket full of tomatoes"
+                },
+                "tomato_serving": {
+                    "display_name": "Tomato Serving",
+                    "description": "A juicy tomato"
+                }
             },
-            "roast_rack_of_pork_recipe": {
-               "recipe_name": "Roast Rack of Pork",
-               "description": "Where is the bacon?"
-            },
-            "apple_pie_recipe": {
-               "recipe_name": "Apple Pie",
-               "description": "This is sure to make everyone happy"
-            },
-            "banana_cream_pie_recipe": {
-               "recipe_name": "Banana Cream Pie",
-               "description": "Who doesn't like a little banana cream in their mouth?"
-            },
-            "cow_feed_recipe": {
-               "recipe_name": "Cow Feed",
-               "description": "Use this to feed your cows"
-            },
-            "pig_feed_recipe": {
-               "recipe_name": "Pig Feed",
-               "description": "Throw almost anything in, they'll eat it"
-            },
-            "dough_recipe": {
-               "recipe_name": "Dough",
-               "description": "Dough used for baking"
-            },
-            "pepper_recipe": {
-               "recipe_name": "Pepper",
-               "description": "A shaker full of pepper"
-            },
-            "pepperoni_recipe": {
-               "recipe_name": "Pepperoni",
-               "description": "A pepperoni sausage"
-            }
-         }
-      }
-   },
-   "entities": {
-      "weapons": {
-         "flame_skull": {
-            "display_name": "Flaming Skull",
-            "description": "Flaming Skull"
-         },
-         "holy_sword": {
-            "display_name": "Holy Sword",
-            "description": "Blessed by GOD, this cross has been made into a formidable weapon."
-         },
-         "paladin_hammer": {
-            "display_name": "Holy Hammer",
-            "description": "A Paladin's Holy Hammer"
-         }
-      },
-      "construction": {
-         "stoned_tunnel_door": {
-            "stoned_tunnel_door_ghost": {
-               "display_name": "Indestructible Tunnel Door",
-               "description": "An indestructible tunnel door."
-            }
-         }
-      },
-      "containers": {
-         "box_o_vox_crate": {
-            "box_o_vox_crate_ghost": {
-               "display_name": "The Box O' Vox",
-               "description": "This Box Hold Endless Resources"
-            }
-         },
-         "equipment_crate": {
-            "equipment_crate_ghost": {
-               "display_name": "Equipment Crate",
-               "description": "A Crate For Equipment"
-            }
-         },
-         "food_crate": {
-            "food_crate_ghost": {
-               "display_name": "Food Crate",
-               "description": "A Crate For Food"
-            }
-         },
-         "furniture_crate": {
-            "furniture_crate_ghost": {
-               "display_name": "Furniture Crate",
-               "description": "A Crate For Furniture"
-            }
-         },
-         "resources_crate": {
-            "resources_crate_ghost": {
-               "display_name": "Resources Crate",
-               "description": "A Crate For Resources"
-            }
-         },
-         "treasure_crate": {
-            "treasure_crate_ghost": {
-               "display_name": "Treasure Crate",
-               "description": "A Crate For Treasure"
-            }
-         },
-         "necro_bundle": {
-            "display_name": "Necromancer Starter Bundle",
-            "description": "Loot this for a handful of items to help speed your way to becoming a necromancer."
-         }
-      },
-      "decoration": {
-         "boxling_statue": {
-            "boxling_statue_ghost": {
-               "display_name": "Boxling Statue",
-               "description": "A statue to the almighty Boxlings, from which all has been given to us, the GODs of Boxland."
-            }
-         },
-         "craftsman_statue": {
-            "lamppost_blue": {
-               "lamppost_blue_ghost": {
-                  "description": "A simple lamppost.",
-                  "display_name": "Blue Lamppost"
-               }
-            },
-            "lamppost_green": {
-               "lamppost_green_ghost": {
-                  "description": "A simple lamppost.",
-                  "display_name": "Green Lamppost"
-               }
-            },
-            "lamppost_purple": {
-               "lamppost_purple_ghost": {
-                  "description": "A simple lamppost.",
-                  "display_name": "Purple Lamppost"
-               }
-            },
-            "lamppost_red": {
-               "lamppost_red_ghost": {
-                  "description": "A simple lamppost.",
-                  "display_name": "Red Lamppost"
-               }
-            },
-            "wall_lamp_blue": {
-               "wall_lamp_blue_ghost": {
-                  "description": "A hanging wall lamp.",
-                  "display_name": "Blue Wall Lamp"
-               }
-            },
-            "wall_lamp_green": {
-               "wall_lamp_green_ghost": {
-                  "description": "A hanging wall lamp.",
-                  "display_name": "Green Wall Lamp"
-               }
-            },
-            "wall_lamp_purple": {
-               "wall_lamp_purple_ghost": {
-                  "description": "A hanging wall lamp.",
-                  "display_name": "Purple Wall Lamp"
-               }
-            },
-            "wall_lamp_red": {
-               "wall_lamp_red_ghost": {
-                  "description": "A hanging wall lamp.",
-                  "display_name": "Red Wall Lamp"
-               }
-            },
-            "wall_lamp_white": {
-               "wall_lamp_white_ghost": {
-                  "description": "A hanging wall lamp.",
-                  "display_name": "White Wall Lamp"
-               }
-            }
-         }
-      },
-      "furniture": {
-         "stone_comfy_chair": {
-            "display_name": "Comfy Stone Chair",
-            "description": "For sitting.",
-            "flavor": "What else do you think it was for?"
-         }
-      },
-      "crops": {
-         "potato_crop": {
-            "growth_stage": {
-               "000": {
-                  "name": "Potato Seedling",
-                  "description": "An unrealized potato"
-               },
-               "001": {
-                  "name": "Potato Sprout",
-                  "description": "Not edible yet!"
-               },
-               "002": {
-                  "name": "Baby Potato",
-                  "description": "Small. Bitter."
-               },
-               "003": {
-                  "name": "Ripe Potato",
-                  "description": "Delicious!"
-               },
-               "011": {
-                  "name": "Rotten Potato",
-                  "description": "Moldy and disgusting."
-               }
-            },
-            "display_name": "Potato",
-            "description": "A starchy plant that is one of the most important crops"
-         },
-         "tomato_crop": {
-            "growth_stage": {
-               "000": {
-                  "name": "Tomato Seedling",
-                  "description": "An unrealized tomato"
-               },
-               "001": {
-                  "name": "Tomato Sprout",
-                  "description": "Not edible yet!"
-               },
-               "002": {
-                  "name": "Tomato Stalk",
-                  "description": "Still a long way to grow."
-               },
-               "003": {
-                  "name": "Baby Tomato",
-                  "description": "Small. Bitter."
-               },
-               "004": {
-                  "name": "Baby Tomato",
-                  "description": "Small. Bitter."
-               },
-               "005": {
-                  "name": "Baby Tomato",
-                  "description": "Extremely unsatisfying to eat."
-               },
-               "006": {
-                  "name": "Baby Tomato",
-                  "description": "Extremely unsatisfying to eat."
-               },
-               "007": {
-                  "name": "Ripe Tomato",
-                  "description": "Eat me! Eat Me!"
-               },
-               "019": {
-                  "name": "Rotten Tomato",
-                  "description": "It's dead."
-               }
-            },
-            "display_name": "Tomato",
-            "description": "A glossy red edible fruit that is typically eaten as a vegetable"
-         },
-         "strawberry_crop": {
-            "growth_stage": {
-               "000": {
-                  "name": "Strawberry Seedling",
-                  "description": "An unrealized strawberry"
-               },
-               "001": {
-                  "name": "Strawberry Sprout",
-                  "description": "Not edible yet!"
-               },
-               "002": {
-                  "name": "Baby Strawberry",
-                  "description": "Small. Bitter."
-               },
-               "003": {
-                  "name": "Ripe Strawberry",
-                  "description": "Delicious!"
-               },
-               "011": {
-                  "description": "Moldy and disgusting.",
-                  "name": "Rotten Strawberry"
-               }
-            },
-            "display_name": "Strawberry",
-            "description": "A sweet soft red fruit with a seed-studded surface"
-         },
-         "daisy_crop": {
-            "growth_stage": {
-               "000": {
-                  "name": "Feverfew Seedling"
-               },
-               "001": {
-                  "name": "Feverfew Sprout"
-               },
-               "002": {
-                  "name": "Feverfew Bud"
-               },
-               "003": {
-                  "name": "Feverfew"
-               }
-            },
-            "display_name": "Feverfew Flower"
-         }
-      },
-      "plants": {
-         "potato": {
-            "potato_basket": {
-               "display_name": "Potato Basket",
-               "description": "A basket full of potatoes"
-            },
-            "potato_serving": {
-               "display_name": "Potato Serving",
-               "description": "A hardy potato"
-            }
-         },
-         "tomato": {
-            "tomato_basket": {
-               "display_name": "Tomato Basket",
-               "description": "A basket full of tomatoes"
-            },
-            "tomato_serving": {
-               "display_name": "Tomato Serving",
-               "description": "A juicy tomato"
-            }
-         },
-         "apple_tree": {
-            "display_name": "Apple Tree",
-            "description": "Don't trust snakes"
-         },
-         "banana_tree": {
-            "description": "wow look at all those bananas",
-            "display_name": "Banana Tree"
-         },
-         "orange_tree": {
-            "description": "Get Some juicy Oranges",
-            "display_name": "Orange Tree"
-         },
-         "strawberry": {
-            "strawberry_basket": {
-               "description": "A basket full of strawberries",
-               "display_name": "Strawberry Basket"
-            },
-            "strawberry_serving": {
-               "display_name": "Strawberry Serving",
-               "description": "A yummy strawberry"
-            }
-         },
-         "peppercorn_bush": {
-            "unripe_description": "Not yet ripe for harvest.",
-            "display_name": "Peppercorn Plant",
-            "description": "A peppercorn plant. Harvesting this will drop peppercorns to craft pepper."
-         },
-         "daisy_plant": {
-            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
-            "description": "A traditional medicinal herb which is commonly used to prevent migraine headaches, and is also occasionally grown for ornament.",
-            "display_name": "Wild Feverfew",
-            "stem": {
-               "daisy_plant_bud": {
-                  "display_name": "Wild Feverfew Budding Plant"
-               },
-               "daisy_plant_stem": {
-                  "display_name": "Wild Feverfew Stemming Plant"
-               }
-            },
-            "seed": {
-               "daisy_plant_seed_ghost": {
-                  "display_name": "Wild Feverfew Seed"
-               },
-               "daisy_plant_sprout": {
-                  "display_name": "Wild Feverfew Sproutling"
-               }
-            }
-         },
-         "blueberry_bush": {
-            "unripe_description": "Not yet ripe for harvest.",
-            "description": "Harvestable for a meager food supply.",
-            "display_name": "Blueberry Bush",
-            "bud": {
-               "blueberry_bush_plant_bud": {
-                  "display_name": "Budding Blueberry Bush"
-               }
-            },
-            "sprout": {
-               "blueberry_bush_plant_sprout": {
-                  "display_name": "Blueberry Bush Sproutling"
-               }
-            },
-            "seed": {
-               "blueberry_bush_plant_seed_ghost": {
-                  "display_name": "Blueberry Bush Seed"
-               }
-            },
-            "stem": {
-               "blueberry_bush_plant_stem": {
-                  "display_name": "Stemming Blueberry Bush"
-               }
-            }
-         }
-      },
-      "food": {
-         "banana": {
-            "display_name": "Banana",
-            "description": "A long curved fruit that grows in clusters"
-         },
-         "rotten_banana": {
-            "display_name": "Rotten Banana",
-            "description": "So rotten that it's lost all form and function."
-         },
-         "rotten_potato_basket": {
-            "display_name": "Rotten Potato Basket",
-            "description": "So rotten that it's lost all form and function."
-         },
-         "rotten_tomato_basket": {
-            "display_name": "Rotten Tomato Basket",
-            "description": "So rotten that it's lost all form and function."
-         },
-         "apple": {
-            "display_name": "Apple",
-            "description": "A fleshy round edible pome fruit"
-         },
-         "orange": {
-            "display_name": "Orange",
-            "description": "A round juicy citrus fruit with a tough rind"
-         },
-         "cow_feed": {
-            "display_name": "Cow Feed",
-            "description": "A little more Hay for these hefers",
-            "cow_feed_ground": {
-               "display_name": "Cow Feed",
-               "description": "A little more Hay for these hefers"
-            }
-         },
-         "pig_feed": {
-            "display_name": "Pig Feed",
-            "description": "A bag of slop",
-            "pig_feed_ground": {
-               "display_name": "Pig Feed",
-               "description": "Slop it up piggies"
-            }
-         },
-         "beef": {
-            "display_name": "Beef",
-            "description": "Look at that Marbling!"
-         },
-         "pork": {
-            "display_name": "Pork",
-            "description": "I wonder if we can make bacon <3"
-         },
-         "milk": {
-            "display_name": "Milk",
-            "description": "Got Milk?"
-         },
-         "beef_rib_roast": {
-            "beef_rib_roast": {
-               "display_name": "Beef Rib Roast",
-               "description": "Finally some steak"
-            },
-            "beef_rib_roast_serving": {
-               "display_name": "Beef Rib Roast Serving"
-            }
-         },
-         "roast_rack_of_pork": {
-            "roast_rack_of_pork": {
-               "display_name": "Roast Rack of Pork",
-               "description": "Mmmm bacon"
-            },
-            "roast_rack_of_pork_serving": {
-               "display_name": "Roast Rack of Pork Serving"
-            }
-         },
-         "apple_pie": {
-            "apple_pie": {
-               "display_name": "Apple Pie",
-               "description": "It tast just like grandma's"
-            },
-            "apple_pie_serving": {
-               "display_name": "Apple Pie Serving",
-               "description": "Fresh baked apple pie"
-            }
-         },
-         "banana_cream_pie": {
-            "banana_cream_pie": {
-               "display_name": "Banana Cream Pie",
-               "description": "Just look at that whipped topping"
-            },
-            "banana_cream_pie_serving": {
-               "display_name": "Banana Cream Pie Serving",
-               "description": "Yummy delicious banana cream pie"
-            }
-         },
-         "cream": {
-            "display_name": "Cream",
-            "description": "Maybe we can make a whipped topping!?"
-         },
-         "fruit_salad": {
-            "fruit_salad": {
-               "display_name": "Fruit Salad",
-               "description": "Yummy, yummy"
-            },
-            "fruit_salad_serving": {
-               "display_name": "Fruit Salad Serving",
-               "description": "It's gonna be a fruit salad treat"
-            }
-         },
-         "rotten_apple": {
-            "display_name": "Rotten Apple",
-            "description": "So rotten that it's lost all form and function."
-         },
-         "rotten_orange": {
-            "description": "So rotten that it's lost all form and function.",
-            "display_name": "Rotten Orange"
-         },
-         "fruit_smoothie": {
-            "fruit_smoothie": {
-               "display_name": "Fruit Smootie",
-               "description": "A delicious fruit smoothie"
-            },
-            "fruit_smoothie_serving": {
-               "display_name": "Fruit Smoothie",
-               "description": "A delicious fruit smoothie"
-            }
-         },
-         "rotten_strawberry_basket": {
-            "description": "So rotten that it's lost all form and function.",
-            "display_name": "Rotten Strawberry Basket"
-         },
-         "mash_potatoes": {
-            "mash_potatoes": {
-               "display_name": "Mash Potatoes",
-               "description": "Yummy, buttery mash potatoes"
-            },
-            "mash_potatoes_serving": {
-               "display_name": "Mash Potatoes Serving",
-               "description": "Yummy, buttery mash potatoes"
-            }
-         },
-         "dough": {
-            "display_name": "Dough",
-            "description": "Dough used for baking"
-         },
-         "pepper": {
-            "display_name": "Pepper",
-            "description": "A shaker full of pepper"
-         },
-         "peppercorn": {
-            "display_name": "Basket of Peppercorns",
-            "description": "A basket of peppercorns"
-         },
-         "pepperoni": {
-            "display_name": "Pepperoni",
-            "description": "A pepperoni sausage"
-         },
-         "lime": {
-            "display_name": "Lime",
-            "description": "A ripe lime"
-         },
-         "salt": {
-            "description": "A shaker full of salt",
-            "display_name": "Salt"
-         },
-         "blueberry": {
-            "blueberry_basket": {
-               "display_name": "Blueberry Basket",
-               "description": "A basket full of blueberries"
-            },
-            "blueberry_serving": {
-               "description": "An edible blueberry",
-               "display_name": "Blueberry Serving"
-            }
-         },
-         "rotten_blueberry_basket": {
-            "description": "So rotten that it's lost all form and function.",
-            "display_name": "Rotten Blueberry Basket"
-         },
-         "rotten_lime": {
-            "display_name": "Rotten Lime",
-            "description": "So rotten that it's lost all form and function."
-         },
-         "pizza": {
-            "pizza": {
-               "display_name": "Pizza",
-               "description": "Pepperoni pizza is the only pizza. Arguments will be contested to the death."
-            },
-            "pizza_serving": {
-               "display_name": "Pizza Slice",
-               "description": "A slice of pizza."
-            }
-         },
-         "cheese": {
-            "display_name": "Cheese",
-            "description": "This cheese looks yummy."
-         },
-         "ground_beef": {
-            "ground_beef": {
-               "display_name": "Ground Beef",
-               "description": "Ground up meat cooked and ready for eating."
-            },
-            "ground_beef_serving": {
-               "description": "A bowl of ground beef",
-               "display_name": "Ground Beef"
-            }
-         },
-         "rotten_milk": {
-            "display_name": "Rotten Milk",
-            "description": "It's starting to curdle."
-         }
-      },
-      "trees": {
-         "banana_tree": {
-            "banana_tree": {
-               "display_name": "Banana Tree",
-               "description": "Wow! Look at all those bananas"
-            },
-            "small_banana_tree": {
-               "display_name": "Small Banana Tree",
-               "description": "A small tree"
-            },
-            "medium_banana_tree": {
-               "display_name": "Medium Banana Tree",
-               "description": "A medium tree"
-            },
-            "large_banana_tree": {
-               "display_name": "Large Banana Tree",
-               "description": "A large tree"
-            },
-            "sapling_banana_tree": {
-               "display_name": "Banana Tree Sapling",
-               "description": "A banana sapling",
-               "sapling_banana_tree_iconic": {
-                  "description": "A banana sapling"
-               },
-               "sapling_banana_tree_ghost": {
-                  "display_name": "Banana Tree Sapling",
-                  "description": "A banana sapling"
-               }
-            }
-         },
-         "apple_tree": {
             "apple_tree": {
-               "display_name": "Apple Tree",
-               "description": "Don't trust snakes"
+                "display_name": "Apple Tree",
+                "description": "Don't trust snakes"
             },
-            "small_apple_tree": {
-               "display_name": "Small Apple Tree",
-               "description": "A small tree"
+            "banana_tree": {
+                "description": "wow look at all those bananas",
+                "display_name": "Banana Tree"
             },
-            "medium_apple_tree": {
-               "description": "A medium tree",
-               "display_name": "Medium Apple Tree"
-            },
-            "large_apple_tree": {
-               "display_name": "Large Apple Tree",
-               "description": "A large tree"
-            },
-            "sapling_apple_tree": {
-               "description": "An apple sapling",
-               "display_name": "Apple Tree Sapling",
-               "sapling_apple_tree_iconic": {
-                  "description": "An apple sapling"
-               },
-               "sapling_apple_tree_ghost": {
-                  "display_name": "Apple Tree Sapling",
-                  "description": "An apple sapling"
-               }
-            }
-         },
-         "orange_tree": {
             "orange_tree": {
-               "display_name": "Orange Tree",
-               "description": "Get Some juicy Oranges"
+                "description": "Get Some juicy Oranges",
+                "display_name": "Orange Tree"
             },
-            "small_orange_tree": {
-               "display_name": "Small Orange Tree",
-               "description": "A small tree"
+            "strawberry": {
+                "strawberry_basket": {
+                    "description": "A basket full of strawberries",
+                    "display_name": "Strawberry Basket"
+                },
+                "strawberry_serving": {
+                    "display_name": "Strawberry Serving",
+                    "description": "A yummy strawberry"
+                }
             },
-            "medium_orange_tree": {
-               "display_name": "Medium Orange Tree",
-               "description": "A medium tree"
+            "peppercorn_bush": {
+                "unripe_description": "Not yet ripe for harvest.",
+                "display_name": "Peppercorn Plant",
+                "description": "A peppercorn plant. Harvesting this will drop peppercorns to craft pepper."
             },
-            "large_orange_tree": {
-               "display_name": "Large Orange Tree",
-               "description": "A large tree"
+            "daisy_plant": {
+                "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+                "description": "A traditional medicinal herb which is commonly used to prevent migraine headaches, and is also occasionally grown for ornament.",
+                "display_name": "Wild Feverfew",
+                "stem": {
+                    "daisy_plant_bud": {
+                        "display_name": "Wild Feverfew Budding Plant"
+                    },
+                    "daisy_plant_stem": {
+                        "display_name": "Wild Feverfew Stemming Plant"
+                    }
+                },
+                "seed": {
+                    "daisy_plant_seed_ghost": {
+                        "display_name": "Wild Feverfew Seed"
+                    },
+                    "daisy_plant_sprout": {
+                        "display_name": "Wild Feverfew Sproutling"
+                    }
+                }
             },
-            "sapling_orange_tree": {
-               "description": "An orange sapling",
-               "display_name": "Orange Tree Sapling",
-               "sapling_orange_tree_iconic": {
-                  "description": "An orange sapling"
-               },
-               "sapling_orange_tree_ghost": {
-                  "display_name": "Orange Tree Sapling",
-                  "description": "An orange sapling"
-               }
+            "blueberry_bush": {
+                "unripe_description": "Not yet ripe for harvest.",
+                "description": "Harvestable for a meager food supply.",
+                "display_name": "Blueberry Bush",
+                "bud": {
+                    "blueberry_bush_plant_bud": {
+                        "display_name": "Budding Blueberry Bush"
+                    }
+                },
+                "sprout": {
+                    "blueberry_bush_plant_sprout": {
+                        "display_name": "Blueberry Bush Sproutling"
+                    }
+                },
+                "seed": {
+                    "blueberry_bush_plant_seed_ghost": {
+                        "display_name": "Blueberry Bush Seed"
+                    }
+                },
+                "stem": {
+                    "blueberry_bush_plant_stem": {
+                        "display_name": "Stemming Blueberry Bush"
+                    }
+                }
             }
-         },
-         "lime_tree": {
-            "lime_tree": {
-               "display_name": "Lime Tree",
-               "description": "A tree that drops limes."
+        },
+        "food": {
+            "banana": {
+                "display_name": "Banana",
+                "description": "A long curved fruit that grows in clusters"
             },
-            "medium_lime_tree": {
-               "display_name": "Medium Lime Tree",
-               "description": "A medium lime tree"
+            "rotten_banana": {
+                "display_name": "Rotten Banana",
+                "description": "So rotten that it's lost all form and function."
             },
-            "large_lime_tree": {
-               "display_name": "Large Lime Tree",
-               "description": "A large lime tree"
+            "rotten_potato_basket": {
+                "display_name": "Rotten Potato Basket",
+                "description": "So rotten that it's lost all form and function."
             },
-            "sapling_lime_tree": {
-               "description": "A lime sapling",
-               "display_name": "Lime Tree Sapling",
-               "sapling_lime_tree_iconic": {
-                  "description": "Lime Tree Sapling"
-               },
-               "sapling_lime_tree_ghost": {
-                  "display_name": "Lime Tree Sapling",
-                  "description": "A lime sapling"
-               }
+            "rotten_tomato_basket": {
+                "display_name": "Rotten Tomato Basket",
+                "description": "So rotten that it's lost all form and function."
             },
-            "small_lime_tree": {
-               "display_name": "Small Lime Tree",
-               "description": "A small tree"
-            }
-         }
-      },
-      "critters": {
-         "cow": {
-            "species": "Cow",
-            "display_name": "A Cow",
-            "description": "Look at all that beautiful meat.... I mean animal",
-            "unripe_description": "She looks quite empty",
-            "renewable_harvest_status_text": "Milking Cow",
-            "cow_young": {
-               "display_name": "A Calf",
-               "description": "Aww baby steak"
-            }
-         },
-         "pig": {
-            "species": "entities:critters:pig",
-            "display_name": "A entities:critters:pig",
-            "description": "Oink Oink",
-            "pig_young": {
-               "display_name": "A Pigglet",
-               "description": "Aww little piggy"
-            }
-         },
-         "wolf_fox": {
-            "species": "Fox Wolf"
-         }
-      },
-      "resources": {
-         "herb": {
-            "daisy": {
-               "description": "A traditional medicinal herb which is commonly used to prevent migraine headaches, and is also occasionally grown for ornament.",
-               "display_name": "Feverfew Flower"
-            }
-         },
-         "salt_rock": {
-            "salt_rock": {
-               "description": "Salt rock that can be ground down to make salt for cooking.",
-               "display_name": "Salt Rock"
-            }
-         },
-         "grass_bundle": {
-            "display_name": "Grass Bundle"
-         }
-      },
-      "tools": {
-         "boxling_sceptre": {
-            "display_name": "Boxling Sceptre",
-            "description": "The enchanted tool of the Boxlings."
-         }
-      },
-      "terrain": {
-         "ui": {
-            "salt_rock": {
-               "description": "Salt rock that can be ground down to make salt for cooking.",
-               "display_name": "Salt Rock"
+            "apple": {
+                "display_name": "Apple",
+                "description": "A fleshy round edible pome fruit"
             },
-            "clay_mound": {
-               "display_name": "Clay",
-               "description": "Clay that can be mined for pottery uses."
-            }
-         }
-      },
-      "boxling": {
-         "boxling_statue": {
-            "description": "A rock formation shaped like the almighty Boxlings, from which all has been given to us, the GODs of Boxland.",
-            "display_name": "Boxling Formation"
-         }
-      },
-      "monsters": {
-         "forest": {
-            "wolf_fox": {
-               "display_name": "Fox Wolf"
-            }
-         }
-      },
-      "armor": {
-         "paladin_helmet_1": {
-            "display_name": "Apprentice Paladin Helmet",
-            "description": "A Paladin of decent skill can equip this strong helmet."
-         },
-         "necromancer_mask_1": {
-            "display_name": "Apprentice Necromancer Mask",
-            "description": "A Necromancer with a decent amount of training can equip this mask."
-         },
-         "necromancer_mask_2": {
-            "display_name": "Master Necromancer Mask",
-            "description": "Only the highest level of Necromancer can wear this mighty mask."
-         },
-         "paladin_helmet_2": {
-            "description": "The highest level of Paladins can equip the mightiest of helmets.",
-            "display_name": "Master Paladin Helmet"
-         }
-      }
-   },
-   "ui": {
-      "game": {
-         "unit_frame": {
-            "placement_tags": {
-               "workers": "Undead Workers"
-            }
-         },
-         "menu": {
-            "crafter_menu": {
-               "items": {
-                  "cleric": {
-                     "display_name": "Cleric Craft Menu",
-                     "description": "Craft potions & bind flesh together to create a Necronomicon",
-                     "required_job_text": "Requires a cleric"
-                  },
-                  "necromancer": {
-                     "display_name": "Necromancer Craft Menu",
-                     "description": "Craft Undead Workers",
-                     "required_job_text": "Requires a necromancer"
-                  }
-               }
-            }
-         },
-         "zones_mode": {
-            "pasture": {
-               "cow_pasture_name": "Cow Pasture",
-               "cow_pasture_description": "Wow, we can get Beef!",
-               "pig_pasture_name": "Pig Pasture",
-               "pig_pasture_description": "Piggy Pin"
-            }
-         }
-      },
-      "data": {
-         "constants": {
-            "food_fruit_raw_name": "Fruit",
-            "resource_fuel_name": "Fuel"
-         }
-      },
-      "shell": {
-         "select_roster": {
-            "eye_color": "Eye Color",
-            "head_accessory": "Accessories"
-         },
-         "settings": {
-            "controls_tab": {
-               "key_binding_names": {
-                  "craft_cleric": "Cleric Menu",
-                  "craft_necromancer": "Necromancer Menu"
-               }
-            }
-         }
-      }
-   },
-   "stonehearth_mixins": {
-      "food": {
-         "food_decay": {
+            "orange": {
+                "display_name": "Orange",
+                "description": "A round juicy citrus fruit with a tough rind"
+            },
+            "cow_feed": {
+                "display_name": "Cow Feed",
+                "description": "A little more Hay for these hefers",
+                "cow_feed_ground": {
+                    "display_name": "Cow Feed",
+                    "description": "A little more Hay for these hefers"
+                }
+            },
+            "pig_feed": {
+                "display_name": "Pig Feed",
+                "description": "A bag of slop",
+                "pig_feed_ground": {
+                    "display_name": "Pig Feed",
+                    "description": "Slop it up piggies"
+                }
+            },
+            "beef": {
+                "display_name": "Beef",
+                "description": "Look at that Marbling!"
+            },
+            "pork": {
+                "display_name": "Pork",
+                "description": "I wonder if we can make bacon <3"
+            },
             "milk": {
-               "decay_1": {
-                  "description": "Rotten Milk"
-               }
+                "display_name": "Milk",
+                "description": "Got Milk?"
+            },
+            "beef_rib_roast": {
+                "beef_rib_roast": {
+                    "display_name": "Beef Rib Roast",
+                    "description": "Finally some steak"
+                },
+                "beef_rib_roast_serving": {
+                    "display_name": "Beef Rib Roast Serving"
+                }
+            },
+            "roast_rack_of_pork": {
+                "roast_rack_of_pork": {
+                    "display_name": "Roast Rack of Pork",
+                    "description": "Mmmm bacon"
+                },
+                "roast_rack_of_pork_serving": {
+                    "display_name": "Roast Rack of Pork Serving"
+                }
+            },
+            "apple_pie": {
+                "apple_pie": {
+                    "display_name": "Apple Pie",
+                    "description": "It tast just like grandma's"
+                },
+                "apple_pie_serving": {
+                    "display_name": "Apple Pie Serving",
+                    "description": "Fresh baked apple pie"
+                }
+            },
+            "banana_cream_pie": {
+                "banana_cream_pie": {
+                    "display_name": "Banana Cream Pie",
+                    "description": "Just look at that whipped topping"
+                },
+                "banana_cream_pie_serving": {
+                    "display_name": "Banana Cream Pie Serving",
+                    "description": "Yummy delicious banana cream pie"
+                }
             },
             "cream": {
-               "decay_1": {
-                  "description": "Cream Mold"
-               }
+                "display_name": "Cream",
+                "description": "Maybe we can make a whipped topping!?"
+            },
+            "fruit_salad": {
+                "fruit_salad": {
+                    "display_name": "Fruit Salad",
+                    "description": "Yummy, yummy"
+                },
+                "fruit_salad_serving": {
+                    "display_name": "Fruit Salad Serving",
+                    "description": "It's gonna be a fruit salad treat"
+                }
+            },
+            "rotten_apple": {
+                "display_name": "Rotten Apple",
+                "description": "So rotten that it's lost all form and function."
+            },
+            "rotten_orange": {
+                "description": "So rotten that it's lost all form and function.",
+                "display_name": "Rotten Orange"
+            },
+            "fruit_smoothie": {
+                "fruit_smoothie": {
+                    "display_name": "Fruit Smootie",
+                    "description": "A delicious fruit smoothie"
+                },
+                "fruit_smoothie_serving": {
+                    "display_name": "Fruit Smoothie",
+                    "description": "A delicious fruit smoothie"
+                }
+            },
+            "rotten_strawberry_basket": {
+                "description": "So rotten that it's lost all form and function.",
+                "display_name": "Rotten Strawberry Basket"
+            },
+            "mash_potatoes": {
+                "mash_potatoes": {
+                    "display_name": "Mash Potatoes",
+                    "description": "Yummy, buttery mash potatoes"
+                },
+                "mash_potatoes_serving": {
+                    "display_name": "Mash Potatoes Serving",
+                    "description": "Yummy, buttery mash potatoes"
+                }
+            },
+            "dough": {
+                "display_name": "Dough",
+                "description": "Dough used for baking"
+            },
+            "pepper": {
+                "display_name": "Pepper",
+                "description": "A shaker full of pepper"
+            },
+            "peppercorn": {
+                "display_name": "Basket of Peppercorns",
+                "description": "A basket of peppercorns"
+            },
+            "pepperoni": {
+                "display_name": "Pepperoni",
+                "description": "A pepperoni sausage"
+            },
+            "lime": {
+                "display_name": "Lime",
+                "description": "A ripe lime"
+            },
+            "salt": {
+                "description": "A shaker full of salt",
+                "display_name": "Salt"
+            },
+            "blueberry": {
+                "blueberry_basket": {
+                    "display_name": "Blueberry Basket",
+                    "description": "A basket full of blueberries"
+                },
+                "blueberry_serving": {
+                    "description": "An edible blueberry",
+                    "display_name": "Blueberry Serving"
+                }
+            },
+            "rotten_blueberry_basket": {
+                "description": "So rotten that it's lost all form and function.",
+                "display_name": "Rotten Blueberry Basket"
+            },
+            "rotten_lime": {
+                "display_name": "Rotten Lime",
+                "description": "So rotten that it's lost all form and function."
+            },
+            "pizza": {
+                "pizza": {
+                    "display_name": "Pizza",
+                    "description": "Pepperoni pizza is the only pizza. Arguments will be contested to the death."
+                },
+                "pizza_serving": {
+                    "display_name": "Pizza Slice",
+                    "description": "A slice of pizza."
+                }
+            },
+            "cheese": {
+                "display_name": "Cheese",
+                "description": "This cheese looks yummy."
+            },
+            "ground_beef": {
+                "ground_beef": {
+                    "display_name": "Ground Beef",
+                    "description": "Ground up meat cooked and ready for eating."
+                },
+                "ground_beef_serving": {
+                    "description": "A bowl of ground beef",
+                    "display_name": "Ground Beef"
+                }
+            },
+            "rotten_milk": {
+                "display_name": "Rotten Milk",
+                "description": "It's starting to curdle."
             }
-         }
-      }
-   },
-   "kingdom": {
-      "initial_town_name": "Boxland"
-   },
-   "resources": {
-      "fox_wolf_pelt": {
-         "display_name": "Fox Wolf Pelt",
-         "description": "Looks like a pet died."
-      }
-   }
+        },
+        "trees": {
+            "banana_tree": {
+                "banana_tree": {
+                    "display_name": "Banana Tree",
+                    "description": "Wow! Look at all those bananas"
+                },
+                "small_banana_tree": {
+                    "display_name": "Small Banana Tree",
+                    "description": "A small tree"
+                },
+                "medium_banana_tree": {
+                    "display_name": "Medium Banana Tree",
+                    "description": "A medium tree"
+                },
+                "large_banana_tree": {
+                    "display_name": "Large Banana Tree",
+                    "description": "A large tree"
+                },
+                "sapling_banana_tree": {
+                    "display_name": "Banana Tree Sapling",
+                    "description": "A banana sapling",
+                    "sapling_banana_tree_iconic": {
+                        "description": "A banana sapling"
+                    },
+                    "sapling_banana_tree_ghost": {
+                        "display_name": "Banana Tree Sapling",
+                        "description": "A banana sapling"
+                    }
+                }
+            },
+            "apple_tree": {
+                "apple_tree": {
+                    "display_name": "Apple Tree",
+                    "description": "Don't trust snakes"
+                },
+                "small_apple_tree": {
+                    "display_name": "Small Apple Tree",
+                    "description": "A small tree"
+                },
+                "medium_apple_tree": {
+                    "description": "A medium tree",
+                    "display_name": "Medium Apple Tree"
+                },
+                "large_apple_tree": {
+                    "display_name": "Large Apple Tree",
+                    "description": "A large tree"
+                },
+                "sapling_apple_tree": {
+                    "description": "An apple sapling",
+                    "display_name": "Apple Tree Sapling",
+                    "sapling_apple_tree_iconic": {
+                        "description": "An apple sapling"
+                    },
+                    "sapling_apple_tree_ghost": {
+                        "display_name": "Apple Tree Sapling",
+                        "description": "An apple sapling"
+                    }
+                }
+            },
+            "orange_tree": {
+                "orange_tree": {
+                    "display_name": "Orange Tree",
+                    "description": "Get Some juicy Oranges"
+                },
+                "small_orange_tree": {
+                    "display_name": "Small Orange Tree",
+                    "description": "A small tree"
+                },
+                "medium_orange_tree": {
+                    "display_name": "Medium Orange Tree",
+                    "description": "A medium tree"
+                },
+                "large_orange_tree": {
+                    "display_name": "Large Orange Tree",
+                    "description": "A large tree"
+                },
+                "sapling_orange_tree": {
+                    "description": "An orange sapling",
+                    "display_name": "Orange Tree Sapling",
+                    "sapling_orange_tree_iconic": {
+                        "description": "An orange sapling"
+                    },
+                    "sapling_orange_tree_ghost": {
+                        "display_name": "Orange Tree Sapling",
+                        "description": "An orange sapling"
+                    }
+                }
+            },
+            "lime_tree": {
+                "lime_tree": {
+                    "display_name": "Lime Tree",
+                    "description": "A tree that drops limes."
+                },
+                "medium_lime_tree": {
+                    "display_name": "Medium Lime Tree",
+                    "description": "A medium lime tree"
+                },
+                "large_lime_tree": {
+                    "display_name": "Large Lime Tree",
+                    "description": "A large lime tree"
+                },
+                "sapling_lime_tree": {
+                    "description": "A lime sapling",
+                    "display_name": "Lime Tree Sapling",
+                    "sapling_lime_tree_iconic": {
+                        "description": "Lime Tree Sapling"
+                    },
+                    "sapling_lime_tree_ghost": {
+                        "display_name": "Lime Tree Sapling",
+                        "description": "A lime sapling"
+                    }
+                },
+                "small_lime_tree": {
+                    "display_name": "Small Lime Tree",
+                    "description": "A small tree"
+                }
+            }
+        },
+        "critters": {
+            "cow": {
+                "species": "Cow",
+                "display_name": "A Cow",
+                "description": "Look at all that beautiful meat.... I mean animal",
+                "unripe_description": "She looks quite empty",
+                "renewable_harvest_status_text": "Milking Cow",
+                "cow_young": {
+                    "display_name": "A Calf",
+                    "description": "Aww baby steak"
+                }
+            },
+            "pig": {
+                "species": "Pig",
+                "display_name": "A Pig",
+                "description": "Oink Oink",
+                "pig_young": {
+                    "display_name": "A Pigglet",
+                    "description": "Aww little piggy"
+                }
+            },
+            "wolf_fox": {
+                "species": "Fox Wolf"
+            }
+        },
+        "resources": {
+            "herb": {
+                "daisy": {
+                    "description": "A traditional medicinal herb which is commonly used to prevent migraine headaches, and is also occasionally grown for ornament.",
+                    "display_name": "Feverfew Flower"
+                }
+            },
+            "salt_rock": {
+                "salt_rock": {
+                    "description": "Salt rock that can be ground down to make salt for cooking.",
+                    "display_name": "Salt Rock"
+                }
+            },
+            "grass_bundle": {
+                "display_name": "Grass Bundle"
+            }
+        },
+        "tools": {
+            "boxling_sceptre": {
+                "display_name": "Boxling Sceptre",
+                "description": "The enchanted tool of the Boxlings."
+            }
+        },
+        "terrain": {
+            "ui": {
+                "salt_rock": {
+                    "description": "Salt rock that can be ground down to make salt for cooking.",
+                    "display_name": "Salt Rock"
+                },
+                "clay_mound": {
+                    "display_name": "Clay",
+                    "description": "Clay that can be mined for pottery uses."
+                }
+            }
+        },
+        "boxling": {
+            "boxling_statue": {
+                "description": "A rock formation shaped like the almighty Boxlings, from which all has been given to us, the GODs of Boxland.",
+                "display_name": "Boxling Formation"
+            }
+        },
+        "monsters": {
+            "forest": {
+                "wolf_fox": {
+                    "display_name": "Fox Wolf"
+                }
+            }
+        },
+        "armor": {
+            "paladin_helmet_1": {
+                "display_name": "Apprentice Paladin Helmet",
+                "description": "A Paladin of decent skill can equip this strong helmet."
+            },
+            "necromancer_mask_1": {
+                "display_name": "Apprentice Necromancer Mask",
+                "description": "A Necromancer with a decent amount of training can equip this mask."
+            },
+            "necromancer_mask_2": {
+                "display_name": "Master Necromancer Mask",
+                "description": "Only the highest level of Necromancer can wear this mighty mask."
+            },
+            "paladin_helmet_2": {
+                "description": "The highest level of Paladins can equip the mightiest of helmets.",
+                "display_name": "Master Paladin Helmet"
+            }
+        }
+    },
+    "ui": {
+        "game": {
+            "unit_frame": {
+                "placement_tags": {
+                    "workers": "Undead Workers"
+                }
+            },
+            "menu": {
+                "crafter_menu": {
+                    "items": {
+                        "cleric": {
+                            "display_name": "Cleric Craft Menu",
+                            "description": "Craft potions & bind flesh together to create a Necronomicon",
+                            "required_job_text": "Requires a cleric"
+                        },
+                        "necromancer": {
+                            "display_name": "Necromancer Craft Menu",
+                            "description": "Craft Undead Workers",
+                            "required_job_text": "Requires a necromancer"
+                        }
+                    }
+                }
+            },
+            "zones_mode": {
+                "pasture": {
+                    "cow_pasture_name": "Cow Pasture",
+                    "cow_pasture_description": "Wow, we can get Beef!",
+                    "pig_pasture_name": "Pig Pasture",
+                    "pig_pasture_description": "Piggy Pin"
+                }
+            }
+        },
+        "data": {
+            "constants": {
+                "food_fruit_raw_name": "Fruit",
+                "resource_fuel_name": "Fuel"
+            }
+        },
+        "shell": {
+            "select_roster": {
+                "eye_color": "Eye Color",
+                "head_accessory": "Accessories"
+            },
+            "settings": {
+                "controls_tab": {
+                    "key_binding_names": {
+                        "craft_cleric": "Cleric Menu",
+                        "craft_necromancer": "Necromancer Menu"
+                    }
+                }
+            }
+        }
+    },
+    "stonehearth_mixins": {
+        "food": {
+            "food_decay": {
+                "milk": {
+                    "decay_1": {
+                        "description": "Rotten Milk"
+                    }
+                },
+                "cream": {
+                    "decay_1": {
+                        "description": "Cream Mold"
+                    }
+                }
+            }
+        }
+    },
+    "kingdom": {
+        "initial_town_name": "Boxland"
+    },
+    "resources": {
+        "fox_wolf_pelt": {
+            "display_name": "Fox Wolf Pelt",
+            "description": "Looks like a pet died."
+        }
+    }
 }

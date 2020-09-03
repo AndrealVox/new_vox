@@ -22,14 +22,24 @@
             "icon": "file(../pig_feed/pig_feed.png)",
             "material_tags": [
                 "animal_feed",
-                "pig_feed_edible",
+                "pig_feed_ground",
                 "feed_on_ground"
             ],
             "subject_override": "box_o_vox:entities:food:pig_feed"
         },
         "stonehearth:animal_feed": {
             "calorie_gain": 30,
-            "effect_loops": 4
+            "effect_loops": 4,
+            "quality_chances": [
+            [
+               3,
+               0.001
+            ],
+            [
+               2,
+               0.01
+            ]
+         ]
         }
     }
 }
