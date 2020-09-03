@@ -1,0 +1,24 @@
+{
+    "stonehearth_ace:trough": {
+        "feed": {
+            "box_o_vox:entities:food:cow_feed": {
+                "model": "/stonehearth_ace/entities/food/sheep_feed/sheep_feed/sheep_feed_trough.qb",
+                "origin": {
+                    "x": -21,
+                    "y": 0,
+                    "z": -6
+                },
+                "scale": 0.105
+            },
+            "box_o_vox:entities:food:pig_feed": {
+                "model": "/stonehearth_ace/entities/food/sheep_feed/sheep_feed/sheep_feed_trough.qb",
+                "origin": {
+                    "x": -21,
+                    "y": 0,
+                    "z": -6
+                },
+                "scale": 0.105
+            }
+        }
+    }
+}

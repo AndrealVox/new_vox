@@ -5,7 +5,7 @@
    "recipe_name": "i18n(box_o_vox:jobs.cook.recipes.pig_feed_recipe.recipe_name)",
    "description": "i18n(box_o_vox:jobs.cook.recipes.pig_feed_recipe.description)",
    "flavor": "",
-   "portrait": "/box_o_vox/entities/food/pig_feed/pig_feed.png",
+   "portrait": "/box_o_vox/entities/food/pig_feed/pig_feed/pig_feed.png",
    "workshop": "stonehearth:cook:mill",
    "ingredients": [
       {

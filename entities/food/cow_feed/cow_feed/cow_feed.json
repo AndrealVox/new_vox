@@ -35,9 +35,10 @@
             "is_item": true,
             "category": "refined",
             "material_tags": [
-             "stockpile_fodder",
-             "animal_feed",
-             "cow_feed"
+                "stockpile_cooking_ingredient",
+                "stockpile_fodder",
+                "animal_feed",
+                "cow_feed"
          ]
         },
         "stonehearth:appeal": {

@@ -22,6 +22,7 @@
             "icon": "file(../pig_feed/pig_feed.png)",
             "material_tags": [
                 "animal_feed",
+                "pig_feed_edible",
                 "pig_feed_ground",
                 "feed_on_ground"
             ],

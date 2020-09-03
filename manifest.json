@@ -370,6 +370,7 @@
         "stonehearth:kingdoms:human_npcs": "file(data/bov_human_npc_population.json)",
 
 
+        "stonehearth_ace/data/trough_feed/trough_feed.json": "file(data/trough_feed/trough_feed.json)",
         "stonehearth_ace/entities/food/fodder/fodder/fodder.json": "file(entities/food/fodder/fodder/fodder.json)",
         "stonehearth_ace/entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json": "file(entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json)",
         "stonehearth/entities/food/fodder/fodder/fodder.json": "file(entities/food/fodder/fodder/fodder.json)",
