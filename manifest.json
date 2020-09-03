@@ -5,6 +5,11 @@
         "version": 3,
         "steam_file_id": "1359693360"
     },
+    "author": "Andreal Vox",
+    "dependencies": [
+      "extra_map_options",
+      "stonehearth_beam"
+   ],
     "server_init_script": "file(box_o_vox_server)",
     "client_init_script": "file(box_o_vox_client)",
     "default_locale": "en",
