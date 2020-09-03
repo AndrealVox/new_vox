@@ -1,19 +1,19 @@
 {
-   "crops_by_kingdom": {
-      "box_o_vox:server:population:data:kingdoms:boxling": {
-         "fallow": true,
-         "turnip": true,
-         "carrot": true,
-         "pumpkin": true,
-         "silkweed": true,
-         "daisy": true,
-         "frostsnap": true,
-         "corn": true,
-         "wheat": true,
-         "oak_tree": true,
-         "potato": true,
-         "tomato": true,
-         "strawberry": true
-      }
-   }
+    "crops_by_kingdom": {
+        "box_o_vox:server:population:data:kingdoms:boxling": {
+            "fallow": true,
+            "turnip": true,
+            "carrot": true,
+            "pumpkin": true,
+            "silkweed": true,
+            "frostsnap": true,
+            "corn": true,
+            "wheat": true,
+            "oak_tree": true,
+            "daisy": true,
+            "potato": true,
+            "strawberry": true,
+            "tomato": true
+        }
+    }
 }

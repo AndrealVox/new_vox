@@ -94,6 +94,14 @@
         "entities:armor:paladin_helmet_1": "file(entities/armor/paladin_helmet_1)",
         "entities:armor:paladin_helmet_2": "file(entities/armor/paladin_helmet_2)",
         "entities:armor:paladins_shield": "file(entities/armor/paladins_shield)",
+
+        "entities:consumables:seeds:daisy_seeds": "file(entities/consumables/seeds/daisy_seeds)",
+        "entities:consumables:seeds:potato_seeds": "file(entities/consumables/seeds/potato_seeds)",
+        "entities:consumables:seeds:strawberry_seeds": "file(entities/consumables/seeds/strawberry_seeds)",
+        "entities:consumables:seeds:tomato_seeds": "file(entities/consumables/seeds/tomato_seeds)",
+
+        "bov_crop_rewards": "file(data/gm/campaigns/trader/arcs/encounters/bov_returning_crop_trader_encounter.json",
+
         "entities:containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
         "entities:containers:equipment_crate": "file(entities/containers/equipment_crate)",
         "entities:containers:food_crate": "file(entities/containers/food_crate)",
@@ -368,6 +376,11 @@
         "stonehearth_ace/jobs/shepherd/shepherd_description.json": "box_o_vox/jobs/shepherd/shepherd_description_ace.json",
         "stonehearth_ace/data/hotkeys.json": "box_o_vox/data/hotkeys_ace.json",
         "stonehearth:kingdoms:human_npcs": "file(data/bov_human_npc_population.json)",
+        "stonehearth/jobs/farmer/field/field.json": "file(jobs/farmer/field/field.json)",
+
+        "stonehearth/data/gm/campaigns/trader/arcs/encounters/na_returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
+        "stonehearth/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
+        "rayyas_children/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
 
 
         "stonehearth_ace/data/trough_feed/trough_feed.json": "file(data/trough_feed/trough_feed.json)",
