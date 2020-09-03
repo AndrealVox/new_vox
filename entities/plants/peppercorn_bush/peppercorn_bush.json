@@ -3,11 +3,11 @@
     "mixins": "file(peppercorn_bush_ghost.json)",
     "components": {
         "stonehearth:commands": {
-         "commands": [
+            "commands": [
             "autoharvest_mod:commands:autoharvest_off"
          ]
-      },
-      "model_variants": {
+        },
+        "model_variants": {
             "depleted": {
                 "models": [
                "file(peppercorn_bush_empty.qb)"
@@ -47,17 +47,18 @@
          ]
         },
         "stonehearth:renewable_resource_node": {
-            "category": "harvest",
             "resource": "box_o_vox:entities:food:peppercorn",
-            "renewal_time": "10h",
+            "category": "harvest",
+            "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+            "resource_spawn_effect": "stonehearth:effects:harvest_plants_effect",
             "unripe_description": "i18n(box_o_vox:entities.plants.peppercorn_bush.unripe_description)",
-            "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect"
+            "renewal_time": "10h",
         },
         "stonehearth:entity_forms": {
             "iconic_form": "file(peppercorn_bush_iconic.json)",
             "ghost_form": "file(peppercorn_bush_ghost.json)",
             "placeable_on_ground": true,
-            "hide_undeploy_ui": true
+            "hide_undeploy_ui": false
         }
     },
     "entity_data": {

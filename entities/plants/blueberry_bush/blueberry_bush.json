@@ -49,10 +49,10 @@
       "stonehearth:renewable_resource_node": {
          "resource": "box_o_vox:entities:food:blueberry:blueberry_basket",
          "category": "harvest",
-         "renewal_time": "12h+2h",
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
          "resource_spawn_effect": "stonehearth:effects:harvest_berry_effect",
          "unripe_description": "i18n(box_o_vox:entities.plants.blueberry_bush.unripe_description)",
-         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+         "renewal_time": "12h+2h",
          "resource_loot_table": {
             "entries": {
                "optional": {
@@ -78,7 +78,7 @@
          "iconic_form": "file(blueberry_bush_iconic.json)",
          "ghost_form": "file(blueberry_bush_ghost.json)",
          "placeable_on_ground": true,
-         "hide_undeploy_ui": true
+         "hide_undeploy_ui": false
       }
    },
    "entity_data": {
