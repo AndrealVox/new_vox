@@ -113,8 +113,8 @@
             }
         },
         "render_info": {
-            "animation_table": "/stonehearth/data/rigs/entities/critters/sheep",
-            "scale": 0.15
+            "animation_table": "/stonehearth/data/rigs/entities/critters/deer",
+            "scale": 0.1
         }
     },
     "entity_data": {
@@ -135,10 +135,6 @@
         "stonehearth:idle_effects": {
             "effects": [
                 {
-                    "name": "idle",
-                    "weight": 5
-            },
-                {
                     "name": "idle_breathe",
                     "weight": 5
             },
@@ -147,7 +143,11 @@
                     "weight": 5
             },
                 {
-                    "name": "idle_make_noise",
+                    "name": "sit_on_ground",
+                    "weight": 5
+            },
+                {
+                    "name": "idle_make_noise_pig",
                     "weight": 5
             }
          ]
@@ -158,7 +158,7 @@
          ],
             "food_material": "pig_feed_edible",
             "type": "box_o_vox:entities:critters:pig",
-            "size": "large"
+            "size": "small"
         },
         "stonehearth:diet": {
             "food_material": "vegetarian"

@@ -1,0 +1,28 @@
+{
+    "type": "effect",
+    "tracks": {
+        "animation": {
+            "type": "animation_effect",
+            "start_time": 0,
+            "animation": "idle_breathe.json",
+            "loop": true
+        },
+        "sound": {
+            "type": "sound_effect",
+            "duration": 1000,
+            "start_time": 200,
+            "min_distance": 20,
+            "falloff": 7,
+            "volume": 85,
+            "track": {
+                "type": "one_of",
+                "items": [
+               "box_o_vox:sounds:cow_moo_1",
+               "box_o_vox:sounds:cow_moo_2",
+               "box_o_vox:sounds:cow_moo_3",
+               "box_o_vox:sounds:cow_moo_4"
+            ]
+            }
+        }
+    }
+}

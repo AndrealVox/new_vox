@@ -13,6 +13,33 @@
             }
         },
         "stonehearth:evolve": {},
+        "stonehearth:resource_node": {
+            "category": "herding",
+            "harvest_overlay_effect": "stonehearth:effects:chop_overlay_effect",
+            "harvester_effect": "fiddle",
+            "description": "harvest_animal",
+            "resource_spawn_effect": "stonehearth:effects:gib_effect",
+            "resource": "box_o_vox:entities:food:pork",
+            "harvestable_by_harvest_tool": false,
+            "check_owner": true,
+            "resource_loot_table": {
+                "entries": {
+                    "extra_pork": {
+                        "roll_type": "some_of",
+                        "num_rolls": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "items": {
+                            "pelt": {
+                                "uri": "box_o_vox:entities:food:pork",
+                                "weight": 1
+                            }
+                        }
+                    }
+                }
+            }
+        },
         "stonehearth:attributes": {
             "max_health": {
                 "type": "basic",
@@ -70,12 +97,12 @@
             }
         },
         "render_info": {
-            "animation_table": "/stonehearth/data/rigs/entities/critters/sheep",
-            "scale": 0.075
+            "animation_table": "/stonehearth/data/rigs/entities/critters/deer",
+            "scale": 0.07
         }
     },
     "entity_data": {
-        "stonehearth:entity_radius": 0.5,
+        "stonehearth:entity_radius": 0.7,
         "stonehearth:species": {
             "id": "pig",
             "display_name": "i18n(box_o_vox:entities.critters.pig.species)"
@@ -92,10 +119,6 @@
         "stonehearth:idle_effects": {
             "effects": [
                 {
-                    "name": "idle",
-                    "weight": 5
-            },
-                {
                     "name": "idle_breathe",
                     "weight": 5
             },
@@ -104,8 +127,12 @@
                     "weight": 5
             },
                 {
-                    "name": "idle_make_noise",
-                    "weight": 1
+                    "name": "sit_on_ground",
+                    "weight": 5
+            },
+                {
+                    "name": "idle_make_noise_pig",
+                    "weight": 5
             }
          ]
         },
@@ -126,7 +153,9 @@
             "hungry_threshold": 0,
             "famished_threshold": 0,
             "malnourished_threshold": -10,
-            "hourly_calorie_loss": 0.5
+            "hourly_calorie_loss": 0.5,
+            "breakfast_hour": 6,
+            "dinner_hour": 19
         },
         "stonehearth:net_worth": {
             "value_in_gold": 15,

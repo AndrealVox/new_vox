@@ -142,8 +142,8 @@
             }
         },
         "render_info": {
-            "animation_table": "/stonehearth/data/rigs/entities/critters/sheep",
-            "scale": 0.15
+            "animation_table": "/stonehearth/data/rigs/entities/critters/deer",
+            "scale": 0.1
         }
     },
     "entity_data": {
@@ -164,10 +164,6 @@
         "stonehearth:idle_effects": {
             "effects": [
                 {
-                    "name": "idle",
-                    "weight": 5
-            },
-                {
                     "name": "idle_breathe",
                     "weight": 5
             },
@@ -176,7 +172,11 @@
                     "weight": 5
             },
                 {
-                    "name": "idle_make_noise",
+                    "name": "sit_on_ground",
+                    "weight": 5
+            },
+                {
+                    "name": "idle_make_noise_cow",
                     "weight": 5
             }
          ]

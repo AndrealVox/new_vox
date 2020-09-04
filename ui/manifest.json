@@ -25,10 +25,7 @@
         "stonehearth/ui/root/css/images/gui/tab_active.png": "file(gui/tab_active.png)",
         "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json": "box_o_vox/entities/gizmos/camp_standard/camp_standard_ghost.json",
         "stonehearth/ui/game/create_camp/create_camp.less": "file(game/create_camp/create_camp.less)",
-        "stonehearth/ui/game/create_camp/images/banner.png": "file(game/create_camp/images/banner.png)",
-        "stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png": "file(ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png)",
-        "stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png": "file(ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png)",
-        "stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png": "file(ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)"
+        "stonehearth/ui/game/create_camp/images/banner.png": "file(game/create_camp/images/banner.png)"
     },
     "ui": {
         "less": [

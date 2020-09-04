@@ -28,31 +28,31 @@
             {
                "id": "makers_bonus_1",
                "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.hearth_upgrade_makers.achievements.000)",
-               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "makers_bonus_2",
                "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.hearth_upgrade_makers.achievements.001)",
-               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "tier_2_building_templates",
                "name": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_2_bldg_template)",
-               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "tier_2_shops",
                "name": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_2_shops)",
-               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "tier_2_bgm",
                "name": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_2_BGM)",
-               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             }
          ]

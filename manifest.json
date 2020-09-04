@@ -315,7 +315,15 @@
         "server:population:data:kingdoms:boxling": "file(services/server/population/data/boxling_population.json)",
         "server:population:data:kingdoms:summon": "file(services/server/population/data/summon_population.json)",
         "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
-        "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",
+        "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.ogg)",
+        "sounds:cow_moo_1": "file(data/sounds/effects/cow_moo_1.ogg)",
+        "sounds:cow_moo_2": "file(data/sounds/effects/cow_moo_2.ogg)",
+        "sounds:cow_moo_3": "file(data/sounds/effects/cow_moo_3.ogg)",
+        "sounds:cow_moo_4": "file(data/sounds/effects/cow_moo_4.ogg)",
+        "sounds:pig_oink_1": "file(data/sounds/effects/pig_oink_1.ogg)",
+        "sounds:pig_oink_2": "file(data/sounds/effects/pig_oink_2.ogg)",
+        "sounds:pig_oink_3": "file(data/sounds/effects/pig_oink_3.ogg)",
+        "sounds:pig_oink_4": "file(data/sounds/effects/pig_oink_4.ogg)",
         "startmenu": "file(data/ui/start_menu.json)",
         "weather:enchanted_mist:mist": "file(data/weather/enchanted_mist/mist.json)"
     },
@@ -386,6 +394,8 @@
         "stonehearth/data/gm/campaigns/trader/arcs/encounters/na_returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
         "stonehearth/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
         "rayyas_children/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
+
+        "stonehearth/data/rigs/entities/critters/deer/deer.json": "box_o_vox/data/rigs/entities/critters/deer/deer.json",
 
 
         "stonehearth_ace/data/trough_feed/trough_feed.json": "file(data/trough_feed/trough_feed.json)",

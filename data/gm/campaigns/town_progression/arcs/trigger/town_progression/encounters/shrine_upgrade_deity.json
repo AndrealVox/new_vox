@@ -26,25 +26,25 @@
             {
                "id": "deity_bonus",
                "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_deity.achievements.000)",
-               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "deity_decorations_1",
                "name": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade_deity.achievements.001)",
-               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "deity_decorations_2",
                "name": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade_deity.achievements.002)",
-               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "tier_3_bgm",
                "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_deity.achievements.004)",
-               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             }
          ]
