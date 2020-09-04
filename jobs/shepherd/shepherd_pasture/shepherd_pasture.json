@@ -9,10 +9,11 @@
                     "min_population": 2,
                     "reproduction_uri": "box_o_vox:entities:critters:cow:young",
                     "max_num_per_10_square_unit": 1.0,
-                    "base_reproduction_period": "48h",
-                    "min_reproduction_period": "12h",
+                    "base_reproduction_period": "72h",
+                    "min_reproduction_period": "24h",
                     "feed_uri": "box_o_vox:entities:food:cow_feed",
-                    "feed_material": "cow_feed"
+                    "feed_material": "cow_feed",
+                    "ordinal": 1.0001
                 },
                 "box_o_vox:entities:critters:pig": {
                     "name": "i18n(box_o_vox:ui.game.zones_mode.pasture.pig_pasture_name)",
@@ -21,10 +22,11 @@
                     "min_population": 2,
                     "reproduction_uri": "box_o_vox:entities:critters:pig:young",
                     "max_num_per_10_square_unit": 1.0,
-                    "base_reproduction_period": "24h",
-                    "min_reproduction_period": "8h",
+                    "base_reproduction_period": "48h",
+                    "min_reproduction_period": "24h",
                     "feed_uri": "box_o_vox:entities:food:pig_feed",
-                    "feed_material": "pig_feed"
+                    "feed_material": "pig_feed",
+                    "ordinal": 1.0002
                 }
             }
         }

@@ -404,9 +404,13 @@
         "stonehearth/entities/food/fodder/fodder/fodder.json": "file(entities/food/fodder/fodder/fodder.json)",
         "stonehearth/entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json": "file(entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json)",
 
+        "stonehearth_ace/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "box_o_vox/jobs/shepherd/shepherd_pasture/ace_shepherd_pasture.json",
+
         "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",
         "box_o_vox/jobs/cook/recipes/recipes.json": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json",
-        "box_o_vox/jobs/mason/recipes/recipes.json": "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json"
+        "box_o_vox/jobs/mason/recipes/recipes.json": "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json",
+
+        "box_o_vox/entities/critters/cow/cow.json": "stonehearth_ace/box_o_vox/cow/moomoo.json"
     },
     "overrides": {
         "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
@@ -415,7 +419,9 @@
 
         "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)",
         "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json": "file(jobs/cook/recipes/ace_recipes.json)",
-        "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json": "file(jobs/mason/recipes/recipes_ace.json)"
+        "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json": "file(jobs/mason/recipes/recipes_ace.json)",
+
+        "stonehearth_ace/box_o_vox/cow/moomoo.json": "file(entities/critters/cow/ace_moomoo.json)"
     },
     "controllers": {
         "class:cleric": "file(jobs/cleric/cleric.lua)",

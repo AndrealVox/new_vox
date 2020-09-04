@@ -55,7 +55,7 @@
             },
             "speed": {
                 "type": "basic",
-                "value": 20
+                "value": 50
             },
             "reproduction_rate_multiplier": {
                 "type": "basic",

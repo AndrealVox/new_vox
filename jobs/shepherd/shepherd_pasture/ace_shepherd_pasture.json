@@ -1,0 +1,12 @@
+{
+    "components": {
+        "stonehearth:shepherd_pasture": {
+            "pasture_data": {
+                "mixintypes": {
+                    "stonehearth_ace:moomoo": "remove",
+                    "stonehearth:rabbit": "remove"
+                }
+            }
+        }
+    }
+}

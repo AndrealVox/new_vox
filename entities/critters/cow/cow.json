@@ -24,14 +24,10 @@
                 "entries": {
                     "optional": {
                         "num_rolls": {
-                            "min": 0,
-                            "max": 1
+                            "min": 1,
+                            "max": 2
                         },
                         "items": {
-                            "none": {
-                                "uri": "",
-                                "weight": 3
-                            },
                             "extra_milk": {
                                 "uri": "box_o_vox:entities:food:milk",
                                 "weight": 1
@@ -59,7 +55,7 @@
                             "max": 3
                         },
                         "items": {
-                            "pelt": {
+                            "beef": {
                                 "uri": "box_o_vox:entities:food:beef",
                                 "weight": 1
                             }
@@ -83,7 +79,7 @@
             },
             "speed": {
                 "type": "basic",
-                "value": 30
+                "value": 45
             },
             "reproduction_rate_multiplier": {
                 "type": "basic",

@@ -1,0 +1,71 @@
+{
+    "components": {
+        "stonehearth:renewable_resource_node": {
+            "resource_loot_table": {
+                "entries": {
+                    "optional": {
+                        "items": {
+                            "moomoo_milk": {
+                                "uri": "stonehearth_ace:drink:dairy:moomoo_milk",
+                                "weight": 1
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "stonehearth:resource_node": {
+            "resource_loot_table": {
+                "entries": {
+                    "extra_beef": {
+                        "items": {
+                            "steak": {
+                                "uri": "stonehearth_ace:food:steak",
+                                "weight": 1
+                            }
+                        }
+                    },
+                    "jerky": {
+                        "roll_type": "some_of",
+                        "num_rolls": {
+                            "min": 4,
+                            "max": 8
+                        },
+                        "items": {
+                            "pelt": {
+                                "uri": "stonehearth_ace:beef_jerky",
+                                "weight": 1
+                            }
+                        }
+                    },
+                    "bone": {
+                        "roll_type": "some_of",
+                        "num_rolls": {
+                            "min": 2,
+                            "max": 3
+                        },
+                        "items": {
+                            "bone": {
+                                "uri": "stonehearth_ace:resources:bone:bone_material",
+                                "weight": 1
+                            }
+                        }
+                    },
+                    "pelts": {
+                        "roll_type": "some_of",
+                        "num_rolls": {
+                            "min": 1,
+                            "max": 2
+                        },
+                        "items": {
+                            "bone": {
+                                "uri": "stonehearth_ace:resources:moomoo_pelt",
+                                "weight": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

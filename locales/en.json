@@ -736,11 +736,11 @@
                 },
                 "cow_feed_recipe": {
                     "recipe_name": "Cow Feed",
-                    "description": "Use this to feed your cows"
+                    "description": "A supplement for a healthy cow diet"
                 },
                 "pig_feed_recipe": {
                     "recipe_name": "Pig Feed",
-                    "description": "Throw almost anything in, they'll eat it"
+                    "description": "A supplement for a healthy pig diet"
                 },
                 "dough_recipe": {
                     "recipe_name": "Dough",
@@ -1128,18 +1128,18 @@
             },
             "cow_feed": {
                 "display_name": "Cow Feed",
-                "description": "A little more Hay for these hefers",
+                "description": "Give to cows to supplement for grazing.",
                 "cow_feed_ground": {
                     "display_name": "Cow Feed",
-                    "description": "A little more Hay for these hefers"
+                    "description": "Food for cows"
                 }
             },
             "pig_feed": {
                 "display_name": "Pig Feed",
-                "description": "A bag of slop",
+                "description": "Give to pigs to supplement for grazing.",
                 "pig_feed_ground": {
                     "display_name": "Pig Feed",
-                    "description": "Slop it up piggies"
+                    "description": "Food for pigs"
                 }
             },
             "beef": {
@@ -1431,18 +1431,18 @@
             "cow": {
                 "species": "Cow",
                 "display_name": "A Cow",
-                "description": "Look at all that beautiful meat.... I mean animal",
-                "unripe_description": "She looks quite empty",
+                "description": "Someone looks ready for a milking",
+                "unripe_description": "Look at all that beautiful meat.... I mean animal",
                 "renewable_harvest_status_text": "Milking Cow",
                 "cow_young": {
                     "display_name": "A Calf",
-                    "description": "Aww baby steak"
+                    "description": "Aww baby cow"
                 }
             },
             "pig": {
                 "species": "Pig",
                 "display_name": "A Pig",
-                "description": "Oink Oink",
+                "description": "This little piggie did not go to the market, this little piggie stayed home.",
                 "pig_young": {
                     "display_name": "A Pigglet",
                     "description": "Aww little piggy"
@@ -1545,9 +1545,9 @@
             "zones_mode": {
                 "pasture": {
                     "cow_pasture_name": "Cow Pasture",
-                    "cow_pasture_description": "Wow, we can get Beef!",
-                    "pig_pasture_name": "Pig Pasture",
-                    "pig_pasture_description": "Piggy Pin"
+                    "cow_pasture_description": "Cows produe milk often enough. Slaughtering them will produce raw beef",
+                    "pig_pasture_name": "Pig Pen",
+                    "pig_pasture_description": "Pigs are messy animals, but they can still be quite useful. Slaughtering pigs will allow the collection of pork"
                 }
             }
         },
