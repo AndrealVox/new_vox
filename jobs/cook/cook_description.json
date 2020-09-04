@@ -1,25 +1,14 @@
 {
-   "type": "job",
-   "enabled": true,
-   "job_id": "cook",
-   "display_order": 6.5,
-   "alias": "stonehearth:jobs:cook",
-   "display_name": "i18n(stonehearth:jobs.cook.cook_description.display_name)",
-   "controller": "stonehearth:class:cook",
-   "description": "i18n(stonehearth:jobs.cook.cook_description.description)",
-   "requirements": "i18n(stonehearth:jobs.cook.cook_description.requirements)",
-   "talisman_uri": "stonehearth:cook:talisman",
-   "default_stance": "passive",
-   "promotion_activity_name": "promote_cook",
-   "parent_job": "stonehearth:jobs:worker",
-   "abilities": "file(cook_abilities)",
-   "equipment": {
-      "torso": "file(cook_outfit)",
-      "mainhand": "stonehearth:cook:spoon"
-   },
-   "roles": "cook_job crafter",
-   "icon": "file(images/icon.png)",
-   "task_groups": [
+    "mixins": "stonehearth:jobs:cook",
+    "display_order": 6.5,
+    "parent_job": "stonehearth:jobs:worker",
+    "parent_level_requirement": 0,
+    "abilities": "file(cook_abilities)",
+    "icon": "file(images/icon.png)",
+    "mixintypes": {
+        "task_groups": "override"
+    },
+    "task_groups": [
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
       "stonehearth:task_groups:placement",
@@ -27,92 +16,7 @@
       "stonehearth:task_groups:crafting",
       "stonehearth:task_groups:town_alert"
    ],
-   "crafter": {
-      "work_effect": "fiddle",
-      "recipe_list": "file(recipes/recipes.json)"
-   },
-   "workshop": {
-      "portrait": "file(./images/workshop_portrait_level_1.png)",
-      "workbench_type": "stonehearth:cook:workbench",
-      "skin_class": "cook",
-      "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
-      "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
-   },
-   "xp_rewards": {
-      "craft_level_0": 27,
-      "craft_level_1": 28,
-      "craft_level_2": 29,
-      "craft_level_3": 30,
-      "craft_level_4": 31,
-      "craft_level_5": 32,
-      "craft_level_6": 33
-   },
-   "max_level": 6,
-   "level_data": {
-      "1": {
-         "perks": [
-            {
-               "name": "i18n(stonehearth:jobs.cook.cook_description.level_1_data.perk_000_name)",
-               "id": "crafter_recipe_unlock_1",
-               "icon": "file(images/standard_catalog.png)",
-               "description": "i18n(stonehearth:jobs.cook.cook_description.level_1_data.perk_000_description)",
-               "level": 1
-            }
-         ]
-      },
-      "2": {
-         "perks": [
-            {
-               "name": "i18n(stonehearth:jobs.cook.cook_description.level_2_data.perk_000_name)",
-               "id": "crafter_recipe_unlock_2",
-               "icon": "file(images/extended_catalog.png)",
-               "description": "i18n(stonehearth:jobs.cook.cook_description.level_2_data.perk_000_description)",
-               "level": 2
-            }
-         ]
-      },
-      "3": {
-         "perks": [
-            {
-               "name": "i18n(stonehearth:jobs.cook.cook_description.level_3_data.perk_000_name)",
-               "id": "crafter_recipe_unlock_3",
-               "icon": "file(images/cookbook2.png)",
-               "description": "i18n(stonehearth:jobs.cook.cook_description.level_3_data.perk_000_description)",
-               "level": 3
-            },
-            {
-               "name": "i18n(stonehearth:jobs.cook.cook_description.level_3_data.perk_001_name)",
-               "id": "crafter_fine_items_unlock",
-               "icon": "file(images/unlock_quality_fine.png)",
-               "description": "i18n(stonehearth:jobs.cook.cook_description.level_3_data.perk_001_description)",
-               "level": 3
-            }
-         ]
-      },
-      "4": {
-         "perks": [
-            {
-               "name": "i18n(stonehearth:jobs.cook.cook_description.level_4_data.perk_000_name)",
-               "id": "crafter_recipe_unlock_4",
-               "icon": "file(images/cookbook3.png)",
-               "description": "i18n(stonehearth:jobs.cook.cook_description.level_4_data.perk_000_description)",
-               "level": 4
-            }
-         ]
-      },
-      "5": {
-         "perks": [
-            {
-               "name": "i18n(stonehearth:jobs.cook.cook_description.level_5_data.perk_000_name)",
-               "id": "crafter_excellent_items_unlock",
-               "icon": "file(images/unlock_quality_excellent.png)",
-               "description": "i18n(stonehearth:jobs.cook.cook_description.level_5_data.perk_000_description)",
-               "level": 5
-            }
-         ]
-      },
-      "6": {
-         "title": "i18n(stonehearth:jobs.cook.cook_description.level_6_data.title)"
-      }
-   }
+    "crafter": {
+        "recipe_list": "file(recipes/recipes.json)"
+    }
 }
