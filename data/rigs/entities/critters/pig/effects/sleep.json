@@ -2,10 +2,10 @@
    "type" : "effect",
    "tracks": {
       "animation": {
-         "type": "animation_effect",
-         "start_time": 0,
-         "animation": "sleep.json",
-         "loop": true
+            "type": "animation_effect",
+            "start_time": 0,
+            "animation": "sleep.json",
+            "loop": true
       },
       "unit_status_effect": {
          "type": "unit_status_effect",
@@ -20,11 +20,21 @@
                }
             ]
          },
+         "duration": 1500,
          "width": 1.5,
          "height": 2.55,
          "xOffset": 0,
          "yOffset": -0.4,
          "bone": "ATTOVERCOG"
+     },
+     "sound": {
+         "type": "sound_effect",
+         "loop" : true,
+         "start_time": 10,
+         "min_distance": 15,
+         "falloff" : 8,
+         "volume": 25,
+         "track" : "stonehearth:sounds:sleeping_lullaby"        
       }
    }
 }

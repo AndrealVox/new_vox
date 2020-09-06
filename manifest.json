@@ -100,6 +100,8 @@
         "entities:armor:paladin_helmet_2": "file(entities/armor/paladin_helmet_2)",
         "entities:armor:paladins_shield": "file(entities/armor/paladins_shield)",
 
+        "entities:consumables:manure": "file(entities/consumables/manure)",
+
         "entities:consumables:seeds:daisy_seeds": "file(entities/consumables/seeds/daisy_seeds)",
         "entities:consumables:seeds:potato_seeds": "file(entities/consumables/seeds/potato_seeds)",
         "entities:consumables:seeds:strawberry_seeds": "file(entities/consumables/seeds/strawberry_seeds)",
@@ -395,7 +397,8 @@
         "stonehearth/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
         "rayyas_children/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
 
-        "stonehearth/data/rigs/entities/critters/deer/deer.json": "box_o_vox/data/rigs/entities/critters/deer/deer.json",
+        "stonehearth/data/rigs/entities/critters/deer/deer.json": "box_o_vox/data/rigs/entities/critters/cow/cow.json",
+        "stonehearth/data/rigs/entities/critters/boar/boar.json": "box_o_vox/data/rigs/entities/critters/pig/pig.json",
 
 
         "stonehearth_ace/data/trough_feed/trough_feed.json": "file(data/trough_feed/trough_feed.json)",
@@ -416,7 +419,9 @@
         "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
         "stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
         "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
+
         "stonehearth/ui/shell/title/images/foreground.png": "file(ui/shell/title/images/foreground.png)",
+        "stonehearth/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/stonehearth_ace_foreground.png)",
         "stonehearth_ace/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/stonehearth_ace_foreground.png)",
 
         "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)",
@@ -438,7 +443,8 @@
     "ui": {
         "less": [
          "file(jobs/cleric/skin/workshop.less)",
-         "file(jobs/necromancer/skin/workshop.less)"
+         "file(jobs/necromancer/skin/workshop.less)",
+         "file(ui/shell/title/title.less)"
       ]
     }
 }

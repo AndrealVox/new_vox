@@ -4,8 +4,8 @@
       "animation": {
             "type": "animation_effect",
             "start_time": 0,
-            "animation": "idle_sway.json",
-            "loop": false
+            "animation": "sleep_goto_idle.json",
+            "loop": true
       }
    }
 }

@@ -1,0 +1,74 @@
+{
+    "mixins": [
+       "stonehearth:mixins:item_properties"
+   ],
+    "type": "entity",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
+               "file(manure.qb)"
+            ]
+            },
+            "render_info": {
+                "scale": 0.05
+            }
+        },
+        "effect_list": {
+            "default": "stonehearth:effects:rotten_food"
+        },
+        "mob": {
+            "model_origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "stonehearth:stacks": {
+            "max_stacks": 8
+        }
+    },
+    "entity_data": {
+        "stonehearth:net_worth": {
+            "value_in_gold": 8,
+            "rarity": "uncommon",
+            "shop_info": {
+                "buyable": false,
+                "sellable": true,
+                "shopkeeper_level": 2,
+                "shopkeeper_type": "caravan"
+            }
+        },
+        "stonehearth:catalog": {
+            "display_name": "Manure",
+            "description": "i18n(stonehearth_ace:entities.consumables.fertilizer_upgrade_2.description)",
+            "icon": "file(manure.png)",
+            "is_item": true,
+            "category": "consumable",
+            "material_tags": [
+            "fertilizer",
+            "fertilizer_upgrade_2",
+            "manure",
+            "consumable",
+            "stockpile_fertilizer"
+         ]
+        },
+        "stonehearth_ace:fertilizer": {
+            "ilevel": 3,
+            "quality_chances": [
+            [
+               4,
+               0.5
+            ],
+            [
+               3,
+               0.25
+            ],
+            [
+               2,
+               0.125
+            ]
+         ]
+        }
+    }
+}

@@ -97,12 +97,12 @@
             }
         },
         "render_info": {
-            "animation_table": "/stonehearth/data/rigs/entities/critters/deer",
-            "scale": 0.07
+            "animation_table": "/stonehearth/data/rigs/entities/critters/boar",
+            "scale": 0.075
         }
     },
     "entity_data": {
-        "stonehearth:entity_radius": 0.7,
+        "stonehearth:entity_radius": 0.75,
         "stonehearth:species": {
             "id": "pig",
             "display_name": "i18n(box_o_vox:entities.critters.pig.species)"

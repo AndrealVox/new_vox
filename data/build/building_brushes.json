@@ -1,230 +1,234 @@
 {
-   "type": "index",
-   "always_available": {
-      "wood resource": {
-         "colors": {
-            "#790000": {
-               "display_name": "Vox Red 1(Box O' Vox)",
-               "ordinal": 0.00001
-            },
-            "#940000": {
-               "display_name": "Vox Red 2(Box O' Vox)",
-               "ordinal": 0.00002
-            },
-            "#AD0000": {
-               "display_name": "Vox Red 3(Box O' Vox)",
-               "ordinal": 0.00003
+    "type": "index",
+    "always_available": {
+        "wood resource": {
+            "colors": {
+                "#802020": {
+                    "display_name": "Vox Red 1(Box O' Vox)",
+                    "ordinal": 0.00001
+                },
+                "#bf3030": {
+                    "display_name": "Vox Red 2(Box O' Vox)",
+                    "ordinal": 0.00002
+                },
+                "#ff4040": {
+                    "display_name": "Vox Red 3(Box O' Vox)",
+                    "ordinal": 0.00003
+                }
             }
-         }
-      },
-      "stone resource": {
-         "colors": {
-            "#344913": {
-               "display_name": "Vox Green 1(Box O' Vox)",
-               "ordinal": 0.00009
-            },
-            "#456119": {
-               "display_name": "Vox Green 2(Box O' Vox)",
-               "ordinal": 0.00010
-            },
-            "#587A20": {
-               "display_name": "Vox Green 3(Box O' Vox)",
-               "ordinal": 0.00011
-            },
-            "#491334": {
-               "display_name": "Vox Purple 1(Box O' Vox)",
-               "ordinal": 0.00012
-            },
-            "#611945": {
-               "display_name": "Vox Purple 2(Box O' Vox)",
-               "ordinal": 0.00013
-            },
-            "#7A2057": {
-               "display_name": "Vox Purple 3(Box O' Vox)",
-               "ordinal": 0.00014
-            },
-            "#133449": {
-               "display_name": "Vox Blue 1(Box O' Vox)",
-               "ordinal": 0.00001
-            },
-            "#194561": {
-               "display_name": "Vox Blue 2(Box O' Vox)",
-               "ordinal": 0.00002
-            },
-            "#20587A": {
-               "display_name": "Vox Blue 3(Box O' Vox)",
-               "ordinal": 0.00003
-            },
-            "#FFFFFF": {
-               "display_name": "Vox White 1(Box O' Vox)",
-               "ordinal": 0.00015
-            },
-            "#2B2B2B": {
-               "display_name": "Vox Gray 1(Box O' Vox)",
-               "ordinal": 0.00004
-            },
-            "#3C3C3C": {
-               "display_name": "Vox Gray 2(Box O' Vox)",
-               "ordinal": 0.00005
-            },
-            "#505050": {
-               "display_name": "Vox Gray 3(Box O' Vox)",
-               "ordinal": 0.00006
-            },
-            "#666666": {
-               "display_name": "Vox Gray 4(Box O' Vox)",
-               "ordinal": 0.00007
-            },
-            "#7C7C7C": {
-               "display_name": "Vox Gray 5(Box O' Vox)",
-               "ordinal": 0.00008
-            },
-            "#2A8037": {
-               "display_name": "Boxland Grass (Spring)",
-               "ordinal": 0.00016
-            },
-            "#32BC4C": {
-               "display_name": "Boxland Grass Edge 1 (Spring)",
-               "ordinal": 0.00017
-            },
-            "#31A444": {
-               "display_name": "Boxland Grass Edge 2 (Spring)",
-               "ordinal": 0.00018
-            },
-            "#21622A": {
-               "display_name": "Boxland Grass Hills (Spring)",
-               "ordinal": 0.00019
-            },
-            "#544037": {
-               "display_name": "Boxland Grass (Summer)",
-               "ordinal": 0.00020
-            },
-            "#645E4C": {
-               "display_name": "Boxland Grass Edge 1 (Summer)",
-               "ordinal": 0.00021
-            },
-            "#625244": {
-               "display_name": "Boxland Grass Edge 2 (Summer)",
-               "ordinal": 0.00022
-            },
-            "#42312A": {
-               "display_name": "Boxland Grass Hills (Summer)",
-               "ordinal": 0.00023
-            },
-            "#2A4037": {
-               "display_name": "Boxland Grass (Autumn)",
-               "ordinal": 0.00024
-            },
-            "#325E4C": {
-               "display_name": "Boxland Grass Edge 1 (Autumn)",
-               "ordinal": 0.00025
-            },
-            "#315244": {
-               "display_name": "Boxland Grass Edge 2 (Autumn)",
-               "ordinal": 0.00026
-            },
-            "#21312A": {
-               "display_name": "Boxland Grass Hills (Autumn)",
-               "ordinal": 0.00027
-            },
-            "#54806E": {
-               "display_name": "Boxland Grass (Winter)",
-               "ordinal": 0.00028
-            },
-            "#6EB296": {
-               "display_name": "Boxland Grass Edge 1 (Winter)",
-               "ordinal": 0.00029
-            },
-            "#65A388": {
-               "display_name": "Boxland Grass Edge 2 (Winter)",
-               "ordinal": 0.00030
-            },
-            "#426254": {
-               "display_name": "Boxland Grass Hills (Winter)",
-               "ordinal": 0.00031
+        },
+        "stone resource": {
+            "colors": {
+                "#2B2B2B": {
+                    "display_name": "Vox Gray 1(Box O' Vox)",
+                    "ordinal": 0.00001
+                },
+                "#3C3C3C": {
+                    "display_name": "Vox Gray 2(Box O' Vox)",
+                    "ordinal": 0.00002
+                },
+                "#505050": {
+                    "display_name": "Vox Gray 3(Box O' Vox)",
+                    "ordinal": 0.00003
+                },
+                "#666666": {
+                    "display_name": "Vox Gray 4(Box O' Vox)",
+                    "ordinal": 0.00004
+                },
+                "#7C7C7C": {
+                    "display_name": "Vox Gray 5(Box O' Vox)",
+                    "ordinal": 0.00005
+                },
+                "#303a40": {
+                    "display_name": "Vox Blue 1(Box O' Vox)",
+                    "ordinal": 0.00006
+                },
+                "#607380": {
+                    "display_name": "Vox Blue 2(Box O' Vox)",
+                    "ordinal": 0.00007
+                },
+                "#8fadbf": {
+                    "display_name": "Vox Blue 3(Box O' Vox)",
+                    "ordinal": 0.00008
+                },
+                "#3a4030": {
+                    "display_name": "Vox Green 1(Box O' Vox)",
+                    "ordinal": 0.00009
+                },
+                "#738060": {
+                    "display_name": "Vox Green 2(Box O' Vox)",
+                    "ordinal": 0.00010
+                },
+                "#adbf8f": {
+                    "display_name": "Vox Green 3(Box O' Vox)",
+                    "ordinal": 0.00011
+                },
+                "#40303a": {
+                    "display_name": "Vox Purple 1(Box O' Vox)",
+                    "ordinal": 0.00012
+                },
+                "#806073": {
+                    "display_name": "Vox Purple 2(Box O' Vox)",
+                    "ordinal": 0.00013
+                },
+                "#bf8fad": {
+                    "display_name": "Vox Purple 3(Box O' Vox)",
+                    "ordinal": 0.00014
+                },
+                "#FFFFFF": {
+                    "display_name": "Vox White 1(Box O' Vox)",
+                    "ordinal": 0.00015
+                },
+                "#000000": {
+                    "display_name": "Vox Black 1(Box O' Vox)",
+                    "ordinal": 0.00016
+                },
+                "#2A8037": {
+                    "display_name": "Boxland Grass (Spring)",
+                    "ordinal": 0.00017
+                },
+                "#32BC4C": {
+                    "display_name": "Boxland Grass Edge 1 (Spring)",
+                    "ordinal": 0.00018
+                },
+                "#31A444": {
+                    "display_name": "Boxland Grass Edge 2 (Spring)",
+                    "ordinal": 0.00019
+                },
+                "#21622A": {
+                    "display_name": "Boxland Grass Hills (Spring)",
+                    "ordinal": 0.00020
+                },
+                "#2A4037": {
+                    "display_name": "Boxland Grass (Summer)",
+                    "ordinal": 0.00021
+                },
+                "#325E4C": {
+                    "display_name": "Boxland Grass Edge 1 (Summer)",
+                    "ordinal": 0.00022
+                },
+                "#315244": {
+                    "display_name": "Boxland Grass Edge 2 (Summer)",
+                    "ordinal": 0.00023
+                },
+                "#21312A": {
+                    "display_name": "Boxland Grass Hills (Summer)",
+                    "ordinal": 0.00024
+                },
+                "#544037": {
+                    "display_name": "Boxland Grass (Autumn)",
+                    "ordinal": 0.00025
+                },
+                "#645E4C": {
+                    "display_name": "Boxland Grass Edge 1 (Autumn)",
+                    "ordinal": 0.00026
+                },
+                "#625244": {
+                    "display_name": "Boxland Grass Edge 2 (Autumn)",
+                    "ordinal": 0.00027
+                },
+                "#42312A": {
+                    "display_name": "Boxland Grass Hills (Autumn)",
+                    "ordinal": 0.00028
+                },
+                "#54806E": {
+                    "display_name": "Boxland Grass (Winter)",
+                    "ordinal": 0.00029
+                },
+                "#6EB296": {
+                    "display_name": "Boxland Grass Edge 1 (Winter)",
+                    "ordinal": 0.00030
+                },
+                "#65A388": {
+                    "display_name": "Boxland Grass Edge 2 (Winter)",
+                    "ordinal": 0.00031
+                },
+                "#426254": {
+                    "display_name": "Boxland Grass Hills (Winter)",
+                    "ordinal": 0.00032
+                }
             }
-         }
-      }
-   },
-   "pattern": {
-      "stone resource": {
-         "patterns": {
-            "box_o_vox:data:build:brushes:pattern:vox_cobblestone": {
-               "icon": "file(images/vox_cobblestone_pattern.png)",
-               "display_name": "Vox Cobblestone(Box O' Vox)"
+        }
+    },
+    "pattern": {
+        "stone resource": {
+            "patterns": {
+                "box_o_vox:data:build:brushes:pattern:vox_cobblestone": {
+                    "icon": "file(images/vox_cobblestone_pattern.png)",
+                    "display_name": "Vox Cobblestone(Box O' Vox)"
+                }
             }
-         }
-      }
-   },
-   "wall": {
-      "wood resource": {
-         "patterns": {
-            "box_o_vox:data:build:brushes:wall:red_wood_wall": {
-               "icon": "file(images/red_wood_wall.png)",
-               "display_name": "Vox Red Pattern(Box O' Vox)"
+        }
+    },
+    "wall": {
+        "wood resource": {
+            "patterns": {
+                "box_o_vox:data:build:brushes:wall:red_wood_wall": {
+                    "icon": "file(images/red_wood_wall.png)",
+                    "display_name": "Vox Red Pattern(Box O' Vox)"
+                }
             }
-         }
-      },
-      "stone resource": {
-         "patterns": {
-            "box_o_vox:data:build:brushes:wall:blue_stone_wall": {
-               "icon": "file(images/blue_stone_wall.png)",
-               "display_name": "Vox Blue Pattern(Box O' Vox)"
-            },
-            "box_o_vox:data:build:brushes:wall:green_stone_wall": {
-               "icon": "file(images/green_stone_wall.png)",
-               "display_name": "Vox Green Pattern(Box O' Vox)"
-            },
-            "box_o_vox:data:build:brushes:wall:purple_stone_wall": {
-               "icon": "file(images/purple_stone_wall.png)",
-               "display_name": "Vox Purple Pattern(Box O' Vox)"
+        },
+        "stone resource": {
+            "patterns": {
+                "box_o_vox:data:build:brushes:wall:blue_stone_wall": {
+                    "icon": "file(images/blue_stone_wall.png)",
+                    "display_name": "Vox Blue Pattern(Box O' Vox)"
+                },
+                "box_o_vox:data:build:brushes:wall:green_stone_wall": {
+                    "icon": "file(images/green_stone_wall.png)",
+                    "display_name": "Vox Green Pattern(Box O' Vox)"
+                },
+                "box_o_vox:data:build:brushes:wall:purple_stone_wall": {
+                    "icon": "file(images/purple_stone_wall.png)",
+                    "display_name": "Vox Purple Pattern(Box O' Vox)"
+                }
             }
-         }
-      }
-   },
-   "roof": {
-      "wood resource": {
-         "patterns": {
-            "box_o_vox:data:build:brushes:roof:vox_red_castle": {
-               "icon": "file(images/vox_red_castle.png)",
-               "display_name": "Vox Red(Box O' Vox)",
-               "type": "flat"
+        }
+    },
+    "roof": {
+        "wood resource": {
+            "patterns": {
+                "box_o_vox:data:build:brushes:roof:vox_red_castle": {
+                    "icon": "file(images/vox_red_castle.png)",
+                    "display_name": "Vox Red(Box O' Vox)",
+                    "type": "flat"
+                }
             }
-         }
-      },
-      "stone resource": {
-         "patterns": {
-            "box_o_vox:data:build:brushes:roof:vox_green_roof": {
-               "icon": "file(images/vox_green_roof.png)",
-               "display_name": "Vox Green(Box O' Vox)",
-               "type": "peaked"
-            },
-            "box_o_vox:data:build:brushes:roof:vox_purple_roof": {
-               "icon": "file(images/vox_purple_roof.png)",
-               "display_name": "Vox Purple(Box O' Vox)",
-               "type": "peaked"
-            },
-            "box_o_vox:data:build:brushes:roof:vox_blue_roof": {
-               "icon": "file(images/vox_blue_roof.png)",
-               "display_name": "Vox Blue(Box O' Vox)",
-               "type": "peaked"
-            },
-            "box_o_vox:data:build:brushes:roof:vox_green_castle": {
-               "icon": "file(images/vox_green_castle.png)",
-               "display_name": "Vox Green(Box O' Vox)",
-               "type": "flat"
-            },
-            "box_o_vox:data:build:brushes:roof:vox_purple_castle": {
-               "icon": "file(images/vox_purple_castle.png)",
-               "display_name": "Vox Purple(Box O' Vox)",
-               "type": "flat"
-            },
-            "box_o_vox:data:build:brushes:roof:vox_blue_castle": {
-               "icon": "file(images/vox_blue_castle.png)",
-               "display_name": "Vox Blue(Box O' Vox)",
-               "type": "flat"
+        },
+        "stone resource": {
+            "patterns": {
+                "box_o_vox:data:build:brushes:roof:vox_green_roof": {
+                    "icon": "file(images/vox_green_roof.png)",
+                    "display_name": "Vox Green(Box O' Vox)",
+                    "type": "peaked"
+                },
+                "box_o_vox:data:build:brushes:roof:vox_purple_roof": {
+                    "icon": "file(images/vox_purple_roof.png)",
+                    "display_name": "Vox Purple(Box O' Vox)",
+                    "type": "peaked"
+                },
+                "box_o_vox:data:build:brushes:roof:vox_blue_roof": {
+                    "icon": "file(images/vox_blue_roof.png)",
+                    "display_name": "Vox Blue(Box O' Vox)",
+                    "type": "peaked"
+                },
+                "box_o_vox:data:build:brushes:roof:vox_green_castle": {
+                    "icon": "file(images/vox_green_castle.png)",
+                    "display_name": "Vox Green(Box O' Vox)",
+                    "type": "flat"
+                },
+                "box_o_vox:data:build:brushes:roof:vox_purple_castle": {
+                    "icon": "file(images/vox_purple_castle.png)",
+                    "display_name": "Vox Purple(Box O' Vox)",
+                    "type": "flat"
+                },
+                "box_o_vox:data:build:brushes:roof:vox_blue_castle": {
+                    "icon": "file(images/vox_blue_castle.png)",
+                    "display_name": "Vox Blue(Box O' Vox)",
+                    "type": "flat"
+                }
             }
-         }
-      }
-   }
+        }
+    }
 }

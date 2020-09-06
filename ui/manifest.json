@@ -28,10 +28,16 @@
         "stonehearth/ui/game/create_camp/images/banner.png": "file(game/create_camp/images/banner.png)"
     },
     "ui": {
+        "html": [
+
+        ],
+        "js": [
+
+        ],
         "less": [
-         "file(unit_frame/unit_frame.less)",
-         "file(gui/gui.less)",
-         "file(game/character_sheets/citizen_character_sheet/citizen_character_sheet.less)"
+            "file(unit_frame/unit_frame.less)",
+            "file(gui/gui.less)",
+            "file(game/character_sheets/citizen_character_sheet/citizen_character_sheet.less)"
       ]
     }
 }
