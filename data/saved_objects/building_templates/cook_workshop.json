@@ -3098,7 +3098,7 @@
                         "x": -1,
                         "z": 0
                      },
-                     "column_brush": "#491334",
+                     "column_brush": "#40303a",
                      "flushed": false,
                      "height": 10,
                      "color_region": {},
@@ -3251,7 +3251,7 @@
                         "x": 0,
                         "z": -1
                      },
-                     "column_brush": "#491334",
+                     "column_brush": "#40303a",
                      "flushed": false,
                      "height": 10,
                      "color_region": {},
@@ -3391,7 +3391,7 @@
                         "x": 1,
                         "z": 0
                      },
-                     "column_brush": "#491334",
+                     "column_brush": "#40303a",
                      "flushed": false,
                      "height": 10,
                      "color_region": {},
@@ -3502,7 +3502,7 @@
                      "building_id": 317681,
                      "min": 0,
                      "flushed": false,
-                     "column_brush": "#491334",
+                     "column_brush": "#40303a",
                      "normal": {
                         "y": 0,
                         "x": 0,
@@ -3560,7 +3560,7 @@
          "flushed": false,
          "__classname": "stonehearth:RoomData",
          "supported": {},
-         "floor_brush": "#491334",
+         "floor_brush": "#40303a",
          "invalid_placement": false,
          "fusing": false,
          "adjacent": {
@@ -3674,7 +3674,7 @@
                      "building_id": 317681,
                      "min": 0,
                      "flushed": false,
-                     "column_brush": "#491334",
+                     "column_brush": "#40303a",
                      "normal": {
                         "y": 0,
                         "x": -1,
@@ -3751,7 +3751,7 @@
                      "building_id": 317681,
                      "min": 0,
                      "flushed": false,
-                     "column_brush": "#491334",
+                     "column_brush": "#40303a",
                      "normal": {
                         "y": 0,
                         "x": 0,
@@ -3828,7 +3828,7 @@
                      "building_id": 317681,
                      "min": 0,
                      "flushed": false,
-                     "column_brush": "#491334",
+                     "column_brush": "#40303a",
                      "normal": {
                         "y": 0,
                         "x": 1,
@@ -3905,7 +3905,7 @@
                      "building_id": 317681,
                      "min": 0,
                      "flushed": false,
-                     "column_brush": "#491334",
+                     "column_brush": "#40303a",
                      "normal": {
                         "y": 0,
                         "x": 0,
@@ -3964,7 +3964,7 @@
          "flushed": false,
          "__classname": "stonehearth:RoomData",
          "supported": {},
-         "floor_brush": "#491334",
+         "floor_brush": "#40303a",
          "invalid_placement": false,
          "fusing": false,
          "adjacent": {},

@@ -1,34 +1,34 @@
 {
-   "name": "object_destroyed",
-   "duration": 10000,
-   "material": "materials/cubemitter.material.json",
-   "loops": true,
-   "mesh": {
-      "file": "",
-      "matrix": "",
-      "offset": {
-         "x": 0,
-         "y": 0,
-         "z": 0
-      }
-   },
-   "emission": {
-      "rate": {
-         "kind": "CONSTANT",
-         "values": [
+    "name": "object_destroyed",
+    "duration": 10000,
+    "material": "materials/cubemitter.material.json",
+    "loops": true,
+    "mesh": {
+        "file": "",
+        "matrix": "",
+        "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "emission": {
+        "rate": {
+            "kind": "CONSTANT",
+            "values": [
             30
          ]
-      },
-      "angle": {
-         "kind": "RANDOM_BETWEEN",
-         "values": [
+        },
+        "angle": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [
             0,
             60
          ]
-      },
-      "origin": {
-         "surface": "CUBOID",
-         "values": [
+        },
+        "origin": {
+            "surface": "CUBOID",
+            "values": [
             12,
             4,
             0.1,
@@ -36,41 +36,41 @@
             0,
             0
          ]
-      },
-      "translation_y": {
-         "kind": "CONSTANT",
-         "values": [
+        },
+        "translation_y": {
+            "kind": "CONSTANT",
+            "values": [
             -1
          ]
-      },
-      "rotation_x": {
-         "kind": "CONSTANT",
-         "values": [
+        },
+        "rotation_x": {
+            "kind": "CONSTANT",
+            "values": [
             30
          ]
-      }
-   },
-   "particle": {
-      "lifetime": {
-         "start": {
-            "kind": "RANDOM_BETWEEN",
-            "values": [
+        }
+    },
+    "particle": {
+        "lifetime": {
+            "start": {
+                "kind": "RANDOM_BETWEEN",
+                "values": [
                10050,
                11000
             ]
-         }
-      },
-      "speed": {
-         "start": {
-            "kind": "RANDOM_BETWEEN",
-            "values": [
+            }
+        },
+        "speed": {
+            "start": {
+                "kind": "RANDOM_BETWEEN",
+                "values": [
                2,
                5
             ]
-         },
-         "over_lifetime": {
-            "kind": "CURVE",
-            "values": [
+            },
+            "over_lifetime": {
+                "kind": "CURVE",
+                "values": [
                [
                   0,
                   0
@@ -88,12 +88,12 @@
                   1.5
                ]
             ]
-         }
-      },
-      "acceleration": {
-         "over_lifetime_y": {
-            "kind": "RANDOM_BETWEEN_CURVES",
-            "values": [
+            }
+        },
+        "acceleration": {
+            "over_lifetime_y": {
+                "kind": "RANDOM_BETWEEN_CURVES",
+                "values": [
                [
                   [
                      0,
@@ -115,12 +115,12 @@
                   ]
                ]
             ]
-         }
-      },
-      "velocity": {
-         "over_lifetime_y": {
-            "kind": "RANDOM_BETWEEN_CURVES",
-            "values": [
+            }
+        },
+        "velocity": {
+            "over_lifetime_y": {
+                "kind": "RANDOM_BETWEEN_CURVES",
+                "values": [
                [
                   [
                      0,
@@ -142,12 +142,12 @@
                   ]
                ]
             ]
-         }
-      },
-      "rotation": {
-         "over_lifetime_x": {
-            "kind": "CURVE",
-            "values": [
+            }
+        },
+        "rotation": {
+            "over_lifetime_x": {
+                "kind": "CURVE",
+                "values": [
                [
                   0,
                   0
@@ -157,10 +157,10 @@
                   360
                ]
             ]
-         },
-         "over_lifetime_y": {
-            "kind": "CURVE",
-            "values": [
+            },
+            "over_lifetime_y": {
+                "kind": "CURVE",
+                "values": [
                [
                   0,
                   0
@@ -170,10 +170,10 @@
                   360
                ]
             ]
-         },
-         "over_lifetime_z": {
-            "kind": "CURVE",
-            "values": [
+            },
+            "over_lifetime_z": {
+                "kind": "CURVE",
+                "values": [
                [
                   0,
                   0
@@ -183,19 +183,19 @@
                   360
                ]
             ]
-         }
-      },
-      "scale": {
-         "start": {
-            "kind": "RANDOM_BETWEEN",
-            "values": [
+            }
+        },
+        "scale": {
+            "start": {
+                "kind": "RANDOM_BETWEEN",
+                "values": [
                1,
                1.5
             ]
-         },
-         "over_lifetime": {
-            "kind": "RANDOM_BETWEEN_CURVES",
-            "values": [
+            },
+            "over_lifetime": {
+                "kind": "RANDOM_BETWEEN_CURVES",
+                "values": [
                [
                   [
                      0,
@@ -225,28 +225,28 @@
                   ]
                ]
             ]
-         }
-      },
-      "color": {
-         "start": {
-            "kind": "CONSTANT",
-            "values": [
+            }
+        },
+        "color": {
+            "start": {
+                "kind": "CONSTANT",
+                "values": [
                0.149,
                0.408,
                0.565,
-               0.62
+               0.9
             ]
-         },
-         "over_lifetime_a": {
-            "kind": "CURVE",
-            "values": [
+            },
+            "over_lifetime_a": {
+                "kind": "CURVE",
+                "values": [
                [0, 1],
                [0.8, 1],
                [1, 0]
             ]
-         }
-      }
-   },
-   "unculled": true,
-   "max_particles": 2000
+            }
+        }
+    },
+    "unculled": true,
+    "max_particles": 2000
 }
