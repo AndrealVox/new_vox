@@ -22,6 +22,9 @@
     },
     "music": {
         "title": {
+            "mixintypes": {
+                "track": "override"
+            },
             "track": [
                 "box_o_vox:data:music:title",
                 "stonehearth:music:title_screen"
@@ -101,11 +104,10 @@
                      "box_o_vox:data:music:combat_3"
                   ],
                         "volume": 10,
-                        "fade_in": 2000,
+                        "fade_in": 200,
                         "loop": true
                }
-            ],
-                "priority": 10
+            ]
             }
         }
     }
