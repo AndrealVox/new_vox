@@ -1,15 +1,32 @@
 {
-   "biome_options": {
-      "box_o_vox:biome:boxland": {
-         "world_size": 1,
-         "rivers": {
-            "quantity": 5,
-            "radius": 2,
-            "foothills": false,
-            "mountains": false
-         },
-         "lakes": false,
-         "dirt_holes": false
-      }
-   }
+    "biome_options": {
+        "box_o_vox:biome:boxland": {
+            "world_size": 1,
+            "rivers": {
+                "quantity": 5,
+                "radius": 2,
+                "foothills": false,
+                "mountains": false
+            },
+            "lakes": false,
+            "dirt_holes": false,
+            "hide_from_ui": {
+                "rivers": {
+                    "quantity": true,
+                    "radius": true,
+                    "plains": true,
+                    "foothills": true,
+                    "mountains": true
+                },
+                "lakes": true,
+                "dirt_holes": true,
+                "modes": {
+                    "sky_lands": true,
+                    "waterworld": true,
+                    "superflat": true,
+                    "canyons": true
+                }
+            }
+        }
+    }
 }
