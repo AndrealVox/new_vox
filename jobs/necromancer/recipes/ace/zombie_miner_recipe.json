@@ -5,7 +5,7 @@
     },
     "ingredients": [
         {
-            "material": "meat",
+            "material": "food meat raw",
             "count": 10
       },
         {

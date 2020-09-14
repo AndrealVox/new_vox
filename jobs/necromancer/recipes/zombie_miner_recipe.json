@@ -10,7 +10,7 @@
     "level_requirement": 6,
     "ingredients": [
         {
-            "material": "meat",
+            "material": "food meat raw",
             "count": 10
       },
         {
