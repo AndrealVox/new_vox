@@ -48,7 +48,7 @@
                     "icon": "/box_o_vox/entities/food/pepperoni/pepperoni.png",
                     "filter": "stockpile_cooking_ingredient pepperoni"
                 },
-                "salt": {
+                "rock_salt": {
                     "ordinal": 15,
                     "display_name": "i18n(box_o_vox:entities.food.salt.display_name)",
                     "icon": "/box_o_vox/entities/food/salt/salt.png",

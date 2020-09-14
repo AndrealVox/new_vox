@@ -38,8 +38,23 @@
         "town_protection": 1
     },
     "icon": "file(images/icon.png)",
-    "parent_job": "stonehearth:jobs:knight",
-    "parent_level_requirement": 3,
+    "mixintypes": {
+        "parent_job": "remove",
+        "parent_level_requirement": "remove",
+        "level_data": "override"
+    },
+    "parent_jobs": [
+        {
+            "job": "stonehearth:jobs:knight",
+            "level_requirement": 3,
+            "one_of": true
+      },
+        {
+            "job": "stonehearth:jobs:cleric",
+            "level_requirement": 3,
+            "one_of": true
+      }
+   ],
     "initial_num_attended_hearthlings": 4,
     "max_level": 6,
     "level_data": {

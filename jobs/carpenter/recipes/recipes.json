@@ -1,11 +1,21 @@
 {
-   "craftable_recipes": {
-      "armor": {
-         "recipes": {
-            "holy_sword": {
-               "recipe": "file(holy_sword_recipe.json)"
+    "craftable_recipes": {
+        "tools": {
+            "recipes": {
+                "mixintypes": {
+                    "herbalist_staff": "remove"
+                },
+                "cleric_tome": {
+                    "recipe": "file(../../herbalist/recipes/cleric_tome_recipe.json)"
+                }
             }
-         }
-      }
-   }
+        },
+        "armor": {
+            "recipes": {
+                "holy_sword": {
+                    "recipe": "file(holy_sword_recipe.json)"
+                }
+            }
+        }
+    }
 }

@@ -1,37 +1,34 @@
 {
-   "mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
-   "craftable_recipes": {
-      "tools": {
-         "recipes": {
-            "mixintypes": {
-               "cleric_tome": "override"
-            },
-            "cleric_tome": {
-               "recipe": "file(cleric_tome_recipe.json)"
+    "mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
+    "craftable_recipes": {
+        "tools": {
+            "recipes": {
+                "mixintypes": {
+                    "cleric_tome": "remove"
+                }
             }
-         }
-      },
-      "refinement": {
-         "recipes": {
-            "blueberry_bush_transmute": {
-               "recipe": "file(blueberry_bush_transmute_recipe.json)"
-            },
-            "daisy_plant_transmute": {
-               "recipe": "file(daisy_plant_transmute_recipe.json)"
-            },
-            "tree_seed_apple": {
-               "recipe": "file(tree_seed_apple_recipe.json)"
-            },
-            "tree_seed_banana": {
-               "recipe": "file(tree_seed_banana_recipe.json)"
-            },
-            "tree_seed_lime": {
-               "recipe": "file(tree_seed_lime_recipe.json)"
-            },
-            "tree_seed_orange": {
-               "recipe": "file(tree_seed_orange_recipe.json)"
+        },
+        "refinement": {
+            "recipes": {
+                "blueberry_bush_transmute": {
+                    "recipe": "file(blueberry_bush_transmute_recipe.json)"
+                },
+                "daisy_plant_transmute": {
+                    "recipe": "file(daisy_plant_transmute_recipe.json)"
+                },
+                "tree_seed_apple": {
+                    "recipe": "file(tree_seed_apple_recipe.json)"
+                },
+                "tree_seed_banana": {
+                    "recipe": "file(tree_seed_banana_recipe.json)"
+                },
+                "tree_seed_lime": {
+                    "recipe": "file(tree_seed_lime_recipe.json)"
+                },
+                "tree_seed_orange": {
+                    "recipe": "file(tree_seed_orange_recipe.json)"
+                }
             }
-         }
-      }
-   }
+        }
+    }
 }

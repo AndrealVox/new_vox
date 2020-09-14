@@ -334,6 +334,7 @@
         "sounds:pig_oink_2": "file(data/sounds/effects/pig_oink_2.ogg)",
         "sounds:pig_oink_3": "file(data/sounds/effects/pig_oink_3.ogg)",
         "sounds:pig_oink_4": "file(data/sounds/effects/pig_oink_4.ogg)",
+        "bov_startmenu": "file(data/ui/bov_start_menu.json)",
         "startmenu": "file(data/ui/start_menu.json)",
         "weather:enchanted_mist:mist": "file(data/weather/enchanted_mist/mist.json)"
     },
@@ -341,6 +342,7 @@
         "stonehearth/locales/en.json": "file(locales/en_mixin.json)",
         "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
         "stonehearth:data:gm_index": "box_o_vox:data:gm_index",
+        "stonehearth/data/ui/start_menu.json": "box_o_vox:startmenu",
         "extra_map_options:data:extra_map_options": "box_o_vox:data:extra_map_options",
         "nordlingmod:jobs:index": "box_o_vox:jobs:nord_index",
         "stonehearth:jobs:index": "box_o_vox:jobs:asc_index",
@@ -361,7 +363,6 @@
         "stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
         "stonehearth:farmer:initial_crops": "file(services/server/farming/data/initial_crops.json)",
         "stonehearth:data:thoughts": "box_o_vox:data:thoughts",
-        "stonehearth:data:sound_constants": "file(data/sounds/sound_constants.json)",
         "stonehearth:build:brushes": "file(data/build/building_brushes.json)",
         "stonehearth:building_templates:index": "file(data/saved_objects/building_templates_index.json)",
         "stonehearth:biome:index": "file(data/biome/index.json)",
@@ -373,7 +374,6 @@
         "stonehearth:data:constants": "box_o_vox:data:constants",
         "stonehearth/data/npc_index.json": "file(data/npc_index.json)",
         "stonehearth/data/resource_constants.json": "file(data/resource_constants.json)",
-        "stonehearth/data/ui/start_menu.json": "box_o_vox:startmenu",
         "stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
         "stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
         "stonehearth/entities/armor/silver_mail/silver_mail.json": "file(entities/armor/paladin_armor/paladin_armor.json)",
@@ -418,8 +418,12 @@
         "stonehearth_ace/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "box_o_vox/jobs/shepherd/shepherd_pasture/ace_shepherd_pasture.json",
 
         "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",
+        "box_o_vox/jobs/necromancer/recipes/recipes.json": "trapper_plus/box_o_vox/necromancer/recipes/trapper_plus_recipes.json",
         "box_o_vox/jobs/cook/recipes/recipes.json": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json",
         "box_o_vox/jobs/mason/recipes/recipes.json": "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json",
+
+
+        "box_o_vox/jobs/paladin/paladin_description.json": "stonehearth_ace/box_o_vox/paladin/paladin_description.json",
 
         "box_o_vox/entities/critters/cow/cow.json": "stonehearth_ace/box_o_vox/cow/moomoo.json"
     },
@@ -433,8 +437,11 @@
         "stonehearth_ace/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/stonehearth_ace_foreground.png)",
 
         "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)",
+        "trapper_plus/box_o_vox/necromancer/recipes/trapper_plus_recipes.json": "file(jobs/necromancer/recipes/trapper_plus_recipes.json)",
         "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json": "file(jobs/cook/recipes/ace_recipes.json)",
         "stonehearth_ace/box_o_vox/mason/recipes/recipes_ace.json": "file(jobs/mason/recipes/recipes_ace.json)",
+
+        "stonehearth_ace/box_o_vox/paladin/paladin_description.json": "box_o_vox/jobs/paladin/ace_paladin_description.json",
 
         "stonehearth_ace/box_o_vox/cow/moomoo.json": "file(entities/critters/cow/ace_moomoo.json)"
     },

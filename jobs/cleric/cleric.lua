@@ -13,25 +13,30 @@ function ClericClass:initialize()
 end
 
 --Always do these things
-function ClericClass:activate()
-    CraftingJob.activate(self)
-   CombatJob.activate(self)
+function ClericClass:create(entity)
+    CraftingJob.create(self, entity)
+    CombatJob.create(self, entity)
+end
 
+function ClericClass:restore()
    if self._sv.is_current_class then
       self:_register_with_town()
    end
-
-   self.__saved_variables:mark_changed()
 end
 
--- Call when it's time to promote someone to this class
-function ClericClass:promote(json_path)
-   CombatJob.promote(self, json_path)
-   CraftingJob.promote(self, json_path)
+function ClericClass:promote(json_path, options)
+   CraftingJob.promote(self, json_path, options)
+    CombatJob.promote(self, json_path, options)
    self._sv.max_num_attended_hearthlings = self._job_json.initial_num_attended_hearthlings or 2
    if self._sv.max_num_attended_hearthlings > 0 then
       self:_register_with_town()
    end
+   self.__saved_variables:mark_changed()
+end
+
+function ClericClass:increase_attended_hearthlings(args)
+   self._sv.max_num_attended_hearthlings = args.max_num_attended_hearthlings
+   self:_register_with_town() -- re-register with the town because number of max attended hearthlings is increased
    self.__saved_variables:mark_changed()
 end
 
@@ -62,11 +67,11 @@ end
 function ClericClass:_remove_listeners()
     
    CraftingJob._remove_listeners(self)
-   CombatJob._remove_listeners(self)
    if self._on_heal_entity_listener then
       self._on_heal_entity_listener:destroy()
       self._on_heal_entity_listener = nil
    end
+   CombatJob._remove_listeners(self)
    if self._on_heal_entity_in_combat_listener then
       self._on_heal_entity_in_combat_listener:destroy()
       self._on_heal_entity_in_combat_listener = nil
@@ -74,16 +79,14 @@ function ClericClass:_remove_listeners()
 end
 
 function ClericClass:_on_healed_entity(args)
-   self:_add_exp('heal_entity')
+   local exp = self._xp_rewards['heal_entity']
+   if exp then
+      self._job_component:add_exp(exp)
+   end
 end
 
 function ClericClass:_on_healed_entity_in_combat(args)
-   self:_add_exp('heal_entity_in_combat')
-end
-
--- Get xp reward using key. Xp rewards table specified in cleric description file
-function ClericClass:_add_exp(key)
-   local exp = self._xp_rewards[key]
+   local exp = self._xp_rewards['heal_entity_in_combat']
    if exp then
       self._job_component:add_exp(exp)
    end

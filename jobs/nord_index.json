@@ -1,13 +1,13 @@
 {
-   "jobs": {
-      "stonehearth:jobs:cleric": {
-         "description": "file(cleric/nord_cleric_description.json)"
-      },
-      "box_o_vox:jobs:necromancer": {
-         "description": "box_o_vox:jobs:necromancer"
-      },
-      "box_o_vox:jobs:paladin": {
-         "description": "box_o_vox:jobs:paladin"
-      }
-   }
+    "jobs": {
+        "stonehearth:jobs:cleric": {
+            "description": "file(cleric/nord_cleric_description.json)"
+        },
+        "box_o_vox:jobs:necromancer": {
+            "description": "box_o_vox:jobs:necromancer"
+        },
+        "box_o_vox:jobs:paladin": {
+            "description": "box_o_vox:jobs:paladin"
+        }
+    }
 }

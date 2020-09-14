@@ -1,28 +1,102 @@
 {
-   "mixins": "stonehearth_ace:rayyas_children:jobs:cleric",
-   "controller": "box_o_vox:class:cleric",
-   "abilities": "file(cleric_abilities)",
-   "roles": ["cleric_job", "combat", "crafter"],
-   "task_groups": [
+    "mixins": "stonehearth_ace:rayyas_children:jobs:cleric",
+    "controller": "box_o_vox:class:cleric",
+    "abilities": "file(cleric_abilities)",
+    "roles": ["cleric_job", "combat", "crafter"],
+    "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:healing",
+      "stonehearth:task_groups:harvest",
+      "stonehearth:task_groups:rescue",
       "stonehearth:task_groups:crafting"
    ],
-   "xp_rewards": {
-      "craft_level_0": 15,
-      "craft_level_1": 17,
-      "craft_level_2": 19,
-      "craft_level_3": 21,
-      "craft_level_4": 23,
-      "craft_level_5": 25,
-      "craft_level_6": 27,
-      "craft_level_7": 29
-   },
-   "crafter": {
-      "work_effect": "herbalist_grind",
-      "recipe_list": "file(recipes/recipes.json)"
-   },
-   "workshop": {
-      "skin_class": "cleric",
-      "open_sound": "stonehearth:sounds:ui:herbalist_menu:menu_open",
-      "close_sound": "stonehearth:sounds:ui:herbalist_menu:menu_closed"
-   }
+    "display_order": 2.001,
+    "parent_job": "stonehearth:jobs:worker",
+    "parent_level_requirement": 0,
+    "xp_rewards": {
+        "craft_level_0": 8,
+        "craft_level_1": 10,
+        "craft_level_2": 12,
+        "craft_level_3": 14,
+        "craft_level_4": 16,
+        "craft_level_5": 19,
+        "craft_level_6": 22,
+        "heal_entity": 25
+    },
+    "crafter": {
+        "work_effect": "herbalist_grind",
+        "recipe_list": "file(recipes/recipes.json)"
+    },
+    "workshop": {
+        "name": "Cleric Lab",
+        "description": "Allows the Cleric to craft healing balms and bandages.",
+        "long_description": "Allows the Cleric to craft healing balms and bandages.",
+        "portrait": "/stonehearth/jobs/herbalist/herbalist_workbench/herbalist_workbench.png",
+        "workbench_type": "stonehearth:herbalist:workbench",
+        "skin_class": "cleric",
+        "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
+        "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
+    },
+    "level_data": {
+        "1": {
+            "perks": [
+                {
+                    "type": "increase_attended_hearthlings",
+                    "name": "i18n(stonehearth:jobs.herbalist.herbalist_description.level_1_data.perk_000_name)",
+                    "id": "herbalist_increase_attended",
+                    "icon": "/stonehearth/jobs/herbalist/images/level_0.png",
+                    "description": "The Cleric can attend to 2 hurt hearthlings at a time.",
+                    "max_num_attended_hearthlings": 2,
+                    "level": 1
+            },
+                {
+                    "type": "apply_buff",
+                    "name": "i18n(stonehearth:jobs.herbalist.herbalist_description.level_1_data.perk_001_name)",
+                    "id": "herbalist_willpower_up_1",
+                    "icon": "/stonehearth/jobs/herbalist/images/level_1.png",
+                    "buff_name": "stonehearth:buffs:herbalist:willpower_1",
+                    "description": "The Cleric channels the spirits of the forest and gains natural regeneration. Willpower and Diligence increased.",
+                    "level": 1,
+                    "demote_fn": "remove_buff"
+            }
+         ]
+        },
+        "2": {
+            "perks": [
+                {
+                    "name": "i18n(stonehearth:jobs.herbalist.herbalist_description.level_2_data.perk_000_name)",
+                    "id": "crafter_recipe_unlock_2",
+                    "icon": "/stonehearth/jobs/common/images/collaborative_insight.png",
+                    "description": "The Cleric is now skillful enough to use materials created by the other crafters.",
+                    "level": 2
+            }
+         ]
+        },
+        "3": {
+            "perks": [
+                {
+                    "name": "i18n(stonehearth:jobs.herbalist.herbalist_description.level_3_data.perk_000_name)",
+                    "id": "increase_healing_item_effect_50_percent",
+                    "icon": "/stonehearth/jobs/herbalist/images/level_3.png",
+                    "description": "The Cleric's medical prowess increases the effectiveness of healing items by 50%.",
+                    "level": 3
+            }
+         ]
+        },
+        "4": {
+            "perks": [
+                {
+                    "type": "increase_attended_hearthlings",
+                    "name": "i18n(stonehearth:jobs.herbalist.herbalist_description.level_4_data.perk_000_name)",
+                    "id": "herbalist_increase_attended",
+                    "icon": "/stonehearth/jobs/herbalist/images/level_4.png",
+                    "description": "The Cleric can now attend to up to 4 hearthlings at a time.",
+                    "max_num_attended_hearthlings": 4,
+                    "level": 4
+            }
+         ]
+        }
+    }
 }

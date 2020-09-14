@@ -8,7 +8,8 @@
     "aliases": {},
     "mixintos": {
         "archipelago_biome/data/ui/start_menu.json": "file(../data/ui/start_menu_archipelago_compat.json)",
-        "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)"
+        "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)",
+        "stonehearth:data:sound_constants": "file(../data/sounds/sound_constants.json)"
     },
     "overrides": {
         "stonehearth/ui/game/start_menu/images/dock.png": "file(start_menu/dock.png)",
@@ -25,7 +26,8 @@
         "stonehearth/ui/root/css/images/gui/tab_active.png": "file(gui/tab_active.png)",
         "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json": "box_o_vox/entities/gizmos/camp_standard/camp_standard_ghost.json",
         "stonehearth/ui/game/create_camp/create_camp.less": "file(game/create_camp/create_camp.less)",
-        "stonehearth/ui/game/create_camp/images/banner.png": "file(game/create_camp/images/banner.png)"
+        "stonehearth/ui/game/create_camp/images/banner.png": "file(game/create_camp/images/banner.png)",
+        "box_o_vox:startmenu": "box_o_vox:bov_startmenu"
     },
     "ui": {
         "html": [

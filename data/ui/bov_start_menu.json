@@ -1,0 +1,55 @@
+{
+    "crafter_menu": {
+        "items": {
+            "cleric": {
+                "name": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.cleric.display_name)",
+                "description": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.cleric.description)",
+                "class": "button",
+                "required_job": "stonehearth:jobs:cleric",
+                "required_job_text": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.cleric.required_job_text)",
+                "icon": "/box_o_vox/jobs/cleric/images/cleric_menu_icon.png",
+                "sticky": true,
+                "menu_action": "show_crafter_ui",
+                "hotkey_action": "craft:cleric"
+            },
+            "necromancer": {
+                "name": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.necromancer.display_name)",
+                "description": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.necromancer.description)",
+                "class": "button",
+                "required_job": "box_o_vox:jobs:necromancer",
+                "required_job_text": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.necromancer.required_job_text)",
+                "icon": "/box_o_vox/jobs/necromancer/images/necromancer_menu_icon.png",
+                "sticky": true,
+                "menu_action": "show_crafter_ui",
+                "hotkey_action": "craft:necromancer"
+            },
+            "carpenter": {
+                "icon": "/box_o_vox/jobs/carpenter/images/carpenter_menu_icon.png"
+            },
+            "weaver": {
+                "icon": "/box_o_vox/jobs/weaver/images/weaver_menu_icon.png"
+            },
+            "mason": {
+                "icon": "/box_o_vox/jobs/mason/images/mason_menu_icon.png"
+            },
+            "blacksmith": {
+                "icon": "/box_o_vox/jobs/blacksmith/images/blacksmith_menu_icon.png"
+            },
+            "cook": {
+                "icon": "/box_o_vox/jobs/cook/images/cook_menu_icon.png"
+            },
+            "potter": {
+                "icon": "/box_o_vox/jobs/potter/images/potter_menu_icon.png"
+            },
+            "herbalist": {
+                "icon": "/box_o_vox/jobs/herbalist/images/herbalist_menu_icon.png"
+            },
+            "engineer": {
+                "icon": "/box_o_vox/jobs/engineer/images/engineer_menu_icon.png"
+            },
+            "geomancer": {
+                "icon": "/box_o_vox/jobs/geomancer/images/geomancer_menu_icon.png"
+            }
+        }
+    }
+}

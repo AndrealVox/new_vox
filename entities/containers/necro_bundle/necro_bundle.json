@@ -1,103 +1,79 @@
 {
-   "mixins": [
+    "mixins": [
       "stonehearth:mixins:align_to_grid",
       "stonehearth:mixins:destructable_object"
    ],
-   "type": "entity",
-   "components": {
-      "render_info": {
-         "scale": 0.05
-      },
-      "model_variants": {
-         "default": {
-            "models": [
+    "type": "entity",
+    "components": {
+        "render_info": {
+            "scale": 0.05
+        },
+        "model_variants": {
+            "default": {
+                "models": [
                "file(necro_bundle.qb)"
             ]
-         }
-      },
-      "stonehearth:attributes": {
-         "max_health": {
-            "type": "basic",
-            "value": 1
-         }
-      },
-      "mob": {},
-      "region_collision_shape": {
-         "region": [
-            {
-               "min": {
-                  "x": -2,
-                  "y": 0,
-                  "z": -1.5
-               },
-               "max": {
-                  "x": 2,
-                  "y": 3,
-                  "z": 1.5
-               }
+            }
+        },
+        "stonehearth:attributes": {
+            "max_health": {
+                "type": "basic",
+                "value": 1
+            }
+        },
+        "mob": {},
+        "region_collision_shape": {
+            "region": [
+                {
+                    "min": {
+                        "x": -2,
+                        "y": 0,
+                        "z": -1.5
+                    },
+                    "max": {
+                        "x": 2,
+                        "y": 3,
+                        "z": 1.5
+                    }
             }
          ]
-      },
-      "stonehearth:commands": {
-         "commands": [
+        },
+        "stonehearth:commands": {
+            "commands": [
             "stonehearth:commands:open_loot"
          ]
-      },
-      "stonehearth:loot_drops": {
-         "entries": {
-            "default": {
-               "num_rolls": {
-                  "min": 55,
-                  "max": 55
-               },
-               "items": {
-                  "herbs": {
-                     "uri": "box_o_vox:entities:resources:herb:daisy",
-                     "weight": 30
-                  },
-                  "fiber": {
-                     "uri": "box_o_vox:entities:resources:fiber:grass_bundle",
-                     "weight": 10
-                  },
-                  "apple": {
-                     "uri": "box_o_vox:entities:food:apple:apple",
-                     "weight": 1
-                  },
-                  "banana": {
-                     "uri": "box_o_vox:entities:food:banana:banana",
-                     "weight": 1
-                  },
-                  "lime": {
-                     "uri": "box_o_vox:entities:food:lime:lime",
-                     "weight": 1
-                  },
-                  "orange": {
-                     "uri": "box_o_vox:entities:food:orange:orange",
-                     "weight": 1
-                  },
-                  "jerky": {
-                     "uri": "stonehearth:rabbit_jerky",
-                     "weight": 5
-                  },
-                  "pelt": {
-                     "uri": "stonehearth:resources:rabbit_pelt",
-                     "weight": 5
-                  }
-               }
+        },
+        "stonehearth:loot_drops": {
+            "entries": {
+                "default": {
+                    "num_rolls": {
+                        "min": 55,
+                        "max": 55
+                    },
+                    "items": {
+                        "herbs": {
+                            "uri": "box_o_vox:entities:resources:herb:daisy",
+                            "weight": 45
+                        },
+                        "pizza": {
+                            "uri": "box_o_vox:entities:food:pizza:pizza",
+                            "weight": 1
+                        }
+                    }
+                }
             }
-         }
-      }
-   },
-   "entity_data": {
-      "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.containers.necro_bundle.display_name)",
-         "description": "i18n(box_o_vox:entities.containers.necro_bundle.description)"
-      },
-      "stonehearth:appeal": {
-         "appeal": -100
-      },
-      "stonehearth:item_quality": {
-         "variable_quality": false
-      }
-   }
+        }
+    },
+    "entity_data": {
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.containers.necro_bundle.display_name)",
+            "description": "i18n(box_o_vox:entities.containers.necro_bundle.description)"
+        },
+        "stonehearth:appeal": {
+            "appeal": -100
+        },
+        "stonehearth:item_quality": {
+            "variable_quality": false
+        }
+    }
 }
