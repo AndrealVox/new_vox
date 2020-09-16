@@ -5,6 +5,9 @@
       "stonehearth:ai": {},
       "render_info": {
          "color_map": "stonehearth:color_map:human",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/mob_material_map.json"
+         ],
          "cache_model_geometry": false
       },
       "model_variants": {

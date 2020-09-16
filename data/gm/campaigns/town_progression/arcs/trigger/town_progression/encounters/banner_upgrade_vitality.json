@@ -1,60 +1,60 @@
 {
-    "type": "encounter",
-    "encounter_type": "town_upgrade",
-    "in_edge": "banner_upgrade_vitality",
-    "out_edge": {
-        "type": "trigger_many",
-        "out_edges": [
+   "type": "encounter",
+   "encounter_type": "town_upgrade",
+   "in_edge": "banner_upgrade_vitality",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
          "town_founding_food_donation",
          "delay_before_hearth_foreshadow"
       ]
-    },
-    "town_upgrade_info": {
-        "tier_achieved": 1,
-        "old_facility_uri": "box_o_vox:camp_standard",
-        "new_facility_uri": "box_o_vox:banner:vitality",
-        "town_bonus": "stonehearth:town_bonus:vitality",
-        "facility_upgrade_effect": "stonehearth:effects:level_up:banner",
-        "conversation_subjects": [
+   },
+   "town_upgrade_info": {
+      "tier_achieved": 1,
+      "old_facility_uri": "box_o_vox:camp_standard",
+      "new_facility_uri": "box_o_vox:banner:vitality",
+      "town_bonus": "stonehearth:town_bonus:vitality",
+      "facility_upgrade_effect": "stonehearth:effects:level_up:banner",
+      "conversation_subjects": [
          "stonehearth:subjects:town_status",
          "stonehearth:food:cake",
          "northern_alliance:banner:vitality"
       ],
-        "thought": "stonehearth:thoughts:town:progression:outpost",
-        "celebration_duration": "25m+5m",
-        "dialog": {
-            "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.title)",
-            "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.dialog_title)",
-            "tier_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.tier_title)",
-            "reward_message": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.reward_message)",
-            "reward_message_ctd": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.reward_message_ctd)",
-            "achievements": [
-                {
-                    "id": "vitality_bonus_1",
-                    "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.achievements.000)",
-                    "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png",
-                    "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+      "thought": "stonehearth:thoughts:town:progression:outpost",
+      "celebration_duration": "1h+1h",
+      "dialog": {
+         "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.title)",
+         "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.dialog_title)",
+         "tier_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.tier_title)",
+         "reward_message": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.reward_message)",
+         "reward_message_ctd": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.reward_message_ctd)",
+         "achievements": [
+            {
+               "id": "vitality_bonus_1",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.achievements.000)",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
-                {
-                    "id": "vitality_bonus_2",
-                    "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.achievements.001)",
-                    "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png",
-                    "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            {
+               "id": "vitality_bonus_2",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.achievements.001)",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
-                {
-                    "id": "vitality_bonus_3",
-                    "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.achievements.002)",
-                    "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png",
-                    "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            {
+               "id": "vitality_bonus_3",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.achievements.002)",
+               "icon": "/box_o_vox/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             }
          ]
-        },
-        "npcs": [
-            {
-                "faction": "human_npcs",
-                "role": "herald_darza",
-                "gender": "female"
+      },
+      "npcs": [
+         {
+            "faction": "human_npcs",
+            "role": "herald_darza",
+            "gender": "female"
          }
       ]
-    }
+   }
 }

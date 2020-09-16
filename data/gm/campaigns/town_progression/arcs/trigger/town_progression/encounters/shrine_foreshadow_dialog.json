@@ -13,7 +13,7 @@
          "msg1": {
             "bulletin": {
                "title": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
-               "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
+               "dialog_title": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
                "portrait": "file(images/herald_darza.png)",
                "message": "i18n(box_o_vox:data.gm.campaigns.town_progression.shrine_foreshadow_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)",
                "choices": {

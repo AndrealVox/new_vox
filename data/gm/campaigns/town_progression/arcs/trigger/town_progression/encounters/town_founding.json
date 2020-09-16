@@ -5,27 +5,27 @@
    "town_upgrade_choice_info": {
       "includes_town_naming": true,
       "choices": {
-         "vitality": {
-            "name": "i18n(northern_alliance:entities.gizmos.na_town_banner_nature.na_town_banner_nature_ghost.display_name)",
-            "description": "i18n(northern_alliance:entities.gizmos.na_town_banner_nature.na_town_banner_nature_ghost.town_bonus_description)",
-            "icon": "/box_o_vox/entities/gizmos/na_town_banner_nature/na_town_banner_nature.png",
-            "sort_order": 1,
-            "out_edge": {
-               "type": "trigger_many",
-               "out_edges": [
-                  "banner_upgrade_vitality"
-               ]
-            }
-         },
          "strength": {
             "name": "i18n(northern_alliance:entities.gizmos.na_town_banner_might.na_town_banner_might_ghost.display_name)",
             "description": "i18n(northern_alliance:entities.gizmos.na_town_banner_might.na_town_banner_might_ghost.town_bonus_description)",
             "icon": "/box_o_vox/entities/gizmos/na_town_banner_might/na_town_banner_might.png",
-            "sort_order": 2,
+            "sort_order": 1,
             "out_edge": {
                "type": "trigger_many",
                "out_edges": [
                   "banner_upgrade_strength"
+               ]
+            }
+         },
+         "vitality": {
+            "name": "i18n(northern_alliance:entities.gizmos.na_town_banner_nature.na_town_banner_nature_ghost.display_name)",
+            "description": "i18n(northern_alliance:entities.gizmos.na_town_banner_nature.na_town_banner_nature_ghost.town_bonus_description)",
+            "icon": "/box_o_vox/entities/gizmos/na_town_banner_nature/na_town_banner_nature.png",
+            "sort_order": 2,
+            "out_edge": {
+               "type": "trigger_many",
+               "out_edges": [
+                  "banner_upgrade_vitality"
                ]
             }
          },

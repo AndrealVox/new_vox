@@ -22,41 +22,20 @@
       },
       "loot_table": {
          "entries": {
-            "meat_definite": {
+            "pizza_definite": {
                "num_rolls": 1,
                "items": {
-                  "sausage": {
-                     "uri": "stonehearth:food:roast_sausage",
+                  "pizza": {
+                     "uri": "box_o_vox:entities:food:pizza:pizza",
                      "weight": 1
                   }
                }
             },
-            "bread_definite": {
+            "smoothie_definite": {
                "num_rolls": 1,
                "items": {
-                  "peasant_bread": {
-                     "uri": "stonehearth:food:peasant_bread",
-                     "weight": 1
-                  },
-                  "corn_bread": {
-                     "uri": "stonehearth:food:corn_bread",
-                     "weight": 1
-                  }
-               }
-            },
-            "variety": {
-               "num_rolls": 5,
-               "items": {
-                  "sausage": {
-                     "uri": "stonehearth:food:roast_sausage",
-                     "weight": 1
-                  },
-                  "peasant_bread": {
-                     "uri": "stonehearth:food:peasant_bread",
-                     "weight": 1
-                  },
-                  "corn_bread": {
-                     "uri": "stonehearth:food:corn_bread",
+                  "smoothie": {
+                     "uri": "box_o_vox:entities:food:fruit_smoothie",
                      "weight": 1
                   }
                }
