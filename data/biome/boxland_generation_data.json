@@ -242,9 +242,9 @@
             "aspect_ratio": 1
         },
         "__comment": "Literal percentage of terrain which is plains. Def 40",
-        "plains_percentage": 70,
+        "plains_percentage": 60,
         "__comment": "This is an offset in regards to where the layers line up. Def 36, must be 1 plus a multiple of five.",
-        "height_base": 66,
+        "height_base": 26,
         "__comments": {
             "valley_count": "offset of layers from base",
             "step_count": "number of layers",

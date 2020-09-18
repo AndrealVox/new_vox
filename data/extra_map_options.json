@@ -9,24 +9,7 @@
                 "mountains": false
             },
             "lakes": false,
-            "dirt_holes": false,
-            "hide_from_ui": {
-                "rivers": {
-                    "quantity": true,
-                    "radius": true,
-                    "plains": true,
-                    "foothills": true,
-                    "mountains": true
-                },
-                "lakes": true,
-                "dirt_holes": true,
-                "modes": {
-                    "sky_lands": true,
-                    "waterworld": true,
-                    "superflat": true,
-                    "canyons": true
-                }
-            }
+            "dirt_holes": false
         }
     }
 }

@@ -19,7 +19,7 @@
             "default": "box_o_vox:effects:fog"
         },
         "stonehearth:resource_node": {
-            "durability": 10,
+            "durability": 6,
             "harvest_overlay_effect": "stonehearth:effects:chop_overlay_effect",
             "resource": "stonehearth:resources:wood:oak_log",
             "resource_loot_table": {
@@ -27,8 +27,8 @@
                     "stone": {
                         "roll_type": "some_of",
                         "num_rolls": {
-                            "min": 5,
-                            "max": 10
+                            "min": 0,
+                            "max": 2
                         },
                         "items": {
                             "pelt": {
@@ -41,7 +41,7 @@
                         "roll_type": "some_of",
                         "num_rolls": {
                             "min": 0,
-                            "max": 3
+                            "max": 1
                         },
                         "items": {
                             "pelt": {
@@ -54,7 +54,7 @@
                         "roll_type": "some_of",
                         "num_rolls": {
                             "min": 0,
-                            "max": 3
+                            "max": 1
                         },
                         "items": {
                             "bone": {
@@ -67,7 +67,7 @@
                         "roll_type": "some_of",
                         "num_rolls": {
                             "min": 0,
-                            "max": 3
+                            "max": 1
                         },
                         "items": {
                             "bone": {
