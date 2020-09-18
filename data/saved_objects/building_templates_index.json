@@ -8,40 +8,19 @@
                "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.camp)",
                "ordinal": 1,
                "templates": {
-                  "boxling_compound": {
-                     "file": "file(building_templates/boxling_compound.json)"
-                  },
-                  "boxling_duplex": {
-                     "file": "file(building_templates/boxling_duplex.json)"
-                  },
-                  "boxling_fort": {
-                     "file": "file(building_templates/boxling_fort.json)"
-                  },
-                  "grand_banquet_hall": {
-                     "file": "file(building_templates/grand_banquet_hall.json)"
-                  },
-
-                  "blacksmith_workshop": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "stonehearth:jobs:blacksmith"
-                     },
-                     "file": "file(building_templates/blacksmith_workshop.json)"
-                  },
-                  "carpenter_workshop": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "stonehearth:jobs:carpenter"
-                     },
-                     "file": "file(building_templates/carpenter_workshop.json)"
-                  },
-                  "cook_workshop": {
+                  "basic_dining_hall": "file(building_templates/basic_dining_hall.json)",
+                  "boxling_dormitory": "file(building_templates/boxling_dormitory.json)",
+                  
+                  "cook_kitchen": {
                      "unlock_requirement": {
                         "type": "has_job",
                         "value": "stonehearth:jobs:cook"
                      },
-                     "file": "file(building_templates/cook_workshop.json)"
+                     "file": "file(building_templates/cook_kitchen.json)"
                   },
+                  
+                  "little_house": "file(building_templates/little_house.json)",
+                  
                   "mason_workshop": {
                      "unlock_requirement": {
                         "type": "has_job",
@@ -49,13 +28,14 @@
                      },
                      "file": "file(building_templates/mason_workshop.json)"
                   },
-                  "weaver_workshop": {
+                  "weaver_hut": {
                      "unlock_requirement": {
                         "type": "has_job",
                         "value": "stonehearth:jobs:weaver"
                      },
-                     "file": "file(building_templates/weaver_workshop.json)"
+                     "file": "file(building_templates/weaver_hut.json)"
                   }
+                  
                }
             },
             "town": {
@@ -63,7 +43,7 @@
                "ordinal": 2,
                "required_city_tier": 2,
                "templates": {
-
+                  
                }
             }
          }

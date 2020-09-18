@@ -7,6 +7,7 @@
    },
    "author": "Andreal Vox",
    "dependencies": [
+      "northern_alliance",
       "extra_map_options",
       "stonehearth_beam"
    ],
@@ -267,6 +268,7 @@
       "entities:weapon:summon_necromancer_tome": "file(jobs/necromancer/necromancer_tome/summon_necromancer_tome.json)",
       "entities:weapon:undead_wolf_teeth": "file(entities/weapons/undead_wolf_teeth)",
       "jobs:asc_index": "file(jobs/asc_index.json)",
+      "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
       "jobs:cook": "file(jobs/cook/cook_description.json)",
       "jobs:engineer": "file(jobs/engineer/engineer_description.json)",
       "jobs:herbalist": "file(jobs/herbalist/herbalist_description.json)",
@@ -356,7 +358,6 @@
       "stonehearth:resources:wood:palm_log": "file(entities/resources/wood/log.json)",
       "stonehearth:resources:wood:pine_log": "file(entities/resources/wood/log.json)",
       "stonehearth/jobs/blacksmith/recipes/recipes.json": "box_o_vox:jobs:recipes:blacksmith",
-      "stonehearth/jobs/carpenter/recipes/recipes.json": "box_o_vox:jobs:recipes:carpenter",
       "stonehearth/jobs/cook/recipes/recipes.json": "box_o_vox/jobs/cook/recipes/recipes_mixin.json",
       "stonehearth/jobs/herbalist/recipes/recipes.json": "box_o_vox/jobs/herbalist/recipes/recipes_mixin.json",
       "stonehearth/jobs/mason/recipes/recipes.json": "box_o_vox/jobs/mason/recipes/recipes_mixin.json",

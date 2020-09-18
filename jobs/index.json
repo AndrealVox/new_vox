@@ -5,7 +5,7 @@
             "stonehearth:jobs:herbalist": "remove"
         },
         "stonehearth:jobs:cleric": {
-            "description": "file(cleric/cleric_description.json)"
+            "description": "box_o_vox:jobs:cleric"
         },
         "stonehearth:jobs:cook": {
             "description": "box_o_vox:jobs:cook"

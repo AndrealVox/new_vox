@@ -6,7 +6,7 @@
     "type": "entity",
     "components": {
         "render_info": {
-            "scale": 1
+            "scale": 0.8
         },
         "model_variants": {
             "default": {
@@ -19,8 +19,65 @@
             "default": "box_o_vox:effects:fog"
         },
         "stonehearth:resource_node": {
-            "durability": 20,
-            "resource": "stonehearth:resources:wood:oak_log"
+            "durability": 10,
+            "harvest_overlay_effect": "stonehearth:effects:chop_overlay_effect",
+            "resource": "stonehearth:resources:wood:oak_log",
+            "resource_loot_table": {
+                "entries": {
+                    "stone": {
+                        "roll_type": "some_of",
+                        "num_rolls": {
+                            "min": 5,
+                            "max": 10
+                        },
+                        "items": {
+                            "pelt": {
+                                "uri": "stonehearth:resources:stone:hunk_of_stone",
+                                "weight": 1
+                            }
+                        }
+                    },
+                    "apple": {
+                        "roll_type": "some_of",
+                        "num_rolls": {
+                            "min": 0,
+                            "max": 3
+                        },
+                        "items": {
+                            "pelt": {
+                                "uri": "box_o_vox:entities:food:apple:apple",
+                                "weight": 1
+                            }
+                        }
+                    },
+                    "lime": {
+                        "roll_type": "some_of",
+                        "num_rolls": {
+                            "min": 0,
+                            "max": 3
+                        },
+                        "items": {
+                            "bone": {
+                                "uri": "box_o_vox:entities:food:lime:lime",
+                                "weight": 1
+                            }
+                        }
+                    },
+                    "orange": {
+                        "roll_type": "some_of",
+                        "num_rolls": {
+                            "min": 0,
+                            "max": 3
+                        },
+                        "items": {
+                            "bone": {
+                                "uri": "box_o_vox:entities:food:orange:orange",
+                                "weight": 1
+                            }
+                        }
+                    }
+                }
+            }
         },
         "mob": {
             "model_origin": {

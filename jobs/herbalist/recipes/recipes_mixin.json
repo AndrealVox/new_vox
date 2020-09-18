@@ -1,12 +1,5 @@
 {
     "craftable_recipes": {
-        "tools": {
-            "recipes": {
-                "mixintypes": {
-                    "cleric_tome": "remove"
-                }
-            }
-        },
         "refinement": {
             "recipes": {
                 "blueberry_bush_transmute": {

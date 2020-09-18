@@ -1,7 +1,10 @@
 {
     "crafter_menu": {
         "items": {
-            "cleric": {
+           "mixintypes": {
+              "herbalist": "remove"
+           }, 
+           "cleric": {
                 "name": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.cleric.display_name)",
                 "description": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.cleric.description)",
                 "class": "button",
@@ -40,9 +43,6 @@
             },
             "potter": {
                 "icon": "/box_o_vox/jobs/potter/images/potter_menu_icon.png"
-            },
-            "herbalist": {
-                "icon": "/box_o_vox/jobs/herbalist/images/herbalist_menu_icon.png"
             },
             "engineer": {
                 "icon": "/box_o_vox/jobs/engineer/images/engineer_menu_icon.png"
