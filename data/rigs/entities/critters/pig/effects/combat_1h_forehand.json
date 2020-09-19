@@ -1,34 +1,37 @@
 {
-    "type": "effect",
-    "tracks": {
-        "animation": {
+   "type" : "effect",
+   "tracks": {
+      "animation": {
             "type": "animation_effect",
             "start_time": 0,
             "animation": "combat_bite.json",
             "loop": false
-        },
-        "attack_trigger": {
+      },
+      "attack_trigger" : {
             "type": "trigger_effect",
             "start_frame": 18,
             "end_time": 20
-        },
-        "sound": {
-            "type": "sound_effect",
-            "duration": 1000,
-            "start_time": 200,
-            "min_distance": 20,
-            "max_instances": 2,
-            "falloff": 7,
-            "volume": 85,
-            "track": {
-                "type": "one_of",
-                "items": [
-               "box_o_vox:sounds:pig_oink_1",
-               "box_o_vox:sounds:pig_oink_2",
-               "box_o_vox:sounds:pig_oink_3",
-               "box_o_vox:sounds:pig_oink_4"
+       },
+       "sound": {
+         "type": "sound_effect",
+         "duration": 1000,
+         "start_time": 300,
+         "min_distance": 30,
+         "max_instances" :2,
+         "falloff" : 12,
+         "volume": 60,
+         "track" : {
+            "type": "one_of",
+            "items": [
+               "stonehearth:sounds:boar_attack_01",
+               "stonehearth:sounds:boar_attack_02",
+               "stonehearth:sounds:boar_attack_03",
+               "stonehearth:sounds:boar_attack_04",
+               "stonehearth:sounds:boar_attack_05",
+               "stonehearth:sounds:boar_attack_06",
+               "stonehearth:sounds:boar_attack_07"
             ]
-            }
-        }
-    }
-}
+         }
+      }          
+   }
+}      

@@ -1,29 +1,31 @@
 {
-    "type": "effect",
-    "tracks": {
-        "animation": {
+   "type" : "effect",
+   "tracks": {
+      "animation": {
             "type": "animation_effect",
             "start_time": 0,
             "animation": "idle_breathe.json",
             "loop": true
-        },
-        "sound": {
-            "type": "sound_effect",
-            "duration": 1000,
-            "start_time": 200,
-            "min_distance": 20,
-            "max_instances": 2,
-            "falloff": 7,
-            "volume": 85,
-            "track": {
-                "type": "one_of",
-                "items": [
-               "box_o_vox:sounds:pig_oink_1",
-               "box_o_vox:sounds:pig_oink_2",
-               "box_o_vox:sounds:pig_oink_3",
-               "box_o_vox:sounds:pig_oink_4"
+     },
+       "sound": {
+         "type": "sound_effect",
+         "duration": 1000,
+         "start_time": 300,
+         "min_distance": 30,
+         "max_instances" :2,
+         "falloff" : 12,
+         "volume": 40,
+         "track" : {
+            "type": "one_of",
+            "items": [
+               "stonehearth:sounds:boar_idle_01",
+               "stonehearth:sounds:boar_idle_02",
+               "stonehearth:sounds:boar_idle_03",
+               "stonehearth:sounds:boar_idle_04",
+               "stonehearth:sounds:boar_idle_05",
+               "stonehearth:sounds:boar_idle_06"
             ]
-            }
-        }
-    }
-}
+         }
+      }          
+   }
+}      

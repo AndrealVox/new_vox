@@ -113,7 +113,7 @@
             }
         },
         "render_info": {
-            "animation_table": "/stonehearth/data/rigs/entities/critters/boar",
+            "animation_table": "/box_o_vox/data/rigs/entities/critters/pig",
             "scale": 0.1
         }
     },

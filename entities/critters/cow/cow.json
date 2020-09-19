@@ -139,7 +139,7 @@
             }
         },
         "render_info": {
-            "animation_table": "/stonehearth/data/rigs/entities/critters/deer",
+            "animation_table": "/box_o_vox/data/rigs/entities/critters/cow",
             "scale": 0.125
         }
     },

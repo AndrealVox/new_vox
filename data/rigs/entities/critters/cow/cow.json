@@ -1,3 +1,32 @@
 {
-    "effects_root": "file(effects)"
+   "type" : "rig",
+   "skeleton": {
+      "ATTOVERCOG": [9.5,14.5,45.0],
+      "earLeft": [12.0,7.5,26.5],
+      "earRight": [7.0,7.5,26.5],
+      "head": [9.5,8.0,22.0],
+      "jaw": [9.5,6.0,22.0],
+      "leftBackFoot": [13.0,24.0,5.0],
+      "leftFrontFoot": [13.0,12.0,3.0],
+      "leftLegBack1": [13.0,22.0,13.0],
+      "leftLegBack2": [13.0,20.0,8.0],
+      "leftLegBack3": [13.0,25.0,10.0],
+      "leftLegFront1": [13.0,12.0,12.0],
+      "leftLegFront2": [13.0,13.0,8.0],
+      "neck": [9.5,10.0,14.0],
+      "pelvis": [9.5,22.0,13.0],
+      "rightBackFoot": [6.0,24.0,5.0],
+      "rightFrontFoot": [6.0,12.0,3.0],
+      "rightLegBack1": [6.0,22.0,13.0],
+      "rightLegBack2": [6.0,20.0,8.0],
+      "rightLegBack3": [6.0,25.0,10.0],
+      "rightLegFront1": [6.0,12.0,12.0],
+      "rightLegFront2": [6.0,13.0,8.0],
+      "root": [9.5,14.5,0.0],
+      "tail": [9.5,25.0,14.5],
+      "torso": [9.5,12.0,13.0]
+   },
+   "animation_root" : "file(animations)",
+   "effects_root": "file(effects)",
+   "conversation_effects": "file(conversation_effects.json)"
 }

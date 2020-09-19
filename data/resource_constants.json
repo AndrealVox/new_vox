@@ -9,6 +9,11 @@
          "name": "i18n(box_o_vox:ui.data.constants.resource_fuel_name)",
          "default_resource": "stonehearth:resources:coal:lump_of_coal",
          "icon": "/box_o_vox/mixins/fuel/fuel/fuel.png"
+      },
+      "clump_of_rock_salt": {
+         "name": "Salt Rock",
+         "default_resource": "box_o_vox:entities:resources:rocks:salt_rock",
+         "icon": "/box_o_vox/mixins/rocks/salt_rock/salt_rock.png"
       }
    }
 }
