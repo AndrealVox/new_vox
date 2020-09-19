@@ -1,9 +1,31 @@
 {
+   "components": {
+      "stonehearth:loot_drops": {
+         "entries": {
+            "pelt": {
+               "num_rolls": {
+                  "min": 1,
+                  "max": 1
+               }
+            }
+         }
+      }
+   },
    "entity_data": {
       "stonehearth:bait_trap": {
          "can_trap": true,
          "catch_chance": 0.6,
          "trigger_trap_on_failure_chance": 0.4
+      },
+      "stonehearth:harvest_beast_loot_table": {
+         "entries": {
+            "pelt": {
+               "num_rolls": {
+                  "min": 1,
+                  "max": 1
+               }
+            }
+         }
       }
    }
 }

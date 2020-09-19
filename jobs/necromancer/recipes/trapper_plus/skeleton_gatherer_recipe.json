@@ -1,0 +1,17 @@
+{
+   "mixins": "box_o_vox/jobs/necromancer/recipes/skeleton_gatherer_recipe.json",
+   "mixintypes": {
+      "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "fresh_pelt",
+         "count": 20
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:monsters:summoned:skeleton_gatherer"
+      }
+   ]
+}

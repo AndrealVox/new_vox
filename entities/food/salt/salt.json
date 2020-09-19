@@ -34,7 +34,15 @@
             "icon": "file(salt.png)",
             "is_item": true,
             "category": "cooking_ingredient",
-            "material_tags": "stockpile_cooking_ingredient cooking_ingredient salt"
+            "material_tags": [
+            "stockpile_cooking_ingredient",
+            "cooking_ingredient",
+            "salt",
+            "seasoning",
+            "other_ingredient",
+            "other_fluid",
+            "smokehouse_curable"
+         ]
         },
         "stonehearth:appeal": {
             "appeal": 0

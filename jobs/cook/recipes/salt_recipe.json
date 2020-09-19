@@ -10,7 +10,7 @@
    "level_requirement": 2,
    "ingredients": [
       {
-         "uri": "box_o_vox:entities:resources:rocks:salt_rock",
+         "material": "clump_of_rock_salt",
          "count": 1
       }
    ],

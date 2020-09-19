@@ -1,7 +1,17 @@
 {
    "mixins": "/stonehearth_ace/jobs/mason/recipes/na_recipes.json",
    "craftable_recipes": {
-      "tools": {
+      "workbenches": {
+         "recipes": {
+            "mason_workbench": {
+               "recipe": "file(mason_workbench_recipe.json)"
+            },
+            "mason_pedestal": {
+               "recipe": "file(mason_pedestal_recipe.json)"
+            }
+         }
+      },
+		"tools": {
          "recipes": {
             "trapper_knife": {
                "recipe": "file(trapper_knife_recipe.json)"

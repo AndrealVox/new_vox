@@ -27,7 +27,13 @@
             "icon": "file(salt_rock.png)",
             "is_item": true,
             "category": "resources",
-            "material_tags": "stockpile_ore salt_rock ore resource"
+            "material_tags": [
+            "stockpile_stone",
+            "clump_of_rock_salt",
+            "rock_salt",
+            "salt",
+            "resource"
+         ]
         },
         "stonehearth:appeal": {
             "appeal": 2

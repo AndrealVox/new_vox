@@ -358,6 +358,7 @@
       "stonehearth:resources:wood:palm_log": "file(entities/resources/wood/log.json)",
       "stonehearth:resources:wood:pine_log": "file(entities/resources/wood/log.json)",
       "stonehearth/jobs/blacksmith/recipes/recipes.json": "box_o_vox:jobs:recipes:blacksmith",
+      "stonehearth/jobs/carpenter/recipes/recipes.json": "box_o_vox/jobs/carpenter/recipes/recipes_mixin.json",
       "stonehearth/jobs/cook/recipes/recipes.json": "box_o_vox/jobs/cook/recipes/recipes_mixin.json",
       "stonehearth/jobs/herbalist/recipes/recipes.json": "box_o_vox/jobs/herbalist/recipes/recipes_mixin.json",
       "stonehearth/jobs/mason/recipes/recipes.json": "box_o_vox/jobs/mason/recipes/recipes_mixin.json",
@@ -409,6 +410,8 @@
 
       "stonehearth/data/rigs/entities/critters/deer/deer.json": "box_o_vox/data/rigs/entities/critters/cow/cow.json",
       "stonehearth/data/rigs/entities/critters/boar/boar.json": "box_o_vox/data/rigs/entities/critters/pig/pig.json",
+      
+      "trapper_plus/jobs/cook/recipes/salt_recipe.json": "box_o_vox/cook/recipes/trapper_plus/salt_recipe_recipes.json",
 
 
       "stonehearth_ace/data/trough_feed/trough_feed.json": "file(data/trough_feed/trough_feed.json)",

@@ -1,0 +1,11 @@
+{
+   "mixintypes": {
+        "ingredients": "override"
+    },
+    "ingredients": [
+      {
+         "material": "clump_of_rock_salt",
+         "count": 2
+      }
+   ]
+}

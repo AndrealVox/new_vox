@@ -5,10 +5,10 @@
             "name": "Undead Workers",
             "recipes": {
                 "skeleton_gatherer": {
-                    "recipe": "file(skeleton_gatherer_recipe.json)"
+                    "recipe": "file(trapper_plus/skeleton_gatherer_recipe.json)"
                 },
                 "zombie_miner": {
-                    "recipe": "file(ace/trapper_plus_zombie_miner_recipe.json)"
+                    "recipe": "file(trapper_plus/zombie_miner_recipe.json)"
                 }
             }
         },
@@ -17,10 +17,10 @@
             "name": "Armor",
             "recipes": {
                 "necromancer_mask_1": {
-                    "recipe": "file(necromancer_mask_1_recipe.json)"
+                    "recipe": "file(trapper_plus/necromancer_mask_1_recipe.json)"
                 },
                 "necromancer_mask_2": {
-                    "recipe": "file(necromancer_mask_2_recipe.json)"
+                    "recipe": "file(trapper_plus/necromancer_mask_2_recipe.json)"
                 }
             }
         }
