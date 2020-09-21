@@ -8,7 +8,32 @@
                "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.camp)",
                "ordinal": 1,
                "templates": {
+                  "carpenter_workshop": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:carpenter"
+                     },
+                     "file": "file(building_templates/carpenter_workshop.json)"
+                  },
+                  
+                  "cleric_abode": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:cleric"
+                     },
+                     "file": "file(building_templates/cleric_abode.json)"
+                  },
+                  
                   "basic_dining_hall": "file(building_templates/basic_dining_hall.json)",
+                  
+                  "blacksmith_forge": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:blacksmith"
+                     },
+                     "file": "file(building_templates/blacksmith_forge.json)"
+                  },
+                  
                   "boxling_dormitory": "file(building_templates/boxling_dormitory.json)",
                   
                   "cook_kitchen": {
@@ -43,7 +68,16 @@
                "ordinal": 2,
                "required_city_tier": 2,
                "templates": {
+                  "little_wooden_house": "file(building_templates/little_wooden_house.json)",
+                  "boxling_wooden_dormitory": "file(building_templates/boxling_wooden_dormitory.json)",
                   
+                  "shepherd_barnhouse": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:shepherd"
+                     },
+                     "file": "file(building_templates/shepherd_barnhouse.json)"
+                  }
                }
             }
          }

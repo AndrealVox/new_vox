@@ -147,7 +147,8 @@
             "stonehearth:pasture_equipment:young_animal_collar"
          ],
             "food_material": "cow_feed_edible",
-            "type": "box_o_vox::entities:critters:cow"
+            "type": "box_o_vox::entities:critters:cow",
+            "size": "large"
         },
         "stonehearth:calories": {
             "hungry_threshold": 0,

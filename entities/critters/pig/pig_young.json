@@ -147,7 +147,8 @@
             "stonehearth:pasture_equipment:young_animal_collar"
          ],
             "food_material": "pig_feed_edible",
-            "type": "box_o_vox::entities:critters:pig"
+            "type": "box_o_vox::entities:critters:pig",
+            "size": "small"
         },
         "stonehearth:calories": {
             "hungry_threshold": 0,
