@@ -897,7 +897,7 @@
             }
         },
         "water": {
-            "color": "#11334480",
+            "color": "#481334C0",
             "__comment": "placement of water bodies occur at positive samples, parameters are for a standard simplex noise generator",
             "depth": {
                 "__comment": "This is the exact depth of the 'shallows' sections of water.  Def 5.",

@@ -27,8 +27,8 @@
       "stonehearth:seasonal_model_switcher": {
          "box_o_vox:biome:boxland": {
             "spring": "spring",
-            "summer": "summer",
-            "autumn": "default",
+            "summer": "default",
+            "autumn": "summer",
             "winter": "winter"
          }
       },

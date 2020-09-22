@@ -1589,13 +1589,14 @@
          }
       }
    },
-   "kingdom": {
-      "initial_town_name": "Boxland"
-   },
    "resources": {
       "fox_wolf_pelt": {
          "display_name": "Fox Wolf Pelt",
          "description": "Looks like a pet died."
       }
+   },
+   "kingdoms": {
+      "boxlings": "Boxlings",
+      "initial_town_name": "Boxland"
    }
 }
