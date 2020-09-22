@@ -10,7 +10,7 @@
    "story_board_image": "/box_o_vox/data/kingdoms/images/story_board_image.png",
    "starting_talisman": "stonehearth:mason:talisman",
    "starting_resource": "stonehearth:resources:stone:hunk_of_stone",
-   "initial_town_name": "i18n(box_o_vox:kingdoms.initial_town_name)",
+   "initial_town_name": "i18n(box_o_vox:data.population.boxling.initial_town_name)",
    "camp_standard": "box_o_vox:camp_standard",
    "job_index": "box_o_vox:jobs:index",
    "inventory_capacity_equation": "math.max(num_citizens * 420, 9001)",

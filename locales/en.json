@@ -61,10 +61,11 @@
       },
       "population": {
          "boxling": {
-            "display_name": "The Boxlings",
+            "display_name": "Boxlings",
             "quote": "Fun Times!",
             "description": "A mysterious and magical race. Citizens of the Boxlings are an enchanted folk, using their magic to strengthen their allies and grow to great heights.",
-            "post_selection_description": ", a proud and hard working race."
+            "post_selection_description": ", a proud and hard working race.",
+            "initial_town_name": "Boxling Journey [str(town_number)]"
          }
       },
       "biome": {
@@ -1595,8 +1596,17 @@
          "description": "Looks like a pet died."
       }
    },
+   "server":{
+        "population":{
+            "data":{
+                "kingdoms":{
+                    "boxling": "Boxlings"
+                }
+            }
+        }
+    },
    "kingdoms": {
-      "boxlings": "Boxlings",
-      "initial_town_name": "Boxland"
+      "box_o_vox": "Boxlings",
+      "boxling": "Boxlings"
    }
 }
