@@ -404,6 +404,7 @@
       "stonehearth:kingdoms:human_npcs": "file(data/bov_human_npc_population.json)",
       "stonehearth/jobs/farmer/field/field.json": "file(jobs/farmer/field/field.json)",
       "stonehearth/data/materials/color_maps/skin_color_map.json": "box_o_vox/data/materials/color_maps/skin_color_map.json",
+      "stonehearth/data/materials/color_maps/magic_color_map.json": "box_o_vox/data/materials/color_maps/magic_color_map.json",
       "stonehearth/data/gm/campaigns/trader/arcs/encounters/na_returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "stonehearth/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "rayyas_children/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",

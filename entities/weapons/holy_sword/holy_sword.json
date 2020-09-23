@@ -3,7 +3,10 @@
    "type": "entity",
    "components": {
       "render_info": {
-         "material": "materials/shiny.material.json"
+         "color_map": "stonehearth:color_map:magic",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/mob_material_map.json"
+         ]
       },
       "model_variants": {
          "default": {
@@ -11,6 +14,9 @@
                "file(holy_sword_equipped.qb)"
             ]
          }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:treasure_glow"
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(holy_sword_iconic.json)"

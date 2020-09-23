@@ -4,7 +4,10 @@
    "components": {
       "render_info": {
          "scale": 0.05,
-         "material": "materials/shiny.material.json"
+         "color_map": "stonehearth:color_map:magic",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/mob_material_map.json"
+         ]
       },
       "model_variants": {
          "default": {
@@ -12,6 +15,9 @@
                "file(holy_sword.qb)"
             ]
          }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:treasure_glow"
       }
    },
    "entity_data": {
