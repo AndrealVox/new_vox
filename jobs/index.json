@@ -31,6 +31,9 @@
         "stonehearth:jobs:shepherd": {
             "description": "box_o_vox:jobs:shepherd"
         },
+        "stonehearth:jobs:trapper": {
+            "description": "box_o_vox:jobs:trapper"
+        },
         "stonehearth:jobs:weaver": {
             "description": "box_o_vox:jobs:weaver"
         },

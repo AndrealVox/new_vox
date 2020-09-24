@@ -1,0 +1,33 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": false,
+            "models": [
+               "file(trapper_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": false,
+            "models": [
+               "file(trapper_outfit_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(trapper_outfit.png)",
+         "display_name": "i18n(stonehearth:jobs.trapper.trapper_outfit.display_name)"
+      }
+   }
+}
