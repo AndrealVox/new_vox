@@ -1,5 +1,7 @@
 {
-   "mixins": "stonehearth:mixins:worker_outfit_2",
+   "mixins": [
+      "stonehearth:mixins:worker_outfit_2"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -20,16 +22,6 @@
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(boxling_outfit_2_iconic.json)"
-      },
-      "stonehearth:equipment_piece": {
-         "slot": "torso",
-         "render_type": "merge_with_model",
-         "roles": "worker_job",
-         "ilevel": 1,
-         "injected_buffs": [
-            "stonehearth:buffs:devoted"
-         ],
-         "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {

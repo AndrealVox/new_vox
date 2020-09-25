@@ -1,5 +1,7 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": [
+      "stonehearth:mixins:item_properties"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -24,7 +26,7 @@
       "stonehearth:equipment_piece": {
          "slot": "torso",
          "render_type": "merge_with_model",
-         "roles": "worker_job",
+         "roles": ["worker_job"],
          "ilevel": 2,
          "injected_buffs": [
             "stonehearth:buffs:devoted",
@@ -52,7 +54,7 @@
          "description": "i18n(stonehearth:jobs.worker.winter_worker_outfit.description)",
          "icon": "file(winter_boxling_outfit.png)",
          "category": "armor",
-         "material_tags":["worker_outfit", "cloth", "boxling_made", "stockpile_equipment"]
+         "material_tags": ["worker_outfit", "cloth", "boxling_made", "stockpile_equipment"]
       }
    }
 }
