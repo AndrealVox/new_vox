@@ -10,6 +10,9 @@
             },
             "pig_feed": {
                "recipe": "file(ace/pig_feed_recipe.json)"
+            },
+			"kibble": {
+               "recipe": "file(ace/kibble_recipe.json)"
             }
          }
       }

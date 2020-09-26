@@ -5,7 +5,7 @@
    "recipe_name": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad.display_name)",
    "description": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad.description)",
    "portrait": "/box_o_vox/entities/food/fruit_salad/fruit_salad/fruit_salad.png",
-   "workshop": "stonehearth:cook:workbench",
+   "workshop": "stonehearth:cook:mill",
    "ingredients": [
       {
          "material": "fruit",

@@ -1,0 +1,103 @@
+{
+    "type": "index",
+    "ambient": {
+        "enchanted_mist": {
+            "day": {
+                "track": [
+                        "stonehearth:ambient:foggy"
+                           ],
+                "loop": true,
+                "fade_in": 2000,
+                "volume": 30
+            },
+            "night": {
+                "track": [
+                        "stonehearth:ambient:foggy"
+                           ],
+                "loop": true,
+                "fade_in": 2000,
+                "volume": 30
+            }
+        }
+    },
+    "music": {
+        "kingdoms": {
+            "box_o_vox:server:population:data:kingdoms:boxling": {
+                "tier_to_day_music_track": {
+                    "idle_day_music_tier_1": {
+                        "track": [
+                            "box_o_vox:data:music:day_1"
+                  ],
+                        "loop": false,
+                        "fade_in": 2000,
+                        "volume": 10
+                    },
+                    "idle_day_music_tier_2": {
+                        "track": [
+                            "box_o_vox:data:music:day_1",
+                            "box_o_vox:data:music:day_2"
+                  ],
+                        "loop": false,
+                        "fade_in": 2000,
+                        "volume": 10
+                    },
+                    "idle_day_music_tier_3": {
+                        "track": [
+                            "box_o_vox:data:music:day_1",
+                            "box_o_vox:data:music:day_2",
+                            "box_o_vox:data:music:day_3"
+                  ],
+                        "loop": false,
+                        "fade_in": 2000,
+                        "volume": 10
+                    }
+                },
+                "tier_to_night_music_track": {
+                    "idle_night_music_tier_1": {
+                        "track": [
+                            "box_o_vox:data:music:night_1"
+                  ],
+                        "loop": false,
+                        "fade_in": 2000,
+                        "volume": 10
+                    },
+                    "idle_night_music_tier_2": {
+                        "track": [
+                            "box_o_vox:data:music:night_1",
+                            "box_o_vox:data:music:night_2"
+                  ],
+                        "loop": false,
+                        "fade_in": 2000,
+                        "volume": 10
+                    },
+                    "idle_night_music_tier_3": {
+                        "track": [
+                            "box_o_vox:data:music:night_1",
+                            "box_o_vox:data:music:night_2",
+                            "box_o_vox:data:music:night_3"
+                  ],
+                        "loop": false,
+                        "fade_in": 2000,
+                        "volume": 10
+                    }
+                }
+            }
+        },
+        "combat": {
+            "combat_playlist": {
+                "playlist": [
+                    {
+                        "track": [
+                     "box_o_vox:data:music:combat_1",
+                     "box_o_vox:data:music:combat_2",
+                     "box_o_vox:data:music:combat_3"
+                  ],
+                        "volume": 10,
+                        "fade_in": 200,
+                        "loop": true
+               }
+            ]
+            }
+        }
+    }
+}

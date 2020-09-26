@@ -5,7 +5,7 @@
    "recipe_name": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie.display_name)",
    "description": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie.description)",
    "portrait": "/box_o_vox/entities/food/fruit_smoothie/fruit_smoothie/fruit_smoothie.png",
-   "workshop": "stonehearth:cook:workbench",
+   "workshop": "stonehearth:cook:mill",
    "ingredients": [
       {
          "material": "fruit",

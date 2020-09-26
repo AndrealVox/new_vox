@@ -5,7 +5,7 @@
    "recipe_name": "i18n(box_o_vox:entities.food.mash_potatoes.mash_potatoes.display_name)",
    "description": "i18n(box_o_vox:entities.food.mash_potatoes.mash_potatoes.description)",
    "portrait": "/box_o_vox/entities/food/mash_potatoes/mash_potatoes/mash_potatoes.png",
-   "workshop": "stonehearth:cook:workbench",
+   "workshop": "stonehearth:cook:oven",
    "ingredients": [
       {
          "uri": "box_o_vox:entities:food:potato:potato_basket",

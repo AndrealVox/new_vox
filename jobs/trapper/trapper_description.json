@@ -1,6 +1,10 @@
 {
    "mixins": "stonehearth:jobs:trapper",
    "equipment": {
-      "torso": "file(trapper_outfit)"
+      "mixintypes": {
+         "torso": "override"
+      },
+      "torso": "file(trapper_outfit/trapper_outfit.json)",
+      "helmet": "file(trapper_outfit/trapper_outfit_hat/trapper_outfit_hat.json)"
    }
 }
