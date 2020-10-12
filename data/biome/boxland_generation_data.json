@@ -242,7 +242,7 @@
             "aspect_ratio": 1
         },
         "__comment": "Literal percentage of terrain which is plains. Def 40",
-        "plains_percentage": 60,
+        "plains_percentage": 50,
         "__comment": "This is an offset in regards to where the layers line up. Def 36, must be 1 plus a multiple of five.",
         "height_base": 26,
         "__comments": {
@@ -337,16 +337,16 @@
             "stonehearth:plants:silkweed": {
                 "placement_type": "dense",
                 "parameters": {
-                    "grid_multiple": 2.5,
-                    "item_density": 0.2,
+                    "grid_multiple": 2,
+                    "item_density": 0.5,
                     "exclusion_radius": 1
                 }
             },
             "stonehearth:plants:sugarbell": {
                 "placement_type": "dense",
                 "parameters": {
-                    "grid_multiple": 4,
-                    "item_density": 0.1,
+                    "grid_multiple": 2,
+                    "item_density": 0.5,
                     "exclusion_radius": 0
                 }
             },
@@ -356,7 +356,7 @@
                     "__comment": "This appears to be the number of items which are placed across a 10x10 grid. Def 4, value 0 to 9.",
                     "grid_multiple": 3,
                     "__comment": "This appears to be a percentage chance of placing an item somewhere along a single line of that grid above. Def 0.1, value 0 to 1.",
-                    "item_density": 0.1,
+                    "item_density": 0.5,
                     "__comment": "Unsure what this does... Def 1",
                     "exclusion_radius": 1
                 }
@@ -401,8 +401,8 @@
             "box_o_vox:entities:trees:boxland_tree:ancient": {
                 "placement_type": "single",
                 "parameters": {
-                    "ground_radius": 12,
-                    "exclusion_radius": 20
+                    "ground_radius": 20,
+                    "exclusion_radius": 30
                 }
             },
             "box_o_vox:entities:trees:apple:ancient": {
@@ -413,7 +413,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 16
+                    "exclusion_radius": 20
                 }
             },
             "box_o_vox:entities:trees:apple:large": {
@@ -424,7 +424,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 16
+                    "exclusion_radius": 20
                 }
             },
             "box_o_vox:entities:trees:apple:medium": {
@@ -435,18 +435,18 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 8
+                    "exclusion_radius": 15
                 }
             },
             "box_o_vox:entities:trees:apple:small": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 1,
+                    "grid_multiple": 2,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 2
+                    "exclusion_radius": 10
                 }
             },
             "box_o_vox:entities:trees:banana:ancient": {
@@ -457,7 +457,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 6
+                    "exclusion_radius": 20
                 }
             },
             "box_o_vox:entities:trees:banana:large": {
@@ -468,7 +468,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 3
+                    "exclusion_radius": 20
                 }
             },
             "box_o_vox:entities:trees:banana:medium": {
@@ -479,22 +479,15 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 2
+                    "exclusion_radius": 15
                 }
             },
             "box_o_vox:entities:trees:banana:small": {
                 "placement_type": "dense",
                 "parameters": {
-                    "grid_multiple": 1,
+                    "grid_multiple": 2,
                     "item_density": 0.5,
-                    "exclusion_radius": 1
-                },
-                "mountains": {
-                    "placement_type": "single",
-                    "parameters": {
-                        "ground_radius": 0,
-                        "exclusion_radius": 0.5
-                    }
+                    "exclusion_radius": 10
                 }
             },
             "box_o_vox:entities:trees:lime:ancient": {
@@ -505,7 +498,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 16
+                    "exclusion_radius": 20
                 }
             },
             "box_o_vox:entities:trees:lime:large": {
@@ -516,7 +509,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 16
+                    "exclusion_radius": 20
                 }
             },
             "box_o_vox:entities:trees:lime:medium": {
@@ -527,18 +520,18 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 8
+                    "exclusion_radius": 15
                 }
             },
             "box_o_vox:entities:trees:lime:small": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 1,
+                    "grid_multiple": 2,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 2
+                    "exclusion_radius": 10
                 }
             },
             "box_o_vox:entities:trees:orange:ancient": {
@@ -549,7 +542,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 16
+                    "exclusion_radius": 20
                 }
             },
             "box_o_vox:entities:trees:orange:large": {
@@ -560,7 +553,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 16
+                    "exclusion_radius": 20
                 }
             },
             "box_o_vox:entities:trees:orange:medium": {
@@ -571,18 +564,18 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 8
+                    "exclusion_radius": 15
                 }
             },
             "box_o_vox:entities:trees:orange:small": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 1,
+                    "grid_multiple": 2,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 2
+                    "exclusion_radius": 10
                 }
             },
             "box_o_vox:entities:plants:peppercorn_bush": {
@@ -599,7 +592,7 @@
                     "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
                     "item_spacing": 3,
                     "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
-                    "item_density": 0.2
+                    "item_density": 0.5
                 }
             },
             "box_o_vox:entities:plants:blueberry_bush": {
@@ -616,7 +609,7 @@
                     "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
                     "item_spacing": 5,
                     "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
-                    "item_density": 0.6
+                    "item_density": 0.5
                 }
             },
             "box_o_vox:entities:plants:daisy": {
@@ -633,7 +626,7 @@
                     "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
                     "item_spacing": 3,
                     "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
-                    "item_density": 0.4
+                    "item_density": 0.5
                 }
             }
         },
@@ -651,8 +644,8 @@
                 },
                 "box_o_vox:entities:trees:apple": {
                     "small": 0,
-                    "medium": 2,
-                    "large": 4,
+                    "medium": 0,
+                    "large": 1,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
                         "percentage": 100
@@ -660,8 +653,8 @@
                 },
                 "box_o_vox:entities:trees:banana": {
                     "small": 0,
-                    "medium": 4,
-                    "large": 8,
+                    "medium": 0,
+                    "large": 1,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
                         "percentage": 100
@@ -669,8 +662,8 @@
                 },
                 "box_o_vox:entities:trees:lime": {
                     "small": 0,
-                    "medium": 2,
-                    "large": 4,
+                    "medium": 0,
+                    "large": 1,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
                         "percentage": 100
@@ -678,8 +671,8 @@
                 },
                 "box_o_vox:entities:trees:orange": {
                     "small": 0,
-                    "medium": 2,
-                    "large": 4,
+                    "medium": 0,
+                    "large": 1,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
                         "percentage": 100
@@ -689,33 +682,30 @@
             "weights": {
                 "plains": {
                     "1": {
-                        "box_o_vox:entities:trees:boxland_tree": 4,
-                        "box_o_vox:entities:trees:apple": 2,
+                        "box_o_vox:entities:trees:boxland_tree": 2,
+                        "box_o_vox:entities:trees:apple": 1,
                         "box_o_vox:entities:trees:banana": 1,
-                        "box_o_vox:entities:trees:orange": 2,
-                        "box_o_vox:entities:trees:lime": 2
+                        "box_o_vox:entities:trees:orange": 1,
+                        "box_o_vox:entities:trees:lime": 1
                     }
                 },
                 "foothills": {
                     "1": {
                         "box_o_vox:entities:trees:apple": 1,
-                        "box_o_vox:entities:trees:banana": 2,
+                        "box_o_vox:entities:trees:banana": 1,
                         "box_o_vox:entities:trees:orange": 1,
                         "box_o_vox:entities:trees:lime": 1
                     },
                     "2": {
                         "box_o_vox:entities:trees:apple": 1,
-                        "box_o_vox:entities:trees:banana": 4,
+                        "box_o_vox:entities:trees:banana": 1,
                         "box_o_vox:entities:trees:orange": 1,
                         "box_o_vox:entities:trees:lime": 1
                     }
                 },
                 "mountains": {
                     "1": {
-                        "box_o_vox:entities:trees:banana": 4
-                    },
-                    "2": {
-                        "box_o_vox:entities:trees:banana": 2
+                        "box_o_vox:entities:trees:banana": 0.25
                     }
                 }
             },
@@ -733,38 +723,38 @@
                             "density": 0
                         },
                         "2": {
-                            "mean": -8,
+                            "mean": 0,
                             "std_dev": 50,
-                            "density": 1
+                            "density": 0.5
                         }
                     },
                     "foothills": {
                         "1": {
-                            "mean": 10,
-                            "std_dev": 40,
-                            "density": 0.9
+                            "mean": 0,
+                            "std_dev": 50,
+                            "density": 0.5
                         },
                         "2": {
-                            "mean": 10,
-                            "std_dev": 30,
-                            "density": 0.8
+                            "mean": 0,
+                            "std_dev": 50,
+                            "density": 0.5
                         }
                     },
                     "mountains": {
                         "1": {
-                            "mean": -4,
-                            "std_dev": 80,
-                            "density": 0.6
+                            "mean": -10,
+                            "std_dev": 50,
+                            "density": 0.5
                         },
                         "2": {
-                            "mean": -10,
+                            "mean": 0,
                             "std_dev": 50,
-                            "density": 0.6
+                            "density": 0.5
                         },
                         "3": {
-                            "mean": -10,
+                            "mean": 0,
                             "std_dev": 50,
-                            "density": 0
+                            "density": 0.5
                         }
                     }
                 }

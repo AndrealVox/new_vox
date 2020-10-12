@@ -1,0 +1,11 @@
+{
+   "can_start": {
+      "test_1": {
+         "deny_if_boxlings": {
+            "type": "deny_if",
+            "item": "kingdom",
+            "value": "box_o_vox:server:population:data:kingdoms:boxling"
+         }
+      }
+   }
+}

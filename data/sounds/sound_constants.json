@@ -19,18 +19,5 @@
                 "volume": 30
             }
         }
-    },
-    "music": {
-        "title": {
-            "mixintypes": {
-                "track": "override"
-            },
-            "track": [
-                "box_o_vox:data:music:title",
-                "stonehearth:music:title_screen"
-                  ],
-            "loop": true,
-            "volume": 50
-        }
     }
 }

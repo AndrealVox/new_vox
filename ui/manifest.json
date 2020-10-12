@@ -29,6 +29,13 @@
       "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json": "box_o_vox/entities/gizmos/camp_standard/camp_standard_ghost.json",
       "stonehearth/ui/game/create_camp/create_camp.less": "file(game/create_camp/create_camp.less)",
       "stonehearth/ui/game/create_camp/images/banner.png": "file(game/create_camp/images/banner.png)",
+      
+      "stonehearth/ui/shell/select_roster/images/bg.png": "file(shell/select_roster/images/bg.png)",
+      "stonehearth/ui/shell/select_roster/images/portrait_bg.png": "file(shell/select_roster/images/portrait_bg.png)",
+      "stonehearth/ui/shell/select_game_story/images/background.png": "file(shell/select_game_story/images/background.png)",
+      "stonehearth/ui/shell/select_settlement/images/bg.png": "file(shell/select_settlement/images/bg.png)",
+      "stonehearth/ui/shell/loadout_screen/images/bg.png": "file(shell/loadout_screen/images/bg.png)",
+      
       "box_o_vox:startmenu": "box_o_vox:bov_startmenu"
    },
    "ui": {

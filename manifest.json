@@ -75,7 +75,6 @@
       "data:gm_index": "file(data/gm/gm_index.json)",
       "data:hotkeys": "file(data/hotkeys.json)",
       "data:loadouts": "file(data/loadouts)",
-      "data:music:title": "file(data/music/title.ogg)",
       "data:music:combat_1": "file(data/music/combat_1.ogg)",
       "data:music:day_1": "file(data/music/day_1.ogg)",
       "data:music:night_1": "file(data/music/night_1.ogg)",
@@ -420,6 +419,8 @@
       "stonehearth_ace/entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json": "file(entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json)",
       "stonehearth/entities/food/fodder/fodder/fodder.json": "file(entities/food/fodder/fodder/fodder.json)",
       "stonehearth/entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json": "file(entities/food/fodder/fodder/feed_fodder_ground/feed_fodder_ground.json)",
+      
+      "stonehearth_ace/data/gm/campaigns/bonecarving/bonecarving_campaign.json": "file(data/gm/campaigns/deny_if_boxlings.json)",
 
       "stonehearth_ace/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "box_o_vox/jobs/shepherd/shepherd_pasture/ace_shepherd_pasture.json",
 
