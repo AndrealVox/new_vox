@@ -63,9 +63,6 @@
         },
         "animal_feed": {
             "recipes": {
-                "mixintypes": {
-                    "moomoo_feed": "remove"
-                },
                 "cow_feed": {
                     "recipe": "file(cow_feed_recipe.json)"
                 },

@@ -1,8 +1,7 @@
 {
-    "mixins": "box_o_vox:jobs:recipes:herbalist",
+    "mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
     "craftable_recipes": {
         "tools": {
-            "ordinal": 1,
             "recipes": {
                 "mixintypes": {
                     "cleric_tome": "remove"
@@ -13,7 +12,6 @@
             }
         },
         "tonics": {
-            "ordinal": 2,
             "recipes": {
                 "small_herbal_tonic": {
                     "recipe": "file(small_healing_tonic_recipe.json)"
@@ -33,7 +31,6 @@
             }
         },
         "bandages": {
-            "ordinal": 3,
             "recipes": {
                 "coarse_bandage": {
                     "recipe": "file(coarse_bandage_recipe.json)"

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 2,
+   "recipe_name": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.description)",
+   "flavor": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.flavor)",
+   "portrait": "/box_o_vox/entities/armor/paladins_shield/paladins_shield.png",
+   "work_effect": "box_o_vox:data:effects:summon_necronomicon",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:knight:talisman",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:cleric:talisman",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:paladin:talisman"
+      }
+   ]
+}

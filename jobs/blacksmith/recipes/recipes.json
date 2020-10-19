@@ -1,5 +1,13 @@
 {
+   "mixins": "/northern_alliance/jobs/blacksmith/recipes/recipes.json",
    "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "mixintypes": {
+               "paladins_shield": "remove"
+            }
+         }
+      },
       "smelt": {
          "recipes": {
             "copper_ingot": {

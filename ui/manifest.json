@@ -7,8 +7,7 @@
    },
    "aliases": {},
    "mixintos": {
-      "stonehearth/jobs/carpenter/recipes/recipes.json": "box_o_vox:jobs:recipes:carpenter",
-
+      "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
       "archipelago_biome/data/ui/start_menu.json": "file(../data/ui/start_menu_archipelago_compat.json)",
       "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)",
       "stonehearth:data:sound_constants": "file(../data/sounds/bov_sound_constants.json)"

@@ -1,44 +1,72 @@
 {
-    "mixins": "stonehearth:jobs:index",
-    "jobs": {
-        "mixintypes": {
-            "stonehearth:jobs:herbalist": "remove"
-        },
-        "stonehearth:jobs:cleric": {
-            "description": "box_o_vox:jobs:cleric"
-        },
-        "stonehearth:jobs:cook": {
-            "description": "box_o_vox:jobs:cook"
-        },
-        "stonehearth:jobs:carpenter": {
-            "description": "box_o_vox:jobs:carpenter"
-        },
-        "stonehearth:jobs:engineer": {
-            "description": "box_o_vox:jobs:engineer"
-        },
-        "stonehearth:jobs:mason": {
-            "description": "box_o_vox:jobs:mason"
-        },
-        "box_o_vox:jobs:necromancer": {
-            "description": "box_o_vox:jobs:necromancer"
-        },
-        "box_o_vox:jobs:paladin": {
-            "description": "box_o_vox:jobs:paladin"
-        },
-        "stonehearth:jobs:potter": {
-            "description": "box_o_vox:jobs:potter"
-        },
-        "stonehearth:jobs:shepherd": {
-            "description": "box_o_vox:jobs:shepherd"
-        },
-        "stonehearth:jobs:trapper": {
-            "description": "box_o_vox:jobs:trapper"
-        },
-        "stonehearth:jobs:weaver": {
-            "description": "box_o_vox:jobs:weaver"
-        },
-        "stonehearth:jobs:worker": {
-            "description": "box_o_vox:jobs:worker"
-        }
-    }
+   "jobs": {
+      "stonehearth:jobs:archer": {
+         "description": "stonehearth:jobs:archer"
+      },
+      "stonehearth:jobs:blacksmith": {
+         "description": "box_o_vox:jobs:blacksmith"
+      },
+      "stonehearth:jobs:carpenter": {
+         "description": "box_o_vox:jobs:carpenter"
+      },
+      "stonehearth:jobs:cleric": {
+         "description": "box_o_vox:jobs:cleric"
+      },
+      "stonehearth:jobs:cook": {
+         "description": "box_o_vox:jobs:cook"
+      },
+      "stonehearth:jobs:engineer": {
+         "description": "box_o_vox:jobs:engineer"
+      },
+      "stonehearth:jobs:farmer": {
+         "description": "stonehearth:jobs:farmer"
+      },
+      "stonehearth:jobs:footman": {
+         "description": "stonehearth:jobs:footman"
+      },
+      "stonehearth:jobs:knight": {
+         "description": "stonehearth:jobs:knight"
+      },
+      "stonehearth:jobs:mason": {
+         "description": "box_o_vox:jobs:mason"
+      },
+      "stonehearth:jobs:potter": {
+         "description": "box_o_vox:jobs:potter"
+      },
+      "stonehearth:jobs:shepherd": {
+         "description": "box_o_vox:jobs:shepherd"
+      },
+      "stonehearth:jobs:trapper": {
+         "description": "box_o_vox:jobs:trapper"
+      },
+      "stonehearth:jobs:weaver": {
+         "description": "box_o_vox:jobs:weaver"
+      },
+      "stonehearth:jobs:worker": {
+         "description": "box_o_vox:jobs:worker"
+      },
+      "stonehearth:jobs:npc:footman": {
+         "description": "stonehearth:jobs:npc:footman"
+      },
+      "stonehearth:jobs:npc:thief": {
+         "description": "stonehearth:jobs:npc:thief"
+      },
+      "stonehearth:jobs:npc:knight": {
+         "description": "stonehearth:jobs:npc:knight"
+      },
+      "stonehearth:jobs:npc:archer": {
+         "description": "stonehearth:jobs:npc:archer"
+      },
+      "stonehearth:jobs:npc:cleric": {
+         "description": "stonehearth:jobs:npc:cleric"
+      },
+      
+      
+      "box_o_vox:jobs:necromancer": {
+         "description": "box_o_vox:jobs:necromancer"
+      },
+      "box_o_vox:jobs:paladin": {
+         "description": "box_o_vox:jobs:paladin"
+      }
+   }
 }

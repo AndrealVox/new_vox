@@ -1,0 +1,28 @@
+{
+   "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "paladins_shield": {
+               "recipe": "file(paladins_shield_recipe.json)"
+            }
+         }
+      },
+      "weapons": {
+         "recipes": {
+            "paladin_hammer": {
+               "recipe": "file(paladin_hammer_recipe.json)"
+            }
+         }
+      },
+      "armor": {
+         "recipes": {
+            "paladin_helmet_1": {
+               "recipe": "file(paladin_helmet_1_recipe.json)"
+            },
+            "paladin_helmet_2": {
+               "recipe": "file(paladin_helmet_2_recipe.json)"
+            }
+         }
+      }
+   }
+}
