@@ -5,6 +5,9 @@
          "recipes": {
             "mixintypes": {
                "paladins_shield": "remove"
+            },
+            "paladins_shield": {
+               "recipe": ""
             }
          }
       },

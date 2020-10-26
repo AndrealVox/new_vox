@@ -427,6 +427,10 @@
       "stonehearth/data/gm/campaigns/trader/arcs/encounters/na_returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "stonehearth/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "rayyas_children/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
+      "stonehearth/entities/weapons/wooden_sword/wooden_sword_talisman.json": "box_o_vox/jobs/footman/sword_talisman/sword_talisman.json",
+      "stonehearth_ace/entities/gizmos/training_dummy/training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
+      "stonehearth_ace/entities/gizmos/stone_training_dummy/stone_training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
+      "stonehearth_ace/entities/gizmos/clay_training_dummy/clay_training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
 
       "trapper_plus/jobs/cook/recipes/salt_recipe.json": "box_o_vox/jobs/cook/recipes/trapper_plus/salt_recipe.json",
 
@@ -444,6 +448,8 @@
       "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",
       "box_o_vox/jobs/necromancer/recipes/recipes.json": "trapper_plus/box_o_vox/necromancer/recipes/trapper_plus_recipes.json",
       "box_o_vox/jobs/paladin/paladin_description.json": "stonehearth_ace/box_o_vox/paladin/paladin_description.json",
+      "box_o_vox/jobs/necromancer/necromancer_description.json": "stonehearth_ace/box_o_vox/necromancer/necromancer_description.json",
+      "box_o_vox/jobs/cleric/cleric_description.json": "stonehearth_ace/box_o_vox/cleric/cleric_description.json",
       "box_o_vox/entities/critters/cow/cow.json": "stonehearth_ace/box_o_vox/cow/moomoo.json"
    },
    "overrides": {
@@ -463,6 +469,8 @@
       "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)",
       "trapper_plus/box_o_vox/necromancer/recipes/trapper_plus_recipes.json": "file(jobs/necromancer/recipes/trapper_plus_recipes.json)",
       "stonehearth_ace/box_o_vox/paladin/paladin_description.json": "box_o_vox/jobs/paladin/ace_paladin_description.json",
+      "stonehearth_ace/box_o_vox/necromancer/necromancer_description.json": "box_o_vox/jobs/necromancer/ace_necromancer_description.json",
+      "stonehearth_ace/box_o_vox/cleric/cleric_description.json": "box_o_vox/jobs/cleric/ace_cleric_description.json",
       "stonehearth_ace/box_o_vox/cow/moomoo.json": "file(entities/critters/cow/ace_moomoo.json)"
    },
    "controllers": {

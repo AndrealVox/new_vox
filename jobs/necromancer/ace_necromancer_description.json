@@ -1,0 +1,224 @@
+{
+   "type": "job",
+   "enabled": true,
+   "job_id": "necromancer",
+   "display_order": 1,
+   "alias": "box_o_vox:jobs:necromancer",
+   "display_name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.display_name)",
+   "controller": "box_o_vox:class:necromancer",
+   "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.description)",
+   "requirements": "i18n(box_o_vox:jobs.necromancer.necromancer_description.requirements)",
+   "talisman_uri": "box_o_vox:jobs:necromancer:talisman",
+   "default_stance": "aggressive",
+   "abilities": "file(necromancer_abilities/necromancer_abilities_ace.json)",
+   "equipment": {
+      "torso": "file(necromancer_outfit)",
+      "mainhand": "box_o_vox:entities:weapon:necromancer_tome",
+      "helmet": "file(necromancer_mask)"
+   },
+   "roles": [
+      "necromancer_job",
+      "combat",
+      "crafter"
+   ],
+   "promotion_activity_name": "promote_necromancer",
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:build",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:mining",
+      "stonehearth:task_groups:harvest",
+      "stonehearth:task_groups:rescue",
+      "stonehearth:task_groups:crafting"
+   ],
+   "icon": "file(images/icon.png)",
+   "parent_level_requirement": 3,
+   "parent_job": "stonehearth:jobs:cleric",
+   "xp_rewards": {
+      "craft_level_1": 1,
+      "craft_level_2": 1,
+      "craft_level_3": 1,
+      "craft_level_4": 1,
+      "craft_level_5": 1,
+      "craft_level_6": 1,
+      "summon": 8,
+      "town_protection": 1,
+      "training": 2
+   },
+   "max_training_level": 2,
+   "crafter": {
+      "work_effect": "work_geomancer",
+      "recipe_list": "file(recipes/recipes.json)"
+   },
+   "workshop": {
+      "skin_class": "necromancer",
+      "open_sound": "stonehearth:sounds:ui:mason_menu:menu_open",
+      "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
+   },
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "mixintypes": {
+            "perks": "override"
+         },
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_1_data.perk_000_name)",
+               "id": "flame_skull",
+               "icon": "file(images/flame_skull.png)",
+               "equipment": "box_o_vox:jobs:necromancer:abilities:default_flame_skull",
+               "action_type": "box_o_vox:combat:ranged_spells",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_1_data.perk_000_description)",
+               "level": 1,
+               "demote_fn": "remove_combat_action"
+            },
+            {
+               "type": "add_chained_combat_action",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_1_data.perk_001_name)",
+               "id": "necromancer_summon_1",
+               "icon": "file(images/skeleton.png)",
+               "equipment": "box_o_vox:jobs:necromancer:pages:skeleton",
+               "action_type": "box_o_vox:combat:summon_spells",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_1_data.perk_001_description)",
+               "level": 1,
+               "demote_fn": "remove_combat_action"
+            },
+            {
+               "name": "Combat Training",
+               "description": "A Necromancer can use Training Dummies to train their combat techniques and earn experience up to Job Level 3",
+               "id": "training_perk",
+               "icon": "/stonehearth_ace/jobs/knight/images/training.png",
+               "level": 1
+            }
+         ]
+      },
+      "2": {
+         "mixintypes": {
+            "perks": "override"
+         },
+         "perks": [
+            {
+               "type": "add_chained_combat_action",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2_data.perk_000_name)",
+               "id": "necromancer_summon_2",
+               "icon": "file(images/bone_wolf_big.png)",
+               "last_equipment": "box_o_vox:jobs:necromancer:pages:skeleton",
+               "equipment": "box_o_vox:jobs:necromancer:pages:bone_wolf_big",
+               "action_type": "box_o_vox:combat:summon_spells",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2_data.perk_000_description)",
+               "level": 2,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "3": {
+         "mixintypes": {
+            "perks": "override"
+         },
+         "perks": [
+            {
+               "type": "add_chained_combat_action",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_000_name)",
+               "id": "necromancer_summon_3",
+               "icon": "file(images/zombie.png)",
+               "last_equipment": "box_o_vox:jobs:necromancer:pages:bone_wolf_big",
+               "equipment": "box_o_vox:jobs:necromancer:pages:zombie",
+               "action_type": "box_o_vox:combat:summon_spells",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_000_description)",
+               "level": 3,
+               "demote_fn": "remove_combat_action"
+            },
+            {
+               "type": "increase_max_placeable_workers",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_001_name)",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_001_description)",
+               "id": "increase_max_placeable_workers_1",
+               "icon": "file(images/worker_skeleton.png)",
+               "max_num_workers": 3,
+               "level": 3
+            }
+         ]
+      },
+      "4": {
+         "mixintypes": {
+            "perks": "override"
+         },
+         "perks": [
+            {
+               "type": "add_chained_combat_action",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_4_data.perk_000_name)",
+               "id": "necromancer_summon_4",
+               "icon": "file(images/golem.png)",
+               "last_equipment": "box_o_vox:jobs:necromancer:pages:zombie",
+               "equipment": "box_o_vox:jobs:necromancer:pages:golem",
+               "action_type": "box_o_vox:combat:summon_spells",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_4_data.perk_000_description)",
+               "level": 4,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "5": {
+         "mixintypes": {
+            "perks": "override"
+         },
+         "perks": [
+            {
+               "type": "add_chained_combat_action",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_000_name)",
+               "id": "necromancer_summon_5",
+               "icon": "file(images/zilla.png)",
+               "last_equipment": "box_o_vox:jobs:necromancer:pages:golem",
+               "equipment": "box_o_vox:jobs:necromancer:pages:zilla",
+               "action_type": "box_o_vox:combat:summon_spells",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_000_description)",
+               "level": 5,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "6": {
+         "title": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.title)",
+         "mixintypes": {
+            "perks": "override"
+         },
+         "perks": [
+            {
+               "type": "add_chained_combat_action",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_000_name)",
+               "id": "necromancer_summon_6",
+               "icon": "file(images/necromancer.png)",
+               "last_equipment": "box_o_vox:jobs:necromancer:pages:golem",
+               "equipment": "box_o_vox:jobs:necromancer:pages:necromancer",
+               "action_type": "box_o_vox:combat:summon_spells",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_000_description)",
+               "level": 6,
+               "demote_fn": "remove_combat_action"
+            },
+            {
+               "type": "increase_max_placeable_workers",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_001_name)",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_001_description)",
+               "id": "increase_max_placeable_workers_2",
+               "icon": "file(images/worker_zombie.png)",
+               "max_num_workers": 10,
+               "level": 6
+            },
+            {
+               "type": "add_chained_combat_action",
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_002_name)",
+               "id": "double_flame_skull",
+               "icon": "file(images/double_flame_skull.png)",
+               "last_equipment": "box_o_vox:jobs:necromancer:abilities:default_flame_skull",
+               "equipment": "box_o_vox:jobs:necromancer:abilities:double_flame_skull",
+               "action_type": "box_o_vox:combat:ranged_spells",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_002_description)",
+               "level": 6,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      }
+   }
+}

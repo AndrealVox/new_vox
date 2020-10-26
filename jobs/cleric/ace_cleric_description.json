@@ -24,7 +24,8 @@
       "stonehearth:task_groups:healing",
       "stonehearth:task_groups:harvest",
       "stonehearth:task_groups:rescue",
-      "stonehearth:task_groups:crafting"
+      "stonehearth:task_groups:crafting",
+      "stonehearth_ace:task_groups:training"
    ],
    "icon": "/stonehearth/jobs/cleric/images/icon.png",
    "parent_job": "stonehearth:jobs:worker",
@@ -37,9 +38,11 @@
       "craft_level_4": 16,
       "craft_level_5": 19,
       "craft_level_6": 22,
-      "heal_entity": 25
+      "heal_entity": 25,
+      "training": 2
    },
    "max_level": 6,
+   "max_training_level": 2,
    "crafter": {
       "work_effect": "herbalist_grind",
       "recipe_list": "file(recipes/recipes.json)"
@@ -56,6 +59,9 @@
    },
    "level_data": {
       "1": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "type": "apply_buff",
@@ -66,10 +72,20 @@
                "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_000_description)",
                "level": 1,
                "demote_fn": "remove_buff"
+            },
+            {
+               "name": "i18n(stonehearth_ace:jobs.cleric.cleric_description.level_1_data.training_perk_name)",
+               "description": "i18n(stonehearth_ace:jobs.cleric.cleric_description.level_1_data.training_perk_description)",
+               "id": "training_perk",
+               "icon": "/stonehearth_ace/jobs/cleric/images/training.png",
+               "level": 1
             }
          ]
       },
       "2": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "type": "apply_buff",
@@ -84,6 +100,9 @@
          ]
       },
       "3": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "type": "apply_buff",
@@ -98,6 +117,9 @@
          ]
       },
       "4": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "type": "apply_chained_buff",
@@ -113,6 +135,9 @@
          ]
       },
       "5": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "type": "apply_chained_buff",
@@ -128,6 +153,9 @@
          ]
       },
       "6": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "type": "apply_chained_buff",

@@ -1,0 +1,12 @@
+{
+   "components": {
+      "stonehearth_ace:training_dummy": {
+         "allowed_jobs": {
+            "stonehearth:jobs:cleric": 2,
+            "box_o_vox:jobs:cleric": 2,
+            "box_o_vox:jobs:paladin": 2,
+            "box_o_vox:jobs:necromancer": 2
+         }
+      }
+   }
+}

@@ -10,7 +10,8 @@
                "stonehearth:ai_pack:panic:flee",
                "stonehearth:ai_pack:combat_control",
                "stonehearth:ai_pack:healing",
-               "stonehearth:ai_pack:healing_combat"
+               "stonehearth:ai_pack:healing_combat",
+               "stonehearth_ace:ai_pack:training"
             ]
          },
          "injected_buffs": [
