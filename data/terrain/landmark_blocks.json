@@ -7,5 +7,29 @@
    },
    "#6F6F6F": {
       "terrain_tag": "dove_gray"
+   },
+   
+   "#413D37": {
+      "terrain_tag": "merlin"
+   },
+   "#21312A": {
+      "terrain_tag": "outer_space"
+   },
+   "#105030": {
+      "terrain_tag": "parsley"
+   },
+   "#286042": {
+      "terrain_tag": "plantation"
+   },
+   
+   "#00E8D8": {
+      "loot_bag": "box_o_vox:entities:plants:hedge_plant",
+      "facing": 0,
+      "force_iconic": false
+   },
+   "#FF7000": {
+      "loot_bag": "stonehearth:decoration:loot_chest",
+      "facing": "random",
+      "force_iconic": false
    }
 }

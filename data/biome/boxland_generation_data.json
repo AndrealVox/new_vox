@@ -84,7 +84,12 @@
 
             "mine_shaft": "#2F2F2F",
             "fuscous_gray": "#4F4F4F",
-            "dove_gray": "#6F6F6F"
+            "dove_gray": "#6F6F6F",
+
+            "merlin": "#413D37",
+            "outer_space": "#21312A",
+            "parsley": "#105030",
+            "plantation": "#286042"
 
         },
         "summer": {
@@ -131,7 +136,12 @@
 
             "mine_shaft": "#2F2F2F",
             "fuscous_gray": "#4F4F4F",
-            "dove_gray": "#6F6F6F"
+            "dove_gray": "#6F6F6F",
+
+            "merlin": "#413D37",
+            "outer_space": "#21312A",
+            "parsley": "#105030",
+            "plantation": "#286042"
 
         },
         "autumn": {
@@ -178,7 +188,12 @@
 
             "mine_shaft": "#2F2F2F",
             "fuscous_gray": "#4F4F4F",
-            "dove_gray": "#6F6F6F"
+            "dove_gray": "#6F6F6F",
+
+            "merlin": "#413D37",
+            "outer_space": "#21312A",
+            "parsley": "#105030",
+            "plantation": "#286042"
 
         },
         "winter": {
@@ -225,7 +240,12 @@
 
             "mine_shaft": "#2F2F2F",
             "fuscous_gray": "#4F4F4F",
-            "dove_gray": "#6F6F6F"
+            "dove_gray": "#6F6F6F",
+
+            "merlin": "#413D37",
+            "outer_space": "#21312A",
+            "parsley": "#105030",
+            "plantation": "#286042"
 
         }
     },

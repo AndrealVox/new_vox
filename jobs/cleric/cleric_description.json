@@ -7,7 +7,7 @@
    "display_name": "i18n(stonehearth:jobs.cleric.cleric_description.display_name)",
    "controller": "box_o_vox:class:cleric",
    "description": "i18n(stonehearth:jobs.cleric.cleric_description.description)",
-   "requirements": "i18n(stonehearth:jobs.cleric.cleric_description.requirements)",
+   "requirements": "Crafted by Carpenter",
    "talisman_uri": "stonehearth:cleric:talisman",
    "default_stance": "aggressive",
    "abilities": "file(cleric_abilities/cleric_abilities.json)",

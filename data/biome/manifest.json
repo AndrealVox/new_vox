@@ -6,21 +6,18 @@
    },
    "aliases": {},
    "mixintos": {
-      "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
+      "stonehearth:trapper:trapping_grounds": "file(trapping_grounds.json)",
       "stonehearth/scenarios/static/deer_nest/deer_nest.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
-      "stonehearth:rabbit": "file(rabbit)",
+      "stonehearth/entities/critters/rabbit/rabbit.json": "file(rabbit/rabbit.json)",
       "stonehearth/entities/resources/pelt/rabbit_pelt/rabbit_pelt.json": "file(rabbit/rabbit_pelt/rabbit_pelt.json)",
       "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index",
       "stonehearth:scenarios:static:terrain:ore_vein": "file(scenarios/static/terrain/ore_vein/ore_vein.json)",
 
-      "stonehearth/scenarios/static/landmarks/64x_ruin_building.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
-      "stonehearth/scenarios/static/landmarks/128x_ruin_town_undead.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
-      "stonehearth/scenarios/static/landmarks/64x_sphinx_crying.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
       "stonehearth/scenarios/static/landmarks/64x_stump_giant.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
-      "stonehearth/scenarios/static/landmarks/64x_rune_site_temperate.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
-      "stonehearth/scenarios/static/landmarks/64x_geyser_temperate.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
-      "stonehearth/scenarios/static/landmarks/128x_skeleton_caribou.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
-      "stonehearth/scenarios/static/landmarks/128x_gully.json": "file(../../scenarios/static/deer_nest/deer_nest.json)"
+      
+      "stonehearth/scenarios/static/landmarks/128x_ruin_town_undead.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
+      "stonehearth/scenarios/static/landmarks/128x_gully.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
+      "stonehearth/scenarios/static/landmarks/128x_skeleton_caribou.json": "file(../../scenarios/static/deer_nest/deer_nest.json)"
 
    },
    "overrides": {

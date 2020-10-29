@@ -17,8 +17,8 @@
             "count": 3
       },
         {
-            "uri": "stonehearth:rabbit_jerky",
-            "count": 5
+            "material": "food meat raw",
+            "count": 3
       }
    ]
 }

@@ -2,7 +2,7 @@
    "block_types": {
       "grass_edge_3": {
          "tag": 306,
-         "kind": "dirt"
+         "kind": "grass"
       },
       "rock_layer_9": {
          "tag": 109,
@@ -56,6 +56,23 @@
       "dove_gray": {
          "tag": 703,
          "kind": "rock"
+      },
+
+      "merlin": {
+         "tag": 801,
+         "kind": "dirt"
+      },
+      "outer_space": {
+         "tag": 802,
+         "kind": "grass"
+      },
+      "parsley": {
+         "tag": 803,
+         "kind": "grass"
+      },
+      "plantation": {
+         "tag": 804,
+         "kind": "grass"
       }
    },
    "selectable_kinds": {

@@ -829,6 +829,9 @@
             "boxling_statue_ghost": {
                "display_name": "Boxling Statue",
                "description": "A statue to the almighty Boxlings, from which all has been given to us, the GODs of Boxland."
+            },
+            "boxling_statue_2_ghost": {
+               "display_name": "Boxling Statue 2"
             }
          },
          "craftsman_statue": {

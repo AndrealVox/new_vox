@@ -1,6 +1,9 @@
 {
    "components": {
       "stonehearth:trapping_grounds": {
+         "max_traps": 6,
+         "min_distance_between_traps": 10,
+         "check_traps_interval": "8h",
          "trappable_animal_weights": {
             "critters": {
                "stonehearth:rabbit": 100,

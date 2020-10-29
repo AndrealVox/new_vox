@@ -1,22 +1,22 @@
 {
    "mixins": "stonehearth/scenarios/static/landmarks/qb_to_terrain.json",
    "biomes": ["box_o_vox:biome:boxland"],
-   "name": "boxling_mountain_2",
+   "name": "hedge_maze_1",
    "category": "terrain_feature_common",
    "unique": true,
    "size": {
-      "width": 50,
-      "length": 50
+      "width": 128,
+      "length": 128
    },
    "habitat_types": [
       "forest",
       "plains"
    ],
-   "overwrite_occupied_size": 3,
+   "overwrite_occupied_size": 10,
    "weight": 3,
    "data": {
-      "brush": "box_o_vox:landmark:boxling_mountain_2",
-      "brush_mask": "box_o_vox:landmark:boxling_mountain_2",
+      "brush": "box_o_vox:landmark:hedge_maze_1",
+      "brush_mask": "box_o_vox:landmark:hedge_maze_1",
       "landmark_block_types": "box_o_vox:data:terrain:landmark_blocks"
    }
 }

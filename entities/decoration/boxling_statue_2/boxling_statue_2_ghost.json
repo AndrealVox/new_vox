@@ -29,7 +29,7 @@
    "entity_data": {
       "stonehearth:catalog": {
          "portrait": "file(boxling_statue_2.png)",
-         "display_name": "i18n(box_o_vox:entities.decoration.boxling_statue.boxling_statue_ghost.display_name)",
+         "display_name": "i18n(box_o_vox:entities.decoration.boxling_statue.boxling_statue_2_ghost.display_name)",
          "description": "i18n(box_o_vox:entities.decoration.boxling_statue.boxling_statue_ghost.description)",
          "icon": "file(boxling_statue_2.png)",
          "category": "decoration",
