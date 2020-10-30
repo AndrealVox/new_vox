@@ -118,14 +118,8 @@
       "stonehearth:entity_radius": 1.25,
       "stonehearth:entity_reach": 1.5,
       "stonehearth:ai_packs": {
-         "mixintypes": {
-            "packs": "override"
-         },
          "packs": [
-            "stonehearth:ai_pack:idle",
-            "stonehearth:ai_pack:idle:bored:idle_effects",
-            "stonehearth:ai_pack:idle:bored:wander",
-            "stonehearth:ai_pack:death"
+            "stonehearth:ai_pack:citizen_rescue"
          ]
       },
       "stonehearth:observers:avoid_threatening_entities": {

@@ -435,6 +435,10 @@
       "stonehearth/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "rayyas_children/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "stonehearth/jobs/footman/footman_description.json": "box_o_vox/jobs/footman/footman_description.json",
+      
+      "stonehearth/jobs/npc_jobs/npc_miner/npc_miner_description.json": "box_o_vox/jobs/npc_jobs/rescuer.json",
+      "stonehearth/jobs/npc_jobs/npc_restocker/npc_restocker_description.json": "box_o_vox/jobs/npc_jobs/rescuer.json",
+      
       "stonehearth_ace/entities/gizmos/training_dummy/training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
       "stonehearth_ace/entities/gizmos/stone_training_dummy/stone_training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
       "stonehearth_ace/entities/gizmos/clay_training_dummy/clay_training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
