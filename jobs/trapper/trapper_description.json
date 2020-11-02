@@ -6,5 +6,21 @@
       },
       "torso": "file(trapper_outfit/trapper_outfit.json)",
       "helmet": "file(trapper_outfit/trapper_outfit_hat/trapper_outfit_hat.json)"
+   },
+   "level_data": {
+      "2": {
+         "mixintypes": {
+            "perks": "override"
+         },
+         "perks": [
+            {
+               "name": "i18n(stonehearth:jobs.trapper.trapper_description.level_2_data.perk_001_name)",
+               "id": "trapper_job_opportunities",
+               "icon": "/stonehearth/jobs/trapper/images/trapperLevel5.png",
+               "description": "i18n(stonehearth:jobs.trapper.trapper_description.level_2_data.perk_001_description)",
+               "level": 2
+            }
+         ]
+      }
    }
 }

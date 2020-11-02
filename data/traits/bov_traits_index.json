@@ -1,0 +1,7 @@
+{
+   "traits": {
+      "mixintypes": {
+         "stonehearth:traits:animal_companion": "remove"
+      }
+   }
+}
