@@ -25,6 +25,16 @@
             </div>
          {{/if}}
 
+         <div id="loadCitizensButton" {{action "showLoadRosterDialog" target="view"}}>
+            <div id="loadCitizensText">{{i18n stonehearth_ace:ui.shell.select_roster.load_citizens}}</div>
+            <div id="loadCitizensIcon" />
+         </div>
+
+         <div id="saveCitizensButton" {{action "showSaveRosterDialog" target="view"}}>
+            <div id="saveCitizensText">{{i18n stonehearth_ace:ui.shell.select_roster.save_citizens}}</div>
+            <div id="saveCitizensIcon" />
+         </div>
+
          <div id="citizens">
             <div id="citizensRoster" class="roster">
                {{#each citizen in view.citizensArray}}
@@ -224,6 +234,54 @@
              <a href="#" {{action "select" target="view"}} class="right">
                 <button>
                   {{i18n stonehearth:ui.shell.select_roster.select_crew}}
+                </button>
+             </a>
+          </div>
+      </div>
+   </div>
+</script>
+
+<script type="text/x-handlebars" data-template-name="stonehearthStartingRosterChoice">
+   <div id="stonehearthStartingRosterChoice" class="gui">
+      <div class="window">
+         <div class="title">
+            {{i18n stonehearth_ace:ui.shell.select_roster.roster_title}}
+            <div class="closeButton"></div>
+         </div>
+
+         <div class="downSection">
+            {{#each roster in view.startingRostersArray}}
+               <div class="row" {{bind-attr data-id="roster.id"}}>
+                  <div class="rosterName">{{roster.name}}</div>
+                  <ul class="citizens">
+                     {{#each citizen in roster.citizens}}
+                        <li>
+                           <span class="citizenStats">(<span class="mind">{{citizen.attributes.mind}}</span>/<span class="body">{{citizen.attributes.body}}</span>/<span class="spirit">{{citizen.attributes.spirit}}</span>)</span>
+                           {{#each trait_icon in citizen.trait_icons}}
+                              <img class="traitIcon" {{bind-attr src="trait_icon"}} />
+                           {{/each}}
+                           <span class="citizenName">{{citizen.name}}</span>
+                        </li>
+                     {{/each}}
+                  </ul>
+               </div>
+            {{/each}}
+         </div>
+
+         <div id="buttons">
+             <a href="#" {{action "delete" target="view"}} class="left">
+                <button class="red">
+                  {{i18n stonehearth_ace:ui.shell.select_roster.delete_roster}}
+                </button>
+             </a>
+             <a href="#" {{action "cancel" target="view"}} class="right">
+               <button>
+                  {{i18n stonehearth_ace:ui.shell.select_roster.cancel_roster}}
+               </button>
+             </a>
+             <a href="#" {{action "select" target="view"}} class="right">
+                <button>
+                  {{i18n stonehearth_ace:ui.shell.select_roster.select_roster}}
                 </button>
              </a>
           </div>

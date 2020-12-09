@@ -69,26 +69,26 @@
 
    #citizens {
       position: absolute;
-      top: 123px;
-      left: 62px;
+      top: 120px;
+      left: 70px;
       width: 1080px;
       overflow-y: auto;
-      height: 730px;
+      height: 830px;
       color: #000;
 
       .roster {
          .rosterEntry {
             position: relative;
-            width: 478px;
-            height: 193px;
+            width: 480px;
+            height: 190px;
             display: inline-block;
             background-color: #806073;
             box-shadow: @borderBoxShadow;
             border: #bf8fad solid 2px;
-            margin-left: 14px;
-            margin-right: 14px;
-            margin-top: 6px;
-            margin-bottom: 6px;
+            margin-left: 8px;
+            margin-right: 8px;
+            margin-top: 2px;
+            margin-bottom: 2px;
 
             .hidden {
                display: none;
@@ -229,6 +229,70 @@
                .hoverHighlight(1.1);
             }
          }
+      }
+   }
+
+   #loadCitizensButton {
+      .control;
+      z-index: 1;
+      position: absolute;
+      color: @vanillaColor;
+      top: 924px;
+      left: 350px;
+      font-size: 28px;
+      padding: 15px;
+      text-align: right;
+
+      .hoverHighlight(1.1);
+
+      #loadCitizensText {
+         position: absolute;
+         left: 60px;
+         white-space: nowrap;
+         top: 14px;
+      }
+
+      #loadCitizensIcon {
+         background: url(images/load_icon.png);
+         width: 50px;
+         height: 50px;
+         background-size: contain;
+         background-repeat: no-repeat;
+         position: absolute;
+         left: 0px;
+         top: 10px;
+      }
+   }
+
+   #saveCitizensButton {
+      .control;
+      z-index: 1;
+      position: absolute;
+      color: @vanillaColor;
+      top: 924px;
+      left: 520px;
+      font-size: 28px;
+      padding: 15px;
+      text-align: right;
+
+      .hoverHighlight(1.1);
+
+      #saveCitizensText {
+         position: absolute;
+         left: 60px;
+         white-space: nowrap;
+         top: 14px;
+      }
+
+      #saveCitizensIcon {
+         background: url(images/save_icon.png);
+         width: 50px;
+         height: 50px;
+         background-size: contain;
+         background-repeat: no-repeat;
+         position: absolute;
+         left: 0px;
+         top: 10px;
       }
    }
 
@@ -579,12 +643,12 @@ h2 {
    .window {
       position: relative;
       margin: auto;
-      width: 900px;
-      height: 440px;
+      width: 1000px;
+      height: 640px;
       overflow: auto;
 
       .downSection {
-         height: 270px;
+         height: 470px;
          margin-top: 10px;
          overflow-y: auto;
 
@@ -600,7 +664,7 @@ h2 {
                background-color: #8f7846;
             }
 
-            .townName {
+            .rosterName {
                .controlFont;
                background: rgba(0, 0, 0, 0.0);
                border: 0px;
@@ -609,14 +673,8 @@ h2 {
                width: 100%;
             }
 
-            .jobIcon,
-            .itemIcon {
+            .traitIcon {
                height: 32px;
-            }
-
-            .items,
-            .recipes {
-               margin-left: 10px;
             }
 
             ul {
@@ -628,7 +686,24 @@ h2 {
                   display: inline-block;
                   min-width: 150px;
 
-                  .jobIcon {
+                  .citizenStats {
+                     font-family: @baseFontFamily;
+                     font-weight: bold;
+
+                     .mind {
+                        color: #4bf600;
+                     }
+
+                     .body {
+                        color: #ff405b;
+                     }
+
+                     .spirit {
+                        color: #00b9f6;
+                     }
+                  }
+
+                  .traitIcon {
                      vertical-align: middle;
                   }
 

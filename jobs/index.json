@@ -4,9 +4,6 @@
       "mixintypes": {
          "stonehearth:jobs:herbalist": "remove"
       },
-      "stonehearth:jobs:archer": {
-         "description": "stonehearth:jobs:archer"
-      },
       "stonehearth:jobs:blacksmith": {
          "description": "box_o_vox:jobs:blacksmith"
       },
@@ -21,15 +18,6 @@
       },
       "stonehearth:jobs:engineer": {
          "description": "box_o_vox:jobs:engineer"
-      },
-      "stonehearth:jobs:farmer": {
-         "description": "stonehearth:jobs:farmer"
-      },
-      "stonehearth:jobs:footman": {
-         "description": "stonehearth:jobs:footman"
-      },
-      "stonehearth:jobs:knight": {
-         "description": "stonehearth:jobs:knight"
       },
       "stonehearth:jobs:mason": {
          "description": "box_o_vox:jobs:mason"
@@ -49,22 +37,7 @@
       "stonehearth:jobs:worker": {
          "description": "box_o_vox:jobs:worker"
       },
-      "stonehearth:jobs:npc:footman": {
-         "description": "stonehearth:jobs:npc:footman"
-      },
-      "stonehearth:jobs:npc:thief": {
-         "description": "stonehearth:jobs:npc:thief"
-      },
-      "stonehearth:jobs:npc:knight": {
-         "description": "stonehearth:jobs:npc:knight"
-      },
-      "stonehearth:jobs:npc:archer": {
-         "description": "stonehearth:jobs:npc:archer"
-      },
-      "stonehearth:jobs:npc:cleric": {
-         "description": "stonehearth:jobs:npc:cleric"
-      },
-
+      
 
       "box_o_vox:jobs:necromancer": {
          "description": "box_o_vox:jobs:necromancer"

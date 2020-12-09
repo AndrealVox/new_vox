@@ -6,5 +6,8 @@
       "parent_level_requirement": "override"
    },
    "parent_job": "stonehearth:jobs:worker",
-   "parent_level_requirement": 0
+   "parent_level_requirement": 0,
+   "crafter": {
+      "recipe_list": "file(recipes/recipes.json)"
+   }
 }

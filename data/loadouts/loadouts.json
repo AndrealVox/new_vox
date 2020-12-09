@@ -1,47 +1,55 @@
 {
-    "loadouts": {
-        "path_of_the_necromancer": {
-            "ordinal": 0.001,
-            "alias": "box_o_vox:data:loadouts:path_of_the_necromancer",
-            "display_name": "i18n(box_o_vox:data.loadouts.path_of_the_necromancer.display_name)",
-            "description": "i18n(box_o_vox:data.loadouts.path_of_the_necromancer.description)",
-            "tooltip": "i18n(box_o_vox:data.loadouts.path_of_the_necromancer.tooltip)",
-            "splash": "file(images/path_of_the_necromancer/splash.png)",
-            "seal": "file(images/path_of_the_necromancer/seal.png)",
-            "content": {
-                "cleric": {
-                    "ordinal": 1,
-                    "display_name": "Cleric",
-                    "type": "entity",
-                    "uri": "stonehearth:cleric:talisman",
-                    "icon": "file(../../jobs/cleric/skin/icon.png)",
-                    "amount": 1
-                },
-                "weaver": {
-                    "ordinal": 2,
-                    "display_name": "i18n(box_o_vox:jobs.weaver.weaver_description.display_name)",
-                    "type": "entity",
-                    "uri": "stonehearth:weaver:talisman",
-                    "icon": "file(images/items/weaver_spindle.png)",
-                    "amount": 1
-                },
-                "bundle": {
-                    "ordinal": 3,
-                    "display_name": "i18n(box_o_vox:data.loadouts.items.necro_bundle)",
-                    "type": "entity",
-                    "uri": "box_o_vox:entities:containers:necro_bundle",
-                    "icon": "file(images/items/necro_bundle.png)",
-                    "amount": 1
-                },
-                "gold": {
-                    "ordinal": 4,
-                    "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
-                    "type": "gold",
-                    "icon": "file(images/items/gold.png)",
-                    "uri": "stonehearth:loot:gold",
-                    "amount": 100
-                }
+   "loadouts": {
+      "path_of_the_necromancer": {
+         "ordinal": 0.001,
+         "alias": "box_o_vox:data:loadouts:path_of_the_necromancer",
+         "display_name": "The Boxling Special",
+         "description": "Everything you need to start your journey as a Boxling in hopes of becoming a Necromancer... and more!",
+         "tooltip": "The Essentials",
+         "splash": "file(images/path_of_the_necromancer/splash.png)",
+         "seal": "file(images/path_of_the_necromancer/seal.png)",
+         "content": {
+            "cleric": {
+               "ordinal": 1,
+               "display_name": "Cleric",
+               "type": "entity",
+               "uri": "stonehearth:cleric:talisman",
+               "icon": "file(images/items/cleric.png)",
+               "amount": 1
+            },
+            "shepherd": {
+               "ordinal": 1,
+               "display_name": "Shepherd",
+               "type": "entity",
+               "uri": "stonehearth:shepherd:talisman",
+               "icon": "file(images/items/shepherd.png)",
+               "amount": 1
+            },
+            "weaver": {
+               "ordinal": 2,
+               "display_name": "i18n(box_o_vox:jobs.weaver.weaver_description.display_name)",
+               "type": "entity",
+               "uri": "stonehearth:weaver:talisman",
+               "icon": "file(images/items/weaver.png)",
+               "amount": 1
+            },
+            "bundle": {
+               "ordinal": 3,
+               "display_name": "i18n(box_o_vox:data.loadouts.items.necro_bundle)",
+               "type": "entity",
+               "uri": "box_o_vox:entities:containers:necro_bundle",
+               "icon": "file(images/items/necro_bundle.png)",
+               "amount": 1
+            },
+            "gold": {
+               "ordinal": 4,
+               "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
+               "type": "gold",
+               "uri": "stonehearth:loot:gold",
+               "icon": "file(images/items/gold.png)",
+               "amount": 100
             }
-        }
-    }
+         }
+      }
+   }
 }

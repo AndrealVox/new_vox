@@ -1,27 +1,5 @@
 {
     "craftable_recipes": {
-        "ingredients": {
-            "recipes": {
-                "cheese": {
-                    "recipe": "file(cheese_recipe.json)"
-                },
-                "cream": {
-                    "recipe": "file(cream_recipe.json)"
-                },
-                "dough": {
-                    "recipe": "file(dough_recipe.json)"
-                },
-                "pepper": {
-                    "recipe": "file(pepper_recipe.json)"
-                },
-                "rock_salt": {
-                    "recipe": "file(salt_recipe.json)"
-                },
-                "pepperoni": {
-                    "recipe": "file(pepperoni_recipe.json)"
-                }
-            }
-        },
         "food": {
             "recipes": {
                 "fruit_salad": {
@@ -34,17 +12,8 @@
         },
         "chefs_specials": {
             "recipes": {
-                "beef_rib_roast": {
-                    "recipe": "file(beef_rib_roast_recipe.json)"
-                },
-                "roast_rack_of_pork": {
-                    "recipe": "file(roast_rack_of_pork_recipe.json)"
-                },
                 "mash_potatoes": {
                     "recipe": "file(mash_potatoes_recipe.json)"
-                },
-                "pizza": {
-                    "recipe": "file(pizza_recipe.json)"
                 }
             }
         },
@@ -58,16 +27,6 @@
                 },
                 "fruit_smoothie": {
                     "recipe": "file(fruit_smoothie_recipe.json)"
-                }
-            }
-        },
-        "animal_feed": {
-            "recipes": {
-                "cow_feed": {
-                    "recipe": "file(cow_feed_recipe.json)"
-                },
-                "pig_feed": {
-                    "recipe": "file(pig_feed_recipe.json)"
                 }
             }
         }

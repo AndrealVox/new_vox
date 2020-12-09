@@ -193,6 +193,73 @@ App.StonehearthSelectRosterView = App.View.extend({
 
       quitToMainMenu: function () {
          App.stonehearthClient.quitToMainMenu('shellView');
+      },
+
+      showLoadRosterDialog: function () {
+         var self = this;
+
+         if (self._loadRosterView) {
+            self._loadRosterView.destroy();
+         }
+
+         self._loadRosterView = App.shellView.addView(App.StonehearthStartingRosterChoiceView, {
+            selectedCb: function (rosterID) {
+               radiant.call('stonehearth_ace:get_starting_rosters_command').done(function (e) {
+                  if (self.isDestroying || self.isDestroyed) {
+                     return;
+                  }
+
+                  var spec = e.result[rosterID];
+
+                  if (spec) {
+                     // First, reset existing citizens.
+                     var childViews = self.get('childViews');
+                     for (var i = 0; i < childViews.length; ++i) {
+                        var citizenView = childViews[i];
+                        if (citizenView.get('isFrozen')) {
+                           citizenView.setFrozen(false);
+                        }
+                     }
+
+                     radiant.call_obj('stonehearth.game_creation', 'generate_citizens_for_reembark_command', spec)
+                        .done(function (e) {
+                           if (self.isDestroying || self.isDestroyed) {
+                              return;
+                           }
+                           var citizenMap = e.citizens;
+                           self._citizensArray = radiant.map_to_array(citizenMap);
+                           self.set('citizensArray', self._citizensArray);
+                        });
+                  }
+               });
+            }
+         });
+      },
+
+      showSaveRosterDialog: function () {
+         var self = this;
+
+         App.shellView.addView(App.StonehearthInputPromptView, {
+            title: i18n.t('stonehearth_ace:ui.shell.select_roster.save_roster_confirm_title'),
+            message: i18n.t('stonehearth_ace:ui.shell.select_roster.save_roster_confirm_message'),
+            default_value: i18n.t('stonehearth_ace:ui.shell.select_roster.save_roster_default_name', {
+               number: Math.floor(Math.random() * 999)
+            }),
+            buttons: [
+               {
+                  label: i18n.t('stonehearth_ace:ui.shell.select_roster.save_roster_confirm_yes'),
+                  click: function (inputText) {
+                     radiant.call('stonehearth_ace:save_starting_roster_command', inputText, self._citizensArray);
+                  }
+                  },
+               {
+                  label: i18n.t('stonehearth_ace:ui.shell.select_roster.save_roster_confirm_no'),
+                  click: function () {
+                     // Nothing to do.
+                  }
+                  }
+               ]
+         });
       }
    },
 
@@ -231,7 +298,9 @@ App.StonehearthSelectRosterView = App.View.extend({
          });
       }
 
-      self.$('#rerollCitizensText').addClass('disabled');
+      self.$('#rerollCitizensButton').addClass('disabled');
+      self.$('#loadCitizensButton').addClass('disabled');
+      self.$('#saveCitizensButton').addClass('disabled');
 
       radiant.call_obj('stonehearth.game_creation', 'generate_citizens_command', initialize, self.citizenLockedOptions)
          .done(function (e) {
@@ -244,7 +313,9 @@ App.StonehearthSelectRosterView = App.View.extend({
             }
 
             var citizenMap = e.citizens;
-            self.$('#rerollCitizensText').removeClass('disabled');
+            self.$('#rerollCitizensButton').removeClass('disabled');
+            self.$('#loadCitizensButton').removeClass('disabled');
+            self.$('#saveCitizensButton').removeClass('disabled');
             self._citizensArray = radiant.map_to_array(citizenMap);
             self.set('citizensArray', self._citizensArray);
 
@@ -974,6 +1045,95 @@ App.StonehearthReembarkChoiceView = App.View.extend({
    },
 
    _getSelectedSpec: function () {
+      var row = this.$('.row.selected');
+      if (!row) {
+         return null;
+      }
+      return row.attr('data-id');
+   },
+});
+
+App.StonehearthStartingRosterChoiceView = App.View.extend({
+   templateName: 'stonehearthStartingRosterChoice',
+   classNames: [],
+   selectedCb: null,
+   _components: {},
+
+   init: function () {
+      this._super();
+      var self = this;
+
+      radiant.call('stonehearth_ace:get_starting_rosters_command').done(function (e) {
+         var rosters = [];
+         radiant.each(e.result, function (id, roster) {
+            roster.id = id;
+            rosters.push(roster);
+         });
+         rosters.sort((a, b) => a.name < b.name);
+         self.set('startingRosters', e.result);
+         self.set('startingRostersArray', rosters);
+      });
+   },
+
+   didInsertElement: function () {
+      var self = this;
+
+      self.$().on('click', '.row', function () {
+         if ($(this).hasClass('selected')) {
+            $(this).removeClass('selected');
+         } else {
+            self.$('.row').removeClass('selected');
+            $(this).addClass('selected');
+         }
+      });
+   },
+
+   willDestroyElement: function () {
+      var self = this;
+
+      self.$().off('click', '.row');
+   },
+
+   actions: {
+      delete: function () {
+         var self = this;
+         var rosterId = this._getSelectedRoster();
+
+         App.shellView.addView(App.StonehearthConfirmView, {
+            title: i18n.t('stonehearth_ace:ui.shell.select_roster.delete_roster_confirm_title'),
+            message: i18n.t('stonehearth_ace:ui.shell.select_roster.delete_roster_confirm_message'),
+            buttons: [
+               {
+                  label: i18n.t('stonehearth_ace:ui.shell.select_roster.delete_roster_confirm_yes'),
+                  click: function () {
+                     radiant.call('stonehearth_ace:delete_starting_roster_command', rosterId).done(function (e) {
+                        self.set('startingRostersArray', self.get('startingRostersArray').filter(function (s) {
+                           return s.id != rosterId;
+                        }));
+                     });
+                  }
+                  },
+               {
+                  label: i18n.t('stonehearth_ace:ui.shell.select_roster.delete_roster_confirm_no'),
+                  click: function () {
+                     // Nothing to do.
+                  }
+                  }
+               ]
+         });
+      },
+      select: function () {
+         if (this.selectedCb) {
+            this.selectedCb(this._getSelectedRoster());
+            this.destroy();
+         }
+      },
+      cancel: function () {
+         this.destroy();
+      }
+   },
+
+   _getSelectedRoster: function () {
       var row = this.$('.row.selected');
       if (!row) {
          return null;

@@ -1,0 +1,23 @@
+{
+   "mixins": "/stonehearth_ace/jobs/shepherd/recipes/recipes.json",
+   "craftable_recipes": {
+      "animal_feed": {
+         "recipes": {
+            "mixintypes": {
+               "sheep_feed": "override",
+               "moomoo_feed": "override",
+               "fodder_feed": "override"
+            },
+            "sheep_feed": {
+               "recipe": "file(sheep_feed_recipe.json)"
+            },
+            "moomoo_feed": {
+               "recipe": "file(moomoo_feed_recipe.json)"
+            },
+            "fodder": {
+               "recipe": "file(fodder_recipe.json)"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "mixins": "/stonehearth_ace/jobs/shepherd/recipes/moomoo_feed_recipe.json",
+   "mixintypes": {
+      "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "thatch resource",
+         "count": 6
+      }
+   ]
+}

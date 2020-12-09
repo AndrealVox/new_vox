@@ -13,7 +13,7 @@ local function check_override_ui(players, player_id)
    local client_player = players[player_id]
    if client_player then
       if client_player.kingdom == "box_o_vox:server:population:data:kingdoms:boxling" then
-         -- hot load rayyas children ui mod
+         -- hot load boxling ui mod
          _radiant.res.apply_manifest("/box_o_vox/ui/manifest.json")
       end
    end

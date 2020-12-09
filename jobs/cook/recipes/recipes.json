@@ -1,82 +1,43 @@
 {
-    "mixins": "/northern_alliance/jobs/cook/recipes/recipes.json",
-    "craftable_recipes": {
-        "ingredients": {
-            "recipes": {
-                "cheese": {
-                    "recipe": "file(cheese_recipe.json)"
-                },
-                "cream": {
-                    "recipe": "file(cream_recipe.json)"
-                },
-                "dough": {
-                    "recipe": "file(dough_recipe.json)"
-                },
-                "pepper": {
-                    "recipe": "file(pepper_recipe.json)"
-                },
-                "rock_salt": {
-                    "recipe": "file(salt_recipe.json)"
-                },
-                "pepperoni": {
-                    "recipe": "file(pepperoni_recipe.json)"
-                }
+   "mixins": "/northern_alliance/jobs/cook/recipes/recipes.json",
+   "craftable_recipes": {
+      "food": {
+         "recipes": {
+            "fruit_salad": {
+               "recipe": "file(fruit_salad_recipe.json)"
+            },
+            "ground_beef": {
+               "recipe": "file(ground_beef_recipe.json)"
             }
-        },
-        "food": {
-            "recipes": {
-                "fruit_salad": {
-                    "recipe": "file(fruit_salad_recipe.json)"
-                },
-                "ground_beef": {
-                    "recipe": "file(ground_beef_recipe.json)"
-                }
+         }
+      },
+      "chefs_specials": {
+         "recipes": {
+            "mash_potatoes": {
+               "recipe": "file(mash_potatoes_recipe.json)"
             }
-        },
-        "chefs_specials": {
-            "recipes": {
-                "beef_rib_roast": {
-                    "recipe": "file(beef_rib_roast_recipe.json)"
-                },
-                "roast_rack_of_pork": {
-                    "recipe": "file(roast_rack_of_pork_recipe.json)"
-                },
-                "mash_potatoes": {
-                    "recipe": "file(mash_potatoes_recipe.json)"
-                },
-                "pizza": {
-                    "recipe": "file(pizza_recipe.json)"
-                }
+         }
+      },
+      "chefs_desserts": {
+         "recipes": {
+            "apple_pie": {
+               "recipe": "file(apple_pie_recipe.json)"
+            },
+            "banana_cream_pie": {
+               "recipe": "file(banana_cream_pie_recipe.json)"
+            },
+            "fruit_smoothie": {
+               "recipe": "file(fruit_smoothie_recipe.json)"
             }
-        },
-        "chefs_desserts": {
-            "recipes": {
-                "apple_pie": {
-                    "recipe": "file(apple_pie_recipe.json)"
-                },
-                "banana_cream_pie": {
-                    "recipe": "file(banana_cream_pie_recipe.json)"
-                },
-                "fruit_smoothie": {
-                    "recipe": "file(fruit_smoothie_recipe.json)"
-                }
+         }
+      },
+      "animal_feed": {
+         "recipes": {
+            "mixintypes": {
+               "sheep_feed": "override",
+               "poyo_feed": "override"
             }
-        },
-        "animal_feed": {
-            "recipes": {
-                "mixintypes": {
-                    "moomoo_feed": "remove"
-                },
-                "sheep_feed": {
-                    "recipe": "file(sheep_feed_recipe.json)"
-                },
-                "cow_feed": {
-                    "recipe": "file(cow_feed_recipe.json)"
-                },
-                "pig_feed": {
-                    "recipe": "file(pig_feed_recipe.json)"
-                }
-            }
-        }
-    }
+         }
+      }
+   }
 }

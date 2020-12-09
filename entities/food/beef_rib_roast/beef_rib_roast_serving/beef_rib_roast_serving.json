@@ -22,7 +22,7 @@
             "default": {
                 "satisfaction": 80
             },
-            "quality": 7
+            "quality": 6
         },
         "stonehearth:catalog": {
             "display_name": "i18n(box_o_vox:entities.food.beef_rib_roast.beef_rib_roast_serving.display_name)",
