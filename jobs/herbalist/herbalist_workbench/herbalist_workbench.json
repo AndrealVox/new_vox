@@ -1,0 +1,7 @@
+{
+   "components": {
+      "stonehearth:workshop": {
+         "job_alias": "stonehearth:jobs:cleric"
+      }
+   }
+}

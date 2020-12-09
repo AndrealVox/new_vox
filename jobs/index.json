@@ -1,5 +1,9 @@
 {
+   "mixins": "stonehearth:jobs:index",
    "jobs": {
+      "mixintypes": {
+         "stonehearth:jobs:herbalist": "remove"
+      },
       "stonehearth:jobs:archer": {
          "description": "stonehearth:jobs:archer"
       },
@@ -60,8 +64,8 @@
       "stonehearth:jobs:npc:cleric": {
          "description": "stonehearth:jobs:npc:cleric"
       },
-      
-      
+
+
       "box_o_vox:jobs:necromancer": {
          "description": "box_o_vox:jobs:necromancer"
       },

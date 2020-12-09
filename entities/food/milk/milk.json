@@ -51,7 +51,7 @@
             "icon": "file(milk.png)",
             "is_item": true,
             "category": "cooking_ingredient",
-            "material_tags": ["stockpile_cooking_ingredient", "cooking_ingredient", "milk"]
+            "material_tags": ["stockpile_cooking_ingredient", "cooking_ingredient", "milk", "drink_container", "drink_container milk"]
         },
         "stonehearth:appeal": {
             "appeal": 0

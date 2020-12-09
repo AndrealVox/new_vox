@@ -2,7 +2,7 @@
 	"crafter_menu": {
 		"items": {
 			"fisher": {
-				"icon": "file(fisher_menu_icon.png)"
+				"icon": "file(images/fisher_menu_icon.png)"
 			}
 		}
 	}

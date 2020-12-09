@@ -1,5 +1,5 @@
 {
-   "mixin": "stonehearth:jobs:worker",
+   "mixins": "stonehearth:jobs:worker",
    "type": "job",
    "enabled": true,
    "job_id": "worker",

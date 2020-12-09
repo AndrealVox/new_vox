@@ -4,12 +4,23 @@
          "max_traps": 6,
          "min_distance_between_traps": 10,
          "check_traps_interval": "8h",
+         "trappable_animals": {
+            "medium": {
+               "icon": "/stonehearth/entities/critters/forest/deer/deer.png"
+            },
+            "big_game": {
+               "icon": "/stonehearth_ace/entities/monsters/forest/bear/bear.png"
+            }
+         },
          "trappable_animal_weights": {
             "critters": {
                "stonehearth:rabbit": 100,
                "stonehearth:racoon": 0,
                "stonehearth:red_fox_wolf": 0,
                "stonehearth:squirrel": 0
+            },
+            "medium": {
+               "stonehearth:red_fox_wolf": 0
             }
          }
       }
