@@ -1,4 +1,5 @@
 {
+   "__comment": "724150141",
    "info": {
       "name": "Box O' Vox (Complete)",
       "namespace": "box_o_vox",
@@ -7,8 +8,7 @@
    },
    "author": "Andreal Vox",
    "dependencies": [
-      "stonehearth",
-      "northern_alliance",
+      "stonehearth_ace",
       "extra_map_options",
       "stonehearth_beam"
    ],
@@ -368,6 +368,10 @@
       "extra_map_options:data:extra_map_options": "box_o_vox:data:extra_map_options",
       "stonehearth:data:constants": "box_o_vox:data:constants",
 
+      "stonehearth/services/server/population/data/ascendancy_population.json": "box_o_vox/services/server/population/data/inventory_population.json",
+      "rayyas_children/data/rayyas_children_population.json": "box_o_vox/services/server/population/data/inventory_population.json",
+      "northern_alliance/data/northern_alliance_population.json": "box_o_vox/services/server/population/data/inventory_population.json",
+
 
       "stonehearth:jobs:index": "box_o_vox:jobs:index_mixin",
 
@@ -462,9 +466,9 @@
       "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
 
       "stonehearth/ui/shell/title/images/foreground.png": "file(ui/shell/title/images/foreground.png)",
-      "stonehearth/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/stonehearth_ace_foreground.png)",
+      "stonehearth/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/foreground.png)",
       "stonehearth_ace/ui/shell/title/images/foreground.png": "file(ui/shell/title/images/foreground.png)",
-      "stonehearth_ace/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/stonehearth_ace_foreground.png)",
+      "stonehearth_ace/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/foreground.png)",
 
 
       "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json": "box_o_vox:jobs:recipes:cook_ace",

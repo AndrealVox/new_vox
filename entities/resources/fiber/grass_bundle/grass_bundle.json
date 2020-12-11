@@ -37,7 +37,16 @@
          "icon": "file(grass_bundle.png)",
          "is_item": true,
          "category": "resources",
-         "material_tags": "fiber resource plant silkweed stockpile_plant thatch resource"
+         "material_tags": [
+            "plant",
+            "fiber",
+            "herb",
+            "green",
+            "bitter",
+            "resource",
+            "stockpile_plant",
+            "thatch"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": -2

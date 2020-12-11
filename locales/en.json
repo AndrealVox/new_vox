@@ -10,9 +10,9 @@
    "data": {
       "loadouts": {
          "path_of_the_necromancer": {
-            "display_name": "Path Of The Necromancer",
-            "description": "It's a dark path to becoming a necromancer. Do you have what it takes? With these tools you should be able to streamline straight to it!",
-            "tooltip": "The essential loadout for anyone who wishes to become a Necromancer ASAP"
+            "display_name": "The Boxling Special",
+            "description": "Everything you need to start your journey as a Boxling in hopes of becoming a Necromancer... and more!",
+            "tooltip": "The essential loadout for anyone who wishes to become a Necromancer as soon as possible."
          },
          "items": {
             "gold": "Gold",
@@ -55,8 +55,8 @@
             }
          },
          "promote_to_job": {
-            "display_name": "Assign to job",
-            "description": "Assign this citizen to a job."
+            "display_name": "Change Jobs",
+            "description": "Change this citizens job."
          }
       },
       "population": {
@@ -1599,15 +1599,15 @@
          "description": "Looks like a pet died."
       }
    },
-   "server":{
-        "population":{
-            "data":{
-                "kingdoms":{
-                    "boxling": "Boxlings"
-                }
+   "server": {
+      "population": {
+         "data": {
+            "kingdoms": {
+               "boxling": "Boxlings"
             }
-        }
-    },
+         }
+      }
+   },
    "kingdoms": {
       "box_o_vox": "Boxlings",
       "boxling": "Boxlings"

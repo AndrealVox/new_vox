@@ -35,7 +35,22 @@
          "icon": "file(daisy.png)",
          "is_item": true,
          "category": "resources",
-         "material_tags": "plant herb resource daisy stockpile_plant"
+         "material_tags": [
+            "daisy",
+            "plant",
+            "flower",
+            "herb",
+            "resource",
+            "stockpile_plant",
+            "aromatic",
+            "bitter",
+            "blue",
+            "green",
+            "purple",
+            "red",
+            "white",
+            "yellow"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": 1

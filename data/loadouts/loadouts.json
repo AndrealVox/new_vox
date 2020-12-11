@@ -3,9 +3,9 @@
       "path_of_the_necromancer": {
          "ordinal": 0.001,
          "alias": "box_o_vox:data:loadouts:path_of_the_necromancer",
-         "display_name": "The Boxling Special",
-         "description": "Everything you need to start your journey as a Boxling in hopes of becoming a Necromancer... and more!",
-         "tooltip": "The Essentials",
+         "display_name": "i18n(box_o_vox:data.loadouts.path_of_the_necromancer.display_name)",
+         "description": "i18n(box_o_vox:data.loadouts.path_of_the_necromancer.description)",
+         "tooltip": "i18n(box_o_vox:data.loadouts.path_of_the_necromancer.tooltip)",
          "splash": "file(images/path_of_the_necromancer/splash.png)",
          "seal": "file(images/path_of_the_necromancer/seal.png)",
          "content": {

@@ -1,0 +1,3 @@
+{
+   "inventory_capacity_equation": "math.max(num_citizens * 420, 9001)"
+}

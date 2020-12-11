@@ -1,11 +1,7 @@
 {
    "keys": {
       "ui:show_promotion_tree": {
-         "display_name": "i18n(box_o_vox:data.commands.promote_to_job.display_name)",
-         "category": "ui",
-         "ordinal": 600,
-         "combo1": "shift+keyj",
-         "combo2": ""
+         "combo2": "shift+keyj"
       },
       "craft:cleric": {
          "display_name": "i18n(box_o_vox:ui.shell.settings.controls_tab.key_binding_names.craft_cleric)",

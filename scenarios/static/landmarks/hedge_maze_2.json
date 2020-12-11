@@ -13,7 +13,7 @@
       "plains"
    ],
    "overwrite_occupied_size": 10,
-   "weight": 7,
+   "weight": 3,
    "data": {
       "brush": "box_o_vox:landmark:hedge_maze_2",
       "brush_mask": "box_o_vox:landmark:hedge_maze_2",

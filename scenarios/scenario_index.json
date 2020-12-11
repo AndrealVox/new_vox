@@ -1,9 +1,9 @@
 {
-    "static": {
-        "mixintypes": {
-            "scenarios": "override"
-        },
-        "scenarios": [
+   "static": {
+      "mixintypes": {
+         "scenarios": "override"
+      },
+      "scenarios": [
          "file(static/terrain/salt_rock_vein)",
          "file(static/terrain/clay_mound_vein)",
 
@@ -31,23 +31,23 @@
          "/stonehearth/scenarios/static/landmarks/128x_gully.json",
          "/stonehearth/scenarios/static/landmarks/128x_skeleton_caribou.json"
       ],
-        "categories": {
-            "terrain": {
-                "density": 15
-            },
-            "wildlife": {
-                "density": 2
-            },
-            "ruins": {
-                "density": 0.4
-            },
-            "ore": {
-                "density": 10
-            }
-        }
-    },
-    "dynamic": {
-        "scenarios": [
+      "categories": {
+         "terrain": {
+            "density": 7
+         },
+         "wildlife": {
+            "density": 6
+         },
+         "ruins": {
+            "density": 0.5
+         },
+         "ore": {
+            "density": 8
+         }
+      }
+   },
+   "dynamic": {
+      "scenarios": [
       ]
-    }
+   }
 }

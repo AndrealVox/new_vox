@@ -54,7 +54,14 @@
          "icon": "file(potato_basket.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "food_container raw_food vegetable potato vegetarian stockpile_raw_food",
+         "material_tags": [
+            "food_container",
+            "raw_food",
+            "vegetable",
+            "potato",
+            "vegetarian",
+            "stockpile_raw_food"
+         ],
          "subject_override": "box_o_vox:entities:crops:potato_crop"
       },
       "stonehearth:appeal": {

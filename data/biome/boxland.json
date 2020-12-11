@@ -19,6 +19,13 @@
    },
    "generation_file": "file(boxland_generation_data.json)",
    "default_starting_season": "spring",
+   "mixintypes": {
+      "growth_duration_multiplier": "remove"
+   },
+   "foraging_spot_uri": "stonehearth_ace:terrain:foraging_spot:temperate",
+   "foraging_spot_frequency": 0.002,
+   "wilderness_score_multiplier": 0.06,
+   "climate": "temperate_medium",
    "seasons": {
       "spring": {
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.spring.display_name)",
