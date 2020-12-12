@@ -9,8 +9,16 @@
          "splash": "file(images/path_of_the_necromancer/splash.png)",
          "seal": "file(images/path_of_the_necromancer/seal.png)",
          "content": {
-            "cleric": {
+            "carpenter": {
                "ordinal": 1,
+               "display_name": "Carpenter",
+               "type": "entity",
+               "uri": "stonehearth:carpenter:talisman",
+               "icon": "file(images/items/carpenter.png)",
+               "amount": 1
+            },
+            "cleric": {
+               "ordinal": 2,
                "display_name": "Cleric",
                "type": "entity",
                "uri": "stonehearth:cleric:talisman",
@@ -18,23 +26,15 @@
                "amount": 1
             },
             "shepherd": {
-               "ordinal": 1,
+               "ordinal": 3,
                "display_name": "Shepherd",
                "type": "entity",
                "uri": "stonehearth:shepherd:talisman",
                "icon": "file(images/items/shepherd.png)",
                "amount": 1
             },
-            "weaver": {
-               "ordinal": 2,
-               "display_name": "i18n(box_o_vox:jobs.weaver.weaver_description.display_name)",
-               "type": "entity",
-               "uri": "stonehearth:weaver:talisman",
-               "icon": "file(images/items/weaver.png)",
-               "amount": 1
-            },
             "bundle": {
-               "ordinal": 3,
+               "ordinal": 4,
                "display_name": "i18n(box_o_vox:data.loadouts.items.necro_bundle)",
                "type": "entity",
                "uri": "box_o_vox:entities:containers:necro_bundle",
@@ -42,7 +42,7 @@
                "amount": 1
             },
             "gold": {
-               "ordinal": 4,
+               "ordinal": 5,
                "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
                "type": "gold",
                "uri": "stonehearth:loot:gold",

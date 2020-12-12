@@ -491,6 +491,9 @@
       "summon": "file(components/summon/summon_component.lua)"
    },
    "ui": {
+      "js": [
+         "file(ui/game/citizens/citizens.js)"
+    ],
       "less": [
          "file(jobs/cleric/skin/workshop.less)",
          "file(jobs/necromancer/skin/workshop.less)",
