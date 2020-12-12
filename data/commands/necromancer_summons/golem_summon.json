@@ -6,6 +6,7 @@
    "ordinal": 15,
    "icon": "file(golem_page.png)",
    "action": "call",
+   "visible_in_citizens_view": false,
    "function": "stonehearth:swap_equipment",
    "args": [
       "accessory",

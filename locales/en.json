@@ -47,7 +47,7 @@
             },
             "bone_wolf_big_summon": {
                "description": "The howls are getting louder.",
-               "display_name": "Bone Wolf"
+               "display_name": "Summon Bone Wolf"
             },
             "zilla_summon": {
                "display_name": "Summon Zilla",
