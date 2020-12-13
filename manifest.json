@@ -398,9 +398,7 @@
       "stonehearth:biome:index": "file(data/biome/index.json)",
       "stonehearth:terrain_blocks": "file(data/terrain/terrain_blocks.json)",
       "stonehearth:landmark_blocks": "box_o_vox:data:terrain:landmark_blocks",
-      "stonehearth:mixins:base_human": "box_o_vox:mixins:base_human_job",
       "stonehearth:hotkeys": "box_o_vox:data:hotkeys",
-      "stonehearth_ace:hotkeys": "box_o_vox:data:hotkeys",
       "stonehearth:loadouts": "file(data/loadouts)",
       "stonehearth/data/npc_index.json": "file(data/npc_index.json)",
       "stonehearth/data/resource_constants.json": "file(data/resource_constants.json)",
@@ -493,7 +491,6 @@
    },
    "ui": {
       "js": [
-         "file(ui/game/citizens/citizens.js)"
     ],
       "less": [
          "file(jobs/cleric/skin/workshop.less)",

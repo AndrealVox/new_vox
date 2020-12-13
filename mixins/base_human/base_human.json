@@ -7,12 +7,6 @@
             "/stonehearth/data/materials/material_maps/mob_material_map.json"
          ]
       },
-      "stonehearth:commands": {
-         "commands": [
-            "stonehearth:commands:open_character_sheet",
-            "box_o_vox:data:commands:promote_to_job"
-         ]
-      },
       "stonehearth:job": {
          "xp_equation_for_next_level": "curr_level * 100 + 100"
       },

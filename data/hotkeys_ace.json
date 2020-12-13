@@ -1,8 +1,5 @@
 {
    "keys": {
-      "ui:show_promotion_tree": {
-         "combo2": "shift+keyj"
-      },
       "craft:cleric": {
          "display_name": "i18n(box_o_vox:ui.shell.settings.controls_tab.key_binding_names.craft_cleric)",
          "category": "craft",
