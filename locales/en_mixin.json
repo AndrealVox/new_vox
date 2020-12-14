@@ -6,6 +6,18 @@
                "workers": "i18n(box_o_vox:ui.game.unit_frame.placement_tags.workers)"
             }
          }
+      },
+      "shell": {
+         "loading_screen": {
+            "loading_map_flavor_text": {
+               "600": "adding flesh to bones...",
+               "601": "entering the Box O' Vox..."
+            },
+            "tips": {
+               "600": "The Necromancer can summon increasingly stronger minions to assist you battle. A very powerful ally indeed.",
+               "601": "The Paladin is capable of drawing aggro away from your other soldiers as well as healing them and boosting their fighting spirit."
+            }
+         }
       }
    }
 }

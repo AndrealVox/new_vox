@@ -6,7 +6,7 @@
          "check_traps_interval": "8h",
          "trappable_animals": {
             "medium": {
-               "icon": "/stonehearth/entities/critters/forest/deer/deer.png"
+               "icon": "/stonehearth/entities/critters/deer/deer.png"
             },
             "big_game": {
                "icon": "/stonehearth_ace/entities/monsters/forest/bear/bear.png"
