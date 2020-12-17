@@ -27,6 +27,7 @@
       "banner:strength": "file(entities/gizmos/na_town_banner_might/na_town_banner_might.json)",
       "banner:vitality": "file(entities/gizmos/na_town_banner_nature/na_town_banner_nature.json)",
       "biome:boxland": "file(data/biome/boxland.json)",
+      "biome:boxland_winter": "file(data/biome/boxland_winter.json)",
       "buffs:paladin:courage_aura": "file(jobs/paladin/paladin_buffs/courage_aura_buff.json)",
       "buffs:paladin:courage_aura_effect": "file(jobs/paladin/paladin_buffs/courage_aura_effect_buff.json)",
       "buffs:paladin:defense_1": "file(jobs/paladin/paladin_buffs/defense_1_buff.json)",
@@ -92,6 +93,7 @@
       "data:summon_tuning:necromancer:summoner_skeleton": "file(data/summon_tuning/necromancer/summoner_skeleton.json)",
       "data:summon_tuning:necromancer:summoner_zilla": "file(data/summon_tuning/necromancer/summoner_zilla.json)",
       "data:summon_tuning:necromancer:summoner_zombie": "file(data/summon_tuning/necromancer/summoner_zombie.json)",
+      "data:summon_task_groups": "file(services/server/population/data/summon_task_groups.json)",
       "data:terrain:landmark_blocks": "file(data/terrain/landmark_blocks.json)",
       "data:thoughts": "file(data/happiness/thoughts.json)",
       "data:traits:passion_paladin": "file(data/traits/passion_paladin/passion_paladin_trait.json)",
@@ -275,7 +277,7 @@
 
       "jobs:blacksmith": "file(jobs/blacksmith/blacksmith_description.json)",
       "jobs:carpenter": "file(jobs/carpenter/carpenter_description.json)",
-      "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
+      "jobs:cleric": "file(jobs/cleric/ace_cleric_description.json)",
       "jobs:cook": "file(jobs/cook/cook_description.json)",
       "jobs:engineer": "file(jobs/engineer/engineer_description.json)",
       "jobs:herbalist": "file(jobs/herbalist/herbalist_description.json)",
@@ -449,15 +451,13 @@
       "stonehearth_ace/data/gm/campaigns/bonecarving/bonecarving_campaign.json": "file(data/gm/campaigns/deny_if_boxlings.json)",
 
 
-
       "box_o_vox:jobs:recipes:cook": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json",
 
 
       "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",
       "box_o_vox/jobs/necromancer/recipes/recipes.json": "trapper_plus/box_o_vox/necromancer/recipes/trapper_plus_recipes.json",
       "box_o_vox/jobs/paladin/paladin_description.json": "stonehearth_ace/box_o_vox/paladin/paladin_description.json",
-      "box_o_vox/jobs/necromancer/necromancer_description.json": "stonehearth_ace/box_o_vox/necromancer/necromancer_description.json",
-      "box_o_vox/jobs/cleric/cleric_description.json": "stonehearth_ace/box_o_vox/cleric/cleric_description.json"
+      "box_o_vox/jobs/necromancer/necromancer_description.json": "stonehearth_ace/box_o_vox/necromancer/necromancer_description.json"
    },
    "overrides": {
       "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
@@ -476,8 +476,7 @@
       "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)",
       "trapper_plus/box_o_vox/necromancer/recipes/trapper_plus_recipes.json": "file(jobs/necromancer/recipes/trapper_plus_recipes.json)",
       "stonehearth_ace/box_o_vox/paladin/paladin_description.json": "box_o_vox/jobs/paladin/ace_paladin_description.json",
-      "stonehearth_ace/box_o_vox/necromancer/necromancer_description.json": "box_o_vox/jobs/necromancer/ace_necromancer_description.json",
-      "stonehearth_ace/box_o_vox/cleric/cleric_description.json": "box_o_vox/jobs/cleric/ace_cleric_description.json"
+      "stonehearth_ace/box_o_vox/necromancer/necromancer_description.json": "box_o_vox/jobs/necromancer/ace_necromancer_description.json"
    },
    "controllers": {
       "class:cleric": "file(jobs/cleric/cleric.lua)",

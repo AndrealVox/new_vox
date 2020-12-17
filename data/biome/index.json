@@ -1,5 +1,6 @@
 {
-    "biomes": {
-        "boxland": "box_o_vox:biome:boxland"
-    }
+   "biomes": {
+      "boxland": "box_o_vox:biome:boxland",
+      "boxland_winter": "box_o_vox:biome:boxland_winter"
+   }
 }

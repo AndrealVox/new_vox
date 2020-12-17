@@ -14,32 +14,17 @@
          "combo1": "",
          "combo2": ""
       },
+
       "fight:move": {
-         "display_name": "i18n(stonehearth:data.hotkeys.keys.fight_move.display_name)",
-         "category": "fight",
-         "ordinal": 60,
-         "combo1": "",
          "combo2": "shift+keym"
       },
       "fight:attack": {
-         "display_name": "i18n(stonehearth:data.hotkeys.keys.fight_attack.display_name)",
-         "category": "fight",
-         "ordinal": 70,
-         "combo1": "",
          "combo2": "shift+keya"
       },
       "fight:defend": {
-         "display_name": "i18n(stonehearth:data.hotkeys.keys.fight_defend.display_name)",
-         "category": "fight",
-         "ordinal": 80,
-         "combo1": "",
          "combo2": "shift+keyd"
       },
       "fight:cancelOrders": {
-         "display_name": "i18n(stonehearth:data.hotkeys.keys.fight_cancelOrders.display_name)",
-         "category": "fight",
-         "ordinal": 90,
-         "combo1": "",
          "combo2": "shift+keyx"
       }
    }

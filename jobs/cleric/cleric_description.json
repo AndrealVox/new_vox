@@ -1,45 +1,34 @@
 {
-   "type": "job",
-   "enabled": true,
-   "job_id": "cleric",
+   "mixins": "stonehearth:jobs:cleric",
    "display_order": 2.001,
-   "alias": "stonehearth:jobs:cleric",
-   "display_name": "i18n(stonehearth:jobs.cleric.cleric_description.display_name)",
    "controller": "box_o_vox:class:cleric",
-   "description": "i18n(stonehearth:jobs.cleric.cleric_description.description)",
    "requirements": "Crafted by Carpenter",
-   "talisman_uri": "stonehearth:cleric:talisman",
-   "default_stance": "aggressive",
    "abilities": "file(cleric_abilities/cleric_abilities.json)",
    "equipment": {
-      "torso": "/stonehearth/jobs/cleric/cleric_outfit/cleric_outfit.json",
-      "mainhand": "stonehearth:weapons:tome"
+      "torso": "file(cleric_outfit)"
    },
-   "roles": ["cleric_job", "combat", "crafter"],
-   "promotion_activity_name": "promote_cleric",
+   "roles": [
+      "crafter"
+   ],
    "task_groups": [
-      "stonehearth:task_groups:common_tasks",
-      "stonehearth:task_groups:restock",
       "stonehearth:task_groups:placement",
-      "stonehearth:task_groups:healing",
       "stonehearth:task_groups:harvest",
-      "stonehearth:task_groups:rescue",
       "stonehearth:task_groups:crafting"
    ],
-   "icon": "/stonehearth/jobs/cleric/images/icon.png",
    "parent_job": "stonehearth:jobs:worker",
    "parent_level_requirement": 0,
    "xp_rewards": {
-      "craft_level_0": 8,
-      "craft_level_1": 10,
-      "craft_level_2": 12,
-      "craft_level_3": 14,
-      "craft_level_4": 16,
-      "craft_level_5": 19,
-      "craft_level_6": 22,
-      "heal_entity": 25
+      "craft_level_0": 15,
+      "craft_level_1": 17,
+      "craft_level_2": 19,
+      "craft_level_3": 21,
+      "craft_level_4": 23,
+      "craft_level_5": 25,
+      "craft_level_6": 27,
+      "heal_entity": 10,
+      "heal_entity_in_combat": 10
    },
-   "max_level": 6,
+   "max_training_level": 2,
    "crafter": {
       "work_effect": "herbalist_grind",
       "recipe_list": "file(recipes/recipes.json)"
@@ -53,94 +42,5 @@
       "skin_class": "cleric",
       "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
       "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
-   },
-   "level_data": {
-      "1": {
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_000_name)",
-               "id": "cleric_heal_aura_1",
-               "icon": "/stonehearth/jobs/cleric/images/cleric_perk_healing_aura.png",
-               "buff_name": "stonehearth:buffs:cleric:heal_aura_1",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_000_description)",
-               "level": 1,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      },
-      "2": {
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_name)",
-               "id": "cleric_courage_aura",
-               "icon": "/stonehearth/jobs/cleric/images/cleric_perk_raise_muscle.png",
-               "buff_name": "stonehearth:buffs:cleric:minor_muscle_aura",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_description)",
-               "level": 2,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      },
-      "3": {
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_2_data.perk_000_name)",
-               "id": "cleric_compassion_buff_1",
-               "icon": "/stonehearth/jobs/cleric/images/compassion_up.png",
-               "buff_name": "stonehearth:buffs:cleric:compassion_1",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_2_data.perk_000_description)",
-               "level": 3,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      },
-      "4": {
-         "perks": [
-            {
-               "type": "apply_chained_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_3_data.perk_000_name)",
-               "id": "cleric_heal_aura_2",
-               "icon": "/stonehearth/jobs/cleric/images/cleric_perk_healing_aura_2.png",
-               "buff_name": "stonehearth:buffs:cleric:heal_aura_2",
-               "last_buff": "stonehearth:buffs:cleric:heal_aura_1",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_3_data.perk_000_description)",
-               "level": 4,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      },
-      "5": {
-         "perks": [
-            {
-               "type": "apply_chained_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_5_data.perk_000_name)",
-               "id": "cleric_courage_aura_2",
-               "icon": "/stonehearth/jobs/cleric/images/cleric_perk_raise_muscle_2.png",
-               "last_buff": "stonehearth:buffs:cleric:minor_muscle_aura",
-               "buff_name": "stonehearth:buffs:cleric:major_muscle_aura",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_5_data.perk_000_description)",
-               "level": 5,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      },
-      "6": {
-         "perks": [
-            {
-               "type": "apply_chained_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_6_data.perk_000_name)",
-               "id": "cleric_compassion_buff_2",
-               "icon": "/stonehearth/jobs/cleric/images/healing_master.png",
-               "buff_name": "stonehearth:buffs:cleric:compassion_2",
-               "last_buff": "stonehearth:buffs:cleric:compassion_1",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_6_data.perk_000_description)",
-               "level": 6,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      }
    }
 }

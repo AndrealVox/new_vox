@@ -1,47 +1,36 @@
 {
-   "type": "job",
-   "enabled": true,
-   "job_id": "cleric",
+   "mixins": "stonehearth:jobs:cleric",
    "display_order": 2.001,
-   "alias": "stonehearth:jobs:cleric",
-   "display_name": "i18n(stonehearth:jobs.cleric.cleric_description.display_name)",
    "controller": "box_o_vox:class:cleric",
-   "description": "i18n(stonehearth:jobs.cleric.cleric_description.description)",
    "requirements": "Crafted by Carpenter",
-   "talisman_uri": "stonehearth:cleric:talisman",
-   "default_stance": "aggressive",
    "abilities": "file(cleric_abilities/cleric_abilities.json)",
    "equipment": {
-      "torso": "/stonehearth/jobs/cleric/cleric_outfit/cleric_outfit.json",
-      "mainhand": "stonehearth:weapons:tome"
+      "torso": "file(cleric_outfit)"
    },
-   "roles": ["cleric_job", "combat", "crafter"],
-   "promotion_activity_name": "promote_cleric",
-   "task_groups": [
-      "stonehearth:task_groups:common_tasks",
-      "stonehearth:task_groups:restock",
-      "stonehearth:task_groups:placement",
-      "stonehearth:task_groups:healing",
-      "stonehearth:task_groups:harvest",
-      "stonehearth:task_groups:rescue",
-      "stonehearth:task_groups:crafting",
-      "stonehearth_ace:task_groups:training"
+   "roles": [
+      "crafter"
    ],
-   "icon": "/stonehearth/jobs/cleric/images/icon.png",
+   "task_groups": [
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:harvest",
+      "stonehearth:task_groups:crafting",
+      "stonehearth_ace:task_groups:beekeeping",
+      "stonehearth_ace:task_groups:planters",
+      "stonehearth_ace:task_groups:transform"
+   ],
    "parent_job": "stonehearth:jobs:worker",
    "parent_level_requirement": 0,
    "xp_rewards": {
-      "craft_level_0": 8,
-      "craft_level_1": 10,
-      "craft_level_2": 12,
-      "craft_level_3": 14,
-      "craft_level_4": 16,
-      "craft_level_5": 19,
-      "craft_level_6": 22,
-      "heal_entity": 25,
-      "training": 2
+      "craft_level_0": 15,
+      "craft_level_1": 17,
+      "craft_level_2": 19,
+      "craft_level_3": 21,
+      "craft_level_4": 23,
+      "craft_level_5": 25,
+      "craft_level_6": 27,
+      "heal_entity": 10,
+      "heal_entity_in_combat": 10
    },
-   "max_level": 6,
    "max_training_level": 2,
    "crafter": {
       "work_effect": "herbalist_grind",
@@ -58,79 +47,26 @@
       "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
    },
    "level_data": {
-      "1": {
-         "mixintypes": {
-            "perks": "override"
-         },
+      "3": {
          "perks": [
             {
-               "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_000_name)",
-               "id": "cleric_heal_aura_1",
-               "icon": "/stonehearth/jobs/cleric/images/cleric_perk_healing_aura.png",
-               "buff_name": "stonehearth:buffs:cleric:heal_aura_1",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_000_description)",
-               "level": 1,
-               "demote_fn": "remove_buff"
+               "type": "increase_healing_item_effect",
+               "name": "i18n(stonehearth_ace:jobs.herbalist.herbalist_description.level_3_data.perk_000_name)",
+               "id": "increase_healing_item_effect_50_percent",
+               "icon": "/stonehearth/jobs/herbalist/images/level_3.png",
+               "description": "i18n(stonehearth_ace:jobs.herbalist.herbalist_description.level_3_data.perk_000_description)",
+               "healing_item_effect_multiplier": 1.5,
+               "level": 3
             },
             {
-               "name": "i18n(stonehearth_ace:jobs.cleric.cleric_description.level_1_data.training_perk_name)",
-               "description": "i18n(stonehearth_ace:jobs.cleric.cleric_description.level_1_data.training_perk_description)",
-               "id": "training_perk",
-               "icon": "/stonehearth_ace/jobs/cleric/images/training.png",
-               "level": 1
-            }
-         ]
-      },
-      "2": {
-         "mixintypes": {
-            "perks": "override"
-         },
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_name)",
-               "id": "cleric_courage_aura",
-               "icon": "/stonehearth/jobs/cleric/images/cleric_perk_raise_muscle.png",
-               "buff_name": "stonehearth:buffs:cleric:minor_muscle_aura",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_description)",
-               "level": 2,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      },
-      "3": {
-         "mixintypes": {
-            "perks": "override"
-         },
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_2_data.perk_000_name)",
-               "id": "cleric_compassion_buff_1",
-               "icon": "/stonehearth/jobs/cleric/images/compassion_up.png",
-               "buff_name": "stonehearth:buffs:cleric:compassion_1",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_2_data.perk_000_description)",
+               "name": "i18n(stonehearth_ace:jobs.herbalist.herbalist_description.level_3_data.unlock_quality_name)",
+               "id": "crafter_recipe_unlock_3",
+               "icon": "/stonehearth/jobs/common/images/unlock_quality_fine.png",
+               "description": "i18n(stonehearth_ace:jobs.herbalist.herbalist_description.level_3_data.unlock_quality_description)",
+               "type": "add_equipment",
+               "equipment": "stonehearth_ace:herbalist:tend_planter",
                "level": 3,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      },
-      "4": {
-         "mixintypes": {
-            "perks": "override"
-         },
-         "perks": [
-            {
-               "type": "apply_chained_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_3_data.perk_000_name)",
-               "id": "cleric_heal_aura_2",
-               "icon": "/stonehearth/jobs/cleric/images/cleric_perk_healing_aura_2.png",
-               "buff_name": "stonehearth:buffs:cleric:heal_aura_2",
-               "last_buff": "stonehearth:buffs:cleric:heal_aura_1",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_3_data.perk_000_description)",
-               "level": 4,
-               "demote_fn": "remove_buff"
+               "demote_fn": "remove_equipment"
             }
          ]
       },
@@ -140,15 +76,30 @@
          },
          "perks": [
             {
-               "type": "apply_chained_buff",
-               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_5_data.perk_000_name)",
+               "type": "increase_healing_item_effect",
+               "name": "i18n(stonehearth_ace:jobs.herbalist.herbalist_description.level_5_data.item_proficiency_2_name)",
+               "id": "increase_healing_item_effect_100_percent",
+               "icon": "/stonehearth_ace/jobs/herbalist/images/item_proficiency_2.png",
+               "description": "i18n(stonehearth_ace:jobs.herbalist.herbalist_description.level_5_data.item_proficiency_2_description)",
+               "healing_item_effect_multiplier": 2,
+               "level": 5
+            },
+            {
+               "type": "add_equipment_role_buffs",
+               "name": "i18n(stonehearth_ace:jobs.cleric.cleric_description.level_5_data.perk_000_name)",
                "id": "cleric_courage_aura_2",
-               "icon": "/stonehearth/jobs/cleric/images/cleric_perk_raise_muscle_2.png",
-               "last_buff": "stonehearth:buffs:cleric:minor_muscle_aura",
-               "buff_name": "stonehearth:buffs:cleric:major_muscle_aura",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_5_data.perk_000_description)",
+               "icon": "/stonehearth_ace/jobs/cleric/images/cleric_perk_raise_muscle_2.png",
+               "description": "i18n(stonehearth_ace:jobs.cleric.cleric_description.level_5_data.perk_000_description)",
                "level": 5,
-               "demote_fn": "remove_buff"
+               "equipment_role_buffs": {
+                  "healing_cleric": [
+                     "stonehearth:buffs:cleric:major_muscle_aura"
+                  ],
+                  "support_cleric": [
+                     "stonehearth_ace:buffs:cleric:major_debuff_aura"
+                  ]
+               },
+               "demote_fn": "remove_equipment_role_buffs"
             }
          ]
       },
@@ -158,15 +109,44 @@
          },
          "perks": [
             {
+               "type": "increase_planter_tend_amount",
+               "id": "herbalist_increase_tending",
+               "planter_tend_amount": 2,
+               "level": 6
+            },
+            {
                "type": "apply_chained_buff",
                "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_6_data.perk_000_name)",
                "id": "cleric_compassion_buff_2",
                "icon": "/stonehearth/jobs/cleric/images/healing_master.png",
                "buff_name": "stonehearth:buffs:cleric:compassion_2",
                "last_buff": "stonehearth:buffs:cleric:compassion_1",
-               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_6_data.perk_000_description)",
+               "description": "i18n(stonehearth_ace:jobs.cleric.cleric_description.level_6_data.perk_000_description)",
                "level": 6,
                "demote_fn": "remove_buff"
+            },
+            {
+               "type": "set_medic_capabilities",
+               "id": "master_medic_capabilities",
+               "level": 6,
+               "medic_capabilities": {
+                  "num_conditions_to_cure": 3,
+                  "cure_conditions": {
+                     "wound_corrupt": 1,
+                     "infection": 1,
+                     "wound_fire": 1,
+                     "poison": 2,
+                     "wound_pierce": 3,
+                     "wound_impact": 3,
+                     "wound_cut": 3,
+                     "wound_cold": 3,
+                     "toxin": 2
+                  },
+                  "health_healed": 200,
+                  "guts_healed": 20,
+                  "cooldown": "4h"
+               },
+               "demote_fn": "remove_medic_capabilities"
             }
          ]
       }

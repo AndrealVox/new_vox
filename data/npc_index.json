@@ -1,13 +1,11 @@
 {
-    "type": "index",
-    "populations": {
-        "summon": {   
-            "kingdom": "box_o_vox:server:population:data:kingdoms:summon",
-            "color": {
-            "r": 72,
-            "g": 19,
-            "b": 52
-         }
-        }
-    }
+   "type": "index",
+   "populations": {
+      "summon": {
+         "kingdom": "box_o_vox:server:population:data:kingdoms:summon"
+      },
+      "boxling": {
+         "kingdom": "box_o_vox:server:population:data:kingdoms:boxling"
+      }
+   }
 }

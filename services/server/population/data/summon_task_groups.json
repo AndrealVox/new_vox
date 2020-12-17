@@ -1,0 +1,13 @@
+{
+   "task_groups": [
+      "stonehearth:task_groups:build",
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:clear_item",
+      "stonehearth:task_groups:combat_party",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:mining",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:harvest",
+      "stonehearth:task_groups:rescue"
+   ]
+}

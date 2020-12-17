@@ -95,5 +95,5 @@
          "3"
       ]
    },
-   "task_groups": "stonehearth:data:humanoid_task_groups"
+   "task_groups": "box_o_vox:data:summon_task_groups"
 }

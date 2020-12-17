@@ -13,17 +13,21 @@ function ClericClass:initialize()
 end
 
 --Always do these things
-function ClericClass:create(entity)
-    CraftingJob.create(self, entity)
-    CombatJob.create(self, entity)
-end
+function ClericClass:activate()
+   CraftingJob.activate(self)
+   CombatJob.activate(self)
 
-function ClericClass:restore()
    if self._sv.is_current_class then
       self:_register_with_town()
    end
+
+   local cd = radiant.entities.get_entity_data(self._sv._entity, 'stonehearth:calories')
+   self._famished_threshold = cd and cd.famished_threshold or stonehearth.constants.food.FAMISHED
+
+   self.__saved_variables:mark_changed()
 end
 
+-- Call when it's time to promote someone to this class
 function ClericClass:promote(json_path, options)
    CraftingJob.promote(self, json_path, options)
     CombatJob.promote(self, json_path, options)
@@ -64,29 +68,43 @@ function ClericClass:_create_listeners()
    self._on_heal_entity_in_combat_listener = radiant.events.listen(self._sv._entity, 'stonehearth:healer:healed_entity_in_combat', self, self._on_healed_entity_in_combat)
 end
 
-function ClericClass:_remove_listeners()
-    
+function ClericClass:_remove_listeners()    
    CraftingJob._remove_listeners(self)
+   CombatJob._remove_listeners(self)
    if self._on_heal_entity_listener then
       self._on_heal_entity_listener:destroy()
       self._on_heal_entity_listener = nil
    end
-   CombatJob._remove_listeners(self)
    if self._on_heal_entity_in_combat_listener then
       self._on_heal_entity_in_combat_listener:destroy()
       self._on_heal_entity_in_combat_listener = nil
    end
-end
-
-function ClericClass:_on_healed_entity(args)
-   local exp = self._xp_rewards['heal_entity']
-   if exp then
-      self._job_component:add_exp(exp)
+   if self._on_calories_changed_listener then
+      self._on_calories_changed_listener:destroy()
+      self._on_calories_changed_listener = nil
    end
 end
 
+function ClericClass:_on_calories_changed()
+   local consumption_component = self._sv._entity:get_component('stonehearth:consumption')
+   local hunger_state = consumption_component:get_hunger_state()
+   if hunger_state >= stonehearth.constants.hunger_levels.FAMISHED then
+      local expendable_resource_component = self._sv._entity:get_component('stonehearth:expendable_resources')
+      expendable_resource_component:set_value('calories', self._famished_threshold)
+   end
+end
+
+function ClericClass:_on_healed_entity(args)
+   self:_add_exp('heal_entity')
+end
+
 function ClericClass:_on_healed_entity_in_combat(args)
-   local exp = self._xp_rewards['heal_entity_in_combat']
+   self:_add_exp('heal_entity_in_combat')
+end
+
+-- Get xp reward using key. Xp rewards table specified in cleric description file
+function ClericClass:_add_exp(key)
+   local exp = self._xp_rewards[key]
    if exp then
       self._job_component:add_exp(exp)
    end

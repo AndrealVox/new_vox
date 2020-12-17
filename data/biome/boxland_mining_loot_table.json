@@ -16,12 +16,12 @@
                   },
                   "silkweed_bundle": {
                      "uri": "stonehearth:resources:fiber:silkweed_bundle",
-                     "weight": 50
+                     "weight": 100
                   },
 
                   "fiber_bundle": {
                      "uri": "box_o_vox:entities:resources:fiber:grass_bundle",
-                     "weight": 100
+                     "weight": 500
                   },
                   "apple": {
                      "uri": "box_o_vox:entities:food:apple:apple",
@@ -34,19 +34,6 @@
                   "orange": {
                      "uri": "box_o_vox:entities:food:orange:orange",
                      "weight": 1
-                  },
-
-                  "parsley": {
-                     "uri": "stonehearth_ace:resources:herb:parsley",
-                     "weight": 50
-                  },
-                  "sage": {
-                     "uri": "stonehearth_ace:resources:herb:sage",
-                     "weight": 50
-                  },
-                  "wax_plant_green": {
-                     "uri": "stonehearth_ace:resources:herb:wax_plant:green",
-                     "weight": 50
                   }
                }
             }
@@ -59,15 +46,15 @@
                "items": {
                   "none": {
                      "uri": "",
-                     "weight": 100
+                     "weight": 2000
                   },
                   "hunk_of_stone": {
                      "uri": "stonehearth:resources:stone:hunk_of_stone",
-                     "weight": 2
+                     "weight": 1
                   },
                   "clay_mound": {
                      "uri": "stonehearth:resources:clay:clay_mound",
-                     "weight": 1
+                     "weight": 200
                   }
                }
             }
