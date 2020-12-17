@@ -36,15 +36,16 @@
    "parent_level_requirement": 3,
    "parent_job": "stonehearth:jobs:cleric",
    "xp_rewards": {
-      "craft_level_1": 1,
-      "craft_level_2": 1,
-      "craft_level_3": 1,
-      "craft_level_4": 1,
-      "craft_level_5": 1,
-      "craft_level_6": 1,
+      "craft_level_0": 15,
+      "craft_level_1": 17,
+      "craft_level_2": 19,
+      "craft_level_3": 21,
+      "craft_level_4": 23,
+      "craft_level_5": 25,
+      "craft_level_6": 27,
       "summon": 8,
-      "town_protection": 1,
-      "training": 2
+      "town_protection": 10,
+      "training": 20
    },
    "max_training_level": 2,
    "crafter": {

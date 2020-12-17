@@ -17,7 +17,7 @@
          }
       },
       "stonehearth:stacks": {
-         "max_stacks": 5
+         "max_stacks": 120
       }
    },
    "entity_data": {
@@ -38,10 +38,11 @@
          "is_item": true,
          "category": "resources",
          "material_tags": [
-            "plant",
             "resource",
-            "stockpile_plant",
-            "thatch"
+            "thatch",
+            "thatch_bale",
+            "plant",
+            "stockpile_plant"
          ]
       },
       "stonehearth:appeal": {
