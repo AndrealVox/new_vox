@@ -2,6 +2,17 @@
    "components": {
       "stonehearth:loot_drops": {
          "entries": {
+            "bones": {
+               "num_rolls": {
+                  "min": 1,
+                  "max": 1
+               },
+               "items": {
+                  "bones": {
+                     "uri": "stonehearth_ace:resources:bone:bone_material"
+                  }
+               }
+            },
             "pelt": {
                "num_rolls": {
                   "min": 1,
@@ -14,8 +25,8 @@
    "entity_data": {
       "stonehearth:bait_trap": {
          "can_trap": true,
-         "catch_chance": 0.6,
-         "trigger_trap_on_failure_chance": 0.4
+         "catch_chance": 0.85,
+         "trigger_trap_on_failure_chance": 0.15
       },
       "stonehearth:harvest_beast_loot_table": {
          "entries": {

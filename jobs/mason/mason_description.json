@@ -3,6 +3,9 @@
    "mixins": "stonehearth:jobs:mason",
    "display_order": 4,
    "parent_job": "stonehearth:jobs:worker",
+   "equipment": {
+      "torso": "file(mason_outfit)"
+   },
    "crafter": {
       "recipe_list": "file(recipes/recipes.json)"
    }

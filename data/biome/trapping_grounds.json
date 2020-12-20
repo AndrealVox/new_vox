@@ -17,7 +17,8 @@
                "stonehearth:rabbit": 100,
                "stonehearth:racoon": 0,
                "stonehearth:red_fox_wolf": 0,
-               "stonehearth:squirrel": 0
+               "stonehearth:squirrel": 0,
+               "stonehearth_ace:duck:wild": 0
             },
             "medium": {
                "stonehearth:red_fox_wolf": 0

@@ -2,5 +2,8 @@
    "mixins": "stonehearth:jobs:engineer",
    "display_order": 3.001,
    "parent_job": "stonehearth:jobs:worker",
-   "parent_level_requirement": 0
+   "parent_level_requirement": 0,
+   "equipment": {
+      "torso": "file(engineer_outfit)"
+   }
 }

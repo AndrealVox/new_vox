@@ -1,0 +1,34 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(cook_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(cook_outfit_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.cook.cook_outfit.display_name)",
+         "description": "i18n(stonehearth:jobs.cook.cook_outfit.description)",
+         "icon": "file(cook_outfit.png)"
+      }
+   }
+}

@@ -7,6 +7,9 @@
    },
    "parent_job": "stonehearth:jobs:worker",
    "parent_level_requirement": 0,
+   "equipment": {
+      "torso": "file(shepherd_outfit)"
+   },
    "crafter": {
       "recipe_list": "file(recipes/recipes.json)"
    }

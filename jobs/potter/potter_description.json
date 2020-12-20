@@ -2,5 +2,8 @@
    "mixins": "stonehearth:jobs:potter",
    "display_order": 5.001,
    "parent_job": "stonehearth:jobs:worker",
-   "parent_level_requirement": 0
+   "parent_level_requirement": 0,
+   "equipment": {
+      "torso": "file(potter_outfit)"
+   }
 }
