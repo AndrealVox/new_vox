@@ -1,4 +1,5 @@
 {
+   "mixins": "stonehearth:jobs:shepherd",
    "display_order": 8.001,
    "mixintypes": {
       "parent_jobs": "remove",
@@ -8,6 +9,9 @@
    "parent_job": "stonehearth:jobs:worker",
    "parent_level_requirement": 0,
    "equipment": {
+      "mixintypes": {
+         "torso": "override"
+      },
       "torso": "file(shepherd_outfit)"
    },
    "crafter": {

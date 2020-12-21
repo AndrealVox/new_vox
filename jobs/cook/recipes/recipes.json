@@ -25,9 +25,6 @@
             },
             "banana_cream_pie": {
                "recipe": "file(banana_cream_pie_recipe.json)"
-            },
-            "fruit_smoothie": {
-               "recipe": "file(fruit_smoothie_recipe.json)"
             }
          }
       },

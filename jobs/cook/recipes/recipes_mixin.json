@@ -1,34 +1,31 @@
 {
-    "craftable_recipes": {
-        "food": {
-            "recipes": {
-                "fruit_salad": {
-                    "recipe": "file(fruit_salad_recipe.json)"
-                },
-                "ground_beef": {
-                    "recipe": "file(ground_beef_recipe.json)"
-                }
+   "craftable_recipes": {
+      "food": {
+         "recipes": {
+            "fruit_salad": {
+               "recipe": "file(fruit_salad_recipe.json)"
+            },
+            "ground_beef": {
+               "recipe": "file(ground_beef_recipe.json)"
             }
-        },
-        "chefs_specials": {
-            "recipes": {
-                "mash_potatoes": {
-                    "recipe": "file(mash_potatoes_recipe.json)"
-                }
+         }
+      },
+      "chefs_specials": {
+         "recipes": {
+            "mash_potatoes": {
+               "recipe": "file(mash_potatoes_recipe.json)"
             }
-        },
-        "chefs_desserts": {
-            "recipes": {
-                "apple_pie": {
-                    "recipe": "file(apple_pie_recipe.json)"
-                },
-                "banana_cream_pie": {
-                    "recipe": "file(banana_cream_pie_recipe.json)"
-                },
-                "fruit_smoothie": {
-                    "recipe": "file(fruit_smoothie_recipe.json)"
-                }
+         }
+      },
+      "chefs_desserts": {
+         "recipes": {
+            "apple_pie": {
+               "recipe": "file(apple_pie_recipe.json)"
+            },
+            "banana_cream_pie": {
+               "recipe": "file(banana_cream_pie_recipe.json)"
             }
-        }
-    }
+         }
+      }
+   }
 }

@@ -6,12 +6,14 @@
       "model_variants": {
          "default": {
             "layer": "clothing",
+            "transparent": false,
             "models": [
                "file(blacksmith_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
+            "transparent": false,
             "models": [
                "file(blacksmith_outfit_female.qb)"
             ]

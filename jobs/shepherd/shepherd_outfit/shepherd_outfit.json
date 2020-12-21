@@ -4,14 +4,20 @@
    "components": {
       "render_info": {},
       "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
          "default": {
             "layer": "clothing",
+            "transparent": false,
             "models": [
                "file(shepherd_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
+            "transparent": false,
             "models": [
                "file(shepherd_outfit_female.qb)"
             ]

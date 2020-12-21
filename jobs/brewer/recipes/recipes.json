@@ -1,0 +1,25 @@
+{
+   "craftable_recipes": {
+      "brewing": {
+         "recipes": {
+            "must_berry_blue": {
+               "recipe": "file(must_berry_blue_recipe.json)"
+            }
+         }
+      },
+      "simple_drinks": {
+         "recipes": {
+            "juice_berry_blue": {
+               "recipe": "file(juice_berry_blue_recipe.json)"
+            }
+         }
+      },
+      "prepared_drinks": {
+         "recipes": {
+            "spirit_fruit": {
+               "recipe": "file(spirit_fruit_recipe.json)"
+            }
+         }
+      }
+   }
+}

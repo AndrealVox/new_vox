@@ -101,6 +101,11 @@
       "data:weather:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist.json)",
       "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
       "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)",
+
+      "drink:juice_berry_blue": "file(entities/drink/juice_berry_blue/juice_berry_blue/juice_berry_blue.json)",
+      "drink:juice_berry_blue:juice_berry_blue_serving": "file(entities/drink/juice_berry_blue/juice_berry_blue_serving/juice_berry_blue_serving.json)",
+      "drink:must_berry_blue": "file(entities/drink/must_berry_blue/must_berry_blue.json)",
+
       "effects:enchanted_mist:head": "file(data/effects/enchanted_mist/enchanted_mist_head.json)",
       "effects:fog": "file(data/effects/fog)",
       "entities:abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
@@ -283,7 +288,7 @@
       "jobs:herbalist": "file(jobs/herbalist/herbalist_description.json)",
       "jobs:mason": "file(jobs/mason/mason_description.json)",
       "jobs:potter": "file(jobs/potter/potter_description.json)",
-      "jobs:shepherd": "file(jobs/shepherd/shepherd_description.json)",
+      "jobs:shepherd": "file(jobs/shepherd/shepherd_description_ace.json)",
       "jobs:trapper": "file(jobs/trapper/trapper_description.json)",
       "jobs:weaver": "file(jobs/weaver/weaver_description.json)",
       "jobs:worker": "file(jobs/worker/worker_description.json)",
@@ -452,6 +457,8 @@
 
 
       "box_o_vox:jobs:recipes:cook": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json",
+
+      "stonehearth_ace/jobs/brewer/recipes/recipes.json": "box_o_vox/jobs/brewer/recipes/recipes.json",
 
 
       "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",

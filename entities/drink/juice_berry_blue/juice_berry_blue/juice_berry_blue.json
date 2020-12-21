@@ -1,0 +1,66 @@
+{
+   "mixins": "stonehearth_ace:mixins:drink_decay",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(juice_berry_blue.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(juice_berry_blue_spoiling.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 6
+      }
+   },
+   "entity_data": {
+      "stonehearth_ace:drink_container": {
+         "effect": "fiddle",
+         "drink": "box_o_vox:drink:juice_berry_blue:juice_berry_blue_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 4,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "Bucket of Blueberry Juice",
+         "description": "i18n(stonehearth_ace:entities.drink.juice_berry.juice_berry.description)",
+         "icon": "file(juice_berry_blue.png)",
+         "is_item": true,
+         "category": "drink",
+         "material_tags": [
+            "drink_container",
+            "raw_drink",
+            "juice_berry_blue",
+            "juice",
+            "stockpile_drink",
+            "morning_time"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 4
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}
