@@ -30,6 +30,13 @@
             }
          }
       },
+      "refined": {
+         "recipes": {
+            "stone_wood": {
+               "recipe": "file(stone_wood_recipe.json)"
+            }
+         }
+      },
       "building_parts": {
          "recipes": {
             "stoned_tunnel_door": {

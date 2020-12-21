@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 2,
+   "work_units": 1,
+   "recipe_name": "Stoned Wood",
+   "description": "Wood created from stone.",
+   "flavor": "When stone becomes wood.",
+   "portrait": "/stonehearth/entities/resources/wood/log.png",
+   "workshop": "stonehearth:mason:workbench",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:resources:wood:oak_log"
+      }
+   ]
+}
