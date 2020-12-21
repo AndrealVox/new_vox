@@ -1,94 +1,15 @@
 {
+   "mixins": "/stonehearth_ace/data/saved_objects/na_building_templates_index.json",
    "template_tabs": {
-      "boxling": {
+      "northern_alliance": {
          "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.display_name)",
          "required_kingdom": "box_o_vox:server:population:data:kingdoms:boxling",
          "categories": {
-            "camp": {
-               "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.camp)",
-               "ordinal": 1,
-               "templates": {
-                  "thatched_stone_hut": "/northern_alliance/data/saved_objects/building_templates/thatched_stone_hut.json",
-                  "thatched_stone_cottage": "/northern_alliance/data/saved_objects/building_templates/thatched_stone_cottage.json",
-                  "stone_dining_hall": "/northern_alliance/data/saved_objects/building_templates/stone_dining_hall.json",
-                  "stone_sleeping_quarters": "/northern_alliance/data/saved_objects/building_templates/stone_sleeping_quarters.json",
-
-                  "workshop_mason": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "stonehearth:jobs:mason"
-                     },
-                     "file": "/northern_alliance/data/saved_objects/building_templates/workshop_mason.json"
-                  },
-
-                  "workshop_carpenter": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "stonehearth:jobs:carpenter"
-                     },
-                     "file": "/northern_alliance/data/saved_objects/building_templates/workshop_carpenter.json"
-                  },
-
-                  "workshop_cook": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "stonehearth:jobs:cook"
-                     },
-                     "file": "/northern_alliance/data/saved_objects/building_templates/workshop_cook.json"
-                  },
-
-                  "workshop_herbalist": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "stonehearth:jobs:cleric"
-                     },
-                     "file": "/northern_alliance/data/saved_objects/building_templates/workshop_herbalist.json"
-                  },
-
-                  "workshop_potter": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "stonehearth:jobs:potter"
-                     },
-                     "file": "/northern_alliance/data/saved_objects/building_templates/workshop_potter.json"
-                  },
-
-                  "workshop_weaver": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "stonehearth:jobs:weaver"
-                     },
-                     "file": "/northern_alliance/data/saved_objects/building_templates/workshop_weaver.json"
-                  },
-
-                  "workshop_engineer": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "stonehearth:jobs:engineer"
-                     },
-                     "file": "/northern_alliance/data/saved_objects/building_templates/tier2/workshop_engineer.json"
-                  },
-
-                  "workshop_blacksmith": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "stonehearth:jobs:blacksmith"
-                     },
-                     "file": "/northern_alliance/data/saved_objects/building_templates/tier2/workshop_blacksmith.json"
-                  }
-               }
+            "outpost": {
+               "templates": {}
             },
-            "town": {
-               "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.town)",
-               "ordinal": 2,
-               "required_city_tier": 2,
-               "templates": {
-                  "boxling_single_bed_forthouse": "file(building_templates/boxling_single_bed_forthouse.json)",
-
-                  "cozy_stone_cottage": "/northern_alliance/data/saved_objects/building_templates/tier2/cozy_stone_cottage.json",
-                  "cozy_stone_cottage_for_two": "/northern_alliance/data/saved_objects/building_templates/tier2/cozy_stone_cottage_for_two.json",
-                  "great_hall": "/northern_alliance/data/saved_objects/building_templates/tier2/great_hall.json"
-               }
+            "settlement": {
+               "templates": {}
             }
          }
       }
