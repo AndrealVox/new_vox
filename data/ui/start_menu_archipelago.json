@@ -1,9 +1,10 @@
 {
-	"crafter_menu": {
-		"items": {
-			"fisher": {
-				"icon": "file(images/fisher_menu_icon.png)"
-			}
-		}
-	}
+   "crafter_menu": {
+      "items": {
+         "fisher": {
+            "ordinal": 7,
+            "icon": "file(images/fisher_menu_icon.png)"
+         }
+      }
+   }
 }

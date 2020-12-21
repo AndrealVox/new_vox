@@ -13,14 +13,13 @@
       },
       "box_o_vox:biome:boxland_winter": {
          "world_size": 1,
-         "rivers": {
-            "quantity": 5,
-            "radius": 2,
-            "foothills": false,
-            "mountains": false
-         },
-         "lakes": false,
-         "dirt_holes": false
+         "dirt_holes": false,
+         "modes": {
+            "sky_lands": false,
+            "waterworld": true,
+            "superflat": true,
+            "canyons": true
+         }
       }
    }
 }

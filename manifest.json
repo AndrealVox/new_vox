@@ -452,6 +452,8 @@
 
       "trapper_plus/jobs/cook/recipes/salt_recipe.json": "box_o_vox/jobs/cook/recipes/trapper_plus/salt_recipe.json",
 
+      "hunter/jobs/hunter/hunter_description.json": "box_o_vox/jobs/hunter/hunter_description.json",
+
 
       "stonehearth_ace/data/gm/campaigns/bonecarving/bonecarving_campaign.json": "file(data/gm/campaigns/deny_if_boxlings.json)",
 

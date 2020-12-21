@@ -5,7 +5,7 @@
    "recipe_name": "Bucket of Blueberry Must",
    "description": "i18n(stonehearth_ace:jobs.brewer.recipes.must_berry_recipe.description)",
    "flavor": "i18n(stonehearth_ace:jobs.brewer.recipes.must_berry_recipe.flavor)",
-   "portrait": "/stonehearth_ace/entities/drink/must_berry/must_berry.png",
+   "portrait": "/box_o_vox/entities/drink/must_berry_blue/must_berry_blue.png",
    "level_requirement": 2,
    "workshop": "stonehearth_ace:brewer:treading_vat",
    "work_effect": "treading_violet",
@@ -17,7 +17,7 @@
    ],
    "produces": [
       {
-         "item": "stonehearth_ace:drink:must_berry"
+         "item": "box_o_vox:drink:must_berry_blue"
       }
    ]
 }

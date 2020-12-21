@@ -1,4 +1,12 @@
 {
+   "zone_menu": {
+      "items": {
+         "create_trapping_grounds": {
+            "required_job": "hunter:jobs:hunter",
+            "required_job_text": "A Hunter is required in order to place a trap zone."
+         }
+      }
+   },
    "crafter_menu": {
       "items": {
          "mixintypes": {
