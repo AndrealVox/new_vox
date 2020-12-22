@@ -73,6 +73,11 @@
       "plantation": {
          "tag": 804,
          "kind": "grass"
+      },
+
+      "wood": {
+         "tag": 901,
+         "kind": "wood"
       }
    },
    "selectable_kinds": {

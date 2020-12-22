@@ -875,7 +875,7 @@
          "noise_map_parameters": {
             "__comment": "gaussian function",
             "mean_offset": {
-               "boundary": 0,
+               "boundary": -5,
                "water": 120
             },
             "terrain_based": {
@@ -888,36 +888,36 @@
                   "2": {
                      "mean": 0,
                      "std_dev": 50,
-                     "density": 0.5
+                     "density": 0.3
                   }
                },
                "foothills": {
                   "1": {
-                     "mean": 0,
+                     "mean": -40,
                      "std_dev": 50,
-                     "density": 0.5
+                     "density": 0.6
                   },
                   "2": {
-                     "mean": 0,
+                     "mean": -40,
                      "std_dev": 50,
-                     "density": 0.5
+                     "density": 0.6
                   }
                },
                "mountains": {
                   "1": {
-                     "mean": -10,
+                     "mean": 8,
                      "std_dev": 50,
-                     "density": 0.5
+                     "density": 0.3
                   },
                   "2": {
                      "mean": 0,
                      "std_dev": 50,
-                     "density": 0.5
+                     "density": 0.3
                   },
                   "3": {
-                     "mean": 0,
+                     "mean": -8,
                      "std_dev": 50,
-                     "density": 0.5
+                     "density": 0.3
                   }
                }
             }
@@ -952,28 +952,7 @@
                      "box_o_vox:entities:plants:daisy": 6,
                      "box_o_vox:entities:plants:peppercorn_bush": 2,
 
-                     "stonehearth:plants:brightbell": 3,
-                     "stonehearth:plants:silkweed": 3.5,
-                     "stonehearth:plants:sugarbell": 2.1,
                      "stonehearth:plants:carrot": 2.2,
-                     "stonehearth:plants:violet": 2.5,
-
-                     "stonehearth_ace:plants:daylily": 2.8,
-                     "stonehearth_ace:plants:sage": 2.5,
-                     "stonehearth_ace:plants:nightshade": 2,
-                     "stonehearth_ace:plants:oleander": 1.8,
-                     "stonehearth_ace:plants:poppy": 3.1,
-                     "stonehearth_ace:plants:rose": 3.6,
-                     "stonehearth_ace:plants:dill": 2.8,
-                     "stonehearth_ace:plants:cotton_plant": 3.5,
-                     "stonehearth_ace:plants:marblesprout:wild": 2.1,
-                     "stonehearth_ace:plants:dwarfsbeard": 6,
-                     "stonehearth_ace:plants:chives": 3.0,
-                     "stonehearth_ace:plants:bog_myrtle": 3.1,
-
-                     "stonehearth_ace:fungi:bolete": 2.2,
-                     "stonehearth_ace:fungi:winter_morel": 2.2,
-                     "stonehearth_ace:fungi:chanterelle": 2.2,
 
                      "stonehearth_ace:terrain:pasture_grass:overgrown": 2.1,
                      "stonehearth_ace:terrain:pasture_grass": 2.3,
@@ -988,28 +967,7 @@
                      "box_o_vox:entities:plants:daisy": 6,
                      "box_o_vox:entities:plants:peppercorn_bush": 2,
 
-                     "stonehearth:plants:brightbell": 3,
-                     "stonehearth:plants:silkweed": 3.5,
-                     "stonehearth:plants:sugarbell": 2.1,
                      "stonehearth:plants:carrot": 2.2,
-                     "stonehearth:plants:violet": 2.5,
-
-                     "stonehearth_ace:plants:daylily": 2.8,
-                     "stonehearth_ace:plants:sage": 2.5,
-                     "stonehearth_ace:plants:nightshade": 2,
-                     "stonehearth_ace:plants:oleander": 1.8,
-                     "stonehearth_ace:plants:poppy": 3.1,
-                     "stonehearth_ace:plants:rose": 3.6,
-                     "stonehearth_ace:plants:dill": 2.8,
-                     "stonehearth_ace:plants:cotton_plant": 3.5,
-                     "stonehearth_ace:plants:marblesprout:wild": 2.1,
-                     "stonehearth_ace:plants:dwarfsbeard": 6,
-                     "stonehearth_ace:plants:chives": 3.0,
-                     "stonehearth_ace:plants:bog_myrtle": 3.1,
-
-                     "stonehearth_ace:fungi:bolete": 2.2,
-                     "stonehearth_ace:fungi:winter_morel": 2.2,
-                     "stonehearth_ace:fungi:chanterelle": 2.2,
 
                      "stonehearth_ace:terrain:pasture_grass:overgrown": 2.1,
                      "stonehearth_ace:terrain:pasture_grass": 2.3,
@@ -1026,24 +984,7 @@
                      "box_o_vox:entities:plants:daisy": 6,
                      "box_o_vox:entities:plants:peppercorn_bush": 2,
 
-                     "stonehearth:plants:brightbell": 3,
-                     "stonehearth:plants:silkweed": 3.5,
-                     "stonehearth:plants:sugarbell": 2.1,
                      "stonehearth:plants:carrot": 2.2,
-                     "stonehearth:plants:violet": 2.5,
-
-                     "stonehearth_ace:plants:daylily": 2.8,
-                     "stonehearth_ace:plants:sage": 2.5,
-                     "stonehearth_ace:plants:nightshade": 2,
-                     "stonehearth_ace:plants:oleander": 1.8,
-                     "stonehearth_ace:plants:poppy": 3.1,
-                     "stonehearth_ace:plants:rose": 3.6,
-                     "stonehearth_ace:plants:dill": 2.8,
-                     "stonehearth_ace:plants:cotton_plant": 3.5,
-                     "stonehearth_ace:plants:marblesprout:wild": 2.1,
-                     "stonehearth_ace:plants:dwarfsbeard": 6,
-                     "stonehearth_ace:plants:chives": 3.0,
-                     "stonehearth_ace:plants:bog_myrtle": 3.1,
 
                      "stonehearth_ace:fungi:bolete": 2.2,
                      "stonehearth_ace:fungi:winter_morel": 2.2,
@@ -1057,24 +998,7 @@
                   "2": {
                      "box_o_vox:entities:plants:daisy": 6,
 
-                     "stonehearth:plants:brightbell": 3,
-                     "stonehearth:plants:silkweed": 3.5,
-                     "stonehearth:plants:sugarbell": 2.1,
                      "stonehearth:plants:carrot": 2.2,
-                     "stonehearth:plants:violet": 2.5,
-
-                     "stonehearth_ace:plants:daylily": 2.8,
-                     "stonehearth_ace:plants:sage": 2.5,
-                     "stonehearth_ace:plants:nightshade": 2,
-                     "stonehearth_ace:plants:oleander": 1.8,
-                     "stonehearth_ace:plants:poppy": 3.1,
-                     "stonehearth_ace:plants:rose": 3.6,
-                     "stonehearth_ace:plants:dill": 2.8,
-                     "stonehearth_ace:plants:cotton_plant": 3.5,
-                     "stonehearth_ace:plants:marblesprout:wild": 2.1,
-                     "stonehearth_ace:plants:dwarfsbeard": 6,
-                     "stonehearth_ace:plants:chives": 3.0,
-                     "stonehearth_ace:plants:bog_myrtle": 3.1,
 
                      "stonehearth_ace:fungi:bolete": 2.2,
                      "stonehearth_ace:fungi:winter_morel": 2.2,
@@ -1108,33 +1032,33 @@
                "terrain_based": {
                   "plains": {
                      "1": {
-                        "density": 0.7,
-                        "probability": 0.7,
+                        "density": 0.4,
+                        "probability": 0.4,
 
                      },
                      "2": {
-                        "density": 0.7,
-                        "probability": 0.7
+                        "density": 0.4,
+                        "probability": 0.4
                      }
                   },
                   "foothills": {
                      "1": {
-                        "density": 0.7,
-                        "probability": 0.7
+                        "density": 0.3,
+                        "probability": 0.3
                      },
                      "2": {
-                        "density": 0.7,
-                        "probability": 0.7
+                        "density": 0.3,
+                        "probability": 0.3
                      }
                   },
                   "mountains": {
                      "1": {
-                        "density": 0.7,
-                        "probability": 0.7
+                        "density": 0.3,
+                        "probability": 0.6
                      },
                      "3": {
-                        "density": 0.7,
-                        "probability": 0.7
+                        "density": 0.3,
+                        "probability": 0.6
                      }
                   }
                }
@@ -1151,20 +1075,20 @@
                         "density": 0
                      },
                      "2": {
-                        "probability": 0.7,
-                        "density": 0.7
+                        "probability": 0.3,
+                        "density": 0.3
                      }
                   },
                   "foothills": {
                      "1": {
-                        "probability": 0.7,
-                        "density": 0.7
+                        "probability": 0.3,
+                        "density": 0.3
                      }
                   },
                   "mountains": {
                      "1": {
-                        "probability": 0.7,
-                        "density": 0.7
+                        "probability": 0.3,
+                        "density": 0.3
                      }
                   }
                }

@@ -60,6 +60,23 @@
             }
          }
       },
+      "wood": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "ore": {
+                     "uri": "stonehearth:resources:wood:oak_log",
+                     "weight": 90
+                  }
+               }
+            }
+         }
+      },
       "rock": {
          "entries": {
             "default": {

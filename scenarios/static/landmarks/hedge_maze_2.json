@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth/scenarios/static/landmarks/qb_to_terrain.json",
+   "mixins": "/stonehearth/scenarios/static/landmarks/qb_to_terrain.json",
    "biomes": ["box_o_vox:biome:boxland"],
    "name": "hedge_maze_2",
    "category": "terrain_feature_common",
@@ -13,7 +13,7 @@
       "plains"
    ],
    "overwrite_occupied_size": 10,
-   "weight": 3,
+   "weight": 0.15,
    "data": {
       "brush": "box_o_vox:landmark:hedge_maze_2",
       "brush_mask": "box_o_vox:landmark:hedge_maze_2",
