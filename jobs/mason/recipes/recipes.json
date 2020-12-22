@@ -3,9 +3,6 @@
    "craftable_recipes": {
       "tools": {
          "recipes": {
-            "mixintypes": {
-               "herbalist_staff_bone": "remove"
-            },
             "trapper_knife": {
                "recipe": "file(trapper_knife_recipe.json)"
             }

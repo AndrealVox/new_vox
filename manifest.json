@@ -288,9 +288,11 @@
       "jobs:index": "file(jobs/index.json)",
 
       "jobs:blacksmith": "file(jobs/blacksmith/blacksmith_description.json)",
+      "jobs:brewer": "file(jobs/brewer/brewer_description.json)",
       "jobs:carpenter": "file(jobs/carpenter/carpenter_description.json)",
       "jobs:cleric": "file(jobs/cleric/ace_cleric_description.json)",
       "jobs:cook": "file(jobs/cook/cook_description.json)",
+      "jobs:footman": "file(jobs/footman/footman_description.json)",
       "jobs:engineer": "file(jobs/engineer/engineer_description.json)",
       "jobs:herbalist": "file(jobs/herbalist/herbalist_description.json)",
       "jobs:mason": "file(jobs/mason/mason_description.json)",
@@ -448,7 +450,6 @@
       "stonehearth/data/gm/campaigns/trader/arcs/encounters/na_returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "stonehearth/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "rayyas_children/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
-      "stonehearth/jobs/footman/footman_description.json": "box_o_vox/jobs/footman/footman_description.json",
 
       "stonehearth/jobs/npc_jobs/npc_miner/npc_miner_description.json": "box_o_vox/jobs/npc_jobs/rescuer.json",
       "stonehearth/jobs/npc_jobs/npc_restocker/npc_restocker_description.json": "box_o_vox/jobs/npc_jobs/rescuer.json",

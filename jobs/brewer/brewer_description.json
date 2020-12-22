@@ -1,0 +1,6 @@
+{
+   "mixins": "stonehearth_ace:northern_alliance:jobs:brewer",
+   "display_order": 1.5,
+   "parent_job": "stonehearth:jobs:worker",
+   "parent_level_requirement": 0
+}

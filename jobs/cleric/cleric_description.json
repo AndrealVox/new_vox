@@ -2,18 +2,12 @@
    "mixins": "stonehearth:jobs:cleric",
    "display_order": 2.001,
    "controller": "box_o_vox:class:cleric",
-   "requirements": "Crafted by Carpenter",
    "abilities": "file(cleric_abilities/cleric_abilities.json)",
    "equipment": {
       "torso": "file(cleric_outfit)"
    },
    "roles": [
       "crafter"
-   ],
-   "task_groups": [
-      "stonehearth:task_groups:placement",
-      "stonehearth:task_groups:harvest",
-      "stonehearth:task_groups:crafting"
    ],
    "parent_job": "stonehearth:jobs:worker",
    "parent_level_requirement": 0,
@@ -28,7 +22,6 @@
       "heal_entity": 10,
       "heal_entity_in_combat": 10
    },
-   "max_training_level": 2,
    "crafter": {
       "work_effect": "herbalist_grind",
       "recipe_list": "file(recipes/recipes.json)"

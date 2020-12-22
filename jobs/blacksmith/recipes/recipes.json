@@ -3,11 +3,8 @@
    "craftable_recipes": {
       "tools": {
          "recipes": {
-            "mixintypes": {
-               "paladins_shield": "remove"
-            },
             "paladins_shield": {
-               "recipe": ""
+               "recipe": "file(paladins_shield_recipe.json)"
             }
          }
       },

@@ -1,0 +1,6 @@
+{
+   "mixins": "northern_alliance:jobs:archer",
+   "display_order": 0.001,
+   "parent_job": "stonehearth:jobs:worker",
+   "parent_level_requirement": 0
+}

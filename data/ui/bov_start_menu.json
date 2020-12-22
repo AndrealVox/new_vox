@@ -1,9 +1,6 @@
 {
    "crafter_menu": {
       "items": {
-         "mixintypes": {
-            "herbalist": "remove"
-         },
          "blacksmith": {
             "ordinal": 1,
             "icon": "/box_o_vox/jobs/blacksmith/images/blacksmith_menu_icon.png"
@@ -16,25 +13,17 @@
             "ordinal": 3,
             "icon": "/box_o_vox/jobs/carpenter/images/carpenter_menu_icon.png"
          },
-         "cleric": {
-            "ordinal": 4,
-            "name": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.cleric.display_name)",
-            "description": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.cleric.description)",
-            "class": "button",
-            "required_job": "stonehearth:jobs:cleric",
-            "required_job_text": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.cleric.required_job_text)",
-            "icon": "/box_o_vox/jobs/cleric/images/cleric_menu_icon.png",
-            "sticky": true,
-            "menu_action": "show_crafter_ui",
-            "hotkey_action": "craft:cleric"
-         },
          "cook": {
-            "ordinal": 5,
+            "ordinal": 4,
             "icon": "/box_o_vox/jobs/cook/images/cook_menu_icon.png"
          },
          "engineer": {
-            "ordinal": 6,
+            "ordinal": 5,
             "icon": "/box_o_vox/jobs/engineer/images/engineer_menu_icon.png"
+         },
+         "herbalist": {
+            "ordinal": 6,
+            "icon": "/box_o_vox/jobs/herbalist/images/herbalist_menu_icon.png"
          },
          "geomancer": {
             "ordinal": 8,
