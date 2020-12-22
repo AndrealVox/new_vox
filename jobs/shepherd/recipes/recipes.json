@@ -1,5 +1,5 @@
 {
-   "mixins": "/stonehearth_ace/jobs/shepherd/recipes/recipes.json",
+   "mixins": "/stonehearth_ace/jobs/shepherd/recipes/na_recipes.json",
    "craftable_recipes": {
       "animal_feed": {
          "recipes": {

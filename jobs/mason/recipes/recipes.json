@@ -1,5 +1,5 @@
 {
-   "mixins": "/northern_alliance/jobs/mason/recipes/recipes.json",
+   "mixins": "/stonehearth_ace/jobs/mason/recipes/na_recipes.json",
    "craftable_recipes": {
       "tools": {
          "recipes": {
@@ -44,13 +44,6 @@
             },
             "window_box_violet": {
                "recipe": "file(window_box_violet_recipe.json)"
-            }
-         }
-      },
-      "furniture": {
-         "recipes": {
-            "stone_comfy_chair": {
-               "recipe": "file(stone_comfy_chair_recipe.json)"
             }
          }
       },

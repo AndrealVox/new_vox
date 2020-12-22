@@ -1,19 +1,8 @@
 {
-   "mixins": "/northern_alliance/jobs/weaver/recipes/recipes.json",
+   "mixins": "/stonehearth_ace/jobs/weaver/recipes/na_recipes.json",
    "craftable_recipes": {
       "clothing_armor": {
          "recipes": {
-            "mixintypes": {
-               "chilly_simple_worker_outfit": "remove",
-               "cold_simple_worker_outfit": "remove",
-               "freezing_simple_worker_outfit": "remove",
-               "cold_worker_outfit": "remove",
-               "freezing_crafter_outfit": "remove",
-               "freezing_field_work_outfit": "remove",
-               "sunstroke_crafter_outfit": "remove",
-               "sunstroke_field_work_outfit": "remove",
-               "na_freezing_worker_outfit": "remove"
-            },
             "worker_outfit_2": {
                "recipe": "file(boxling_outfit_2_recipe.json)"
             },

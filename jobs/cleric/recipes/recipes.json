@@ -1,15 +1,16 @@
 {
-    "mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
-    "craftable_recipes": {
-        "tools": {
-            "recipes": {
-                "mixintypes": {
-                    "cleric_tome": "remove"
-                },
-                "paladins_shield": {
-                    "recipe": "file(paladins_shield_recipe.json)"
-                }
+   "mixins": "/stonehearth_ace/jobs/herbalist/recipes/na_recipes.json",
+   "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "mixintypes": {
+               "cleric_tome": "remove",
+               "herbalist_staff_bone": "remove"
+            },
+            "paladins_shield": {
+               "recipe": "file(paladins_shield_recipe.json)"
             }
-        }
-    }
+         }
+      }
+   }
 }

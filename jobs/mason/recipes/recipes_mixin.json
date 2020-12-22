@@ -32,13 +32,6 @@
             }
          }
       },
-      "furniture": {
-         "recipes": {
-            "stone_comfy_chair": {
-               "recipe": "file(stone_comfy_chair_recipe.json)"
-            }
-         }
-      },
       "lights": {
          "ordinal": 100,
          "name": "Lights",

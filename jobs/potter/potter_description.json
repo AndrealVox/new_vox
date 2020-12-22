@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:jobs:potter",
+   "mixins": "northern_alliance:jobs:potter",
    "display_order": 5.001,
    "parent_job": "stonehearth:jobs:worker",
    "parent_level_requirement": 0,

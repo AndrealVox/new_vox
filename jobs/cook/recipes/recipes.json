@@ -1,5 +1,5 @@
 {
-   "mixins": "/northern_alliance/jobs/cook/recipes/recipes.json",
+   "mixins": "/stonehearth_ace/jobs/cook/recipes/na_recipes.json",
    "craftable_recipes": {
       "food": {
          "recipes": {

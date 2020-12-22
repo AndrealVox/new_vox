@@ -1,6 +1,5 @@
 {
-   "type": "job",
-   "mixins": "stonehearth:jobs:mason",
+   "mixins": "northern_alliance:jobs:mason",
    "display_order": 4,
    "parent_job": "stonehearth:jobs:worker",
    "equipment": {

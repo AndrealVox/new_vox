@@ -1,5 +1,5 @@
 {
-   "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
+   "mixins": "/stonehearth_ace/jobs/carpenter/recipes/na_recipes.json",
    "craftable_recipes": {
       "tools": {
          "recipes": {
