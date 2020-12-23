@@ -1,5 +1,11 @@
 {
-   "mixins": "stonehearth:jobs:herbalist",
+   "mixins": "stonehearth_ace:northern_alliance:jobs:herbalist",
+   "equipment": {
+      "mixintypes": {
+         "torso": "override"
+      },
+      "torso": "file(herbalist_outfit)"
+   },
    "crafter": {
       "recipe_list": "file(recipes/recipes.json)"
    }

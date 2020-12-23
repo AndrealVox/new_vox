@@ -1,6 +1,13 @@
 {
    "mixins": "stonehearth_ace:northern_alliance:jobs:brewer",
    "display_order": 1.5,
+   "equipment": {
+      "mixintypes": {
+         "torso": "override",
+         "boots": "remove"
+      },
+      "torso": "file(brewer_outfit)"
+   },
    "parent_job": "stonehearth:jobs:worker",
    "parent_level_requirement": 0
 }

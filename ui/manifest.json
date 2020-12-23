@@ -10,7 +10,6 @@
       "archipelago_biome/data/ui/start_menu.json": "file(../data/ui/start_menu_archipelago.json)",
       "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)",
       "stonehearth:data:sound_constants": "file(../data/sounds/bov_sound_constants.json)",
-      "stonehearth/data/traits/traits_index.json": "file(../data/traits/bov_traits_index.json)",
 
       "stonehearth/jobs/herbalist/herbalist_workbench/herbalist_workbench.json": "file(../jobs/herbalist/herbalist_workbench/herbalist_workbench.json)",
       "stonehearth_ace/jobs/herbalist/herbalist_cauldron/herbalist_cauldron.json": "file(../jobs/herbalist/herbalist_workbench/herbalist_workbench.json)",

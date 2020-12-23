@@ -5,12 +5,12 @@
    },
    "ingredients": [
       {
-         "material": "feather resource",
-         "count": 4
+         "material": "cloth resource",
+         "count": 3
       },
       {
-         "material": "bone resource",
-         "count": 15
+         "material": "thread resource",
+         "count": 6
       }
    ]
 }

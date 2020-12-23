@@ -26,6 +26,9 @@
       }
    },
    "traits": {
+      "mixintypes": {
+         "stonehearth:traits:animal_companion": "remove"
+      },
       "box_o_vox:data:traits:wolf_fox_companion": {
          "excludes": {}
       }

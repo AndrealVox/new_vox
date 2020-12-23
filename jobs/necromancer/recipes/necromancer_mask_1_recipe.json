@@ -10,12 +10,12 @@
    "level_requirement": 3,
    "ingredients": [
       {
-         "material": "feather resource",
-         "count": 4
+         "material": "cloth resource",
+         "count": 3
       },
       {
-         "material": "pelt resource",
-         "count": 10
+         "material": "thread resource",
+         "count": 6
       }
    ],
    "produces": [
