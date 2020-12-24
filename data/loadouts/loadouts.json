@@ -9,12 +9,12 @@
          "splash": "file(images/path_of_the_necromancer/splash.png)",
          "seal": "file(images/path_of_the_necromancer/seal.png)",
          "content": {
-            "carpenter": {
+            "archer": {
                "ordinal": 1,
-               "display_name": "Carpenter",
+               "display_name": "Archer",
                "type": "entity",
-               "uri": "stonehearth:carpenter:talisman",
-               "icon": "file(images/items/carpenter.png)",
+               "uri": "stonehearth:archer:talisman",
+               "icon": "file(images/items/archer.png)",
                "amount": 1
             },
             "cleric": {
@@ -25,12 +25,12 @@
                "icon": "file(images/items/cleric.png)",
                "amount": 1
             },
-            "shepherd": {
+            "footman": {
                "ordinal": 3,
-               "display_name": "Shepherd",
+               "display_name": "Footman",
                "type": "entity",
-               "uri": "stonehearth:shepherd:talisman",
-               "icon": "file(images/items/shepherd.png)",
+               "uri": "stonehearth_ace:footman:talisman:stone",
+               "icon": "file(images/items/footman.png)",
                "amount": 1
             },
             "bundle": {
