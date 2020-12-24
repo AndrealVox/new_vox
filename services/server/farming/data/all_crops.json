@@ -1,24 +1,38 @@
 {
    "crops": {
+      "daisy": {
+         "crop_type": "box_o_vox:entities:crops:daisy_crop",
+         "ordinal": 1.000001,
+         "level_requirement": 1,
+         "field_types": {
+            "farm": true,
+            "decorative_flowers": true
+         }
+      },
       "potato": {
          "crop_type": "box_o_vox:entities:crops:potato_crop",
          "ordinal": 3.000001,
-         "level_requirement": 1
+         "level_requirement": 1,
+         "field_types": {
+            "farm": true,
+            "underfarm": true
+         }
       },
       "strawberry": {
          "crop_type": "box_o_vox:entities:crops:strawberry_crop",
          "ordinal": 6.000001,
-         "level_requirement": 2
-      },
-      "daisy": {
-         "crop_type": "box_o_vox:entities:crops:daisy_crop",
-         "ordinal": 9,
-         "level_requirement": 2
+         "level_requirement": 2,
+         "field_types": {
+            "farm": true
+         }
       },
       "tomato": {
          "crop_type": "box_o_vox:entities:crops:tomato_crop",
          "ordinal": 11.00001,
-         "level_requirement": 3
+         "level_requirement": 3,
+         "field_types": {
+            "farm": true
+         }
       }
    }
 }

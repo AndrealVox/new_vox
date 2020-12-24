@@ -1,5 +1,5 @@
 {
-   "mixins": "northern_alliance:jobs:blacksmith",
+   "mixins": "stonehearth_ace:northern_alliance:jobs:blacksmith",
    "equipment": {
       "torso": "file(blacksmith_outfit)"
    },

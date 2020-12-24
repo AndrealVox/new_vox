@@ -1,39 +1,9 @@
 {
-   "mixins": "stonehearth:jobs:cleric",
+   "mixins": "stonehearth_ace:northern_alliance:jobs:cleric",
    "display_order": 2.001,
-   "controller": "box_o_vox:class:cleric",
-   "abilities": "file(cleric_abilities/cleric_abilities.json)",
    "equipment": {
       "torso": "file(cleric_outfit)"
    },
-   "roles": [
-      "crafter"
-   ],
    "parent_job": "stonehearth:jobs:worker",
-   "parent_level_requirement": 0,
-   "xp_rewards": {
-      "craft_level_0": 15,
-      "craft_level_1": 17,
-      "craft_level_2": 19,
-      "craft_level_3": 21,
-      "craft_level_4": 23,
-      "craft_level_5": 25,
-      "craft_level_6": 27,
-      "heal_entity": 10,
-      "heal_entity_in_combat": 10
-   },
-   "crafter": {
-      "work_effect": "herbalist_grind",
-      "recipe_list": "file(recipes/recipes.json)"
-   },
-   "workshop": {
-      "name": "Cleric Lab",
-      "description": "Allows the Cleric to craft healing balms and bandages.",
-      "long_description": "Allows the Cleric to craft healing balms and bandages.",
-      "portrait": "/stonehearth/jobs/herbalist/herbalist_workbench/herbalist_workbench.png",
-      "workbench_type": "stonehearth:herbalist:workbench",
-      "skin_class": "cleric",
-      "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
-      "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
-   }
+   "parent_level_requirement": 0
 }

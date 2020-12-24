@@ -1,5 +1,5 @@
 {
-   "mixins": "northern_alliance:jobs:trapper",
+   "mixins": "stonehearth_ace:northern_alliance:jobs:trapper",
    "equipment": {
       "mixintypes": {
          "torso": "override"

@@ -1,5 +1,5 @@
 {
-   "mixins": "northern_alliance:jobs:carpenter",
+   "mixins": "stonehearth_ace:northern_alliance:jobs:carpenter",
    "equipment": {
       "torso": "file(carpenter_outfit)"
    },

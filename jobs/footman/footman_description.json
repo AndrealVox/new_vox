@@ -1,7 +1,6 @@
 {
-   "mixins": "northern_alliance:jobs:footman",
+   "mixins": "stonehearth_ace:northern_alliance:jobs:footman",
    "display_order": 5.001,
    "parent_job": "stonehearth:jobs:worker",
-   "parent_level_requirement": 0,
-   "requirements": "Crafted by Carpenter or Mason"
+   "parent_level_requirement": 0
 }

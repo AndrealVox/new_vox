@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:jobs:shepherd",
+   "mixins": "stonehearth_ace:northern_alliance:jobs:shepherd",
    "display_order": 8.001,
    "parent_job": "stonehearth:jobs:worker",
    "parent_level_requirement": 0,

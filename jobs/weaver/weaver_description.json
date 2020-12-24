@@ -1,5 +1,5 @@
 {
-   "mixins": "northern_alliance:jobs:weaver",
+   "mixins": "stonehearth_ace:northern_alliance:jobs:weaver",
    "equipment": {
       "torso": "file(weaver_outfit)"
    },
