@@ -6,9 +6,9 @@
    ],
    "components": {
       "model_variants": {
-         "spring": {
+         "default": {
             "models": [
-                     "file(sapling_banana_tree_spring.qb)"
+                     "file(sapling_banana_tree.qb)"
                   ]
          },
          "summer": {
@@ -16,9 +16,9 @@
                      "file(sapling_banana_tree_summer.qb)"
                   ]
          },
-         "autumn": {
+         "spring": {
             "models": [
-                     "file(sapling_banana_tree_autumn.qb)"
+                     "file(sapling_banana_tree_spring.qb)"
                   ]
          },
          "winter": {
@@ -30,8 +30,8 @@
       "stonehearth:seasonal_model_switcher": {
          "box_o_vox:biome:boxland": {
             "spring": "spring",
-            "summer": "summer",
-            "autumn": "autumn",
+            "summer": "default",
+            "autumn": "summer",
             "winter": "winter"
          }
       },
@@ -47,7 +47,7 @@
          "durability": 1
       },
       "render_info": {
-         "scale": 0.125
+         "scale": 0.8
       },
       "destination": {
          "region": [

@@ -413,6 +413,7 @@
       "stonehearth:building_templates:index": "file(data/saved_objects/building_templates_index.json)",
       "stonehearth:biome:index": "file(data/biome/index.json)",
       "stonehearth:terrain_blocks": "file(data/terrain/terrain_blocks.json)",
+      "stonehearth:landmark_blocks": "box_o_vox:data:terrain:landmark_blocks",
       "stonehearth:hotkeys": "box_o_vox:data:hotkeys",
       "stonehearth:loadouts": "file(data/loadouts)",
       "stonehearth/data/npc_index.json": "file(data/npc_index.json)",

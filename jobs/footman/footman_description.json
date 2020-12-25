@@ -2,9 +2,5 @@
    "mixins": "stonehearth_ace:northern_alliance:jobs:footman",
    "display_order": 5.001,
    "parent_job": "stonehearth:jobs:worker",
-   "parent_level_requirement": 0,
-   "xp_rewards": {
-      "town_protection": 10,
-      "training": 20
-   }
+   "parent_level_requirement": 0
 }

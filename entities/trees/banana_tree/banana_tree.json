@@ -6,12 +6,12 @@
    "type": "entity",
    "components": {
       "render_info": {
-         "scale": 0.5
+         "scale": 1.0
       },
       "model_variants": {
-         "spring": {
+         "default": {
             "models": [
-                     "file(banana_tree_spring.qb)"
+                     "file(banana_tree.qb)"
                   ]
          },
          "summer": {
@@ -19,9 +19,9 @@
                      "file(banana_tree_summer.qb)"
                   ]
          },
-         "autumn": {
+         "spring": {
             "models": [
-                     "file(banana_tree_autumn.qb)"
+                     "file(banana_tree_spring.qb)"
                   ]
          },
          "winter": {
@@ -33,8 +33,8 @@
       "stonehearth:seasonal_model_switcher": {
          "box_o_vox:biome:boxland": {
             "spring": "spring",
-            "summer": "summer",
-            "autumn": "autumn",
+            "summer": "default",
+            "autumn": "summer",
             "winter": "winter"
          }
       },

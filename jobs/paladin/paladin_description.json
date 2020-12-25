@@ -1,28 +1,28 @@
 {
-   "type": "job",
-   "enabled": true,
-   "job_id": "paladin",
-   "display_order": 1,
-   "alias": "box_o_vox:jobs:paladin",
-   "display_name": "Paladin",
-   "controller": "box_o_vox:class:paladin",
-   "description": "A defensive combatant focused on protecting allies from harm.",
-   "requirements": "Crafted by Cleric",
-   "talisman_uri": "box_o_vox:paladin:talisman",
-   "default_stance": "aggressive",
-   "abilities": "file(paladin_abilities)",
-   "equipment": {
-      "torso": "file(paladin_outfit)",
-      "offhand": "box_o_vox:entities:armor:paladins_shield",
-      "mainhand": "stonehearth:weapons:short_sword",
-      "helmet": "file(paladin_helmet)"
-   },
-   "roles": [
+    "type": "job",
+    "enabled": true,
+    "job_id": "paladin",
+    "display_order": 1,
+    "alias": "box_o_vox:jobs:paladin",
+    "display_name": "Paladin",
+    "controller": "box_o_vox:class:paladin",
+    "description": "A defensive combatant focused on protecting allies from harm.",
+    "requirements": "Crafted by Cleric",
+    "talisman_uri": "box_o_vox:paladin:talisman",
+    "default_stance": "aggressive",
+    "abilities": "file(paladin_abilities)",
+    "equipment": {
+        "torso": "file(paladin_outfit)",
+        "offhand": "box_o_vox:entities:armor:paladins_shield",
+        "mainhand": "stonehearth:weapons:short_sword",
+        "helmet": "file(paladin_helmet)"
+    },
+    "roles": [
       "paladin_job",
       "combat"
    ],
-   "promotion_activity_name": "promote_paladin",
-   "task_groups": [
+    "promotion_activity_name": "promote_paladin",
+    "task_groups": [
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
       "stonehearth:task_groups:build",
@@ -32,125 +32,125 @@
       "stonehearth:task_groups:healing",
       "stonehearth:task_groups:rescue"
    ],
-   "xp_rewards": {
-      "heal_entity": 2,
-      "heal_entity_in_combat": 1,
-      "town_protection": 10
-   },
-   "icon": "file(images/icon.png)",
-   "parent_job": "stonehearth:jobs:knight",
-   "parent_level_requirement": 3,
-   "initial_num_attended_hearthlings": 4,
-   "max_level": 6,
-   "level_data": {
-      "1": {
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "Healing Aura",
-               "id": "paladin_heal_aura",
-               "icon": "file(images/paladin_perk_healing_aura.png)",
-               "buff_name": "box_o_vox:buffs:paladin:heal_aura",
-               "description": "The paladin heals everyone around",
-               "level": 1,
-               "demote_fn": "remove_buff"
+    "xp_rewards": {
+        "heal_entity": 2,
+        "heal_entity_in_combat": 1,
+        "town_protection": 1
+    },
+    "icon": "file(images/icon.png)",
+    "parent_job": "stonehearth:jobs:knight",
+    "parent_level_requirement": 3,
+    "initial_num_attended_hearthlings": 4,
+    "max_level": 6,
+    "level_data": {
+        "1": {
+            "perks": [
+                {
+                    "type": "apply_buff",
+                    "name": "Healing Aura",
+                    "id": "paladin_heal_aura",
+                    "icon": "file(images/paladin_perk_healing_aura.png)",
+                    "buff_name": "box_o_vox:buffs:paladin:heal_aura",
+                    "description": "The paladin heals everyone around",
+                    "level": 1,
+                    "demote_fn": "remove_buff"
             },
-            {
-               "type": "apply_buff",
-               "name": "Fortify (Rank 3)",
-               "id": "paladin_health_up_1",
-               "icon": "file(images/paladin_perk_fortify.png)",
-               "buff_name": "box_o_vox:buffs:paladin:health_1",
-               "description": "Increases Stamina, Courage, and draws attention from monsters",
-               "level": 1,
-               "demote_fn": "remove_buff"
+                {
+                    "type": "apply_buff",
+                    "name": "Fortify (Rank 3)",
+                    "id": "paladin_health_up_1",
+                    "icon": "file(images/paladin_perk_fortify.png)",
+                    "buff_name": "box_o_vox:buffs:paladin:health_1",
+                    "description": "Increases Stamina, Courage, and draws attention from monsters",
+                    "level": 1,
+                    "demote_fn": "remove_buff"
             }
          ]
-      },
-      "2": {
-         "perks": [
-            {
-               "type": "add_combat_action",
-               "name": "Shout",
-               "id": "paladin_aggro_attack",
-               "icon": "file(images/paladin_perk_shout.png)",
-               "equipment": "box_o_vox:paladin:aggro_shout_1",
-               "action_type": "stonehearth:combat:melee_attacks",
-               "description": "The paladin intimidates the opponent, drawing the attention of nearby enemies.",
-               "level": 2,
-               "demote_fn": "remove_combat_action"
+        },
+        "2": {
+            "perks": [
+                {
+                    "type": "add_combat_action",
+                    "name": "Shout",
+                    "id": "paladin_aggro_attack",
+                    "icon": "file(images/paladin_perk_shout.png)",
+                    "equipment": "box_o_vox:paladin:aggro_shout_1",
+                    "action_type": "stonehearth:combat:melee_attacks",
+                    "description": "The paladin intimidates the opponent, drawing the attention of nearby enemies.",
+                    "level": 2,
+                    "demote_fn": "remove_combat_action"
             },
-            {
-               "type": "apply_buff",
-               "name": "Damage Reduction Rank 3",
-               "id": "paladin_defense_up_1",
-               "icon": "file(images/paladin_perk_def_up_1.png)",
-               "buff_name": "box_o_vox:buffs:paladin:defense_1",
-               "description": "The paladin gains an additional 30% defense from equipment",
-               "level": 2,
-               "demote_fn": "remove_buff"
+                {
+                    "type": "apply_buff",
+                    "name": "Damage Reduction Rank 3",
+                    "id": "paladin_defense_up_1",
+                    "icon": "file(images/paladin_perk_def_up_1.png)",
+                    "buff_name": "box_o_vox:buffs:paladin:defense_1",
+                    "description": "The paladin gains an additional 30% defense from equipment",
+                    "level": 2,
+                    "demote_fn": "remove_buff"
             }
          ]
-      },
-      "3": {
-         "perks": [
-            {
-               "type": "apply_chained_buff",
-               "name": "Fortify (Rank 4)",
-               "id": "paladin_health_up_2",
-               "icon": "file(images/paladin_perk_fortify.png)",
-               "buff_name": "box_o_vox:buffs:paladin:health_2",
-               "last_buff": "box_o_vox:buffs:paladin:health_1",
-               "description": "Stamina and Courage increased greatly",
-               "level": 3,
-               "demote_fn": "remove_buff"
+        },
+        "3": {
+            "perks": [
+                {
+                    "type": "apply_chained_buff",
+                    "name": "Fortify (Rank 4)",
+                    "id": "paladin_health_up_2",
+                    "icon": "file(images/paladin_perk_fortify.png)",
+                    "buff_name": "box_o_vox:buffs:paladin:health_2",
+                    "last_buff": "box_o_vox:buffs:paladin:health_1",
+                    "description": "Stamina and Courage increased greatly",
+                    "level": 3,
+                    "demote_fn": "remove_buff"
             }
          ]
-      },
-      "4": {
-         "perks": [
-            {
-               "type": "apply_chained_buff",
-               "name": "Damage Reduction Rank 4",
-               "id": "paladin_defense_up_2",
-               "icon": "file(images/paladin_perk_def_up_2.png)",
-               "buff_name": "box_o_vox:buffs:paladin:defense_2",
-               "last_buff": "box_o_vox:buffs:paladin:defense_1",
-               "description": "The paladin gains an additional 40% armor from equipment",
-               "level": 4,
-               "demote_fn": "remove_buff"
+        },
+        "4": {
+            "perks": [
+                {
+                    "type": "apply_chained_buff",
+                    "name": "Damage Reduction Rank 4",
+                    "id": "paladin_defense_up_2",
+                    "icon": "file(images/paladin_perk_def_up_2.png)",
+                    "buff_name": "box_o_vox:buffs:paladin:defense_2",
+                    "last_buff": "box_o_vox:buffs:paladin:defense_1",
+                    "description": "The paladin gains an additional 40% armor from equipment",
+                    "level": 4,
+                    "demote_fn": "remove_buff"
             }
          ]
-      },
-      "5": {
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "Inspiring Presence",
-               "id": "paladin_courage_aura",
-               "icon": "file(images/paladin_perk_inspiring_presence.png)",
-               "buff_name": "box_o_vox:buffs:paladin:courage_aura",
-               "description": "The paladin boosts courage of everyone around",
-               "level": 5,
-               "demote_fn": "remove_buff"
+        },
+        "5": {
+            "perks": [
+                {
+                    "type": "apply_buff",
+                    "name": "Inspiring Presence",
+                    "id": "paladin_courage_aura",
+                    "icon": "file(images/paladin_perk_inspiring_presence.png)",
+                    "buff_name": "box_o_vox:buffs:paladin:courage_aura",
+                    "description": "The paladin boosts courage of everyone around",
+                    "level": 5,
+                    "demote_fn": "remove_buff"
             }
          ]
-      },
-      "6": {
-         "perks": [
-            {
-               "type": "add_chained_combat_action",
-               "name": "Trumpets From Heaven",
-               "id": "paladin_aggro_shout",
-               "icon": "file(images/paladin_perk_heros_horn.png)",
-               "equipment": "box_o_vox:paladin:aggro_shout_2",
-               "last_equipment": "box_o_vox:paladin:aggro_shout_1",
-               "action_type": "stonehearth:combat:melee_attacks",
-               "description": "The paladin plays trumpets from heaven, drawing the attention of enemies both near and far",
-               "level": 6,
-               "demote_fn": "remove_combat_action"
+        },
+        "6": {
+            "perks": [
+                {
+                    "type": "add_chained_combat_action",
+                    "name": "Trumpets From Heaven",
+                    "id": "paladin_aggro_shout",
+                    "icon": "file(images/paladin_perk_heros_horn.png)",
+                    "equipment": "box_o_vox:paladin:aggro_shout_2",
+                    "last_equipment": "box_o_vox:paladin:aggro_shout_1",
+                    "action_type": "stonehearth:combat:melee_attacks",
+                    "description": "The paladin plays trumpets from heaven, drawing the attention of enemies both near and far",
+                    "level": 6,
+                    "demote_fn": "remove_combat_action"
             }
          ]
-      }
-   }
+        }
+    }
 }

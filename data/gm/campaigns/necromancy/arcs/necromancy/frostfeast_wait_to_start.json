@@ -1,9 +1,0 @@
-{
-   "type": "encounter",
-   "encounter_type": "wait",
-   "in_edge": "frostfeast_wait_to_start",
-   "out_edge": "frostfeast_intro",
-   "wait_info": {
-      "duration": "1h+1h"
-   }
-}

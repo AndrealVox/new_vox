@@ -1,5 +1,9 @@
 {
    "block_types": {
+      "grass_edge_3": {
+         "tag": 306,
+         "kind": "grass"
+      },
       "rock_layer_9": {
          "tag": 109,
          "kind": "rock"
@@ -41,77 +45,39 @@
          "kind": "clay_mound"
       },
 
-      "mt_boxling_1": {
+      "mine_shaft": {
          "tag": 701,
          "kind": "rock"
       },
-      "mt_boxling_2": {
+      "fuscous_gray": {
          "tag": 702,
          "kind": "rock"
       },
-      "mt_boxling_3": {
+      "dove_gray": {
          "tag": 703,
          "kind": "rock"
       },
 
-      "hedge_wood": {
+      "merlin": {
          "tag": 801,
-         "kind": "wood"
+         "kind": "dirt"
       },
-      "hedge_dark": {
+      "outer_space": {
          "tag": 802,
-         "kind": "hedge"
+         "kind": "grass"
       },
-      "hedge_medium": {
+      "parsley": {
          "tag": 803,
-         "kind": "hedge"
+         "kind": "grass"
       },
-      "hedge_bright": {
+      "plantation": {
          "tag": 804,
-         "kind": "hedge"
+         "kind": "grass"
       },
 
-      "wood_1": {
+      "wood": {
          "tag": 901,
          "kind": "wood"
-      },
-      "wood_2": {
-         "tag": 902,
-         "kind": "wood"
-      },
-      "wood_3": {
-         "tag": 903,
-         "kind": "wood"
-      },
-      "wood_4": {
-         "tag": 904,
-         "kind": "wood"
-      },
-      "wood_5": {
-         "tag": 905,
-         "kind": "wood"
-      },
-
-      "bone_1": {
-         "tag": 1001,
-         "kind": "bone"
-      },
-      "bone_2": {
-         "tag": 1002,
-         "kind": "bone"
-      },
-      "bone_3": {
-         "tag": 1003,
-         "kind": "bone"
-      },
-
-      "horn_1": {
-         "tag": 1101,
-         "kind": "horn"
-      },
-      "horn_2": {
-         "tag": 1102,
-         "kind": "horn"
       }
    },
    "selectable_kinds": {
