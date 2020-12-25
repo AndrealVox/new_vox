@@ -5,8 +5,8 @@
    "category": "terrain_feature_common",
    "unique": true,
    "size": {
-      "width": 128,
-      "length": 128
+      "width": 41,
+      "length": 41
    },
    "habitat_types": [
       "forest",
