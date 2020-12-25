@@ -295,6 +295,7 @@
       "jobs:engineer": "file(jobs/engineer/engineer_description.json)",
       "jobs:footman": "file(jobs/footman/footman_description.json)",
       "jobs:herbalist": "file(jobs/herbalist/herbalist_description.json)",
+      "jobs:knight": "file(jobs/knight/knight_description.json)",
       "jobs:mason": "file(jobs/mason/mason_description.json)",
       "jobs:potter": "file(jobs/potter/potter_description.json)",
       "jobs:shepherd": "file(jobs/shepherd/shepherd_description_ace.json)",

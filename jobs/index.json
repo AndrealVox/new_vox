@@ -22,6 +22,9 @@
       "stonehearth:jobs:herbalist": {
          "description": "box_o_vox:jobs:herbalist"
       },
+      "stonehearth:jobs:knight": {
+         "description": "box_o_vox:jobs:knight"
+      },
       "stonehearth:jobs:mason": {
          "description": "box_o_vox:jobs:mason"
       },

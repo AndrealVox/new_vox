@@ -6,9 +6,9 @@
    "type": "entity",
    "components": {
       "model_variants": {
-         "default": {
+         "spring": {
             "models": [
-                     "file(large_banana_tree.qb)"
+                     "file(large_banana_tree_spring.qb)"
                   ]
          },
          "summer": {
@@ -16,9 +16,9 @@
                      "file(large_banana_tree_summer.qb)"
                   ]
          },
-         "spring": {
+         "autumn": {
             "models": [
-                     "file(large_banana_tree_spring.qb)"
+                     "file(large_banana_tree_autumn.qb)"
                   ]
          },
          "winter": {
@@ -30,16 +30,16 @@
       "stonehearth:seasonal_model_switcher": {
          "box_o_vox:biome:boxland": {
             "spring": "spring",
-            "summer": "default",
-            "autumn": "summer",
+            "summer": "summer",
+            "autumn": "autumn",
             "winter": "winter"
          }
       },
       "render_info": {
-         "scale": 1.0
+         "scale": 0.5
       },
       "stonehearth:resource_node": {
-         "durability": 5,
+         "durability": 4,
          "resource": "stonehearth:resources:wood:pine_log",
          "resource_loot_table": {
             "entries": {
