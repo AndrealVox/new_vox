@@ -4,6 +4,6 @@
    "in_edge": "frostfeast_wait_to_start",
    "out_edge": "frostfeast_intro",
    "wait_info": {
-      "duration": "1h+1h"
+      "duration": "1h"
    }
 }
