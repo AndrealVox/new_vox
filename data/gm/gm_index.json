@@ -8,7 +8,7 @@
          "boxling_town_progression": "file(campaigns/town_progression/town_progression_campaign.json)"
       },
       "necromancy": {
-         "necromancer": "file(campaigns/necromancy/frostfeast_campaign.json)",
+         "necromancer": "file(campaigns/necromancy/necromancy_campaign.json)"
       }
    }
 }
