@@ -1,3 +1,9 @@
 {
-   "biomes": ["box_o_vox:biome:boxland"]
+   "biomes": ["box_o_vox:biome:boxland"],
+   "data": {
+      "num_critters": {
+         "min": 4,
+         "max": 8
+      }
+   }
 }

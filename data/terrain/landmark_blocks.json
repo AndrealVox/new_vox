@@ -1,51 +1,7 @@
 {
-   "#2F2F2F": {
-      "terrain_tag": "mine_shaft"
-   },
-   "#4F4F4F": {
-      "terrain_tag": "fuscous_gray"
-   },
-   "#6F6F6F": {
-      "terrain_tag": "dove_gray"
-   },
-
-   "#413D37": {
-      "terrain_tag": "merlin"
-   },
-   "#21312A": {
-      "terrain_tag": "outer_space"
-   },
-   "#105030": {
-      "terrain_tag": "parsley"
-   },
-   "#286042": {
-      "terrain_tag": "plantation"
-   },
-
-   "#58462B": {
-      "terrain_tag": "wood"
-   },
-   "#4C3E28": {
-      "terrain_tag": "wood"
-   },
-   "#3A3020": {
-      "terrain_tag": "wood"
-   },
-   "#B2AA76": {
-      "terrain_tag": "wood"
-   },
-   "#C9C091": {
-      "terrain_tag": "wood"
-   },
-
    "#00E8D8": {
       "loot_bag": "box_o_vox:entities:plants:hedge_plant",
       "facing": 0,
-      "force_iconic": false
-   },
-   "#FF7000": {
-      "loot_bag": "stonehearth:decoration:loot_chest",
-      "facing": "random",
       "force_iconic": false
    }
 }

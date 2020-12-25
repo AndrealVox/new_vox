@@ -1,13 +1,6 @@
 {
    "mixins": "/stonehearth_ace/jobs/mason/recipes/na_recipes.json",
    "craftable_recipes": {
-      "tools": {
-         "recipes": {
-            "trapper_knife": {
-               "recipe": "file(trapper_knife_recipe.json)"
-            }
-         }
-      },
       "storage": {
          "recipes": {
             "box_o_vox_crate": {
@@ -27,13 +20,6 @@
             },
             "treasure_crate": {
                "recipe": "file(treasure_crate_recipe.json)"
-            }
-         }
-      },
-      "refined": {
-         "recipes": {
-            "stone_wood": {
-               "recipe": "file(stone_wood_recipe.json)"
             }
          }
       },
@@ -80,11 +66,7 @@
       "signage_decoration": {
          "recipes": {
             "mixintypes": {
-               "shrine_stag": "override",
                "shrine_wolf": "override"
-            },
-            "shrine_stag": {
-               "recipe": "file(shrine_stag.json)"
             },
             "shrine_wolf": {
                "recipe": "file(shrine_wolf.json)"

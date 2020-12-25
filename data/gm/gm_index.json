@@ -9,6 +9,9 @@
       },
       "necromancy": {
          "necromancer": "file(campaigns/necromancy/necromancy_campaign.json)"
+      },
+      "frostfeast_necro": {
+         "frostfeast_necro": "file(campaigns/frostfeast/frostfeast_campaign.json)"
       }
    }
 }

@@ -487,12 +487,43 @@
                         }
                      }
                   }
+               },
+               "frostfeast": {
+                  "frostfeast_intro": {
+                     "dialog_tree_info": {
+                        "dialog_nodes": {
+                           "msg1": {
+                              "bulletin_title": "A Frostfeast Necromancer",
+                              "bulletin_message": {
+                                 "00": "Happy Frostfeast Friends! In Honor Of The Spirit Of Giving, I'm Here To Straight Out Gift You My Necromantic Powers. No Strings Attached! Enjoy For A Limited Time Friends!"
+                              },
+                              "choice_000": "Gimme, Gimme!"
+                           },
+                           "msg2": {
+                              "bulletin_title": "Necromantic Powers!"
+                           },
+                           "offer": {
+                              "bulletin_message": {
+                                 "00": "Here Take The Book Already!"
+                              },
+                              "choice_000": "Thanks!"
+                           }
+                        }
+                     }
+                  }
                }
             },
             "necromancer": {
                "persons": {
                   "vox": {
                      "title": "Vox, The Premier Necromancer"
+                  }
+               }
+            },
+            "frostfeast": {
+               "persons": {
+                  "vox": {
+                     "title": "A Frostfeast Necromancer"
                   }
                }
             }

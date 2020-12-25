@@ -2,14 +2,14 @@
    "type": "encounter",
    "encounter_type": "wait_for_requirements_met",
    "in_edge": "start",
-   "out_edge": "necromancer_wait_to_start",
+   "out_edge": "frostfeast_wait_to_start",
    "wait_for_requirements_met_info": {
       "requirements": {
          "crafter": {
             "item": "highest_job_level",
             "type": "deny_if_less_than",
-            "value": 9,
-            "job_alias": "stonehearth:jobs:cleric"
+            "value": 0,
+            "job_alias": "stonehearth:jobs:worker"
          }
       }
    }

@@ -26,9 +26,6 @@
          "recipes": {
             "stoned_tunnel_door": {
                "recipe": "file(stoned_tunnel_door_recipe.json)"
-            },
-            "window_box_violet": {
-               "recipe": "file(window_box_violet_recipe.json)"
             }
          }
       },

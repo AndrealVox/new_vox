@@ -1,24 +1,24 @@
 {
-    "mixins": "/northern_alliance/jobs/mason/recipes/shrine_wolf.json",
-    "mixintypes": {
-        "ingredients": "override"
-    },
-    "ingredients": [
-        {
-            "material": "stone resource",
-            "count": 6
+   "mixins": "/northern_alliance/jobs/mason/recipes/shrine_wolf.json",
+   "mixintypes": {
+      "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 6
       },
-        {
-            "uri": "stonehearth:resources:deer_horn",
-            "count": 3
+      {
+         "material": "bone resource",
+         "count": 3
       },
-        {
-            "uri": "stonehearth:food:venison",
-            "count": 3
+      {
+         "uri": "stonehearth:food:venison",
+         "count": 3
       },
-        {
-            "material": "food meat raw",
-            "count": 3
+      {
+         "material": "food meat raw",
+         "count": 3
       }
    ]
 }

@@ -1,120 +1,120 @@
 {
    "block_types": {
       "grass_edge_3": {
-         "tag": 306,
+         "tag": 9001,
          "kind": "grass"
       },
       "rock_layer_9": {
-         "tag": 109,
+         "tag": 9002,
          "kind": "rock"
       },
       "rock_layer_10": {
-         "tag": 110,
+         "tag": 9003,
          "kind": "rock"
       },
       "rock_layer_11": {
-         "tag": 111,
+         "tag": 9004,
          "kind": "rock"
       },
       "rock_layer_12": {
-         "tag": 112,
+         "tag": 9005,
          "kind": "rock"
       },
       "rock_layer_13": {
-         "tag": 113,
+         "tag": 9006,
          "kind": "rock"
       },
       "rock_layer_14": {
-         "tag": 114,
+         "tag": 9007,
          "kind": "rock"
       },
       "rock_layer_15": {
-         "tag": 115,
+         "tag": 9008,
          "kind": "rock"
       },
       "rock_layer_16": {
-         "tag": 116,
+         "tag": 9009,
          "kind": "rock"
       },
       "salt_rock": {
-         "tag": 600,
+         "tag": 9010,
          "kind": "salt_rock"
       },
       "clay_mound": {
-         "tag": 601,
+         "tag": 9011,
          "kind": "clay_mound"
       },
 
       "mt_boxling_1": {
-         "tag": 701,
+         "tag": 9012,
          "kind": "rock"
       },
       "mt_boxling_2": {
-         "tag": 702,
+         "tag": 9013,
          "kind": "rock"
       },
       "mt_boxling_3": {
-         "tag": 703,
+         "tag": 9014,
          "kind": "rock"
       },
 
       "hedge_dark": {
-         "tag": 801,
+         "tag": 9015,
          "kind": "hedge"
       },
       "hedge_medium": {
-         "tag": 802,
+         "tag": 9016,
          "kind": "hedge"
       },
       "hedge_bright": {
-         "tag": 803,
+         "tag": 9017,
          "kind": "hedge"
       },
 
       "hedge_wood": {
-         "tag": 901,
+         "tag": 9018,
          "kind": "wood"
       },
       "wood_1": {
-         "tag": 902,
+         "tag": 9019,
          "kind": "wood"
       },
       "wood_2": {
-         "tag": 903,
+         "tag": 9020,
          "kind": "wood"
       },
       "wood_3": {
-         "tag": 904,
+         "tag": 9021,
          "kind": "wood"
       },
       "wood_4": {
-         "tag": 905,
+         "tag": 9022,
          "kind": "wood"
       },
       "wood_5": {
-         "tag": 906,
+         "tag": 9023,
          "kind": "wood"
       },
 
       "bone_1": {
-         "tag": 1001,
+         "tag": 9024,
          "kind": "bone"
       },
       "bone_2": {
-         "tag": 1002,
+         "tag": 9025,
          "kind": "bone"
       },
       "bone_3": {
-         "tag": 1003,
+         "tag": 9026,
          "kind": "bone"
       },
 
       "horn_1": {
-         "tag": 1004,
+         "tag": 9027,
          "kind": "horn"
       },
       "horn_2": {
-         "tag": 1005,
+         "tag": 9028,
          "kind": "horn"
       }
    },

@@ -12,11 +12,10 @@
       "forest",
       "plains"
    ],
-   "overwrite_occupied_size": 10,
-   "weight": 0.15,
+   "overwrite_occupied_size": 3,
+   "weight": 0.5,
    "data": {
       "brush": "box_o_vox:landmark:hedge_maze_2",
-      "brush_mask": "box_o_vox:landmark:hedge_maze_2",
-      "landmark_block_types": "box_o_vox:data:terrain:landmark_blocks"
+      "brush_mask": "box_o_vox:landmark:hedge_maze_2"
    }
 }
