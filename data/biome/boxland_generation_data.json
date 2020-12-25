@@ -66,10 +66,10 @@
          "dirt_edge_1": "#413D37",
 
          "grass": "#2A8037",
-         "grass_edge_1": "#32BC4C",
-         "grass_edge_2": "#31A444",
-         "grass_edge_3": "#31A444",
-         "grass_hills": "#21622A",
+         "grass_edge_1": "#2A8037",
+         "grass_edge_2": "#2A8037",
+         "grass_edge_3": "#2A8037",
+         "grass_hills": "#21632A",
          "grass_hills_edge_1": "#21622A",
          "grass_hills_edge_2": "#21622A",
 
@@ -82,14 +82,14 @@
          "salt_rock": "#EECCCC",
          "clay_mound": "#2C190D",
 
-         "mine_shaft": "#2F2F2F",
-         "fuscous_gray": "#4F4F4F",
-         "dove_gray": "#6F6F6F",
+         "mt_boxling_1": "#2F2F2F",
+         "mt_boxling_2": "#4F4F4F",
+         "mt_boxling_3": "#6F6F6F",
 
-         "merlin": "#413D37",
-         "outer_space": "#21312A",
-         "parsley": "#105030",
-         "plantation": "#286042",
+         "hedge_wood": "#413D37",
+         "hedge_dark": "#21312A",
+         "hedge_medium": "#105030",
+         "hedge_bright": "#286042",
 
          "meteor": "#2C2D40",
          "marble": "#DBDBDB",
@@ -97,7 +97,20 @@
          "marble_3": "#DDC3AA",
          "feldspar": "#EAAC86",
          "feldspar_2": "#E7A075",
-         "feldspar_3": "#E49565"
+         "feldspar_3": "#E49565",
+
+         "wood_1": "#58462B",
+         "wood_2": "#4C3E28",
+         "wood_3": "#3A3020",
+         "wood_4": "#B2AA76",
+         "wood_5": "#C9C091",
+
+         "bone_1": "#DEDDCE",
+         "bone_2": "#D2D2C3",
+         "bone_3": "#84816D",
+
+         "horn_1": "#7B7765",
+         "horn_2": "#6B6758"
 
       },
       "summer": {
@@ -122,13 +135,14 @@
          "rock_layer_16": "#FFFFFF",
          "soil_light": "#4C4841",
          "soil_dark": "#4C4841",
+
          "dirt": "#413D37",
          "dirt_edge_1": "#413D37",
 
          "grass": "#2A4037",
-         "grass_edge_1": "#325E4C",
-         "grass_edge_2": "#315244",
-         "grass_edge_3": "#315244",
+         "grass_edge_1": "#2A4037",
+         "grass_edge_2": "#2A4037",
+         "grass_edge_3": "#2A4037",
          "grass_hills": "#21312A",
          "grass_hills_edge_1": "#21312A",
          "grass_hills_edge_2": "#21312A",
@@ -142,14 +156,14 @@
          "salt_rock": "#EECCCC",
          "clay_mound": "#2C190D",
 
-         "mine_shaft": "#2F2F2F",
-         "fuscous_gray": "#4F4F4F",
-         "dove_gray": "#6F6F6F",
+         "mt_boxling_1": "#2F2F2F",
+         "mt_boxling_2": "#4F4F4F",
+         "mt_boxling_3": "#6F6F6F",
 
-         "merlin": "#413D37",
-         "outer_space": "#21312A",
-         "parsley": "#105030",
-         "plantation": "#286042",
+         "hedge_wood": "#413D37",
+         "hedge_dark": "#21312A",
+         "hedge_medium": "#105030",
+         "hedge_bright": "#286042",
 
          "meteor": "#2C2D40",
          "marble": "#DBDBDB",
@@ -157,7 +171,20 @@
          "marble_3": "#DDC3AA",
          "feldspar": "#EAAC86",
          "feldspar_2": "#E7A075",
-         "feldspar_3": "#E49565"
+         "feldspar_3": "#E49565",
+
+         "wood_1": "#58462B",
+         "wood_2": "#4C3E28",
+         "wood_3": "#3A3020",
+         "wood_4": "#B2AA76",
+         "wood_5": "#C9C091",
+
+         "bone_1": "#DEDDCE",
+         "bone_2": "#D2D2C3",
+         "bone_3": "#84816D",
+
+         "horn_1": "#7B7765",
+         "horn_2": "#6B6758"
 
       },
       "autumn": {
@@ -182,13 +209,14 @@
          "rock_layer_16": "#FFFFFF",
          "soil_light": "#4C4841",
          "soil_dark": "#4C4841",
+
          "dirt": "#413D37",
          "dirt_edge_1": "#413D37",
 
          "grass": "#544037",
-         "grass_edge_1": "#645E4C",
-         "grass_edge_2": "#625244",
-         "grass_edge_3": "#625244",
+         "grass_edge_1": "#544037",
+         "grass_edge_2": "#544037",
+         "grass_edge_3": "#544037",
          "grass_hills": "#42312A",
          "grass_hills_edge_1": "#42312A",
          "grass_hills_edge_2": "#42312A",
@@ -202,14 +230,14 @@
          "salt_rock": "#EECCCC",
          "clay_mound": "#2C190D",
 
-         "mine_shaft": "#2F2F2F",
-         "fuscous_gray": "#4F4F4F",
-         "dove_gray": "#6F6F6F",
+         "mt_boxling_1": "#2F2F2F",
+         "mt_boxling_2": "#4F4F4F",
+         "mt_boxling_3": "#6F6F6F",
 
-         "merlin": "#413D37",
-         "outer_space": "#21312A",
-         "parsley": "#105030",
-         "plantation": "#286042",
+         "hedge_wood": "#413D37",
+         "hedge_dark": "#21312A",
+         "hedge_medium": "#105030",
+         "hedge_bright": "#286042",
 
          "meteor": "#2C2D40",
          "marble": "#DBDBDB",
@@ -217,7 +245,20 @@
          "marble_3": "#DDC3AA",
          "feldspar": "#EAAC86",
          "feldspar_2": "#E7A075",
-         "feldspar_3": "#E49565"
+         "feldspar_3": "#E49565",
+
+         "wood_1": "#58462B",
+         "wood_2": "#4C3E28",
+         "wood_3": "#3A3020",
+         "wood_4": "#B2AA76",
+         "wood_5": "#C9C091",
+
+         "bone_1": "#DEDDCE",
+         "bone_2": "#D2D2C3",
+         "bone_3": "#84816D",
+
+         "horn_1": "#7B7765",
+         "horn_2": "#6B6758"
 
       },
       "winter": {
@@ -242,13 +283,14 @@
          "rock_layer_16": "#FFFFFF",
          "soil_light": "#4C4841",
          "soil_dark": "#4C4841",
+
          "dirt": "#413D37",
          "dirt_edge_1": "#413D37",
 
          "grass": "#54806E",
-         "grass_edge_1": "#6EB296",
-         "grass_edge_2": "#65A388",
-         "grass_edge_3": "#65A388",
+         "grass_edge_1": "#54806E",
+         "grass_edge_2": "#54806E",
+         "grass_edge_3": "#54806E",
          "grass_hills": "#426254",
          "grass_hills_edge_1": "#426254",
          "grass_hills_edge_2": "#426254",
@@ -262,14 +304,14 @@
          "salt_rock": "#EECCCC",
          "clay_mound": "#2C190D",
 
-         "mine_shaft": "#2F2F2F",
-         "fuscous_gray": "#4F4F4F",
-         "dove_gray": "#6F6F6F",
+         "mt_boxling_1": "#2F2F2F",
+         "mt_boxling_2": "#4F4F4F",
+         "mt_boxling_3": "#6F6F6F",
 
-         "merlin": "#413D37",
-         "outer_space": "#21312A",
-         "parsley": "#105030",
-         "plantation": "#286042",
+         "hedge_wood": "#413D37",
+         "hedge_dark": "#21312A",
+         "hedge_medium": "#105030",
+         "hedge_bright": "#286042",
 
          "meteor": "#2C2D40",
          "marble": "#DBDBDB",
@@ -277,7 +319,20 @@
          "marble_3": "#DDC3AA",
          "feldspar": "#EAAC86",
          "feldspar_2": "#E7A075",
-         "feldspar_3": "#E49565"
+         "feldspar_3": "#E49565",
+
+         "wood_1": "#58462B",
+         "wood_2": "#4C3E28",
+         "wood_3": "#3A3020",
+         "wood_4": "#B2AA76",
+         "wood_5": "#C9C091",
+
+         "bone_1": "#DEDDCE",
+         "bone_2": "#D2D2C3",
+         "bone_3": "#84816D",
+
+         "horn_1": "#7B7765",
+         "horn_2": "#6B6758"
 
       }
    },
