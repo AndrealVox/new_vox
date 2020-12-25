@@ -6,22 +6,9 @@
             "default": {
                "num_rolls": 1,
                "items": {
-                  "none": {
-                     "uri": "",
-                     "weight": 2000
-                  },
-                  "hunk_of_stone": {
-                     "uri": "stonehearth:resources:stone:hunk_of_stone",
-                     "weight": 20
-                  },
-                  "silkweed_bundle": {
-                     "uri": "stonehearth:resources:fiber:silkweed_bundle",
-                     "weight": 100
-                  },
-
                   "fiber_bundle": {
                      "uri": "box_o_vox:entities:resources:fiber:grass_bundle",
-                     "weight": 500
+                     "weight": 33
                   },
                   "apple": {
                      "uri": "box_o_vox:entities:food:apple:apple",
@@ -39,85 +26,10 @@
             }
          }
       },
-      "dirt": {
-         "entries": {
-            "default": {
-               "num_rolls": 1,
-               "items": {
-                  "none": {
-                     "uri": "",
-                     "weight": 2000
-                  },
-                  "hunk_of_stone": {
-                     "uri": "stonehearth:resources:stone:hunk_of_stone",
-                     "weight": 1
-                  },
-                  "clay_mound": {
-                     "uri": "stonehearth:resources:clay:clay_mound",
-                     "weight": 200
-                  }
-               }
-            }
-         }
-      },
-      "wood": {
-         "entries": {
-            "default": {
-               "num_rolls": 1,
-               "items": {
-                  "none": {
-                     "uri": "",
-                     "weight": 100
-                  },
-                  "ore": {
-                     "uri": "stonehearth:resources:wood:oak_log",
-                     "weight": 90
-                  }
-               }
-            }
-         }
-      },
       "rock": {
          "entries": {
             "default": {
-               "num_rolls": 2,
                "items": {
-                  "none": {
-                     "uri": "",
-                     "weight": 10000
-                  },
-                  "hunk_of_stone": {
-                     "uri": "stonehearth:resources:stone:hunk_of_stone",
-                     "weight": 800
-                  },
-                  "clay_mound": {
-                     "uri": "",
-                     "weight": 0.1
-                  },
-                  "copper_ore": {
-                     "uri": "stonehearth:resources:copper:ore",
-                     "weight": 40
-                  },
-                  "tin_ore": {
-                     "uri": "stonehearth:resources:tin:ore",
-                     "weight": 40
-                  },
-                  "iron_ore": {
-                     "uri": "stonehearth:resources:iron:ore",
-                     "weight": 28
-                  },
-                  "lump_of_coal": {
-                     "uri": "stonehearth:resources:coal:lump_of_coal",
-                     "weight": 28
-                  },
-                  "silver_ore": {
-                     "uri": "stonehearth:resources:silver:ore",
-                     "weight": 20
-                  },
-                  "gold_ore": {
-                     "uri": "stonehearth:resources:gold:ore",
-                     "weight": 10
-                  },
                   "salt_rock": {
                      "uri": "box_o_vox:entities:resources:rocks:salt_rock",
                      "weight": 10
@@ -228,6 +140,7 @@
             }
          }
       },
+
       "clay_mound": {
          "entries": {
             "default": {
@@ -256,6 +169,75 @@
                   },
                   "salt_rock": {
                      "uri": "box_o_vox:entities:resources:rocks:salt_rock",
+                     "weight": 90
+                  }
+               }
+            }
+         }
+      },
+
+      "wood": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "ore": {
+                     "uri": "stonehearth:resources:wood:oak_log",
+                     "weight": 90
+                  }
+               }
+            }
+         }
+      },
+      "hedge": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "ore": {
+                     "uri": "box_o_vox:entities:resources:fiber:grass_bundle",
+                     "weight": 90
+                  }
+               }
+            }
+         }
+      },
+      "bone": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "ore": {
+                     "uri": "stonehearth_ace:resources:bone:bone_material",
+                     "weight": 90
+                  }
+               }
+            }
+         }
+      },
+      "horn": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "ore": {
+                     "uri": "stonehearth_ace:stonehearth:resources:deer_horn",
                      "weight": 90
                   }
                }

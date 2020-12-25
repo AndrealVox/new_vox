@@ -1,0 +1,7 @@
+{
+   "mixins": "stonehearth_ace:northern_alliance:jobs:knight",
+   "xp_rewards": {
+      "town_protection": 10,
+      "training": 20
+   }
+}

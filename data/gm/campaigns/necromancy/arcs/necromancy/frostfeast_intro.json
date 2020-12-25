@@ -1,0 +1,48 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "unique": true,
+   "in_edge": "necromancer_intro",
+   "can_start": {
+      "test_1": {
+         "has_necromancer": {
+            "item": "script",
+            "type": "deny_if",
+            "value": true,
+            "script": "file(has_necromancer.lua)"
+         }
+      }
+   },
+   "dialog_tree_info": {
+      "start_node": "msg1",
+      "nodes": {
+         "msg1": {
+            "bulletin": {
+               "title": "A Frostfeast Necromancer",
+               "dialog_title": "A Frostfeast Necromancer",
+               "portrait": "file(necro-vox.png)",
+               "message": "Happy Frostfeast Friends! In Honor Of The Spirit Of Giving, I'm Here To Straight Out Gift You My Necromantic Powers. No Strings Attached! Enjoy For A Limited Time Friends!",
+               "choices": {
+                  "Gimme Gimme!": {
+                     "next_node": "offer"
+                  }
+               }
+            }
+         },
+         "offer": {
+            "bulletin": {
+               "title": "Necromantic Powers!",
+               "dialog_title": "Necromantic Powers!",
+               "portrait": "file(necro-vox.png)",
+               "message": "Here Take The Book Already!",
+               "choices": {
+                  "Thanks!": {
+                     "out_edge": "give_book"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

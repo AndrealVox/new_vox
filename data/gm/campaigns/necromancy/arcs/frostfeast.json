@@ -1,0 +1,10 @@
+{
+   "type": "arc",
+   "rarity": "common",
+   "encounters": {
+      "frostfeast": "file(necromancy/frostfeast.json)",
+      "frostfeast_wait_to_start": "file(necromancy/frostfeast_wait_to_start.json)",
+      "frostfeast_intro": "file(necromancy/frostfeast_intro.json)",
+      "give_book": "file(necromancy/give_book.json)"
+   }
+}
