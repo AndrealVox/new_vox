@@ -29,7 +29,20 @@
       "rock": {
          "entries": {
             "default": {
+               "num_rolls": 2,
                "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 10000
+                  },
+                  "hunk_of_stone": {
+                     "uri": "stonehearth:resources:stone:hunk_of_stone",
+                     "weight": 800
+                  },
+                  "clay_mound": {
+                     "uri": "",
+                     "weight": 0
+                  },
                   "salt_rock": {
                      "uri": "box_o_vox:entities:resources:rocks:salt_rock",
                      "weight": 10
