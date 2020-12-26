@@ -1,7 +1,57 @@
 {
-   "#00E8D8": {
-      "loot_bag": "box_o_vox:entities:plants:hedge_plant",
-      "facing": 0,
-      "force_iconic": false
+   "#2F2F2F": {
+      "terrain_tag": "mt_boxling_1"
+   },
+   "#4F4F4F": {
+      "terrain_tag": "mt_boxling_2"
+   },
+   "#6F6F6F": {
+      "terrain_tag": "mt_boxling_3"
+   },
+
+   "#36332E": {
+      "terrain_tag": "hedge_wood"
+   },
+   "#283C33": {
+      "terrain_tag": "hedge_dark"
+   },
+   "#30483D": {
+      "terrain_tag": "hedge_medium"
+   },
+   "#385447": {
+      "terrain_tag": "hedge_bright"
+   },
+
+   "#58462B": {
+      "terrain_tag": "wood_1"
+   },
+   "#4C3E28": {
+      "terrain_tag": "wood_2"
+   },
+   "#3A3020": {
+      "terrain_tag": "wood_3"
+   },
+   "#B2AA76": {
+      "terrain_tag": "wood_4"
+   },
+   "#C9C091": {
+      "terrain_tag": "wood_5"
+   },
+
+   "#DEDDCE": {
+      "terrain_tag": "bone_1"
+   },
+   "#D2D2C3": {
+      "terrain_tag": "bone_2"
+   },
+   "#84816D": {
+      "terrain_tag": "bone_3"
+   },
+
+   "#7B7765": {
+      "terrain_tag": "horn_1"
+   },
+   "#6B6758": {
+      "terrain_tag": "horn_2"
    }
 }
