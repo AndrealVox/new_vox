@@ -46,7 +46,7 @@
    },
    "entity_data": {
       "stonehearth:town_patrol": {
-         "auto_patrol": true,
+         "auto_patrol": false,
          "patrol_pattern": "perimeter"
       },
       "stonehearth:net_worth": {

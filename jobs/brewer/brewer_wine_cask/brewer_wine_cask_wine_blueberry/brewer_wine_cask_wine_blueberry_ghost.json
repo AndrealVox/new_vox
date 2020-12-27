@@ -1,0 +1,22 @@
+{
+   "mixins": [
+      "stonehearth:mixins:placed_object",
+      "stonehearth_ace:mixins:brewer_wine_cask:ghost"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(brewer_wine_cask_wine_blueberry.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Blueberry Wine Cask",
+         "description": "i18n(stonehearth_ace:jobs.brewer.brewer_wine_cask_wine_berry.description)",
+         "icon": "file(brewer_wine_cask_wine_blueberry.png)"
+      }
+   }
+}

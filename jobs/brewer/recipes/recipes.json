@@ -2,15 +2,15 @@
    "craftable_recipes": {
       "brewing": {
          "recipes": {
-            "must_berry_blue": {
-               "recipe": "file(must_berry_blue_recipe.json)"
+            "must_blueberry": {
+               "recipe": "file(must_blueberry_recipe.json)"
             }
          }
       },
       "simple_drinks": {
          "recipes": {
-            "juice_berry_blue": {
-               "recipe": "file(juice_berry_blue_recipe.json)"
+            "juice_blueberry": {
+               "recipe": "file(juice_blueberry_recipe.json)"
             }
          }
       },

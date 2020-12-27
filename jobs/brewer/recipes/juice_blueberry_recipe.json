@@ -5,7 +5,7 @@
    "recipe_name": "Bucket of Blueberry Juice",
    "description": "i18n(stonehearth_ace:jobs.brewer.recipes.juice_berry_recipe.description)",
    "flavor": "i18n(stonehearth_ace:jobs.brewer.recipes.juice_berry_recipe.flavor)",
-   "portrait": "/box_o_vox/entities/drink/juice_berry_blue/juice_berry_blue/juice_berry_blue.png",
+   "portrait": "/box_o_vox/entities/drink/juice_blueberry/juice_blueberry/juice_blueberry.png",
    "level_requirement": 1,
    "workshop": "stonehearth_ace:brewer:workbench",
    "ingredients": [
@@ -16,7 +16,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:drink:juice_berry_blue"
+         "item": "box_o_vox:drink:juice_blueberry"
       }
    ]
 }

@@ -28,6 +28,11 @@
       "banner:vitality": "file(entities/gizmos/na_town_banner_nature/na_town_banner_nature.json)",
       "biome:boxland": "file(data/biome/boxland.json)",
       "biome:boxland_winter": "file(data/biome/boxland_winter.json)",
+
+      "brewer:wine_cask:empty": "file(jobs/brewer/brewer_wine_cask/brewer_wine_cask_empty/brewer_wine_cask_empty.json)",
+      "brewer:wine_cask:wine_blueberry": "file(jobs/brewer/brewer_wine_cask/brewer_wine_cask_wine_blueberry/brewer_wine_cask_wine_blueberry.json)",
+      "brewer:wine_cask:must_blueberry": "file(jobs/brewer/brewer_wine_cask/brewer_wine_cask_must_blueberry/brewer_wine_cask_must_blueberry.json)",
+
       "buffs:paladin:courage_aura": "file(jobs/paladin/paladin_buffs/courage_aura_buff.json)",
       "buffs:paladin:courage_aura_effect": "file(jobs/paladin/paladin_buffs/courage_aura_effect_buff.json)",
       "buffs:paladin:defense_1": "file(jobs/paladin/paladin_buffs/defense_1_buff.json)",
@@ -109,9 +114,12 @@
       "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
       "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)",
 
-      "drink:juice_berry_blue": "file(entities/drink/juice_berry_blue/juice_berry_blue/juice_berry_blue.json)",
-      "drink:juice_berry_blue:juice_berry_blue_serving": "file(entities/drink/juice_berry_blue/juice_berry_blue_serving/juice_berry_blue_serving.json)",
-      "drink:must_berry_blue": "file(entities/drink/must_berry_blue/must_berry_blue.json)",
+      "commands:transform:wine_cask_fill:must_blueberry": "file(data/commands/transform/wine_cask_fill_must_blueberry.json)",
+
+      "drink:juice_blueberry": "file(entities/drink/juice_blueberry/juice_blueberry/juice_blueberry.json)",
+      "drink:juice_blueberry:juice_blueberry_serving": "file(entities/drink/juice_blueberry/juice_blueberry_serving/juice_blueberry_serving.json)",
+      "drink:must_blueberry": "file(entities/drink/must_blueberry/must_blueberry.json)",
+      "drink:wine_blueberry": "file(entities/drink/wine_blueberry/wine_blueberry.json)",
 
       "effects:enchanted_mist:head": "file(data/effects/enchanted_mist/enchanted_mist_head.json)",
       "effects:fog": "file(data/effects/fog)",
@@ -454,6 +462,8 @@
       "stonehearth_ace/entities/gizmos/training_dummy/training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
       "stonehearth_ace/entities/gizmos/stone_training_dummy/stone_training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
       "stonehearth_ace/entities/gizmos/clay_training_dummy/clay_training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
+
+      "stonehearth_ace:brewer:wine_cask:empty": "box_o_vox:brewer:wine_cask:empty",
 
       "trapper_plus/jobs/cook/recipes/salt_recipe.json": "box_o_vox/jobs/cook/recipes/trapper_plus/salt_recipe.json",
 

@@ -12,8 +12,16 @@
          "scale": 0.1
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 },
-         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "region_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
          "align_to_grid": [
             "x",
             "z"
@@ -27,7 +35,15 @@
          "description": "i18n(box_o_vox:entities.containers.box_o_vox_crate.box_o_vox_crate_ghost.description)",
          "icon": "file(box_o_vox_crate.png)",
          "category": "storage",
-         "material_tags": "stone furniture crafted crate stockpile_furniture"
+         "material_tags": [
+            "stone",
+            "containers",
+            "crafted",
+            "furniture",
+            "fluid_container",
+            "stockpile_furniture",
+            "crate"
+         ]
       }
    }
 }

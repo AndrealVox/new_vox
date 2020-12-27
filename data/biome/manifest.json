@@ -7,7 +7,8 @@
    "aliases": {},
    "mixintos": {
       "stonehearth:trapper:trapping_grounds": "file(trapping_grounds.json)",
-      "stonehearth/scenarios/static/deer_nest/deer_nest.json": "file(../../scenarios/static/deer_nest/deer_nest.json)",
+      "stonehearth/scenarios/static/deer_nest/deer_nest.json": "file(../../scenarios/static/critter_nest/critter_nest.json)",
+      "stonehearth/scenarios/static/rabbit_nest/rabbit_nest.json": "file(../../scenarios/static/critter_nest/critter_nest.json)",
       "stonehearth/entities/critters/rabbit/rabbit.json": "file(rabbit/rabbit.json)",
       "stonehearth/entities/resources/pelt/rabbit_pelt/rabbit_pelt.json": "file(rabbit/rabbit_pelt/rabbit_pelt.json)",
       "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index",

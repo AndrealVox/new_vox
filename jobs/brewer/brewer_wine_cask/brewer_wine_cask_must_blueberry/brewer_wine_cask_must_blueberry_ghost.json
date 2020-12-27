@@ -1,0 +1,22 @@
+{
+   "mixins": [
+      "stonehearth:mixins:placed_object",
+      "stonehearth_ace:mixins:brewer_wine_cask:ghost"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(brewer_wine_cask_must_blueberry.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Blueberry Must Cask",
+         "description": "The must is fermenting and the berry wine should be ready in a few days",
+         "icon": "file(brewer_wine_cask_must_blueberry.png)"
+      }
+   }
+}

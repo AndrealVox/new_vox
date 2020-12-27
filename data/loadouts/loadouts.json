@@ -23,18 +23,26 @@
                "type": "entity",
                "uri": "stonehearth:cleric:talisman",
                "icon": "file(images/items/cleric.png)",
+               "amount": 2
+            },
+            "herbalist": {
+               "ordinal": 3,
+               "display_name": "Herbalist",
+               "type": "entity",
+               "uri": "stonehearth:herbalist:talisman",
+               "icon": "file(images/items/herbalist.png)",
                "amount": 1
             },
-            "footman": {
-               "ordinal": 3,
-               "display_name": "Footman",
+            "cask": {
+               "ordinal": 4,
+               "display_name": "Cask",
                "type": "entity",
-               "uri": "stonehearth_ace:footman:talisman:stone",
-               "icon": "file(images/items/footman.png)",
+               "uri": "stonehearth_ace:containers:input_cask:stone:small",
+               "icon": "file(images/items/cask.png)",
                "amount": 1
             },
             "bundle": {
-               "ordinal": 4,
+               "ordinal": 5,
                "display_name": "i18n(box_o_vox:data.loadouts.items.necro_bundle)",
                "type": "entity",
                "uri": "box_o_vox:entities:containers:necro_bundle",
@@ -42,12 +50,12 @@
                "amount": 1
             },
             "gold": {
-               "ordinal": 5,
+               "ordinal": 6,
                "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
                "type": "gold",
                "uri": "stonehearth:loot:gold",
                "icon": "file(images/items/gold.png)",
-               "amount": 100
+               "amount": 300
             }
          }
       }

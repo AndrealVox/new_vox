@@ -9,8 +9,7 @@
       "length": 41
    },
    "habitat_types": [
-      "forest",
-      "plains"
+      "forest"
    ],
    "overwrite_occupied_size": 3,
    "weight": 1,

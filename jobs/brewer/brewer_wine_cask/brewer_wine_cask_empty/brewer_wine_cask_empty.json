@@ -1,0 +1,20 @@
+{
+   "entity_data": {
+      "stonehearth_ace:transform_data": {
+         "transform_options": {
+            "wine_blueberry": {
+               "transform_uri": "box_o_vox:brewer:wine_cask:must_blueberry",
+               "command": "box_o_vox:commands:transform:wine_cask_fill:must_blueberry",
+               "request_action": "stonehearth_ace:transform",
+               "request_action_overlay_effect": "stonehearth_ace:effects:transform_brewer_overlay_effect",
+               "transform_ingredient_uri": "box_o_vox:drink:must_blueberry",
+               "auto_request": true,
+               "worker_required_job": {
+                  "stonehearth_ace:jobs:brewer": true
+               },
+               "apply_ingredient_quality": true
+            }
+         }
+      }
+   }
+}

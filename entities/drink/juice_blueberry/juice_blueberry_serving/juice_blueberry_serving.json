@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(juice_berry_blue_serving.qb)"
+               "file(juice_blueberry_serving.qb)"
             ]
          }
       }
@@ -32,11 +32,12 @@
          "description": "",
          "material_tags": [
             "drink",
-            "juice_berry_blue_serving",
+            "juice_blueberry_serving",
+            "juice_berry_serving",
             "juice",
             "morning_time"
          ],
-         "subject_override": "box_o_vox:drink:juice_berry_blue"
+         "subject_override": "box_o_vox:drink:juice_blueberry"
       }
    }
 }

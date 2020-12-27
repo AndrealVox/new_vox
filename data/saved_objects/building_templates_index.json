@@ -6,10 +6,14 @@
          "required_kingdom": "box_o_vox:server:population:data:kingdoms:boxling",
          "categories": {
             "outpost": {
-               "templates": {}
+               "templates": {
+                  "hearthring": "file(building_templates/hearthring.json)"
+               }
             },
             "settlement": {
-               "templates": {}
+               "templates": {
+                  "shrine": "file(building_templates/shrine.json)"
+               }
             }
          }
       }
