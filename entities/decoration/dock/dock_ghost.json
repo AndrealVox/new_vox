@@ -1,0 +1,29 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+					"file(dock.qb)"
+				]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 1
+         }
+      },
+      "destination": {
+         "region": [
+            {
+               "min": {
+                  "x": -2,
+                  "y": 0,
+                  "z": -2
+               }
+				}
+			]
+      }
+   }
+}

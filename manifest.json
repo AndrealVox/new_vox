@@ -1,5 +1,5 @@
 {
-   "__comment": "724150141",
+   "__comment": "211761960",
    "info": {
       "name": "Box O' Vox (Complete)",
       "namespace": "box_o_vox",
@@ -456,6 +456,9 @@
       "stonehearth/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "rayyas_children/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
 
+      "archipelago_biome/entities/decoration/dock/dock.json": "box_o_vox/entities/decoration/dock/dock.json",
+      "archipelago_biome/entities/decoration/dock/dock_ghost.json": "box_o_vox/entities/decoration/dock/dock_ghost.json",
+
       "stonehearth/jobs/npc_jobs/npc_miner/npc_miner_description.json": "box_o_vox/jobs/npc_jobs/rescuer.json",
       "stonehearth/jobs/npc_jobs/npc_restocker/npc_restocker_description.json": "box_o_vox/jobs/npc_jobs/rescuer.json",
 
@@ -492,6 +495,9 @@
       "stonehearth/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/foreground.png)",
       "stonehearth_ace/ui/shell/title/images/foreground.png": "file(ui/shell/title/images/foreground.png)",
       "stonehearth_ace/ui/shell/title/images/stonehearth_ace_foreground.png": "file(ui/shell/title/images/foreground.png)",
+
+      "archipelago_biome/entities/decoration/dock/dock.qb": "box_o_vox/entities/decoration/dock/dock.qb",
+      "archipelago_biome/entities/decoration/dock/dock_leg.qb": "box_o_vox/entities/decoration/dock/dock_leg.qb",
 
 
       "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json": "box_o_vox:jobs:recipes:cook_ace",
