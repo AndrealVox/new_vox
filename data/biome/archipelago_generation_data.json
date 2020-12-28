@@ -1,0 +1,39 @@
+{
+   "landscape": {
+      "placement_table": {
+         "box_o_vox:entities:plants:daisy": {
+            "placement_type": "pattern",
+            "parameters": {
+               "min_rows": 1,
+               "max_rows": 3,
+               "min_cols": 1,
+               "max_cols": 3,
+               "item_spacing": 3,
+               "item_density": 0.333
+            }
+         }
+      },
+      "scattered": {
+         "plants": {
+            "weights": {
+               "plains": {
+                  "1": {
+                     "box_o_vox:entities:plants:daisy": 2
+                  },
+                  "2": {
+                     "box_o_vox:entities:plants:daisy": 2
+                  }
+               },
+               "foothills": {
+                  "1": {
+                     "box_o_vox:entities:plants:daisy": 2
+                  },
+                  "2": {
+                     "box_o_vox:entities:plants:daisy": 2
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -60,6 +60,9 @@
             },
             "wall_lamp_red": {
                "recipe": "file(wall_lamp_red_recipe.json)"
+            },
+            "wall_lamp_white": {
+               "recipe": "file(wall_lamp_white_recipe.json)"
             }
          }
       },
