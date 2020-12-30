@@ -8,7 +8,7 @@
          "crafter": {
             "item": "highest_job_level",
             "type": "deny_if_less_than",
-            "value": 9,
+            "value": 3,
             "job_alias": "stonehearth:jobs:cleric"
          }
       }

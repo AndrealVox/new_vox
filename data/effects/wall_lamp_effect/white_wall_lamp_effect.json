@@ -3,10 +3,13 @@
    "tracks": {
       "bright": {
          "type": "cubemitter",
-         "cubemitter": "stonehearth/data/horde/particles/lamp/lamp_bright.cubemitter.json",
+         "cubemitter": "file(/data/horde/particles/lamp/white.lamp.cubemitter.json)",
          "loop": true,
          "start_time": 0,
-         "transforms": { "x": -0.1, "y": -1.2, "z": -1.6,
+         "transforms": {
+            "x": -0.1,
+            "y": -1.2,
+            "z": -1.6,
             "rx": 90,
             "ry": 0,
             "rz": 0
@@ -14,10 +17,13 @@
       },
       "glow": {
          "type": "cubemitter",
-         "cubemitter": "stonehearth/data/horde/particles/lamp/lamp_glow.cubemitter.json",
+         "cubemitter": "file(/data/horde/particles/lamp/white.lamp_glow.cubemitter.json)",
          "loop": true,
          "start_time": 0,
-         "transforms": { "x": -0.1, "y": -1.2, "z": -1.6,
+         "transforms": {
+            "x": -0.1,
+            "y": -1.2,
+            "z": -1.6,
             "rx": 90,
             "ry": 0,
             "rz": 0
@@ -25,10 +31,13 @@
       },
       "sparkles1": {
          "type": "cubemitter",
-         "cubemitter": "stonehearth/data/horde/particles/lamp/red.lamp_sparkles.cubemitter.json",
+         "cubemitter": "file(/data/horde/particles/lamp/white.lamp_sparkles.cubemitter.json)",
          "loop": true,
          "start_time": 0,
-         "transforms": { "x": -0.1, "y": -1.2, "z": -1.6,
+         "transforms": {
+            "x": -0.1,
+            "y": -1.2,
+            "z": -1.6,
             "rx": 0,
             "ry": 0,
             "rz": 0
@@ -36,8 +45,12 @@
       },
       "light": {
          "type": "light",
-         "light": "stonehearth/data/horde/animatedlights/lamp/red.roadlamp.animatedlight.json",
-         "transforms": { "x": -0.1, "y": -1.2, "z": -1.6 }
+         "light": "file(/data/horde/animatedlights/lamp/white.roadlamp.animatedlight.json)",
+         "transforms": {
+            "x": -0.1,
+            "y": -1.2,
+            "z": -1.6
+         }
       }
    }
 }

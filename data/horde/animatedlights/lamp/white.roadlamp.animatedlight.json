@@ -36,7 +36,7 @@
    "color": {
       "start": {
          "kind": "CONSTANT",
-         "values": [0.149, 0.408, 0.565]
+         "values": [1, 0.948, 0.471]
       }
    }
 }
