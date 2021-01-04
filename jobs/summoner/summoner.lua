@@ -13,6 +13,17 @@ function SummonerClass:initialize()
    self._sv.max_num_workers = {}
 end
 
+function SummonerClass:activate()
+   CraftingJob.activate(self)
+   CombatJob.activate(self)
+
+   if self._sv.is_current_class then
+      self:_register_with_town()
+   end
+
+   self.__saved_variables:mark_changed()
+end
+
 function SummonerClass:promote(json_path)
    CombatJob.promote(self, json_path)
    CraftingJob.promote(self, json_path)
@@ -25,6 +36,14 @@ function SummonerClass:_register_with_town()
    local town = stonehearth.town:get_town(player_id)
    if town then
       town:add_placement_slot_entity(self._sv._entity, self._sv.max_num_workers)
+   end
+end
+
+function SummonerClass:_unregister_with_town()
+   local player_id = radiant.entities.get_player_id(self._sv._entity)
+   local town = stonehearth.town:get_town(player_id)
+   if town then
+      town:remove_medic(self._sv._entity)
    end
 end
 
@@ -59,6 +78,20 @@ function SummonerClass:_add_exp(key)
       self._job_component:add_exp(exp)
       print("exp = "..exp)
    end
+end
+
+function SummonerClass:demote()
+   self:_unregister_with_town()
+   CombatJob.demote(self)
+   CraftingJob.demote(self)
+end
+
+function SummonerClass:destroy()
+   if self._sv.is_current_class then
+      self:_unregister_with_town()
+   end
+   CombatJob.destroy(self)
+   CraftingJob.destroy(self)
 end
 
 function SummonerClass:get_menacing_enemy_list_ascending(all_entities)
