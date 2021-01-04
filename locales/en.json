@@ -1542,12 +1542,12 @@
             "description": "A Paladin of decent skill can equip this strong helmet."
          },
          "necromancer_mask_1": {
-            "display_name": "Apprentice Necromancer Mask",
-            "description": "A Necromancer with a decent amount of training can equip this mask."
+            "display_name": "Apprentice Necromancer Hood",
+            "description": "A Necromancer with a decent amount of training can equip this hood."
          },
          "necromancer_mask_2": {
-            "display_name": "Master Necromancer Mask",
-            "description": "Only the highest level of Necromancer can wear this mighty mask."
+            "display_name": "Master Necromancer Hood",
+            "description": "Only the highest level of Necromancer can wear this mighty hood."
          },
          "paladin_helmet_2": {
             "description": "The highest level of Paladins can equip the mightiest of helmets.",
