@@ -1,0 +1,38 @@
+{
+   "summon_skeleton": {
+      "quantity": 4,
+      "entities": {
+         "box_o_vox:summons:skeleton": true
+      }
+   },
+   "summon_bone_wolf": {
+      "quantity": 3,
+      "entities": {
+         "box_o_vox:summons:bone_wolf": true
+      }
+   },
+   "summon_zombie": {
+      "quantity": 2,
+      "entities": {
+         "box_o_vox:summons:zombie": true
+      }
+   },
+   "summon_golem": {
+      "quantity": 1,
+      "entities": {
+         "box_o_vox:summons:golem": true
+      }
+   },
+   "summon_zilla": {
+      "quantity": 1,
+      "entities": {
+         "box_o_vox:summons:zilla": true
+      }
+   },
+   "summon_necro": {
+      "quantity": 2,
+      "entities": {
+         "box_o_vox:summons:necro": true
+      }
+   }
+}

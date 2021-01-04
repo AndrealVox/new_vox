@@ -1,0 +1,10 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "invisible_to_player": true,
+   "injected_ai": {
+      "actions": [
+			"box_o_vox:actions:summon:despawn"
+		]
+   }
+}

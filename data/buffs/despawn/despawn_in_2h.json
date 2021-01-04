@@ -1,0 +1,9 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "invisible_to_player": true,
+   "persistent": true,
+   "duration": "2h",
+   "script": "stonehearth:buff_scripts:add_buff_on_expire",
+   "buff_added_on_expire": "box_o_vox:buffs:despawn"
+}

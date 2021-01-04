@@ -1,13 +1,6 @@
 {
    "mixins": "/stonehearth_ace/jobs/herbalist/recipes/na_recipes.json",
    "craftable_recipes": {
-      "tools": {
-         "recipes": {
-            "mixintypes": {
-               "cleric_tome": "remove"
-            }
-         }
-      },
       "refinement": {
          "recipes": {
             "blueberry_bush_transmute": {

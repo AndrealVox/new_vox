@@ -1,0 +1,112 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:monsters:forest:stone_golem",
+   "components": {
+      "model_variants": {
+         "default": {
+            "mixintypes": {
+               "models": "override"
+            },
+            "models": [
+               "file(flesh_golem.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment": {
+         "mixintypes": {
+            "items": "override"
+         },
+         "items": [
+				"file(golem_fist.json)"
+			]
+      },
+      "sensor_list": {
+         "sensors": {
+            "sight": {
+               "radius": 64
+            }
+         }
+      },
+      "stonehearth:combat_state": {
+         "stance": "aggressive"
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 400
+         },
+         "muscle": {
+            "type": "basic",
+            "value": 20
+         },
+         "menace": {
+            "type": "basic",
+            "value": 250
+         },
+         "courage": {
+            "type": "basic",
+            "value": 300
+         },
+         "speed": {
+            "type": "basic",
+            "value": 90
+         },
+         "additive_armor_modifier": {
+            "type": "basic",
+            "value": 4
+         },
+         "multiplicative_target_armor_modifier": {
+            "type": "basic",
+            "value": 0.5
+         },
+         "exp_reward": {
+            "type": "basic",
+            "value": 200
+         },
+         "aggro_addition": {
+            "type": "basic",
+            "value": 200
+         }
+      },
+      "stonehearth:expendable_resources": {
+         "resources": {
+            "mixintypes": {
+               "social_satisfaction": "override"
+            },
+            "social_satisfaction": {
+               "min": {
+                  "value": 0
+               },
+               "max": {
+                  "value": 72
+               },
+               "initial_value": 0
+            }
+         }
+      },
+      "stonehearth:social": {},
+      "stonehearth:conversation": {},
+      "stonehearth:subject_matter": {},
+      "stonehearth:commands": {
+         "mixintypes": {
+            "commands": "override"
+         },
+         "commands": []
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Steve",
+         "description": "A Loyal Summon",
+         "category": "summoner_summon"
+      },
+      "mixintypes": {
+         "stonehearth:observers:avoid_threatening_entities": "remove"
+      },
+      "stonehearth:healable": {
+         "healable_by_anyone": false,
+         "target_type": "summoner_summon"
+      },
+      "stonehearth:entity_reach": 1.0
+   }
+}

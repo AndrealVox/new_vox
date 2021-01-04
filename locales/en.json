@@ -46,8 +46,8 @@
                "description": "Hey look! It's a mini-me"
             },
             "bone_wolf_big_summon": {
-               "description": "The howls are getting louder.",
-               "display_name": "Summon Bone Wolf"
+               "display_name": "Summon Bone Wolf",
+               "description": "The howls are getting louder."
             },
             "zilla_summon": {
                "display_name": "Summon Zilla",
@@ -566,31 +566,31 @@
             "level_1_data": {
                "perk_000_name": "Flaming Skull Attack",
                "perk_000_description": "The Necromancer is capable of throwing a flaming skull which inflicts a burning slow on enemies.",
-               "perk_001_name": "Summon a Skeleton",
-               "perk_001_description": "Summon a skeleton to fight your battles for you."
+               "perk_001_name": "Summon Skeletons",
+               "perk_001_description": "Summon a skeleton army of 4 to fight your battles for you."
             },
             "level_2_data": {
-               "perk_000_name": "Summon a Bone Wolf",
-               "perk_000_description": "Summon a bone wolf to fight your battles for you. Their able to damage up to 3 enemies at once with their breath."
+               "perk_000_name": "Summon Bone Wolves",
+               "perk_000_description": "Summon a bone wolf army of 3 to fight your battles for you."
             },
             "level_3_data": {
-               "perk_000_name": "Summon a Zombie",
-               "perk_000_description": "Summon a zombie to fight your battles for you.",
+               "perk_000_name": "Summon Zombies",
+               "perk_000_description": "Summon a zombie army of 2 to fight your battles for you.",
                "perk_001_name": "Craft a Skeleton Gatherer",
                "perk_001_description": "This Undead Worker will haul items into storage or stockpiles"
             },
             "level_4_data": {
-               "perk_000_name": "Summon a Golem",
-               "perk_000_description": "Summon a flesh golem to fight your battles for you. Their able to damage up to 3 enemies at once with each hit."
+               "perk_000_name": "Summon a Flesh Golem",
+               "perk_000_description": "Summon a flesh golem to fight your battles for you."
             },
             "level_5_data": {
-               "perk_000_name": "Summon a Zilla",
-               "perk_000_description": "Summon a fleshzilla to fight your battles for you. Their able to damage up to 5 enemies at once with each hit."
+               "perk_000_name": "Summon a Flesh Zilla",
+               "perk_000_description": "Summon a flesh zilla to fight your battles for you."
             },
             "level_6_data": {
                "title": "Master Necromancer",
-               "perk_000_name": "Summon a Mini-Necromancer",
-               "perk_000_description": "Summon a mini-necromancer to fight your battles for, and do it twice as fast as you previously could.",
+               "perk_000_name": "Summon Mini-Necromancers",
+               "perk_000_description": "Summon 2 mini-necromancers to fight your battles for you.",
                "perk_001_name": "Craft a Zombie Miner",
                "perk_001_description": "This Undead Worker will mine set zones",
                "perk_002_description": "The Necromancer now throws 2 flaming skulls which inflict a burning slow on enemies.",
@@ -618,12 +618,12 @@
             }
          },
          "necromancer_mask_1": {
-            "display_name": "Apprentice Necromancer Mask",
-            "description": "A Necromancer with a decent amount of training can equip this mask."
+            "display_name": "Apprentice Necromancer Hood",
+            "description": "A Necromancer with a decent amount of training can equip this hood."
          },
          "necromancer_mask_2": {
-            "display_name": "Master Necromancer Mask",
-            "description": "Only the highest level of Necromancer can wear this mighty mask."
+            "display_name": "Master Necromancer Hood",
+            "description": "Only the highest level of Necromancer can wear this mighty hood."
          }
       },
       "cleric": {

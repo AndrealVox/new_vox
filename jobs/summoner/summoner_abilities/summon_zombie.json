@@ -1,0 +1,20 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "military_score": 5
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:ranged_attacks": [
+         {
+            "name": "summon_zombie",
+            "effect": "emote_roar",
+            "active_frame": 60,
+            "cooldown": 70000,
+            "priority": 6,
+            "image": "/box_o_vox/jobs/summoner/images/summon_zombie.png"
+			}
+		]
+   }
+}

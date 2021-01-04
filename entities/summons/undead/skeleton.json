@@ -1,0 +1,98 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:monsters:undead:skeleton",
+   "components": {
+      "stonehearth:equipment": {
+         "mixintypes": {
+            "items": "override"
+         },
+         "items": [
+				"file(fist_weapon.json)"
+			]
+      },
+      "sensor_list": {
+         "sensors": {
+            "sight": {
+               "radius": 64
+            }
+         }
+      },
+      "stonehearth:combat_state": {
+         "stance": "aggressive"
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 100
+         },
+         "muscle": {
+            "type": "basic",
+            "value": 5
+         },
+         "menace": {
+            "type": "basic",
+            "value": 100
+         },
+         "courage": {
+            "type": "basic",
+            "value": 100
+         },
+         "speed": {
+            "type": "basic",
+            "value": 90
+         },
+         "additive_armor_modifier": {
+            "type": "basic",
+            "value": 1
+         },
+         "exp_reward": {
+            "type": "basic",
+            "value": 50
+         },
+         "aggro_addition": {
+            "type": "basic",
+            "value": 100
+         }
+      },
+      "stonehearth:expendable_resources": {
+         "resources": {
+            "mixintypes": {
+               "social_satisfaction": "override"
+            },
+            "social_satisfaction": {
+               "min": {
+                  "value": 0
+               },
+               "max": {
+                  "value": 72
+               },
+               "initial_value": 0
+            }
+         }
+      },
+      "stonehearth:social": {},
+      "stonehearth:conversation": {},
+      "stonehearth:subject_matter": {},
+      "stonehearth:commands": {
+         "mixintypes": {
+            "commands": "override"
+         },
+         "commands": []
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Steve",
+         "description": "A Loyal Summon",
+         "category": "summoner_summon"
+      },
+      "mixintypes": {
+         "stonehearth:observers:avoid_threatening_entities": "remove"
+      },
+      "stonehearth:healable": {
+         "healable_by_anyone": false,
+         "target_type": "summoner_summon"
+      },
+      "stonehearth:entity_reach": 1.0
+   }
+}

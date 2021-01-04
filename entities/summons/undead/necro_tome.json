@@ -1,0 +1,75 @@
+{
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.05
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(../../../jobs/necromancer/necromancer_tome/necromancer_tome_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "injected_ai": {
+            "actions": [
+               "box_o_vox:ai:actions:combat:flame_skull_attack"
+            ]
+         },
+         "slot": "mainhand",
+         "render_type": "attach_to_bone"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 30,
+         "base_ranged_damage": 30,
+         "range": 30,
+         "projectile_speed": 30,
+         "reach": 0.75,
+         "projectile_uri": "box_o_vox:entities:weapon:flame_skull",
+         "projectile_start_offset": {
+            "x": 0.2,
+            "y": 1.5,
+            "z": -1
+         },
+         "projectile_end_offset": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+         }
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_backhand",
+            "effect": "combat_1h_backhand",
+            "active_frame": 17,
+            "cooldown": 0,
+            "priority": 0,
+            "aggro_multiplier": 3.0
+         },
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0,
+            "aggro_multiplier": 3.0
+         }
+      ],
+      "box_o_vox:combat:ranged_spells": [
+         {
+            "name": "combat_spell",
+            "effect": "combat_1h_forehand",
+            "active_frame": 14,
+            "active_frames": [
+               14,
+               17
+            ],
+            "cooldown": 0,
+            "priority": 0
+         }
+      ]
+   }
+}

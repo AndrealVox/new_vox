@@ -1,0 +1,46 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "injected_ai": {
+            "actions": [
+               "box_o_vox:ai:actions:combat:flame_skull_attack"
+            ],
+            "ai_packs": [
+               "box_o_vox:ai_pack:summon",
+               "stonehearth:ai_pack:crafting",
+               "stonehearth:ai_pack:patrolling",
+               "stonehearth:ai_pack:ranged_combat",
+               "stonehearth:ai_pack:wimpy",
+               "stonehearth:ai_pack:panic:flee",
+               "stonehearth:ai_pack:combat_control"
+            ]
+         },
+         "injected_buffs": [
+				"stonehearth:buffs:combat_basics"
+			],
+         "military_score": 30
+      }
+   },
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "box_o_vox:data:buffs:necromancer:flame_skull",
+               "chance": 1.0
+            }
+         }
+      },
+      "stonehearth:combat:melee_defenses": [
+         {
+            "name": "combat_1h_dodge",
+            "effect": "combat_1h_dodge",
+            "active_frame": 8,
+            "cooldown": 12000,
+            "priority": 1,
+            "chance_of_success": 0.25,
+            "defense_attribute": "dodge_chance"
+			}
+		]
+   }
+}

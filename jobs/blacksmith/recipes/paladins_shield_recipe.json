@@ -1,12 +1,12 @@
 {
    "type": "recipe",
-   "effort": 20,
-   "work_units": 2,
+   "effort": 40,
+   "work_units": 10,
    "recipe_name": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.recipe_name)",
    "description": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.description)",
    "flavor": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.flavor)",
    "portrait": "/box_o_vox/entities/armor/paladins_shield/paladins_shield.png",
-   "work_effect": "box_o_vox:data:effects:summon_necronomicon",
+   "workshop": "stonehearth:blacksmith:workbench",
    "level_requirement": 3,
    "ingredients": [
       {
