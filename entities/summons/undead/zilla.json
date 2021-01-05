@@ -2,6 +2,9 @@
    "type": "entity",
    "mixins": "stonehearth:monsters:forest:zilla",
    "components": {
+      "render_info": {
+         "scale": 0.2
+      },
       "model_variants": {
          "default": {
             "mixintypes": {
