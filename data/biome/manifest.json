@@ -26,6 +26,8 @@
       "/stonehearth/entities/critters/rabbit/rabbit.qb": "file(rabbit/rabbit.qb)",
       "/stonehearth/entities/critters/rabbit/rabbit.png": "file(rabbit/rabbit.png)",
       "/stonehearth/entities/resources/pelt/rabbit_pelt/rabbit_pelt.png": "file(rabbit/rabbit_pelt/rabbit_pelt.png)",
-      "/stonehearth/entities/resources/pelt/rabbit_pelt/fur_pelt.qb": "file(rabbit/rabbit_pelt/fur_pelt.qb)"
+      "/stonehearth/entities/resources/pelt/rabbit_pelt/fur_pelt.qb": "file(rabbit/rabbit_pelt/fur_pelt.qb)",
+
+      "/stonehearth/data/models/landmark/128x_gully_desert.qb": "/box_o_vox/data/models/landmark/128x_gully_desert.qb"
    }
 }

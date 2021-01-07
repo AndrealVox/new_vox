@@ -12,7 +12,7 @@
       "forest"
    ],
    "overwrite_occupied_size": 3,
-   "weight": 0.5,
+   "weight": 0.25,
    "data": {
       "brush": "box_o_vox:landmark:hedge_maze_2",
       "brush_mask": "box_o_vox:landmark:hedge_maze_2"

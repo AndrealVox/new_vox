@@ -6,6 +6,7 @@
    "description": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.description)",
    "flavor": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.flavor)",
    "portrait": "/box_o_vox/entities/armor/paladins_shield/paladins_shield.png",
+   "work_effect": "box_o_vox:data:effects:summon_necronomicon",
    "workshop": "stonehearth:blacksmith:workbench",
    "level_requirement": 3,
    "ingredients": [

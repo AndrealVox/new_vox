@@ -67,7 +67,7 @@
          },
          "speed": {
             "type": "basic",
-            "value": 150
+            "value": 200
          },
          "exp_reward": {
             "type": "basic",
@@ -78,7 +78,7 @@
       "stonehearth:storage": {
          "type": "backpack",
          "public": false,
-         "capacity": 16
+         "capacity": 20
       },
       "sensor_list": {
          "sensors": {

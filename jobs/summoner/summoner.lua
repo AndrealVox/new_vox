@@ -1,20 +1,16 @@
 local CombatJob = require 'stonehearth.jobs.combat_job'
-local CraftingJob = require 'stonehearth.jobs.crafting_job'
 local SummonerClass = class()
 radiant.mixin(SummonerClass, CombatJob)
-radiant.mixin(SummonerClass, CraftingJob)
 local Point3 = _radiant.csg.Point3
 local Cube3 = _radiant.csg.Cube3
 local rng = _radiant.math.get_default_rng()
 
 function SummonerClass:initialize()
-   CraftingJob.initialize(self)
    CombatJob.initialize(self)
    self._sv.max_num_workers = {}
 end
 
 function SummonerClass:activate()
-   CraftingJob.activate(self)
    CombatJob.activate(self)
 
    if self._sv.is_current_class then
@@ -26,8 +22,7 @@ end
 
 function SummonerClass:promote(json_path)
    CombatJob.promote(self, json_path)
-   CraftingJob.promote(self, json_path)
-   self._sv.max_num_workers = { workers = 0 }
+   self._sv.max_num_workers = { workers = 3 }
    self.__saved_variables:mark_changed()
 end
 
@@ -49,7 +44,6 @@ end
 
 function SummonerClass:_create_listeners()
 	CombatJob._create_listeners(self)
-	CraftingJob._create_listeners(self)
 	self.summons = radiant.resources.load_json(self._job_json.summons)
 end
 
@@ -62,7 +56,6 @@ end
 
 function SummonerClass:_remove_listeners()
 	CombatJob._remove_listeners(self)
-	CraftingJob._remove_listeners(self)
 	self:_remove_spirit_listener()
 end
 
@@ -83,7 +76,6 @@ end
 function SummonerClass:demote()
    self:_unregister_with_town()
    CombatJob.demote(self)
-   CraftingJob.demote(self)
 end
 
 function SummonerClass:destroy()
@@ -91,7 +83,6 @@ function SummonerClass:destroy()
       self:_unregister_with_town()
    end
    CombatJob.destroy(self)
-   CraftingJob.destroy(self)
 end
 
 function SummonerClass:get_menacing_enemy_list_ascending(all_entities)

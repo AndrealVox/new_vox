@@ -1,10 +1,11 @@
 {
-   "mixins": [
-      "stonehearth:mixins:worker_outfit_2"
-   ],
-   "type": "entity",
+   "mixins": "stonehearth_ace:northern_alliance:worker:outfit:cold_simple",
    "components": {
       "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
          "default": {
             "layer": "clothing",
             "transparent": "false",
@@ -25,23 +26,22 @@
       }
    },
    "entity_data": {
-      "stonehearth:net_worth": {
-         "value_in_gold": 21,
-         "rarity": "common",
-         "shop_info": {
-            "buyable": true,
-            "sellable": true,
-            "shopkeeper_level": 1,
-            "shopkeeper_type": "caravan"
-         }
-      },
       "stonehearth:combat:armor_data": {
          "base_damage_reduction": 8
       },
       "stonehearth:catalog": {
          "icon": "file(boxling_outfit_2.png)",
          "category": "armor",
-         "material_tags":["worker_outfit", "cloth", "boxling_made", "stockpile_equipment"]
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags":[
+            "leather",
+            "na_made",
+            "worker_outfit",
+            "civillian_equipment",
+            "stockpile_equipment"
+         ]
       }
    }
 }

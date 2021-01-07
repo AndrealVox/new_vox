@@ -1,5 +1,0 @@
-{
-    "mixins": "/stonehearth/jobs/herbalist/recipes/cleric_tome_recipe.json",
-    "workshop": "stonehearth:carpenter:workbench",
-    "level_requirement": 0
-}

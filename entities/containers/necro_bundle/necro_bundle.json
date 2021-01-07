@@ -61,7 +61,7 @@
                   },
                   "pizza": {
                      "uri": "box_o_vox:entities:food:pizza:pizza",
-                     "weight": 15
+                     "weight": 8
                   }
                }
             }
@@ -71,7 +71,13 @@
    "entity_data": {
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.containers.necro_bundle.display_name)",
-         "description": "i18n(box_o_vox:entities.containers.necro_bundle.description)"
+         "description": "i18n(box_o_vox:entities.containers.necro_bundle.description)",
+         "is_item": true,
+         "category": "consumable",
+         "material_tags": [
+            "stockpile_consumable",
+            "consumable"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": -100

@@ -1,6 +1,18 @@
 {
    "mixins": "/stonehearth_ace/jobs/mason/recipes/na_recipes.json",
    "craftable_recipes": {
+      "summons": {
+         "ordinal": 4.20,
+         "name": "Undead Workers",
+         "recipes": {
+            "skeleton_gatherer": {
+               "recipe": "file(skeleton_gatherer_recipe.json)"
+            },
+            "zombie_miner": {
+               "recipe": "file(zombie_miner_recipe.json)"
+            }
+         }
+      },
       "storage": {
          "recipes": {
             "box_o_vox_crate": {

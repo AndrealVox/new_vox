@@ -2,6 +2,9 @@
    "mixins": "northern_alliance:jobs:worker",
    "equipment": {
       "torso": "file(boxling_outfit)",
+      "mixintypes": {
+         "mainhand": "override"
+      },
       "mainhand": [
          "box_o_vox:entities:tools:boxling_sceptre"
       ]

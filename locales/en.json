@@ -167,7 +167,7 @@
                         },
                         "read_letter2": {
                            "bulletin_message": {
-                              "00": "She speaks as much with her hands and eyes as with her voice: \"I am glad you have come to a stop and are ready settle. Now that I know you are here, I will keep tabs on you.\" <p>She steps over to the banner and touches its blank center. \"First, though, you must choose your symbol which will represent you in my notes. You should build this area up and make it a place you can call home. I know you could do great things here.\"</p>"
+                              "00": "She speaks as much with her hands and eyes as with her voice: \"I am glad you have come to a stop and are ready to settle. Now that I know you are here, I will keep tabs on you.\" <p>She steps over to the banner and touches its blank center. \"First though, you must choose your symbol which will represent you in my notes. You should build this area up and make it a place you can call home. I know you could do great things here.\"</p>"
                            }
                         },
                         "read_letter3": {
@@ -481,8 +481,8 @@
                            "msg2": {
                               "bulletin_title": "The Path To Necromancy"
                            },
-                           "msg3": {
-                              "bulletin_title": "A Single Necromancer Returns..."
+                           "necro_recipes_unlock": {
+                              "bulletin_title": "New Necromancer Crafts Have Been Added To The Mason!"
                            }
                         }
                      }
@@ -567,7 +567,9 @@
                "perk_000_name": "Flaming Skull Attack",
                "perk_000_description": "The Necromancer is capable of throwing a flaming skull which inflicts a burning slow on enemies.",
                "perk_001_name": "Summon Skeletons",
-               "perk_001_description": "Summon a skeleton army of 4 to fight your battles for you."
+               "perk_001_description": "Summon a skeleton army of 4 to fight your battles for you.",
+               "perk_003_name": "Undead Workers (Max. 3)",
+               "perk_003_description": "The Mason can craft Undead Workers now that the Necromancer is in town giving life to bone."
             },
             "level_2_data": {
                "perk_000_name": "Summon Bone Wolves",
@@ -576,8 +578,8 @@
             "level_3_data": {
                "perk_000_name": "Summon Zombies",
                "perk_000_description": "Summon a zombie army of 2 to fight your battles for you.",
-               "perk_001_name": "Craft a Skeleton Gatherer",
-               "perk_001_description": "This Undead Worker will haul items into storage or stockpiles"
+               "perk_001_name": "Undead Workers (Max. 6)",
+               "perk_001_description": "Increases the maximum Undead Workers your Necromancer can give life to."
             },
             "level_4_data": {
                "perk_000_name": "Summon a Flesh Golem",
@@ -591,8 +593,8 @@
                "title": "Master Necromancer",
                "perk_000_name": "Summon Mini-Necromancers",
                "perk_000_description": "Summon 2 mini-necromancers to fight your battles for you.",
-               "perk_001_name": "Craft a Zombie Miner",
-               "perk_001_description": "This Undead Worker will mine set zones",
+               "perk_001_name": "Undead Workers (Max. 10)",
+               "perk_001_description": "Increases the maximum Undead Workers your Necromancer can give life to.",
                "perk_002_description": "The Necromancer now throws 2 flaming skulls which inflict a burning slow on enemies.",
                "perk_002_name": "Double Flaming Skull Attack"
             }
@@ -673,24 +675,24 @@
                "recipe_name": "Light Bandages (x2)"
             },
             "tree_seed_apple_recipe": {
-               "recipe_name": "Tree Sapling - Apple",
-               "description": "Extract the seed of an apple to plant as a tree.",
-               "flavor": ""
+               "recipe_name": "Apple Tree Sapling (x2)",
+               "description": "Select the best seeds from the apple",
+               "flavor": "Only a skilled hand can choose the best seeds, but the rest are destroyed in the process."
             },
             "tree_seed_banana_recipe": {
-               "recipe_name": "Tree Sapling - Banana",
-               "flavor": "",
-               "description": "Extract the seed of a banana to plant as a tree."
+               "recipe_name": "Banana Tree Sapling (x2)",
+               "flavor": "Only a skilled hand can choose the best seeds, but the rest are destroyed in the process.",
+               "description": "Select the best seeds from the banana."
             },
             "tree_seed_lime_recipe": {
-               "recipe_name": "Tree Sapling - Lime",
-               "flavor": "",
-               "description": "Extract the seed of a lime to plant as a tree."
+               "recipe_name": "Lime Tree Sapling (x2)",
+               "flavor": "Only a skilled hand can choose the best seeds, but the rest are destroyed in the process.",
+               "description": "Select the best seeds from the lime."
             },
             "tree_seed_orange_recipe": {
-               "recipe_name": "Tree Sapling - Orange",
-               "flavor": "",
-               "description": "Extract the seed of an orange to plant as a tree."
+               "recipe_name": "Orange Tree Sapling (x2)",
+               "flavor": "Only a skilled hand can choose the best seeds, but the rest are destroyed in the process.",
+               "description": "Select the best seeds from the orange."
             }
          }
       },

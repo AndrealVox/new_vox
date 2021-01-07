@@ -8,7 +8,7 @@
       "nodes": {
          "simple_message": {
             "bulletin": {
-               "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "title": "Sweet!",
                "dialog_title": "i18n(box_o_vox:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
                "portrait": "file(images/herald_darza.png)",
                "message": "i18n(box_o_vox:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.00)",
@@ -22,20 +22,11 @@
       },
       "loot_table": {
          "entries": {
-            "pizza_definite": {
+            "bundle_definite": {
                "num_rolls": 1,
                "items": {
-                  "pizza": {
-                     "uri": "box_o_vox:entities:food:pizza:pizza",
-                     "weight": 1
-                  }
-               }
-            },
-            "smoothie_definite": {
-               "num_rolls": 1,
-               "items": {
-                  "smoothie": {
-                     "uri": "box_o_vox:entities:food:fruit_smoothie",
+                  "bundle": {
+                     "uri": "box_o_vox:entities:containers:necro_bundle",
                      "weight": 1
                   }
                }

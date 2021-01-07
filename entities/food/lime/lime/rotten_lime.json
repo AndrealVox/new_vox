@@ -28,6 +28,10 @@
          }
       },
       "stonehearth:catalog": {
+         "material_tags": [
+            "stockpile_fungi",
+            "fungi"
+         ],
          "display_name": "i18n(box_o_vox:entities.food.rotten_lime.display_name)",
          "description": "i18n(box_o_vox:entities.food.rotten_lime.description)",
          "icon": "file(rotten_lime.png)",

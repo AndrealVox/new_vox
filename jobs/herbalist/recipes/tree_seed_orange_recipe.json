@@ -7,7 +7,7 @@
    "flavor": "i18n(box_o_vox:jobs.herbalist.recipes.tree_seed_orange_recipe.flavor)",
    "portrait": "/box_o_vox/entities/trees/images/sapling_orange_tree.png",
    "workshop": "stonehearth:herbalist:workbench",
-   "level_requirement": 1,
+   "level_requirement": 3,
    "ingredients": [
       {
          "uri": "box_o_vox:entities:food:orange:orange",
@@ -15,6 +15,9 @@
       }
    ],
    "produces": [
+      {
+         "item": "box_o_vox:entities:trees:orange:sapling"
+      },
       {
          "item": "box_o_vox:entities:trees:orange:sapling"
       }

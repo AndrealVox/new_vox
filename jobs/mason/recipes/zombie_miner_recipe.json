@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 2,
+   "recipe_name": "i18n(box_o_vox:jobs.necromancer.workers.miner.display_name)",
+   "description": "i18n(box_o_vox:jobs.necromancer.workers.miner.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/monsters/summoned/zombie_miner/zombie_miner.png",
+   "level_requirement": 6,
+   "workshop": "stonehearth_ace:mason:workbench_bone",
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "food meat raw",
+         "count": 10
+      },
+      {
+         "material": "bone resource",
+         "count": 10
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:monsters:summoned:zombie_miner"
+      }
+   ]
+}

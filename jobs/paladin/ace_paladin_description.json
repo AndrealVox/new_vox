@@ -35,8 +35,8 @@
    "xp_rewards": {
       "heal_entity": 2,
       "heal_entity_in_combat": 1,
-      "town_protection": 1,
-      "training": 2
+      "town_protection": 10,
+      "training": 20
    },
    "max_training_level": 2,
    "icon": "file(images/icon.png)",

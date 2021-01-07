@@ -1,0 +1,14 @@
+{
+   "mixins": [
+      "file(skeleton_gatherer_ghost.json)"
+   ],
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Vox's Steve",
+         "description": "He won't fight for us because we aren't Vox, but he still has enough living bone to be a free gatherer.",
+         "icon": "file(skeleton_gatherer_auto.png)",
+         "category": "tools",
+         "material_tags": "stone crafted stockpile_tool"
+      }
+   }
+}

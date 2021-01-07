@@ -7,7 +7,7 @@
    "flavor": "i18n(box_o_vox:jobs.herbalist.recipes.tree_seed_lime_recipe.flavor)",
    "portrait": "/box_o_vox/entities/trees/images/sapling_lime_tree.png",
    "workshop": "stonehearth:herbalist:workbench",
-   "level_requirement": 1,
+   "level_requirement": 3,
    "ingredients": [
       {
          "uri": "box_o_vox:entities:food:lime:lime",
@@ -15,6 +15,9 @@
       }
    ],
    "produces": [
+      {
+         "item": "box_o_vox:entities:trees:lime:sapling"
+      },
       {
          "item": "box_o_vox:entities:trees:lime:sapling"
       }

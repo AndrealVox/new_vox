@@ -1,10 +1,11 @@
 {
-   "mixins": [
-      "stonehearth:mixins:item_properties"
-   ],
-   "type": "entity",
+   "mixins": "stonehearth_ace:northern_alliance:worker:outfit:freezing",
    "components": {
       "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
          "default": {
             "layer": "clothing",
             "transparent": "false",
@@ -22,30 +23,9 @@
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(winter_boxling_outfit_iconic.json)"
-      },
-      "stonehearth:equipment_piece": {
-         "slot": "torso",
-         "render_type": "merge_with_model",
-         "roles": ["worker_job"],
-         "ilevel": 2,
-         "injected_buffs": [
-            "stonehearth:buffs:devoted",
-            "stonehearth:buffs:weather:cold_resist"
-         ],
-         "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {
-      "stonehearth:net_worth": {
-         "value_in_gold": 23,
-         "rarity": "common",
-         "shop_info": {
-            "buyable": true,
-            "sellable": true,
-            "shopkeeper_level": 1,
-            "shopkeeper_type": "caravan"
-         }
-      },
       "stonehearth:combat:armor_data": {
          "base_damage_reduction": 10
       },
@@ -54,7 +34,12 @@
          "description": "i18n(stonehearth:jobs.worker.winter_worker_outfit.description)",
          "icon": "file(winter_boxling_outfit.png)",
          "category": "armor",
-         "material_tags": ["worker_outfit", "cloth", "boxling_made", "stockpile_equipment"]
+         "material_tags": [
+            "worker_outfit",
+            "cloth",
+            "boxling_made",
+            "stockpile_equipment"
+         ]
       }
    }
 }

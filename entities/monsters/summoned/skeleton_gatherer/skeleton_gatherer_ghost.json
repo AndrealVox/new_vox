@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(skeleton_gatherer.qb)"
+               "file(skeleton_gatherer_auto.qb)"
             ]
          }
       },
@@ -14,8 +14,16 @@
          "scale": 0.15
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 },
-         "region_origin": { "x": 0, "y": 0, "z": 0 }
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "region_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         }
       }
    },
    "entity_data": {

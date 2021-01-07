@@ -18,51 +18,114 @@
       "boxland": "file(manifest.json)"
    },
    "generation_file": "file(boxland_generation_data.json)",
-   "default_starting_season": "spring",
    "mixintypes": {
       "growth_duration_multiplier": "remove"
    },
-   "foraging_spot_uri": "stonehearth_ace:terrain:foraging_spot:temperate",
-   "foraging_spot_frequency": 0.002,
+
+
+   "foraging_spot_uri": "stonehearth_ace:terrain:foraging_spot:arctic",
+   "foraging_spot_frequency": 0.006,
    "wilderness_score_multiplier": 0.06,
-   "climate": "temperate_medium",
+   "climate": "arctic_medium",
+   "farm_elevation_modifiers": {
+      "humidity": [
+         {
+            "elevation": 0,
+            "multiplier": 0
+			},
+         {
+            "elevation": 38,
+            "multiplier": 1
+         },
+         {
+            "elevation": 59,
+            "multiplier": 0.95
+         },
+         {
+            "elevation": 79,
+            "multiplier": 0.9
+         },
+         {
+            "elevation": 89,
+            "multiplier": 0.8
+         }
+      ],
+      "sunlight": [
+         {
+            "elevation": 59,
+            "multiplier": 1.05
+         },
+         {
+            "elevation": 79,
+            "multiplier": 1.1
+         },
+         {
+            "elevation": 89,
+            "multiplier": 1.2
+         },
+         {
+            "elevation": 99,
+            "multiplier": 1.3
+         }
+      ]
+   },
+
+   "default_starting_season": "spring",
    "seasons": {
       "spring": {
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.spring.display_name)",
          "description": "i18n(box_o_vox:data.biome.boxland.seasons.spring.description)",
          "start_day": 0,
+         "humidity": 0.2,
+         "sunlight": 0.8,
          "weather": [
             {
-               "uri": "stonehearth:weather:sunny",
-               "weight": 4
+               "uri": "stonehearth_ace:weather:snow:late",
+               "weight": [2, 0]
             },
             {
-               "uri": "stonehearth:weather:windy",
-               "weight": 3
+               "uri": "stonehearth_ace:weather:sunny:chilly",
+               "weight": [2, 1]
+            },
+            {
+               "uri": "stonehearth_ace:weather:cloudy:chilly",
+               "weight": [3, 1]
+            },
+            {
+               "uri": "stonehearth_ace:weather:foggy:chilly",
+               "weight": 2
             },
             {
                "uri": "stonehearth:weather:cloudy",
-               "weight": 10
+               "weight": [0, 2]
             },
             {
+               "uri": "stonehearth_ace:weather:windy:springtime",
+               "weight": [2, 3]
+				},
+            {
                "uri": "stonehearth:weather:rain",
-               "weight": 4
+               "weight": [0, 2]
             },
             {
                "uri": "stonehearth:weather:rain:sunny",
-               "weight": 4
+               "weight": [0, 1]
             },
             {
-               "uri": "stonehearth:weather:foggy",
-               "weight": 3
+               "uri": "stonehearth_ace:weather:distant_storm",
+               "weight": [1, 2]
+            },
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": [0, 2]
             },
             {
                "uri": "stonehearth:weather:lucky",
-               "weight": 0.5
+               "weight": 0.04
             },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 5
+               "weight": 1
             }
          ]
       },
@@ -70,34 +133,64 @@
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.summer.display_name)",
          "description": "i18n(box_o_vox:data.biome.boxland.seasons.summer.description)",
          "start_day": 21,
+         "humidity": 0.1,
+         "sunlight": 0.9,
          "weather": [
             {
-               "uri": "stonehearth:weather:sunny",
-               "weight": 10
-            },
-            {
                "uri": "stonehearth:weather:windy",
-               "weight": 6
+               "weight": [2, 1, 0]
             },
             {
                "uri": "stonehearth:weather:cloudy",
-               "weight": 4
+               "weight": [1, 2, 0]
             },
             {
-               "uri": "stonehearth:weather:thunderstorm",
-               "weight": 1
+               "uri": "stonehearth:weather:rain",
+               "weight": [1, 0]
+            },
+            {
+               "uri": "stonehearth_ace:weather:hailstorm",
+               "weight": 0.3
             },
             {
                "uri": "stonehearth:weather:rain:sunny",
-               "weight": 4
+               "weight": [2, 1]
+            },
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": [2, 5, 2]
+            },
+            {
+               "uri": "stonehearth_ace:weather:sunny:hot",
+               "weight": [0, 1, 0]
+				},
+            {
+               "uri": "stonehearth_ace:weather:sunny:stagnant",
+               "weight": [0, 2, 0]
+            },
+            {
+               "uri": "stonehearth_ace:weather:sunny:chilly",
+               "weight": [0, 0, 2]
+            },
+            {
+               "uri": "stonehearth_ace:weather:cloudy:chilly",
+               "weight": [0, 0, 3]
+            },
+            {
+               "uri": "stonehearth_ace:weather:windy:chilly",
+               "weight": [0, 0, 2]
+            },
+            {
+               "uri": "stonehearth_ace:weather:snow:early",
+               "weight": [0, 0, 1]
             },
             {
                "uri": "stonehearth:weather:lucky",
-               "weight": 0.5
+               "weight": 0.05
             },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 5
+               "weight": 1
             }
          ]
       },
@@ -105,42 +198,66 @@
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.autumn.display_name)",
          "description": "i18n(box_o_vox:data.biome.boxland.seasons.autumn.description)",
          "start_day": 42,
+         "humidity": 0.3,
+         "sunlight": 0.7,
+         "foraging_spot_uri": "stonehearth_ace:terrain:foraging_spot:arctic:autumn",
+         "foraging_spot_frequency": 0.004,
          "weather": [
             {
-               "uri": "stonehearth:weather:sunny",
-               "weight": 4
-            },
-            {
-               "uri": "stonehearth:weather:windy",
-               "weight": 6
+               "uri": "stonehearth_ace:weather:snow:early",
+               "weight": [1, 0]
             },
             {
                "uri": "stonehearth:weather:cloudy",
-               "weight": 4
+               "weight": [1, 0]
             },
             {
-               "uri": "stonehearth:weather:rain",
-               "weight": 6
+               "uri": "stonehearth_ace:weather:foggy:chilly",
+               "weight": [1, 0]
             },
             {
-               "uri": "stonehearth:weather:rain:sunny",
-               "weight": 6
+               "uri": "stonehearth_ace:weather:sunny:autumn",
+               "weight": 1
             },
             {
-               "uri": "stonehearth:weather:thunderstorm",
-               "weight": 4
+               "uri": "stonehearth_ace:weather:windy:chilly",
+               "weight": [1, 0]
             },
             {
-               "uri": "stonehearth:weather:foggy",
-               "weight": 10
+               "uri": "stonehearth_ace:weather:cloudy:chilly",
+               "weight": [1, 0]
+            },
+            {
+               "uri": "stonehearth_ace:weather:cloudy:cold",
+               "weight": [0, 2]
+            },
+            {
+               "uri": "stonehearth_ace:weather:rain:chilly",
+               "weight": [0, 2]
+            },
+            {
+               "uri": "stonehearth:weather:snow",
+               "weight": [0, 2]
+            },
+            {
+               "uri": "stonehearth:weather:snow:sunny",
+               "weight": [0, 4]
+            },
+            {
+               "uri": "stonehearth:weather:blizzard",
+               "weight": [0, 1]
+            },
+            {
+               "uri": "stonehearth_ace:weather:snow:drifts",
+               "weight": [0, 0, 1]
             },
             {
                "uri": "stonehearth:weather:lucky",
-               "weight": 0.5
+               "weight": 0.04
             },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 5
+               "weight": 1
             }
          ]
       },
@@ -148,38 +265,58 @@
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.winter.display_name)",
          "description": "i18n(box_o_vox:data.biome.boxland.seasons.winter.description)",
          "start_day": 63,
+         "humidity": -0.3,
+         "sunlight": 0.5,
+         "foraging_spot_uri": "stonehearth_ace:terrain:foraging_spot:arctic:winter",
+         "foraging_spot_frequency": 0.002,
          "weather": [
             {
-               "uri": "stonehearth:weather:sunny",
-               "weight": 2
+               "uri": "stonehearth_ace:weather:sunny:chilly",
+               "weight": [3, 4]
             },
             {
-               "uri": "stonehearth:weather:cloudy",
-               "weight": 2
+               "uri": "stonehearth_ace:weather:windy:chilly",
+               "weight": [6, 7]
             },
             {
-               "uri": "stonehearth:weather:windy",
-               "weight": 2
+               "uri": "stonehearth_ace:weather:cloudy:chilly",
+               "weight": [2, 4]
+            },
+            {
+               "uri": "stonehearth_ace:weather:rain:chilly",
+               "weight": [2, 3]
+            },
+            {
+               "uri": "stonehearth_ace:weather:cloudy:cold",
+               "weight": [2, 1]
             },
             {
                "uri": "stonehearth:weather:snow",
-               "weight": 10
+               "weight": 4
             },
             {
                "uri": "stonehearth:weather:snow:sunny",
-               "weight": 6
+               "weight": 5
             },
             {
                "uri": "stonehearth:weather:blizzard",
-               "weight": 2
+               "weight": [3, 9, 5]
+            },
+            {
+               "uri": "stonehearth_ace:weather:whiteout",
+               "weight": [1, 5, 2]
+            },
+            {
+               "uri": "stonehearth_ace:weather:snow:drifts",
+               "weight": [2, 5, 7]
             },
             {
                "uri": "stonehearth:weather:lucky",
-               "weight": 0.5
+               "weight": 0.03
             },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 5
+               "weight": 1
             }
          ]
       }

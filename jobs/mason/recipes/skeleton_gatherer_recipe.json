@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 2,
+   "recipe_name": "i18n(box_o_vox:jobs.necromancer.workers.gatherer.display_name)",
+   "description": "i18n(box_o_vox:jobs.necromancer.workers.gatherer.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/monsters/summoned/skeleton_gatherer/skeleton_gatherer.png",
+   "level_requirement": 3,
+   "workshop": "stonehearth_ace:mason:workbench_bone",
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "bone resource",
+         "count": 20
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:monsters:summoned:skeleton_gatherer"
+      }
+   ]
+}

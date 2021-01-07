@@ -28,6 +28,10 @@
          }
       },
       "stonehearth:catalog": {
+         "material_tags": [
+            "stockpile_fungi",
+            "fungi"
+         ],
          "display_name": "i18n(box_o_vox:entities.food.rotten_milk.display_name)",
          "description": "i18n(box_o_vox:entities.food.rotten_milk.description)",
          "icon": "file(rotten_milk.png)",

@@ -1,8 +1,7 @@
 {
    "biomes": ["box_o_vox:biome:boxland"],
    "habitat_types": [
-      "forest",
-      "plains"
+      "forest"
    ],
-   "weight": 3
+   "weight": 1
 }

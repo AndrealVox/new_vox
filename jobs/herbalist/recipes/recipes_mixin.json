@@ -1,26 +1,30 @@
 {
-    "craftable_recipes": {
-        "refinement": {
-            "recipes": {
-                "blueberry_bush_transmute": {
-                    "recipe": "file(blueberry_bush_transmute_recipe.json)"
-                },
-                "daisy_plant_transmute": {
-                    "recipe": "file(daisy_plant_transmute_recipe.json)"
-                },
-                "tree_seed_apple": {
-                    "recipe": "file(tree_seed_apple_recipe.json)"
-                },
-                "tree_seed_banana": {
-                    "recipe": "file(tree_seed_banana_recipe.json)"
-                },
-                "tree_seed_lime": {
-                    "recipe": "file(tree_seed_lime_recipe.json)"
-                },
-                "tree_seed_orange": {
-                    "recipe": "file(tree_seed_orange_recipe.json)"
-                }
+   "craftable_recipes": {
+      "refinement": {
+         "recipes": {
+            "daisy_plant_transmute": {
+               "recipe": "file(daisy_plant_transmute_recipe.json)"
             }
-        }
-    }
+         }
+      },
+      "refinement_large": {
+         "recipes": {
+            "blueberry_bush_transmute": {
+               "recipe": "file(blueberry_bush_transmute_recipe.json)"
+            },
+            "tree_seed_apple": {
+               "recipe": "file(tree_seed_apple_recipe.json)"
+            },
+            "tree_seed_banana": {
+               "recipe": "file(tree_seed_banana_recipe.json)"
+            },
+            "tree_seed_lime": {
+               "recipe": "file(tree_seed_lime_recipe.json)"
+            },
+            "tree_seed_orange": {
+               "recipe": "file(tree_seed_orange_recipe.json)"
+            }
+         }
+      }
+   }
 }

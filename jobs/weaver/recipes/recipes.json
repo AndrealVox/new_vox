@@ -1,8 +1,23 @@
 {
    "mixins": "/stonehearth_ace/jobs/weaver/recipes/na_recipes.json",
    "craftable_recipes": {
+      "weapons": {
+         "recipes": {
+            "necromancer_mask_1": {
+               "recipe": "file(necromancer_mask_1_recipe.json)"
+            },
+            "necromancer_mask_2": {
+               "recipe": "file(necromancer_mask_2_recipe.json)"
+            }
+         }
+      },
       "clothing_armor": {
          "recipes": {
+            "mixintypes": {
+               "cold_simple_worker_outfit": "remove",
+               "na_freezing_worker_outfit": "remove",
+               "freezing_simple_worker_outfit": "remove"
+            },
             "worker_outfit_2": {
                "recipe": "file(boxling_outfit_2_recipe.json)"
             },
