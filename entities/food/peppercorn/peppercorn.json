@@ -36,9 +36,14 @@
          "category": "cooking_ingredient",
          "material_tags": [
             "food_container",
-            "stockpile_cooking_ingredient",
+            "raw_food",
+            "fruit",
+            "blueberry",
+            "vegetarian",
             "cooking_ingredient",
-            "peppercorn"
+            "peppercorn",
+            "stockpile_raw_food",
+            "stockpile_cooking_ingredient"
          ]
       },
       "stonehearth:appeal": {

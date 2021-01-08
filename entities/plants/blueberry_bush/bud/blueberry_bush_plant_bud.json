@@ -1,13 +1,76 @@
 {
    "type": "entity",
-   "mixins": "stonehearth:plants:berry_bush:bud",
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "stonehearth:evolve": {},
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(blueberry_bush_bud.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         },
+         "mob_collision_type": "clutter"
+      },
+      "destination": {
+         "region": [
+            {
+               "min": {
+                  "x": -0.5,
+                  "y": 0,
+                  "z": -0.5
+               },
+               "max": {
+                  "x": 1.5,
+                  "y": 1,
+                  "z": 1.5
+               }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": {
+                  "x": -0.5,
+                  "y": 0,
+                  "z": -0.5
+               },
+               "max": {
+                  "x": 1.5,
+                  "y": 2,
+                  "z": 1.5
+               }
+            }
+         ]
+      }
+   },
    "entity_data": {
       "stonehearth:evolve_data": {
          "next_stage": "box_o_vox:entities:plants:blueberry_bush",
-         "evolve_time": "7h+2h"
+         "evolve_time": "15h+2h"
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.plants.blueberry_bush.bud.blueberry_bush_plant_bud.display_name)"
+         "material_tags": [
+            "stockpile_plant"
+         ],
+         "display_name": "i18n(box_o_vox:entities.plants.blueberry_bush.bud.blueberry_bush_plant_bud.display_name)",
+         "description": "i18n(stonehearth_ace:entities.plants.cherry_bush.bud.cherry_bush_plant_bud.description)",
+         "category": "plants"
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
       }
    }
 }

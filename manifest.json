@@ -415,6 +415,8 @@
       "weather:enchanted_mist:mist": "file(data/weather/enchanted_mist/mist.json)"
    },
    "mixintos": {
+      "cm/data/population.json": "box_o_vox/services/server/population/data/cm_population.json",
+
       "stonehearth/locales/en.json": "file(locales/en_mixin.json)",
       "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
       "stonehearth:data:gm_index": "box_o_vox:data:gm_index",

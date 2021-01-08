@@ -1,0 +1,26 @@
+{
+   "roles": {
+      "default": {
+         "attribute_distribution": {
+            "allocated_points": {
+               "min": 1,
+               "max": 9
+            },
+            "point_limits": {
+               "mind": {
+                  "min": 3,
+                  "max": 5
+               },
+               "body": {
+                  "min": 3,
+                  "max": 5
+               },
+               "spirit": {
+                  "min": 3,
+                  "max": 5
+               }
+            }
+         }
+      }
+   }
+}

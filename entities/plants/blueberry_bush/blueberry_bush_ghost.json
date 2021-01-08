@@ -3,17 +3,80 @@
    "type": "entity",
    "components": {
       "render_info": {
-         "scale": 0.15
+         "scale": 0.125
       },
       "mob": {
-         "model_origin": { "x": -0.075, "y": 0, "z": 0.075 },
-         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+         "model_origin": {
+            "x": -0.075,
+            "y": 0,
+            "z": 0.075
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         }
       },
       "model_variants": {
          "default": {
             "models": [
-               "file(blueberry_bush.qb)"
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(blueberry_bush.qb)"
+                  ]
+               }
             ]
+         },
+         "autumn": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(blueberry_bush_autumn.qb)"
+                  ]
+               }
+            ]
+         },
+         "summer": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(blueberry_bush_summer.qb)"
+                  ]
+               }
+            ]
+         },
+         "winter": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(blueberry_bush_winter.qb)"
+                  ]
+               }
+            ]
+         }
+      },
+      "stonehearth:seasonal_model_switcher": {
+         "*": {
+            "spring": "default",
+            "summer": "summer",
+            "autumn": "autumn",
+            "winter": "winter"
+         },
+         "stonehearth:biome:arctic": {
+            "spring": "default",
+            "summer": "summer",
+            "autumn": "winter",
+            "winter": "winter"
+         },
+         "stonehearth:biome:desert": {
+            "spring": "summer",
+            "summer": "summer",
+            "autumn": "summer",
+            "winter": "autumn"
          }
       }
    },
@@ -23,7 +86,11 @@
          "description": "i18n(box_o_vox:entities.plants.blueberry_bush.description)",
          "icon": "file(blueberry_bush.png)",
          "category": "plants",
-         "material_tags": "plant stockpile_plant",
+         "material_tags": [
+            "plant",
+            "decoration",
+            "stockpile_plant"
+         ],
          "subjects": [
             "plants"
          ]

@@ -13,8 +13,7 @@
          "icon": "file(blueberry_bush_plant_seed.png)"
       },
       "stonehearth:evolve_data": {
-         "next_stage": "box_o_vox:entities:plants:blueberry_bush:sprout",
-         "evolve_time": "2h+2h"
+         "next_stage": "box_o_vox:entities:plants:blueberry_bush:sprout"
       }
    }
 }

@@ -2,6 +2,9 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
+      "render_info": {
+         "scale": 0.09
+      },
       "model_variants": {
          "default": {
             "models": [
@@ -15,12 +18,6 @@
             "y": 0,
             "z": 0
          }
-      }
-   },
-   "entity_data": {
-      "stonehearth:catalog": {
-         "is_item": true,
-         "category": "plants"
       }
    }
 }

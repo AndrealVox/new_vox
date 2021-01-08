@@ -2,78 +2,50 @@
    "type": "entity",
    "mixins": "file(peppercorn_bush_ghost.json)",
    "components": {
-      "stonehearth:commands": {
-         "commands": [
-            "autoharvest_mod:commands:autoharvest_off"
-         ]
-      },
-      "model_variants": {
-         "depleted": {
-            "models": [
-               "file(peppercorn_bush_empty.qb)"
-            ]
-         }
-      },
-      "destination": {
-         "region": [
-            {
-               "min": {
-                  "x": -0.5,
-                  "y": 0,
-                  "z": -0.5
-               },
-               "max": {
-                  "x": 1.5,
-                  "y": 1,
-                  "z": 1.5
-               }
-            }
-         ]
-      },
-      "region_collision_shape": {
-         "region": [
-            {
-               "min": {
-                  "x": -0.5,
-                  "y": 0,
-                  "z": -0.5
-               },
-               "max": {
-                  "x": 1.5,
-                  "y": 2,
-                  "z": 1.5
-               }
-            }
-         ]
-      },
-      "stonehearth:renewable_resource_node": {
+      "stonehearth:resource_node": {
          "resource": "box_o_vox:entities:food:peppercorn",
          "category": "harvest",
          "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
          "resource_spawn_effect": "stonehearth:effects:harvest_plants_effect",
-         "unripe_description": "i18n(box_o_vox:entities.plants.peppercorn_bush.unripe_description)",
-         "renewal_time": "10h",
+         "description": "harvest_plant",
+         "resource_loot_table": {
+            "entries": {
+               "optional": {
+                  "items": {
+                     "none": {
+                        "uri": "",
+                        "weight": 7
+                     },
+                     "extra_herb": {
+                        "uri": "box_o_vox:entities:food:peppercorn",
+                        "weight": 3
+                     },
+                     "seed": {
+                        "uri": "box_o_vox:entities:food:peppercorn",
+                        "weight": 0
+                     }
+                  }
+               }
+            }
+         }
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(peppercorn_bush_iconic.json)",
          "ghost_form": "file(peppercorn_bush_ghost.json)",
-         "placeable_on_ground": true,
-         "hide_undeploy_ui": false
+         "placeable_on_ground": true
       }
    },
    "entity_data": {
       "stonehearth:net_worth": {
-         "value_in_gold": 1,
+         "value_in_gold": 2,
          "rarity": "common",
          "shop_info": {
             "buyable": false,
-            "sellable": true,
-            "shopkeeper_level": 1,
-            "shopkeeper_type": "caravan"
+            "sellable": true
          }
       },
       "stonehearth:appeal": {
-         "appeal": 5
+         "appeal": 2
       }
    }
 }

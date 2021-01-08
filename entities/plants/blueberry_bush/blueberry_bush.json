@@ -2,16 +2,50 @@
    "type": "entity",
    "mixins": "file(blueberry_bush_ghost.json)",
    "components": {
-      "stonehearth:commands": {
-         "commands": [
-            "autoharvest_mod:commands:autoharvest_off"
-         ]
-      },
-      "model_variants": {
-         "depleted": {
-            "models": [
-               "file(blueberry_bush_empty.qb)"
-            ]
+      "stonehearth:renewable_resource_node": {
+         "resource": "box_o_vox:entities:food:blueberry:blueberry_basket",
+         "category": "harvest",
+         "renewal_time": "22h+2h",
+         "unripe_description": "i18n(box_o_vox:entities.plants.blueberry_bush.unripe_description)",
+         "harvest_overlay_effect": "stonehearth_ace:effects:harvest_fruit_overlay_effect",
+         "half_renewed_model": {
+            "model": "/box_o_vox/entities/plants/blueberry_bush/blueberry_bush_half_renewed.qb",
+            "matrix": "berries",
+            "scale": 0.124,
+            "offset": {
+               "x": 10,
+               "y": 0,
+               "z": 9
+            }
+         },
+         "renewed_model": {
+            "model": "/box_o_vox/entities/plants/blueberry_bush/blueberry_bush_renewed.qb",
+            "matrix": "berries",
+            "scale": 0.124,
+            "offset": {
+               "x": 10,
+               "y": 0,
+               "z": 9
+            }
+         },
+         "biomes": {
+            "stonehearth:biome:arctic": {
+               "renewal_time_multiplier": 1.5
+            },
+            "stonehearth:biome:desert": {
+               "renewal_time_multiplier": 3
+            }
+         },
+         "seasons": {
+            "summer": {
+               "renewal_time_multiplier": 2
+            },
+            "autumn": {
+               "renewal_time_multiplier": 4
+            },
+            "winter": {
+               "renewal_time_multiplier": 8
+            }
          }
       },
       "destination": {
@@ -40,45 +74,16 @@
                },
                "max": {
                   "x": 1.5,
-                  "y": 2,
+                  "y": 3,
                   "z": 1.5
                }
             }
          ]
       },
-      "stonehearth:renewable_resource_node": {
-         "resource": "box_o_vox:entities:food:blueberry:blueberry_basket",
-         "category": "harvest",
-         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
-         "resource_spawn_effect": "stonehearth:effects:harvest_berry_effect",
-         "unripe_description": "i18n(box_o_vox:entities.plants.blueberry_bush.unripe_description)",
-         "renewal_time": "12h+2h",
-         "resource_loot_table": {
-            "entries": {
-               "optional": {
-                  "num_rolls": {
-                     "min": 1,
-                     "max": 1
-                  },
-                  "items": {
-                     "none": {
-                        "uri": "",
-                        "weight": 4
-                     },
-                     "pelt": {
-                        "uri": "box_o_vox:entities:plants:blueberry_bush:seed",
-                        "weight": 1
-                     }
-                  }
-               }
-            }
-         }
-      },
       "stonehearth:entity_forms": {
          "iconic_form": "file(blueberry_bush_iconic.json)",
          "ghost_form": "file(blueberry_bush_ghost.json)",
-         "placeable_on_ground": true,
-         "hide_undeploy_ui": false
+         "placeable_on_ground": true
       }
    },
    "entity_data": {
