@@ -1,17 +1,27 @@
 #titlescreen {
 
-    #currentSplash,
-    #lastSpash {
-        background-size: contain !important;
-        background-position: bottom left !important;
-    }
+   #currentSplash,
+   #lastSpash {
+      background-size: contain !important;
+      background-position: bottom left !important;
+   }
 
-    &.ace_enabled {
+   &.ace_enabled {
 
-        #currentSplash,
-        #lastSplash {
-            background-size: contain !important;
-            background-position: bottom left !important;
-        }
-    }
+      #currentSplash,
+      #lastSplash {
+         background-size: contain !important;
+         background-position: bottom left !important;
+      }
+   }
+}
+
+#titlescreen::after {
+   content: "";
+   position: absolute;
+   left: 1150px;
+   top: 60px;
+   width: 818px;
+   height: 134px;
+   background: url(/box_o_vox/logo.png);
 }
