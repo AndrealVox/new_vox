@@ -8,6 +8,22 @@
             }
          }
       },
+      "farming_enhancements": {
+         "recipes": {
+            "mixintypes": {
+               "sweet_potato_seeds_2_recipe": "remove",
+               "cotton_seeds_2_recipe": "remove",
+               "marblesprout_seeds_2_recipe": "remove",
+               "snow_poppy_seeds_2_recipe": "remove",
+               "violet_seeds_2_recipe": "remove",
+               "walnut_tree_seeds_2_recipe": "remove",
+               "pear_tree_seeds_2_recipe": "remove"
+            },
+            "daisy_seed_recipe": {
+               "recipe": "file(daisy_seed_recipe.json)"
+            }
+         }
+      },
       "refinement_large": {
          "recipes": {
             "blueberry_bush_transmute": {

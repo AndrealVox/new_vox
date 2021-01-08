@@ -1,31 +1,31 @@
 {
-    "mixins": "stonehearth:mixins:item_properties",
-    "type": "entity",
-    "components": {
-        "model_variants": {
-            "default": {
-                "models": [
-               "file(../seeds.qb)"
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(daisy_seeds.qb)"
             ]
-            }
-        },
-        "mob": {
-            "model_origin": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            }
-        },
-        "stonehearth:commands": {
-            "commands": [
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         }
+      },
+      "stonehearth:commands": {
+         "commands": [
             "stonehearth:commands:use_seeds"
          ]
-        }
-    },
-    "entity_data": {
-        "stonehearth:catalog": {
-            "is_item": true,
-            "category": "consumable"
-        }
-    }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "is_item": true,
+         "category": "consumable"
+      }
+   }
 }

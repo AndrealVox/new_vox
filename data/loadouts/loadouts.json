@@ -33,6 +33,14 @@
                "icon": "file(images/items/herbalist.png)",
                "amount": 1
             },
+            "famrer": {
+               "ordinal": 2,
+               "display_name": "Farmer",
+               "type": "entity",
+               "uri": "stonehearth:farmer:talisman",
+               "icon": "file(images/items/eldritch/farmer.png)",
+               "amount": 1
+            },
             "cask": {
                "ordinal": 4,
                "display_name": "Cask",
@@ -65,15 +73,15 @@
          "display_name": "Eldritch",
          "description": "Nothing Needs Be Said",
          "tooltip": "This is where a tool-tip would go if I had one to put",
-         "splash": "file(images/path_of_the_necromancer/splash.png)",
-         "seal": "file(images/path_of_the_necromancer/seal.png)",
+         "splash": "file(images/path_of_the_necromancer/splash_1.png)",
+         "seal": "file(images/path_of_the_necromancer/seal_1.png)",
          "content": {
-            "samurai": {
+            "trapper": {
                "ordinal": 1,
-               "display_name": "Knight",
+               "display_name": "Trapper",
                "type": "entity",
-               "uri": "stonehearth:knight:talisman",
-               "icon": "file(images/items/eldritch/knight.png)",
+               "uri": "stonehearth:trapper:talisman",
+               "icon": "file(images/items/eldritch/trapper.png)",
                "amount": 1
             },
             "famrer": {
@@ -90,6 +98,14 @@
                "type": "entity",
                "uri": "stonehearth:mason:talisman",
                "icon": "file(images/items/eldritch/mason.png)",
+               "amount": 1
+            },
+            "seed": {
+               "ordinal": 4,
+               "display_name": "Seeds",
+               "type": "entity",
+               "uri": "stonehearth:consumables:seeds:watermelon_seeds",
+               "icon": "file(images/items/eldritch/seeds.png)",
                "amount": 1
             },
             "cask": {
