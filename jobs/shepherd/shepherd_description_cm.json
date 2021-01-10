@@ -1,0 +1,10 @@
+{
+   "display_order": 8.001,
+   "mixintypes": {
+      "parent_jobs": "remove",
+      "parent_job": "override",
+      "parent_level_requirement": "override"
+   },
+   "parent_job": "stonehearth:jobs:worker",
+   "parent_level_requirement": 0
+}

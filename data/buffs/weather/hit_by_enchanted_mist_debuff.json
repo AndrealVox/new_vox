@@ -6,6 +6,18 @@
    "icon": "file(hit_by_enchanted_mist_debuff.png)",
    "duration": "26h",
    "repeat_add_action": "renew_duration",
+   "disallowed_buffs": [
+      "stonehearth_ace:buffs:weather:soaked",
+      "stonehearth_ace:buffs:wounds:small_cut",
+      "stonehearth_ace:buffs:wounds:prick",
+      "stonehearth_ace:buffs:wounds:minor_sting",
+      "stonehearth_ace:buffs:wounds:bruise",
+      "stonehearth_ace:buffs:wounds:nasty_gash",
+      "stonehearth_ace:buffs:wounds:crushing_blow",
+      "stonehearth_ace:buffs:wounds:deep_slash",
+      "stonehearth_ace:buffs:wounds:broken_bone",
+      "stonehearth_ace:buffs:wounds:bad_burn"
+   ],
    "modifiers": {
       "diligence": {
          "multiply": 1.26

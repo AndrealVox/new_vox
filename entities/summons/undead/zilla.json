@@ -11,7 +11,7 @@
                "models": "override"
             },
             "models": [
-               "file(flesh_zilla.qb)"
+               "file(model/flesh_zilla.qb)"
             ]
          }
       },
@@ -20,7 +20,7 @@
             "items": "override"
          },
          "items": [
-				"file(zilla_teeth.json)"
+				"file(weapon/zilla_teeth.json)"
 			]
       },
       "sensor_list": {

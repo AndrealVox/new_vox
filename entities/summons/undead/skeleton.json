@@ -7,7 +7,7 @@
             "items": "override"
          },
          "items": [
-				"file(fist_weapon.json)"
+				"file(weapon/fist_weapon.json)"
 			]
       },
       "sensor_list": {

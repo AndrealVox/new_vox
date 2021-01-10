@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth_ace:northern_alliance:worker:outfit:cold_simple",
+   "mixins": "stonehearth:mixins:worker_outfit_2",
    "components": {
       "model_variants": {
          "mixintypes": {
@@ -21,6 +21,11 @@
             ]
          }
       },
+      "stonehearth:equipment_piece": {
+         "injected_buffs": [
+            "stonehearth_ace:buffs:weather:chilly_resist"
+         ]
+      },
       "stonehearth:entity_forms": {
          "iconic_form": "file(boxling_outfit_2_iconic.json)"
       }
@@ -35,7 +40,7 @@
          "mixintypes": {
             "material_tags": "override"
          },
-         "material_tags":[
+         "material_tags": [
             "leather",
             "na_made",
             "worker_outfit",

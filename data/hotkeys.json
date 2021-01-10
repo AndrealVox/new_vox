@@ -1,20 +1,5 @@
 {
    "keys": {
-      "craft:cleric": {
-         "display_name": "i18n(box_o_vox:ui.shell.settings.controls_tab.key_binding_names.craft_cleric)",
-         "category": "craft",
-         "ordinal": 72,
-         "combo1": "",
-         "combo2": ""
-      },
-      "craft:necromancer": {
-         "display_name": "i18n(box_o_vox:ui.shell.settings.controls_tab.key_binding_names.craft_necromancer)",
-         "category": "craft",
-         "ordinal": 73,
-         "combo1": "",
-         "combo2": ""
-      },
-
       "fight:move": {
          "combo2": "shift+keym"
       },
@@ -26,6 +11,13 @@
       },
       "fight:cancelOrders": {
          "combo2": "shift+keyx"
+      },
+
+      "build:box_move_items": {
+         "combo2": "shift+keyy"
+      },
+      "build:box_undeploy_items": {
+         "combo2": "shift+keyu"
       }
    }
 }

@@ -6,7 +6,7 @@
    "type": "entity",
    "components": {
       "render_info": {
-         "scale": 1.0
+         "scale": 1.23
       },
       "model_variants": {
          "spring": {
@@ -68,58 +68,81 @@
          "resource_loot_table": {
             "entries": {
                "stone": {
-                  "roll_type": "some_of",
+                  "season": [
+                     "spring",
+                     "summer"
+                  ],
                   "num_rolls": {
                      "min": 1,
-                     "max": 1
+                     "max": 2
                   },
                   "items": {
-                     "none": {
-                        "uri": "",
-                        "weight": 10
-                     },
                      "stone": {
-                        "uri": "stonehearth:resources:stone:hunk_of_stone",
-                        "weight": 1
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               },
+               "cold_stone": {
+                  "season": [
+                     "autumn",
+                     "winter"
+                  ],
+                  "num_rolls": {
+                     "min": 3,
+                     "max": 4
+                  },
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
                      }
                   }
                },
                "apple": {
-                  "roll_type": "some_of",
+                  "season": [
+                     "summer",
+                     "autumn"
+                  ],
                   "num_rolls": {
                      "min": 1,
                      "max": 1
                   },
                   "items": {
-                     "none": {
-                        "uri": "",
-                        "weight": 10
-                     },
                      "apple": {
-                        "uri": "box_o_vox:entities:food:apple:apple",
-                        "weight": 1
+                        "uri": "box_o_vox:entities:food:apple:apple"
                      }
                   }
                },
                "lime": {
-                  "roll_type": "some_of",
+                  "season": [
+                     "summer",
+                     "autumn"
+                  ],
                   "num_rolls": {
                      "min": 1,
                      "max": 1
                   },
                   "items": {
-                     "none": {
-                        "uri": "",
-                        "weight": 10
-                     },
                      "lime": {
-                        "uri": "box_o_vox:entities:food:lime:lime",
-                        "weight": 1
+                        "uri": "box_o_vox:entities:food:lime:lime"
                      }
                   }
                },
                "orange": {
-                  "roll_type": "some_of",
+                  "season": [
+                     "spring",
+                     "autumn"
+                  ],
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 1
+                  },
+                  "items": {
+                     "orange": {
+                        "uri": "box_o_vox:entities:food:orange:orange"
+                     }
+                  }
+               },
+               "beehive": {
                   "num_rolls": {
                      "min": 1,
                      "max": 1
@@ -129,9 +152,39 @@
                         "uri": "",
                         "weight": 10
                      },
-                     "orange": {
-                        "uri": "box_o_vox:entities:food:orange:orange",
+                     "beehive": {
+                        "uri": "stonehearth_ace:beehive",
                         "weight": 1
+                     }
+                  }
+               },
+               "bough_bale": {
+                  "season": [
+                     "summer",
+                     "autumn"
+                  ],
+                  "num_rolls": {
+                     "min": 3,
+                     "max": 4
+                  },
+                  "items": {
+                     "bough_bale": {
+                        "uri": "stonehearth_ace:resources:bough_bale"
+                     }
+                  }
+               },
+               "maybe_bough_bale": {
+                  "season": [
+                     "spring",
+                     "summer"
+                  ],
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 2
+                  },
+                  "items": {
+                     "bough_bale": {
+                        "uri": "stonehearth_ace:resources:bough_bale"
                      }
                   }
                }
@@ -158,14 +211,14 @@
          "region": [
             {
                "min": {
-                  "x": -2,
+                  "x": -4,
                   "y": 0,
-                  "z": -2
+                  "z": -4
                },
                "max": {
-                  "x": 3,
+                  "x": 4,
                   "y": 1,
-                  "z": 3
+                  "z": 4
                }
             }
          ]
@@ -174,14 +227,14 @@
          "region": [
             {
                "min": {
-                  "x": -2,
+                  "x": -4,
                   "y": 0,
-                  "z": -2
+                  "z": -4
                },
                "max": {
-                  "x": 3,
+                  "x": 4,
                   "y": 27,
-                  "z": 3
+                  "z": 4
                }
             }
          ]
@@ -192,7 +245,7 @@
          "is_followable": true
       },
       "stonehearth:stump_data": {
-         "stump_alias": "stonehearth_ace:trees:oak:small:stump"
+         "stump_alias": "stonehearth_ace:trees:oak:medium:stump"
       },
       "stonehearth:catalog": {
          "display_name": "Boxland Tree",

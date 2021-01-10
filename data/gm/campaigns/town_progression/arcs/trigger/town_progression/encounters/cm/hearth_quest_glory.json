@@ -1,0 +1,36 @@
+{
+   "delivery_quest_info": {
+      "mixintypes": {
+         "requirements": "override"
+      },
+      "requirements": [
+         {
+            "type": "give_item",
+            "uri": "stonehearth:consumables:strength_tonic",
+            "count": 3,
+            "keep_items": true
+         },
+         {
+            "type": "give_item",
+            "uri": "stonehearth:consumables:light_bandage",
+            "count": 3,
+            "keep_items": true
+         },
+         {
+            "type": "job_level",
+            "uri": "swamp_goblins:jobs:beast_tamer",
+            "level": 3
+         },
+         {
+            "type": "job_level",
+            "uri": "stonehearth:jobs:cleric",
+            "level": 3
+         },
+         {
+            "type": "job_level",
+            "uri": "stonehearth:jobs:archer",
+            "level": 3
+         }
+      ]
+   }
+}

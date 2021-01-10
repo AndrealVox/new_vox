@@ -2,7 +2,7 @@
    "type": "entity",
    "components": {
       "stonehearth:equipment_piece": {
-         "military_score": 5
+         "military_score": 40
       }
    },
    "entity_data": {

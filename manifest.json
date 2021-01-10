@@ -310,6 +310,7 @@
       "jobs:mason": "file(jobs/mason/mason_description.json)",
       "jobs:potter": "file(jobs/potter/potter_description.json)",
       "jobs:shepherd": "file(jobs/shepherd/shepherd_description_ace.json)",
+      "jobs:shepherd_cm": "file(jobs/shepherd/shepherd_description_cm.json)",
       "jobs:trapper": "file(jobs/trapper/trapper_description.json)",
       "jobs:weaver": "file(jobs/weaver/weaver_description.json)",
       "jobs:worker": "file(jobs/worker/worker_description.json)",
@@ -376,7 +377,7 @@
       "jobs:necromancer:spells:zilla": "file(jobs/necromancer/pages/zilla_summon_page.json)",
       "jobs:necromancer:spells:zombie": "file(jobs/necromancer/pages/zombie_summon_page.json)",
       "jobs:necromancer:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
-      "jobs:paladin": "file(jobs/paladin/paladin_description.json)",
+      "jobs:paladin": "file(jobs/paladin/ace_paladin_description.json)",
       "jobs:trapper:trapping_grounds": "file(jobs/trapper/trapping_grounds/trapping_grounds.json)",
       "jobs:trapper:ace_trapping_grounds": "file(jobs/trapper/trapping_grounds/ace_trapping_grounds.json)",
       "jobs:worker:boxling_outfit": "file(jobs/worker/boxling_outfit)",
@@ -415,7 +416,9 @@
       "weather:enchanted_mist:mist": "file(data/weather/enchanted_mist/mist.json)"
    },
    "mixintos": {
+      "cm:jobs:shepherd": "box_o_vox:jobs:shepherd_cm",
       "cm:jobs:cleric": "box_o_vox:jobs:cm_cleric",
+      "cm/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/hearth_quest_glory.json": "box_o_vox/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/cm/hearth_quest_glory.json",
       "cm/data/population.json": "box_o_vox/services/server/population/data/cm_population.json",
       "swamp_goblins/jobs/carpenter/recipes/beast_tamer_talisman_recipe.json": "box_o_vox/jobs/carpenter/recipes/beast_tamer_talisman_recipe.json",
 
@@ -480,64 +483,34 @@
       "stonehearth/entities/crops/turnip_crop/turnip_crop.json": "file(entities/crops/turnip_crop/turnip_crop.json)",
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
-      "stonehearth_ace/data/hotkeys.json": "box_o_vox/data/hotkeys_ace.json",
       "stonehearth:kingdoms:human_npcs": "file(data/bov_human_npc_population.json)",
       "stonehearth/jobs/farmer/field/field.json": "file(jobs/farmer/field/field.json)",
       "stonehearth/data/materials/color_maps/skin_color_map.json": "box_o_vox/data/materials/color_maps/skin_color_map.json",
       "stonehearth/data/materials/color_maps/magic_color_map.json": "box_o_vox/data/materials/color_maps/magic_color_map.json",
       "stonehearth/ai/packs/ranged_combat_ai_pack.json": "box_o_vox/ai/packs/ranged_combat_ai_pack.json",
-      "box_o_vox/jobs/worker/winter_boxling_outfit/winter_boxling_outfit.json": "stonehearth_ace/mixins/armor/ace_outfit_freezing_buffed.json",
       "stonehearth:data:sound_constants": "file(data/sounds/sound_constants.json)",
       "stonehearth/data/gm/campaigns/trader/arcs/encounters/na_returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "stonehearth/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
       "rayyas_children/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "box_o_vox:bov_crop_rewards",
-
-
-
+      "stonehearth:buffs:recently_treated": "file(data/buffs/recently_treated/recently_treated_buff.json)",
+      "stonehearth_ace:stonehearth:buffs:recently_treated": "file(data/buffs/recently_treated/recently_treated_buff.json)",
       "archipelago_biome/data/biome/archipelago_generation_data.json": "box_o_vox/data/biome/archipelago_generation_data.json",
-
       "stonehearth/jobs/npc_jobs/npc_miner/npc_miner_description.json": "box_o_vox/jobs/npc_jobs/rescuer.json",
       "stonehearth/jobs/npc_jobs/npc_restocker/npc_restocker_description.json": "box_o_vox/jobs/npc_jobs/rescuer.json",
-
       "stonehearth_ace/entities/gizmos/training_dummy/training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
       "stonehearth_ace/entities/gizmos/stone_training_dummy/stone_training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
       "stonehearth_ace/entities/gizmos/clay_training_dummy/clay_training_dummy.json": "box_o_vox/entities/gizmos/training_dummy/training_dummy.json",
-
       "stonehearth_ace:brewer:wine_cask:empty": "box_o_vox:brewer:wine_cask:empty",
-
-      "trapper_plus/jobs/cook/recipes/salt_recipe.json": "box_o_vox/jobs/cook/recipes/trapper_plus/salt_recipe.json",
-
       "hunter/jobs/hunter/hunter_description.json": "box_o_vox/jobs/hunter/hunter_description.json",
-
-
       "stonehearth_ace/data/gm/campaigns/bonecarving/bonecarving_campaign.json": "file(data/gm/campaigns/deny_if_boxlings.json)",
-
-
-      "box_o_vox:jobs:recipes:cook": "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json",
-
-      "stonehearth_ace/jobs/brewer/recipes/recipes.json": "box_o_vox/jobs/brewer/recipes/recipes.json",
-
-
-      "box_o_vox/jobs/necromancer/recipes/recipes.json": "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json",
-      "box_o_vox/jobs/necromancer/recipes/recipes.json": "trapper_plus/box_o_vox/necromancer/recipes/trapper_plus_recipes.json",
-      "box_o_vox/jobs/paladin/paladin_description.json": "stonehearth_ace/box_o_vox/paladin/paladin_description.json",
-      "box_o_vox/jobs/necromancer/necromancer_description.json": "stonehearth_ace/box_o_vox/necromancer/necromancer_description.json"
+      "stonehearth_ace/jobs/brewer/recipes/recipes.json": "box_o_vox/jobs/brewer/recipes/recipes.json"
    },
    "overrides": {
       "stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
       "stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
       "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
 
-      "stonehearth/ui/shell/title/images/stonehearth_logo.png": "file(ui/shell/title/images/stonehearth_logo.png)",
-
-
-      "stonehearth_ace/box_o_vox/cook/recipes/ace_recipes.json": "box_o_vox:jobs:recipes:cook_ace",
-
-
-      "stonehearth_ace/box_o_vox/necromancer/recipes/ace_recipes.json": "file(jobs/necromancer/recipes/ace_recipes.json)",
-      "trapper_plus/box_o_vox/necromancer/recipes/trapper_plus_recipes.json": "file(jobs/necromancer/recipes/trapper_plus_recipes.json)",
-      "stonehearth_ace/box_o_vox/paladin/paladin_description.json": "box_o_vox/jobs/paladin/ace_paladin_description.json",
-      "stonehearth_ace/box_o_vox/necromancer/necromancer_description.json": "box_o_vox/jobs/necromancer/ace_necromancer_description.json"
+      "stonehearth/ui/shell/title/images/stonehearth_logo.png": "file(ui/shell/title/images/stonehearth_logo.png)"
    },
    "controllers": {
       "class:cleric": "file(jobs/cleric/cleric.lua)",

@@ -11,7 +11,7 @@
                "models": "override"
             },
             "models": [
-               "file(flesh_golem.qb)"
+               "file(model/flesh_golem.qb)"
             ]
          }
       },
@@ -20,7 +20,7 @@
             "items": "override"
          },
          "items": [
-				"file(golem_fist.json)"
+				"file(weapon/golem_fist.json)"
 			]
       },
       "sensor_list": {

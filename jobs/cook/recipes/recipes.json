@@ -33,6 +33,9 @@
             "mixintypes": {
                "sheep_feed": "override",
                "poyo_feed": "override"
+            },
+            "kibble": {
+               "recipe": "file(ace/kibble_recipe.json)"
             }
          }
       }

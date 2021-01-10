@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth_ace:northern_alliance:worker:outfit:freezing",
+   "mixins": "stonehearth:worker:outfit:winter",
    "components": {
       "model_variants": {
          "mixintypes": {
@@ -20,6 +20,11 @@
                "file(winter_boxling_outfit_female.qb)"
             ]
          }
+      },
+      "stonehearth:equipment_piece": {
+         "injected_buffs": [
+            "stonehearth_ace:buffs:weather:chilly_resist"
+         ]
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(winter_boxling_outfit_iconic.json)"

@@ -7,7 +7,7 @@
             "items": "override"
          },
          "items": [
-				"file(undead_wolf_teeth.json)"
+				"file(weapon/wolf_teeth.json)"
 			]
       },
       "sensor_list": {
