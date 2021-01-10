@@ -1,143 +1,205 @@
 {
-    "mixins": [
+   "mixins": [
       "stonehearth:mixins:tree",
       "stonehearth:mixins:align_to_grid"
    ],
-    "type": "entity",
-    "components": {
-        "render_info": {
-            "scale": 0.8
-        },
-        "model_variants": {
-            "default": {
-                "models": [
-                     "file(boxland_tree.qb)"
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 1.0
+      },
+      "model_variants": {
+         "spring": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(spring.qb)"
                   ]
+               }
+            ]
+         },
+         "autumn": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(autumn.qb)"
+                  ]
+               }
+            ]
+         },
+         "summer": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(summer.qb)"
+                  ]
+               }
+            ]
+         },
+         "winter": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(winter.qb)"
+                  ]
+               }
+            ]
+         }
+      },
+      "stonehearth:seasonal_model_switcher": {
+         "box_o_vox:biome:boxland": {
+            "spring": "spring",
+            "summer": "summer",
+            "autumn": "autumn",
+            "winter": "winter"
+         }
+      },
+      "effect_list": {
+         "default": "box_o_vox:effects:fog"
+      },
+      "stonehearth:resource_node": {
+         "durability": 20,
+         "harvest_overlay_effect": "stonehearth:effects:chop_overlay_effect",
+         "resource": "stonehearth:resources:wood:oak_log",
+         "resource_loot_table": {
+            "entries": {
+               "stone": {
+                  "roll_type": "some_of",
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 1
+                  },
+                  "items": {
+                     "none": {
+                        "uri": "",
+                        "weight": 10
+                     },
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone",
+                        "weight": 1
+                     }
+                  }
+               },
+               "apple": {
+                  "roll_type": "some_of",
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 1
+                  },
+                  "items": {
+                     "none": {
+                        "uri": "",
+                        "weight": 10
+                     },
+                     "apple": {
+                        "uri": "box_o_vox:entities:food:apple:apple",
+                        "weight": 1
+                     }
+                  }
+               },
+               "lime": {
+                  "roll_type": "some_of",
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 1
+                  },
+                  "items": {
+                     "none": {
+                        "uri": "",
+                        "weight": 10
+                     },
+                     "lime": {
+                        "uri": "box_o_vox:entities:food:lime:lime",
+                        "weight": 1
+                     }
+                  }
+               },
+               "orange": {
+                  "roll_type": "some_of",
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 1
+                  },
+                  "items": {
+                     "none": {
+                        "uri": "",
+                        "weight": 10
+                     },
+                     "orange": {
+                        "uri": "box_o_vox:entities:food:orange:orange",
+                        "weight": 1
+                     }
+                  }
+               }
             }
-        },
-        "effect_list": {
-            "default": "box_o_vox:effects:fog"
-        },
-        "stonehearth:resource_node": {
-            "durability": 6,
-            "harvest_overlay_effect": "stonehearth:effects:chop_overlay_effect",
-            "resource": "stonehearth:resources:wood:oak_log",
-            "resource_loot_table": {
-                "entries": {
-                    "stone": {
-                        "roll_type": "some_of",
-                        "num_rolls": {
-                            "min": 0,
-                            "max": 2
-                        },
-                        "items": {
-                            "pelt": {
-                                "uri": "stonehearth:resources:stone:hunk_of_stone",
-                                "weight": 1
-                            }
-                        }
-                    },
-                    "apple": {
-                        "roll_type": "some_of",
-                        "num_rolls": {
-                            "min": 0,
-                            "max": 1
-                        },
-                        "items": {
-                            "pelt": {
-                                "uri": "box_o_vox:entities:food:apple:apple",
-                                "weight": 1
-                            }
-                        }
-                    },
-                    "lime": {
-                        "roll_type": "some_of",
-                        "num_rolls": {
-                            "min": 0,
-                            "max": 1
-                        },
-                        "items": {
-                            "bone": {
-                                "uri": "box_o_vox:entities:food:lime:lime",
-                                "weight": 1
-                            }
-                        }
-                    },
-                    "orange": {
-                        "roll_type": "some_of",
-                        "num_rolls": {
-                            "min": 0,
-                            "max": 1
-                        },
-                        "items": {
-                            "bone": {
-                                "uri": "box_o_vox:entities:food:orange:orange",
-                                "weight": 1
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "mob": {
-            "model_origin": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            },
-            "region_origin": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            },
-            "align_to_grid": [
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.5,
+            "y": 0,
+            "z": 0.5
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         },
+         "align_to_grid": [
             "x",
             "z"
          ]
-        },
-        "destination": {
-            "region": [
-                {
-                    "min": {
-                        "x": -4,
-                        "y": 0,
-                        "z": -4
-                    },
-                    "max": {
-                        "x": 4,
-                        "y": 1,
-                        "z": 4
-                    }
+      },
+      "destination": {
+         "region": [
+            {
+               "min": {
+                  "x": -2,
+                  "y": 0,
+                  "z": -2
+               },
+               "max": {
+                  "x": 3,
+                  "y": 1,
+                  "z": 3
+               }
             }
          ]
-        },
-        "region_collision_shape": {
-            "region": [
-                {
-                    "min": {
-                        "x": -4,
-                        "y": 0,
-                        "z": -4
-                    },
-                    "max": {
-                        "x": 4,
-                        "y": 20,
-                        "z": 4
-                    }
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": {
+                  "x": -2,
+                  "y": 0,
+                  "z": -2
+               },
+               "max": {
+                  "x": 3,
+                  "y": 27,
+                  "z": 3
+               }
             }
          ]
-        }
-    },
-    "entity_data": {
-        "stonehearth:camera": {
-            "is_followable": true
-        },
-        "stonehearth:catalog": {
-            "display_name": "Boxland Tree",
-            "description": "An ancient tree that produces a strange mist."
-        },
-        "stonehearth:appeal": {
-            "appeal": 10
-        }
-    }
+      }
+   },
+   "entity_data": {
+      "stonehearth:camera": {
+         "is_followable": true
+      },
+      "stonehearth:stump_data": {
+         "stump_alias": "stonehearth_ace:trees:oak:small:stump"
+      },
+      "stonehearth:catalog": {
+         "display_name": "Boxland Tree",
+         "description": "An ancient tree that produces a strange mist."
+      },
+      "stonehearth:appeal": {
+         "appeal": 10
+      }
+   }
 }

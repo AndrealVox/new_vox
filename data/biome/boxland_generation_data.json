@@ -449,19 +449,15 @@
          "box_o_vox:entities:trees:boxland_tree:ancient": {
             "placement_type": "single",
             "parameters": {
-               "ground_radius": 20,
-               "exclusion_radius": 30
+               "ground_radius": 4,
+               "exclusion_radius": 5
             }
          },
          "box_o_vox:entities:trees:banana:ancient": {
-            "placement_type": "dense",
+            "placement_type": "single",
             "parameters": {
-               "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-               "grid_multiple": 2,
-               "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
-               "item_density": 0.2,
-               "__comment": "How close can two trees get to each other... Def 2",
-               "exclusion_radius": 20
+               "ground_radius": 4,
+               "exclusion_radius": 5
             }
          },
          "box_o_vox:entities:plants:daisy": {
@@ -910,7 +906,7 @@
          "weights": {
             "plains": {
                "1": {
-                  "box_o_vox:entities:trees:boxland_tree": 2,
+                  "box_o_vox:entities:trees:boxland_tree": 6,
 
                   "stonehearth_ace:trees:chestnut": 0.04,
                   "stonehearth_ace:trees:apple": 0.06
