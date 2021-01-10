@@ -33,6 +33,15 @@
          "field_types": {
             "farm": true
          }
+      },
+      "blueberry_bush": {
+         "crop_type": "box_o_vox:entities:crops:berry_bush_crop",
+         "ordinal": 1,
+         "level_requirement": 1,
+         "destroy_on_crop_change": true,
+         "field_types": {
+            "bush_farm": true
+         }
       }
    }
 }

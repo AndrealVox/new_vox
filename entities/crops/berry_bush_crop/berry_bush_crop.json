@@ -1,0 +1,105 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "/box_o_vox/entities/plants/blueberry_bush/blueberry_bush.qb"
+            ]
+         },
+         "berry_bush_1": {
+            "models": [
+               "file(berry_bush_1.qb)"
+            ]
+         },
+         "berry_bush_2": {
+            "models": [
+               "file(berry_bush_2.qb)"
+            ]
+         },
+         "berry_bush_3": {
+            "models": [
+               "/box_o_vox/entities/plants/blueberry_bush/stem/blueberry_bush_stem.qb"
+            ]
+         },
+         "berry_bush_4": {
+            "models": [
+               "/box_o_vox/entities/plants/blueberry_bush/bud/blueberry_bush_bud.qb"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": -0.1,
+            "z": 0.05
+         },
+         "mob_collision_type": "clutter"
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "default": "box_o_vox:entities:crops:berry_bush_crop:final"
+         },
+         "harvest_threshhold": "default",
+         "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect",
+         "megacrop_chance": 0,
+         "auto_harvest": "place"
+      },
+      "stonehearth:growing": {
+         "growth_period": "24h+8h",
+         "preferred_climate": "arctic_medium",
+         "growth_stages": [
+            {
+               "model_name": "berry_bush_1",
+               "name": "Blueberry Bush Seed",
+               "description": "Planted to grow a meager food supply."
+            },
+            {
+               "model_name": "berry_bush_2",
+               "name": "Blueberry Bush Sproutling",
+               "description": "Just needs some time and care."
+            },
+            {
+               "model_name": "berry_bush_3",
+               "name": "Stemming Blueberry Bush",
+               "description": "Still growing!"
+            },
+            {
+               "model_name": "berry_bush_4",
+               "name": "Budding Blueberry Bush",
+               "description": "It's almost there!  Look, it has buds!"
+            },
+            {
+               "model_name": "default",
+               "name": "Budding Blueberry Bush",
+               "description": "It's almost there!  Look, it has buds!"
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "Blueberry Bush",
+         "description": "Can be harvested for a small supply of fruits",
+         "icon": "/box_o_vox/entities/plants/blueberry_bush/blueberry_bush.png",
+         "material_tags": [
+            "crop",
+            "blueberry_bush_sapling"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      }
+   }
+}
