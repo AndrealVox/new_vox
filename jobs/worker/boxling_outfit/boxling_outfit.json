@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:mixins:worker_outfit",
+   "mixins": "stonehearth:worker:outfit",
    "components": {
       "model_variants": {
          "mixintypes": {
@@ -22,6 +22,9 @@
          }
       },
       "stonehearth:equipment_piece": {
+         "mixintypes": {
+            "injected_buffs": "override"
+         },
          "injected_buffs": [
             "stonehearth_ace:buffs:weather:chilly_resist"
          ]

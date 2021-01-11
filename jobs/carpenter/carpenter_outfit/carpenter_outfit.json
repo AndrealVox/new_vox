@@ -21,10 +21,20 @@
       },
       "stonehearth:equipment_piece": {
          "slot": "torso",
-         "render_type": "merge_with_model"
+         "render_type": "merge_with_model",
+         "mixintypes": {
+            "injected_buffs": "override"
+         },
+         "injected_buffs": [
+            "stonehearth:buffs:devoted",
+            "stonehearth_ace:buffs:weather:cold_resist"
+         ]
       }
    },
    "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 8
+      },
       "stonehearth:catalog": {
          "display_name": "i18n(stonehearth:jobs.carpenter.carpenter_outfit.display_name)",
          "description": "i18n(stonehearth:jobs.carpenter.carpenter_outfit.description)",

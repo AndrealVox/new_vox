@@ -21,7 +21,14 @@
       },
       "stonehearth:equipment_piece": {
          "render_type": "merge_with_model",
-         "slot": "torso"
+         "slot": "torso",
+         "mixintypes": {
+            "injected_buffs": "override"
+         },
+         "injected_buffs": [
+            "stonehearth:buffs:devoted",
+            "stonehearth_ace:buffs:weather:cold_resist"
+         ]
       }
    },
    "entity_data": {

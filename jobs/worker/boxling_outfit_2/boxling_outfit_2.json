@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:mixins:worker_outfit_2",
+   "mixins": "stonehearth:worker:outfit:2",
    "components": {
       "model_variants": {
          "mixintypes": {
@@ -22,9 +22,22 @@
          }
       },
       "stonehearth:equipment_piece": {
+         "ilevel": 2,
+         "mixintypes": {
+            "injected_buffs": "override"
+         },
          "injected_buffs": [
-            "stonehearth_ace:buffs:weather:chilly_resist"
-         ]
+            "stonehearth:buffs:devoted",
+            "stonehearth_ace:buffs:weather:cold_resist"
+         ],
+         "conditional_values": {
+            "season": {
+               "winter": 2,
+               "autumn": 1,
+               "spring": 1,
+               "summer": 1
+            }
+         }
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(boxling_outfit_2_iconic.json)"
@@ -41,9 +54,9 @@
             "material_tags": "override"
          },
          "material_tags": [
-            "leather",
-            "na_made",
             "worker_outfit",
+            "cloth",
+            "boxling_made",
             "civillian_equipment",
             "stockpile_equipment"
          ]

@@ -133,6 +133,7 @@
       "entities:armor:paladins_shield": "file(entities/armor/paladins_shield)",
 
       "entities:consumables:manure": "file(entities/consumables/manure)",
+      "entities:consumables:enchanted_potion": "file(entities/consumables/enchanted_potion)",
 
       "entities:consumables:seeds:daisy_seeds": "file(entities/consumables/seeds/daisy_seeds)",
       "entities:consumables:seeds:potato_seeds": "file(entities/consumables/seeds/potato_seeds)",

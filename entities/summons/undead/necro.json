@@ -109,9 +109,9 @@
          "stonehearth:observers:avoid_threatening_entities": "remove"
       },
       "stonehearth:healable": {
-         "healable_by_anyone": false,
+         "healable_by_anyone": true,
          "target_type": "summoner_summon"
       },
-      "stonehearth:entity_reach": 1.0
+      "stonehearth:entity_reach": 1.5
    }
 }

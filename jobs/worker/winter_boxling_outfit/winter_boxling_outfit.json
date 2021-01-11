@@ -22,9 +22,22 @@
          }
       },
       "stonehearth:equipment_piece": {
+         "ilevel": 2,
+         "mixintypes": {
+            "injected_buffs": "override"
+         },
          "injected_buffs": [
-            "stonehearth_ace:buffs:weather:chilly_resist"
-         ]
+            "stonehearth:buffs:devoted",
+            "stonehearth_ace:buffs:weather:freezing_resist"
+         ],
+         "conditional_values": {
+            "season": {
+               "winter": 3,
+               "autumn": 0,
+               "spring": 0,
+               "summer": 0
+            }
+         }
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(winter_boxling_outfit_iconic.json)"
@@ -35,14 +48,16 @@
          "base_damage_reduction": 10
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.worker.winter_worker_outfit.display_name)",
-         "description": "i18n(stonehearth:jobs.worker.winter_worker_outfit.description)",
          "icon": "file(winter_boxling_outfit.png)",
          "category": "armor",
+         "mixintypes": {
+            "material_tags": "override"
+         },
          "material_tags": [
             "worker_outfit",
             "cloth",
             "boxling_made",
+            "civillian_equipment",
             "stockpile_equipment"
          ]
       }

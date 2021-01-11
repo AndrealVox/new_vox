@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "effort": 6,
+   "work_units": 3,
+   "recipe_name": "Enchanted Potion",
+   "description": "The Boxling Cure-All Potion",
+   "flavor": "Because Sometimes Boxlings Have The Best Medicine.",
+   "portrait": "/box_o_vox/entities/consumables/enchanted_potion/enchanted_potion.png",
+   "workshop": "stonehearth_ace:herbalist:cauldron",
+   "work_effect": "fiddle",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "box_o_vox:entities:resources:herb:daisy",
+         "count": 10
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:entities:consumables:enchanted_potion"
+      }
+   ]
+}

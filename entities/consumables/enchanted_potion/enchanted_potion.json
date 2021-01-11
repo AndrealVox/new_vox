@@ -1,0 +1,94 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "color_map": "stonehearth_ace:color_map:ace",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/glass_material_map.json"
+         ],
+         "scale": 0.099
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(enchanted_potion.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 10,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:consumable": {
+         "script": "stonehearth:consumables:scripts:heal_target",
+         "work_units": 1,
+         "cures_conditions": {
+            "wound_pierce": 5,
+            "wound_impact": 5,
+            "wound_cut": 5,
+            "wound_fire": 5,
+            "infection": 5,
+            "poison": 5,
+            "wound_cold": 5
+         },
+         "consumable_qualities": [
+            {
+               "health_healed": 190,
+               "guts_healed": 4
+            },
+            {
+               "health_healed": 210,
+               "guts_healed": 5
+            },
+            {
+               "health_healed": 230,
+               "guts_healed": 5
+            },
+            {
+               "health_healed": 300,
+               "guts_healed": 6
+            }
+         ]
+      },
+      "stonehearth:catalog": {
+         "display_name": "Enchanted Potion",
+         "description": "The Boxling Cure-All Potion",
+         "icon": "file(enchanted_potion.png)",
+         "is_item": true,
+         "category": "consumable",
+         "material_tags": [
+            "healing_item",
+            "heavy_bandage",
+            "bandage",
+            "strong_antidote",
+            "antidote",
+            "tough_compress",
+            "compress",
+            "neat_salve",
+            "salve",
+            "consumable",
+            "enchanted_potion",
+            "stockpile_healing_item"
+         ]
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": false
+      }
+   }
+}

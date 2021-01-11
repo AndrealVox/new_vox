@@ -7,6 +7,13 @@
             }
          }
       },
+      "bandages": {
+         "recipes": {
+            "enchanted_potion_recipe": {
+               "recipe": "file(enchanted_potion_recipe.json)"
+            }
+         }
+      },
       "farming_enhancements": {
          "recipes": {
             "mixintypes": {
