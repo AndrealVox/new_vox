@@ -22,8 +22,8 @@
             "value_in_gold": 2,
             "rarity": "common",
             "shop_info": {
-                "buyable": true,
-                "sellable": true,
+                "buyable": false,
+                "sellable": false,
                 "shopkeeper_level": 1,
                 "shopkeeper_type": "caravan"
             }

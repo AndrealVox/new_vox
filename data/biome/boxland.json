@@ -26,7 +26,7 @@
    "foraging_spot_uri": "stonehearth_ace:terrain:foraging_spot:arctic",
    "foraging_spot_frequency": 0.006,
    "wilderness_score_multiplier": 0.06,
-   "climate": "arctic_medium",
+   "climate": "arctic_easy",
    "farm_elevation_modifiers": {
       "humidity": [
          {
@@ -79,10 +79,6 @@
          "humidity": 0.2,
          "sunlight": 0.8,
          "weather": [
-            {
-               "uri": "stonehearth_ace:weather:snow:late",
-               "weight": [2, 0]
-            },
             {
                "uri": "stonehearth_ace:weather:sunny:chilly",
                "weight": [2, 1]
@@ -149,10 +145,6 @@
                "weight": [1, 0]
             },
             {
-               "uri": "stonehearth_ace:weather:hailstorm",
-               "weight": 0.3
-            },
-            {
                "uri": "stonehearth:weather:rain:sunny",
                "weight": [2, 1]
             },
@@ -179,10 +171,6 @@
             {
                "uri": "stonehearth_ace:weather:windy:chilly",
                "weight": [0, 0, 2]
-            },
-            {
-               "uri": "stonehearth_ace:weather:snow:early",
-               "weight": [0, 0, 1]
             },
             {
                "uri": "stonehearth:weather:lucky",
@@ -234,22 +222,6 @@
             {
                "uri": "stonehearth_ace:weather:rain:chilly",
                "weight": [0, 2]
-            },
-            {
-               "uri": "stonehearth:weather:snow",
-               "weight": [0, 2]
-            },
-            {
-               "uri": "stonehearth:weather:snow:sunny",
-               "weight": [0, 4]
-            },
-            {
-               "uri": "stonehearth:weather:blizzard",
-               "weight": [0, 1]
-            },
-            {
-               "uri": "stonehearth_ace:weather:snow:drifts",
-               "weight": [0, 0, 1]
             },
             {
                "uri": "stonehearth:weather:lucky",

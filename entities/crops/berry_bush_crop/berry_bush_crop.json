@@ -49,8 +49,8 @@
          "auto_harvest": "place"
       },
       "stonehearth:growing": {
-         "growth_period": "24h+8h",
-         "preferred_climate": "arctic_medium",
+         "growth_period": "18h+6h",
+         "preferred_climate": "arctic_easy",
          "growth_stages": [
             {
                "model_name": "berry_bush_1",
@@ -99,7 +99,7 @@
          ]
       },
       "stonehearth:appeal": {
-         "appeal": 1
+         "appeal": 2
       }
    }
 }

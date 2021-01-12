@@ -1,40 +1,40 @@
 {
-    "mixins": "stonehearth:mixins:item_properties",
-    "type": "entity",
-    "components": {
-        "model_variants": {
-            "default": {
-                "models": [
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
                "file(salt.qb)"
             ]
-            }
-        },
-        "mob": {
-            "model_origin": {
-                "x": -0.05,
-                "y": 0,
-                "z": 0.05
-            }
-        }
-    },
-    "entity_data": {
-        "stonehearth:net_worth": {
-            "value_in_gold": 4,
-            "rarity": "common",
-            "shop_info": {
-                "buyable": true,
-                "sellable": true,
-                "shopkeeper_level": 1,
-                "shopkeeper_type": "caravan"
-            }
-        },
-        "stonehearth:catalog": {
-            "display_name": "i18n(box_o_vox:entities.food.salt.display_name)",
-            "description": "i18n(box_o_vox:entities.food.salt.description)",
-            "icon": "file(salt.png)",
-            "is_item": true,
-            "category": "cooking_ingredient",
-            "material_tags": [
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 4,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.food.salt.display_name)",
+         "description": "i18n(box_o_vox:entities.food.salt.description)",
+         "icon": "file(salt.png)",
+         "is_item": true,
+         "category": "cooking_ingredient",
+         "material_tags": [
             "stockpile_cooking_ingredient",
             "cooking_ingredient",
             "salt",
@@ -43,9 +43,9 @@
             "other_fluid",
             "smokehouse_curable"
          ]
-        },
-        "stonehearth:appeal": {
-            "appeal": 0
-        }
-    }
+      },
+      "stonehearth:appeal": {
+         "appeal": 0
+      }
+   }
 }
