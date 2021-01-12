@@ -39,10 +39,12 @@
          "harvest_threshhold": "daisy_4"
       },
       "stonehearth:growing": {
-         "growth_period": "12h",
+         "growth_period": "3h",
          "preferred_seasons": {
             "box_o_vox:biome:boxland": [
-               "spring"
+               "spring",
+               "summer",
+               "autumn"
             ]
          },
          "mixintypes": {
