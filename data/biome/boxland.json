@@ -23,10 +23,10 @@
    },
 
 
-   "foraging_spot_uri": "stonehearth_ace:terrain:foraging_spot:arctic",
+   "foraging_spot_uri": "stonehearth_ace:terrain:foraging_spot:temperate",
    "foraging_spot_frequency": 0.006,
    "wilderness_score_multiplier": 0.06,
-   "climate": "arctic_easy",
+   "climate": "temperate_medium",
    "farm_elevation_modifiers": {
       "humidity": [
          {

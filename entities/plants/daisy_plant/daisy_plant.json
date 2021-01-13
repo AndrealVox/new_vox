@@ -1,14 +1,15 @@
 {
+   "type": "entity",
    "mixins": [
-      "stonehearth:plants:brightbell",
       "file(daisy_plant_ghost.json)"
    ],
    "components": {
-      "mixintypes": {
-         "stonehearth:renewable_resource_node": "remove"
-      },
       "stonehearth:resource_node": {
          "resource": "box_o_vox:entities:resources:herb:daisy",
+         "category": "harvest",
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+         "resource_spawn_effect": "stonehearth:effects:harvest_plants_effect",
+         "description": "harvest_plant",
          "resource_loot_table": {
             "entries": {
                "optional": {
@@ -32,7 +33,22 @@
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(daisy_plant_iconic.json)",
-         "ghost_form": "file(daisy_plant_ghost.json)"
+         "ghost_form": "file(daisy_plant_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": false
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 2
       }
    }
 }
