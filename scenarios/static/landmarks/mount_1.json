@@ -1,0 +1,20 @@
+{
+   "mixins": "/stonehearth/scenarios/static/landmarks/qb_to_terrain.json",
+   "biomes": ["box_o_vox:biome:boxland"],
+   "name": "mount_1",
+   "category": "terrain_feature_common",
+   "unique": true,
+   "size": {
+      "width": 128,
+      "length": 128
+   },
+   "habitat_types": [
+      "plains"
+   ],
+   "overwrite_occupied_size": 5,
+   "weight": 30,
+   "data": {
+      "brush": "box_o_vox:landmark:mount_1",
+      "brush_mask": "box_o_vox:landmark:mount_1"
+   }
+}

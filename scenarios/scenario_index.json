@@ -12,6 +12,8 @@
          "file(static/landmarks/hedge_maze_1.json)",
          "file(static/landmarks/hedge_maze_2.json)",
 
+         "file(static/landmarks/mount_1.json)",
+
          "/stonehearth/scenarios/static/rabbit_nest",
          "/stonehearth/scenarios/static/deer_nest",
          "/stonehearth/scenarios/static/caribou_nest",

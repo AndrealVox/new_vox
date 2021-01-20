@@ -392,6 +392,7 @@
       "landmark:boxling_mountain_2": "file(data/models/landmark/boxling_mountain_2/boxling_mountain_2.qb)",
       "landmark:hedge_maze_1": "file(data/models/landmark/hedge_maze_1/hedge_maze.qb)",
       "landmark:hedge_maze_2": "file(data/models/landmark/hedge_maze_2/hedge_maze.qb)",
+      "landmark:mount_1": "file(data/models/landmark/mount_1.qb)",
       "loot_bag:wolf_fox_default": "file(data/loot_bag/wolf_fox_default.json)",
       "mixins:base_human": "file(mixins/base_human/base_human.json)",
       "mixins:base_human_job": "file(mixins/base_human/base_human_job.json)",
@@ -502,6 +503,7 @@
       "stonehearth_ace/data/gm/campaigns/bonecarving/bonecarving_campaign.json": "file(data/gm/campaigns/deny_if_boxlings.json)",
       "stonehearth_ace/jobs/brewer/recipes/recipes.json": "box_o_vox/jobs/brewer/recipes/recipes.json",
       "stonehearth_ace/entities/critters/moomoo/moomoo.json": "box_o_vox/entities/critters/cow/ace_moomoo.json",
+      "box_o_vox/jobs/mason/recipes/recipes.json": "cm/jobs/mason/recipes/recipes.json",
 
       "cm:jobs:shepherd": "cm/box_o_vox/jobs/shepherd_cm.json",
       "cm:jobs:cleric": "cm/box_o_vox/jobs/cm_cleric.json",

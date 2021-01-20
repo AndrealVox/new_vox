@@ -53,5 +53,11 @@
    },
    "#6B6758": {
       "terrain_tag": "horn_2"
+   },
+
+   "#491334": {
+      "loot_bag": "box_o_vox:entities:trees:boxland_tree:ancient",
+      "facing": "random",
+      "force_iconic": false
    }
 }
