@@ -186,7 +186,8 @@
                         "simple_message": {
                            "dialog_title": "Darza pulls out a small bag.",
                            "bulletin_message": {
-                              "00": "\"Thank you,\" Darza whispers as she gestures, \"for your hospitality, and presence.\" <p>She places a small bag beside the banner. On its side is an emblem of a skull. \"I'm not like the other Boxling High,\" she says. \"For you see, I'm searching for Andreal Vox. He left us a very long time ago after some of the other Boxling High turned on him. I just know he's still alive... out there, somewhere.\" again she looks to the sky. \"Anyway, take these. They will assist you on your path should you find yourself in search of Vox as well.</p><p>The bag contains:</p>"
+                              "00": "\"Thank you,\" Darza whispers as she gestures, \"for your hospitality, and presence.\" <p>She places a small bag beside the banner. On its side is an emblem of a skull. \"I'm not like the other Boxling High,\" she says. \"For you see, I'm searching for Andreal Vox. He left us a very long time ago after some of the other Boxling High turned on him. I just know he's still alive... out there, somewhere.\" again she looks to the sky. \"Anyway, take this. It will assist you on your path should you find yourself in search of Vox as well.</p><p>The bag contains:</p>",
+                              "01": "Thanks."
                            }
                         }
                      }

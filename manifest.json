@@ -332,6 +332,7 @@
       "jobs:recipes:herbalist": "file(jobs/herbalist/recipes/recipes.json)",
       "jobs:recipes:herbalist_mixin": "file(jobs/herbalist/recipes/recipes_mixin.json)",
       "jobs:recipes:mason": "file(jobs/mason/recipes/recipes.json)",
+      "jobs:recipes:mason_cm": "file(jobs/mason/recipes/recipes_cm.json)",
       "jobs:recipes:mason_mixin": "file(jobs/mason/recipes/recipes_mixin.json)",
       "jobs:recipes:weaver": "file(jobs/weaver/recipes/recipes.json)",
 
@@ -503,8 +504,8 @@
       "stonehearth_ace/data/gm/campaigns/bonecarving/bonecarving_campaign.json": "file(data/gm/campaigns/deny_if_boxlings.json)",
       "stonehearth_ace/jobs/brewer/recipes/recipes.json": "box_o_vox/jobs/brewer/recipes/recipes.json",
       "stonehearth_ace/entities/critters/moomoo/moomoo.json": "box_o_vox/entities/critters/cow/ace_moomoo.json",
-      "box_o_vox/jobs/mason/recipes/recipes.json": "cm/jobs/mason/recipes/recipes.json",
 
+      "box_o_vox:jobs:recipes:mason": "cm/box_o_vox/jobs/mason/recipes.json",
       "cm:jobs:shepherd": "cm/box_o_vox/jobs/shepherd_cm.json",
       "cm:jobs:cleric": "cm/box_o_vox/jobs/cm_cleric.json",
       "cm/data/population.json": "cm/box_o_vox/cm_population.json",
@@ -512,6 +513,7 @@
       "swamp_goblins/jobs/carpenter/recipes/beast_tamer_talisman_recipe.json": "swamp_goblins/box_o_vox/beast_tamer_talisman_recipe.json"
    },
    "overrides": {
+      "cm/box_o_vox/jobs/mason/recipes.json": "box_o_vox:jobs:recipes:mason_cm",
       "cm/box_o_vox/jobs/shepherd_cm.json": "box_o_vox:jobs:shepherd_cm",
       "cm/box_o_vox/jobs/cm_cleric.json": "box_o_vox:jobs:cm_cleric",
       "cm/box_o_vox/cm_population.json": "box_o_vox/services/server/population/data/cm_population.json",

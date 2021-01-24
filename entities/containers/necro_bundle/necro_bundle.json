@@ -1,39 +1,40 @@
 {
-   "mixins": [
-      "stonehearth:mixins:align_to_grid",
-      "stonehearth:mixins:destructable_object"
-   ],
    "type": "entity",
+   "mixins": "file(necro_bundle_ghost.json)",
    "components": {
-      "render_info": {
-         "scale": 0.05
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(necro_bundle_iconic.json)",
+         "ghost_form": "file(necro_bundle_ghost.json)",
+         "placeable_on_ground": true
       },
-      "model_variants": {
-         "default": {
-            "models": [
-               "file(necro_bundle.qb)"
-            ]
-         }
+      "destination": {
+         "region": [
+            {
+               "min": {
+                  "x": -1,
+                  "y": 0,
+                  "z": -1
+               },
+               "max": {
+                  "x": 2,
+                  "y": 1,
+                  "z": 2
+               }
+            }
+         ]
       },
-      "stonehearth:attributes": {
-         "max_health": {
-            "type": "basic",
-            "value": 1
-         }
-      },
-      "mob": {},
       "region_collision_shape": {
          "region": [
             {
                "min": {
-                  "x": -2,
+                  "x": -1,
                   "y": 0,
-                  "z": -1.5
+                  "z": -1
                },
                "max": {
                   "x": 2,
                   "y": 3,
-                  "z": 1.5
+                  "z": 2
                }
             }
          ]
@@ -75,18 +76,33 @@
                      "uri": "box_o_vox:entities:consumables:enchanted_potion"
                   }
                }
+            },
+            "crate": {
+               "num_rolls": {
+                  "min": 1,
+                  "max": 1
+               },
+               "items": {
+                  "antidote": {
+                     "uri": "box_o_vox:entities:containers:box_o_vox_crate"
+                  }
+               }
             }
          }
       }
    },
    "entity_data": {
-      "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.containers.necro_bundle.display_name)",
-         "description": "i18n(box_o_vox:entities.containers.necro_bundle.description)",
-         "is_item": true
+      "stonehearth:net_worth": {
+         "value_in_gold": 18,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_type": "caravan"
+         }
       },
       "stonehearth:appeal": {
-         "appeal": -100
+         "appeal": -1
       },
       "stonehearth:item_quality": {
          "variable_quality": false

@@ -13,7 +13,7 @@
                "portrait": "file(images/herald_darza.png)",
                "message": "i18n(box_o_vox:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.00)",
                "choices": {
-                  "i18n(northern_alliance:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.choice_000)": {
+                  "i18n(box_o_vox:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.01)": {
                      "result": "accept"
                   }
                }
@@ -23,10 +23,10 @@
       "loot_table": {
          "entries": {
             "bundle_definite": {
-               "num_rolls": 1,
+               "num_rolls": 20,
                "items": {
                   "bundle": {
-                     "uri": "box_o_vox:entities:containers:necro_bundle",
+                     "uri": "stonehearth_ace:resources:bone:bone_material",
                      "weight": 1
                   }
                }

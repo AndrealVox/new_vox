@@ -57,6 +57,14 @@
                "icon": "file(images/items/gatherer.png)",
                "amount": 1
             },
+            "bundle": {
+               "ordinal": 6,
+               "display_name": "i18n(box_o_vox:data.loadouts.items.necro_bundle)",
+               "type": "entity",
+               "uri": "box_o_vox:entities:containers:necro_bundle",
+               "icon": "file(images/items/necro_bundle.png)",
+               "amount": 1
+            },
             "gold": {
                "ordinal": 7,
                "display_name": "i18n(stonehearth:data.loadouts.items.gold)",

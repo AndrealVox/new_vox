@@ -1,0 +1,101 @@
+{
+   "mixins": [
+      "/stonehearth_ace/jobs/mason/recipes/na_recipes.json",
+      "/cm/jobs/mason/recipes/recipes.json"
+   ],
+   "craftable_recipes": {
+      "summons": {
+         "ordinal": 4.20,
+         "name": "Undead Workers",
+         "recipes": {
+            "skeleton_gatherer": {
+               "recipe": "file(skeleton_gatherer_recipe.json)"
+            },
+            "zombie_miner": {
+               "recipe": "file(zombie_miner_recipe.json)"
+            }
+         }
+      },
+      "storage": {
+         "recipes": {
+            "box_o_vox_crate": {
+               "recipe": "file(box_o_vox_crate_recipe.json)"
+            },
+            "equipment_crate": {
+               "recipe": "file(equipment_crate_recipe.json)"
+            },
+            "food_crate": {
+               "recipe": "file(food_crate_recipe.json)"
+            },
+            "furniture_crate": {
+               "recipe": "file(furniture_crate_recipe.json)"
+            },
+            "resources_crate": {
+               "recipe": "file(resources_crate_recipe.json)"
+            },
+            "treasure_crate": {
+               "recipe": "file(treasure_crate_recipe.json)"
+            }
+         }
+      },
+      "building_parts": {
+         "recipes": {
+            "stoned_tunnel_door": {
+               "recipe": "file(stoned_tunnel_door_recipe.json)"
+            },
+            "window_box_violet": {
+               "recipe": "file(window_box_violet_recipe.json)"
+            }
+         }
+      },
+      "lights": {
+         "ordinal": 100,
+         "name": "Lights",
+         "recipes": {
+            "lamppost_blue": {
+               "recipe": "file(lamppost_blue_recipe.json)"
+            },
+            "lamppost_green": {
+               "recipe": "file(lamppost_green_recipe.json)"
+            },
+            "lamppost_purple": {
+               "recipe": "file(lamppost_purple_recipe.json)"
+            },
+            "lamppost_red": {
+               "recipe": "file(lamppost_red_recipe.json)"
+            },
+            "wall_lamp_blue": {
+               "recipe": "file(wall_lamp_blue_recipe.json)"
+            },
+            "wall_lamp_green": {
+               "recipe": "file(wall_lamp_green_recipe.json)"
+            },
+            "wall_lamp_purple": {
+               "recipe": "file(wall_lamp_purple_recipe.json)"
+            },
+            "wall_lamp_red": {
+               "recipe": "file(wall_lamp_red_recipe.json)"
+            },
+            "wall_lamp_white": {
+               "recipe": "file(wall_lamp_white_recipe.json)"
+            }
+         }
+      },
+      "signage_decoration": {
+         "recipes": {
+            "mixintypes": {
+               "shrine_wolf": "override"
+            },
+            "shrine_wolf": {
+               "recipe": "file(shrine_wolf.json)"
+            },
+            "boxling_statue": {
+               "recipe": "file(boxling_statue_recipe.json)"
+            },
+            "boxling_statue_2": {
+               "recipe": "file(boxling_statue_2_recipe.json)"
+            }
+         }
+      }
+   }
+}
