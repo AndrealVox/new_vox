@@ -5,7 +5,7 @@
       "stonehearth:renewable_resource_node": {
          "resource": "box_o_vox:entities:food:blueberry:blueberry_basket",
          "category": "harvest",
-         "renewal_time": "22h+2h",
+         "renewal_time": "6h+6h",
          "unripe_description": "i18n(box_o_vox:entities.plants.blueberry_bush.unripe_description)",
          "harvest_overlay_effect": "stonehearth_ace:effects:harvest_fruit_overlay_effect",
          "half_renewed_model": {

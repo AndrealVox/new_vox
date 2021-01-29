@@ -49,7 +49,7 @@
          "auto_harvest": "place"
       },
       "stonehearth:growing": {
-         "growth_period": "18h+6h",
+         "growth_period": "6h+6h",
          "preferred_climate": "arctic_easy",
          "growth_stages": [
             {
