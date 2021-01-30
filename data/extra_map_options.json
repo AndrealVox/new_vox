@@ -9,7 +9,10 @@
             "mountains": false
          },
          "lakes": false,
-         "dirt_holes": false
+         "dirt_holes": false,
+         "modes": {
+            "superflat": true
+         }
       },
       "box_o_vox:biome:boxland_winter": {
          "world_size": 1,

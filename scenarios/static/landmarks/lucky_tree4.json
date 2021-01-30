@@ -1,0 +1,21 @@
+{
+   "mixins": "/stonehearth/scenarios/static/landmarks/qb_to_terrain.json",
+   "biomes": ["box_o_vox:biome:boxland"],
+   "name": "lucky_tree4",
+   "category": "terrain_feature_common",
+   "unique": false,
+   "size": {
+      "width": 21,
+      "length": 21
+   },
+   "habitat_types": [
+      "plains",
+      "forest"
+   ],
+   "overwrite_occupied_size": 3,
+   "weight": 1,
+   "data": {
+      "brush": "box_o_vox:landmark:lucky_tree",
+      "brush_mask": "box_o_vox:landmark:lucky_tree"
+   }
+}

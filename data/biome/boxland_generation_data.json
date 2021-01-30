@@ -351,10 +351,10 @@
          "__comment": "The higher this number: the larger the scale of the noise, the lower: the smaller the scale. Def: 3.5",
          "bandlimit": 7,
          "__comment": "can stretch the terrain vertically to allow for long mountain ridges.  Above 1 stretches the terrain vertically, below 1 stretches the terrain horizontally. Def: 1",
-         "aspect_ratio": 1
+         "aspect_ratio": 0.5
       },
       "__comment": "Literal percentage of terrain which is plains. Def 40",
-      "plains_percentage": 50,
+      "plains_percentage": 80,
       "__comment": "This is an offset in regards to where the layers line up. Def 36, must be 1 plus a multiple of five.",
       "height_base": 26,
       "__comments": {

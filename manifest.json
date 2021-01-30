@@ -268,6 +268,7 @@
       "entities:terrain:ui:salt_rock": "file(entities/terrain/ui/salt_rock)",
       "entities:tools:boxling_sceptre": "file(entities/tools/boxling_sceptre)",
       "entities:trees:boxland_tree:ancient": "file(entities/trees/boxland_tree)",
+      "entities:trees:boxland_tree:dead": "file(entities/trees/boxland_tree/dead)",
       "entities:trees:apple:ancient": "file(entities/trees/apple_tree)",
       "entities:trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree)",
       "entities:trees:apple:medium": "file(entities/trees/apple_tree/medium_apple_tree)",
@@ -332,7 +333,6 @@
       "jobs:recipes:herbalist": "file(jobs/herbalist/recipes/recipes.json)",
       "jobs:recipes:herbalist_mixin": "file(jobs/herbalist/recipes/recipes_mixin.json)",
       "jobs:recipes:mason": "file(jobs/mason/recipes/recipes.json)",
-      "jobs:recipes:mason_cm": "file(jobs/mason/recipes/recipes_cm.json)",
       "jobs:recipes:mason_mixin": "file(jobs/mason/recipes/recipes_mixin.json)",
       "jobs:recipes:weaver": "file(jobs/weaver/recipes/recipes.json)",
 
@@ -394,6 +394,8 @@
       "landmark:hedge_maze_1": "file(data/models/landmark/hedge_maze_1/hedge_maze.qb)",
       "landmark:hedge_maze_2": "file(data/models/landmark/hedge_maze_2/hedge_maze.qb)",
       "landmark:mount_1": "file(data/models/landmark/mount_1.qb)",
+      "landmark:lucky_tree": "file(data/models/landmark/lucky_tree.qb)",
+      "lucky_tree:landmark": "file(entities/landmark/lucky_tree)",
       "loot_bag:wolf_fox_default": "file(data/loot_bag/wolf_fox_default.json)",
       "mixins:base_human": "file(mixins/base_human/base_human.json)",
       "mixins:base_human_job": "file(mixins/base_human/base_human_job.json)",
@@ -505,7 +507,7 @@
       "stonehearth_ace/jobs/brewer/recipes/recipes.json": "box_o_vox/jobs/brewer/recipes/recipes.json",
       "stonehearth_ace/entities/critters/moomoo/moomoo.json": "box_o_vox/entities/critters/cow/ace_moomoo.json",
 
-      "box_o_vox:jobs:recipes:mason": "cm/box_o_vox/jobs/mason/recipes.json",
+      "box_o_vox/jobs/mason/recipes/recipes.json": "cm/box_o_vox/jobs/mason/recipes.json",
       "cm:jobs:shepherd": "cm/box_o_vox/jobs/shepherd_cm.json",
       "cm:jobs:cleric": "cm/box_o_vox/jobs/cm_cleric.json",
       "cm/data/population.json": "cm/box_o_vox/cm_population.json",
@@ -513,7 +515,7 @@
       "swamp_goblins/jobs/carpenter/recipes/beast_tamer_talisman_recipe.json": "swamp_goblins/box_o_vox/beast_tamer_talisman_recipe.json"
    },
    "overrides": {
-      "cm/box_o_vox/jobs/mason/recipes.json": "box_o_vox:jobs:recipes:mason_cm",
+      "cm/box_o_vox/jobs/mason/recipes.json": "/box_o_vox/jobs/mason/recipes/recipes_cm.json",
       "cm/box_o_vox/jobs/shepherd_cm.json": "box_o_vox:jobs:shepherd_cm",
       "cm/box_o_vox/jobs/cm_cleric.json": "box_o_vox:jobs:cm_cleric",
       "cm/box_o_vox/cm_population.json": "box_o_vox/services/server/population/data/cm_population.json",

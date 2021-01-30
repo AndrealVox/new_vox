@@ -56,7 +56,7 @@
    },
 
    "#491334": {
-      "loot_bag": "box_o_vox:entities:trees:boxland_tree:ancient",
+      "loot_bag": "box_o_vox:entities:trees:boxland_tree:dead",
       "facing": "random",
       "force_iconic": false
    }

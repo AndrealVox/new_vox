@@ -12,7 +12,12 @@
          "file(static/landmarks/hedge_maze_1.json)",
          "file(static/landmarks/hedge_maze_2.json)",
 
-         "file(static/landmarks/mount_1.json)",
+         "file(static/landmarks/lucky_tree.json)",
+         "file(static/landmarks/lucky_tree1.json)",
+         "file(static/landmarks/lucky_tree2.json)",
+         "file(static/landmarks/lucky_tree3.json)",
+         "file(static/landmarks/lucky_tree4.json)",
+         "file(static/landmarks/lucky_tree5.json)",
 
          "/stonehearth/scenarios/static/rabbit_nest",
          "/stonehearth/scenarios/static/deer_nest",
@@ -30,7 +35,6 @@
          "/stonehearth/scenarios/static/landmarks/64x_stump_giant.json",
 
          "/stonehearth/scenarios/static/landmarks/128x_ruin_town_undead.json",
-         "/stonehearth/scenarios/static/landmarks/128x_gully.json",
          "/stonehearth/scenarios/static/landmarks/128x_skeleton_caribou.json"
       ],
       "categories": {
