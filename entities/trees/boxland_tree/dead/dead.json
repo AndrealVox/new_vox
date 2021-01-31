@@ -52,10 +52,10 @@
       },
       "stonehearth:seasonal_model_switcher": {
          "box_o_vox:biome:boxland": {
-            "spring": "dead",
-            "summer": "dead",
-            "autumn": "dead",
-            "winter": "dead"
+            "spring": "spring",
+            "summer": "summer",
+            "autumn": "autumn",
+            "winter": "winter"
          }
       },
       "stonehearth:resource_node": {
