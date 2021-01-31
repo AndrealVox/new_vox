@@ -54,12 +54,6 @@
         },
         "stonehearth:growing": {
             "growth_period": "6h",
-            "preferred_seasons": {
-                "stonehearth:biome:temperate": ["spring", "summer"],
-                "stonehearth:biome:desert": ["spring", "summer"],
-                "stonehearth:biome:arctic": ["spring", "summer"],
-                "box_o_vox:biome:boxland": ["spring", "summer"]
-            },
             "growth_stages": [
                 {
                     "model_name": "strawberry_1",

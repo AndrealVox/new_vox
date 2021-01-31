@@ -51,7 +51,7 @@
          "preferred_seasons": {
             "box_o_vox:biome:boxland": []
          },
-         "preferred_climate": "temperate_medium",
+         "preferred_climate": "boxland_staple",
          "growth_stages": [
             {
                "model_name": "daisy_1",

@@ -26,7 +26,7 @@
    "foraging_spot_uri": "stonehearth_ace:terrain:foraging_spot:temperate",
    "foraging_spot_frequency": 0.006,
    "wilderness_score_multiplier": 0.06,
-   "climate": "temperate_medium",
+   "climate": "boxland_staple",
    "farm_elevation_modifiers": {
       "humidity": [
          {

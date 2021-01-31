@@ -85,13 +85,7 @@
       },
       "stonehearth:growing": {
          "growth_period": "3h",
-         "preferred_climate": "arctic_easy",
-         "preferred_seasons": {
-            "stonehearth:biome:temperate": ["summer"],
-            "stonehearth:biome:desert": ["summer"],
-            "stonehearth:biome:arctic": ["summer"],
-            "box_o_vox:biome:boxland": ["summer"]
-         },
+         "preferred_climate": "boxland_staple",
          "growth_stages": [
             {
                "model_name": "tomato_1",

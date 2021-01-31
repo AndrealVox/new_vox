@@ -54,13 +54,7 @@
       },
       "stonehearth:growing": {
          "growth_period": "6h",
-         "preferred_climate": "temperate_medium",
-         "preferred_seasons": {
-            "stonehearth:biome:temperate": ["autumn"],
-            "stonehearth:biome:desert": ["autumn"],
-            "stonehearth:biome:arctic": ["autumn"],
-            "box_o_vox:biome:boxland": ["autumn"]
-         },
+         "preferred_climate": "boxland_staple",
          "growth_stages": [
             {
                "model_name": "potato_1",

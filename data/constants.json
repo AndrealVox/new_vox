@@ -1,6 +1,12 @@
 {
    "type": "index",
    "constants": {
+      "climates": {
+         "boxland_staple": {
+            "plant_water_affinity": "IRRELEVANT",
+            "plant_light_affinity": "IRRELEVANT"
+         }
+      },
       "mining": {
          "MAX_LENGTH": 100
       },
