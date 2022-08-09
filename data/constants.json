@@ -9,10 +9,6 @@
       },
       "mining": {
          "MAX_LENGTH": 100
-      },
-
-      "game_creation": {
-         "num_starting_citizens": 8
       }
 
    }
