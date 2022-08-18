@@ -8,7 +8,8 @@
    "aliases": {},
    "mixintos": {
       "archipelago_biome/data/ui/start_menu.json": "file(../data/ui/start_menu_archipelago.json)",
-      "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)"
+      "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)",
+      "stonehearth:data:sound_constants": "file(../data/sounds/bov_sound_constants.json)"
    },
    "overrides": {
       "stonehearth/ui/game/start_menu/images/dock.png": "file(start_menu/dock.png)",

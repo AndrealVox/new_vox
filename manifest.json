@@ -84,6 +84,21 @@
       "data:hotkeys": "file(data/hotkeys.json)",
       "data:loadouts": "file(data/loadouts/loadouts.json)",
 
+      "data:music:combat_1": "file(data/music/combat/combat_1.ogg)",
+      "data:music:combat_2": "file(data/music/combat/combat_2.ogg)",
+      "data:music:combat_3": "file(data/music/combat/combat_3.ogg)",
+      "data:music:combat_4": "file(data/music/combat/combat_4.ogg)",
+
+      "data:music:day_1": "file(data/music/day/day_1.ogg)",
+      "data:music:day_2": "file(data/music/day/day_2.ogg)",
+      "data:music:day_3": "file(data/music/day/day_3.ogg)",
+      "data:music:day_4": "file(data/music/day/day_4.ogg)",
+
+      "data:music:night_1": "file(data/music/night/night_1.ogg)",
+      "data:music:night_2": "file(data/music/night/night_2.ogg)",
+      "data:music:night_3": "file(data/music/night/night_3.ogg)",
+      "data:music:night_4": "file(data/music/night/night_4.ogg)",
+
       "data:saved_objects:building_templates_index": "file(data/saved_objects/building_templates_index.json)",
       "data:summon_tuning:necromancer:summoner_bone_wolf_big": "file(data/summon_tuning/necromancer/summoner_bone_wolf_big.json)",
       "data:summon_tuning:necromancer:summoner_golem": "file(data/summon_tuning/necromancer/summoner_golem.json)",
