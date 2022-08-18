@@ -87,6 +87,28 @@
                      "uri": "box_o_vox:entities:containers:box_o_vox_crate"
                   }
                }
+            },
+            "wet_stone": {
+               "num_rolls": {
+                  "min": 1,
+                  "max": 1
+               },
+               "items": {
+                  "wet_stone": {
+                     "uri": "stonehearth:manipulation:wet_stone"
+                  }
+               }
+            },
+            "dry_stone": {
+               "num_rolls": {
+                  "min": 1,
+                  "max": 1
+               },
+               "items": {
+                  "dry_stone": {
+                     "uri": "stonehearth:manipulation:dry_stone:greater"
+                  }
+               }
             }
          }
       }
