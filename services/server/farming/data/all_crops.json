@@ -1,5 +1,15 @@
 {
    "crops": {
+      "sugarbell": {
+         "crop_type": "box_o_vox:entities:crops:sugarbell_crop",
+         "ordinal": 1.000002,
+         "level_requirement": 1,
+         "field_types": {
+            "farm": true,
+            "decorative_flowers": true
+         }
+      },
+
       "daisy": {
          "crop_type": "box_o_vox:entities:crops:daisy_crop",
          "ordinal": 1.000001,

@@ -39,16 +39,16 @@
       ],
       "categories": {
          "terrain": {
-            "density": 7
+            "density": 36
          },
          "wildlife": {
-            "density": 6
+            "density": 3
          },
          "ruins": {
-            "density": 0.5
+            "density": 0.6
          },
          "ore": {
-            "density": 8
+            "density": 15
          }
       }
    },

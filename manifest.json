@@ -159,6 +159,8 @@
       "entities:crops:strawberry_crop": "file(entities/crops/strawberry_crop)",
       "entities:crops:tomato_crop": "file(entities/crops/tomato_crop)",
 
+      "entities:crops:sugarbell_crop": "file(entities/crops/sugarbell_crop)",
+
       "entities:crops:berry_bush_crop": "file(entities/crops/berry_bush_crop/berry_bush_crop.json)",
       "entities:crops:berry_bush_crop:final": "file(entities/crops/berry_bush_crop/berry_bush_crop_final.json)",
 
