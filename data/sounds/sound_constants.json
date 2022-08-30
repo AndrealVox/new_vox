@@ -1,6 +1,21 @@
 {
    "type": "index",
    "music": {
+      "title": {
+         "mixintypes": {
+            "track": "override"
+         },
+         "track": [
+                     "stonehearth:music:title_screen",
+                     "box_o_vox:data:music:title_1",
+                     "box_o_vox:data:music:title_2",
+                     "box_o_vox:data:music:title_3",
+                     "stonehearth:music:titanstorm_01",
+                     "stonehearth:music:titanstorm_02"
+                  ],
+         "loop": true,
+         "volume": 40
+      },
       "kingdoms": {
          "box_o_vox:server:population:data:kingdoms:boxling": {
             "tier_to_day_music_track": {
@@ -15,7 +30,6 @@
                },
                "idle_day_music_tier_2": {
                   "track": [
-                            "box_o_vox:data:music:day_1",
                             "box_o_vox:data:music:day_2",
                             "box_o_vox:data:music:day_3"
                   ],
@@ -25,8 +39,6 @@
                },
                "idle_day_music_tier_3": {
                   "track": [
-                            "box_o_vox:data:music:day_1",
-                            "box_o_vox:data:music:day_2",
                             "box_o_vox:data:music:day_3",
                             "box_o_vox:data:music:day_4"
                   ],
@@ -47,7 +59,6 @@
                },
                "idle_night_music_tier_2": {
                   "track": [
-                            "box_o_vox:data:music:night_1",
                             "box_o_vox:data:music:night_2",
                             "box_o_vox:data:music:night_3"
                   ],
@@ -57,8 +68,6 @@
                },
                "idle_night_music_tier_3": {
                   "track": [
-                            "box_o_vox:data:music:night_1",
-                            "box_o_vox:data:music:night_2",
                             "box_o_vox:data:music:night_3",
                             "box_o_vox:data:music:night_4"
                   ],

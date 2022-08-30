@@ -99,6 +99,10 @@
       "data:music:night_3": "file(data/music/night/night_3.ogg)",
       "data:music:night_4": "file(data/music/night/night_4.ogg)",
 
+      "data:music:title_1": "file(data/music/title/title_1.ogg)",
+      "data:music:title_2": "file(data/music/title/title_2.ogg)",
+      "data:music:title_3": "file(data/music/title/title_3.ogg)",
+
       "data:saved_objects:building_templates_index": "file(data/saved_objects/building_templates_index.json)",
       "data:summon_tuning:necromancer:summoner_bone_wolf_big": "file(data/summon_tuning/necromancer/summoner_bone_wolf_big.json)",
       "data:summon_tuning:necromancer:summoner_golem": "file(data/summon_tuning/necromancer/summoner_golem.json)",
