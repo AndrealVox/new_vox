@@ -1,0 +1,24 @@
+{
+   "components": {
+      "stonehearth:renewable_resource_node": {
+         "renewal_time": "12h+12h",
+         "resource_loot_table": {
+            "entries": {
+               "feather": {
+                  "roll_type": "some_of",
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 2
+                  },
+                  "items": {
+                     "feathers": {
+                        "uri": "stonehearth:resources:feathers:poyo_feathers",
+                        "weight": 1
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -486,6 +486,7 @@
       "stonehearth/entities/crops/turnip_crop/turnip_crop.json": "file(entities/crops/turnip_crop/turnip_crop.json)",
       "stonehearth/entities/crops/watermelon_crop/watermelon_crop.json": "file(entities/crops/watermelon_crop/watermelon_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
+
       "stonehearth:kingdoms:human_npcs": "file(data/bov_human_npc_population.json)",
       "stonehearth/jobs/farmer/field/field.json": "file(jobs/farmer/field/field.json)",
       "stonehearth/data/materials/color_maps/skin_color_map.json": "box_o_vox/data/materials/color_maps/skin_color_map.json",
@@ -507,7 +508,9 @@
       "hunter/jobs/hunter/hunter_description.json": "box_o_vox/jobs/hunter/hunter_description.json",
       "stonehearth_ace/data/gm/campaigns/bonecarving/bonecarving_campaign.json": "file(data/gm/campaigns/deny_if_boxlings.json)",
       "stonehearth_ace/jobs/brewer/recipes/recipes.json": "box_o_vox/jobs/brewer/recipes/recipes.json",
+
       "stonehearth_ace/entities/critters/moomoo/moomoo.json": "box_o_vox/entities/critters/cow/ace_moomoo.json",
+      "stonehearth_ace/entities/critters/poyo/poyo.json": "box_o_vox/entities/critters/poyo/poyo.json",
 
       "box_o_vox/jobs/mason/recipes/recipes.json": "cm/box_o_vox/jobs/mason/recipes.json",
       "cm:jobs:shepherd": "cm/box_o_vox/jobs/shepherd_cm.json",
