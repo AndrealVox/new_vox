@@ -9,16 +9,8 @@
          "splash": "file(images/path_of_the_necromancer/splash.png)",
          "seal": "file(images/path_of_the_necromancer/seal.png)",
          "content": {
-            "archer": {
-               "ordinal": 1,
-               "display_name": "Archer",
-               "type": "entity",
-               "uri": "stonehearth:archer:talisman",
-               "icon": "file(images/items/archer.png)",
-               "amount": 1
-            },
             "cleric": {
-               "ordinal": 2,
+               "ordinal": 1,
                "display_name": "Cleric",
                "type": "entity",
                "uri": "stonehearth:cleric:talisman",
@@ -26,7 +18,7 @@
                "amount": 2
             },
             "herbalist": {
-               "ordinal": 3,
+               "ordinal": 2,
                "display_name": "Herbalist",
                "type": "entity",
                "uri": "stonehearth:herbalist:talisman",
@@ -34,7 +26,7 @@
                "amount": 1
             },
             "famrer": {
-               "ordinal": 2,
+               "ordinal": 3,
                "display_name": "Farmer",
                "type": "entity",
                "uri": "stonehearth:farmer:talisman",

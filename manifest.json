@@ -128,6 +128,7 @@
 
       "effects:enchanted_mist:head": "file(data/effects/enchanted_mist/enchanted_mist_head.json)",
       "effects:fog": "file(data/effects/fog)",
+
       "entities:abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
       "entities:armor:necromancer_mask_1": "file(entities/armor/necromancer_mask_1)",
       "entities:armor:necromancer_mask_2": "file(entities/armor/necromancer_mask_2)",
