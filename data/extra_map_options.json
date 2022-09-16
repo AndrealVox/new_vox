@@ -11,7 +11,8 @@
          "lakes": false,
          "dirt_holes": false,
          "modes": {
-            "superflat": true
+            "superflat": true,
+            "canyons": true
          }
       },
       "box_o_vox:biome:boxland_winter": {

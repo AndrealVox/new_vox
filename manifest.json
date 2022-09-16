@@ -28,6 +28,7 @@
       "banner:vitality": "file(entities/gizmos/na_town_banner_nature/na_town_banner_nature.json)",
       "biome:boxland": "file(data/biome/boxland.json)",
       "biome:boxland_winter": "file(data/biome/boxland_winter.json)",
+      "biome:voxland": "file(data/biome/voxland.json)",
 
       "brewer:wine_cask:empty": "file(jobs/brewer/brewer_wine_cask/brewer_wine_cask_empty/brewer_wine_cask_empty.json)",
       "brewer:wine_cask:wine_blueberry": "file(jobs/brewer/brewer_wine_cask/brewer_wine_cask_wine_blueberry/brewer_wine_cask_wine_blueberry.json)",
