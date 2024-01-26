@@ -50,8 +50,8 @@
          "material_tags": [
             "drink_container",
             "raw_drink",
-            "juice_berry",
-            "juice_blueberry",
+            "becomes_vinegar",
+            "berry",
             "juice",
             "stockpile_drink",
             "morning_time"

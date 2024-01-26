@@ -26,9 +26,7 @@
          "rarity": "common",
          "shop_info": {
             "buyable": false,
-            "sellable": true,
-            "shopkeeper_level": 1,
-            "shopkeeper_type": "caravan"
+            "sellable": true
          }
       },
       "stonehearth:catalog": {
@@ -38,16 +36,19 @@
          "is_item": true,
          "category": "resources",
          "material_tags": [
-            "resource",
             "fiber",
+            "spinnable",
+            "resource",
             "thatch",
             "thatch_bale",
             "plant",
+            "thatch_twine",
+            "thatch resource",
             "stockpile_plant"
          ]
       },
       "stonehearth:appeal": {
-         "appeal": -2
+         "appeal": 0
       }
    }
 }

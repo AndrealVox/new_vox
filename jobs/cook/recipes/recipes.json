@@ -27,17 +27,6 @@
                "recipe": "file(banana_cream_pie_recipe.json)"
             }
          }
-      },
-      "animal_feed": {
-         "recipes": {
-            "mixintypes": {
-               "sheep_feed": "override",
-               "poyo_feed": "override"
-            },
-            "kibble": {
-               "recipe": "file(ace/kibble_recipe.json)"
-            }
-         }
       }
    }
 }
