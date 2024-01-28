@@ -15,7 +15,17 @@
             }
          }
       },
-      "farming_enhancements": {
+      "tonics": {
+			"recipes": {
+				"energy_tonic": {
+					"recipe": "file(energy_tonic_recipe.json)"
+				},
+            "energy_tonic_2": {
+					"recipe": "file(energy_tonic_2_recipe.json)"
+				}
+			}
+		},
+		"farming_enhancements": {
          "recipes": {
             "mixintypes": {
                "sweet_potato_seeds_2_recipe": "remove",

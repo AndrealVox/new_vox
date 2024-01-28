@@ -1,0 +1,29 @@
+{
+	"type": "recipe",
+   "effort": 18,
+   "work_units": 15,
+   "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.energy_tonic_recipe.recipe_name)",
+   "description": "i18n(stonehearth_ace:jobs.herbalist.recipes.energy_tonic_recipe.description)",
+	"portrait": "/stonehearth_ace/entities/consumables/energy_tonic/energy_tonic.png",
+	"workshop": "stonehearth_ace:herbalist:cauldron",
+	"level_requirement": 2,
+   "work_effect": "fiddle",
+	"mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+		{
+         "uri": "stonehearth:food:sugar",
+         "count": 2
+      },
+      {
+         "material": "herb mild resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:consumables:energy_tonic"
+      }
+   ]
+}
